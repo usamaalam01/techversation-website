@@ -223,6 +223,9 @@ NOTES = {
     # KCNA: generated from the verified course slides by OnlineCourses\KCNA\make_study_notes.py (one note per module); the group is the exam domain of the module
     "kcna": dict(root=OC / "KCNA" / "study-notes", glob="Module_*.md", qa=True, kind="Module", link_word="Module", group_from="Curriculum",
                  group_default={"00": "Start here", "15": "Review and exam day", "16": "Review and exam day"}),
+    # AIGP: generated from the verified course slides by OnlineCourses\AIGP\make_study_notes.py (one note per module); the group is the domain of the Body of Knowledge
+    "aigp": dict(root=OC / "AIGP" / "study-notes", glob="Module_*.md", qa=True, kind="Module", link_word="Module", group_from="Domain",
+                 group_default={"00": "Start here", "14": "Review and exam day", "15": "Review and exam day"}),
     "togaf": dict(root=REPO / "TOGAF", glob="week*/Week_*.md", qa=False, header="bold", kind="Week",
                   scrub=dict(drop_lines=[r"\d+\. \*\*Apply to your experience\.\*\*"]),      # one prompt in Week 1 is about the author's own work history
                   append={"01": (REPO / "TOGAF" / "week1" / "Quick_Reference_Week_1.md", "Quick Reference Card for Week 1")},

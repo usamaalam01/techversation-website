@@ -6994,7 +6994,504 @@
    "facts": null,
    "videos": 32,
    "seconds": 18361,
-   "notes": null,
+   "notes": [
+    {
+     "num": "00",
+     "slug": "00-course-introduction-and-exam-orientation",
+     "title": "Course Introduction and Exam Orientation",
+     "group": "Start here",
+     "tasks": 0,
+     "los": [],
+     "minutes": 6,
+     "check": {
+      "src_words": 1164,
+      "page_words": 1170,
+      "src_tables": 0,
+      "tables": 0,
+      "src_images": 5,
+      "images": 5,
+      "src_scenario": 0,
+      "scenario": 0,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 5,
+      "sections": 5
+     },
+     "modules": [
+      "00"
+     ],
+     "domain": "",
+     "ref": "Module 0",
+     "tn": "Module 00",
+     "of": 16,
+     "module": "00"
+    },
+    {
+     "num": "01",
+     "slug": "01-ai-foundations-what-ai-is-its-harms-and-its-principles",
+     "title": "AI Foundations: What AI Is, Its Harms and Its Principles",
+     "group": "Domain I, Foundations of AI governance (16 to 20 questions)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 16,
+     "check": {
+      "src_words": 3078,
+      "page_words": 3101,
+      "src_tables": 6,
+      "tables": 6,
+      "src_images": 11,
+      "images": 11,
+      "src_scenario": 5,
+      "scenario": 5,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "01"
+     ],
+     "domain": "",
+     "ref": "Module 1",
+     "tn": "Module 01",
+     "of": 16,
+     "module": "01"
+    },
+    {
+     "num": "02",
+     "slug": "02-governance-roles-training-and-approaches",
+     "title": "Governance Roles, Training and Approaches",
+     "group": "Domain I, Foundations of AI governance (16 to 20 questions)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 14,
+     "check": {
+      "src_words": 2773,
+      "page_words": 2795,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 7,
+      "images": 7,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 8,
+      "sections": 8
+     },
+     "modules": [
+      "02"
+     ],
+     "domain": "",
+     "ref": "Module 2",
+     "tn": "Module 02",
+     "of": 16,
+     "module": "02"
+    },
+    {
+     "num": "03",
+     "slug": "03-policies-and-procedures-across-the-ai-life-cycle",
+     "title": "Policies and Procedures Across the AI Life Cycle",
+     "group": "Domain I, Foundations of AI governance (16 to 20 questions)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 14,
+     "check": {
+      "src_words": 2837,
+      "page_words": 2865,
+      "src_tables": 3,
+      "tables": 3,
+      "src_images": 8,
+      "images": 8,
+      "src_scenario": 7,
+      "scenario": 7,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "03"
+     ],
+     "domain": "",
+     "ref": "Module 3",
+     "tn": "Module 03",
+     "of": 16,
+     "module": "03"
+    },
+    {
+     "num": "04",
+     "slug": "04-privacy-laws-applied-to-ai",
+     "title": "Privacy Laws Applied to AI",
+     "group": "Domain II, Laws, standards and frameworks (19 to 23 questions)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 17,
+     "check": {
+      "src_words": 3344,
+      "page_words": 3367,
+      "src_tables": 6,
+      "tables": 6,
+      "src_images": 10,
+      "images": 10,
+      "src_scenario": 5,
+      "scenario": 5,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "04"
+     ],
+     "domain": "",
+     "ref": "Module 4",
+     "tn": "Module 04",
+     "of": 16,
+     "module": "04"
+    },
+    {
+     "num": "05",
+     "slug": "05-other-existing-laws-applied-to-ai",
+     "title": "Other Existing Laws Applied to AI",
+     "group": "Domain II, Laws, standards and frameworks (19 to 23 questions)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 17,
+     "check": {
+      "src_words": 3269,
+      "page_words": 3292,
+      "src_tables": 4,
+      "tables": 4,
+      "src_images": 8,
+      "images": 8,
+      "src_scenario": 5,
+      "scenario": 5,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "05"
+     ],
+     "domain": "",
+     "ref": "Module 5",
+     "tn": "Module 05",
+     "of": 16,
+     "module": "05"
+    },
+    {
+     "num": "06",
+     "slug": "06-ai-specific-laws-the-eu-ai-act-and-beyond",
+     "title": "AI-Specific Laws: the EU AI Act and Beyond",
+     "group": "Domain II, Laws, standards and frameworks (19 to 23 questions)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 28,
+     "check": {
+      "src_words": 5346,
+      "page_words": 5347,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 20,
+      "images": 20,
+      "src_scenario": 7,
+      "scenario": 7,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 10,
+      "sections": 10
+     },
+     "modules": [
+      "06"
+     ],
+     "domain": "",
+     "ref": "Module 6",
+     "tn": "Module 06",
+     "of": 16,
+     "module": "06"
+    },
+    {
+     "num": "07",
+     "slug": "07-standards-and-frameworks-oecd-nist-and-iso",
+     "title": "Standards and Frameworks: OECD, NIST and ISO",
+     "group": "Domain II, Laws, standards and frameworks (19 to 23 questions)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 14,
+     "check": {
+      "src_words": 2701,
+      "page_words": 2720,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 9,
+      "images": 9,
+      "src_scenario": 4,
+      "scenario": 4,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "07"
+     ],
+     "domain": "",
+     "ref": "Module 7",
+     "tn": "Module 07",
+     "of": 16,
+     "module": "07"
+    },
+    {
+     "num": "08",
+     "slug": "08-governing-the-design-and-build",
+     "title": "Governing the Design and Build",
+     "group": "Domain III, Governing AI development (21 to 25 questions)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 17,
+     "check": {
+      "src_words": 3217,
+      "page_words": 3247,
+      "src_tables": 2,
+      "tables": 2,
+      "src_images": 11,
+      "images": 11,
+      "src_scenario": 7,
+      "scenario": 7,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 8,
+      "sections": 8
+     },
+     "modules": [
+      "08"
+     ],
+     "domain": "",
+     "ref": "Module 8",
+     "tn": "Module 08",
+     "of": 16,
+     "module": "08"
+    },
+    {
+     "num": "09",
+     "slug": "09-governing-data-training-and-testing",
+     "title": "Governing Data, Training and Testing",
+     "group": "Domain III, Governing AI development (21 to 25 questions)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 17,
+     "check": {
+      "src_words": 3229,
+      "page_words": 3259,
+      "src_tables": 1,
+      "tables": 1,
+      "src_images": 11,
+      "images": 11,
+      "src_scenario": 7,
+      "scenario": 7,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 8,
+      "sections": 8
+     },
+     "modules": [
+      "09"
+     ],
+     "domain": "",
+     "ref": "Module 9",
+     "tn": "Module 09",
+     "of": 16,
+     "module": "09"
+    },
+    {
+     "num": "10",
+     "slug": "10-governing-release-monitoring-and-maintenance",
+     "title": "Governing Release, Monitoring and Maintenance",
+     "group": "Domain III, Governing AI development (21 to 25 questions)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 20,
+     "check": {
+      "src_words": 4049,
+      "page_words": 4086,
+      "src_tables": 3,
+      "tables": 3,
+      "src_images": 12,
+      "images": 12,
+      "src_scenario": 9,
+      "scenario": 9,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 9,
+      "sections": 9
+     },
+     "modules": [
+      "10"
+     ],
+     "domain": "",
+     "ref": "Module 10",
+     "tn": "Module 10",
+     "of": 16,
+     "module": "10"
+    },
+    {
+     "num": "11",
+     "slug": "11-the-decision-to-deploy-context-models-and-options",
+     "title": "The Decision to Deploy: Context, Models and Options",
+     "group": "Domain IV, Governing AI deployment and use (21 to 25 questions)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 19,
+     "check": {
+      "src_words": 3700,
+      "page_words": 3728,
+      "src_tables": 1,
+      "tables": 1,
+      "src_images": 12,
+      "images": 12,
+      "src_scenario": 7,
+      "scenario": 7,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "11"
+     ],
+     "domain": "",
+     "ref": "Module 11",
+     "tn": "Module 11",
+     "of": 16,
+     "module": "11"
+    },
+    {
+     "num": "12",
+     "slug": "12-assessing-the-system-impact-vendors-and-proprietary-models",
+     "title": "Assessing the System: Impact, Vendors and Proprietary Models",
+     "group": "Domain IV, Governing AI deployment and use (21 to 25 questions)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 18,
+     "check": {
+      "src_words": 3442,
+      "page_words": 3467,
+      "src_tables": 1,
+      "tables": 1,
+      "src_images": 10,
+      "images": 10,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "12"
+     ],
+     "domain": "",
+     "ref": "Module 12",
+     "tn": "Module 12",
+     "of": 16,
+     "module": "12"
+    },
+    {
+     "num": "13",
+     "slug": "13-governing-deployment-and-use",
+     "title": "Governing Deployment and Use",
+     "group": "Domain IV, Governing AI deployment and use (21 to 25 questions)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 26,
+     "check": {
+      "src_words": 5114,
+      "page_words": 5155,
+      "src_tables": 1,
+      "tables": 1,
+      "src_images": 14,
+      "images": 14,
+      "src_scenario": 10,
+      "scenario": 10,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 10,
+      "sections": 10
+     },
+     "modules": [
+      "13"
+     ],
+     "domain": "",
+     "ref": "Module 13",
+     "tn": "Module 13",
+     "of": 16,
+     "module": "13"
+    },
+    {
+     "num": "14",
+     "slug": "14-quick-reference-recap",
+     "title": "Quick-Reference Recap",
+     "group": "Review and exam day",
+     "tasks": 0,
+     "los": [],
+     "minutes": 10,
+     "check": {
+      "src_words": 1836,
+      "page_words": 1843,
+      "src_tables": 3,
+      "tables": 3,
+      "src_images": 9,
+      "images": 9,
+      "src_scenario": 0,
+      "scenario": 0,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "14"
+     ],
+     "domain": "",
+     "ref": "Module 14",
+     "tn": "Module 14",
+     "of": 16,
+     "module": "14"
+    },
+    {
+     "num": "15",
+     "slug": "15-exam-technique-and-final-review",
+     "title": "Exam Technique and Final Review",
+     "group": "Review and exam day",
+     "tasks": 0,
+     "los": [],
+     "minutes": 13,
+     "check": {
+      "src_words": 2499,
+      "page_words": 2521,
+      "src_tables": 0,
+      "tables": 0,
+      "src_images": 7,
+      "images": 7,
+      "src_scenario": 5,
+      "scenario": 5,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "15"
+     ],
+     "domain": "",
+     "ref": "Module 15",
+     "tn": "Module 15",
+     "of": 16,
+     "module": "15"
+    }
+   ],
    "glossary": 0
   },
   {

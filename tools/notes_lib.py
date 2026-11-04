@@ -29,18 +29,18 @@ def plain(s):
 def tag_html(text):
     """'Beyond PMBOK 8 — exam practice' -> a badge and, where there is one, the qualifier next to it"""
     text = text.strip()
-    m = re.match(r"(Beyond PMBOK 8|Beyond the Scrum Guide|Beyond the curriculum|Old wording|Moving|Archived topic)(.*)$", text)
+    m = re.match(r"(Beyond PMBOK 8|Beyond the Scrum Guide|Beyond the curriculum|Beyond the BoK|Old wording|Moving|Archived topic|Verify live|Dates)(.*)$", text)
     if not m:
         return f'<span class="tag tag-beyond">{text}</span>'
     base, rest = m.group(1), re.sub(r"^[\s—:;,.-]+", "", m.group(2)).strip()
     label = {"Beyond the Scrum Guide": "Beyond the Guide"}.get(base, base)
-    cls = "tag-old" if base in ("Old wording", "Moving", "Archived topic") else "tag-beyond"
+    cls = "tag-old" if base in ("Old wording", "Moving", "Archived topic", "Verify live", "Dates") else "tag-beyond"
     q = f'<span class="tag-q">{rest}</span>' if rest else ""
     return f'<span class="tag {cls}" title="{text}">{label}</span>{q}'
 
 
 def tag_label(text):
-    base = re.match(r"(Beyond PMBOK 8|Beyond the Scrum Guide|Beyond the curriculum|Old wording|Moving|Archived topic)", text.strip())
+    base = re.match(r"(Beyond PMBOK 8|Beyond the Scrum Guide|Beyond the curriculum|Beyond the BoK|Old wording|Moving|Archived topic|Verify live|Dates)", text.strip())
     return {"Beyond the Scrum Guide": "Beyond the Guide"}.get(base.group(1), base.group(1)) if base else text.strip()
 
 
@@ -80,13 +80,14 @@ def convert_qa(text):
         if b.startswith("### "):
             out.append(f"<h3>{inline(b[4:])}</h3>")
             continue
-        m = re.match(r"\*\*(S\d+)\.\*\*\s*(.+?)\n(A\. .+?)\n\*\*Answer:\s*([A-D])\.\*\*\s*(.+)$", b, flags=re.S)
+        m = re.match(r"\*\*(S\d+)\.\*\*\s*(.+?)\n(A\. .+?)\n\*\*Answer:\s*([A-E](?:,\s*[A-E])*)\.\*\*\s*(.+)$", b, flags=re.S)
         if m:
             qid, q, opts, right, expl = m.groups()
+            keys = set(re.findall(r"[A-E]", right))                      # one letter, or several for a select-two or select-three question
             lis = []
             for line in opts.splitlines():
-                om = re.match(r"([A-D])\.\s+(.+)$", line.strip())
-                lis.append(f'<li class="{"right" if om.group(1) == right else ""}"><b>{om.group(1)}</b><span>{inline(om.group(2))}</span></li>')
+                om = re.match(r"([A-E])\.\s+(.+)$", line.strip())
+                lis.append(f'<li class="{"right" if om.group(1) in keys else ""}"><b>{om.group(1)}</b><span>{inline(om.group(2))}</span></li>')
             out.append(f'<div class="qa"><p class="q"><span class="qn">{qid}</span>{inline(q)}</p><ul class="opts">{"".join(lis)}</ul>'
                        f'<details><summary>Show the answer</summary><p><strong>Answer: {right}.</strong> {inline(expl)}</p></details></div>')
             n_s += 1
@@ -165,7 +166,7 @@ def read_header_bold(lines):
 
 def title_of(path):
     first = path.read_text(encoding="utf-8").splitlines()[0]
-    m = re.match(r"#\s*(Topic|Chapter|Week|Module)\s+(\d+):\s*(.+?)(?:\s+[—-]\s+(?:CSM|PMP|CDMP|KCNA) Exam Summary)?\s*$", first)
+    m = re.match(r"#\s*(Topic|Chapter|Week|Module)\s+(\d+):\s*(.+?)(?:\s+[—-]\s+(?:CSM|PMP|CDMP|KCNA|AIGP) Exam Summary)?\s*$", first)
     if m:
         return m.group(2).zfill(2), m.group(3)
     m = re.match(r"#\s*DMBOK2 Chapter\s+(\d+)\s*[—–-]\s*(.+?)\s*$", first)             # CDMP chapters 1 and 2 use this title line
