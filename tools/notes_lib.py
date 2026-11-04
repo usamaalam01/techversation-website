@@ -29,18 +29,18 @@ def plain(s):
 def tag_html(text):
     """'Beyond PMBOK 8 — exam practice' -> a badge and, where there is one, the qualifier next to it"""
     text = text.strip()
-    m = re.match(r"(Beyond PMBOK 8|Beyond the Scrum Guide|Old wording)(.*)$", text)
+    m = re.match(r"(Beyond PMBOK 8|Beyond the Scrum Guide|Beyond the curriculum|Old wording|Moving|Archived topic)(.*)$", text)
     if not m:
         return f'<span class="tag tag-beyond">{text}</span>'
     base, rest = m.group(1), re.sub(r"^[\s—:;,.-]+", "", m.group(2)).strip()
     label = {"Beyond the Scrum Guide": "Beyond the Guide"}.get(base, base)
-    cls = "tag-old" if base == "Old wording" else "tag-beyond"
+    cls = "tag-old" if base in ("Old wording", "Moving", "Archived topic") else "tag-beyond"
     q = f'<span class="tag-q">{rest}</span>' if rest else ""
     return f'<span class="tag {cls}" title="{text}">{label}</span>{q}'
 
 
 def tag_label(text):
-    base = re.match(r"(Beyond PMBOK 8|Beyond the Scrum Guide|Old wording)", text.strip())
+    base = re.match(r"(Beyond PMBOK 8|Beyond the Scrum Guide|Beyond the curriculum|Old wording|Moving|Archived topic)", text.strip())
     return {"Beyond the Scrum Guide": "Beyond the Guide"}.get(base.group(1), base.group(1)) if base else text.strip()
 
 
@@ -64,6 +64,8 @@ def callouts(html):
         if bm:
             body = re.sub(r"<strong>\[Beyond[^\]]*\]</strong>\s*", "", inner, count=1)
             return '<div class="callout beyond"><span class="lbl">' + tag_label(bm.group(1)) + "</span><div>" + body + "</div></div>"
+        if re.match(r"\s*Case:", head):
+            return '<div class="callout beyond"><span class="lbl">Running case</span><div>' + drop(inner, "Case") + "</div></div>"
         if re.match(r"\s*Note\b", head):
             return '<div class="callout"><span class="lbl">Note</span><div>' + drop(inner, "Note") + "</div></div>"
         return '<blockquote class="plain">' + inner + "</blockquote>"
@@ -102,7 +104,7 @@ def convert_qa(text):
 
 
 # ---------------------------------------------------------------------------------------------------- cross-references
-def link_topics(html, urls, current):
+def link_topics(html, urls, current, word="Topic"):
     """'Topic 18' and 'Topics 4 and 5' in the text become links to those notes (not inside links, headings' ids or tags)"""
     def num_link(num):
         n = num.zfill(2)
@@ -115,7 +117,13 @@ def link_topics(html, urls, current):
         def many(m):
             nums = re.sub(r"\d{1,2}", lambda x: num_link(x.group(0)), m.group(2))
             return m.group(1) + nums
-        return re.sub(r"(\bTopics )((?:\d{1,2}(?:, and |, | and | or )?)+)", many, s)
+        s = re.sub(r"(\bTopics )((?:\d{1,2}(?:, and |, | and | or )?)+)", many, s)
+        if word != "Topic":                                          # the notes of KCNA follow the course modules: "Module 3", "module 3"
+            def mod(m):
+                k = m.group(2).zfill(2)
+                return m.group(1) + (f'<a class="xref" href="{urls[k]}">{m.group(2)}</a>' if k in urls and k != current else m.group(2))
+            s = re.sub(r"(\b[Mm]odule )(\d{1,2})\b", mod, s)
+        return s
     parts = re.split(r"(<[^>]+>)", html)
     out, depth_a, skip = [], 0, 0
     for p in parts:
@@ -157,7 +165,7 @@ def read_header_bold(lines):
 
 def title_of(path):
     first = path.read_text(encoding="utf-8").splitlines()[0]
-    m = re.match(r"#\s*(Topic|Chapter|Week)\s+(\d+):\s*(.+?)(?:\s+[—-]\s+(?:CSM|PMP|CDMP) Exam Summary)?\s*$", first)
+    m = re.match(r"#\s*(Topic|Chapter|Week|Module)\s+(\d+):\s*(.+?)(?:\s+[—-]\s+(?:CSM|PMP|CDMP|KCNA) Exam Summary)?\s*$", first)
     if m:
         return m.group(2).zfill(2), m.group(3)
     m = re.match(r"#\s*DMBOK2 Chapter\s+(\d+)\s*[—–-]\s*(.+?)\s*$", first)             # CDMP chapters 1 and 2 use this title line
@@ -242,26 +250,28 @@ def convert_note(cfg, slug, path, group, urls, pub, entry=None):
         html.append(f'<section class="note-sec" id="{sid}"><h2>{numh}{inline(stitle)}{tagh}</h2>{inner}</section>')
     out = "\n".join(html)
     out = callouts(out)
-    out = re.sub(r"<strong>\[((?:Beyond|Old wording)[^\]]*)\]</strong>", lambda m: tag_html(m.group(1)), out)
+    out = re.sub(r"<strong>\[((?:Beyond|Old wording|Moving|Archived topic)[^\]]*)\]</strong>", lambda m: tag_html(m.group(1)), out)
     counts["tables"] = out.count("<table>")
     out = out.replace("<table>", '<div class="table-wrap"><table>').replace("</table>", "</table></div>")
     out = re.sub(r"<hr\s*/?>", "", out)
 
     def fig(m):
-        alt, src = m.group(2), m.group(1)
+        alt, src, cap = m.group(2), m.group(1), (m.group(3) or m.group(2))
         fn = Path(src).name
         s = path.parent.parent / "diagrams" / fn
         if not s.exists():
             s = path.parent / "diagrams" / fn
+        if not s.exists():
+            s = path.parent.parent / "assets" / fn
         if s.exists():
             (pub / "img" / "notes" / slug).mkdir(parents=True, exist_ok=True)
             shutil.copyfile(s, pub / "img" / "notes" / slug / fn)
         else:
             print("MISSING DIAGRAM", slug, num, fn)
         counts["images"] += 1
-        return f'<figure class="fig"><img src="%BASE%img/notes/{slug}/{fn}" alt="{alt}" loading="lazy"><figcaption>{alt}</figcaption></figure>'
-    out = re.sub(r'<img src="([^"]+)" alt="([^"]*)"\s*/?>', fig, out)
-    out = link_topics(out, urls, num)
+        return f'<figure class="fig"><img src="%BASE%img/notes/{slug}/{fn}" alt="{alt}" loading="lazy"><figcaption>{cap}</figcaption></figure>'
+    out = re.sub(r'<img src="([^"]+)" alt="([^"]*)"(?: title="([^"]*)")?\s*/?>', fig, out)
+    out = link_topics(out, urls, num, cfg.get("link_word", "Topic"))
     # review checklists: "- [ ] item" becomes a tick box
     out = re.sub(r"<li>\[( |x)\]\s*", lambda m: '<li class="task"><input type="checkbox" data-task' + (" checked" if m.group(1) == "x" else "") + ' aria-label="Mark as done"> ', out)
     # links between the weekly guides point to the notes
@@ -270,7 +280,7 @@ def convert_note(cfg, slug, path, group, urls, pub, entry=None):
         return 'href="' + urls[k.group(1).zfill(2)] + '"' if k and k.group(1).zfill(2) in urls else m.group(0)
     out = re.sub(r'href="([^"]*Week_\d[^"]*\.md)(?:#[^"]*)?"', wk, out)
     out = re.sub(r'href="[^"]*Quick_Reference_Week_1\.md"', lambda m: 'href="' + urls.get("01", "#") + '"', out)
-    head_html = [dict(key=k, html=link_topics(inline(v), urls, num)) for k, v in header if k not in ("Key",)]
+    head_html = [dict(key=k, html=link_topics(inline(v), urls, num, cfg.get("link_word", "Topic"))) for k, v in header if k not in ("Key",)]
     meta = dict((k, plain(v)) for k, v in header)
     los = []
     for lo in re.findall(r"\b(?:CSM|SF) \d+\.\d+", meta.get("LO", "")):
@@ -279,7 +289,7 @@ def convert_note(cfg, slug, path, group, urls, pub, entry=None):
     words = len(re.findall(r"\w+", raw))
     # completeness: the words of the source against the words of the page (the page adds only labels)
     src_words = len(re.findall(r"[A-Za-z0-9]+", re.sub(r"!\[([^\]]*)\]\([^)]*\)", r"\1", "\n".join(body_md))))
-    page_words = len(re.findall(r"[A-Za-z0-9]+", re.sub(r"<[^>]+>", " ", re.sub(r"<figcaption>.*?</figcaption>", "", out)).replace("&quot;", '"').replace("&amp;", "&")))
+    page_words = len(re.findall(r"[A-Za-z0-9]+", re.sub(r"<[^>]+>", " ", re.sub(r'<img [^>]*alt="([^"]*)"[^>]*>', r" \1 ", re.sub(r"<figcaption>.*?</figcaption>", "", out))).replace("&quot;", '"').replace("&amp;", "&")))      # the alt text of a figure counts as page text
     src_tables = sum(1 for tok in MD.parse("\n".join(body_md)) if tok.type == "table_open")      # counted by the parser, which also finds tables without a leading pipe
     src_images = len(re.findall(r"!\[[^\]]*\]\([^)]*\)", "\n".join(body_md)))
     return dict(num=num, slug=f"{num}-{slugify(title)}", title=title, group=group, tasks=out.count("data-task"), los=los, lo_text=meta.get("LO", ""), guide=meta.get("Scrum Guide", ""),
@@ -336,6 +346,9 @@ def build_notes(cfg, slug, institute, modules, data_dir, pub):
         if cfg.get("groups"):
             group = next((g for g, nums in cfg["groups"] if nn in nums), group)
         n = convert_note(cfg, slug, f, group, urls, pub)
+        if cfg.get("group_from"):
+            item = next((h for h in n["header"] if h["key"] == cfg["group_from"]), None)
+            n["group"] = re.sub(r"<[^>]+>", "", item["html"]).split(":")[0].strip() if item else cfg.get("group_default", {}).get(n["num"], group)
         if cfg.get("modules_of"):
             modnums, domain = cfg["modules_of"].get(n["num"], ([], ""))
         else:

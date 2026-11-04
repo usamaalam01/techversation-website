@@ -3,7 +3,7 @@ import sitemap from '@astrojs/sitemap';
 
 // The address is a placeholder until the domain is registered; change `site` then (canonical links and the sitemap use it).
 export default defineConfig({
-  site: 'https://techversation.example',
+  site: 'https://techversation-website.vercel.app',
   trailingSlash: 'always',
   compressHTML: false,
   build: { format: 'directory' },
