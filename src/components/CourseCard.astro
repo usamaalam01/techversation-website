@@ -1,0 +1,16 @@
+---
+import { inst, courseUrl, hm, u, type Course } from '../lib/data';
+interface Props { course: Course; wide?: boolean }
+const { course: c, wide = false } = Astro.props;
+---
+<a class={`card ${c.accent}${wide ? ' wide' : ''}`} href={courseUrl(c)} data-course={c.slug}>
+  <div class="thumb"><img class="cover" src={u(c.cover)} alt={`${c.title} cover`} width="960" height="540" loading="lazy" /></div>
+  <div class="body">
+    <div class="kicker">{c.kind === 'training' ? `Training · ${c.topic}` : inst(c.institute).name}</div>
+    <h3>{c.title}</h3>
+    <p class="desc">{c.desc}</p>
+    <div class="badges"><span class="badge accent">Video course</span>{c.notes ? <span class="badge">Study notes</span> : <span class="badge">Notes later</span>}</div>
+    <div class="meta"><span>{c.modules.length} modules</span><span>{c.videos} videos</span><span>{hm(c.seconds)}</span></div>
+    <div class="resume" data-resume={c.slug} hidden></div>
+  </div>
+</a>

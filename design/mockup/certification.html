@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>CSM Exam Prep Masterclass | Techversation</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css">
+<script>try{var t=JSON.parse(localStorage.getItem("tv-theme"));if(t)document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
+</head>
+<body data-page="cert">
+<div id="top"></div>
+<main class="wrap">
+  <nav class="crumbs" id="crumbs" aria-label="Breadcrumb"></nav>
+
+  <section class="cert-head">
+    <div class="copy">
+      <p class="eyebrow" id="ey"></p>
+      <h1 id="h1"></h1>
+      <p class="lede" id="lede"></p>
+      <div class="badges" id="badges"></div>
+      <div class="actions">
+        <a class="btn btn-primary btn-lg" id="go" href="#"></a>
+        <a class="btn btn-ghost btn-lg" id="yt" href="#" target="_blank" rel="noopener">Watch the playlist on YouTube</a>
+      </div>
+      <div class="progress-line"><div class="bar-track"><div class="bar-fill" id="bar"></div></div><span id="pcount"></span></div>
+    </div>
+    <aside class="ticket" id="ticket" aria-label="Exam facts"></aside>
+  </section>
+
+  <section aria-label="Course content">
+    <div class="tabs" id="tabs" role="tablist">
+      <button class="tab" role="tab" data-tab="video" aria-selected="true">Video course <span class="count"></span></button>
+      <button class="tab" role="tab" data-tab="notes" aria-selected="false">Study notes <span class="count"></span></button>
+      <button class="tab" role="tab" data-tab="gloss" aria-selected="false">Glossary <span class="count"></span></button>
+      <button class="tab" role="tab" data-tab="dl" aria-selected="false">Downloads</button>
+      <button class="tab" role="tab" data-tab="plan" aria-selected="false">Study plan</button>
+    </div>
+    <div class="tabpanel" id="p-video" role="tabpanel"></div>
+    <div class="tabpanel" id="p-notes" role="tabpanel" hidden></div>
+    <div class="tabpanel" id="p-gloss" role="tabpanel" hidden></div>
+    <div class="tabpanel" id="p-dl" role="tabpanel" hidden></div>
+    <div class="tabpanel" id="p-plan" role="tabpanel" hidden></div>
+  </section>
+</main>
+<div id="foot"></div>
+<script src="assets/data.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>

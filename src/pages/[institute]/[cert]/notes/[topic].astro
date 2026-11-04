@@ -1,0 +1,88 @@
+---
+import Base from '../../../../layouts/Base.astro';
+import Icon from '../../../../components/Icon.astro';
+import { courses, inst, u, courseUrl, moduleUrl, notesUrl, mmss, note as loadNote, type Course } from '../../../../lib/data';
+
+export function getStaticPaths() {
+  return courses.flatMap((c) => (c.notes ?? []).map((n, idx) => ({ params: { institute: c.institute, cert: c.slug, topic: n.slug }, props: { c, idx } })));
+}
+const { c, idx } = Astro.props as { c: Course; idx: number };
+const all = c.notes!;
+const meta = all[idx];
+const n = loadNote(c.slug, meta.num);
+const i = inst(c.institute);
+const prev = all[idx - 1], next = all[idx + 1];
+const mod = n.module ? c.modules.find((m) => m.num === n.module.num) : undefined;
+const base = u('');
+const html = (n.html as string).replaceAll('%BASE%', base);
+const header = (n.header as { key: string; html: string }[]).map((h) => ({ key: h.key, html: h.html.replaceAll('%BASE%', base) }));
+const kind = meta.ref.replace(/ \d+$/, '');          // Topic, Chapter, Week or Specialist
+const relMods = ((n.modules ?? []) as string[]).map((x) => c.modules.find((m) => m.num === x)!).filter(Boolean);
+const duration = header.find((h) => h.key === 'Duration');
+const after = (String(n.sequence).match(/Read after [^.]*/) ?? [''])[0];
+const cells: [string, string][] = c.slug === 'csm'
+  ? [['Learning objectives', n.los.join(' · ') || '—'], ['Scrum Guide', n.guide || '—']]
+  : [...(n.domain ? [['Exam domain', n.domain] as [string, string]] : []), [kind, n.position], ...(duration ? [['Study time', duration.html.replace(/<[^>]+>/g, '')] as [string, string]] : [])];
+const desc = `${c.short} study notes: ${n.title}. ${n.toc.slice(0, 3).map((t: any) => t.title).join(', ')}. ${n.minutes} minute read.`;
+const groups: Record<string, typeof all> = {};
+all.forEach((x) => { (groups[x.group] ??= []).push(x); });
+const legal: Record<string, string> = {
+  csm: "These notes summarize the Scrum Guide and the CSM learning objectives in Techversation's own words. The Scrum Guide is licensed under CC BY-SA 4.0. Techversation is independent and not affiliated with Scrum Alliance.",
+  pmp: "These are Techversation's own study summaries for the PMP exam, prepared from the PMBOK Guide, 8th Edition and the current Exam Content Outline. They do not replace those documents. PMBOK and PMP are trademarks of the Project Management Institute, Inc. Techversation is independent and not affiliated with PMI.",
+  togaf: "These are Techversation's own weekly study guides for the TOGAF exam, prepared from the TOGAF Standard, 10th Edition and the exam's published outline. They do not replace the Standard. TOGAF is a registered trademark of The Open Group. Techversation is independent and not affiliated with The Open Group.",
+  cdmp: "These are Techversation's own study summaries for the CDMP exam, prepared from DAMA-DMBOK, 2nd Edition. They do not replace it. DAMA and DMBOK belong to DAMA International. Techversation is independent and not affiliated with DAMA.",
+};
+---
+<Base title={`${n.title}: ${c.short} study notes`} description={desc} image={u(c.cover)} accent={c.accent} page="notes" type="article">
+  <main id="main" class="wrap">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href={u('')}>Home</a><i>/</i><a href={courseUrl(c)}>{c.short}</a><i>/</i><a href={courseUrl(c) + '#notes'}>Study notes</a><i>/</i><span>{n.ref}</span></nav>
+    <div class="notes-layout">
+      <aside class="notes-side" aria-label="All study notes">
+        <details class="notes-nav" id="notes-nav">
+          <summary>All {c.short} study notes <span class="count">{all.length}</span></summary>
+          <nav>
+            {Object.entries(groups).map(([g, list]) => (
+              <div class="nn-group">
+                <div class="nn-title">{g}</div>
+                {list.map((x) => <a href={notesUrl(c, x)} aria-current={x.num === n.num ? 'page' : undefined}><span class="nn-n">{x.num}</span><span>{x.title}</span></a>)}
+              </div>
+            ))}
+          </nav>
+        </details>
+      </aside>
+
+      <article data-pagefind-body>
+        <span hidden data-pagefind-filter="type[data-v]" data-v="Study note"></span>
+        <span hidden data-pagefind-filter="institute[data-v]" data-v={i.name}></span>
+        <span hidden data-pagefind-meta="image[data-v]" data-v={u(c.cover)}></span>
+        <p class="eyebrow" style="margin-top:1.4rem">Study notes · {n.group}</p>
+        <h1 data-pagefind-meta="title" style="margin-top:.8rem;font-size:clamp(2.1rem,4.2vw,3.3rem)">{n.title}</h1>
+
+        <dl class="glance" data-pagefind-ignore>
+          {cells.map(([k, v]) => <div><dt>{k}</dt><dd class={k === kind ? 'mono' : ''}>{v}</dd></div>)}
+          <div><dt>Read time</dt><dd class="mono">{n.minutes} min<br /><span class="muted" style="font-weight:400;font-family:var(--font-body)">{after}</span></dd></div>
+          <div><dt>Watch</dt><dd>{mod ? <a href={moduleUrl(c, mod)}>Module {mod.num} · {mmss(mod.seconds)}</a> : '—'}<br />{mod && <span class="muted" style="font-weight:400">{mod.title}</span>}</dd></div>
+        </dl>
+
+        {header.length > 0 && (
+          <details class="scope" data-pagefind-ignore>
+            <summary>Scope and sources of this note</summary>
+            <dl>{header.map((h) => <div><dt>{h.key}</dt><dd set:html={h.html} /></div>)}</dl>
+          </details>
+        )}
+
+        <div class="prose" set:html={html} />
+
+        {relMods.length > 0 && <div class="rel-list">{relMods.map((x) => <a class="related" href={moduleUrl(c, x)}><span class="ic"><Icon name="video" size={22} /></span><span><b>Watch the lecture: Module {x.num}</b><br /><span class="muted">{x.title} · {mmss(x.seconds)}</span></span><span style="margin-left:auto;color:var(--accent-ink)"><Icon name="arrow" size={16} /></span></a>)}</div>}
+        <div class="pn" data-pagefind-ignore>
+          {prev ? <a href={notesUrl(c, prev)}><small>Previous</small><b>{prev.ref}: {prev.title}</b></a> : <span></span>}
+          {next ? <a class="next" href={notesUrl(c, next)}><small>Next</small><b>{next.ref}: {next.title}</b></a> : <span></span>}
+        </div>
+        <p class="note" style="margin-top:1.6rem">{legal[c.slug]}</p>
+      </article>
+
+      <aside class="toc-col"><nav class="toc" aria-label="On this page"><h4>On this page</h4>{n.toc.map((t: any) => <a href={`#${t.id}`}>{t.title}</a>)}</nav></aside>
+    </div>
+  </main>
+  <script>import '../../../../scripts/notes.ts';</script>
+</Base>

@@ -1,0 +1,20 @@
+---
+import Base from '../layouts/Base.astro';
+import { courses, totals, hm, courseUrl, CHANNEL_URL, u } from '../lib/data';
+const t = totals();
+---
+<Base title="About" description="Techversation is a free learning site with video lectures and study notes for certification exams, made by the TechVersation YouTube channel." page="about">
+  <main id="main" class="wrap page-narrow">
+    <p class="eyebrow">About</p>
+    <h1 style="font-size:clamp(2rem,4vw,3rem)">Exam prep that is free to watch and easy to follow</h1>
+    <p>Techversation brings the lectures of the <a href={CHANNEL_URL} target="_blank" rel="noopener">TechVersation YouTube channel</a> together with study notes, glossaries, slide decks and a study planner. There are {t.courses} courses, {t.modules} modules and {t.videos} lectures ({hm(t.seconds)} of video) so far, and more are on the way.</p>
+    <h2>How the courses are made</h2>
+    <p>Each course starts from the exam's published outline and the primary sources. The lessons are written as scripts and slide decks, checked against those sources, and recorded as videos. The narration is synthetic (text to speech), which keeps the lectures consistent and easy to update when an exam changes.</p>
+    <h2>The courses</h2>
+    <ul>{courses.map((c) => <li><a href={courseUrl(c)}>{c.title}</a>: {c.desc}</li>)}</ul>
+    <h2>Independent by design</h2>
+    <p>Techversation is not affiliated with or endorsed by any exam provider. The courses teach the topics in their own words, with their own examples, and do not reproduce real exam questions. Always confirm the current exam details with the official provider.</p>
+    <h2>Ask for a course</h2>
+    <p>Missing an exam you need? <a href={u('#request')}>Request a course</a> and it goes on the list.</p>
+  </main>
+</Base>

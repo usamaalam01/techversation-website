@@ -1,0 +1,182 @@
+---
+import Base from '../../../layouts/Base.astro';
+import Icon from '../../../components/Icon.astro';
+import NoteRow from '../../../components/NoteRow.astro';
+import { courses, inst, u, courseUrl, moduleUrl, notesUrl, playlistUrl, hm, mmss, glossary, type Course } from '../../../lib/data';
+
+export function getStaticPaths() {
+  return courses.map((c) => ({ params: { institute: c.institute, cert: c.slug }, props: { c } }));
+}
+const { c } = Astro.props as { c: Course };
+const i = inst(c.institute);
+const gl = glossary(c.slug);
+const groups: Record<string, typeof c.notes> = {};
+(c.notes ?? []).forEach((n) => { (groups[n.group] ??= []).push(n); });
+const decks = c.modules.filter((m) => m.deck);
+const domains: Record<string, typeof c.notes> = {};
+(c.notes ?? []).forEach((n) => { (domains[n.domain || 'Other'] ??= []).push(n); });
+const byDomain = (c.notes ?? []).some((n) => n.domain);
+const first = c.modules[0];
+const training = c.kind === 'training';
+const unit = c.slug === 'cdmp' ? 'chapters' : c.slug === 'togaf' ? 'weekly guides' : 'topics';
+const ld = {
+  '@context': 'https://schema.org', '@type': 'Course', name: c.title, description: c.desc,
+  provider: { '@type': 'Organization', name: 'Techversation', url: Astro.site?.href },
+  educationalLevel: 'Exam preparation', inLanguage: 'en', isAccessibleForFree: true,
+  hasCourseInstance: { '@type': 'CourseInstance', courseMode: 'online', courseWorkload: `PT${Math.round(c.seconds / 60)}M` },
+};
+const modData = c.modules.map((m) => ({ num: m.num, url: moduleUrl(c, m) }));
+---
+<Base title={`${c.title}: ${c.name} exam prep`} description={`${c.desc} ${c.modules.length} modules, ${c.videos} video lectures, free.`} image={u(c.cover)} accent={c.accent} page="cert">
+  <script type="application/ld+json" slot="head" set:html={JSON.stringify(ld)} />
+  <main id="main" class="wrap" data-pagefind-body>
+    <span hidden data-pagefind-filter="type[data-v]" data-v="Course"></span>
+    <span hidden data-pagefind-filter="institute[data-v]" data-v={i.name}></span>
+    <span hidden data-pagefind-meta="image[data-v]" data-v={u(c.cover)}></span>
+    <nav class="crumbs" aria-label="Breadcrumb"><a href={u('')}>Home</a><i>/</i>{training ? <a href={u('training/')}>Training</a> : <><a href={u('#certs')}>Certifications</a><i>/</i><a href={u(`${i.id}/`)}>{i.name}</a></>}<i>/</i><span>{c.short}</span></nav>
+
+    <section class="cert-head">
+      <div class="copy">
+        <p class="eyebrow">{training ? `Training · ${c.topic}` : i.full}</p>
+        <h1 data-pagefind-meta="title">{c.title}</h1>
+        <p class="lede">{c.desc}</p>
+        <div class="badges">
+          <span class="badge accent">Free</span><span class="badge">{c.modules.length} modules</span><span class="badge">{c.videos} videos</span><span class="badge">{hm(c.seconds)}</span>
+          {c.notes && <span class="badge">Study notes</span>}
+        </div>
+        <div class="actions">
+          <a class="btn btn-primary btn-lg" id="go" href={moduleUrl(c, first)}>Start with Module {first.num} <Icon name="arrow" size={16} /></a>
+          {c.notes && <a class="btn btn-ghost btn-lg" href={courseUrl(c) + '#notes'} id="to-notes">Read the {c.slug === 'togaf' ? 'weekly study guides' : 'study notes'}</a>}
+          <a class="btn btn-ghost btn-lg" href={playlistUrl(c)} target="_blank" rel="noopener">Watch the playlist on YouTube</a>
+        </div>
+        <div class="progress-line"><div class="bar-track"><div class="bar-fill" id="bar"></div></div><span id="pcount">Your progress is saved in this browser.</span></div>
+      </div>
+      <aside class="ticket" aria-label={training ? 'Course facts' : 'Exam facts'}>
+        <div class="ticket-top"><b>{training ? 'Course facts' : 'Exam facts'}</b><span class="badge accent">{c.short}</span></div>
+        {training ? (
+          <>
+            <dl class="ticket-rows"><div><dt>Modules</dt><dd class="mono">{c.modules.length}</dd></div><div><dt>Videos</dt><dd class="mono">{c.videos}</dd></div><div><dt>Video length</dt><dd class="mono">{hm(c.seconds)}</dd></div><div><dt>Level</dt><dd>Beginner to practitioner</dd></div></dl>
+            <div class="ticket-foot">A training course: there is no exam and no certifying institute. It is free and needs no sign-up.</div>
+          </>
+        ) : c.facts ? (
+          <>
+            <dl class="ticket-rows">
+              <div><dt>Questions</dt><dd class="mono">{c.facts.questions}</dd></div>
+              <div><dt>Time</dt><dd class="mono">{c.facts.time}</dd></div>
+              <div><dt>Passing score</dt><dd class="mono">{c.facts.passing}</dd></div>
+            </dl>
+            <div class="ticket-foot">Source: <a href={c.facts.url} target="_blank" rel="noopener">{c.facts.source}</a>. Exam details change, so confirm them, with the fee and the requirements, on the official site before you book.</div>
+          </>
+        ) : (
+          <>
+            <dl class="ticket-rows"><div><dt>Questions</dt><dd class="mono">—</dd></div><div><dt>Time</dt><dd class="mono">—</dd></div><div><dt>Passing score</dt><dd class="mono">—</dd></div></dl>
+            <div class="ticket-foot">Exam facts for {c.short} are added with their official source and the date they were checked. Until then, see the official {i.name} site.</div>
+          </>
+        )}
+      </aside>
+    </section>
+
+    <section aria-label="Course content">
+      <div class="tabs" id="tabs" role="tablist" data-pagefind-ignore>
+        <button class="tab" role="tab" id="t-video" aria-controls="p-video" data-tab="video" aria-selected="true">Video course <span class="count">{c.modules.length}</span></button>
+        <button class="tab" role="tab" id="t-notes" aria-controls="p-notes" data-tab="notes" aria-selected="false">Study notes {c.notes && <span class="count">{c.notes.length}</span>}</button>
+        <button class="tab" role="tab" id="t-gloss" aria-controls="p-gloss" data-tab="gloss" aria-selected="false">Glossary {gl && <span class="count">{gl.terms.length}</span>}</button>
+        <button class="tab" role="tab" id="t-dl" aria-controls="p-dl" data-tab="dl" aria-selected="false">Downloads</button>
+        <button class="tab" role="tab" id="t-plan" aria-controls="p-plan" data-tab="plan" aria-selected="false">Study plan</button>
+      </div>
+
+      <div class="tabpanel" id="p-video" role="tabpanel" aria-labelledby="t-video">
+        <div class="mods">
+          {c.modules.map((m) => (
+            <a class="mod" href={moduleUrl(c, m)} data-num={m.num}>
+              <div class="t">{m.parts[0].thumb ? <img src={u(m.parts[0].thumb)} alt="" loading="lazy" width="480" height="270" /> : <span class="num">{m.num}</span>}</div>
+              <div><div class="n">Module {m.num}</div><h3>{m.title}</h3>{m.desc !== m.title && <p>{m.desc}</p>}
+                <div class="meta" style="margin-top:.5rem"><span>{m.parts.length} part{m.parts.length > 1 ? 's' : ''}</span><span>{mmss(m.seconds)}</span></div></div>
+              <div class="st"><span class="todo-mark" data-mark title="Not done yet"></span></div>
+            </a>
+          ))}
+        </div>
+      </div>
+
+      <div class="tabpanel" id="p-notes" role="tabpanel" aria-labelledby="t-notes" hidden>
+        {c.notes ? (
+          <>
+            <div class="notes-tools">
+              <div class="search-box"><Icon name="search" /><input id="nq" type="search" placeholder={`Filter ${c.notes.length} ${unit}`} aria-label="Filter the study notes" /></div>
+              {byDomain && (
+                <div class="theme-seg" role="group" aria-label="Group the notes by">
+                  <button type="button" data-notes-view="order" aria-pressed="true">Study order</button>
+                  <button type="button" data-notes-view="domain" aria-pressed="false">Exam domain</button>
+                </div>
+              )}
+            </div>
+            <p class="note" style="margin:.2rem 0 1.2rem">{c.slug === 'togaf' ? 'The weekly study plan, one guide per week: daily lessons, a practice quiz with its answer key and a review checklist.' : 'Every summary opens with the same at-a-glance block and follows the same section order, ending with exam questions and a quick-reference card.'} {c.notes.length} {unit}, about {Math.round(c.notes.reduce((a, n) => a + n.minutes, 0) / 60)} hours of reading.</p>
+            <div id="notes-order">
+              {Object.entries(groups).map(([g, list]) => (
+                <div class="notes-group">
+                  <div class="group-title">{g}</div>
+                  {list!.map((n) => <NoteRow c={c} n={n} />)}
+                </div>
+              ))}
+            </div>
+            {byDomain && (
+              <div id="notes-domain" hidden>
+                {Object.entries(domains).map(([g, list]) => (
+                  <div class="notes-group">
+                    <div class="group-title">{g}</div>
+                    {list!.map((n) => <NoteRow c={c} n={n} />)}
+                  </div>
+                ))}
+              </div>
+            )}
+            <p class="empty" id="notes-empty" hidden>No topic matches.</p>
+          </>
+        ) : (
+          <div class="empty"><b>Study notes for {c.short} come later</b><span>The video course covers every topic in the meantime, and each video has a full transcript.</span></div>
+        )}
+      </div>
+
+      <div class="tabpanel" id="p-gloss" role="tabpanel" aria-labelledby="t-gloss" hidden>
+        {gl ? (
+          <>
+            <div class="search-box" style="max-width:460px;margin-bottom:1.1rem"><Icon name="search" /><input id="gq" type="search" placeholder={`Filter ${gl.terms.length} terms`} aria-label="Filter the glossary" /></div>
+            <dl class="gloss" id="gl">
+              {gl.terms.map((t) => (
+                <div class="gloss-item" data-q={`${t.term} ${t.text}`.toLowerCase()}><dt id={`term-${t.term.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`}>{t.term}</dt><dd>{t.text}</dd>
+                  {c.modules.find((m) => m.num === t.module) && <a href={moduleUrl(c, c.modules.find((m) => m.num === t.module)!)}>Module {t.module}</a>}</div>
+              ))}
+            </dl>
+            <p class="empty" id="gl-empty" hidden>No term matches.</p>
+            {gl.note && <p class="note" style="margin-top:1rem">{gl.note}</p>}
+          </>
+        ) : (
+          <div class="empty"><b>The {c.short} glossary is added with the course notes</b><span>Each term will link to the module that teaches it.</span></div>
+        )}
+      </div>
+
+      <div class="tabpanel" id="p-dl" role="tabpanel" aria-labelledby="t-dl" hidden>
+        <div class="dl-list">
+          {decks.map((m) => (
+            <div class="dl"><div class="ft">PPTX</div><div><b>Module {m.num}: {m.title}</b><small>Slide deck, the same slides as the video · {m.deck_kb! >= 1024 ? (m.deck_kb! / 1024).toFixed(1) + ' MB' : m.deck_kb + ' KB'}</small></div><a class="btn btn-ghost" href={u(m.deck!)} download>Download</a></div>
+          ))}
+        </div>
+      </div>
+
+      <div class="tabpanel" id="p-plan" role="tabpanel" aria-labelledby="t-plan" hidden data-pagefind-ignore>
+        <div class="panel ring" style="max-width:640px">
+          <h3>Plan the weeks until your exam</h3>
+          <p class="muted">Enter your exam date and the hours you have each week. You get a week-by-week schedule across the modules{c.notes ? ' and the study notes' : ''}, with a review week at the end. It runs in your browser and nothing is stored on a server.</p>
+          <div class="actions"><a class="btn btn-primary" href={u(`study-plan/?c=${c.slug}`)}>Build my plan <Icon name="arrow" size={16} /></a></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" aria-label="About this course" data-pagefind-ignore>
+      <div><h3>Who it is for</h3><p>{c.audience}</p></div>
+      <div><h3>What it is built from</h3><p>{c.sources}</p></div>
+      <div><h3>About this course</h3><p>{training ? 'Made by Techversation, with its own examples and a running case. It teaches the topics in its own words.' : `Made by Techversation. It is independent: not affiliated with or endorsed by ${i.name}. It teaches the exam topics in its own words and does not reproduce exam questions.`}</p></div>
+    </section>
+  </main>
+  <script type="application/json" id="course-data" set:html={JSON.stringify({ slug: c.slug, modules: modData })} />
+  <script>import '../../../scripts/cert.ts';</script>
+</Base>

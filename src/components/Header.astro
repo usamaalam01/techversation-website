@@ -1,0 +1,29 @@
+---
+import Icon from './Icon.astro';
+import { u, SUBSCRIBE_URL } from '../lib/data';
+const { page = '' } = Astro.props;
+const nav = [[u('#certs'), 'Certifications', 'home'], [u('#training'), 'Training', ''], [u('study-plan/'), 'Study plan', 'plan'], [u('search/'), 'Search', 'search']];
+---
+<header class="site-header">
+  <div class="wrap bar">
+    <a class="brand" href={u('')}><img src={u('logo.jpg')} alt="" width="38" height="38" /><span>Tech<b>versation</b></span></a>
+    <nav class="nav" id="nav" aria-label="Main">
+      {nav.map(([href, label, key]) => <a href={href} aria-current={page === key && key ? 'page' : undefined}>{label}</a>)}
+      <div class="theme-seg" role="group" aria-label="Color theme">
+        <button type="button" data-theme-set="light" aria-pressed="true"><Icon name="sun" size={16} /> Light</button>
+        <button type="button" data-theme-set="dark" aria-pressed="false"><Icon name="moon" size={16} /> Dark</button>
+      </div>
+    </nav>
+    <span class="spacer"></span>
+    <form class="mini-search" action={u('search/')} role="search">
+      <Icon name="search" />
+      <input name="q" type="search" placeholder="Search courses, modules, terms" aria-label="Search the site" />
+    </form>
+    <div class="theme-seg" role="group" aria-label="Color theme">
+      <button type="button" data-theme-set="light" aria-pressed="true" title="Light theme"><Icon name="sun" size={16} /><span class="lab">Light</span></button>
+      <button type="button" data-theme-set="dark" aria-pressed="false" title="Dark theme"><Icon name="moon" size={16} /><span class="lab">Dark</span></button>
+    </div>
+    <a class="btn btn-yt" href={SUBSCRIBE_URL} target="_blank" rel="noopener"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M21.6 7.2a2.5 2.5 0 0 0-1.76-1.77C18.3 5 12 5 12 5s-6.3 0-7.84.43A2.5 2.5 0 0 0 2.4 7.2 26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.76 1.77C5.7 19 12 19 12 19s6.3 0 7.84-.43a2.5 2.5 0 0 0 1.76-1.77A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8ZM10 15V9l5.2 3Z"/></svg><span>Subscribe</span></a>
+    <button class="icon-btn menu-btn" id="menu" type="button" aria-label="Open the menu" aria-expanded="false"><Icon name="menu" size={20} /></button>
+  </div>
+</header>

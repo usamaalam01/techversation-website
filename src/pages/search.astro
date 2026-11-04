@@ -1,0 +1,33 @@
+---
+import Base from '../layouts/Base.astro';
+import Icon from '../components/Icon.astro';
+import { courses, institutes, u } from '../lib/data';
+const names = [...new Set(courses.map((c) => institutes.find((i) => i.id === c.institute)!.name))];
+const colors = Object.fromEntries(courses.map((c) => [c.institute, c.accent]));
+---
+<Base title="Search" description="Search every Techversation course, video module, study note and glossary term." page="search">
+  <main id="main" class="wrap">
+    <section class="search-head">
+      <p class="eyebrow">Search</p>
+      <h1 style="font-size:clamp(1.9rem,3.6vw,2.8rem)">Find a course, module, note or term</h1>
+      <form class="search-box" id="sform" role="search" style="max-width:720px">
+        <Icon name="search" />
+        <input id="q" type="search" placeholder="Try Sprint, RBAC, governance" aria-label="Search the whole site" autocomplete="off" />
+        <button class="btn btn-primary" type="submit" style="padding:.7rem 1.1rem">Search</button>
+      </form>
+    </section>
+    <div class="search-layout">
+      <aside class="filters" aria-label="Filters">
+        <div><h4>Institute</h4><div id="f-inst">{names.map((n) => <label class="check"><input type="checkbox" data-inst={n} checked /> {n}<em></em></label>)}</div></div>
+        <div><h4>Type</h4><div id="f-type">{['Course', 'Video module', 'Study note'].map((t) => <label class="check"><input type="checkbox" data-type={t} checked /> {t}<em></em></label>)}</div></div>
+      </aside>
+      <section aria-live="polite">
+        <div class="count-line" id="count">Type to search.</div>
+        <div class="results" id="results"></div>
+        <noscript><p class="noscript-note">Search needs JavaScript. You can browse the courses from the home page instead.</p></noscript>
+      </section>
+    </div>
+  </main>
+  <script type="application/json" id="search-data" set:html={JSON.stringify({ base: u(''), accents: Object.fromEntries(courses.map((c) => [c.short, c.accent])) })} />
+  <script>import '../scripts/search.ts';</script>
+</Base>

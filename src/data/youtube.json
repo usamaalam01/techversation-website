@@ -1,0 +1,4423 @@
+{
+ "YLcaeO26UuM": {
+  "course": "csm",
+  "key": "00-Course-Introduction-part-1",
+  "title": "CSM Exam Prep #00 — Course Introduction and Exam Orientation",
+  "seconds": 419,
+  "published": "2026-10-25T14:04:38Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "wH5HwwqAE6E": {
+  "course": "csm",
+  "key": "01-Scrum-Definition-Theory-Empiricism-part-1",
+  "title": "CSM Exam Prep #01 — Scrum Definition, Theory and Empiricism",
+  "seconds": 802,
+  "published": "2026-10-25T14:05:27Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "qvRHSiUkRaU": {
+  "course": "csm",
+  "key": "02-Scrum-Values-Agile-Manifesto-part-1",
+  "title": "CSM Exam Prep #02 — Scrum Values and the Agile Manifesto",
+  "seconds": 733,
+  "published": "2026-10-25T14:05:47Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "uBJAt09Xxgo": {
+  "course": "csm",
+  "key": "03-Scrum-Team-and-Developers-part-1",
+  "title": "CSM Exam Prep #03 — The Scrum Team and the Developers",
+  "seconds": 726,
+  "published": "2026-10-25T14:06:17Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "RmxfyZ10-P4": {
+  "course": "csm",
+  "key": "04-Product-Owner-part-1",
+  "title": "CSM Exam Prep #04 — The Product Owner",
+  "seconds": 639,
+  "published": "2026-10-25T14:06:35Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "NorqqBm3vtE": {
+  "course": "csm",
+  "key": "05-Scrum-Master-part-1",
+  "title": "CSM Exam Prep #05 Part 1 — The Role, Whom It Serves and the Events",
+  "seconds": 407,
+  "published": "2026-10-25T14:07:31Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "Ps5Kt7v25y4": {
+  "course": "csm",
+  "key": "05-Scrum-Master-part-2",
+  "title": "CSM Exam Prep #05 Part 2 — Situations, Answer Patterns and Practice",
+  "seconds": 453,
+  "published": "2026-10-25T14:07:10Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "-SC6c-CyUaQ": {
+  "course": "csm",
+  "key": "06-Sprint-and-Scrum-Events-part-1",
+  "title": "CSM Exam Prep #06 — The Sprint and the Scrum Events",
+  "seconds": 757,
+  "published": "2026-10-25T14:07:47Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "bqkUHQZCE2Y": {
+  "course": "csm",
+  "key": "07-Sprint-Planning-part-1",
+  "title": "CSM Exam Prep #07 — Sprint Planning",
+  "seconds": 736,
+  "published": "2026-10-25T14:08:11Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "uJz_TyICy7M": {
+  "course": "csm",
+  "key": "08-Daily-Scrum-part-1",
+  "title": "CSM Exam Prep #08 — Daily Scrum",
+  "seconds": 680,
+  "published": "2026-10-25T14:08:34Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "0x8w5kqhx-w": {
+  "course": "csm",
+  "key": "09-Sprint-Review-and-Retrospective-part-1",
+  "title": "CSM Exam Prep #09 — Sprint Review and Sprint Retrospective",
+  "seconds": 697,
+  "published": "2026-10-25T14:09:09Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "wHhJjzc9hpM": {
+  "course": "csm",
+  "key": "10-Product-Backlog-Goal-Refinement-part-1",
+  "title": "CSM Exam Prep #10 — Product Backlog, Product Goal and Refinement",
+  "seconds": 735,
+  "published": "2026-10-25T14:10:05Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "rbRg64VvODY": {
+  "course": "csm",
+  "key": "11-Sprint-Backlog-and-Sprint-Goal-part-1",
+  "title": "CSM Exam Prep #11 — Sprint Backlog and Sprint Goal",
+  "seconds": 653,
+  "published": "2026-10-25T14:10:00Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "i2OF-g0YojE": {
+  "course": "csm",
+  "key": "12-Increment-and-Definition-of-Done-part-1",
+  "title": "CSM Exam Prep #12 — Increment and Definition of Done",
+  "seconds": 709,
+  "published": "2026-10-25T14:10:18Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "pgpMmq_SOIg": {
+  "course": "csm",
+  "key": "13-Facilitation-Teaching-Mentoring-Coaching-part-1",
+  "title": "CSM Exam Prep #13 — Facilitation, Teaching, Mentoring and Coaching",
+  "seconds": 730,
+  "published": "2026-10-25T14:11:09Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "HM69qSlwN18": {
+  "course": "csm",
+  "key": "14-Impediments-Debt-Organization-part-1",
+  "title": "CSM Exam Prep #14 — Impediments, Technical Debt and the Organization",
+  "seconds": 879,
+  "published": "2026-10-25T14:11:36Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "oj-CT0bbUvs": {
+  "course": "csm",
+  "key": "15-Scenario-Workshop-part-1",
+  "title": "CSM Exam Prep #15 — Scenario Workshop",
+  "seconds": 814,
+  "published": "2026-10-25T14:13:16Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "Fh3SsrhqbtE": {
+  "course": "csm",
+  "key": "16-Traps-and-Misconceptions-part-1",
+  "title": "CSM Exam Prep #16 — Traps and Misconceptions Clinic",
+  "seconds": 569,
+  "published": "2026-10-25T14:12:09Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "Ci2A6hrnKz4": {
+  "course": "csm",
+  "key": "17-Quick-Reference-Recap-part-1",
+  "title": "CSM Exam Prep #17 — Quick-Reference Recap",
+  "seconds": 547,
+  "published": "2026-10-25T14:12:34Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "bQxcG3tbZPo": {
+  "course": "csm",
+  "key": "18-Exam-Technique-and-Final-Check-part-1",
+  "title": "CSM Exam Prep #18 Part 1 — Exam Technique and the Practice Plan",
+  "seconds": 420,
+  "published": "2026-10-25T14:12:56Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "VxYzUfxM-FI": {
+  "course": "csm",
+  "key": "18-Exam-Technique-and-Final-Check-part-2",
+  "title": "CSM Exam Prep #18 Part 2 — The Final Check",
+  "seconds": 574,
+  "published": "2026-10-25T14:13:38Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "8pvvEK5Sp-k": {
+  "course": "pmp",
+  "key": "00-Course-Introduction-part-1",
+  "title": "PMP Exam Prep #00 — Course Introduction and Exam Orientation",
+  "seconds": 804,
+  "published": "2026-10-23T17:55:05Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "2Vdw4cxMuHI": {
+  "course": "pmp",
+  "key": "01-Project-Foundations-part-1",
+  "title": "PMP Exam Prep #01 Part 1 — Projects, Value and Success",
+  "seconds": 680,
+  "published": "2026-10-23T17:55:45Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "jZCGoJV2gMQ": {
+  "course": "pmp",
+  "key": "01-Project-Foundations-part-2",
+  "title": "PMP Exam Prep #01 Part 2 — Environment, Structures, Roles and the Mindset",
+  "seconds": 665,
+  "published": "2026-10-23T17:55:54Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "9DzByDY0mSQ": {
+  "course": "pmp",
+  "key": "01-Project-Foundations-part-3",
+  "title": "PMP Exam Prep #01 Part 3 — The Six Principles in Practice",
+  "seconds": 690,
+  "published": "2026-10-23T17:56:25Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "WDYQCNREAXY": {
+  "course": "pmp",
+  "key": "02-Life-Cycles-Agile-Hybrid-Tailoring-part-1",
+  "title": "PMP Exam Prep #02 Part 1 — Life Cycles and Development Approaches",
+  "seconds": 780,
+  "published": "2026-10-23T17:56:50Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "RRGuQS_7TrE": {
+  "course": "pmp",
+  "key": "02-Life-Cycles-Agile-Hybrid-Tailoring-part-2",
+  "title": "PMP Exam Prep #02 Part 2 — Agile and Hybrid Ways of Working",
+  "seconds": 870,
+  "published": "2026-10-23T17:57:32Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "bTtpZ6fOs_s": {
+  "course": "pmp",
+  "key": "02-Life-Cycles-Agile-Hybrid-Tailoring-part-3",
+  "title": "PMP Exam Prep #02 Part 3 — Tailoring and Practice",
+  "seconds": 847,
+  "published": "2026-10-23T17:58:00Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "K8BkTw6Y6A0": {
+  "course": "pmp",
+  "key": "03-Ethics-Sustainability-AI-part-1",
+  "title": "PMP Exam Prep #03 Part 1 — Ethics and Professional Conduct",
+  "seconds": 683,
+  "published": "2026-10-23T17:58:18Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "cl-8aUGwztA": {
+  "course": "pmp",
+  "key": "03-Ethics-Sustainability-AI-part-2",
+  "title": "PMP Exam Prep #03 Part 2 — Sustainability",
+  "seconds": 652,
+  "published": "2026-10-23T17:58:44Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "0pg9uBOSxoA": {
+  "course": "pmp",
+  "key": "03-Ethics-Sustainability-AI-part-3",
+  "title": "PMP Exam Prep #03 Part 3 — AI in Project Management",
+  "seconds": 737,
+  "published": "2026-10-23T17:59:05Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "1F178nZ3DBU": {
+  "course": "pmp",
+  "key": "04-Vision-Stakeholders-and-Communication-part-1",
+  "title": "PMP Exam Prep #04 Part 1 — A Shared Vision and Who the Stakeholders Are",
+  "seconds": 756,
+  "published": "2026-10-23T17:59:26Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "sTye-Zip_9c": {
+  "course": "pmp",
+  "key": "04-Vision-Stakeholders-and-Communication-part-2",
+  "title": "PMP Exam Prep #04 Part 2 — Analyze, Engage and Align Stakeholders",
+  "seconds": 889,
+  "published": "2026-10-23T18:00:28Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "IFuJkuYAuck": {
+  "course": "pmp",
+  "key": "04-Vision-Stakeholders-and-Communication-part-3",
+  "title": "PMP Exam Prep #04 Part 3 — Communication, and Practice",
+  "seconds": 922,
+  "published": "2026-10-23T18:00:36Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "Wlh2IP--8CA": {
+  "course": "pmp",
+  "key": "05-Leading-Teams-part-1",
+  "title": "PMP Exam Prep #05 Part 1 — Leading the Team",
+  "seconds": 699,
+  "published": "2026-10-23T18:01:19Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "aoSBh9AenXk": {
+  "course": "pmp",
+  "key": "05-Leading-Teams-part-2",
+  "title": "PMP Exam Prep #05 Part 2 — People, Motivation and Conflict",
+  "seconds": 809,
+  "published": "2026-10-23T18:01:36Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "89gmHg7Twa8": {
+  "course": "pmp",
+  "key": "05-Leading-Teams-part-3",
+  "title": "PMP Exam Prep #05 Part 3 — Knowledge Management and Transfer",
+  "seconds": 768,
+  "published": "2026-10-23T18:02:05Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "OV0aQvegQvM": {
+  "course": "pmp",
+  "key": "06-Initiating-Value-Planning-part-1",
+  "title": "PMP Exam Prep #06 Part 1 — Initiating and the Value Case",
+  "seconds": 860,
+  "published": "2026-10-23T18:03:19Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "o5o98RIepi0": {
+  "course": "pmp",
+  "key": "06-Initiating-Value-Planning-part-2",
+  "title": "PMP Exam Prep #06 Part 2 — Delivering and Measuring Value, and Planning the Approach",
+  "seconds": 961,
+  "published": "2026-10-23T18:03:51Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "CQdwepAMhmk": {
+  "course": "pmp",
+  "key": "06-Initiating-Value-Planning-part-3",
+  "title": "PMP Exam Prep #06 Part 3 — The Integrated Plan, Estimates and Decisions",
+  "seconds": 959,
+  "published": "2026-10-23T18:05:03Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "h2NYI116aDc": {
+  "course": "pmp",
+  "key": "07-Scope-Schedule-Cost-part-1",
+  "title": "PMP Exam Prep #07 Part 1 — Scope Management",
+  "seconds": 872,
+  "published": "2026-10-23T18:04:20Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "YmHyyyYwpb8": {
+  "course": "pmp",
+  "key": "07-Scope-Schedule-Cost-part-2",
+  "title": "PMP Exam Prep #07 Part 2 — Schedule Management",
+  "seconds": 956,
+  "published": "2026-10-23T18:04:41Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "xYzDveTN-jo": {
+  "course": "pmp",
+  "key": "07-Scope-Schedule-Cost-part-3",
+  "title": "PMP Exam Prep #07 Part 3 — Cost and Finance",
+  "seconds": 945,
+  "published": "2026-10-23T18:05:05Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "FXULKRFV5Y8": {
+  "course": "pmp",
+  "key": "08-Quality-Resources-Procurement-part-1",
+  "title": "PMP Exam Prep #08 Part 1 — Quality Management",
+  "seconds": 865,
+  "published": "2026-10-23T18:07:08Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "nlfe0B1ZkW4": {
+  "course": "pmp",
+  "key": "08-Quality-Resources-Procurement-part-2",
+  "title": "PMP Exam Prep #08 Part 2 — Resources and the Start of Procurement",
+  "seconds": 843,
+  "published": "2026-10-23T18:06:20Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "dXeHMqz5hSI": {
+  "course": "pmp",
+  "key": "08-Quality-Resources-Procurement-part-3",
+  "title": "PMP Exam Prep #08 Part 3 — Procurement in Depth",
+  "seconds": 895,
+  "published": "2026-10-23T18:06:43Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "9lYmMiqbD7k": {
+  "course": "pmp",
+  "key": "09-Executing-Status-Closure-part-1",
+  "title": "PMP Exam Prep #09 Part 1 — Executing the Plan",
+  "seconds": 645,
+  "published": "2026-10-23T18:07:00Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "JxwQjs6AYlE": {
+  "course": "pmp",
+  "key": "09-Executing-Status-Closure-part-2",
+  "title": "PMP Exam Prep #09 Part 2 — Evaluating Status",
+  "seconds": 712,
+  "published": "2026-10-23T18:07:21Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "8IepMlmKHQI": {
+  "course": "pmp",
+  "key": "09-Executing-Status-Closure-part-3",
+  "title": "PMP Exam Prep #09 Part 3 — Closing the Project",
+  "seconds": 847,
+  "published": "2026-10-23T18:07:47Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "wQdulDFz1DI": {
+  "course": "pmp",
+  "key": "10-Governance-Compliance-part-1",
+  "title": "PMP Exam Prep #10 Part 1 — Governance",
+  "seconds": 797,
+  "published": "2026-10-23T18:08:43Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "rqq9AtQID8g": {
+  "course": "pmp",
+  "key": "10-Governance-Compliance-part-2",
+  "title": "PMP Exam Prep #10 Part 2 — Compliance",
+  "seconds": 984,
+  "published": "2026-10-23T18:09:28Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "EWlFSiU5LHQ": {
+  "course": "pmp",
+  "key": "11-Risk-Issues-Impediments-part-1",
+  "title": "PMP Exam Prep #11 Part 1 — Planning and Analyzing Risk",
+  "seconds": 724,
+  "published": "2026-10-23T18:09:08Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "DH7OXUoIfw8": {
+  "course": "pmp",
+  "key": "11-Risk-Issues-Impediments-part-2",
+  "title": "PMP Exam Prep #11 Part 2 — Responding to and Monitoring Risk",
+  "seconds": 650,
+  "published": "2026-10-23T18:09:28Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "jQOk7V3z1fc": {
+  "course": "pmp",
+  "key": "11-Risk-Issues-Impediments-part-3",
+  "title": "PMP Exam Prep #11 Part 3 — Issues and Impediments",
+  "seconds": 902,
+  "published": "2026-10-23T18:09:58Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "PY4DEWHa6hs": {
+  "course": "pmp",
+  "key": "12-Change-Improvement-Culture-External-part-1",
+  "title": "PMP Exam Prep #12 Part 1 — Change Control",
+  "seconds": 814,
+  "published": "2026-10-23T18:10:26Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "LX3EVGOZDs4": {
+  "course": "pmp",
+  "key": "12-Change-Improvement-Culture-External-part-2",
+  "title": "PMP Exam Prep #12 Part 2 — Learning, Improving and Culture",
+  "seconds": 805,
+  "published": "2026-10-23T18:11:05Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "FXgR1b14wLg": {
+  "course": "pmp",
+  "key": "12-Change-Improvement-Culture-External-part-3",
+  "title": "PMP Exam Prep #12 Part 3 — Supporting People and the External Environment",
+  "seconds": 902,
+  "published": "2026-10-23T18:11:54Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "g6YnLRCeTT8": {
+  "course": "pmp",
+  "key": "13-Formula-Workshop-part-1",
+  "title": "PMP Exam Prep #13 Part 1 — Schedule and Cost",
+  "seconds": 813,
+  "published": "2026-10-23T18:12:01Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "YpglU7bqkTY": {
+  "course": "pmp",
+  "key": "13-Formula-Workshop-part-2",
+  "title": "PMP Exam Prep #13 Part 2 — People, Value, Contracts and Flow",
+  "seconds": 928,
+  "published": "2026-10-23T18:12:30Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "96_G8iU0GAA": {
+  "course": "pmp",
+  "key": "14-Exam-Formats-and-Final-Strategy-part-1",
+  "title": "PMP Exam Prep #14 Part 1 — Reading Questions and Formats",
+  "seconds": 695,
+  "published": "2026-10-23T18:12:57Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "xN-au8eHKTs": {
+  "course": "pmp",
+  "key": "14-Exam-Formats-and-Final-Strategy-part-2",
+  "title": "PMP Exam Prep #14 Part 2 — Practice and Final Strategy",
+  "seconds": 858,
+  "published": "2026-10-23T18:13:16Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "in_IS0jM2mo": {
+  "course": "kcna",
+  "key": "00-Course-Introduction-part-1",
+  "title": "KCNA Exam Prep Introduction: Exam Format, Curriculum and How to Study | Cloud Native Associate",
+  "seconds": 461,
+  "published": "2026-11-01T09:28:21Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "The KCNA Exam in Numbers"
+   ],
+   [
+    71,
+    "Booking, Validity and Renewal"
+   ],
+   [
+    110,
+    "The Curriculum: Four Domains"
+   ],
+   [
+    163,
+    "Old Curriculum, New Curriculum"
+   ],
+   [
+    211,
+    "Where the KCNA Sits"
+   ],
+   [
+    253,
+    "How the Course Is Organized"
+   ],
+   [
+    295,
+    "Labels You Will See"
+   ],
+   [
+    336,
+    "Meet Harbor Books, the Running Case"
+   ],
+   [
+    378,
+    "Independence, Trademarks and Good Study Habits"
+   ]
+  ]
+ },
+ "9vd0wZtOwfg": {
+  "course": "kcna",
+  "key": "01-Containers-and-Containerization-part-1",
+  "title": "KCNA Exam Prep Module 1 Part 1 of 2: Containers, Images, OCI, containerd and Dockerfile",
+  "seconds": 377,
+  "published": "2026-11-01T09:28:36Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Harbor Books Packs the Storefront"
+   ],
+   [
+    57,
+    "Why Containers: Portable, Dense, Consistent"
+   ],
+   [
+    95,
+    "From Image to Running Container"
+   ],
+   [
+    127,
+    "Image Layers"
+   ],
+   [
+    155,
+    "Registries, Tags and Digests"
+   ],
+   [
+    193,
+    "Image Pull Policy"
+   ],
+   [
+    231,
+    "OCI: The Open Standards"
+   ],
+   [
+    269,
+    "What a Container Is Made Of: Namespaces and cgroups"
+   ],
+   [
+    306,
+    "The Runtime Stack: CRI, containerd, CRI-O, runc"
+   ],
+   [
+    341,
+    "Dockerfile and Multi-Stage Builds"
+   ]
+  ]
+ },
+ "2RwmHdyLGec": {
+  "course": "kcna",
+  "key": "01-Containers-and-Containerization-part-2",
+  "title": "KCNA Exam Prep Module 1 Part 2 of 2: Containers Recap and Practice Questions | Kubernetes Exam",
+  "seconds": 406,
+  "published": "2026-11-01T09:28:50Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "What the Exam Asks: Containers"
+   ],
+   [
+    78,
+    "Practice Question 1"
+   ],
+   [
+    118,
+    "Practice Question 2"
+   ],
+   [
+    159,
+    "Practice Question 3"
+   ],
+   [
+    202,
+    "Practice Question 4"
+   ],
+   [
+    248,
+    "Practice Question 5"
+   ],
+   [
+    290,
+    "Practice Question 6"
+   ],
+   [
+    327,
+    "Practice Question 7"
+   ]
+  ]
+ },
+ "yNdTER2xDKY": {
+  "course": "kcna",
+  "key": "02-Kubernetes-Architecture-API-Objects-part-1",
+  "title": "KCNA Exam Prep Module 2 Part 1 of 2: Kubernetes Architecture, Control Plane, API and kubectl",
+  "seconds": 594,
+  "published": "2026-11-01T09:29:28Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Harbor Books Gets a Cluster"
+   ],
+   [
+    63,
+    "A Cluster: Control Plane and Nodes"
+   ],
+   [
+    96,
+    "Control Plane Components"
+   ],
+   [
+    144,
+    "Node Components and Add-ons"
+   ],
+   [
+    178,
+    "Following a Request: From kubectl to a Running Pod"
+   ],
+   [
+    210,
+    "Declarative Versus Imperative"
+   ],
+   [
+    249,
+    "Controllers and the Reconciliation Loop"
+   ],
+   [
+    280,
+    "The API: Groups, Versions and Kinds"
+   ],
+   [
+    329,
+    "Anatomy of a Manifest"
+   ],
+   [
+    370,
+    "Kinds You Will Meet"
+   ],
+   [
+    408,
+    "kubectl: the Command Line"
+   ],
+   [
+    444,
+    "kubeconfig: Clusters, Users and Contexts"
+   ],
+   [
+    483,
+    "Labels, Selectors and Annotations"
+   ],
+   [
+    520,
+    "Namespaces and Owner References"
+   ],
+   [
+    560,
+    "Custom Resources, Controllers and Operators"
+   ]
+  ]
+ },
+ "aiARYM39i90": {
+  "course": "kcna",
+  "key": "02-Kubernetes-Architecture-API-Objects-part-2",
+  "title": "KCNA Exam Prep Module 2 Part 2 of 2: Kubernetes Distributions, Recap and Practice Questions",
+  "seconds": 615,
+  "published": "2026-11-01T09:29:55Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Where Clusters Come From"
+   ],
+   [
+    40,
+    "What the Exam Asks: Architecture"
+   ],
+   [
+    123,
+    "Practice Question 1"
+   ],
+   [
+    159,
+    "Practice Question 2"
+   ],
+   [
+    199,
+    "Practice Question 3"
+   ],
+   [
+    235,
+    "Practice Question 4"
+   ],
+   [
+    278,
+    "Practice Question 5"
+   ],
+   [
+    317,
+    "Practice Question 6"
+   ],
+   [
+    356,
+    "Practice Question 7"
+   ],
+   [
+    394,
+    "Practice Question 8"
+   ],
+   [
+    433,
+    "Practice Question 9"
+   ],
+   [
+    474,
+    "Practice Question 10"
+   ],
+   [
+    512,
+    "Practice Question 11"
+   ]
+  ]
+ },
+ "e3-NSCC2etw": {
+  "course": "kcna",
+  "key": "03-Workloads-and-Controllers-part-1",
+  "title": "KCNA Exam Prep Module 3 Part 1 of 2: Pods, Probes, Deployments, StatefulSets and Jobs",
+  "seconds": 546,
+  "published": "2026-11-01T09:30:12Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Harbor Books Needs Its Shop Running"
+   ],
+   [
+    68,
+    "The Pod: the Smallest Deployable Unit"
+   ],
+   [
+    105,
+    "Init, Sidecar and Ephemeral Containers"
+   ],
+   [
+    147,
+    "Pod Phases and Restart Policy"
+   ],
+   [
+    200,
+    "Probes: Startup, Liveness and Readiness"
+   ],
+   [
+    250,
+    "ReplicaSet and Deployment: Who Owns Whom"
+   ],
+   [
+    286,
+    "The Deployment and the Rolling Update"
+   ],
+   [
+    326,
+    "Rollout History and Rollback"
+   ],
+   [
+    365,
+    "StatefulSet: Stable Identity and Storage"
+   ],
+   [
+    400,
+    "DaemonSet: One Pod per Node"
+   ],
+   [
+    433,
+    "Job and CronJob: Work That Ends"
+   ],
+   [
+    474,
+    "Choosing the Right Controller"
+   ],
+   [
+    508,
+    "What the Exam Asks: Workloads"
+   ]
+  ]
+ },
+ "Fr2i1fTKocQ": {
+  "course": "kcna",
+  "key": "03-Workloads-and-Controllers-part-2",
+  "title": "KCNA Exam Prep Module 3 Part 2 of 2: Workloads Recap and Practice Questions | Cloud Native Associate",
+  "seconds": 505,
+  "published": "2026-11-01T09:30:31Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Practice Question 1"
+   ],
+   [
+    73,
+    "Practice Question 2"
+   ],
+   [
+    116,
+    "Practice Question 3"
+   ],
+   [
+    158,
+    "Practice Question 4"
+   ],
+   [
+    201,
+    "Practice Question 5"
+   ],
+   [
+    247,
+    "Practice Question 6"
+   ],
+   [
+    287,
+    "Practice Question 7"
+   ],
+   [
+    333,
+    "Practice Question 8"
+   ],
+   [
+    372,
+    "Practice Question 9"
+   ],
+   [
+    413,
+    "Practice Question 10"
+   ]
+  ]
+ },
+ "6AVel1yU-IE": {
+  "course": "kcna",
+  "key": "04-Configuration-and-Administration-part-1",
+  "title": "KCNA Exam Prep Module 4 Part 1 of 2: ConfigMaps, Secrets, Resource Limits, kubeadm and etcd",
+  "seconds": 375,
+  "published": "2026-11-01T09:30:46Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Harbor Books Runs the Shop for Real"
+   ],
+   [
+    60,
+    "ConfigMaps"
+   ],
+   [
+    96,
+    "Using a ConfigMap in a Pod"
+   ],
+   [
+    124,
+    "Secrets: Encoded, Not Encrypted"
+   ],
+   [
+    166,
+    "Resource Requests and Limits"
+   ],
+   [
+    201,
+    "What Requests and Limits Do"
+   ],
+   [
+    232,
+    "LimitRange and ResourceQuota"
+   ],
+   [
+    267,
+    "Cluster Setup with kubeadm"
+   ],
+   [
+    300,
+    "Upgrades and Version Skew"
+   ],
+   [
+    340,
+    "etcd Backup and Restore"
+   ]
+  ]
+ },
+ "tghNYUHbuQE": {
+  "course": "kcna",
+  "key": "04-Configuration-and-Administration-part-2",
+  "title": "KCNA Exam Prep Module 4 Part 2 of 2: Cordon, Drain, PodDisruptionBudget and Practice Questions",
+  "seconds": 575,
+  "published": "2026-11-01T09:31:26Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Node Maintenance: Cordon, Drain and PodDisruptionBudgets"
+   ],
+   [
+    31,
+    "Releases, Deprecation and Support"
+   ],
+   [
+    79,
+    "What the Exam Asks: Configuration and Administration"
+   ],
+   [
+    158,
+    "Practice Question 1"
+   ],
+   [
+    196,
+    "Practice Question 2"
+   ],
+   [
+    243,
+    "Practice Question 3"
+   ],
+   [
+    283,
+    "Practice Question 4"
+   ],
+   [
+    324,
+    "Practice Question 5"
+   ],
+   [
+    364,
+    "Practice Question 6"
+   ],
+   [
+    407,
+    "Practice Question 7"
+   ],
+   [
+    443,
+    "Practice Question 8"
+   ],
+   [
+    484,
+    "Practice Question 9"
+   ]
+  ]
+ },
+ "e69dqIFCDEQ": {
+  "course": "kcna",
+  "key": "05-Scheduling-and-Scaling-part-1",
+  "title": "KCNA Exam Prep Module 5 Part 1 of 2: Kubernetes Scheduler, Taints, Affinity and the HPA",
+  "seconds": 379,
+  "published": "2026-11-01T09:31:26Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Harbor Books Sells More at the Weekend"
+   ],
+   [
+    57,
+    "How the Scheduler Decides: Filter, Score, Bind"
+   ],
+   [
+    90,
+    "nodeSelector and Node Affinity"
+   ],
+   [
+    125,
+    "Pod Affinity and Anti-Affinity"
+   ],
+   [
+    155,
+    "Taints and Tolerations"
+   ],
+   [
+    190,
+    "Topology Spread Constraints"
+   ],
+   [
+    229,
+    "Priority and Preemption"
+   ],
+   [
+    264,
+    "QoS Classes and Eviction"
+   ],
+   [
+    306,
+    "Static Pods and Manual Placement"
+   ],
+   [
+    339,
+    "Horizontal Pod Autoscaler"
+   ]
+  ]
+ },
+ "3bGxB3adMOM": {
+  "course": "kcna",
+  "key": "05-Scheduling-and-Scaling-part-2",
+  "title": "KCNA Exam Prep Module 5 Part 2 of 2: VPA, Cluster Autoscaler, KEDA and Practice Questions",
+  "seconds": 536,
+  "published": "2026-11-01T09:31:59Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Other Autoscalers: VPA, Cluster Autoscaler and KEDA"
+   ],
+   [
+    36,
+    "What the Exam Asks: Scheduling"
+   ],
+   [
+    119,
+    "Practice Question 1"
+   ],
+   [
+    155,
+    "Practice Question 2"
+   ],
+   [
+    197,
+    "Practice Question 3"
+   ],
+   [
+    235,
+    "Practice Question 4"
+   ],
+   [
+    282,
+    "Practice Question 5"
+   ],
+   [
+    324,
+    "Practice Question 6"
+   ],
+   [
+    368,
+    "Practice Question 7"
+   ],
+   [
+    409,
+    "Practice Question 8"
+   ],
+   [
+    451,
+    "Practice Question 9"
+   ]
+  ]
+ },
+ "X8luLk82jOs": {
+  "course": "kcna",
+  "key": "06-Networking-and-Service-Mesh-part-1",
+  "title": "KCNA Exam Prep Module 6 Part 1 of 2: Kubernetes Networking, Services, CoreDNS and Ingress",
+  "seconds": 477,
+  "published": "2026-11-01T09:32:19Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Harbor Books Connects Its Parts"
+   ],
+   [
+    55,
+    "The Kubernetes Network Model"
+   ],
+   [
+    100,
+    "CNI and Network Plugins"
+   ],
+   [
+    146,
+    "Services: A Stable Address for Pods"
+   ],
+   [
+    180,
+    "Service Types"
+   ],
+   [
+    228,
+    "A Service Manifest"
+   ],
+   [
+    258,
+    "EndpointSlices and kube-proxy"
+   ],
+   [
+    301,
+    "DNS, CoreDNS and Service Discovery"
+   ],
+   [
+    347,
+    "Ingress: HTTP Routes into the Cluster"
+   ],
+   [
+    385,
+    "Gateway API and the Ingress NGINX Retirement"
+   ],
+   [
+    443,
+    "LoadBalancer Without a Cloud: MetalLB"
+   ]
+  ]
+ },
+ "awV9RTe0Lmg": {
+  "course": "kcna",
+  "key": "06-Networking-and-Service-Mesh-part-2",
+  "title": "KCNA Exam Prep Module 6 Part 2 of 2: NetworkPolicy, Service Mesh and Practice Questions",
+  "seconds": 590,
+  "published": "2026-11-01T09:32:55Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "NetworkPolicy: Rules for Pod Traffic"
+   ],
+   [
+    41,
+    "Service Mesh: Sidecar and Sidecarless"
+   ],
+   [
+    82,
+    "What the Exam Asks: Networking"
+   ],
+   [
+    176,
+    "Practice Question 1"
+   ],
+   [
+    212,
+    "Practice Question 2"
+   ],
+   [
+    257,
+    "Practice Question 3"
+   ],
+   [
+    301,
+    "Practice Question 4"
+   ],
+   [
+    343,
+    "Practice Question 5"
+   ],
+   [
+    385,
+    "Practice Question 6"
+   ],
+   [
+    422,
+    "Practice Question 7"
+   ],
+   [
+    458,
+    "Practice Question 8"
+   ],
+   [
+    501,
+    "Practice Question 9"
+   ]
+  ]
+ },
+ "piiN4Ywh2Ew": {
+  "course": "kcna",
+  "key": "07-Storage-part-1",
+  "title": "KCNA Exam Prep Module 7: Kubernetes Storage, PersistentVolume, StorageClass and CSI",
+  "seconds": 722,
+  "published": "2026-11-01T09:33:30Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Harbor Books Keeps Its Data"
+   ],
+   [
+    55,
+    "Volumes: Ephemeral and Persistent"
+   ],
+   [
+    96,
+    "Common Volume Types"
+   ],
+   [
+    148,
+    "PersistentVolume and PersistentVolumeClaim"
+   ],
+   [
+    192,
+    "Using a Claim"
+   ],
+   [
+    220,
+    "StorageClass and Dynamic Provisioning"
+   ],
+   [
+    263,
+    "Access Modes and Reclaim Policy"
+   ],
+   [
+    313,
+    "CSI, Expansion and Snapshots"
+   ],
+   [
+    355,
+    "StatefulSet Storage and Storage Types"
+   ],
+   [
+    444,
+    "Practice Question 1"
+   ],
+   [
+    489,
+    "Practice Question 2"
+   ],
+   [
+    534,
+    "Practice Question 3"
+   ],
+   [
+    575,
+    "Practice Question 4"
+   ],
+   [
+    610,
+    "Practice Question 5"
+   ],
+   [
+    650,
+    "Practice Question 6"
+   ]
+  ]
+ },
+ "ydwN7JjZAKo": {
+  "course": "kcna",
+  "key": "08-Security-part-1",
+  "title": "KCNA Exam Prep Module 8 Part 1 of 2: Kubernetes Security, RBAC and Pod Security Standards",
+  "seconds": 432,
+  "published": "2026-11-01T09:33:35Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Harbor Books Locks the Doors"
+   ],
+   [
+    54,
+    "Security Through the Lifecycle"
+   ],
+   [
+    96,
+    "The 4 Cs of Cloud Native Security"
+   ],
+   [
+    128,
+    "The API Request Path"
+   ],
+   [
+    172,
+    "RBAC: Roles and Bindings"
+   ],
+   [
+    215,
+    "An RBAC Role"
+   ],
+   [
+    249,
+    "ServiceAccounts"
+   ],
+   [
+    294,
+    "Admission Control and Policy Engines"
+   ],
+   [
+    345,
+    "Pod Security Standards and Admission"
+   ],
+   [
+    392,
+    "securityContext"
+   ]
+  ]
+ },
+ "pa7NmSA8QSE": {
+  "course": "kcna",
+  "key": "08-Security-part-2",
+  "title": "KCNA Exam Prep Module 8 Part 2 of 2: Supply Chain Security, Runtime Security and Practice",
+  "seconds": 606,
+  "published": "2026-11-01T09:34:01Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Protecting Secrets and Traffic"
+   ],
+   [
+    42,
+    "Image Supply Chain Security"
+   ],
+   [
+    82,
+    "Runtime Security and Auditing"
+   ],
+   [
+    118,
+    "What the Exam Asks: Security"
+   ],
+   [
+    212,
+    "Practice Question 1"
+   ],
+   [
+    250,
+    "Practice Question 2"
+   ],
+   [
+    289,
+    "Practice Question 3"
+   ],
+   [
+    330,
+    "Practice Question 4"
+   ],
+   [
+    368,
+    "Practice Question 5"
+   ],
+   [
+    409,
+    "Practice Question 6"
+   ],
+   [
+    445,
+    "Practice Question 7"
+   ],
+   [
+    478,
+    "Practice Question 8"
+   ],
+   [
+    522,
+    "Practice Question 9"
+   ]
+  ]
+ },
+ "sOhUAR4nmfM": {
+  "course": "kcna",
+  "key": "09-Troubleshooting-Kubernetes-part-1",
+  "title": "KCNA Exam Prep Module 9: Kubernetes Troubleshooting, Pod States, Nodes and Services",
+  "seconds": 668,
+  "published": "2026-11-01T09:34:22Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Harbor Books Has a Bad Morning"
+   ],
+   [
+    55,
+    "A Symptom-to-Layer Method"
+   ],
+   [
+    99,
+    "kubectl Tools for Troubleshooting"
+   ],
+   [
+    135,
+    "Pod States and What They Mean"
+   ],
+   [
+    182,
+    "Pending in Detail"
+   ],
+   [
+    219,
+    "NotReady Nodes and Component Logs"
+   ],
+   [
+    262,
+    "A Service With No Endpoints, and DNS Failures"
+   ],
+   [
+    302,
+    "Quota and RBAC Denials"
+   ],
+   [
+    344,
+    "What the Exam Asks: Troubleshooting"
+   ],
+   [
+    426,
+    "Practice Question 1"
+   ],
+   [
+    465,
+    "Practice Question 2"
+   ],
+   [
+    510,
+    "Practice Question 3"
+   ],
+   [
+    549,
+    "Practice Question 4"
+   ],
+   [
+    595,
+    "Practice Question 5"
+   ]
+  ]
+ },
+ "_X3vUhGEdhM": {
+  "course": "kcna",
+  "key": "10-Application-Delivery-GitOps-part-1",
+  "title": "KCNA Exam Prep Module 10 Part 1 of 2: CI/CD, GitOps, Argo CD, Canary Releases and Helm",
+  "seconds": 401,
+  "published": "2026-11-01T09:34:40Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Harbor Books Ships Every Week"
+   ],
+   [
+    59,
+    "CI, Continuous Delivery and Continuous Deployment"
+   ],
+   [
+    100,
+    "Registry, Tags and Digests"
+   ],
+   [
+    134,
+    "GitOps: The Four Principles"
+   ],
+   [
+    173,
+    "Pull, Drift and Reconciliation"
+   ],
+   [
+    211,
+    "Argo CD and Flux"
+   ],
+   [
+    253,
+    "Recreate, Rolling and Blue/Green"
+   ],
+   [
+    290,
+    "Canary, A/B and Shadow Releases"
+   ],
+   [
+    327,
+    "Progressive Delivery with Argo Rollouts"
+   ],
+   [
+    366,
+    "Helm: Charts, Releases and Values"
+   ]
+  ]
+ },
+ "ArWKCyPxtME": {
+  "course": "kcna",
+  "key": "10-Application-Delivery-GitOps-part-2",
+  "title": "KCNA Exam Prep Module 10 Part 2 of 2: Helm, Kustomize, Rollback and Practice Questions",
+  "seconds": 632,
+  "published": "2026-11-01T09:35:10Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Helm in Practice"
+   ],
+   [
+    38,
+    "Kustomize: Bases and Overlays"
+   ],
+   [
+    72,
+    "Promotion, Rollback and Infrastructure as Code"
+   ],
+   [
+    109,
+    "What the Exam Asks: Application Delivery"
+   ],
+   [
+    193,
+    "Practice Question 1"
+   ],
+   [
+    233,
+    "Practice Question 2"
+   ],
+   [
+    275,
+    "Practice Question 3"
+   ],
+   [
+    309,
+    "Practice Question 4"
+   ],
+   [
+    344,
+    "Practice Question 5"
+   ],
+   [
+    384,
+    "Practice Question 6"
+   ],
+   [
+    421,
+    "Practice Question 7"
+   ],
+   [
+    465,
+    "Practice Question 8"
+   ],
+   [
+    502,
+    "Practice Question 9"
+   ],
+   [
+    541,
+    "Practice Question 10"
+   ]
+  ]
+ },
+ "QqDsH0vqUPo": {
+  "course": "kcna",
+  "key": "11-Debugging-Applications-part-1",
+  "title": "KCNA Exam Prep Module 11: Debugging Kubernetes Applications, Rollouts, OOMKilled and Probes",
+  "seconds": 696,
+  "published": "2026-11-01T09:35:36Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: A Harbor Books Release Sticks"
+   ],
+   [
+    60,
+    "Stuck and Failed Rollouts"
+   ],
+   [
+    101,
+    "Probes That Misbehave"
+   ],
+   [
+    136,
+    "Image, ConfigMap and Secret Errors"
+   ],
+   [
+    176,
+    "Looking Inside a Running Application"
+   ],
+   [
+    211,
+    "Resource Problems: OOMKilled and Throttling"
+   ],
+   [
+    250,
+    "Helm and GitOps Failures"
+   ],
+   [
+    290,
+    "Application Fault or Platform Fault?"
+   ],
+   [
+    370,
+    "Practice Question 1"
+   ],
+   [
+    409,
+    "Practice Question 2"
+   ],
+   [
+    449,
+    "Practice Question 3"
+   ],
+   [
+    489,
+    "Practice Question 4"
+   ],
+   [
+    529,
+    "Practice Question 5"
+   ],
+   [
+    570,
+    "Practice Question 6"
+   ],
+   [
+    616,
+    "Practice Question 7"
+   ]
+  ]
+ },
+ "2p6B4tulCeg": {
+  "course": "kcna",
+  "key": "12-Cloud-Native-Architecture-part-1",
+  "title": "KCNA Exam Prep Module 12: Cloud Native Architecture, Microservices, Serverless and Personas",
+  "seconds": 650,
+  "published": "2026-11-01T09:36:04Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Harbor Books Rethinks Its Design"
+   ],
+   [
+    65,
+    "The CNCF Cloud Native Definition"
+   ],
+   [
+    111,
+    "Monolith versus Microservices"
+   ],
+   [
+    151,
+    "Twelve-Factor Ideas and Resilience"
+   ],
+   [
+    202,
+    "Serverless, Functions and Event-Driven Design"
+   ],
+   [
+    246,
+    "Open Standards and Portability"
+   ],
+   [
+    285,
+    "Personas and Platform Engineering"
+   ],
+   [
+    337,
+    "What the Exam Asks: Cloud Native Architecture"
+   ],
+   [
+    424,
+    "Practice Question 1"
+   ],
+   [
+    464,
+    "Practice Question 2"
+   ],
+   [
+    501,
+    "Practice Question 3"
+   ],
+   [
+    542,
+    "Practice Question 4"
+   ],
+   [
+    577,
+    "Practice Question 5"
+   ]
+  ]
+ },
+ "dsmny0nlfPM": {
+  "course": "kcna",
+  "key": "13-Observability-part-1",
+  "title": "KCNA Exam Prep Module 13: Observability, Prometheus, OpenTelemetry, SLOs and FinOps",
+  "seconds": 616,
+  "published": "2026-11-01T09:36:26Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Harbor Books Wants to See Checkout"
+   ],
+   [
+    58,
+    "Monitoring, Observability and the Three Signals"
+   ],
+   [
+    97,
+    "OpenTelemetry: API, SDK and Collector"
+   ],
+   [
+    139,
+    "Prometheus: Pull, Exporters and PromQL"
+   ],
+   [
+    187,
+    "Alerting and the Tool Landscape"
+   ],
+   [
+    228,
+    "SLI, SLO, SLA and Error Budgets"
+   ],
+   [
+    271,
+    "Kubernetes Signals"
+   ],
+   [
+    311,
+    "Cost Management and FinOps"
+   ],
+   [
+    399,
+    "Practice Question 1"
+   ],
+   [
+    437,
+    "Practice Question 2"
+   ],
+   [
+    475,
+    "Practice Question 3"
+   ],
+   [
+    512,
+    "Practice Question 4"
+   ],
+   [
+    553,
+    "Practice Question 5"
+   ]
+  ]
+ },
+ "_Og6ZyUsah4": {
+  "course": "kcna",
+  "key": "14-Ecosystem-and-Community-part-1",
+  "title": "KCNA Exam Prep Module 14: CNCF, Project Maturity, SIGs and the Kubernetes Community",
+  "seconds": 457,
+  "published": "2026-11-01T09:36:33Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Harbor Books Joins the Community"
+   ],
+   [
+    63,
+    "The CNCF and Its Bodies"
+   ],
+   [
+    112,
+    "Project Maturity and the Landscape"
+   ],
+   [
+    163,
+    "The Kubernetes Community"
+   ],
+   [
+    213,
+    "From the KCNA to the Next Exams"
+   ],
+   [
+    313,
+    "Practice Question 1"
+   ],
+   [
+    353,
+    "Practice Question 2"
+   ],
+   [
+    396,
+    "Practice Question 3"
+   ]
+  ]
+ },
+ "Lkbld_qHMGA": {
+  "course": "kcna",
+  "key": "15-Quick-Reference-Recap-part-1",
+  "title": "KCNA Exam Prep Module 15: Quick Reference Recap and Key Terms for the Whole Course | Kubernetes Exam",
+  "seconds": 530,
+  "published": "2026-11-01T09:37:08Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Cluster Components and Their Jobs"
+   ],
+   [
+    71,
+    "Which Object Do I Use?"
+   ],
+   [
+    114,
+    "Levers for Services, Storage and Scheduling"
+   ],
+   [
+    163,
+    "Security Layers and Controls"
+   ],
+   [
+    204,
+    "Probes, Release Strategies and Signals"
+   ],
+   [
+    246,
+    "CNCF Projects and Their Jobs"
+   ],
+   [
+    288,
+    "More Projects and Their Jobs"
+   ],
+   [
+    334,
+    "Old and New Names"
+   ],
+   [
+    387,
+    "Key Terms in One Line"
+   ],
+   [
+    440,
+    "More Key Terms in One Line"
+   ]
+  ]
+ },
+ "l0pAk0hOij4": {
+  "course": "kcna",
+  "key": "16-Exam-Technique-part-1",
+  "title": "KCNA Exam Prep Module 16: Exam Technique, Time Management and Final Week Checklist | Kubernetes Exam",
+  "seconds": 411,
+  "published": "2026-11-01T09:37:21Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Time: About 90 Seconds a Question"
+   ],
+   [
+    64,
+    "Reading a Stem"
+   ],
+   [
+    97,
+    "Most Appropriate, Least and NOT"
+   ],
+   [
+    137,
+    "Look-Alike Traps"
+   ],
+   [
+    176,
+    "Eliminating Options"
+   ],
+   [
+    212,
+    "Flag and Review"
+   ],
+   [
+    256,
+    "Old Names in Older Material"
+   ],
+   [
+    297,
+    "Exam Day: Rules and Setup"
+   ],
+   [
+    342,
+    "Final Week Checklist"
+   ]
+  ]
+ },
+ "m3Yxv1hSxVI": {
+  "course": "aigp",
+  "key": "00-Course-Introduction-part-1",
+  "title": "AIGP Exam Prep Introduction: Course Introduction and Exam Orientation | AI Governance Professional",
+  "seconds": 513,
+  "published": "2026-10-27T18:38:20Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Meet Helios"
+   ],
+   [
+    103,
+    "The Exam at a Glance"
+   ],
+   [
+    140,
+    "One Answer or Several: The Question Formats"
+   ],
+   [
+    183,
+    "Scoring and Results"
+   ],
+   [
+    229,
+    "Booking, Taking and Keeping the Credential"
+   ],
+   [
+    282,
+    "The Body of Knowledge Is Your Scope"
+   ],
+   [
+    328,
+    "Four Domains, Thirteen Competencies"
+   ],
+   [
+    380,
+    "How the Verbs Set the Depth"
+   ],
+   [
+    421,
+    "How This Course Works"
+   ],
+   [
+    466,
+    "Your Study Plan and Ground Rules"
+   ]
+  ]
+ },
+ "5HTQoBZfBKI": {
+  "course": "aigp",
+  "key": "01-AI-Foundations-Harms-Principles-part-1",
+  "title": "AIGP Exam Prep Module 1 Part 1 of 2: What AI is, what can go wrong, and why governance differs",
+  "seconds": 573,
+  "published": "2026-10-27T18:38:44Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Two Kinds of AI at Helios"
+   ],
+   [
+    78,
+    "Defining AI: Four Sources, One Core"
+   ],
+   [
+    129,
+    "Types of AI: Nested Families"
+   ],
+   [
+    163,
+    "How Machines Learn: Three Approaches"
+   ],
+   [
+    199,
+    "Predictive, Generative and Agentic AI"
+   ],
+   [
+    238,
+    "AI Model, AI System, General-Purpose AI"
+   ],
+   [
+    281,
+    "The AI Life Cycle Frames the Whole Exam"
+   ],
+   [
+    316,
+    "Who Gets Hurt: People, Groups, Organizations, Society"
+   ],
+   [
+    360,
+    "Types of Risk: Misalignment, Ethics and Bias, Complexity and Scale"
+   ],
+   [
+    400,
+    "Generative AI Adds Its Own Risks"
+   ],
+   [
+    446,
+    "Why AI Needs Its Own Governance Approach"
+   ],
+   [
+    483,
+    "Seven Characteristics That Change Governance"
+   ],
+   [
+    527,
+    "From Characteristic to Governance Response"
+   ]
+  ]
+ },
+ "lEVE-8rFCXo": {
+  "course": "aigp",
+  "key": "01-AI-Foundations-Harms-Principles-part-2",
+  "title": "AIGP Exam Prep Module 1 Part 2 of 2: The principles of responsible AI, recap and practice",
+  "seconds": 508,
+  "published": "2026-10-27T18:39:05Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Responsible AI: The Common Principles"
+   ],
+   [
+    48,
+    "Fairness and the Kinds of Bias"
+   ],
+   [
+    88,
+    "Safety, Reliability, Privacy and Security"
+   ],
+   [
+    128,
+    "Transparency, Explainability and Interpretability"
+   ],
+   [
+    168,
+    "Accountability and Human-Centricity"
+   ],
+   [
+    210,
+    "When Principles Pull Apart: Trade-offs"
+   ],
+   [
+    289,
+    "Practice Question 1"
+   ],
+   [
+    326,
+    "Practice Question 2"
+   ],
+   [
+    370,
+    "Practice Question 3"
+   ],
+   [
+    409,
+    "Practice Question 4"
+   ],
+   [
+    449,
+    "Practice Question 5"
+   ]
+  ]
+ },
+ "jHkcP3RBTzA": {
+  "course": "aigp",
+  "key": "02-Governance-Roles-Training-Approaches-part-1",
+  "title": "AIGP Exam Prep Module 2 Part 1 of 2: Roles, collaboration and training | AI Governance Professional",
+  "seconds": 446,
+  "published": "2026-10-27T18:39:33Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Who Owns What at Helios?"
+   ],
+   [
+    80,
+    "Who Does What in AI Governance"
+   ],
+   [
+    120,
+    "The Three Lines Applied to AI"
+   ],
+   [
+    161,
+    "What Legal, Privacy, Security, Risk and HR Each Bring"
+   ],
+   [
+    201,
+    "Accountability in Writing"
+   ],
+   [
+    245,
+    "Cross-Functional Collaboration"
+   ],
+   [
+    282,
+    "A Range of Expertise and Viewpoints"
+   ],
+   [
+    322,
+    "Training and Awareness: Who Needs What"
+   ],
+   [
+    359,
+    "The AI Literacy Duty in the EU AI Act"
+   ],
+   [
+    406,
+    "Building a Training Program That Works"
+   ]
+  ]
+ },
+ "7pzRffdEzIE": {
+  "course": "aigp",
+  "key": "02-Governance-Roles-Training-Approaches-part-2",
+  "title": "AIGP Exam Prep Module 2 Part 2 of 2: Fitting the approach and the actors",
+  "seconds": 520,
+  "published": "2026-10-27T18:39:53Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Fitting the Approach to the Organization"
+   ],
+   [
+    40,
+    "Governance Operating Models"
+   ],
+   [
+    81,
+    "The Actors in the AI Chain"
+   ],
+   [
+    121,
+    "The AI Act's Names for the Roles"
+   ],
+   [
+    164,
+    "Responsibilities, Opportunities and Needs by Role"
+   ],
+   [
+    241,
+    "Practice Question 1"
+   ],
+   [
+    280,
+    "Practice Question 2"
+   ],
+   [
+    317,
+    "Practice Question 3"
+   ],
+   [
+    364,
+    "Practice Question 4"
+   ],
+   [
+    408,
+    "Practice Question 5"
+   ],
+   [
+    451,
+    "Practice Question 6"
+   ]
+  ]
+ },
+ "kpEc9Xeoiug": {
+  "course": "aigp",
+  "key": "03-Policies-Across-the-Life-Cycle-part-1",
+  "title": "AIGP Exam Prep Module 3 Part 1 of 2: Policies for each life-cycle stage and for existing policies",
+  "seconds": 468,
+  "published": "2026-10-27T18:40:03Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: 47 AI Uses, 9 Unregistered"
+   ],
+   [
+    71,
+    "Policy, Standard, Procedure: The Governance Stack"
+   ],
+   [
+    106,
+    "Policies Stage by Stage"
+   ],
+   [
+    149,
+    "Intake and Use-Case Assessment"
+   ],
+   [
+    187,
+    "Risk Management and Ethics by Design"
+   ],
+   [
+    225,
+    "Data, Development, Training and Testing Policies"
+   ],
+   [
+    267,
+    "Release, Monitoring, Records and Incidents"
+   ],
+   [
+    306,
+    "The AI Inventory and Shadow AI"
+   ],
+   [
+    350,
+    "Reviewing Existing Policies for AI"
+   ],
+   [
+    389,
+    "Updating Privacy and Security Policies for AI"
+   ],
+   [
+    429,
+    "Updating Data Governance and IP Policies for AI"
+   ]
+  ]
+ },
+ "Blak-QL03Dg": {
+  "course": "aigp",
+  "key": "03-Policies-Across-the-Life-Cycle-part-2",
+  "title": "AIGP Exam Prep Module 3 Part 2 of 2: Third-party risk, recap and practice",
+  "seconds": 572,
+  "published": "2026-10-27T18:40:36Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Why Third-Party AI Risk Is Different"
+   ],
+   [
+    39,
+    "Third-Party Due Diligence and Assessments"
+   ],
+   [
+    76,
+    "Procurement and Supply Chain Policies"
+   ],
+   [
+    112,
+    "AI Contract Terms"
+   ],
+   [
+    160,
+    "HR and Acceptable Use Policies"
+   ],
+   [
+    199,
+    "Keeping Third-Party Risk Under Control"
+   ],
+   [
+    268,
+    "Practice Question 1"
+   ],
+   [
+    309,
+    "Practice Question 2"
+   ],
+   [
+    353,
+    "Practice Question 3"
+   ],
+   [
+    391,
+    "Practice Question 4"
+   ],
+   [
+    432,
+    "Practice Question 5"
+   ],
+   [
+    469,
+    "Practice Question 6"
+   ],
+   [
+    510,
+    "Practice Question 7"
+   ]
+  ]
+ },
+ "yliVL1y7e7I": {
+  "course": "aigp",
+  "key": "04-Privacy-Laws-Applied-to-AI-part-1",
+  "title": "AIGP Exam Prep Module 4 Part 1 of 2: Notice, choice, lawful basis, purpose and minimization",
+  "seconds": 460,
+  "published": "2026-10-27T18:40:47Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: An Applicant Asks What Helios Holds"
+   ],
+   [
+    75,
+    "Why Privacy Law Reaches AI"
+   ],
+   [
+    121,
+    "Transparency and Notice for AI"
+   ],
+   [
+    163,
+    "Choice, Consent and the Lawful Basis"
+   ],
+   [
+    214,
+    "Purpose Limitation and Reuse of Data"
+   ],
+   [
+    256,
+    "What the Exam Asks: Notice, Choice, Basis, Purpose"
+   ],
+   [
+    298,
+    "Data Minimization in AI Systems"
+   ],
+   [
+    335,
+    "Privacy by Design and by Default"
+   ],
+   [
+    382,
+    "The Tension: Data-Hungry Models and Minimization"
+   ],
+   [
+    415,
+    "Controller, Processor and Joint Controller in AI"
+   ]
+  ]
+ },
+ "Mf4qKanaPhw": {
+  "course": "aigp",
+  "key": "04-Privacy-Laws-Applied-to-AI-part-2",
+  "title": "AIGP Exam Prep Module 4 Part 2 of 2: Controller duties, sensitive data, recap and practice",
+  "seconds": 647,
+  "published": "2026-10-27T18:41:13Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Impact Assessments: DPIA and Its Relatives"
+   ],
+   [
+    50,
+    "Third-Party Processors and Sub-Processors"
+   ],
+   [
+    92,
+    "Cross-Border Transfers"
+   ],
+   [
+    141,
+    "Data Subject Rights Applied to AI"
+   ],
+   [
+    191,
+    "Automated Decision-Making: Article 22 and the SCHUFA Ruling"
+   ],
+   [
+    238,
+    "Incidents, Breach Notification and Records"
+   ],
+   [
+    282,
+    "Sensitive and Special-Category Data"
+   ],
+   [
+    329,
+    "Biometrics, Children and Other High-Risk Data"
+   ],
+   [
+    414,
+    "Practice Question 1"
+   ],
+   [
+    454,
+    "Practice Question 2"
+   ],
+   [
+    497,
+    "Practice Question 3"
+   ],
+   [
+    535,
+    "Practice Question 4"
+   ],
+   [
+    585,
+    "Practice Question 5"
+   ]
+  ]
+ },
+ "cXT9Z38ijl0": {
+  "course": "aigp",
+  "key": "05-Other-Existing-Laws-Applied-to-AI-part-1",
+  "title": "AIGP Exam Prep Module 5 Part 1 of 2: Intellectual property and discrimination law",
+  "seconds": 450,
+  "published": "2026-10-27T18:41:24Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Training Data, Hiring Results and a Marketing Claim"
+   ],
+   [
+    78,
+    "How Intellectual Property Law Meets AI"
+   ],
+   [
+    117,
+    "Training Data: Copyright, Mining Exceptions and Opt-Outs"
+   ],
+   [
+    158,
+    "Outputs: Who Owns What AI Makes?"
+   ],
+   [
+    201,
+    "Licenses, Trade Secrets and Confidentiality"
+   ],
+   [
+    245,
+    "Where the Courts Stand"
+   ],
+   [
+    285,
+    "Two Theories of Discrimination"
+   ],
+   [
+    327,
+    "Measuring Adverse Impact: The Four-Fifths Rule"
+   ],
+   [
+    366,
+    "Employment: Screening Tools and the Vendor's Role"
+   ],
+   [
+    406,
+    "Credit, Lending, Housing and Insurance"
+   ]
+  ]
+ },
+ "i5EaASSgkHw": {
+  "course": "aigp",
+  "key": "05-Other-Existing-Laws-Applied-to-AI-part-2",
+  "title": "AIGP Exam Prep Module 5 Part 2 of 2: Consumer protection, product liability, recap and practice",
+  "seconds": 581,
+  "published": "2026-10-27T18:41:55Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Nondiscrimination Beyond the US, and Managing the Risk"
+   ],
+   [
+    39,
+    "Unfair and Deceptive Practices: Section 5 and State Laws"
+   ],
+   [
+    79,
+    "AI Washing and Claims About AI"
+   ],
+   [
+    119,
+    "Chatbots, Dark Patterns and Data Practices"
+   ],
+   [
+    158,
+    "Product Liability Basics: Three Kinds of Defect"
+   ],
+   [
+    199,
+    "AI Examples of Each Defect"
+   ],
+   [
+    237,
+    "The New EU Product Liability Directive"
+   ],
+   [
+    282,
+    "Liability Beyond Defects: The Withdrawn AI Liability Proposal"
+   ],
+   [
+    355,
+    "Practice Question 1"
+   ],
+   [
+    400,
+    "Practice Question 2"
+   ],
+   [
+    440,
+    "Practice Question 3"
+   ],
+   [
+    480,
+    "Practice Question 4"
+   ],
+   [
+    521,
+    "Practice Question 5"
+   ]
+  ]
+ },
+ "BjrUitlqXlw": {
+  "course": "aigp",
+  "key": "06-AI-Specific-Laws-part-1",
+  "title": "AIGP Exam Prep Module 6 Part 1 of 3: The EU AI Act: scope and risk classes",
+  "seconds": 483,
+  "published": "2026-10-27T18:42:16Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Which Helios System Is Regulated, and How?"
+   ],
+   [
+    82,
+    "The EU AI Act at a Glance: Reach and Scope"
+   ],
+   [
+    127,
+    "Key Definitions That Decide Scope"
+   ],
+   [
+    170,
+    "The Four Risk Classes"
+   ],
+   [
+    206,
+    "Prohibited Practices"
+   ],
+   [
+    261,
+    "High-Risk, Route One: Product Safety (Annex I)"
+   ],
+   [
+    301,
+    "High-Risk, Route Two: The Annex III Areas"
+   ],
+   [
+    352,
+    "Is It High-Risk? The Article 6(3) Filter"
+   ],
+   [
+    404,
+    "Limited and Minimal Risk, and General-Purpose Models"
+   ],
+   [
+    441,
+    "Applying the Classes to Helios"
+   ]
+  ]
+ },
+ "XLaoYciLDjY": {
+  "course": "aigp",
+  "key": "06-AI-Specific-Laws-part-2",
+  "title": "AIGP Exam Prep Module 6 Part 2 of 3: Requirements, roles, general-purpose models and enforcement",
+  "seconds": 749,
+  "published": "2026-10-27T18:42:57Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "The High-Risk Requirements at a Glance"
+   ],
+   [
+    45,
+    "Risk Management System (Article 9)"
+   ],
+   [
+    87,
+    "Data and Data Governance (Article 10)"
+   ],
+   [
+    137,
+    "Technical Documentation and Record-Keeping (Articles 11 and 12)"
+   ],
+   [
+    181,
+    "Transparency to Deployers and Accuracy, Robustness, Cybersecurity (Articles 13 and 15)"
+   ],
+   [
+    229,
+    "Conformity Assessment, Declaration, CE Marking and Registration"
+   ],
+   [
+    272,
+    "Fundamental Rights Impact Assessment (Article 27)"
+   ],
+   [
+    317,
+    "Post-Market Monitoring and Serious Incident Reporting (Articles 72 and 73)"
+   ],
+   [
+    360,
+    "Human Oversight (Article 14)"
+   ],
+   [
+    400,
+    "Transparency and Notification Duties (Article 50)"
+   ],
+   [
+    445,
+    "Quality Management System (Article 17)"
+   ],
+   [
+    486,
+    "General-Purpose AI Models: Obligations of All Providers"
+   ],
+   [
+    528,
+    "Models With Systemic Risk (Articles 51 and 55)"
+   ],
+   [
+    569,
+    "Codes of Practice, Open Source and the Provider Chain"
+   ],
+   [
+    611,
+    "Governance and Who Enforces"
+   ],
+   [
+    653,
+    "Penalties"
+   ],
+   [
+    701,
+    "The Timeline"
+   ]
+  ]
+ },
+ "F29AVZt3hDI": {
+  "course": "aigp",
+  "key": "06-AI-Specific-Laws-part-3",
+  "title": "AIGP Exam Prep Module 6 Part 3 of 3: Duties by role, other jurisdictions, recap and practice",
+  "seconds": 698,
+  "published": "2026-10-27T18:43:29Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Duties by Role: Providers, Importers, Distributors, Authorized Representatives"
+   ],
+   [
+    45,
+    "Deployer Duties and When a Role Changes"
+   ],
+   [
+    97,
+    "South Korea: The AI Basic Act"
+   ],
+   [
+    140,
+    "The US Federal Position"
+   ],
+   [
+    192,
+    "US State and Local AI Laws"
+   ],
+   [
+    242,
+    "Other Jurisdictions: Approaches Compared"
+   ],
+   [
+    291,
+    "Which Instrument Applies? A Decision Aid"
+   ],
+   [
+    383,
+    "Practice Question 1"
+   ],
+   [
+    424,
+    "Practice Question 2"
+   ],
+   [
+    467,
+    "Practice Question 3"
+   ],
+   [
+    505,
+    "Practice Question 4"
+   ],
+   [
+    548,
+    "Practice Question 5"
+   ],
+   [
+    587,
+    "Practice Question 6"
+   ],
+   [
+    626,
+    "Practice Question 7"
+   ]
+  ]
+ },
+ "oEK1E3HKNIE": {
+  "course": "aigp",
+  "key": "07-Standards-and-Frameworks-part-1",
+  "title": "AIGP Exam Prep Module 7 Part 1 of 2: The OECD principles and the NIST AI RMF core",
+  "seconds": 453,
+  "published": "2026-10-27T18:43:23Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: One Stack for Helios"
+   ],
+   [
+    77,
+    "The OECD AI Principles: Origin and Role"
+   ],
+   [
+    115,
+    "The Five Values-Based Principles"
+   ],
+   [
+    161,
+    "Recommendations for Policy-Makers"
+   ],
+   [
+    201,
+    "The OECD Framework and Recommended Practices"
+   ],
+   [
+    242,
+    "The NIST AI RMF at a Glance"
+   ],
+   [
+    286,
+    "The Seven Trustworthy Characteristics"
+   ],
+   [
+    322,
+    "The Core: Four Functions"
+   ],
+   [
+    361,
+    "GOVERN: Culture, Accountability and Policy"
+   ],
+   [
+    408,
+    "MAP: Context and Impacts"
+   ]
+  ]
+ },
+ "9eIYK0-WM5g": {
+  "course": "aigp",
+  "key": "07-Standards-and-Frameworks-part-2",
+  "title": "AIGP Exam Prep Module 7 Part 2 of 2: The rest of NIST, the ISO standards, recap and practice",
+  "seconds": 579,
+  "published": "2026-10-27T18:44:07Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "MEASURE: Metrics, Testing and Tracking"
+   ],
+   [
+    45,
+    "MANAGE: Prioritize, Respond and Recover"
+   ],
+   [
+    92,
+    "The Playbook, Profiles and the Generative AI Profile"
+   ],
+   [
+    137,
+    "ISO/IEC 22989: A Shared Language"
+   ],
+   [
+    175,
+    "ISO/IEC 42001: The AI Management System"
+   ],
+   [
+    220,
+    "ISO/IEC 42001: Controls and Certification"
+   ],
+   [
+    264,
+    "ISO/IEC 42005: AI System Impact Assessment"
+   ],
+   [
+    305,
+    "Law, Standard, Framework: How They Fit"
+   ],
+   [
+    392,
+    "Practice Question 1"
+   ],
+   [
+    435,
+    "Practice Question 2"
+   ],
+   [
+    478,
+    "Practice Question 3"
+   ],
+   [
+    520,
+    "Practice Question 4"
+   ]
+  ]
+ },
+ "Hsk5FViXrNI": {
+  "course": "aigp",
+  "key": "08-Governing-Design-and-Build-part-1",
+  "title": "AIGP Exam Prep Module 8 Part 1 of 2: Use case, impact assessment and governance by design",
+  "seconds": 540,
+  "published": "2026-10-27T18:44:11Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: A Ratio of 0.68 Before Launch"
+   ],
+   [
+    73,
+    "The Business Context and the Use Case"
+   ],
+   [
+    110,
+    "Is AI the Right Tool?"
+   ],
+   [
+    147,
+    "Approving the Use Case: Gate, Owner and Conditions"
+   ],
+   [
+    182,
+    "Impact Assessments Compared"
+   ],
+   [
+    227,
+    "Performing an AI Impact Assessment"
+   ],
+   [
+    264,
+    "Measuring Impact: The Impact Ratio at Helios"
+   ],
+   [
+    301,
+    "Acting on the Findings"
+   ],
+   [
+    340,
+    "Governance by Design: The Design Stages"
+   ],
+   [
+    378,
+    "Requirements Gathering and Model Selection"
+   ],
+   [
+    418,
+    "Designing Human Oversight"
+   ],
+   [
+    459,
+    "Metrics and Thresholds"
+   ],
+   [
+    503,
+    "Stakeholder Engagement, Feedback and Operational Controls"
+   ]
+  ]
+ },
+ "PB602zyroa0": {
+  "course": "aigp",
+  "key": "08-Governing-Design-and-Build-part-2",
+  "title": "AIGP Exam Prep Module 8 Part 2 of 2: Risks, pilots, documentation, recap and practice",
+  "seconds": 615,
+  "published": "2026-10-27T18:44:37Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Internal and External Risk Factors"
+   ],
+   [
+    32,
+    "The Probability and Severity Harms Matrix"
+   ],
+   [
+    69,
+    "The Risk Mitigation Hierarchy"
+   ],
+   [
+    105,
+    "Stakeholder Mapping, Use-Case Evaluation and Benchmarking"
+   ],
+   [
+    144,
+    "Pre-Deployment Pilots and Testing"
+   ],
+   [
+    185,
+    "Documenting the Design and Build"
+   ],
+   [
+    224,
+    "Documentation for Compliance: Annex IV and Model Records"
+   ],
+   [
+    310,
+    "Practice Question 1"
+   ],
+   [
+    348,
+    "Practice Question 2"
+   ],
+   [
+    388,
+    "Practice Question 3"
+   ],
+   [
+    433,
+    "Practice Question 4"
+   ],
+   [
+    478,
+    "Practice Question 5"
+   ],
+   [
+    515,
+    "Practice Question 6"
+   ],
+   [
+    556,
+    "Practice Question 7"
+   ]
+  ]
+ },
+ "73nLZtA9aKg": {
+  "course": "aigp",
+  "key": "09-Governing-Data-Training-Testing-part-1",
+  "title": "AIGP Exam Prep Module 9 Part 1 of 2: Data governance, lineage and test planning",
+  "seconds": 503,
+  "published": "2026-10-27T18:45:05Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Whose Data Is This?"
+   ],
+   [
+    72,
+    "Data Governance for AI: The Requirements"
+   ],
+   [
+    111,
+    "Lawful Rights to Collect and Use Data"
+   ],
+   [
+    153,
+    "Data Quality: The Five Checks"
+   ],
+   [
+    192,
+    "Quantity, Representativeness and Fit for Purpose"
+   ],
+   [
+    230,
+    "Data Integrity and Protection"
+   ],
+   [
+    267,
+    "Lineage: Where Data Came From and What Happened to It"
+   ],
+   [
+    303,
+    "Provenance: Origin, Rights and Trust"
+   ],
+   [
+    344,
+    "Tools and Documents for Lineage and Provenance"
+   ],
+   [
+    387,
+    "Planning Training and Testing"
+   ],
+   [
+    424,
+    "Data Splits, Overfitting and Leakage"
+   ],
+   [
+    461,
+    "The Test Types, From Units to Interpretability"
+   ]
+  ]
+ },
+ "okihug4yEdQ": {
+  "course": "aigp",
+  "key": "09-Governing-Data-Training-Testing-part-2",
+  "title": "AIGP Exam Prep Module 9 Part 2 of 2: Testing, issues, documentation, recap and practice",
+  "seconds": 667,
+  "published": "2026-10-27T18:45:23Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Bias Testing and Fairness Metrics"
+   ],
+   [
+    47,
+    "Mitigating Bias: Before, During and After Training"
+   ],
+   [
+    92,
+    "Security and Interpretability Testing"
+   ],
+   [
+    136,
+    "Common Issues in Training and Testing"
+   ],
+   [
+    175,
+    "Managing Issues: Log, Triage, Fix, Retest"
+   ],
+   [
+    213,
+    "Risks of Pretrained, Generative and Third-Party Models"
+   ],
+   [
+    251,
+    "Documenting Training and Testing"
+   ],
+   [
+    291,
+    "Model Cards and Test Reports"
+   ],
+   [
+    370,
+    "Practice Question 1"
+   ],
+   [
+    409,
+    "Practice Question 2"
+   ],
+   [
+    451,
+    "Practice Question 3"
+   ],
+   [
+    490,
+    "Practice Question 4"
+   ],
+   [
+    527,
+    "Practice Question 5"
+   ],
+   [
+    571,
+    "Practice Question 6"
+   ],
+   [
+    612,
+    "Practice Question 7"
+   ]
+  ]
+ },
+ "Zq2GryTvIZ8": {
+  "course": "aigp",
+  "key": "10-Governing-Release-Monitoring-part-1",
+  "title": "AIGP Exam Prep Module 10 Part 1 of 2: Release, monitoring, assessments and incidents",
+  "seconds": 768,
+  "published": "2026-10-27T18:45:46Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Release, a Wrong Refund and a Shift in Applicants"
+   ],
+   [
+    82,
+    "Release Readiness: The Gate and the Checklist"
+   ],
+   [
+    120,
+    "The Release Package: Model Card, Instructions and Records"
+   ],
+   [
+    159,
+    "Satisfying Conformity Requirements"
+   ],
+   [
+    197,
+    "Staged Release and Rollback"
+   ],
+   [
+    236,
+    "What to Monitor"
+   ],
+   [
+    277,
+    "Drift: Data, Concept and Model"
+   ],
+   [
+    315,
+    "Maintenance, Updates and Retraining"
+   ],
+   [
+    354,
+    "Monitoring in Practice: Owners, Thresholds, Alerts, Logs"
+   ],
+   [
+    396,
+    "Periodic Assessment: What, How Often, Who"
+   ],
+   [
+    434,
+    "Audits of AI Systems"
+   ],
+   [
+    477,
+    "Red Teaming"
+   ],
+   [
+    517,
+    "Threat Modeling and AI-Specific Attacks"
+   ],
+   [
+    568,
+    "Security Testing, Reliability and Safety Checks"
+   ],
+   [
+    612,
+    "What Counts as an AI Incident"
+   ],
+   [
+    647,
+    "The Incident Response Cycle"
+   ],
+   [
+    686,
+    "Reporting Clocks and Records"
+   ],
+   [
+    725,
+    "Issue and Risk Registers, and Learning"
+   ]
+  ]
+ },
+ "9WgMy_sBoC4": {
+  "course": "aigp",
+  "key": "10-Governing-Release-Monitoring-part-2",
+  "title": "AIGP Exam Prep Module 10 Part 2 of 2: Causes, disclosures, recap and practice",
+  "seconds": 706,
+  "published": "2026-10-27T18:46:22Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Why AI Incidents Arise: Five Causes"
+   ],
+   [
+    40,
+    "Root-Cause Analysis With Cross-Functional Teams"
+   ],
+   [
+    81,
+    "Helios: Two Incidents, Two Root Causes"
+   ],
+   [
+    120,
+    "From Cause to Prevention"
+   ],
+   [
+    160,
+    "Public Disclosures: What, to Whom"
+   ],
+   [
+    202,
+    "Instructions for Use and Technical Documentation"
+   ],
+   [
+    244,
+    "Post-Market Plans, Registration and Public Summaries"
+   ],
+   [
+    334,
+    "Practice Question 1"
+   ],
+   [
+    372,
+    "Practice Question 2"
+   ],
+   [
+    415,
+    "Practice Question 3"
+   ],
+   [
+    455,
+    "Practice Question 4"
+   ],
+   [
+    492,
+    "Practice Question 5"
+   ],
+   [
+    534,
+    "Practice Question 6"
+   ],
+   [
+    571,
+    "Practice Question 7"
+   ],
+   [
+    611,
+    "Practice Question 8"
+   ],
+   [
+    644,
+    "Practice Question 9"
+   ]
+  ]
+ },
+ "4RUnVKBZaRU": {
+  "course": "aigp",
+  "key": "11-Decision-to-Deploy-part-1",
+  "title": "AIGP Exam Prep Module 11 Part 1 of 2: Context and model types | AI Governance Professional",
+  "seconds": 599,
+  "published": "2026-10-27T18:46:43Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Choosing the Assistant's Model and Setup"
+   ],
+   [
+    85,
+    "Start With the Use Case: Five Context Factors"
+   ],
+   [
+    124,
+    "Goals and Performance Needs: What Good Enough Means"
+   ],
+   [
+    165,
+    "Data Availability: Can the Use Case Be Fed?"
+   ],
+   [
+    207,
+    "Ethics and Risk Appetite: Who Is Affected?"
+   ],
+   [
+    245,
+    "Workforce Readiness and the Go or No-Go Decision"
+   ],
+   [
+    286,
+    "Classic and Generative Models"
+   ],
+   [
+    332,
+    "What Generative AI Adds to the Risk List"
+   ],
+   [
+    382,
+    "Proprietary and Open-Source Models"
+   ],
+   [
+    428,
+    "Open Source and the Law"
+   ],
+   [
+    471,
+    "Small and Large Models"
+   ],
+   [
+    512,
+    "Language and Multimodal Models"
+   ],
+   [
+    558,
+    "Matching the Model Type to the Task"
+   ]
+  ]
+ },
+ "I2nGcwIvWmI": {
+  "course": "aigp",
+  "key": "11-Decision-to-Deploy-part-2",
+  "title": "AIGP Exam Prep Module 11 Part 2 of 2: Deployment options and practice | AI Governance Professional",
+  "seconds": 685,
+  "published": "2026-10-27T18:47:11Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Where It Runs: Cloud, On-Premises or Edge"
+   ],
+   [
+    39,
+    "Cloud Deployment: Shared Responsibility and Data Location"
+   ],
+   [
+    83,
+    "On-Premises and Edge: Control, Cost and Maintenance"
+   ],
+   [
+    126,
+    "How the Model Is Used: A Ladder of Adaptation"
+   ],
+   [
+    166,
+    "Using the Model As Is: Prompts, Guardrails and Other Techniques"
+   ],
+   [
+    207,
+    "Fine-Tuning: Benefits, Risks and Role Changes"
+   ],
+   [
+    248,
+    "Retrieval-Augmented Generation: Grounding on Your Documents"
+   ],
+   [
+    288,
+    "Agentic Architectures: Autonomy and Excessive Agency"
+   ],
+   [
+    365,
+    "Practice Question 1"
+   ],
+   [
+    408,
+    "Practice Question 2"
+   ],
+   [
+    454,
+    "Practice Question 3"
+   ],
+   [
+    493,
+    "Practice Question 4"
+   ],
+   [
+    536,
+    "Practice Question 5"
+   ],
+   [
+    578,
+    "Practice Question 6"
+   ],
+   [
+    619,
+    "Practice Question 7"
+   ]
+  ]
+ },
+ "HfPQi32lFe8": {
+  "course": "aigp",
+  "key": "12-Assessing-the-System-part-1",
+  "title": "AIGP Exam Prep Module 12 Part 1 of 2: Impact assessment and vendor agreements",
+  "seconds": 622,
+  "published": "2026-10-27T18:47:39Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: The Chosen Assistant, the Contract and an In-House Idea"
+   ],
+   [
+    72,
+    "Assessing the System You Chose: What Is Different Now"
+   ],
+   [
+    106,
+    "Gathering the Evidence: Provider Documents and Your Own Tests"
+   ],
+   [
+    145,
+    "Deployer Duties That Feed the Assessment"
+   ],
+   [
+    188,
+    "Reviewing an Existing Assessment"
+   ],
+   [
+    229,
+    "Helios: The Impact Assessment on the Chosen Assistant"
+   ],
+   [
+    268,
+    "Why the Contract Is a Governance Control"
+   ],
+   [
+    308,
+    "Data Terms: Use, Ownership, Retention and Location"
+   ],
+   [
+    356,
+    "Intellectual Property: Ownership, Training Data and Indemnity"
+   ],
+   [
+    398,
+    "Security and Confidentiality Terms"
+   ],
+   [
+    441,
+    "Performance, Documentation and Audit Rights"
+   ],
+   [
+    488,
+    "Liability, Indemnities and Insurance"
+   ],
+   [
+    530,
+    "Change, Notice and Exit"
+   ],
+   [
+    576,
+    "Weighing the Terms: Red Flags and a Review Checklist"
+   ]
+  ]
+ },
+ "FTgZl7vO5n8": {
+  "course": "aigp",
+  "key": "12-Assessing-the-System-part-2",
+  "title": "AIGP Exam Prep Module 12 Part 2 of 2: Proprietary models and practice | AI Governance Professional",
+  "seconds": 530,
+  "published": "2026-10-27T18:47:50Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Deploying Your Own Model: What Changes"
+   ],
+   [
+    41,
+    "More Obligations: The Provider's Duties"
+   ],
+   [
+    89,
+    "Higher Potential Liability"
+   ],
+   [
+    134,
+    "Opportunities: Control, Fit and Advantage"
+   ],
+   [
+    173,
+    "Build, Buy or Both: Deciding With Eyes Open"
+   ],
+   [
+    251,
+    "Practice Question 1"
+   ],
+   [
+    294,
+    "Practice Question 2"
+   ],
+   [
+    339,
+    "Practice Question 3"
+   ],
+   [
+    380,
+    "Practice Question 4"
+   ],
+   [
+    422,
+    "Practice Question 5"
+   ],
+   [
+    464,
+    "Practice Question 6"
+   ]
+  ]
+ },
+ "SSbKX8U3-BU": {
+  "course": "aigp",
+  "key": "13-Governing-Deployment-and-Use-part-1",
+  "title": "AIGP Exam Prep Module 13 Part 1 of 3: Governance, monitoring and periodic checks",
+  "seconds": 576,
+  "published": "2026-10-27T18:48:31Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Oversight, a Misused Assistant and a Switched-Off Feature"
+   ],
+   [
+    89,
+    "Deployment Governance: Policies, Procedures and Roles"
+   ],
+   [
+    131,
+    "Data Governance and Risk Management in Use"
+   ],
+   [
+    175,
+    "Issue Management: From Report to Fix"
+   ],
+   [
+    214,
+    "User Training and Acceptable Use"
+   ],
+   [
+    255,
+    "Meaningful Human Oversight and Transparency to Users"
+   ],
+   [
+    298,
+    "What the Deployer Monitors"
+   ],
+   [
+    336,
+    "Maintenance, Updates and Retraining in Use"
+   ],
+   [
+    378,
+    "Feedback and Escalation to the Provider"
+   ],
+   [
+    419,
+    "Periodic Checks: Schedule and Scope"
+   ],
+   [
+    458,
+    "Audits and Reviews in Use"
+   ],
+   [
+    500,
+    "Red Teaming and Security Testing of Your Own Setup"
+   ],
+   [
+    540,
+    "Acting on Findings: Continue, Limit or Suspend"
+   ]
+  ]
+ },
+ "JwO2w_ZWs1w": {
+  "course": "aigp",
+  "key": "13-Governing-Deployment-and-Use-part-2",
+  "title": "AIGP Exam Prep Module 13 Part 2 of 3: Records, unintended uses, communication and deactivation",
+  "seconds": 707,
+  "published": "2026-10-27T18:48:49Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Three Registers: Incidents, Issues and Risks in Use"
+   ],
+   [
+    42,
+    "Logs and Retention"
+   ],
+   [
+    87,
+    "Monitoring Plans: The Provider's Plan and the Deployer's Part"
+   ],
+   [
+    127,
+    "Who Reports What to Whom"
+   ],
+   [
+    173,
+    "Secondary and Unintended Uses"
+   ],
+   [
+    215,
+    "Forecasting Misuse and Downstream Harm"
+   ],
+   [
+    257,
+    "Reducing the Risk: Scope, Access, Monitoring and Training"
+   ],
+   [
+    302,
+    "When Harm Travels Downstream"
+   ],
+   [
+    342,
+    "Who Needs to Hear What"
+   ],
+   [
+    382,
+    "Notices, Explanations and Incident Statements"
+   ],
+   [
+    421,
+    "Running the Plan: Owners, Triggers, Channels and Rehearsal"
+   ],
+   [
+    463,
+    "Why Switch Off or Limit a System: The Triggers"
+   ],
+   [
+    508,
+    "Deactivation Controls: Kill Switch, Pause and Fallback"
+   ],
+   [
+    544,
+    "Localizing a System by Region, Group or Feature"
+   ],
+   [
+    583,
+    "The Deactivation Policy: Authority, Steps and Records"
+   ],
+   [
+    619,
+    "After Deactivation: Retire, Retain and Restart"
+   ]
+  ]
+ },
+ "DVE0f3am0UE": {
+  "course": "aigp",
+  "key": "13-Governing-Deployment-and-Use-part-3",
+  "title": "AIGP Exam Prep Module 13 Part 3 of 3: Practice | AI Governance Professional",
+  "seconds": 440,
+  "published": "2026-10-27T18:49:09Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Practice Question 1"
+   ],
+   [
+    40,
+    "Practice Question 2"
+   ],
+   [
+    84,
+    "Practice Question 3"
+   ],
+   [
+    123,
+    "Practice Question 4"
+   ],
+   [
+    160,
+    "Practice Question 5"
+   ],
+   [
+    197,
+    "Practice Question 6"
+   ],
+   [
+    240,
+    "Practice Question 7"
+   ],
+   [
+    283,
+    "Practice Question 8"
+   ],
+   [
+    325,
+    "Practice Question 9"
+   ],
+   [
+    366,
+    "Practice Question 10"
+   ]
+  ]
+ },
+ "n0nsekBKrBo": {
+  "course": "aigp",
+  "key": "14-Quick-Reference-Recap-part-1",
+  "title": "AIGP Exam Prep Module 14: Quick-Reference Recap | AI Governance Professional",
+  "seconds": 789,
+  "published": "2026-10-27T18:49:46Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "How to Use This Recap"
+   ],
+   [
+    51,
+    "The Exam Map: Four Domains, Thirteen Competencies"
+   ],
+   [
+    94,
+    "Roles by Law"
+   ],
+   [
+    139,
+    "EU AI Act Risk Tiers and What Each Brings"
+   ],
+   [
+    185,
+    "Provider and Deployer Duties Side by Side"
+   ],
+   [
+    233,
+    "Penalties Compared"
+   ],
+   [
+    279,
+    "Timelines at a Glance"
+   ],
+   [
+    328,
+    "Privacy Law and AI Law Compared"
+   ],
+   [
+    369,
+    "NIST, ISO and OECD Compared"
+   ],
+   [
+    416,
+    "The Life Cycle and Where Each Control Sits"
+   ],
+   [
+    462,
+    "Reporting Clocks at a Glance"
+   ],
+   [
+    503,
+    "Glossary 1: Concepts and Risks"
+   ],
+   [
+    582,
+    "Glossary 2: Roles, Law and Assessment"
+   ],
+   [
+    660,
+    "Glossary 3: Frameworks and Practice"
+   ],
+   [
+    736,
+    "Which Instrument Applies? A Decision Aid"
+   ]
+  ]
+ },
+ "_g1xkLq-n1A": {
+  "course": "aigp",
+  "key": "15-Exam-Technique-part-1",
+  "title": "AIGP Exam Prep Module 15 Part 1 of 2: Technique | AI Governance Professional",
+  "seconds": 422,
+  "published": "2026-10-27T18:49:54Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "The Exam in One Page"
+   ],
+   [
+    95,
+    "Pacing: About Ninety-Nine Seconds a Question"
+   ],
+   [
+    135,
+    "Reading a Stem: Five Steps"
+   ],
+   [
+    173,
+    "Scenario Questions: Role, Instrument and Stage"
+   ],
+   [
+    219,
+    "Multi-Select: Exactly N, No Partial Credit"
+   ],
+   [
+    257,
+    "The Verbs Set the Depth: How to Answer"
+   ],
+   [
+    298,
+    "Eliminating Options: Traps That Look Right"
+   ],
+   [
+    338,
+    "Flagging, Changing Answers and the First-Half Rule"
+   ],
+   [
+    375,
+    "Look-Alike Pairs the Course Teaches Apart"
+   ]
+  ]
+ },
+ "VSUAlUx6UB4": {
+  "course": "aigp",
+  "key": "15-Exam-Technique-part-2",
+  "title": "AIGP Exam Prep Module 15 Part 2 of 2: Final review, exam day and a case set",
+  "seconds": 492,
+  "published": "2026-10-27T18:50:16Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Your Final Week: A Plan"
+   ],
+   [
+    44,
+    "Exam Day at a Test Center"
+   ],
+   [
+    85,
+    "Exam Day Online With OnVUE"
+   ],
+   [
+    131,
+    "After the Exam: Results, Breakdown and Next Steps"
+   ],
+   [
+    173,
+    "Final Checklist"
+   ],
+   [
+    214,
+    "Case Set: The Helios Candidate Chat"
+   ],
+   [
+    260,
+    "Practice Question 1"
+   ],
+   [
+    297,
+    "Practice Question 2"
+   ],
+   [
+    339,
+    "Practice Question 3"
+   ],
+   [
+    380,
+    "Practice Question 4"
+   ],
+   [
+    422,
+    "Practice Question 5"
+   ]
+  ]
+ },
+ "yTE9OtaIN9A": {
+  "course": "cdmp",
+  "key": "00-Course-Introduction",
+  "title": "CDMP Associate Masterclass #00 — Course Introduction",
+  "seconds": 912,
+  "published": "2026-06-23T10:23:54Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "4oVD3abp7fw": {
+  "course": "cdmp",
+  "key": "01-Data-Management",
+  "title": "CDMP Associate Masterclass #01 — Data Management",
+  "seconds": 1523,
+  "published": "2026-06-23T10:24:56Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "KiouvGvGP2I": {
+  "course": "cdmp",
+  "key": "02-Data-Handling-Ethics",
+  "title": "CDMP Associate Masterclass #02 — Data Handling & Ethics",
+  "seconds": 1307,
+  "published": "2026-06-23T10:25:05Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "aJQ7K8dBwpE": {
+  "course": "cdmp",
+  "key": "03-Data-Governance",
+  "title": "CDMP Associate Masterclass #03 — Data Governance",
+  "seconds": 1977,
+  "published": "2026-06-23T10:26:10Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "G1uUy3fH7Ew": {
+  "course": "cdmp",
+  "key": "04-Data-Architecture",
+  "title": "CDMP Associate Masterclass #04 — Data Architecture",
+  "seconds": 1519,
+  "published": "2026-06-23T10:25:56Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "5krn2JeTZWs": {
+  "course": "cdmp",
+  "key": "05-Data-Modeling-and-Design",
+  "title": "CDMP Associate Masterclass #05 — Data Modeling & Design",
+  "seconds": 2013,
+  "published": "2026-06-23T10:26:54Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "9ijmMAdQiAM": {
+  "course": "cdmp",
+  "key": "06-Data-Storage-and-Operations",
+  "title": "CDMP Associate Masterclass #06 — Data Storage & Operations",
+  "seconds": 1446,
+  "published": "2026-06-23T10:26:50Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "cgNDJQF5yIo": {
+  "course": "cdmp",
+  "key": "07-Data-Security",
+  "title": "CDMP Associate Masterclass #07 — Data Security",
+  "seconds": 1443,
+  "published": "2026-06-23T10:27:26Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "sfPGqKDkhpg": {
+  "course": "cdmp",
+  "key": "08-Data-Integration-and-Interoperability",
+  "title": "CDMP Associate Masterclass #08 — Data Integration & Interoperability",
+  "seconds": 1000,
+  "published": "2026-06-23T10:27:17Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "LaC6oY2eIWU": {
+  "course": "cdmp",
+  "key": "09-Document-and-Content-Management",
+  "title": "CDMP Associate Masterclass #09 — Document & Content Management",
+  "seconds": 1266,
+  "published": "2026-06-23T10:28:08Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "FbwJqZCbStA": {
+  "course": "cdmp",
+  "key": "10-Reference-and-Master-Data",
+  "title": "CDMP Associate Masterclass #10 — Reference & Master Data",
+  "seconds": 1452,
+  "published": "2026-06-23T10:28:17Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "RtaVWJG5IrI": {
+  "course": "cdmp",
+  "key": "11-Data-Warehousing-and-BI",
+  "title": "CDMP Associate Masterclass #11 — Data Warehousing & BI",
+  "seconds": 1452,
+  "published": "2026-06-23T10:28:40Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "OFW3MJqmaxE": {
+  "course": "cdmp",
+  "key": "12-Metadata-Management",
+  "title": "CDMP Associate Masterclass #12 — Metadata Management",
+  "seconds": 1684,
+  "published": "2026-06-23T10:29:32Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "ZMzAgWlCXOA": {
+  "course": "cdmp",
+  "key": "13-Data-Quality",
+  "title": "CDMP Associate Masterclass #13 — Data Quality",
+  "seconds": 1560,
+  "published": "2026-06-23T10:29:58Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "8lZl6uPcFQg": {
+  "course": "cdmp",
+  "key": "14-Big-Data-and-Data-Science",
+  "title": "CDMP Associate Masterclass #14 — Big Data & Data Science",
+  "seconds": 1116,
+  "published": "2026-06-23T10:29:50Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "MnKUY8O5FLM": {
+  "course": "togaf",
+  "key": "00-Course-Introduction",
+  "title": "TOGAF 10 Associate Masterclass #00 — Course Introduction",
+  "seconds": 1206,
+  "published": "2026-06-24T18:47:44Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "IPOGQh-gsyI": {
+  "course": "togaf",
+  "key": "01-Introduction-to-EA-and-TOGAF",
+  "title": "TOGAF 10 Associate Masterclass #01 — Introduction to EA & TOGAF",
+  "seconds": 1586,
+  "published": "2026-06-24T18:48:07Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "pM_E-WAnnPQ": {
+  "course": "togaf",
+  "key": "02-ADM-Overview",
+  "title": "TOGAF 10 Associate Masterclass #02 — ADM Overview",
+  "seconds": 1467,
+  "published": "2026-06-24T18:49:23Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "IIC4JkV1Yqw": {
+  "course": "togaf",
+  "key": "03-ADM-Phase-A-Architecture-Vision",
+  "title": "TOGAF 10 Associate Masterclass #03 — Phase A: Architecture Vision",
+  "seconds": 1281,
+  "published": "2026-06-24T18:49:12Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "V-2ZdleOpd8": {
+  "course": "togaf",
+  "key": "04-ADM-Phases-BCD-Architectures",
+  "title": "TOGAF 10 Associate Masterclass #04 — Phases B, C & D: The Architectures",
+  "seconds": 1443,
+  "published": "2026-06-24T18:50:04Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "SmcjfnWQRRQ": {
+  "course": "togaf",
+  "key": "05-ADM-Phases-EF-Opportunities-Migration",
+  "title": "TOGAF 10 Associate Masterclass #05 — Phases E & F: Opportunities & Migration",
+  "seconds": 1197,
+  "published": "2026-06-24T18:49:52Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "g5oJDw-MD_Q": {
+  "course": "togaf",
+  "key": "06-ADM-Phases-GH-Governance-Change",
+  "title": "TOGAF 10 Associate Masterclass #06 — Phases G & H: Governance & Change",
+  "seconds": 1179,
+  "published": "2026-06-24T18:50:20Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "n854rDwynmM": {
+  "course": "togaf",
+  "key": "07-Requirements-Management",
+  "title": "TOGAF 10 Associate Masterclass #07 — Requirements Management",
+  "seconds": 1076,
+  "published": "2026-06-24T18:50:55Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "lNIJIgPWPRQ": {
+  "course": "togaf",
+  "key": "08-Enterprise-Continuum-and-Repository",
+  "title": "TOGAF 10 Associate Masterclass #08 — Enterprise Continuum & Repository",
+  "seconds": 1287,
+  "published": "2026-06-24T18:51:20Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "SFGdYNde31Y": {
+  "course": "togaf",
+  "key": "09-Content-Framework-Deliverables-Artifacts",
+  "title": "TOGAF 10 Associate Masterclass #09 — Content Framework, Deliverables & Artifacts",
+  "seconds": 1377,
+  "published": "2026-06-24T18:52:14Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "VRZ5gSaIjrk": {
+  "course": "togaf",
+  "key": "10-Partitioning-Landscapes-Viewpoints",
+  "title": "TOGAF 10 Associate Masterclass #10 — Partitioning, Landscapes & Viewpoints",
+  "seconds": 1266,
+  "published": "2026-06-24T18:52:25Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "rl1URiD2MYA": {
+  "course": "togaf",
+  "key": "11-Stakeholder-Management-Communication",
+  "title": "TOGAF 10 Associate Masterclass #11 — Stakeholder Management & Communication",
+  "seconds": 1122,
+  "published": "2026-06-24T18:52:46Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "MI_QjWGJe8A": {
+  "course": "togaf",
+  "key": "12-Architecture-Governance",
+  "title": "TOGAF 10 Associate Masterclass #12 — Architecture Governance",
+  "seconds": 1302,
+  "published": "2026-06-24T18:53:15Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "swGB_V6ytts": {
+  "course": "togaf",
+  "key": "13-Reference-Models-TRM-IIIRM",
+  "title": "TOGAF 10 Associate Masterclass #13 — Reference Models: TRM & III-RM",
+  "seconds": 1172,
+  "published": "2026-06-24T18:53:37Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "9vuLuN7C0bA": {
+  "course": "togaf",
+  "key": "14-Applying-TOGAF-Exam-Strategy",
+  "title": "TOGAF 10 Associate Masterclass #14 — Applying TOGAF & Exam Strategy",
+  "seconds": 1414,
+  "published": "2026-06-24T18:54:39Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "lWLIUW8rYXo": {
+  "course": "aigov",
+  "key": "00-Course-Introduction",
+  "title": "AI Governance Masterclass #00 — Course Introduction",
+  "seconds": 446,
+  "published": "2026-06-26T20:05:57Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "Nl9ynTZXoAk": {
+  "course": "aigov",
+  "key": "01-AI-Foundations-for-Governance",
+  "title": "AI Governance Masterclass #01 — AI Foundations for Governance",
+  "seconds": 468,
+  "published": "2026-06-26T20:06:30Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "qu6YZL5v53U": {
+  "course": "aigov",
+  "key": "02-Why-Govern-AI-Risk-Landscape",
+  "title": "AI Governance Masterclass #02 — Why Govern AI? The Risk Landscape",
+  "seconds": 586,
+  "published": "2026-06-26T20:06:54Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "_N18dGrs61U": {
+  "course": "aigov",
+  "key": "03-Ethical-Foundations-and-Principles",
+  "title": "AI Governance Masterclass #03 — Ethical Foundations and Principles",
+  "seconds": 560,
+  "published": "2026-06-26T20:06:45Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "z1aaNeKpi_0": {
+  "course": "aigov",
+  "key": "04-Global-Regulatory-Landscape",
+  "title": "AI Governance Masterclass #04 — Global Regulatory Landscape",
+  "seconds": 484,
+  "published": "2026-06-26T20:07:03Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "s2o5sx97N-Y": {
+  "course": "aigov",
+  "key": "05-AI-Regulations-Deep-Dive",
+  "title": "AI Governance Masterclass #05 — AI Regulations Deep Dive",
+  "seconds": 885,
+  "published": "2026-06-26T20:07:34Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "EV3rZMvC73M": {
+  "course": "aigov",
+  "key": "06-Frameworks-and-Standards-NIST-ISO42001",
+  "title": "AI Governance Masterclass #06 — Frameworks & Standards: NIST & ISO 42001",
+  "seconds": 641,
+  "published": "2026-06-26T20:08:02Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "EzU1UDZeFEY": {
+  "course": "aigov",
+  "key": "07-Building-an-AI-Governance-Program",
+  "title": "AI Governance Masterclass #07 — Building an AI Governance Program",
+  "seconds": 556,
+  "published": "2026-06-26T20:08:08Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "3LHE2eTUNLA": {
+  "course": "aigov",
+  "key": "08-Risk-Management-and-Impact-Assessments",
+  "title": "AI Governance Masterclass #08 — Risk Management & Impact Assessments",
+  "seconds": 505,
+  "published": "2026-06-26T20:08:37Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "MsssmMjyYUY": {
+  "course": "aigov",
+  "key": "09-Governing-the-AI-Lifecycle",
+  "title": "AI Governance Masterclass #09 — Governing the AI Lifecycle",
+  "seconds": 698,
+  "published": "2026-06-26T20:08:59Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "bJTQJLMitYU": {
+  "course": "aigov",
+  "key": "10-Governing-Generative-and-Agentic-AI",
+  "title": "AI Governance Masterclass #10 — Governing Generative & Agentic AI",
+  "seconds": 566,
+  "published": "2026-06-26T20:10:14Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ },
+ "qFJ8BgoHSUM": {
+  "course": "aigov",
+  "key": "11-Assurance-Audit-and-Path-Forward",
+  "title": "AI Governance Masterclass #11 — Assurance, Audit & the Path Forward",
+  "seconds": 651,
+  "published": "2026-06-26T20:12:16Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": []
+ }
+}

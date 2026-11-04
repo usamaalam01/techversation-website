@@ -1,0 +1,8178 @@
+{
+ "institutes": [
+  {
+   "id": "pmi",
+   "name": "PMI",
+   "full": "Project Management Institute",
+   "mono": "PMI",
+   "certs": [
+    "pmp"
+   ]
+  },
+  {
+   "id": "scrum-alliance",
+   "name": "Scrum Alliance",
+   "full": "Scrum Alliance",
+   "mono": "SA",
+   "certs": [
+    "csm"
+   ]
+  },
+  {
+   "id": "iapp",
+   "name": "IAPP",
+   "full": "International Association of Privacy Professionals",
+   "mono": "IAPP",
+   "certs": [
+    "aigp"
+   ]
+  },
+  {
+   "id": "linux-foundation",
+   "name": "Linux Foundation",
+   "full": "The Linux Foundation and CNCF",
+   "mono": "LF",
+   "certs": [
+    "kcna"
+   ]
+  },
+  {
+   "id": "dama",
+   "name": "DAMA International",
+   "full": "Data Management Association International",
+   "mono": "DAMA",
+   "certs": [
+    "cdmp"
+   ]
+  },
+  {
+   "id": "the-open-group",
+   "name": "The Open Group",
+   "full": "The Open Group",
+   "mono": "TOG",
+   "certs": [
+    "togaf"
+   ]
+  },
+  {
+   "id": "training",
+   "name": "Training",
+   "full": "Techversation training courses",
+   "mono": "TV",
+   "certs": [],
+   "hidden": true
+  }
+ ],
+ "soon": [
+  {
+   "slug": "prompt",
+   "institute": null,
+   "short": "Prompt Engineering",
+   "name": "Training",
+   "kind": "Training",
+   "desc": "Zero-shot to agent prompting, structured output and how to evaluate prompts."
+  },
+  {
+   "slug": "sdd",
+   "institute": null,
+   "short": "Spec-Driven Development",
+   "name": "Training",
+   "kind": "Training",
+   "desc": "Write specs first and build with an AI coding assistant, in four phases."
+  }
+ ],
+ "courses": [
+  {
+   "kind": "certification",
+   "topic": null,
+   "slug": "csm",
+   "institute": "scrum-alliance",
+   "short": "CSM",
+   "name": "ScrumMaster",
+   "title": "CSM Exam Prep Masterclass",
+   "accent": "c-csm",
+   "desc": "The Scrum Guide and the CSM learning objectives, from Scrum theory to situational questions.",
+   "audience": "Anyone preparing for the CSM exam: new Scrum Masters, Product Owners, Developers and managers who work with Scrum teams.",
+   "sources": "The Scrum Guide (November 2020), the Agile Manifesto, the Scrum values and the official CSM learning objectives.",
+   "playlist": "PLNkwv6ib9ED0",
+   "cover": "img/covers/csm.jpg",
+   "modules": [
+    {
+     "num": "00",
+     "slug": "00-course-introduction-and-exam-orientation",
+     "title": "Course Introduction and Exam Orientation",
+     "desc": "Orientation",
+     "parts": [
+      {
+       "part": 1,
+       "id": "YLcaeO26UuM",
+       "title": "Orientation",
+       "seconds": 419,
+       "chapters": [],
+       "published": "2026-10-25T14:04:38Z",
+       "thumb": "img/modules/csm/00-1.jpg"
+      }
+     ],
+     "deck": "downloads/csm/00-course-introduction-and-exam-orientation.pptx",
+     "deck_kb": 558,
+     "seconds": 419,
+     "words": 1037
+    },
+    {
+     "num": "01",
+     "slug": "01-scrum-definition-theory-and-empiricism",
+     "title": "Scrum Definition, Theory and Empiricism",
+     "desc": "What Scrum is, why it works, and what partial Scrum costs",
+     "parts": [
+      {
+       "part": 1,
+       "id": "wH5HwwqAE6E",
+       "title": "What Scrum is, why it works, and what partial Scrum costs",
+       "seconds": 802,
+       "chapters": [],
+       "published": "2026-10-25T14:05:27Z",
+       "thumb": "img/modules/csm/01-1.jpg"
+      }
+     ],
+     "deck": "downloads/csm/01-scrum-definition-theory-and-empiricism.pptx",
+     "deck_kb": 534,
+     "seconds": 802,
+     "words": 1726
+    },
+    {
+     "num": "02",
+     "slug": "02-scrum-values-and-the-agile-manifesto",
+     "title": "Scrum Values and the Agile Manifesto",
+     "desc": "The five values, the Manifesto, and how Scrum reflects it",
+     "parts": [
+      {
+       "part": 1,
+       "id": "qvRHSiUkRaU",
+       "title": "The five values, the Manifesto, and how Scrum reflects it",
+       "seconds": 733,
+       "chapters": [],
+       "published": "2026-10-25T14:05:47Z",
+       "thumb": "img/modules/csm/02-1.jpg"
+      }
+     ],
+     "deck": "downloads/csm/02-scrum-values-and-the-agile-manifesto.pptx",
+     "deck_kb": 609,
+     "seconds": 733,
+     "words": 1559
+    },
+    {
+     "num": "03",
+     "slug": "03-the-scrum-team-and-the-developers",
+     "title": "The Scrum Team and the Developers",
+     "desc": "One team, three accountabilities, and the Developers",
+     "parts": [
+      {
+       "part": 1,
+       "id": "uBJAt09Xxgo",
+       "title": "One team, three accountabilities, and the Developers",
+       "seconds": 726,
+       "chapters": [],
+       "published": "2026-10-25T14:06:17Z",
+       "thumb": "img/modules/csm/03-1.jpg"
+      }
+     ],
+     "deck": "downloads/csm/03-the-scrum-team-and-the-developers.pptx",
+     "deck_kb": 644,
+     "seconds": 726,
+     "words": 1613
+    },
+    {
+     "num": "04",
+     "slug": "04-the-product-owner",
+     "title": "The Product Owner",
+     "desc": "One accountable person for the value of the product",
+     "parts": [
+      {
+       "part": 1,
+       "id": "RmxfyZ10-P4",
+       "title": "One accountable person for the value of the product",
+       "seconds": 639,
+       "chapters": [],
+       "published": "2026-10-25T14:06:35Z",
+       "thumb": "img/modules/csm/04-1.jpg"
+      }
+     ],
+     "deck": "downloads/csm/04-the-product-owner.pptx",
+     "deck_kb": 469,
+     "seconds": 639,
+     "words": 1401
+    },
+    {
+     "num": "05",
+     "slug": "05-the-scrum-master",
+     "title": "The Scrum Master",
+     "desc": "The role, whom it serves and the events",
+     "parts": [
+      {
+       "part": 1,
+       "id": "NorqqBm3vtE",
+       "title": "The role, whom it serves and the events",
+       "seconds": 407,
+       "chapters": [],
+       "published": "2026-10-25T14:07:31Z",
+       "thumb": "img/modules/csm/05-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "Ps5Kt7v25y4",
+       "title": "Situations, answer patterns and practice",
+       "seconds": 453,
+       "chapters": [],
+       "published": "2026-10-25T14:07:10Z",
+       "thumb": "img/modules/csm/05-2.jpg"
+      }
+     ],
+     "deck": "downloads/csm/05-the-scrum-master.pptx",
+     "deck_kb": 854,
+     "seconds": 860,
+     "words": 1944
+    },
+    {
+     "num": "06",
+     "slug": "06-the-sprint-and-the-scrum-events",
+     "title": "The Sprint and the Scrum Events",
+     "desc": "The Sprint, its events and its limits",
+     "parts": [
+      {
+       "part": 1,
+       "id": "-SC6c-CyUaQ",
+       "title": "The Sprint, its events and its limits",
+       "seconds": 757,
+       "chapters": [],
+       "published": "2026-10-25T14:07:47Z",
+       "thumb": "img/modules/csm/06-1.jpg"
+      }
+     ],
+     "deck": "downloads/csm/06-the-sprint-and-the-scrum-events.pptx",
+     "deck_kb": 631,
+     "seconds": 757,
+     "words": 1697
+    },
+    {
+     "num": "07",
+     "slug": "07-sprint-planning",
+     "title": "Sprint Planning",
+     "desc": "Sprint Planning from purpose to practice",
+     "parts": [
+      {
+       "part": 1,
+       "id": "bqkUHQZCE2Y",
+       "title": "Sprint Planning from purpose to practice",
+       "seconds": 736,
+       "chapters": [],
+       "published": "2026-10-25T14:08:11Z",
+       "thumb": "img/modules/csm/07-1.jpg"
+      }
+     ],
+     "deck": "downloads/csm/07-sprint-planning.pptx",
+     "deck_kb": 551,
+     "seconds": 736,
+     "words": 1717
+    },
+    {
+     "num": "08",
+     "slug": "08-daily-scrum",
+     "title": "Daily Scrum",
+     "desc": "The Developers' planning event",
+     "parts": [
+      {
+       "part": 1,
+       "id": "uJz_TyICy7M",
+       "title": "The Developers' planning event",
+       "seconds": 680,
+       "chapters": [],
+       "published": "2026-10-25T14:08:34Z",
+       "thumb": "img/modules/csm/08-1.jpg"
+      }
+     ],
+     "deck": "downloads/csm/08-daily-scrum.pptx",
+     "deck_kb": 626,
+     "seconds": 680,
+     "words": 1547
+    },
+    {
+     "num": "09",
+     "slug": "09-sprint-review-and-sprint-retrospective",
+     "title": "Sprint Review and Sprint Retrospective",
+     "desc": "The two events that close every Sprint",
+     "parts": [
+      {
+       "part": 1,
+       "id": "0x8w5kqhx-w",
+       "title": "The two events that close every Sprint",
+       "seconds": 697,
+       "chapters": [],
+       "published": "2026-10-25T14:09:09Z",
+       "thumb": "img/modules/csm/09-1.jpg"
+      }
+     ],
+     "deck": "downloads/csm/09-sprint-review-and-sprint-retrospective.pptx",
+     "deck_kb": 699,
+     "seconds": 697,
+     "words": 1549
+    },
+    {
+     "num": "10",
+     "slug": "10-product-backlog-product-goal-and-refinement",
+     "title": "Product Backlog, Product Goal and Refinement",
+     "desc": "The first artifact, its goal, and how it stays useful",
+     "parts": [
+      {
+       "part": 1,
+       "id": "wHhJjzc9hpM",
+       "title": "The first artifact, its goal, and how it stays useful",
+       "seconds": 735,
+       "chapters": [],
+       "published": "2026-10-25T14:10:05Z",
+       "thumb": "img/modules/csm/10-1.jpg"
+      }
+     ],
+     "deck": "downloads/csm/10-product-backlog-product-goal-and-refinement.pptx",
+     "deck_kb": 600,
+     "seconds": 735,
+     "words": 1605
+    },
+    {
+     "num": "11",
+     "slug": "11-sprint-backlog-and-sprint-goal",
+     "title": "Sprint Backlog and Sprint Goal",
+     "desc": "The Developers' plan and the goal behind it",
+     "parts": [
+      {
+       "part": 1,
+       "id": "rbRg64VvODY",
+       "title": "The Developers' plan and the goal behind it",
+       "seconds": 653,
+       "chapters": [],
+       "published": "2026-10-25T14:10:00Z",
+       "thumb": "img/modules/csm/11-1.jpg"
+      }
+     ],
+     "deck": "downloads/csm/11-sprint-backlog-and-sprint-goal.pptx",
+     "deck_kb": 549,
+     "seconds": 653,
+     "words": 1495
+    },
+    {
+     "num": "12",
+     "slug": "12-increment-and-definition-of-done",
+     "title": "Increment and Definition of Done",
+     "desc": "What counts as Done, and who decides",
+     "parts": [
+      {
+       "part": 1,
+       "id": "i2OF-g0YojE",
+       "title": "What counts as Done, and who decides",
+       "seconds": 709,
+       "chapters": [],
+       "published": "2026-10-25T14:10:18Z",
+       "thumb": "img/modules/csm/12-1.jpg"
+      }
+     ],
+     "deck": "downloads/csm/12-increment-and-definition-of-done.pptx",
+     "deck_kb": 552,
+     "seconds": 709,
+     "words": 1581
+    },
+    {
+     "num": "13",
+     "slug": "13-facilitation-teaching-mentoring-and-coaching",
+     "title": "Facilitation, Teaching, Mentoring and Coaching",
+     "desc": "Four ways to help, and the tools to decide together",
+     "parts": [
+      {
+       "part": 1,
+       "id": "pgpMmq_SOIg",
+       "title": "Four ways to help, and the tools to decide together",
+       "seconds": 730,
+       "chapters": [],
+       "published": "2026-10-25T14:11:09Z",
+       "thumb": "img/modules/csm/13-1.jpg"
+      }
+     ],
+     "deck": "downloads/csm/13-facilitation-teaching-mentoring-and-coaching.pptx",
+     "deck_kb": 691,
+     "seconds": 730,
+     "words": 1574
+    },
+    {
+     "num": "14",
+     "slug": "14-impediments-technical-debt-and-the-organization",
+     "title": "Impediments, Technical Debt and the Organization",
+     "desc": "Impediments, technical debt, practices and the organization",
+     "parts": [
+      {
+       "part": 1,
+       "id": "HM69qSlwN18",
+       "title": "Impediments, technical debt, practices and the organization",
+       "seconds": 879,
+       "chapters": [],
+       "published": "2026-10-25T14:11:36Z",
+       "thumb": "img/modules/csm/14-1.jpg"
+      }
+     ],
+     "deck": "downloads/csm/14-impediments-technical-debt-and-the-organization.pptx",
+     "deck_kb": 848,
+     "seconds": 879,
+     "words": 1822
+    },
+    {
+     "num": "15",
+     "slug": "15-scenario-workshop",
+     "title": "Scenario Workshop",
+     "desc": "The method, then eleven worked scenarios",
+     "parts": [
+      {
+       "part": 1,
+       "id": "oj-CT0bbUvs",
+       "title": "The method, then eleven worked scenarios",
+       "seconds": 814,
+       "chapters": [],
+       "published": "2026-10-25T14:13:16Z",
+       "thumb": "img/modules/csm/15-1.jpg"
+      }
+     ],
+     "deck": "downloads/csm/15-scenario-workshop.pptx",
+     "deck_kb": 562,
+     "seconds": 814,
+     "words": 1602
+    },
+    {
+     "num": "16",
+     "slug": "16-traps-and-misconceptions-clinic",
+     "title": "Traps and Misconceptions Clinic",
+     "desc": "Fifteen wrong beliefs, and how to spot them",
+     "parts": [
+      {
+       "part": 1,
+       "id": "Fh3SsrhqbtE",
+       "title": "Fifteen wrong beliefs, and how to spot them",
+       "seconds": 569,
+       "chapters": [],
+       "published": "2026-10-25T14:12:09Z",
+       "thumb": "img/modules/csm/16-1.jpg"
+      }
+     ],
+     "deck": "downloads/csm/16-traps-and-misconceptions-clinic.pptx",
+     "deck_kb": 1252,
+     "seconds": 569,
+     "words": 1346
+    },
+    {
+     "num": "17",
+     "slug": "17-quick-reference-recap",
+     "title": "Quick-Reference Recap",
+     "desc": "The whole course on a few pages",
+     "parts": [
+      {
+       "part": 1,
+       "id": "Ci2A6hrnKz4",
+       "title": "The whole course on a few pages",
+       "seconds": 547,
+       "chapters": [],
+       "published": "2026-10-25T14:12:34Z",
+       "thumb": "img/modules/csm/17-1.jpg"
+      }
+     ],
+     "deck": "downloads/csm/17-quick-reference-recap.pptx",
+     "deck_kb": 1765,
+     "seconds": 547,
+     "words": 1237
+    },
+    {
+     "num": "18",
+     "slug": "18-exam-technique-and-final-check",
+     "title": "Exam Technique and Final Check",
+     "desc": "Exam technique and the practice plan",
+     "parts": [
+      {
+       "part": 1,
+       "id": "bQxcG3tbZPo",
+       "title": "Exam technique and the practice plan",
+       "seconds": 420,
+       "chapters": [],
+       "published": "2026-10-25T14:12:56Z",
+       "thumb": "img/modules/csm/18-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "VxYzUfxM-FI",
+       "title": "The final check",
+       "seconds": 574,
+       "chapters": [],
+       "published": "2026-10-25T14:13:38Z",
+       "thumb": "img/modules/csm/18-2.jpg"
+      }
+     ],
+     "deck": "downloads/csm/18-exam-technique-and-final-check.pptx",
+     "deck_kb": 708,
+     "seconds": 994,
+     "words": 2011
+    }
+   ],
+   "facts": {
+    "questions": "50",
+    "time": "60 min",
+    "passing": "37 correct (74%)",
+    "source": "scrumalliance.org",
+    "url": "https://www.scrumalliance.org/get-certified/scrum-master-track/certified-scrummaster"
+   },
+   "videos": 21,
+   "seconds": 13679,
+   "notes": [
+    {
+     "num": "01",
+     "slug": "01-scrum-definition-theory-and-empiricism",
+     "title": "Scrum Definition, Theory and Empiricism",
+     "group": "Scrum Foundations",
+     "tasks": 0,
+     "los": [
+      "SF 1.1",
+      "SF 1.3",
+      "SF 1.4",
+      "SF 1.5",
+      "SF 1.6"
+     ],
+     "minutes": 18,
+     "check": {
+      "src_words": 3770,
+      "page_words": 3806,
+      "src_tables": 9,
+      "tables": 9,
+      "src_images": 3,
+      "images": 3,
+      "src_scenario": 9,
+      "scenario": 9,
+      "src_recall": 14,
+      "recall": 14,
+      "src_sections": 10,
+      "sections": 10
+     },
+     "modules": [
+      "01"
+     ],
+     "domain": "",
+     "ref": "Topic 1",
+     "tn": "Topic 01",
+     "of": 14,
+     "module": "01"
+    },
+    {
+     "num": "02",
+     "slug": "02-scrum-values-and-the-agile-manifesto",
+     "title": "Scrum Values and the Agile Manifesto",
+     "group": "Scrum Foundations",
+     "tasks": 0,
+     "los": [
+      "SF 1.2",
+      "SF 1.7"
+     ],
+     "minutes": 14,
+     "check": {
+      "src_words": 2952,
+      "page_words": 2986,
+      "src_tables": 7,
+      "tables": 7,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 8,
+      "scenario": 8,
+      "src_recall": 13,
+      "recall": 13,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "02"
+     ],
+     "domain": "",
+     "ref": "Topic 2",
+     "tn": "Topic 02",
+     "of": 14,
+     "module": "02"
+    },
+    {
+     "num": "03",
+     "slug": "03-the-scrum-team-and-the-developers",
+     "title": "The Scrum Team and the Developers",
+     "group": "Scrum Team",
+     "tasks": 0,
+     "los": [
+      "SF 2.1",
+      "SF 2.2",
+      "CSM 1.1",
+      "CSM 1.3"
+     ],
+     "minutes": 16,
+     "check": {
+      "src_words": 3390,
+      "page_words": 3431,
+      "src_tables": 9,
+      "tables": 9,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 9,
+      "scenario": 9,
+      "src_recall": 13,
+      "recall": 13,
+      "src_sections": 9,
+      "sections": 9
+     },
+     "modules": [
+      "03"
+     ],
+     "domain": "",
+     "ref": "Topic 3",
+     "tn": "Topic 03",
+     "of": 14,
+     "module": "03"
+    },
+    {
+     "num": "04",
+     "slug": "04-the-product-owner",
+     "title": "The Product Owner",
+     "group": "Scrum Team",
+     "tasks": 0,
+     "los": [
+      "CSM 1.4",
+      "CSM 1.5",
+      "CSM 1.6"
+     ],
+     "minutes": 16,
+     "check": {
+      "src_words": 3324,
+      "page_words": 3370,
+      "src_tables": 7,
+      "tables": 7,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 9,
+      "scenario": 9,
+      "src_recall": 14,
+      "recall": 14,
+      "src_sections": 8,
+      "sections": 8
+     },
+     "modules": [
+      "04"
+     ],
+     "domain": "",
+     "ref": "Topic 4",
+     "tn": "Topic 04",
+     "of": 14,
+     "module": "04"
+    },
+    {
+     "num": "05",
+     "slug": "05-the-scrum-master",
+     "title": "The Scrum Master",
+     "group": "Scrum Team",
+     "tasks": 0,
+     "los": [
+      "CSM 1.2",
+      "CSM 3.1",
+      "CSM 3.4",
+      "SF 2.1",
+      "CSM 2.1"
+     ],
+     "minutes": 23,
+     "check": {
+      "src_words": 4858,
+      "page_words": 4905,
+      "src_tables": 10,
+      "tables": 10,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 10,
+      "scenario": 10,
+      "src_recall": 14,
+      "recall": 14,
+      "src_sections": 13,
+      "sections": 13
+     },
+     "modules": [
+      "05"
+     ],
+     "domain": "",
+     "ref": "Topic 5",
+     "tn": "Topic 05",
+     "of": 14,
+     "module": "05"
+    },
+    {
+     "num": "06",
+     "slug": "06-the-sprint-and-the-scrum-events",
+     "title": "The Sprint and the Scrum Events",
+     "group": "Scrum Events",
+     "tasks": 0,
+     "los": [
+      "SF 3.1",
+      "SF 3.2",
+      "SF 3.3",
+      "SF 3.4",
+      "CSM 1.7",
+      "CSM 1.14"
+     ],
+     "minutes": 17,
+     "check": {
+      "src_words": 3639,
+      "page_words": 3681,
+      "src_tables": 9,
+      "tables": 9,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 10,
+      "scenario": 10,
+      "src_recall": 14,
+      "recall": 14,
+      "src_sections": 10,
+      "sections": 10
+     },
+     "modules": [
+      "06"
+     ],
+     "domain": "",
+     "ref": "Topic 6",
+     "tn": "Topic 06",
+     "of": 14,
+     "module": "06"
+    },
+    {
+     "num": "07",
+     "slug": "07-sprint-planning",
+     "title": "Sprint Planning",
+     "group": "Scrum Events",
+     "tasks": 0,
+     "los": [
+      "CSM 1.8",
+      "SF 3.4",
+      "CSM 1.7"
+     ],
+     "minutes": 16,
+     "check": {
+      "src_words": 3313,
+      "page_words": 3360,
+      "src_tables": 9,
+      "tables": 9,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 10,
+      "scenario": 10,
+      "src_recall": 14,
+      "recall": 14,
+      "src_sections": 10,
+      "sections": 10
+     },
+     "modules": [
+      "07"
+     ],
+     "domain": "",
+     "ref": "Topic 7",
+     "tn": "Topic 07",
+     "of": 14,
+     "module": "07"
+    },
+    {
+     "num": "08",
+     "slug": "08-daily-scrum",
+     "title": "Daily Scrum",
+     "group": "Scrum Events",
+     "tasks": 0,
+     "los": [
+      "CSM 1.12",
+      "CSM 1.13",
+      "SF 3.4",
+      "CSM 1.7"
+     ],
+     "minutes": 15,
+     "check": {
+      "src_words": 3064,
+      "page_words": 3107,
+      "src_tables": 7,
+      "tables": 7,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 9,
+      "scenario": 9,
+      "src_recall": 14,
+      "recall": 14,
+      "src_sections": 8,
+      "sections": 8
+     },
+     "modules": [
+      "08"
+     ],
+     "domain": "",
+     "ref": "Topic 8",
+     "tn": "Topic 08",
+     "of": 14,
+     "module": "08"
+    },
+    {
+     "num": "09",
+     "slug": "09-sprint-review-and-sprint-retrospective",
+     "title": "Sprint Review and Sprint Retrospective",
+     "group": "Scrum Events",
+     "tasks": 0,
+     "los": [
+      "CSM 1.9",
+      "CSM 1.10",
+      "CSM 1.11",
+      "SF 3.4",
+      "CSM 1.7"
+     ],
+     "minutes": 15,
+     "check": {
+      "src_words": 3185,
+      "page_words": 3234,
+      "src_tables": 8,
+      "tables": 8,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 10,
+      "scenario": 10,
+      "src_recall": 14,
+      "recall": 14,
+      "src_sections": 8,
+      "sections": 8
+     },
+     "modules": [
+      "09"
+     ],
+     "domain": "",
+     "ref": "Topic 9",
+     "tn": "Topic 09",
+     "of": 14,
+     "module": "09"
+    },
+    {
+     "num": "10",
+     "slug": "10-product-backlog-product-goal-and-refinement",
+     "title": "Product Backlog, Product Goal and Refinement",
+     "group": "Scrum Artifacts",
+     "tasks": 0,
+     "los": [
+      "SF 3.5",
+      "SF 3.6",
+      "SF 4.1",
+      "SF 4.2",
+      "SF 4.3",
+      "SF 4.6",
+      "CSM 1.6"
+     ],
+     "minutes": 15,
+     "check": {
+      "src_words": 3145,
+      "page_words": 3184,
+      "src_tables": 8,
+      "tables": 8,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 10,
+      "scenario": 10,
+      "src_recall": 14,
+      "recall": 14,
+      "src_sections": 9,
+      "sections": 9
+     },
+     "modules": [
+      "10"
+     ],
+     "domain": "",
+     "ref": "Topic 10",
+     "tn": "Topic 10",
+     "of": 14,
+     "module": "10"
+    },
+    {
+     "num": "11",
+     "slug": "11-sprint-backlog-and-sprint-goal",
+     "title": "Sprint Backlog and Sprint Goal",
+     "group": "Scrum Artifacts",
+     "tasks": 0,
+     "los": [
+      "SF 4.1",
+      "SF 4.4",
+      "SF 4.6",
+      "SF 4.7"
+     ],
+     "minutes": 13,
+     "check": {
+      "src_words": 2765,
+      "page_words": 2800,
+      "src_tables": 7,
+      "tables": 7,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 9,
+      "scenario": 9,
+      "src_recall": 14,
+      "recall": 14,
+      "src_sections": 8,
+      "sections": 8
+     },
+     "modules": [
+      "11"
+     ],
+     "domain": "",
+     "ref": "Topic 11",
+     "tn": "Topic 11",
+     "of": 14,
+     "module": "11"
+    },
+    {
+     "num": "12",
+     "slug": "12-increment-and-definition-of-done",
+     "title": "Increment and Definition of Done",
+     "group": "Scrum Artifacts",
+     "tasks": 0,
+     "los": [
+      "SF 4.1",
+      "SF 4.5",
+      "SF 4.6",
+      "SF 4.8",
+      "SF 4.9",
+      "CSM 1.15",
+      "CSM 1.16"
+     ],
+     "minutes": 15,
+     "check": {
+      "src_words": 3142,
+      "page_words": 3188,
+      "src_tables": 6,
+      "tables": 6,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 10,
+      "scenario": 10,
+      "src_recall": 14,
+      "recall": 14,
+      "src_sections": 9,
+      "sections": 9
+     },
+     "modules": [
+      "12"
+     ],
+     "domain": "",
+     "ref": "Topic 12",
+     "tn": "Topic 12",
+     "of": 14,
+     "module": "12"
+    },
+    {
+     "num": "13",
+     "slug": "13-facilitation-teaching-mentoring-and-coaching",
+     "title": "Facilitation, Teaching, Mentoring and Coaching",
+     "group": "Scrum Master Competencies",
+     "tasks": 0,
+     "los": [
+      "CSM 2.1",
+      "CSM 2.2",
+      "CSM 2.3"
+     ],
+     "minutes": 15,
+     "check": {
+      "src_words": 3160,
+      "page_words": 3204,
+      "src_tables": 8,
+      "tables": 8,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 10,
+      "scenario": 10,
+      "src_recall": 14,
+      "recall": 14,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "13"
+     ],
+     "domain": "",
+     "ref": "Topic 13",
+     "tn": "Topic 13",
+     "of": 14,
+     "module": "13"
+    },
+    {
+     "num": "14",
+     "slug": "14-impediments-technical-debt-and-the-organization",
+     "title": "Impediments, Technical Debt and the Organization",
+     "group": "Scrum Master Competencies",
+     "tasks": 0,
+     "los": [
+      "CSM 3.2",
+      "CSM 3.3",
+      "CSM 3.5",
+      "CSM 3.6",
+      "CSM 3.7",
+      "CSM 3.8",
+      "CSM 3.9"
+     ],
+     "minutes": 19,
+     "check": {
+      "src_words": 3957,
+      "page_words": 3989,
+      "src_tables": 11,
+      "tables": 11,
+      "src_images": 3,
+      "images": 3,
+      "src_scenario": 10,
+      "scenario": 10,
+      "src_recall": 14,
+      "recall": 14,
+      "src_sections": 11,
+      "sections": 11
+     },
+     "modules": [
+      "14"
+     ],
+     "domain": "",
+     "ref": "Topic 14",
+     "tn": "Topic 14",
+     "of": 14,
+     "module": "14"
+    }
+   ],
+   "glossary": 16
+  },
+  {
+   "kind": "certification",
+   "topic": null,
+   "slug": "pmp",
+   "institute": "pmi",
+   "short": "PMP",
+   "name": "Project Management Professional",
+   "title": "PMP Exam Prep Masterclass",
+   "accent": "c-pmp",
+   "desc": "The three exam domains and the formulas, from predictive and agile delivery to ethics and AI.",
+   "audience": "Project managers preparing for the PMP exam under the current Exam Content Outline.",
+   "sources": "The PMBOK Guide, 8th Edition and the current PMP Exam Content Outline.",
+   "playlist": "PLNqtTYMGpN7k",
+   "cover": "img/covers/pmp.jpg",
+   "modules": [
+    {
+     "num": "00",
+     "slug": "00-course-introduction-and-exam-orientation",
+     "title": "Course Introduction and Exam Orientation",
+     "desc": "Course introduction and exam orientation",
+     "parts": [
+      {
+       "part": 1,
+       "id": "8pvvEK5Sp-k",
+       "title": "Course introduction and exam orientation",
+       "seconds": 804,
+       "chapters": [],
+       "published": "2026-10-23T17:55:05Z",
+       "thumb": "img/modules/pmp/00-1.jpg"
+      }
+     ],
+     "deck": "downloads/pmp/00-course-introduction-and-exam-orientation.pptx",
+     "deck_kb": 969,
+     "seconds": 804,
+     "words": 1852
+    },
+    {
+     "num": "01",
+     "slug": "01-project-foundations-value-delivery-and-principles",
+     "title": "Project Foundations, Value Delivery and Principles",
+     "desc": "Projects, value and success",
+     "parts": [
+      {
+       "part": 1,
+       "id": "2Vdw4cxMuHI",
+       "title": "Projects, value and success",
+       "seconds": 680,
+       "chapters": [],
+       "published": "2026-10-23T17:55:45Z",
+       "thumb": "img/modules/pmp/01-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "jZCGoJV2gMQ",
+       "title": "Environment, structures, roles and the mindset",
+       "seconds": 665,
+       "chapters": [],
+       "published": "2026-10-23T17:55:54Z",
+       "thumb": "img/modules/pmp/01-2.jpg"
+      },
+      {
+       "part": 3,
+       "id": "9DzByDY0mSQ",
+       "title": "The six principles in practice",
+       "seconds": 690,
+       "chapters": [],
+       "published": "2026-10-23T17:56:25Z",
+       "thumb": "img/modules/pmp/01-3.jpg"
+      }
+     ],
+     "deck": "downloads/pmp/01-project-foundations-value-delivery-and-principles.pptx",
+     "deck_kb": 1837,
+     "seconds": 2035,
+     "words": 4284
+    },
+    {
+     "num": "02",
+     "slug": "02-life-cycles-agile-hybrid-and-tailoring",
+     "title": "Life Cycles, Agile, Hybrid and Tailoring",
+     "desc": "Life cycles and development approaches",
+     "parts": [
+      {
+       "part": 1,
+       "id": "WDYQCNREAXY",
+       "title": "Life cycles and development approaches",
+       "seconds": 780,
+       "chapters": [],
+       "published": "2026-10-23T17:56:50Z",
+       "thumb": "img/modules/pmp/02-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "RRGuQS_7TrE",
+       "title": "Agile and hybrid ways of working",
+       "seconds": 870,
+       "chapters": [],
+       "published": "2026-10-23T17:57:32Z",
+       "thumb": "img/modules/pmp/02-2.jpg"
+      },
+      {
+       "part": 3,
+       "id": "bTtpZ6fOs_s",
+       "title": "Tailoring and practice",
+       "seconds": 847,
+       "chapters": [],
+       "published": "2026-10-23T17:58:00Z",
+       "thumb": "img/modules/pmp/02-3.jpg"
+      }
+     ],
+     "deck": "downloads/pmp/02-life-cycles-agile-hybrid-and-tailoring.pptx",
+     "deck_kb": 2163,
+     "seconds": 2497,
+     "words": 5493
+    },
+    {
+     "num": "03",
+     "slug": "03-ethics-sustainability-and-ai",
+     "title": "Ethics, Sustainability and AI",
+     "desc": "Ethics and professional conduct",
+     "parts": [
+      {
+       "part": 1,
+       "id": "K8BkTw6Y6A0",
+       "title": "Ethics and professional conduct",
+       "seconds": 683,
+       "chapters": [],
+       "published": "2026-10-23T17:58:18Z",
+       "thumb": "img/modules/pmp/03-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "cl-8aUGwztA",
+       "title": "Sustainability",
+       "seconds": 652,
+       "chapters": [],
+       "published": "2026-10-23T17:58:44Z",
+       "thumb": "img/modules/pmp/03-2.jpg"
+      },
+      {
+       "part": 3,
+       "id": "0pg9uBOSxoA",
+       "title": "AI in project management",
+       "seconds": 737,
+       "chapters": [],
+       "published": "2026-10-23T17:59:05Z",
+       "thumb": "img/modules/pmp/03-3.jpg"
+      }
+     ],
+     "deck": "downloads/pmp/03-ethics-sustainability-and-ai.pptx",
+     "deck_kb": 1648,
+     "seconds": 2072,
+     "words": 4394
+    },
+    {
+     "num": "04",
+     "slug": "04-vision-stakeholders-and-communication",
+     "title": "Vision, Stakeholders and Communication",
+     "desc": "A shared vision and who the stakeholders are",
+     "parts": [
+      {
+       "part": 1,
+       "id": "1F178nZ3DBU",
+       "title": "A shared vision and who the stakeholders are",
+       "seconds": 756,
+       "chapters": [],
+       "published": "2026-10-23T17:59:26Z",
+       "thumb": "img/modules/pmp/04-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "sTye-Zip_9c",
+       "title": "Analyze, engage and align stakeholders",
+       "seconds": 889,
+       "chapters": [],
+       "published": "2026-10-23T18:00:28Z",
+       "thumb": "img/modules/pmp/04-2.jpg"
+      },
+      {
+       "part": 3,
+       "id": "IFuJkuYAuck",
+       "title": "Communication, and practice",
+       "seconds": 922,
+       "chapters": [],
+       "published": "2026-10-23T18:00:36Z",
+       "thumb": "img/modules/pmp/04-3.jpg"
+      }
+     ],
+     "deck": "downloads/pmp/04-vision-stakeholders-and-communication.pptx",
+     "deck_kb": 2534,
+     "seconds": 2567,
+     "words": 5874
+    },
+    {
+     "num": "05",
+     "slug": "05-leading-teams-leadership-conflict-and-knowledge",
+     "title": "Leading Teams: Leadership, Conflict and Knowledge",
+     "desc": "Leading the team",
+     "parts": [
+      {
+       "part": 1,
+       "id": "Wlh2IP--8CA",
+       "title": "Leading the team",
+       "seconds": 699,
+       "chapters": [],
+       "published": "2026-10-23T18:01:19Z",
+       "thumb": "img/modules/pmp/05-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "aoSBh9AenXk",
+       "title": "People, motivation and conflict",
+       "seconds": 809,
+       "chapters": [],
+       "published": "2026-10-23T18:01:36Z",
+       "thumb": "img/modules/pmp/05-2.jpg"
+      },
+      {
+       "part": 3,
+       "id": "89gmHg7Twa8",
+       "title": "Knowledge management and transfer",
+       "seconds": 768,
+       "chapters": [],
+       "published": "2026-10-23T18:02:05Z",
+       "thumb": "img/modules/pmp/05-3.jpg"
+      }
+     ],
+     "deck": "downloads/pmp/05-leading-teams-leadership-conflict-and-knowledge.pptx",
+     "deck_kb": 1986,
+     "seconds": 2276,
+     "words": 4833
+    },
+    {
+     "num": "06",
+     "slug": "06-initiating-value-delivery-and-integrated-planning",
+     "title": "Initiating, Value Delivery and Integrated Planning",
+     "desc": "Initiating and the value case",
+     "parts": [
+      {
+       "part": 1,
+       "id": "OV0aQvegQvM",
+       "title": "Initiating and the value case",
+       "seconds": 860,
+       "chapters": [],
+       "published": "2026-10-23T18:03:19Z",
+       "thumb": "img/modules/pmp/06-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "o5o98RIepi0",
+       "title": "Delivering and measuring value, and planning the approach",
+       "seconds": 961,
+       "chapters": [],
+       "published": "2026-10-23T18:03:51Z",
+       "thumb": "img/modules/pmp/06-2.jpg"
+      },
+      {
+       "part": 3,
+       "id": "CQdwepAMhmk",
+       "title": "The integrated plan, estimates and decisions",
+       "seconds": 959,
+       "chapters": [],
+       "published": "2026-10-23T18:05:03Z",
+       "thumb": "img/modules/pmp/06-3.jpg"
+      }
+     ],
+     "deck": "downloads/pmp/06-initiating-value-delivery-and-integrated-planning.pptx",
+     "deck_kb": 2337,
+     "seconds": 2780,
+     "words": 5906
+    },
+    {
+     "num": "07",
+     "slug": "07-scope-schedule-and-cost",
+     "title": "Scope, Schedule and Cost",
+     "desc": "Scope management",
+     "parts": [
+      {
+       "part": 1,
+       "id": "h2NYI116aDc",
+       "title": "Scope management",
+       "seconds": 872,
+       "chapters": [],
+       "published": "2026-10-23T18:04:20Z",
+       "thumb": "img/modules/pmp/07-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "YmHyyyYwpb8",
+       "title": "Schedule management",
+       "seconds": 956,
+       "chapters": [],
+       "published": "2026-10-23T18:04:41Z",
+       "thumb": "img/modules/pmp/07-2.jpg"
+      },
+      {
+       "part": 3,
+       "id": "xYzDveTN-jo",
+       "title": "Cost and finance",
+       "seconds": 945,
+       "chapters": [],
+       "published": "2026-10-23T18:05:05Z",
+       "thumb": "img/modules/pmp/07-3.jpg"
+      }
+     ],
+     "deck": "downloads/pmp/07-scope-schedule-and-cost.pptx",
+     "deck_kb": 2506,
+     "seconds": 2773,
+     "words": 5989
+    },
+    {
+     "num": "08",
+     "slug": "08-quality-resources-and-procurement",
+     "title": "Quality, Resources and Procurement",
+     "desc": "Quality management",
+     "parts": [
+      {
+       "part": 1,
+       "id": "FXULKRFV5Y8",
+       "title": "Quality management",
+       "seconds": 865,
+       "chapters": [],
+       "published": "2026-10-23T18:07:08Z",
+       "thumb": "img/modules/pmp/08-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "nlfe0B1ZkW4",
+       "title": "Resources and the start of procurement",
+       "seconds": 843,
+       "chapters": [],
+       "published": "2026-10-23T18:06:20Z",
+       "thumb": "img/modules/pmp/08-2.jpg"
+      },
+      {
+       "part": 3,
+       "id": "dXeHMqz5hSI",
+       "title": "Procurement in depth",
+       "seconds": 895,
+       "chapters": [],
+       "published": "2026-10-23T18:06:43Z",
+       "thumb": "img/modules/pmp/08-3.jpg"
+      }
+     ],
+     "deck": "downloads/pmp/08-quality-resources-and-procurement.pptx",
+     "deck_kb": 2060,
+     "seconds": 2603,
+     "words": 5568
+    },
+    {
+     "num": "09",
+     "slug": "09-executing-status-reporting-and-closure",
+     "title": "Executing, Status Reporting and Closure",
+     "desc": "Executing the plan",
+     "parts": [
+      {
+       "part": 1,
+       "id": "9lYmMiqbD7k",
+       "title": "Executing the plan",
+       "seconds": 645,
+       "chapters": [],
+       "published": "2026-10-23T18:07:00Z",
+       "thumb": "img/modules/pmp/09-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "JxwQjs6AYlE",
+       "title": "Evaluating status",
+       "seconds": 712,
+       "chapters": [],
+       "published": "2026-10-23T18:07:21Z",
+       "thumb": "img/modules/pmp/09-2.jpg"
+      },
+      {
+       "part": 3,
+       "id": "8IepMlmKHQI",
+       "title": "Closing the project",
+       "seconds": 847,
+       "chapters": [],
+       "published": "2026-10-23T18:07:47Z",
+       "thumb": "img/modules/pmp/09-3.jpg"
+      }
+     ],
+     "deck": "downloads/pmp/09-executing-status-reporting-and-closure.pptx",
+     "deck_kb": 2323,
+     "seconds": 2204,
+     "words": 4619
+    },
+    {
+     "num": "10",
+     "slug": "10-governance-and-compliance",
+     "title": "Governance and Compliance",
+     "desc": "Governance",
+     "parts": [
+      {
+       "part": 1,
+       "id": "wQdulDFz1DI",
+       "title": "Governance",
+       "seconds": 797,
+       "chapters": [],
+       "published": "2026-10-23T18:08:43Z",
+       "thumb": "img/modules/pmp/10-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "rqq9AtQID8g",
+       "title": "Compliance",
+       "seconds": 984,
+       "chapters": [],
+       "published": "2026-10-23T18:09:28Z",
+       "thumb": "img/modules/pmp/10-2.jpg"
+      }
+     ],
+     "deck": "downloads/pmp/10-governance-and-compliance.pptx",
+     "deck_kb": 2155,
+     "seconds": 1781,
+     "words": 3628
+    },
+    {
+     "num": "11",
+     "slug": "11-risk-issues-and-impediments",
+     "title": "Risk, Issues and Impediments",
+     "desc": "Planning and analyzing risk",
+     "parts": [
+      {
+       "part": 1,
+       "id": "EWlFSiU5LHQ",
+       "title": "Planning and analyzing risk",
+       "seconds": 724,
+       "chapters": [],
+       "published": "2026-10-23T18:09:08Z",
+       "thumb": "img/modules/pmp/11-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "DH7OXUoIfw8",
+       "title": "Responding to and monitoring risk",
+       "seconds": 650,
+       "chapters": [],
+       "published": "2026-10-23T18:09:28Z",
+       "thumb": "img/modules/pmp/11-2.jpg"
+      },
+      {
+       "part": 3,
+       "id": "jQOk7V3z1fc",
+       "title": "Issues and impediments",
+       "seconds": 902,
+       "chapters": [],
+       "published": "2026-10-23T18:09:58Z",
+       "thumb": "img/modules/pmp/11-3.jpg"
+      }
+     ],
+     "deck": "downloads/pmp/11-risk-issues-and-impediments.pptx",
+     "deck_kb": 2953,
+     "seconds": 2276,
+     "words": 5057
+    },
+    {
+     "num": "12",
+     "slug": "12-change-improvement-culture-and-the-external-environment",
+     "title": "Change, Improvement, Culture and the External Environment",
+     "desc": "Change control",
+     "parts": [
+      {
+       "part": 1,
+       "id": "PY4DEWHa6hs",
+       "title": "Change control",
+       "seconds": 814,
+       "chapters": [],
+       "published": "2026-10-23T18:10:26Z",
+       "thumb": "img/modules/pmp/12-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "LX3EVGOZDs4",
+       "title": "Learning, improving and culture",
+       "seconds": 805,
+       "chapters": [],
+       "published": "2026-10-23T18:11:05Z",
+       "thumb": "img/modules/pmp/12-2.jpg"
+      },
+      {
+       "part": 3,
+       "id": "FXgR1b14wLg",
+       "title": "Supporting people and the external environment",
+       "seconds": 902,
+       "chapters": [],
+       "published": "2026-10-23T18:11:54Z",
+       "thumb": "img/modules/pmp/12-3.jpg"
+      }
+     ],
+     "deck": "downloads/pmp/12-change-improvement-culture-and-the-external-environment.pptx",
+     "deck_kb": 2984,
+     "seconds": 2521,
+     "words": 5388
+    },
+    {
+     "num": "13",
+     "slug": "13-formula-workshop",
+     "title": "Formula Workshop",
+     "desc": "Schedule and cost",
+     "parts": [
+      {
+       "part": 1,
+       "id": "g6YnLRCeTT8",
+       "title": "Schedule and cost",
+       "seconds": 813,
+       "chapters": [],
+       "published": "2026-10-23T18:12:01Z",
+       "thumb": "img/modules/pmp/13-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "YpglU7bqkTY",
+       "title": "People, value, contracts and flow",
+       "seconds": 928,
+       "chapters": [],
+       "published": "2026-10-23T18:12:30Z",
+       "thumb": "img/modules/pmp/13-2.jpg"
+      }
+     ],
+     "deck": "downloads/pmp/13-formula-workshop.pptx",
+     "deck_kb": 2767,
+     "seconds": 1741,
+     "words": 3888
+    },
+    {
+     "num": "14",
+     "slug": "14-exam-formats-visual-practice-and-final-strategy",
+     "title": "Exam Formats, Visual Practice and Final Strategy",
+     "desc": "Reading questions and formats",
+     "parts": [
+      {
+       "part": 1,
+       "id": "96_G8iU0GAA",
+       "title": "Reading questions and formats",
+       "seconds": 695,
+       "chapters": [],
+       "published": "2026-10-23T18:12:57Z",
+       "thumb": "img/modules/pmp/14-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "xN-au8eHKTs",
+       "title": "Practice and final strategy",
+       "seconds": 858,
+       "chapters": [],
+       "published": "2026-10-23T18:13:16Z",
+       "thumb": "img/modules/pmp/14-2.jpg"
+      }
+     ],
+     "deck": "downloads/pmp/14-exam-formats-visual-practice-and-final-strategy.pptx",
+     "deck_kb": 2552,
+     "seconds": 1553,
+     "words": 3243
+    }
+   ],
+   "facts": null,
+   "videos": 40,
+   "seconds": 32483,
+   "notes": [
+    {
+     "num": "01",
+     "slug": "01-project-fundamentals-and-value-delivery",
+     "title": "Project Fundamentals & Value Delivery",
+     "group": "Introduction",
+     "tasks": 0,
+     "los": [],
+     "minutes": 22,
+     "check": {
+      "src_words": 4721,
+      "page_words": 4744,
+      "src_tables": 12,
+      "tables": 12,
+      "src_images": 5,
+      "images": 5,
+      "src_scenario": 10,
+      "scenario": 10,
+      "src_recall": 13,
+      "recall": 13,
+      "src_sections": 14,
+      "sections": 14
+     },
+     "modules": [
+      "01"
+     ],
+     "domain": "Foundations",
+     "ref": "Topic 1",
+     "tn": "Topic 01",
+     "of": 35,
+     "module": "01"
+    },
+    {
+     "num": "02",
+     "slug": "02-principles-and-project-mindset",
+     "title": "Principles & Project Mindset",
+     "group": "Introduction",
+     "tasks": 0,
+     "los": [],
+     "minutes": 18,
+     "check": {
+      "src_words": 3893,
+      "page_words": 3944,
+      "src_tables": 9,
+      "tables": 9,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 10,
+      "scenario": 10,
+      "src_recall": 12,
+      "recall": 12,
+      "src_sections": 12,
+      "sections": 12
+     },
+     "modules": [
+      "01"
+     ],
+     "domain": "Foundations",
+     "ref": "Topic 2",
+     "tn": "Topic 02",
+     "of": 35,
+     "module": "01"
+    },
+    {
+     "num": "03",
+     "slug": "03-life-cycles-and-development-approaches",
+     "title": "Life Cycles & Development Approaches",
+     "group": "Introduction",
+     "tasks": 0,
+     "los": [],
+     "minutes": 19,
+     "check": {
+      "src_words": 3968,
+      "page_words": 3992,
+      "src_tables": 7,
+      "tables": 7,
+      "src_images": 6,
+      "images": 6,
+      "src_scenario": 10,
+      "scenario": 10,
+      "src_recall": 12,
+      "recall": 12,
+      "src_sections": 13,
+      "sections": 13
+     },
+     "modules": [
+      "02"
+     ],
+     "domain": "Foundations",
+     "ref": "Topic 3",
+     "tn": "Topic 03",
+     "of": 35,
+     "module": "02"
+    },
+    {
+     "num": "04",
+     "slug": "04-agile-and-hybrid-ways-of-working",
+     "title": "Agile & Hybrid Ways of Working",
+     "group": "Introduction",
+     "tasks": 0,
+     "los": [],
+     "minutes": 22,
+     "check": {
+      "src_words": 4660,
+      "page_words": 4696,
+      "src_tables": 9,
+      "tables": 9,
+      "src_images": 6,
+      "images": 6,
+      "src_scenario": 12,
+      "scenario": 12,
+      "src_recall": 14,
+      "recall": 14,
+      "src_sections": 13,
+      "sections": 13
+     },
+     "modules": [
+      "02"
+     ],
+     "domain": "Foundations",
+     "ref": "Topic 4",
+     "tn": "Topic 04",
+     "of": 35,
+     "module": "02"
+    },
+    {
+     "num": "05",
+     "slug": "05-tailoring",
+     "title": "Tailoring",
+     "group": "Introduction",
+     "tasks": 0,
+     "los": [],
+     "minutes": 14,
+     "check": {
+      "src_words": 2967,
+      "page_words": 3016,
+      "src_tables": 6,
+      "tables": 6,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 10,
+      "scenario": 10,
+      "src_recall": 14,
+      "recall": 14,
+      "src_sections": 10,
+      "sections": 10
+     },
+     "modules": [
+      "02"
+     ],
+     "domain": "Foundations",
+     "ref": "Topic 5",
+     "tn": "Topic 05",
+     "of": 35,
+     "module": "02"
+    },
+    {
+     "num": "06",
+     "slug": "06-ethics-and-professional-conduct",
+     "title": "Ethics & Professional Conduct",
+     "group": "Introduction",
+     "tasks": 0,
+     "los": [],
+     "minutes": 16,
+     "check": {
+      "src_words": 3392,
+      "page_words": 3430,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 10,
+      "scenario": 10,
+      "src_recall": 12,
+      "recall": 12,
+      "src_sections": 11,
+      "sections": 11
+     },
+     "modules": [
+      "03"
+     ],
+     "domain": "Cross-cutting, new in 2026",
+     "ref": "Topic 6",
+     "tn": "Topic 06",
+     "of": 35,
+     "module": "03"
+    },
+    {
+     "num": "07",
+     "slug": "07-sustainability",
+     "title": "Sustainability",
+     "group": "Introduction",
+     "tasks": 0,
+     "los": [],
+     "minutes": 14,
+     "check": {
+      "src_words": 2868,
+      "page_words": 2911,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 10,
+      "scenario": 10,
+      "src_recall": 12,
+      "recall": 12,
+      "src_sections": 9,
+      "sections": 9
+     },
+     "modules": [
+      "03"
+     ],
+     "domain": "Cross-cutting, new in 2026",
+     "ref": "Topic 7",
+     "tn": "Topic 07",
+     "of": 35,
+     "module": "03"
+    },
+    {
+     "num": "08",
+     "slug": "08-ai-in-project-management",
+     "title": "AI in Project Management",
+     "group": "Introduction",
+     "tasks": 0,
+     "los": [],
+     "minutes": 14,
+     "check": {
+      "src_words": 2981,
+      "page_words": 3011,
+      "src_tables": 6,
+      "tables": 6,
+      "src_images": 3,
+      "images": 3,
+      "src_scenario": 10,
+      "scenario": 10,
+      "src_recall": 12,
+      "recall": 12,
+      "src_sections": 9,
+      "sections": 9
+     },
+     "modules": [
+      "03"
+     ],
+     "domain": "Cross-cutting, new in 2026",
+     "ref": "Topic 8",
+     "tn": "Topic 08",
+     "of": 35,
+     "module": "03"
+    },
+    {
+     "num": "09",
+     "slug": "09-project-initiation-business-case-and-charter",
+     "title": "Project Initiation: Business Case & Charter",
+     "group": "Initiating",
+     "tasks": 0,
+     "los": [],
+     "minutes": 17,
+     "check": {
+      "src_words": 3585,
+      "page_words": 3621,
+      "src_tables": 8,
+      "tables": 8,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 10,
+      "scenario": 10,
+      "src_recall": 12,
+      "recall": 12,
+      "src_sections": 9,
+      "sections": 9
+     },
+     "modules": [
+      "06"
+     ],
+     "domain": "Process 41%",
+     "ref": "Topic 9",
+     "tn": "Topic 09",
+     "of": 35,
+     "module": "06"
+    },
+    {
+     "num": "10",
+     "slug": "10-value-based-delivery-and-benefits",
+     "title": "Value-Based Delivery & Benefits",
+     "group": "Initiating",
+     "tasks": 0,
+     "los": [],
+     "minutes": 19,
+     "check": {
+      "src_words": 3921,
+      "page_words": 3960,
+      "src_tables": 9,
+      "tables": 9,
+      "src_images": 4,
+      "images": 4,
+      "src_scenario": 12,
+      "scenario": 12,
+      "src_recall": 13,
+      "recall": 13,
+      "src_sections": 12,
+      "sections": 12
+     },
+     "modules": [
+      "06"
+     ],
+     "domain": "Process 41%",
+     "ref": "Topic 10",
+     "tn": "Topic 10",
+     "of": 35,
+     "module": "06"
+    },
+    {
+     "num": "11",
+     "slug": "11-common-vision",
+     "title": "Common Vision",
+     "group": "Initiating",
+     "tasks": 0,
+     "los": [],
+     "minutes": 16,
+     "check": {
+      "src_words": 3415,
+      "page_words": 3450,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 10,
+      "scenario": 10,
+      "src_recall": 14,
+      "recall": 14,
+      "src_sections": 9,
+      "sections": 9
+     },
+     "modules": [
+      "04"
+     ],
+     "domain": "People 33%",
+     "ref": "Topic 11",
+     "tn": "Topic 11",
+     "of": 35,
+     "module": "04"
+    },
+    {
+     "num": "12",
+     "slug": "12-project-governance",
+     "title": "Project Governance",
+     "group": "Initiating",
+     "tasks": 0,
+     "los": [],
+     "minutes": 19,
+     "check": {
+      "src_words": 3994,
+      "page_words": 4026,
+      "src_tables": 7,
+      "tables": 7,
+      "src_images": 3,
+      "images": 3,
+      "src_scenario": 10,
+      "scenario": 10,
+      "src_recall": 12,
+      "recall": 12,
+      "src_sections": 12,
+      "sections": 12
+     },
+     "modules": [
+      "10"
+     ],
+     "domain": "Business Environment 26%",
+     "ref": "Topic 12",
+     "tn": "Topic 12",
+     "of": 35,
+     "module": "10"
+    },
+    {
+     "num": "13",
+     "slug": "13-stakeholder-engagement-and-expectations",
+     "title": "Stakeholder Engagement & Expectations",
+     "group": "Initiating",
+     "tasks": 0,
+     "los": [],
+     "minutes": 28,
+     "check": {
+      "src_words": 5974,
+      "page_words": 6025,
+      "src_tables": 16,
+      "tables": 16,
+      "src_images": 5,
+      "images": 5,
+      "src_scenario": 17,
+      "scenario": 17,
+      "src_recall": 12,
+      "recall": 12,
+      "src_sections": 14,
+      "sections": 14
+     },
+     "modules": [
+      "04"
+     ],
+     "domain": "People 33%",
+     "ref": "Topic 13",
+     "tn": "Topic 13",
+     "of": 35,
+     "module": "04"
+    },
+    {
+     "num": "14",
+     "slug": "14-integrated-planning-and-approach-selection",
+     "title": "Integrated Planning & Approach Selection",
+     "group": "Planning",
+     "tasks": 0,
+     "los": [],
+     "minutes": 34,
+     "check": {
+      "src_words": 7287,
+      "page_words": 7321,
+      "src_tables": 21,
+      "tables": 21,
+      "src_images": 5,
+      "images": 5,
+      "src_scenario": 12,
+      "scenario": 12,
+      "src_recall": 14,
+      "recall": 14,
+      "src_sections": 16,
+      "sections": 16
+     },
+     "modules": [
+      "06"
+     ],
+     "domain": "Process 41%",
+     "ref": "Topic 14",
+     "tn": "Topic 14",
+     "of": 35,
+     "module": "06"
+    },
+    {
+     "num": "15",
+     "slug": "15-scope-management",
+     "title": "Scope Management",
+     "group": "Planning",
+     "tasks": 0,
+     "los": [],
+     "minutes": 26,
+     "check": {
+      "src_words": 5444,
+      "page_words": 5474,
+      "src_tables": 11,
+      "tables": 11,
+      "src_images": 4,
+      "images": 4,
+      "src_scenario": 10,
+      "scenario": 10,
+      "src_recall": 14,
+      "recall": 14,
+      "src_sections": 14,
+      "sections": 14
+     },
+     "modules": [
+      "07"
+     ],
+     "domain": "Process 41%",
+     "ref": "Topic 15",
+     "tn": "Topic 15",
+     "of": 35,
+     "module": "07"
+    },
+    {
+     "num": "16",
+     "slug": "16-schedule-management",
+     "title": "Schedule Management",
+     "group": "Planning",
+     "tasks": 0,
+     "los": [],
+     "minutes": 26,
+     "check": {
+      "src_words": 5442,
+      "page_words": 5468,
+      "src_tables": 13,
+      "tables": 13,
+      "src_images": 5,
+      "images": 5,
+      "src_scenario": 10,
+      "scenario": 10,
+      "src_recall": 14,
+      "recall": 14,
+      "src_sections": 13,
+      "sections": 13
+     },
+     "modules": [
+      "07"
+     ],
+     "domain": "Process 41%",
+     "ref": "Topic 16",
+     "tn": "Topic 16",
+     "of": 35,
+     "module": "07"
+    },
+    {
+     "num": "17",
+     "slug": "17-finance-and-cost-management",
+     "title": "Finance & Cost Management",
+     "group": "Planning",
+     "tasks": 0,
+     "los": [],
+     "minutes": 24,
+     "check": {
+      "src_words": 4967,
+      "page_words": 4998,
+      "src_tables": 14,
+      "tables": 14,
+      "src_images": 3,
+      "images": 3,
+      "src_scenario": 10,
+      "scenario": 10,
+      "src_recall": 14,
+      "recall": 14,
+      "src_sections": 13,
+      "sections": 13
+     },
+     "modules": [
+      "07"
+     ],
+     "domain": "Process 41%",
+     "ref": "Topic 17",
+     "tn": "Topic 17",
+     "of": 35,
+     "module": "07"
+    },
+    {
+     "num": "18",
+     "slug": "18-quality-management",
+     "title": "Quality Management",
+     "group": "Planning",
+     "tasks": 0,
+     "los": [],
+     "minutes": 23,
+     "check": {
+      "src_words": 4745,
+      "page_words": 4784,
+      "src_tables": 9,
+      "tables": 9,
+      "src_images": 5,
+      "images": 5,
+      "src_scenario": 10,
+      "scenario": 10,
+      "src_recall": 14,
+      "recall": 14,
+      "src_sections": 15,
+      "sections": 15
+     },
+     "modules": [
+      "08"
+     ],
+     "domain": "Process 41%",
+     "ref": "Topic 18",
+     "tn": "Topic 18",
+     "of": 35,
+     "module": "08"
+    },
+    {
+     "num": "19",
+     "slug": "19-resource-management",
+     "title": "Resource Management",
+     "group": "Planning",
+     "tasks": 0,
+     "los": [],
+     "minutes": 21,
+     "check": {
+      "src_words": 4436,
+      "page_words": 4477,
+      "src_tables": 8,
+      "tables": 8,
+      "src_images": 4,
+      "images": 4,
+      "src_scenario": 10,
+      "scenario": 10,
+      "src_recall": 14,
+      "recall": 14,
+      "src_sections": 13,
+      "sections": 13
+     },
+     "modules": [
+      "08"
+     ],
+     "domain": "Process 41%",
+     "ref": "Topic 19",
+     "tn": "Topic 19",
+     "of": 35,
+     "module": "08"
+    },
+    {
+     "num": "20",
+     "slug": "20-communications-management",
+     "title": "Communications Management",
+     "group": "Planning",
+     "tasks": 0,
+     "los": [],
+     "minutes": 23,
+     "check": {
+      "src_words": 4906,
+      "page_words": 4947,
+      "src_tables": 9,
+      "tables": 9,
+      "src_images": 3,
+      "images": 3,
+      "src_scenario": 12,
+      "scenario": 12,
+      "src_recall": 14,
+      "recall": 14,
+      "src_sections": 13,
+      "sections": 13
+     },
+     "modules": [
+      "04"
+     ],
+     "domain": "People 33%",
+     "ref": "Topic 20",
+     "tn": "Topic 20",
+     "of": 35,
+     "module": "04"
+    },
+    {
+     "num": "21",
+     "slug": "21-risk-management",
+     "title": "Risk Management",
+     "group": "Planning",
+     "tasks": 0,
+     "los": [],
+     "minutes": 24,
+     "check": {
+      "src_words": 5087,
+      "page_words": 5123,
+      "src_tables": 12,
+      "tables": 12,
+      "src_images": 6,
+      "images": 6,
+      "src_scenario": 12,
+      "scenario": 12,
+      "src_recall": 13,
+      "recall": 13,
+      "src_sections": 15,
+      "sections": 15
+     },
+     "modules": [
+      "11"
+     ],
+     "domain": "Business Environment 26%",
+     "ref": "Topic 21",
+     "tn": "Topic 21",
+     "of": 35,
+     "module": "11"
+    },
+    {
+     "num": "22",
+     "slug": "22-procurement-management",
+     "title": "Procurement Management",
+     "group": "Planning",
+     "tasks": 0,
+     "los": [],
+     "minutes": 24,
+     "check": {
+      "src_words": 4990,
+      "page_words": 5024,
+      "src_tables": 8,
+      "tables": 8,
+      "src_images": 4,
+      "images": 4,
+      "src_scenario": 12,
+      "scenario": 12,
+      "src_recall": 14,
+      "recall": 14,
+      "src_sections": 13,
+      "sections": 13
+     },
+     "modules": [
+      "08"
+     ],
+     "domain": "Process 41%",
+     "ref": "Topic 22",
+     "tn": "Topic 22",
+     "of": 35,
+     "module": "08"
+    },
+    {
+     "num": "23",
+     "slug": "23-compliance",
+     "title": "Compliance",
+     "group": "Planning",
+     "tasks": 0,
+     "los": [],
+     "minutes": 20,
+     "check": {
+      "src_words": 4161,
+      "page_words": 4207,
+      "src_tables": 9,
+      "tables": 9,
+      "src_images": 3,
+      "images": 3,
+      "src_scenario": 10,
+      "scenario": 10,
+      "src_recall": 14,
+      "recall": 14,
+      "src_sections": 14,
+      "sections": 14
+     },
+     "modules": [
+      "10"
+     ],
+     "domain": "Business Environment 26%",
+     "ref": "Topic 23",
+     "tn": "Topic 23",
+     "of": 35,
+     "module": "10"
+    },
+    {
+     "num": "24",
+     "slug": "24-managing-project-execution",
+     "title": "Managing Project Execution",
+     "group": "Executing",
+     "tasks": 0,
+     "los": [],
+     "minutes": 17,
+     "check": {
+      "src_words": 3553,
+      "page_words": 3589,
+      "src_tables": 6,
+      "tables": 6,
+      "src_images": 3,
+      "images": 3,
+      "src_scenario": 10,
+      "scenario": 10,
+      "src_recall": 14,
+      "recall": 14,
+      "src_sections": 12,
+      "sections": 12
+     },
+     "modules": [
+      "09"
+     ],
+     "domain": "Process 41%",
+     "ref": "Topic 24",
+     "tn": "Topic 24",
+     "of": 35,
+     "module": "09"
+    },
+    {
+     "num": "25",
+     "slug": "25-leading-the-project-team",
+     "title": "Leading the Project Team",
+     "group": "Executing",
+     "tasks": 0,
+     "los": [],
+     "minutes": 23,
+     "check": {
+      "src_words": 4810,
+      "page_words": 4862,
+      "src_tables": 10,
+      "tables": 10,
+      "src_images": 3,
+      "images": 3,
+      "src_scenario": 12,
+      "scenario": 12,
+      "src_recall": 14,
+      "recall": 14,
+      "src_sections": 16,
+      "sections": 16
+     },
+     "modules": [
+      "05"
+     ],
+     "domain": "People 33%",
+     "ref": "Topic 25",
+     "tn": "Topic 25",
+     "of": 35,
+     "module": "05"
+    },
+    {
+     "num": "26",
+     "slug": "26-conflict-management",
+     "title": "Conflict Management",
+     "group": "Executing",
+     "tasks": 0,
+     "los": [],
+     "minutes": 17,
+     "check": {
+      "src_words": 3532,
+      "page_words": 3561,
+      "src_tables": 6,
+      "tables": 6,
+      "src_images": 3,
+      "images": 3,
+      "src_scenario": 10,
+      "scenario": 10,
+      "src_recall": 14,
+      "recall": 14,
+      "src_sections": 13,
+      "sections": 13
+     },
+     "modules": [
+      "05"
+     ],
+     "domain": "People 33%",
+     "ref": "Topic 26",
+     "tn": "Topic 26",
+     "of": 35,
+     "module": "05"
+    },
+    {
+     "num": "27",
+     "slug": "27-knowledge-management-and-transfer",
+     "title": "Knowledge Management & Transfer",
+     "group": "Executing",
+     "tasks": 0,
+     "los": [],
+     "minutes": 18,
+     "check": {
+      "src_words": 3797,
+      "page_words": 3834,
+      "src_tables": 6,
+      "tables": 6,
+      "src_images": 4,
+      "images": 4,
+      "src_scenario": 12,
+      "scenario": 12,
+      "src_recall": 14,
+      "recall": 14,
+      "src_sections": 12,
+      "sections": 12
+     },
+     "modules": [
+      "05"
+     ],
+     "domain": "People 33%",
+     "ref": "Topic 27",
+     "tn": "Topic 27",
+     "of": 35,
+     "module": "05"
+    },
+    {
+     "num": "28",
+     "slug": "28-project-status-metrics-and-reporting",
+     "title": "Project Status, Metrics & Reporting",
+     "group": "Monitoring and Controlling",
+     "tasks": 0,
+     "los": [],
+     "minutes": 18,
+     "check": {
+      "src_words": 3817,
+      "page_words": 3853,
+      "src_tables": 8,
+      "tables": 8,
+      "src_images": 3,
+      "images": 3,
+      "src_scenario": 10,
+      "scenario": 10,
+      "src_recall": 14,
+      "recall": 14,
+      "src_sections": 12,
+      "sections": 12
+     },
+     "modules": [
+      "09"
+     ],
+     "domain": "Process 41%",
+     "ref": "Topic 28",
+     "tn": "Topic 28",
+     "of": 35,
+     "module": "09"
+    },
+    {
+     "num": "29",
+     "slug": "29-change-control",
+     "title": "Change Control",
+     "group": "Monitoring and Controlling",
+     "tasks": 0,
+     "los": [],
+     "minutes": 19,
+     "check": {
+      "src_words": 3900,
+      "page_words": 3931,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 3,
+      "images": 3,
+      "src_scenario": 11,
+      "scenario": 11,
+      "src_recall": 14,
+      "recall": 14,
+      "src_sections": 13,
+      "sections": 13
+     },
+     "modules": [
+      "12"
+     ],
+     "domain": "Business Environment 26%",
+     "ref": "Topic 29",
+     "tn": "Topic 29",
+     "of": 35,
+     "module": "12"
+    },
+    {
+     "num": "30",
+     "slug": "30-issues-and-impediments",
+     "title": "Issues and Impediments",
+     "group": "Monitoring and Controlling",
+     "tasks": 0,
+     "los": [],
+     "minutes": 27,
+     "check": {
+      "src_words": 5604,
+      "page_words": 5632,
+      "src_tables": 8,
+      "tables": 8,
+      "src_images": 4,
+      "images": 4,
+      "src_scenario": 10,
+      "scenario": 10,
+      "src_recall": 14,
+      "recall": 14,
+      "src_sections": 16,
+      "sections": 16
+     },
+     "modules": [
+      "11"
+     ],
+     "domain": "Business Environment 26%",
+     "ref": "Topic 30",
+     "tn": "Topic 30",
+     "of": 35,
+     "module": "11"
+    },
+    {
+     "num": "31",
+     "slug": "31-continuous-improvement",
+     "title": "Continuous Improvement",
+     "group": "Monitoring and Controlling",
+     "tasks": 0,
+     "los": [],
+     "minutes": 23,
+     "check": {
+      "src_words": 4681,
+      "page_words": 4707,
+      "src_tables": 7,
+      "tables": 7,
+      "src_images": 3,
+      "images": 3,
+      "src_scenario": 10,
+      "scenario": 10,
+      "src_recall": 14,
+      "recall": 14,
+      "src_sections": 10,
+      "sections": 10
+     },
+     "modules": [
+      "12"
+     ],
+     "domain": "Business Environment 26%",
+     "ref": "Topic 31",
+     "tn": "Topic 31",
+     "of": 35,
+     "module": "12"
+    },
+    {
+     "num": "32",
+     "slug": "32-organizational-change-and-culture",
+     "title": "Organizational Change and Culture",
+     "group": "Monitoring and Controlling",
+     "tasks": 0,
+     "los": [],
+     "minutes": 23,
+     "check": {
+      "src_words": 4618,
+      "page_words": 4646,
+      "src_tables": 8,
+      "tables": 8,
+      "src_images": 3,
+      "images": 3,
+      "src_scenario": 10,
+      "scenario": 10,
+      "src_recall": 14,
+      "recall": 14,
+      "src_sections": 10,
+      "sections": 10
+     },
+     "modules": [
+      "12"
+     ],
+     "domain": "Business Environment 26%",
+     "ref": "Topic 32",
+     "tn": "Topic 32",
+     "of": 35,
+     "module": "12"
+    },
+    {
+     "num": "33",
+     "slug": "33-external-business-environment",
+     "title": "External Business Environment",
+     "group": "Monitoring and Controlling",
+     "tasks": 0,
+     "los": [],
+     "minutes": 19,
+     "check": {
+      "src_words": 3982,
+      "page_words": 4018,
+      "src_tables": 6,
+      "tables": 6,
+      "src_images": 3,
+      "images": 3,
+      "src_scenario": 10,
+      "scenario": 10,
+      "src_recall": 14,
+      "recall": 14,
+      "src_sections": 10,
+      "sections": 10
+     },
+     "modules": [
+      "12"
+     ],
+     "domain": "Business Environment 26%",
+     "ref": "Topic 33",
+     "tn": "Topic 33",
+     "of": 35,
+     "module": "12"
+    },
+    {
+     "num": "34",
+     "slug": "34-formulas-and-calculations",
+     "title": "Formulas and Calculations",
+     "group": "Monitoring and Controlling",
+     "tasks": 0,
+     "los": [],
+     "minutes": 28,
+     "check": {
+      "src_words": 5901,
+      "page_words": 5928,
+      "src_tables": 17,
+      "tables": 17,
+      "src_images": 5,
+      "images": 5,
+      "src_scenario": 12,
+      "scenario": 12,
+      "src_recall": 14,
+      "recall": 14,
+      "src_sections": 14,
+      "sections": 14
+     },
+     "modules": [
+      "13"
+     ],
+     "domain": "Process and Business Environment",
+     "ref": "Topic 34",
+     "tn": "Topic 34",
+     "of": 35,
+     "module": "13"
+    },
+    {
+     "num": "35",
+     "slug": "35-project-closure",
+     "title": "Project Closure",
+     "group": "Closing",
+     "tasks": 0,
+     "los": [],
+     "minutes": 23,
+     "check": {
+      "src_words": 4678,
+      "page_words": 4704,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 4,
+      "images": 4,
+      "src_scenario": 10,
+      "scenario": 10,
+      "src_recall": 14,
+      "recall": 14,
+      "src_sections": 13,
+      "sections": 13
+     },
+     "modules": [
+      "09"
+     ],
+     "domain": "Process 41%",
+     "ref": "Topic 35",
+     "tn": "Topic 35",
+     "of": 35,
+     "module": "09"
+    }
+   ],
+   "glossary": 0
+  },
+  {
+   "kind": "certification",
+   "topic": null,
+   "slug": "kcna",
+   "institute": "linux-foundation",
+   "short": "KCNA",
+   "name": "Kubernetes and Cloud Native Associate",
+   "title": "KCNA Exam Prep Masterclass",
+   "accent": "c-kcna",
+   "desc": "Kubernetes, containers, security, delivery and observability, with the Harbor Books running case.",
+   "audience": "Engineers, students and career changers preparing for the KCNA exam. No hands-on cluster is needed.",
+   "sources": "The official KCNA curriculum, the Kubernetes documentation and the CNCF landscape.",
+   "playlist": "PLJ1zq_upQhek",
+   "cover": "img/covers/kcna.jpg",
+   "modules": [
+    {
+     "num": "00",
+     "slug": "00-course-introduction-and-exam-orientation",
+     "title": "Course Introduction and Exam Orientation",
+     "desc": "The exam, the curriculum and how to use the course",
+     "parts": [
+      {
+       "part": 1,
+       "id": "in_IS0jM2mo",
+       "title": "The exam, the curriculum and how to use the course",
+       "seconds": 461,
+       "chapters": [
+        [
+         0,
+         "The KCNA Exam in Numbers"
+        ],
+        [
+         71,
+         "Booking, Validity and Renewal"
+        ],
+        [
+         110,
+         "The Curriculum: Four Domains"
+        ],
+        [
+         163,
+         "Old Curriculum, New Curriculum"
+        ],
+        [
+         211,
+         "Where the KCNA Sits"
+        ],
+        [
+         253,
+         "How the Course Is Organized"
+        ],
+        [
+         295,
+         "Labels You Will See"
+        ],
+        [
+         336,
+         "Meet Harbor Books, the Running Case"
+        ],
+        [
+         378,
+         "Independence, Trademarks and Good Study Habits"
+        ]
+       ],
+       "published": "2026-11-01T09:28:21Z",
+       "thumb": "img/modules/kcna/00-1.jpg"
+      }
+     ],
+     "deck": "downloads/kcna/00-course-introduction-and-exam-orientation.pptx",
+     "deck_kb": 323,
+     "seconds": 461,
+     "words": 1146
+    },
+    {
+     "num": "01",
+     "slug": "01-containers-and-containerization",
+     "title": "Containers and Containerization",
+     "desc": "Containers, images and the standards",
+     "parts": [
+      {
+       "part": 1,
+       "id": "9vd0wZtOwfg",
+       "title": "Containers, images and the standards",
+       "seconds": 377,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Harbor Books Packs the Storefront"
+        ],
+        [
+         57,
+         "Why Containers: Portable, Dense, Consistent"
+        ],
+        [
+         95,
+         "From Image to Running Container"
+        ],
+        [
+         127,
+         "Image Layers"
+        ],
+        [
+         155,
+         "Registries, Tags and Digests"
+        ],
+        [
+         193,
+         "Image Pull Policy"
+        ],
+        [
+         231,
+         "OCI: The Open Standards"
+        ],
+        [
+         269,
+         "What a Container Is Made Of: Namespaces and cgroups"
+        ],
+        [
+         306,
+         "The Runtime Stack: CRI, containerd, CRI-O, runc"
+        ],
+        [
+         341,
+         "Dockerfile and Multi-Stage Builds"
+        ]
+       ],
+       "published": "2026-11-01T09:28:36Z",
+       "thumb": "img/modules/kcna/01-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "2RwmHdyLGec",
+       "title": "Recap and practice",
+       "seconds": 406,
+       "chapters": [
+        [
+         0,
+         "What the Exam Asks: Containers"
+        ],
+        [
+         78,
+         "Practice Question 1"
+        ],
+        [
+         118,
+         "Practice Question 2"
+        ],
+        [
+         159,
+         "Practice Question 3"
+        ],
+        [
+         202,
+         "Practice Question 4"
+        ],
+        [
+         248,
+         "Practice Question 5"
+        ],
+        [
+         290,
+         "Practice Question 6"
+        ],
+        [
+         327,
+         "Practice Question 7"
+        ]
+       ],
+       "published": "2026-11-01T09:28:50Z",
+       "thumb": "img/modules/kcna/01-2.jpg"
+      }
+     ],
+     "deck": "downloads/kcna/01-containers-and-containerization.pptx",
+     "deck_kb": 484,
+     "seconds": 783,
+     "words": 1763
+    },
+    {
+     "num": "02",
+     "slug": "02-kubernetes-architecture-api-and-objects",
+     "title": "Kubernetes Architecture, API and Objects",
+     "desc": "Cluster, API and objects",
+     "parts": [
+      {
+       "part": 1,
+       "id": "yNdTER2xDKY",
+       "title": "Cluster, API and objects",
+       "seconds": 594,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Harbor Books Gets a Cluster"
+        ],
+        [
+         63,
+         "A Cluster: Control Plane and Nodes"
+        ],
+        [
+         96,
+         "Control Plane Components"
+        ],
+        [
+         144,
+         "Node Components and Add-ons"
+        ],
+        [
+         178,
+         "Following a Request: From kubectl to a Running Pod"
+        ],
+        [
+         210,
+         "Declarative Versus Imperative"
+        ],
+        [
+         249,
+         "Controllers and the Reconciliation Loop"
+        ],
+        [
+         280,
+         "The API: Groups, Versions and Kinds"
+        ],
+        [
+         329,
+         "Anatomy of a Manifest"
+        ],
+        [
+         370,
+         "Kinds You Will Meet"
+        ],
+        [
+         408,
+         "kubectl: the Command Line"
+        ],
+        [
+         444,
+         "kubeconfig: Clusters, Users and Contexts"
+        ],
+        [
+         483,
+         "Labels, Selectors and Annotations"
+        ],
+        [
+         520,
+         "Namespaces and Owner References"
+        ],
+        [
+         560,
+         "Custom Resources, Controllers and Operators"
+        ]
+       ],
+       "published": "2026-11-01T09:29:28Z",
+       "thumb": "img/modules/kcna/02-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "aiARYM39i90",
+       "title": "Distributions, recap and practice",
+       "seconds": 615,
+       "chapters": [
+        [
+         0,
+         "Where Clusters Come From"
+        ],
+        [
+         40,
+         "What the Exam Asks: Architecture"
+        ],
+        [
+         123,
+         "Practice Question 1"
+        ],
+        [
+         159,
+         "Practice Question 2"
+        ],
+        [
+         199,
+         "Practice Question 3"
+        ],
+        [
+         235,
+         "Practice Question 4"
+        ],
+        [
+         278,
+         "Practice Question 5"
+        ],
+        [
+         317,
+         "Practice Question 6"
+        ],
+        [
+         356,
+         "Practice Question 7"
+        ],
+        [
+         394,
+         "Practice Question 8"
+        ],
+        [
+         433,
+         "Practice Question 9"
+        ],
+        [
+         474,
+         "Practice Question 10"
+        ],
+        [
+         512,
+         "Practice Question 11"
+        ]
+       ],
+       "published": "2026-11-01T09:29:55Z",
+       "thumb": "img/modules/kcna/02-2.jpg"
+      }
+     ],
+     "deck": "downloads/kcna/02-kubernetes-architecture-api-and-objects.pptx",
+     "deck_kb": 624,
+     "seconds": 1209,
+     "words": 2706
+    },
+    {
+     "num": "03",
+     "slug": "03-workloads-and-controllers",
+     "title": "Workloads and Controllers",
+     "desc": "Pods, probes and the controllers",
+     "parts": [
+      {
+       "part": 1,
+       "id": "e3-NSCC2etw",
+       "title": "Pods, probes and the controllers",
+       "seconds": 546,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Harbor Books Needs Its Shop Running"
+        ],
+        [
+         68,
+         "The Pod: the Smallest Deployable Unit"
+        ],
+        [
+         105,
+         "Init, Sidecar and Ephemeral Containers"
+        ],
+        [
+         147,
+         "Pod Phases and Restart Policy"
+        ],
+        [
+         200,
+         "Probes: Startup, Liveness and Readiness"
+        ],
+        [
+         250,
+         "ReplicaSet and Deployment: Who Owns Whom"
+        ],
+        [
+         286,
+         "The Deployment and the Rolling Update"
+        ],
+        [
+         326,
+         "Rollout History and Rollback"
+        ],
+        [
+         365,
+         "StatefulSet: Stable Identity and Storage"
+        ],
+        [
+         400,
+         "DaemonSet: One Pod per Node"
+        ],
+        [
+         433,
+         "Job and CronJob: Work That Ends"
+        ],
+        [
+         474,
+         "Choosing the Right Controller"
+        ],
+        [
+         508,
+         "What the Exam Asks: Workloads"
+        ]
+       ],
+       "published": "2026-11-01T09:30:12Z",
+       "thumb": "img/modules/kcna/03-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "Fr2i1fTKocQ",
+       "title": "Recap and practice",
+       "seconds": 505,
+       "chapters": [
+        [
+         0,
+         "Practice Question 1"
+        ],
+        [
+         73,
+         "Practice Question 2"
+        ],
+        [
+         116,
+         "Practice Question 3"
+        ],
+        [
+         158,
+         "Practice Question 4"
+        ],
+        [
+         201,
+         "Practice Question 5"
+        ],
+        [
+         247,
+         "Practice Question 6"
+        ],
+        [
+         287,
+         "Practice Question 7"
+        ],
+        [
+         333,
+         "Practice Question 8"
+        ],
+        [
+         372,
+         "Practice Question 9"
+        ],
+        [
+         413,
+         "Practice Question 10"
+        ]
+       ],
+       "published": "2026-11-01T09:30:31Z",
+       "thumb": "img/modules/kcna/03-2.jpg"
+      }
+     ],
+     "deck": "downloads/kcna/03-workloads-and-controllers.pptx",
+     "deck_kb": 539,
+     "seconds": 1051,
+     "words": 2351
+    },
+    {
+     "num": "04",
+     "slug": "04-configuration-and-cluster-administration",
+     "title": "Configuration and Cluster Administration",
+     "desc": "Configuration, resources and cluster setup",
+     "parts": [
+      {
+       "part": 1,
+       "id": "6AVel1yU-IE",
+       "title": "Configuration, resources and cluster setup",
+       "seconds": 375,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Harbor Books Runs the Shop for Real"
+        ],
+        [
+         60,
+         "ConfigMaps"
+        ],
+        [
+         96,
+         "Using a ConfigMap in a Pod"
+        ],
+        [
+         124,
+         "Secrets: Encoded, Not Encrypted"
+        ],
+        [
+         166,
+         "Resource Requests and Limits"
+        ],
+        [
+         201,
+         "What Requests and Limits Do"
+        ],
+        [
+         232,
+         "LimitRange and ResourceQuota"
+        ],
+        [
+         267,
+         "Cluster Setup with kubeadm"
+        ],
+        [
+         300,
+         "Upgrades and Version Skew"
+        ],
+        [
+         340,
+         "etcd Backup and Restore"
+        ]
+       ],
+       "published": "2026-11-01T09:30:46Z",
+       "thumb": "img/modules/kcna/04-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "tghNYUHbuQE",
+       "title": "Maintenance, recap and practice",
+       "seconds": 575,
+       "chapters": [
+        [
+         0,
+         "Node Maintenance: Cordon, Drain and PodDisruptionBudgets"
+        ],
+        [
+         31,
+         "Releases, Deprecation and Support"
+        ],
+        [
+         79,
+         "What the Exam Asks: Configuration and Administration"
+        ],
+        [
+         158,
+         "Practice Question 1"
+        ],
+        [
+         196,
+         "Practice Question 2"
+        ],
+        [
+         243,
+         "Practice Question 3"
+        ],
+        [
+         283,
+         "Practice Question 4"
+        ],
+        [
+         324,
+         "Practice Question 5"
+        ],
+        [
+         364,
+         "Practice Question 6"
+        ],
+        [
+         407,
+         "Practice Question 7"
+        ],
+        [
+         443,
+         "Practice Question 8"
+        ],
+        [
+         484,
+         "Practice Question 9"
+        ]
+       ],
+       "published": "2026-11-01T09:31:26Z",
+       "thumb": "img/modules/kcna/04-2.jpg"
+      }
+     ],
+     "deck": "downloads/kcna/04-configuration-and-cluster-administration.pptx",
+     "deck_kb": 474,
+     "seconds": 950,
+     "words": 2105
+    },
+    {
+     "num": "05",
+     "slug": "05-scheduling-and-scaling",
+     "title": "Scheduling and Scaling",
+     "desc": "The scheduler, placement and the HPA",
+     "parts": [
+      {
+       "part": 1,
+       "id": "e69dqIFCDEQ",
+       "title": "The scheduler, placement and the HPA",
+       "seconds": 379,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Harbor Books Sells More at the Weekend"
+        ],
+        [
+         57,
+         "How the Scheduler Decides: Filter, Score, Bind"
+        ],
+        [
+         90,
+         "nodeSelector and Node Affinity"
+        ],
+        [
+         125,
+         "Pod Affinity and Anti-Affinity"
+        ],
+        [
+         155,
+         "Taints and Tolerations"
+        ],
+        [
+         190,
+         "Topology Spread Constraints"
+        ],
+        [
+         229,
+         "Priority and Preemption"
+        ],
+        [
+         264,
+         "QoS Classes and Eviction"
+        ],
+        [
+         306,
+         "Static Pods and Manual Placement"
+        ],
+        [
+         339,
+         "Horizontal Pod Autoscaler"
+        ]
+       ],
+       "published": "2026-11-01T09:31:26Z",
+       "thumb": "img/modules/kcna/05-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "3bGxB3adMOM",
+       "title": "Other autoscalers, recap and practice",
+       "seconds": 536,
+       "chapters": [
+        [
+         0,
+         "Other Autoscalers: VPA, Cluster Autoscaler and KEDA"
+        ],
+        [
+         36,
+         "What the Exam Asks: Scheduling"
+        ],
+        [
+         119,
+         "Practice Question 1"
+        ],
+        [
+         155,
+         "Practice Question 2"
+        ],
+        [
+         197,
+         "Practice Question 3"
+        ],
+        [
+         235,
+         "Practice Question 4"
+        ],
+        [
+         282,
+         "Practice Question 5"
+        ],
+        [
+         324,
+         "Practice Question 6"
+        ],
+        [
+         368,
+         "Practice Question 7"
+        ],
+        [
+         409,
+         "Practice Question 8"
+        ],
+        [
+         451,
+         "Practice Question 9"
+        ]
+       ],
+       "published": "2026-11-01T09:31:59Z",
+       "thumb": "img/modules/kcna/05-2.jpg"
+      }
+     ],
+     "deck": "downloads/kcna/05-scheduling-and-scaling.pptx",
+     "deck_kb": 469,
+     "seconds": 915,
+     "words": 2012
+    },
+    {
+     "num": "06",
+     "slug": "06-networking-and-service-mesh",
+     "title": "Networking and Service Mesh",
+     "desc": "The network model, Services and traffic from outside",
+     "parts": [
+      {
+       "part": 1,
+       "id": "X8luLk82jOs",
+       "title": "The network model, Services and traffic from outside",
+       "seconds": 477,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Harbor Books Connects Its Parts"
+        ],
+        [
+         55,
+         "The Kubernetes Network Model"
+        ],
+        [
+         100,
+         "CNI and Network Plugins"
+        ],
+        [
+         146,
+         "Services: A Stable Address for Pods"
+        ],
+        [
+         180,
+         "Service Types"
+        ],
+        [
+         228,
+         "A Service Manifest"
+        ],
+        [
+         258,
+         "EndpointSlices and kube-proxy"
+        ],
+        [
+         301,
+         "DNS, CoreDNS and Service Discovery"
+        ],
+        [
+         347,
+         "Ingress: HTTP Routes into the Cluster"
+        ],
+        [
+         385,
+         "Gateway API and the Ingress NGINX Retirement"
+        ],
+        [
+         443,
+         "LoadBalancer Without a Cloud: MetalLB"
+        ]
+       ],
+       "published": "2026-11-01T09:32:19Z",
+       "thumb": "img/modules/kcna/06-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "awV9RTe0Lmg",
+       "title": "NetworkPolicy, service mesh, recap and practice",
+       "seconds": 590,
+       "chapters": [
+        [
+         0,
+         "NetworkPolicy: Rules for Pod Traffic"
+        ],
+        [
+         41,
+         "Service Mesh: Sidecar and Sidecarless"
+        ],
+        [
+         82,
+         "What the Exam Asks: Networking"
+        ],
+        [
+         176,
+         "Practice Question 1"
+        ],
+        [
+         212,
+         "Practice Question 2"
+        ],
+        [
+         257,
+         "Practice Question 3"
+        ],
+        [
+         301,
+         "Practice Question 4"
+        ],
+        [
+         343,
+         "Practice Question 5"
+        ],
+        [
+         385,
+         "Practice Question 6"
+        ],
+        [
+         422,
+         "Practice Question 7"
+        ],
+        [
+         458,
+         "Practice Question 8"
+        ],
+        [
+         501,
+         "Practice Question 9"
+        ]
+       ],
+       "published": "2026-11-01T09:32:55Z",
+       "thumb": "img/modules/kcna/06-2.jpg"
+      }
+     ],
+     "deck": "downloads/kcna/06-networking-and-service-mesh.pptx",
+     "deck_kb": 555,
+     "seconds": 1067,
+     "words": 2474
+    },
+    {
+     "num": "07",
+     "slug": "07-storage",
+     "title": "Storage",
+     "desc": "Volumes, claims, StorageClasses, CSI and practice",
+     "parts": [
+      {
+       "part": 1,
+       "id": "piiN4Ywh2Ew",
+       "title": "Volumes, claims, StorageClasses, CSI and practice",
+       "seconds": 722,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Harbor Books Keeps Its Data"
+        ],
+        [
+         55,
+         "Volumes: Ephemeral and Persistent"
+        ],
+        [
+         96,
+         "Common Volume Types"
+        ],
+        [
+         148,
+         "PersistentVolume and PersistentVolumeClaim"
+        ],
+        [
+         192,
+         "Using a Claim"
+        ],
+        [
+         220,
+         "StorageClass and Dynamic Provisioning"
+        ],
+        [
+         263,
+         "Access Modes and Reclaim Policy"
+        ],
+        [
+         313,
+         "CSI, Expansion and Snapshots"
+        ],
+        [
+         355,
+         "StatefulSet Storage and Storage Types"
+        ],
+        [
+         444,
+         "Practice Question 1"
+        ],
+        [
+         489,
+         "Practice Question 2"
+        ],
+        [
+         534,
+         "Practice Question 3"
+        ],
+        [
+         575,
+         "Practice Question 4"
+        ],
+        [
+         610,
+         "Practice Question 5"
+        ],
+        [
+         650,
+         "Practice Question 6"
+        ]
+       ],
+       "published": "2026-11-01T09:33:30Z",
+       "thumb": "img/modules/kcna/07-1.jpg"
+      }
+     ],
+     "deck": "downloads/kcna/07-storage.pptx",
+     "deck_kb": 408,
+     "seconds": 722,
+     "words": 1643
+    },
+    {
+     "num": "08",
+     "slug": "08-security",
+     "title": "Security",
+     "desc": "Layers, access control and Pod Security",
+     "parts": [
+      {
+       "part": 1,
+       "id": "ydwN7JjZAKo",
+       "title": "Layers, access control and Pod Security",
+       "seconds": 432,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Harbor Books Locks the Doors"
+        ],
+        [
+         54,
+         "Security Through the Lifecycle"
+        ],
+        [
+         96,
+         "The 4 Cs of Cloud Native Security"
+        ],
+        [
+         128,
+         "The API Request Path"
+        ],
+        [
+         172,
+         "RBAC: Roles and Bindings"
+        ],
+        [
+         215,
+         "An RBAC Role"
+        ],
+        [
+         249,
+         "ServiceAccounts"
+        ],
+        [
+         294,
+         "Admission Control and Policy Engines"
+        ],
+        [
+         345,
+         "Pod Security Standards and Admission"
+        ],
+        [
+         392,
+         "securityContext"
+        ]
+       ],
+       "published": "2026-11-01T09:33:35Z",
+       "thumb": "img/modules/kcna/08-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "pa7NmSA8QSE",
+       "title": "Hardening, recap and practice",
+       "seconds": 606,
+       "chapters": [
+        [
+         0,
+         "Protecting Secrets and Traffic"
+        ],
+        [
+         42,
+         "Image Supply Chain Security"
+        ],
+        [
+         82,
+         "Runtime Security and Auditing"
+        ],
+        [
+         118,
+         "What the Exam Asks: Security"
+        ],
+        [
+         212,
+         "Practice Question 1"
+        ],
+        [
+         250,
+         "Practice Question 2"
+        ],
+        [
+         289,
+         "Practice Question 3"
+        ],
+        [
+         330,
+         "Practice Question 4"
+        ],
+        [
+         368,
+         "Practice Question 5"
+        ],
+        [
+         409,
+         "Practice Question 6"
+        ],
+        [
+         445,
+         "Practice Question 7"
+        ],
+        [
+         478,
+         "Practice Question 8"
+        ],
+        [
+         522,
+         "Practice Question 9"
+        ]
+       ],
+       "published": "2026-11-01T09:34:01Z",
+       "thumb": "img/modules/kcna/08-2.jpg"
+      }
+     ],
+     "deck": "downloads/kcna/08-security.pptx",
+     "deck_kb": 551,
+     "seconds": 1038,
+     "words": 2169
+    },
+    {
+     "num": "09",
+     "slug": "09-troubleshooting-kubernetes",
+     "title": "Troubleshooting Kubernetes",
+     "desc": "Finding the broken layer, and practice",
+     "parts": [
+      {
+       "part": 1,
+       "id": "sOhUAR4nmfM",
+       "title": "Finding the broken layer, and practice",
+       "seconds": 668,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Harbor Books Has a Bad Morning"
+        ],
+        [
+         55,
+         "A Symptom-to-Layer Method"
+        ],
+        [
+         99,
+         "kubectl Tools for Troubleshooting"
+        ],
+        [
+         135,
+         "Pod States and What They Mean"
+        ],
+        [
+         182,
+         "Pending in Detail"
+        ],
+        [
+         219,
+         "NotReady Nodes and Component Logs"
+        ],
+        [
+         262,
+         "A Service With No Endpoints, and DNS Failures"
+        ],
+        [
+         302,
+         "Quota and RBAC Denials"
+        ],
+        [
+         344,
+         "What the Exam Asks: Troubleshooting"
+        ],
+        [
+         426,
+         "Practice Question 1"
+        ],
+        [
+         465,
+         "Practice Question 2"
+        ],
+        [
+         510,
+         "Practice Question 3"
+        ],
+        [
+         549,
+         "Practice Question 4"
+        ],
+        [
+         595,
+         "Practice Question 5"
+        ]
+       ],
+       "published": "2026-11-01T09:34:22Z",
+       "thumb": "img/modules/kcna/09-1.jpg"
+      }
+     ],
+     "deck": "downloads/kcna/09-troubleshooting-kubernetes.pptx",
+     "deck_kb": 429,
+     "seconds": 668,
+     "words": 1564
+    },
+    {
+     "num": "10",
+     "slug": "10-application-delivery-ci-cd-gitops-helm",
+     "title": "Application Delivery: CI/CD, GitOps, Helm",
+     "desc": "Pipelines, GitOps, release strategies and Helm concepts",
+     "parts": [
+      {
+       "part": 1,
+       "id": "_X3vUhGEdhM",
+       "title": "Pipelines, GitOps, release strategies and Helm concepts",
+       "seconds": 401,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Harbor Books Ships Every Week"
+        ],
+        [
+         59,
+         "CI, Continuous Delivery and Continuous Deployment"
+        ],
+        [
+         100,
+         "Registry, Tags and Digests"
+        ],
+        [
+         134,
+         "GitOps: The Four Principles"
+        ],
+        [
+         173,
+         "Pull, Drift and Reconciliation"
+        ],
+        [
+         211,
+         "Argo CD and Flux"
+        ],
+        [
+         253,
+         "Recreate, Rolling and Blue/Green"
+        ],
+        [
+         290,
+         "Canary, A/B and Shadow Releases"
+        ],
+        [
+         327,
+         "Progressive Delivery with Argo Rollouts"
+        ],
+        [
+         366,
+         "Helm: Charts, Releases and Values"
+        ]
+       ],
+       "published": "2026-11-01T09:34:40Z",
+       "thumb": "img/modules/kcna/10-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "ArWKCyPxtME",
+       "title": "Helm, Kustomize, recap and practice",
+       "seconds": 632,
+       "chapters": [
+        [
+         0,
+         "Helm in Practice"
+        ],
+        [
+         38,
+         "Kustomize: Bases and Overlays"
+        ],
+        [
+         72,
+         "Promotion, Rollback and Infrastructure as Code"
+        ],
+        [
+         109,
+         "What the Exam Asks: Application Delivery"
+        ],
+        [
+         193,
+         "Practice Question 1"
+        ],
+        [
+         233,
+         "Practice Question 2"
+        ],
+        [
+         275,
+         "Practice Question 3"
+        ],
+        [
+         309,
+         "Practice Question 4"
+        ],
+        [
+         344,
+         "Practice Question 5"
+        ],
+        [
+         384,
+         "Practice Question 6"
+        ],
+        [
+         421,
+         "Practice Question 7"
+        ],
+        [
+         465,
+         "Practice Question 8"
+        ],
+        [
+         502,
+         "Practice Question 9"
+        ],
+        [
+         541,
+         "Practice Question 10"
+        ]
+       ],
+       "published": "2026-11-01T09:35:10Z",
+       "thumb": "img/modules/kcna/10-2.jpg"
+      }
+     ],
+     "deck": "downloads/kcna/10-application-delivery-ci-cd-gitops-helm.pptx",
+     "deck_kb": 507,
+     "seconds": 1033,
+     "words": 2181
+    },
+    {
+     "num": "11",
+     "slug": "11-debugging-applications-and-rollouts",
+     "title": "Debugging Applications and Rollouts",
+     "desc": "Stuck rollouts, application debugging and practice",
+     "parts": [
+      {
+       "part": 1,
+       "id": "QqDsH0vqUPo",
+       "title": "Stuck rollouts, application debugging and practice",
+       "seconds": 696,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: A Harbor Books Release Sticks"
+        ],
+        [
+         60,
+         "Stuck and Failed Rollouts"
+        ],
+        [
+         101,
+         "Probes That Misbehave"
+        ],
+        [
+         136,
+         "Image, ConfigMap and Secret Errors"
+        ],
+        [
+         176,
+         "Looking Inside a Running Application"
+        ],
+        [
+         211,
+         "Resource Problems: OOMKilled and Throttling"
+        ],
+        [
+         250,
+         "Helm and GitOps Failures"
+        ],
+        [
+         290,
+         "Application Fault or Platform Fault?"
+        ],
+        [
+         370,
+         "Practice Question 1"
+        ],
+        [
+         409,
+         "Practice Question 2"
+        ],
+        [
+         449,
+         "Practice Question 3"
+        ],
+        [
+         489,
+         "Practice Question 4"
+        ],
+        [
+         529,
+         "Practice Question 5"
+        ],
+        [
+         570,
+         "Practice Question 6"
+        ],
+        [
+         616,
+         "Practice Question 7"
+        ]
+       ],
+       "published": "2026-11-01T09:35:36Z",
+       "thumb": "img/modules/kcna/11-1.jpg"
+      }
+     ],
+     "deck": "downloads/kcna/11-debugging-applications-and-rollouts.pptx",
+     "deck_kb": 363,
+     "seconds": 696,
+     "words": 1507
+    },
+    {
+     "num": "12",
+     "slug": "12-cloud-native-architecture-and-principles",
+     "title": "Cloud Native Architecture and Principles",
+     "desc": "Principles, patterns, standards, personas and practice",
+     "parts": [
+      {
+       "part": 1,
+       "id": "2p6B4tulCeg",
+       "title": "Principles, patterns, standards, personas and practice",
+       "seconds": 650,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Harbor Books Rethinks Its Design"
+        ],
+        [
+         65,
+         "The CNCF Cloud Native Definition"
+        ],
+        [
+         111,
+         "Monolith versus Microservices"
+        ],
+        [
+         151,
+         "Twelve-Factor Ideas and Resilience"
+        ],
+        [
+         202,
+         "Serverless, Functions and Event-Driven Design"
+        ],
+        [
+         246,
+         "Open Standards and Portability"
+        ],
+        [
+         285,
+         "Personas and Platform Engineering"
+        ],
+        [
+         337,
+         "What the Exam Asks: Cloud Native Architecture"
+        ],
+        [
+         424,
+         "Practice Question 1"
+        ],
+        [
+         464,
+         "Practice Question 2"
+        ],
+        [
+         501,
+         "Practice Question 3"
+        ],
+        [
+         542,
+         "Practice Question 4"
+        ],
+        [
+         577,
+         "Practice Question 5"
+        ]
+       ],
+       "published": "2026-11-01T09:36:04Z",
+       "thumb": "img/modules/kcna/12-1.jpg"
+      }
+     ],
+     "deck": "downloads/kcna/12-cloud-native-architecture-and-principles.pptx",
+     "deck_kb": 333,
+     "seconds": 650,
+     "words": 1332
+    },
+    {
+     "num": "13",
+     "slug": "13-observability-and-cost",
+     "title": "Observability and Cost",
+     "desc": "Signals, tools, reliability targets, cost and practice",
+     "parts": [
+      {
+       "part": 1,
+       "id": "dsmny0nlfPM",
+       "title": "Signals, tools, reliability targets, cost and practice",
+       "seconds": 616,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Harbor Books Wants to See Checkout"
+        ],
+        [
+         58,
+         "Monitoring, Observability and the Three Signals"
+        ],
+        [
+         97,
+         "OpenTelemetry: API, SDK and Collector"
+        ],
+        [
+         139,
+         "Prometheus: Pull, Exporters and PromQL"
+        ],
+        [
+         187,
+         "Alerting and the Tool Landscape"
+        ],
+        [
+         228,
+         "SLI, SLO, SLA and Error Budgets"
+        ],
+        [
+         271,
+         "Kubernetes Signals"
+        ],
+        [
+         311,
+         "Cost Management and FinOps"
+        ],
+        [
+         399,
+         "Practice Question 1"
+        ],
+        [
+         437,
+         "Practice Question 2"
+        ],
+        [
+         475,
+         "Practice Question 3"
+        ],
+        [
+         512,
+         "Practice Question 4"
+        ],
+        [
+         553,
+         "Practice Question 5"
+        ]
+       ],
+       "published": "2026-11-01T09:36:26Z",
+       "thumb": "img/modules/kcna/13-1.jpg"
+      }
+     ],
+     "deck": "downloads/kcna/13-observability-and-cost.pptx",
+     "deck_kb": 351,
+     "seconds": 616,
+     "words": 1317
+    },
+    {
+     "num": "14",
+     "slug": "14-the-cloud-native-ecosystem-and-community",
+     "title": "The Cloud Native Ecosystem and Community",
+     "desc": "The CNCF, project maturity, the Kubernetes community and practice",
+     "parts": [
+      {
+       "part": 1,
+       "id": "_Og6ZyUsah4",
+       "title": "The CNCF, project maturity, the Kubernetes community and practice",
+       "seconds": 457,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Harbor Books Joins the Community"
+        ],
+        [
+         63,
+         "The CNCF and Its Bodies"
+        ],
+        [
+         112,
+         "Project Maturity and the Landscape"
+        ],
+        [
+         163,
+         "The Kubernetes Community"
+        ],
+        [
+         213,
+         "From the KCNA to the Next Exams"
+        ],
+        [
+         313,
+         "Practice Question 1"
+        ],
+        [
+         353,
+         "Practice Question 2"
+        ],
+        [
+         396,
+         "Practice Question 3"
+        ]
+       ],
+       "published": "2026-11-01T09:36:33Z",
+       "thumb": "img/modules/kcna/14-1.jpg"
+      }
+     ],
+     "deck": "downloads/kcna/14-the-cloud-native-ecosystem-and-community.pptx",
+     "deck_kb": 211,
+     "seconds": 457,
+     "words": 1074
+    },
+    {
+     "num": "15",
+     "slug": "15-quick-reference-recap",
+     "title": "Quick-Reference Recap",
+     "desc": "The whole course on a few pages",
+     "parts": [
+      {
+       "part": 1,
+       "id": "Lkbld_qHMGA",
+       "title": "The whole course on a few pages",
+       "seconds": 530,
+       "chapters": [
+        [
+         0,
+         "Cluster Components and Their Jobs"
+        ],
+        [
+         71,
+         "Which Object Do I Use?"
+        ],
+        [
+         114,
+         "Levers for Services, Storage and Scheduling"
+        ],
+        [
+         163,
+         "Security Layers and Controls"
+        ],
+        [
+         204,
+         "Probes, Release Strategies and Signals"
+        ],
+        [
+         246,
+         "CNCF Projects and Their Jobs"
+        ],
+        [
+         288,
+         "More Projects and Their Jobs"
+        ],
+        [
+         334,
+         "Old and New Names"
+        ],
+        [
+         387,
+         "Key Terms in One Line"
+        ],
+        [
+         440,
+         "More Key Terms in One Line"
+        ]
+       ],
+       "published": "2026-11-01T09:37:08Z",
+       "thumb": "img/modules/kcna/15-1.jpg"
+      }
+     ],
+     "deck": "downloads/kcna/15-quick-reference-recap.pptx",
+     "deck_kb": 430,
+     "seconds": 530,
+     "words": 1331
+    },
+    {
+     "num": "16",
+     "slug": "16-exam-technique-and-final-review",
+     "title": "Exam Technique and Final Review",
+     "desc": "Turning what you know into points",
+     "parts": [
+      {
+       "part": 1,
+       "id": "l0pAk0hOij4",
+       "title": "Turning what you know into points",
+       "seconds": 411,
+       "chapters": [
+        [
+         0,
+         "Time: About 90 Seconds a Question"
+        ],
+        [
+         64,
+         "Reading a Stem"
+        ],
+        [
+         97,
+         "Most Appropriate, Least and NOT"
+        ],
+        [
+         137,
+         "Look-Alike Traps"
+        ],
+        [
+         176,
+         "Eliminating Options"
+        ],
+        [
+         212,
+         "Flag and Review"
+        ],
+        [
+         256,
+         "Old Names in Older Material"
+        ],
+        [
+         297,
+         "Exam Day: Rules and Setup"
+        ],
+        [
+         342,
+         "Final Week Checklist"
+        ]
+       ],
+       "published": "2026-11-01T09:37:21Z",
+       "thumb": "img/modules/kcna/16-1.jpg"
+      }
+     ],
+     "deck": "downloads/kcna/16-exam-technique-and-final-review.pptx",
+     "deck_kb": 333,
+     "seconds": 411,
+     "words": 1006
+    }
+   ],
+   "facts": {
+    "questions": "60",
+    "time": "90 min",
+    "passing": "75%",
+    "source": "training.linuxfoundation.org",
+    "url": "https://training.linuxfoundation.org/certification/kubernetes-cloud-native-associate/"
+   },
+   "videos": 25,
+   "seconds": 13257,
+   "notes": null,
+   "glossary": 106
+  },
+  {
+   "kind": "certification",
+   "topic": null,
+   "slug": "aigp",
+   "institute": "iapp",
+   "short": "AIGP",
+   "name": "AI Governance Professional",
+   "title": "AIGP Exam Prep Masterclass",
+   "accent": "c-aigp",
+   "desc": "AI governance from foundations and laws to design, release and monitoring of AI systems.",
+   "audience": "Privacy, legal, risk and technology professionals preparing for the AIGP exam.",
+   "sources": "The AIGP Body of Knowledge, the laws and standards it names, and their public texts.",
+   "playlist": "PLKgIkO1P4JvA",
+   "cover": "img/covers/aigp.jpg",
+   "modules": [
+    {
+     "num": "00",
+     "slug": "00-course-introduction-and-exam-orientation",
+     "title": "Course Introduction and Exam Orientation",
+     "desc": "The exam, the scope and how to use the course",
+     "parts": [
+      {
+       "part": 1,
+       "id": "m3Yxv1hSxVI",
+       "title": "The exam, the scope and how to use the course",
+       "seconds": 513,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Meet Helios"
+        ],
+        [
+         103,
+         "The Exam at a Glance"
+        ],
+        [
+         140,
+         "One Answer or Several: The Question Formats"
+        ],
+        [
+         183,
+         "Scoring and Results"
+        ],
+        [
+         229,
+         "Booking, Taking and Keeping the Credential"
+        ],
+        [
+         282,
+         "The Body of Knowledge Is Your Scope"
+        ],
+        [
+         328,
+         "Four Domains, Thirteen Competencies"
+        ],
+        [
+         380,
+         "How the Verbs Set the Depth"
+        ],
+        [
+         421,
+         "How This Course Works"
+        ],
+        [
+         466,
+         "Your Study Plan and Ground Rules"
+        ]
+       ],
+       "published": "2026-10-27T18:38:20Z",
+       "thumb": "img/modules/aigp/00-1.jpg"
+      }
+     ],
+     "deck": "downloads/aigp/00-course-introduction-and-exam-orientation.pptx",
+     "deck_kb": 566,
+     "seconds": 513,
+     "words": 1350
+    },
+    {
+     "num": "01",
+     "slug": "01-ai-foundations-what-ai-is-its-harms-and-its-principles",
+     "title": "AI Foundations: What AI Is, Its Harms and Its Principles",
+     "desc": "What AI is, what can go wrong, and why governance differs",
+     "parts": [
+      {
+       "part": 1,
+       "id": "5HTQoBZfBKI",
+       "title": "What AI is, what can go wrong, and why governance differs",
+       "seconds": 573,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Two Kinds of AI at Helios"
+        ],
+        [
+         78,
+         "Defining AI: Four Sources, One Core"
+        ],
+        [
+         129,
+         "Types of AI: Nested Families"
+        ],
+        [
+         163,
+         "How Machines Learn: Three Approaches"
+        ],
+        [
+         199,
+         "Predictive, Generative and Agentic AI"
+        ],
+        [
+         238,
+         "AI Model, AI System, General-Purpose AI"
+        ],
+        [
+         281,
+         "The AI Life Cycle Frames the Whole Exam"
+        ],
+        [
+         316,
+         "Who Gets Hurt: People, Groups, Organizations, Society"
+        ],
+        [
+         360,
+         "Types of Risk: Misalignment, Ethics and Bias, Complexity and Scale"
+        ],
+        [
+         400,
+         "Generative AI Adds Its Own Risks"
+        ],
+        [
+         446,
+         "Why AI Needs Its Own Governance Approach"
+        ],
+        [
+         483,
+         "Seven Characteristics That Change Governance"
+        ],
+        [
+         527,
+         "From Characteristic to Governance Response"
+        ]
+       ],
+       "published": "2026-10-27T18:38:44Z",
+       "thumb": "img/modules/aigp/01-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "lEVE-8rFCXo",
+       "title": "The principles of responsible AI, recap and practice",
+       "seconds": 508,
+       "chapters": [
+        [
+         0,
+         "Responsible AI: The Common Principles"
+        ],
+        [
+         48,
+         "Fairness and the Kinds of Bias"
+        ],
+        [
+         88,
+         "Safety, Reliability, Privacy and Security"
+        ],
+        [
+         128,
+         "Transparency, Explainability and Interpretability"
+        ],
+        [
+         168,
+         "Accountability and Human-Centricity"
+        ],
+        [
+         210,
+         "When Principles Pull Apart: Trade-offs"
+        ],
+        [
+         289,
+         "Practice Question 1"
+        ],
+        [
+         326,
+         "Practice Question 2"
+        ],
+        [
+         370,
+         "Practice Question 3"
+        ],
+        [
+         409,
+         "Practice Question 4"
+        ],
+        [
+         449,
+         "Practice Question 5"
+        ]
+       ],
+       "published": "2026-10-27T18:39:05Z",
+       "thumb": "img/modules/aigp/01-2.jpg"
+      }
+     ],
+     "deck": "downloads/aigp/01-ai-foundations-what-ai-is-its-harms-and-its-principles.pptx",
+     "deck_kb": 1080,
+     "seconds": 1081,
+     "words": 2365
+    },
+    {
+     "num": "02",
+     "slug": "02-governance-roles-training-and-approaches",
+     "title": "Governance Roles, Training and Approaches",
+     "desc": "Roles, collaboration and training",
+     "parts": [
+      {
+       "part": 1,
+       "id": "jHkcP3RBTzA",
+       "title": "Roles, collaboration and training",
+       "seconds": 446,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Who Owns What at Helios?"
+        ],
+        [
+         80,
+         "Who Does What in AI Governance"
+        ],
+        [
+         120,
+         "The Three Lines Applied to AI"
+        ],
+        [
+         161,
+         "What Legal, Privacy, Security, Risk and HR Each Bring"
+        ],
+        [
+         201,
+         "Accountability in Writing"
+        ],
+        [
+         245,
+         "Cross-Functional Collaboration"
+        ],
+        [
+         282,
+         "A Range of Expertise and Viewpoints"
+        ],
+        [
+         322,
+         "Training and Awareness: Who Needs What"
+        ],
+        [
+         359,
+         "The AI Literacy Duty in the EU AI Act"
+        ],
+        [
+         406,
+         "Building a Training Program That Works"
+        ]
+       ],
+       "published": "2026-10-27T18:39:33Z",
+       "thumb": "img/modules/aigp/02-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "7pzRffdEzIE",
+       "title": "Fitting the approach and the actors",
+       "seconds": 520,
+       "chapters": [
+        [
+         0,
+         "Fitting the Approach to the Organization"
+        ],
+        [
+         40,
+         "Governance Operating Models"
+        ],
+        [
+         81,
+         "The Actors in the AI Chain"
+        ],
+        [
+         121,
+         "The AI Act's Names for the Roles"
+        ],
+        [
+         164,
+         "Responsibilities, Opportunities and Needs by Role"
+        ],
+        [
+         241,
+         "Practice Question 1"
+        ],
+        [
+         280,
+         "Practice Question 2"
+        ],
+        [
+         317,
+         "Practice Question 3"
+        ],
+        [
+         364,
+         "Practice Question 4"
+        ],
+        [
+         408,
+         "Practice Question 5"
+        ],
+        [
+         451,
+         "Practice Question 6"
+        ]
+       ],
+       "published": "2026-10-27T18:39:53Z",
+       "thumb": "img/modules/aigp/02-2.jpg"
+      }
+     ],
+     "deck": "downloads/aigp/02-governance-roles-training-and-approaches.pptx",
+     "deck_kb": 680,
+     "seconds": 966,
+     "words": 2077
+    },
+    {
+     "num": "03",
+     "slug": "03-policies-and-procedures-across-the-ai-life-cycle",
+     "title": "Policies and Procedures Across the AI Life Cycle",
+     "desc": "Policies for each life-cycle stage and for existing policies",
+     "parts": [
+      {
+       "part": 1,
+       "id": "kpEc9Xeoiug",
+       "title": "Policies for each life-cycle stage and for existing policies",
+       "seconds": 468,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: 47 AI Uses, 9 Unregistered"
+        ],
+        [
+         71,
+         "Policy, Standard, Procedure: The Governance Stack"
+        ],
+        [
+         106,
+         "Policies Stage by Stage"
+        ],
+        [
+         149,
+         "Intake and Use-Case Assessment"
+        ],
+        [
+         187,
+         "Risk Management and Ethics by Design"
+        ],
+        [
+         225,
+         "Data, Development, Training and Testing Policies"
+        ],
+        [
+         267,
+         "Release, Monitoring, Records and Incidents"
+        ],
+        [
+         306,
+         "The AI Inventory and Shadow AI"
+        ],
+        [
+         350,
+         "Reviewing Existing Policies for AI"
+        ],
+        [
+         389,
+         "Updating Privacy and Security Policies for AI"
+        ],
+        [
+         429,
+         "Updating Data Governance and IP Policies for AI"
+        ]
+       ],
+       "published": "2026-10-27T18:40:03Z",
+       "thumb": "img/modules/aigp/03-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "Blak-QL03Dg",
+       "title": "Third-party risk, recap and practice",
+       "seconds": 572,
+       "chapters": [
+        [
+         0,
+         "Why Third-Party AI Risk Is Different"
+        ],
+        [
+         39,
+         "Third-Party Due Diligence and Assessments"
+        ],
+        [
+         76,
+         "Procurement and Supply Chain Policies"
+        ],
+        [
+         112,
+         "AI Contract Terms"
+        ],
+        [
+         160,
+         "HR and Acceptable Use Policies"
+        ],
+        [
+         199,
+         "Keeping Third-Party Risk Under Control"
+        ],
+        [
+         268,
+         "Practice Question 1"
+        ],
+        [
+         309,
+         "Practice Question 2"
+        ],
+        [
+         353,
+         "Practice Question 3"
+        ],
+        [
+         391,
+         "Practice Question 4"
+        ],
+        [
+         432,
+         "Practice Question 5"
+        ],
+        [
+         469,
+         "Practice Question 6"
+        ],
+        [
+         510,
+         "Practice Question 7"
+        ]
+       ],
+       "published": "2026-10-27T18:40:36Z",
+       "thumb": "img/modules/aigp/03-2.jpg"
+      }
+     ],
+     "deck": "downloads/aigp/03-policies-and-procedures-across-the-ai-life-cycle.pptx",
+     "deck_kb": 835,
+     "seconds": 1040,
+     "words": 2224
+    },
+    {
+     "num": "04",
+     "slug": "04-privacy-laws-applied-to-ai",
+     "title": "Privacy Laws Applied to AI",
+     "desc": "Notice, choice, lawful basis, purpose and minimization",
+     "parts": [
+      {
+       "part": 1,
+       "id": "yliVL1y7e7I",
+       "title": "Notice, choice, lawful basis, purpose and minimization",
+       "seconds": 460,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: An Applicant Asks What Helios Holds"
+        ],
+        [
+         75,
+         "Why Privacy Law Reaches AI"
+        ],
+        [
+         121,
+         "Transparency and Notice for AI"
+        ],
+        [
+         163,
+         "Choice, Consent and the Lawful Basis"
+        ],
+        [
+         214,
+         "Purpose Limitation and Reuse of Data"
+        ],
+        [
+         256,
+         "What the Exam Asks: Notice, Choice, Basis, Purpose"
+        ],
+        [
+         298,
+         "Data Minimization in AI Systems"
+        ],
+        [
+         335,
+         "Privacy by Design and by Default"
+        ],
+        [
+         382,
+         "The Tension: Data-Hungry Models and Minimization"
+        ],
+        [
+         415,
+         "Controller, Processor and Joint Controller in AI"
+        ]
+       ],
+       "published": "2026-10-27T18:40:47Z",
+       "thumb": "img/modules/aigp/04-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "Mf4qKanaPhw",
+       "title": "Controller duties, sensitive data, recap and practice",
+       "seconds": 647,
+       "chapters": [
+        [
+         0,
+         "Impact Assessments: DPIA and Its Relatives"
+        ],
+        [
+         50,
+         "Third-Party Processors and Sub-Processors"
+        ],
+        [
+         92,
+         "Cross-Border Transfers"
+        ],
+        [
+         141,
+         "Data Subject Rights Applied to AI"
+        ],
+        [
+         191,
+         "Automated Decision-Making: Article 22 and the SCHUFA Ruling"
+        ],
+        [
+         238,
+         "Incidents, Breach Notification and Records"
+        ],
+        [
+         282,
+         "Sensitive and Special-Category Data"
+        ],
+        [
+         329,
+         "Biometrics, Children and Other High-Risk Data"
+        ],
+        [
+         414,
+         "Practice Question 1"
+        ],
+        [
+         454,
+         "Practice Question 2"
+        ],
+        [
+         497,
+         "Practice Question 3"
+        ],
+        [
+         535,
+         "Practice Question 4"
+        ],
+        [
+         585,
+         "Practice Question 5"
+        ]
+       ],
+       "published": "2026-10-27T18:41:13Z",
+       "thumb": "img/modules/aigp/04-2.jpg"
+      }
+     ],
+     "deck": "downloads/aigp/04-privacy-laws-applied-to-ai.pptx",
+     "deck_kb": 957,
+     "seconds": 1107,
+     "words": 2403
+    },
+    {
+     "num": "05",
+     "slug": "05-other-existing-laws-applied-to-ai",
+     "title": "Other Existing Laws Applied to AI",
+     "desc": "Intellectual property and discrimination law",
+     "parts": [
+      {
+       "part": 1,
+       "id": "cXT9Z38ijl0",
+       "title": "Intellectual property and discrimination law",
+       "seconds": 450,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Training Data, Hiring Results and a Marketing Claim"
+        ],
+        [
+         78,
+         "How Intellectual Property Law Meets AI"
+        ],
+        [
+         117,
+         "Training Data: Copyright, Mining Exceptions and Opt-Outs"
+        ],
+        [
+         158,
+         "Outputs: Who Owns What AI Makes?"
+        ],
+        [
+         201,
+         "Licenses, Trade Secrets and Confidentiality"
+        ],
+        [
+         245,
+         "Where the Courts Stand"
+        ],
+        [
+         285,
+         "Two Theories of Discrimination"
+        ],
+        [
+         327,
+         "Measuring Adverse Impact: The Four-Fifths Rule"
+        ],
+        [
+         366,
+         "Employment: Screening Tools and the Vendor's Role"
+        ],
+        [
+         406,
+         "Credit, Lending, Housing and Insurance"
+        ]
+       ],
+       "published": "2026-10-27T18:41:24Z",
+       "thumb": "img/modules/aigp/05-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "i5EaASSgkHw",
+       "title": "Consumer protection, product liability, recap and practice",
+       "seconds": 581,
+       "chapters": [
+        [
+         0,
+         "Nondiscrimination Beyond the US, and Managing the Risk"
+        ],
+        [
+         39,
+         "Unfair and Deceptive Practices: Section 5 and State Laws"
+        ],
+        [
+         79,
+         "AI Washing and Claims About AI"
+        ],
+        [
+         119,
+         "Chatbots, Dark Patterns and Data Practices"
+        ],
+        [
+         158,
+         "Product Liability Basics: Three Kinds of Defect"
+        ],
+        [
+         199,
+         "AI Examples of Each Defect"
+        ],
+        [
+         237,
+         "The New EU Product Liability Directive"
+        ],
+        [
+         282,
+         "Liability Beyond Defects: The Withdrawn AI Liability Proposal"
+        ],
+        [
+         355,
+         "Practice Question 1"
+        ],
+        [
+         400,
+         "Practice Question 2"
+        ],
+        [
+         440,
+         "Practice Question 3"
+        ],
+        [
+         480,
+         "Practice Question 4"
+        ],
+        [
+         521,
+         "Practice Question 5"
+        ]
+       ],
+       "published": "2026-10-27T18:41:55Z",
+       "thumb": "img/modules/aigp/05-2.jpg"
+      }
+     ],
+     "deck": "downloads/aigp/05-other-existing-laws-applied-to-ai.pptx",
+     "deck_kb": 771,
+     "seconds": 1031,
+     "words": 2290
+    },
+    {
+     "num": "06",
+     "slug": "06-ai-specific-laws-the-eu-ai-act-and-beyond",
+     "title": "AI-Specific Laws: the EU AI Act and Beyond",
+     "desc": "The EU AI Act: scope and risk classes",
+     "parts": [
+      {
+       "part": 1,
+       "id": "BjrUitlqXlw",
+       "title": "The EU AI Act: scope and risk classes",
+       "seconds": 483,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Which Helios System Is Regulated, and How?"
+        ],
+        [
+         82,
+         "The EU AI Act at a Glance: Reach and Scope"
+        ],
+        [
+         127,
+         "Key Definitions That Decide Scope"
+        ],
+        [
+         170,
+         "The Four Risk Classes"
+        ],
+        [
+         206,
+         "Prohibited Practices"
+        ],
+        [
+         261,
+         "High-Risk, Route One: Product Safety (Annex I)"
+        ],
+        [
+         301,
+         "High-Risk, Route Two: The Annex III Areas"
+        ],
+        [
+         352,
+         "Is It High-Risk? The Article 6(3) Filter"
+        ],
+        [
+         404,
+         "Limited and Minimal Risk, and General-Purpose Models"
+        ],
+        [
+         441,
+         "Applying the Classes to Helios"
+        ]
+       ],
+       "published": "2026-10-27T18:42:16Z",
+       "thumb": "img/modules/aigp/06-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "XLaoYciLDjY",
+       "title": "Requirements, roles, general-purpose models and enforcement",
+       "seconds": 749,
+       "chapters": [
+        [
+         0,
+         "The High-Risk Requirements at a Glance"
+        ],
+        [
+         45,
+         "Risk Management System (Article 9)"
+        ],
+        [
+         87,
+         "Data and Data Governance (Article 10)"
+        ],
+        [
+         137,
+         "Technical Documentation and Record-Keeping (Articles 11 and 12)"
+        ],
+        [
+         181,
+         "Transparency to Deployers and Accuracy, Robustness, Cybersecurity (Articles 13 and 15)"
+        ],
+        [
+         229,
+         "Conformity Assessment, Declaration, CE Marking and Registration"
+        ],
+        [
+         272,
+         "Fundamental Rights Impact Assessment (Article 27)"
+        ],
+        [
+         317,
+         "Post-Market Monitoring and Serious Incident Reporting (Articles 72 and 73)"
+        ],
+        [
+         360,
+         "Human Oversight (Article 14)"
+        ],
+        [
+         400,
+         "Transparency and Notification Duties (Article 50)"
+        ],
+        [
+         445,
+         "Quality Management System (Article 17)"
+        ],
+        [
+         486,
+         "General-Purpose AI Models: Obligations of All Providers"
+        ],
+        [
+         528,
+         "Models With Systemic Risk (Articles 51 and 55)"
+        ],
+        [
+         569,
+         "Codes of Practice, Open Source and the Provider Chain"
+        ],
+        [
+         611,
+         "Governance and Who Enforces"
+        ],
+        [
+         653,
+         "Penalties"
+        ],
+        [
+         701,
+         "The Timeline"
+        ]
+       ],
+       "published": "2026-10-27T18:42:57Z",
+       "thumb": "img/modules/aigp/06-2.jpg"
+      },
+      {
+       "part": 3,
+       "id": "F29AVZt3hDI",
+       "title": "Duties by role, other jurisdictions, recap and practice",
+       "seconds": 698,
+       "chapters": [
+        [
+         0,
+         "Duties by Role: Providers, Importers, Distributors, Authorized Representatives"
+        ],
+        [
+         45,
+         "Deployer Duties and When a Role Changes"
+        ],
+        [
+         97,
+         "South Korea: The AI Basic Act"
+        ],
+        [
+         140,
+         "The US Federal Position"
+        ],
+        [
+         192,
+         "US State and Local AI Laws"
+        ],
+        [
+         242,
+         "Other Jurisdictions: Approaches Compared"
+        ],
+        [
+         291,
+         "Which Instrument Applies? A Decision Aid"
+        ],
+        [
+         383,
+         "Practice Question 1"
+        ],
+        [
+         424,
+         "Practice Question 2"
+        ],
+        [
+         467,
+         "Practice Question 3"
+        ],
+        [
+         505,
+         "Practice Question 4"
+        ],
+        [
+         548,
+         "Practice Question 5"
+        ],
+        [
+         587,
+         "Practice Question 6"
+        ],
+        [
+         626,
+         "Practice Question 7"
+        ]
+       ],
+       "published": "2026-10-27T18:43:29Z",
+       "thumb": "img/modules/aigp/06-3.jpg"
+      }
+     ],
+     "deck": "downloads/aigp/06-ai-specific-laws-the-eu-ai-act-and-beyond.pptx",
+     "deck_kb": 1761,
+     "seconds": 1930,
+     "words": 4139
+    },
+    {
+     "num": "07",
+     "slug": "07-standards-and-frameworks-oecd-nist-and-iso",
+     "title": "Standards and Frameworks: OECD, NIST and ISO",
+     "desc": "The OECD principles and the NIST AI RMF core",
+     "parts": [
+      {
+       "part": 1,
+       "id": "oEK1E3HKNIE",
+       "title": "The OECD principles and the NIST AI RMF core",
+       "seconds": 453,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: One Stack for Helios"
+        ],
+        [
+         77,
+         "The OECD AI Principles: Origin and Role"
+        ],
+        [
+         115,
+         "The Five Values-Based Principles"
+        ],
+        [
+         161,
+         "Recommendations for Policy-Makers"
+        ],
+        [
+         201,
+         "The OECD Framework and Recommended Practices"
+        ],
+        [
+         242,
+         "The NIST AI RMF at a Glance"
+        ],
+        [
+         286,
+         "The Seven Trustworthy Characteristics"
+        ],
+        [
+         322,
+         "The Core: Four Functions"
+        ],
+        [
+         361,
+         "GOVERN: Culture, Accountability and Policy"
+        ],
+        [
+         408,
+         "MAP: Context and Impacts"
+        ]
+       ],
+       "published": "2026-10-27T18:43:23Z",
+       "thumb": "img/modules/aigp/07-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "9eIYK0-WM5g",
+       "title": "The rest of NIST, the ISO standards, recap and practice",
+       "seconds": 579,
+       "chapters": [
+        [
+         0,
+         "MEASURE: Metrics, Testing and Tracking"
+        ],
+        [
+         45,
+         "MANAGE: Prioritize, Respond and Recover"
+        ],
+        [
+         92,
+         "The Playbook, Profiles and the Generative AI Profile"
+        ],
+        [
+         137,
+         "ISO/IEC 22989: A Shared Language"
+        ],
+        [
+         175,
+         "ISO/IEC 42001: The AI Management System"
+        ],
+        [
+         220,
+         "ISO/IEC 42001: Controls and Certification"
+        ],
+        [
+         264,
+         "ISO/IEC 42005: AI System Impact Assessment"
+        ],
+        [
+         305,
+         "Law, Standard, Framework: How They Fit"
+        ],
+        [
+         392,
+         "Practice Question 1"
+        ],
+        [
+         435,
+         "Practice Question 2"
+        ],
+        [
+         478,
+         "Practice Question 3"
+        ],
+        [
+         520,
+         "Practice Question 4"
+        ]
+       ],
+       "published": "2026-10-27T18:44:07Z",
+       "thumb": "img/modules/aigp/07-2.jpg"
+      }
+     ],
+     "deck": "downloads/aigp/07-standards-and-frameworks-oecd-nist-and-iso.pptx",
+     "deck_kb": 782,
+     "seconds": 1032,
+     "words": 2259
+    },
+    {
+     "num": "08",
+     "slug": "08-governing-the-design-and-build",
+     "title": "Governing the Design and Build",
+     "desc": "Use case, impact assessment and governance by design",
+     "parts": [
+      {
+       "part": 1,
+       "id": "Hsk5FViXrNI",
+       "title": "Use case, impact assessment and governance by design",
+       "seconds": 540,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: A Ratio of 0.68 Before Launch"
+        ],
+        [
+         73,
+         "The Business Context and the Use Case"
+        ],
+        [
+         110,
+         "Is AI the Right Tool?"
+        ],
+        [
+         147,
+         "Approving the Use Case: Gate, Owner and Conditions"
+        ],
+        [
+         182,
+         "Impact Assessments Compared"
+        ],
+        [
+         227,
+         "Performing an AI Impact Assessment"
+        ],
+        [
+         264,
+         "Measuring Impact: The Impact Ratio at Helios"
+        ],
+        [
+         301,
+         "Acting on the Findings"
+        ],
+        [
+         340,
+         "Governance by Design: The Design Stages"
+        ],
+        [
+         378,
+         "Requirements Gathering and Model Selection"
+        ],
+        [
+         418,
+         "Designing Human Oversight"
+        ],
+        [
+         459,
+         "Metrics and Thresholds"
+        ],
+        [
+         503,
+         "Stakeholder Engagement, Feedback and Operational Controls"
+        ]
+       ],
+       "published": "2026-10-27T18:44:11Z",
+       "thumb": "img/modules/aigp/08-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "PB602zyroa0",
+       "title": "Risks, pilots, documentation, recap and practice",
+       "seconds": 615,
+       "chapters": [
+        [
+         0,
+         "Internal and External Risk Factors"
+        ],
+        [
+         32,
+         "The Probability and Severity Harms Matrix"
+        ],
+        [
+         69,
+         "The Risk Mitigation Hierarchy"
+        ],
+        [
+         105,
+         "Stakeholder Mapping, Use-Case Evaluation and Benchmarking"
+        ],
+        [
+         144,
+         "Pre-Deployment Pilots and Testing"
+        ],
+        [
+         185,
+         "Documenting the Design and Build"
+        ],
+        [
+         224,
+         "Documentation for Compliance: Annex IV and Model Records"
+        ],
+        [
+         310,
+         "Practice Question 1"
+        ],
+        [
+         348,
+         "Practice Question 2"
+        ],
+        [
+         388,
+         "Practice Question 3"
+        ],
+        [
+         433,
+         "Practice Question 4"
+        ],
+        [
+         478,
+         "Practice Question 5"
+        ],
+        [
+         515,
+         "Practice Question 6"
+        ],
+        [
+         556,
+         "Practice Question 7"
+        ]
+       ],
+       "published": "2026-10-27T18:44:37Z",
+       "thumb": "img/modules/aigp/08-2.jpg"
+      }
+     ],
+     "deck": "downloads/aigp/08-governing-the-design-and-build.pptx",
+     "deck_kb": 921,
+     "seconds": 1155,
+     "words": 2406
+    },
+    {
+     "num": "09",
+     "slug": "09-governing-data-training-and-testing",
+     "title": "Governing Data, Training and Testing",
+     "desc": "Data governance, lineage and test planning",
+     "parts": [
+      {
+       "part": 1,
+       "id": "73nLZtA9aKg",
+       "title": "Data governance, lineage and test planning",
+       "seconds": 503,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Whose Data Is This?"
+        ],
+        [
+         72,
+         "Data Governance for AI: The Requirements"
+        ],
+        [
+         111,
+         "Lawful Rights to Collect and Use Data"
+        ],
+        [
+         153,
+         "Data Quality: The Five Checks"
+        ],
+        [
+         192,
+         "Quantity, Representativeness and Fit for Purpose"
+        ],
+        [
+         230,
+         "Data Integrity and Protection"
+        ],
+        [
+         267,
+         "Lineage: Where Data Came From and What Happened to It"
+        ],
+        [
+         303,
+         "Provenance: Origin, Rights and Trust"
+        ],
+        [
+         344,
+         "Tools and Documents for Lineage and Provenance"
+        ],
+        [
+         387,
+         "Planning Training and Testing"
+        ],
+        [
+         424,
+         "Data Splits, Overfitting and Leakage"
+        ],
+        [
+         461,
+         "The Test Types, From Units to Interpretability"
+        ]
+       ],
+       "published": "2026-10-27T18:45:05Z",
+       "thumb": "img/modules/aigp/09-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "okihug4yEdQ",
+       "title": "Testing, issues, documentation, recap and practice",
+       "seconds": 667,
+       "chapters": [
+        [
+         0,
+         "Bias Testing and Fairness Metrics"
+        ],
+        [
+         47,
+         "Mitigating Bias: Before, During and After Training"
+        ],
+        [
+         92,
+         "Security and Interpretability Testing"
+        ],
+        [
+         136,
+         "Common Issues in Training and Testing"
+        ],
+        [
+         175,
+         "Managing Issues: Log, Triage, Fix, Retest"
+        ],
+        [
+         213,
+         "Risks of Pretrained, Generative and Third-Party Models"
+        ],
+        [
+         251,
+         "Documenting Training and Testing"
+        ],
+        [
+         291,
+         "Model Cards and Test Reports"
+        ],
+        [
+         370,
+         "Practice Question 1"
+        ],
+        [
+         409,
+         "Practice Question 2"
+        ],
+        [
+         451,
+         "Practice Question 3"
+        ],
+        [
+         490,
+         "Practice Question 4"
+        ],
+        [
+         527,
+         "Practice Question 5"
+        ],
+        [
+         571,
+         "Practice Question 6"
+        ],
+        [
+         612,
+         "Practice Question 7"
+        ]
+       ],
+       "published": "2026-10-27T18:45:23Z",
+       "thumb": "img/modules/aigp/09-2.jpg"
+      }
+     ],
+     "deck": "downloads/aigp/09-governing-data-training-and-testing.pptx",
+     "deck_kb": 989,
+     "seconds": 1170,
+     "words": 2473
+    },
+    {
+     "num": "10",
+     "slug": "10-governing-release-monitoring-and-maintenance",
+     "title": "Governing Release, Monitoring and Maintenance",
+     "desc": "Release, monitoring, assessments and incidents",
+     "parts": [
+      {
+       "part": 1,
+       "id": "Zq2GryTvIZ8",
+       "title": "Release, monitoring, assessments and incidents",
+       "seconds": 768,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Release, a Wrong Refund and a Shift in Applicants"
+        ],
+        [
+         82,
+         "Release Readiness: The Gate and the Checklist"
+        ],
+        [
+         120,
+         "The Release Package: Model Card, Instructions and Records"
+        ],
+        [
+         159,
+         "Satisfying Conformity Requirements"
+        ],
+        [
+         197,
+         "Staged Release and Rollback"
+        ],
+        [
+         236,
+         "What to Monitor"
+        ],
+        [
+         277,
+         "Drift: Data, Concept and Model"
+        ],
+        [
+         315,
+         "Maintenance, Updates and Retraining"
+        ],
+        [
+         354,
+         "Monitoring in Practice: Owners, Thresholds, Alerts, Logs"
+        ],
+        [
+         396,
+         "Periodic Assessment: What, How Often, Who"
+        ],
+        [
+         434,
+         "Audits of AI Systems"
+        ],
+        [
+         477,
+         "Red Teaming"
+        ],
+        [
+         517,
+         "Threat Modeling and AI-Specific Attacks"
+        ],
+        [
+         568,
+         "Security Testing, Reliability and Safety Checks"
+        ],
+        [
+         612,
+         "What Counts as an AI Incident"
+        ],
+        [
+         647,
+         "The Incident Response Cycle"
+        ],
+        [
+         686,
+         "Reporting Clocks and Records"
+        ],
+        [
+         725,
+         "Issue and Risk Registers, and Learning"
+        ]
+       ],
+       "published": "2026-10-27T18:45:46Z",
+       "thumb": "img/modules/aigp/10-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "9WgMy_sBoC4",
+       "title": "Causes, disclosures, recap and practice",
+       "seconds": 706,
+       "chapters": [
+        [
+         0,
+         "Why AI Incidents Arise: Five Causes"
+        ],
+        [
+         40,
+         "Root-Cause Analysis With Cross-Functional Teams"
+        ],
+        [
+         81,
+         "Helios: Two Incidents, Two Root Causes"
+        ],
+        [
+         120,
+         "From Cause to Prevention"
+        ],
+        [
+         160,
+         "Public Disclosures: What, to Whom"
+        ],
+        [
+         202,
+         "Instructions for Use and Technical Documentation"
+        ],
+        [
+         244,
+         "Post-Market Plans, Registration and Public Summaries"
+        ],
+        [
+         334,
+         "Practice Question 1"
+        ],
+        [
+         372,
+         "Practice Question 2"
+        ],
+        [
+         415,
+         "Practice Question 3"
+        ],
+        [
+         455,
+         "Practice Question 4"
+        ],
+        [
+         492,
+         "Practice Question 5"
+        ],
+        [
+         534,
+         "Practice Question 6"
+        ],
+        [
+         571,
+         "Practice Question 7"
+        ],
+        [
+         611,
+         "Practice Question 8"
+        ],
+        [
+         644,
+         "Practice Question 9"
+        ]
+       ],
+       "published": "2026-10-27T18:46:22Z",
+       "thumb": "img/modules/aigp/10-2.jpg"
+      }
+     ],
+     "deck": "downloads/aigp/10-governing-release-monitoring-and-maintenance.pptx",
+     "deck_kb": 1141,
+     "seconds": 1474,
+     "words": 3070
+    },
+    {
+     "num": "11",
+     "slug": "11-the-decision-to-deploy-context-models-and-options",
+     "title": "The Decision to Deploy: Context, Models and Options",
+     "desc": "Context and model types",
+     "parts": [
+      {
+       "part": 1,
+       "id": "4RUnVKBZaRU",
+       "title": "Context and model types",
+       "seconds": 599,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Choosing the Assistant's Model and Setup"
+        ],
+        [
+         85,
+         "Start With the Use Case: Five Context Factors"
+        ],
+        [
+         124,
+         "Goals and Performance Needs: What Good Enough Means"
+        ],
+        [
+         165,
+         "Data Availability: Can the Use Case Be Fed?"
+        ],
+        [
+         207,
+         "Ethics and Risk Appetite: Who Is Affected?"
+        ],
+        [
+         245,
+         "Workforce Readiness and the Go or No-Go Decision"
+        ],
+        [
+         286,
+         "Classic and Generative Models"
+        ],
+        [
+         332,
+         "What Generative AI Adds to the Risk List"
+        ],
+        [
+         382,
+         "Proprietary and Open-Source Models"
+        ],
+        [
+         428,
+         "Open Source and the Law"
+        ],
+        [
+         471,
+         "Small and Large Models"
+        ],
+        [
+         512,
+         "Language and Multimodal Models"
+        ],
+        [
+         558,
+         "Matching the Model Type to the Task"
+        ]
+       ],
+       "published": "2026-10-27T18:46:43Z",
+       "thumb": "img/modules/aigp/11-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "I2nGcwIvWmI",
+       "title": "Deployment options and practice",
+       "seconds": 685,
+       "chapters": [
+        [
+         0,
+         "Where It Runs: Cloud, On-Premises or Edge"
+        ],
+        [
+         39,
+         "Cloud Deployment: Shared Responsibility and Data Location"
+        ],
+        [
+         83,
+         "On-Premises and Edge: Control, Cost and Maintenance"
+        ],
+        [
+         126,
+         "How the Model Is Used: A Ladder of Adaptation"
+        ],
+        [
+         166,
+         "Using the Model As Is: Prompts, Guardrails and Other Techniques"
+        ],
+        [
+         207,
+         "Fine-Tuning: Benefits, Risks and Role Changes"
+        ],
+        [
+         248,
+         "Retrieval-Augmented Generation: Grounding on Your Documents"
+        ],
+        [
+         288,
+         "Agentic Architectures: Autonomy and Excessive Agency"
+        ],
+        [
+         365,
+         "Practice Question 1"
+        ],
+        [
+         408,
+         "Practice Question 2"
+        ],
+        [
+         454,
+         "Practice Question 3"
+        ],
+        [
+         493,
+         "Practice Question 4"
+        ],
+        [
+         536,
+         "Practice Question 5"
+        ],
+        [
+         578,
+         "Practice Question 6"
+        ],
+        [
+         619,
+         "Practice Question 7"
+        ]
+       ],
+       "published": "2026-10-27T18:47:11Z",
+       "thumb": "img/modules/aigp/11-2.jpg"
+      }
+     ],
+     "deck": "downloads/aigp/11-the-decision-to-deploy-context-models-and-options.pptx",
+     "deck_kb": 964,
+     "seconds": 1284,
+     "words": 2846
+    },
+    {
+     "num": "12",
+     "slug": "12-assessing-the-system-impact-vendors-and-proprietary-models",
+     "title": "Assessing the System: Impact, Vendors and Proprietary Models",
+     "desc": "Impact assessment and vendor agreements",
+     "parts": [
+      {
+       "part": 1,
+       "id": "HfPQi32lFe8",
+       "title": "Impact assessment and vendor agreements",
+       "seconds": 622,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: The Chosen Assistant, the Contract and an In-House Idea"
+        ],
+        [
+         72,
+         "Assessing the System You Chose: What Is Different Now"
+        ],
+        [
+         106,
+         "Gathering the Evidence: Provider Documents and Your Own Tests"
+        ],
+        [
+         145,
+         "Deployer Duties That Feed the Assessment"
+        ],
+        [
+         188,
+         "Reviewing an Existing Assessment"
+        ],
+        [
+         229,
+         "Helios: The Impact Assessment on the Chosen Assistant"
+        ],
+        [
+         268,
+         "Why the Contract Is a Governance Control"
+        ],
+        [
+         308,
+         "Data Terms: Use, Ownership, Retention and Location"
+        ],
+        [
+         356,
+         "Intellectual Property: Ownership, Training Data and Indemnity"
+        ],
+        [
+         398,
+         "Security and Confidentiality Terms"
+        ],
+        [
+         441,
+         "Performance, Documentation and Audit Rights"
+        ],
+        [
+         488,
+         "Liability, Indemnities and Insurance"
+        ],
+        [
+         530,
+         "Change, Notice and Exit"
+        ],
+        [
+         576,
+         "Weighing the Terms: Red Flags and a Review Checklist"
+        ]
+       ],
+       "published": "2026-10-27T18:47:39Z",
+       "thumb": "img/modules/aigp/12-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "FTgZl7vO5n8",
+       "title": "Proprietary models and practice",
+       "seconds": 530,
+       "chapters": [
+        [
+         0,
+         "Deploying Your Own Model: What Changes"
+        ],
+        [
+         41,
+         "More Obligations: The Provider's Duties"
+        ],
+        [
+         89,
+         "Higher Potential Liability"
+        ],
+        [
+         134,
+         "Opportunities: Control, Fit and Advantage"
+        ],
+        [
+         173,
+         "Build, Buy or Both: Deciding With Eyes Open"
+        ],
+        [
+         251,
+         "Practice Question 1"
+        ],
+        [
+         294,
+         "Practice Question 2"
+        ],
+        [
+         339,
+         "Practice Question 3"
+        ],
+        [
+         380,
+         "Practice Question 4"
+        ],
+        [
+         422,
+         "Practice Question 5"
+        ],
+        [
+         464,
+         "Practice Question 6"
+        ]
+       ],
+       "published": "2026-10-27T18:47:50Z",
+       "thumb": "img/modules/aigp/12-2.jpg"
+      }
+     ],
+     "deck": "downloads/aigp/12-assessing-the-system-impact-vendors-and-proprietary-models.pptx",
+     "deck_kb": 952,
+     "seconds": 1152,
+     "words": 2542
+    },
+    {
+     "num": "13",
+     "slug": "13-governing-deployment-and-use",
+     "title": "Governing Deployment and Use",
+     "desc": "Governance, monitoring and periodic checks",
+     "parts": [
+      {
+       "part": 1,
+       "id": "SSbKX8U3-BU",
+       "title": "Governance, monitoring and periodic checks",
+       "seconds": 576,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Oversight, a Misused Assistant and a Switched-Off Feature"
+        ],
+        [
+         89,
+         "Deployment Governance: Policies, Procedures and Roles"
+        ],
+        [
+         131,
+         "Data Governance and Risk Management in Use"
+        ],
+        [
+         175,
+         "Issue Management: From Report to Fix"
+        ],
+        [
+         214,
+         "User Training and Acceptable Use"
+        ],
+        [
+         255,
+         "Meaningful Human Oversight and Transparency to Users"
+        ],
+        [
+         298,
+         "What the Deployer Monitors"
+        ],
+        [
+         336,
+         "Maintenance, Updates and Retraining in Use"
+        ],
+        [
+         378,
+         "Feedback and Escalation to the Provider"
+        ],
+        [
+         419,
+         "Periodic Checks: Schedule and Scope"
+        ],
+        [
+         458,
+         "Audits and Reviews in Use"
+        ],
+        [
+         500,
+         "Red Teaming and Security Testing of Your Own Setup"
+        ],
+        [
+         540,
+         "Acting on Findings: Continue, Limit or Suspend"
+        ]
+       ],
+       "published": "2026-10-27T18:48:31Z",
+       "thumb": "img/modules/aigp/13-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "JwO2w_ZWs1w",
+       "title": "Records, unintended uses, communication and deactivation",
+       "seconds": 707,
+       "chapters": [
+        [
+         0,
+         "Three Registers: Incidents, Issues and Risks in Use"
+        ],
+        [
+         42,
+         "Logs and Retention"
+        ],
+        [
+         87,
+         "Monitoring Plans: The Provider's Plan and the Deployer's Part"
+        ],
+        [
+         127,
+         "Who Reports What to Whom"
+        ],
+        [
+         173,
+         "Secondary and Unintended Uses"
+        ],
+        [
+         215,
+         "Forecasting Misuse and Downstream Harm"
+        ],
+        [
+         257,
+         "Reducing the Risk: Scope, Access, Monitoring and Training"
+        ],
+        [
+         302,
+         "When Harm Travels Downstream"
+        ],
+        [
+         342,
+         "Who Needs to Hear What"
+        ],
+        [
+         382,
+         "Notices, Explanations and Incident Statements"
+        ],
+        [
+         421,
+         "Running the Plan: Owners, Triggers, Channels and Rehearsal"
+        ],
+        [
+         463,
+         "Why Switch Off or Limit a System: The Triggers"
+        ],
+        [
+         508,
+         "Deactivation Controls: Kill Switch, Pause and Fallback"
+        ],
+        [
+         544,
+         "Localizing a System by Region, Group or Feature"
+        ],
+        [
+         583,
+         "The Deactivation Policy: Authority, Steps and Records"
+        ],
+        [
+         619,
+         "After Deactivation: Retire, Retain and Restart"
+        ]
+       ],
+       "published": "2026-10-27T18:48:49Z",
+       "thumb": "img/modules/aigp/13-2.jpg"
+      },
+      {
+       "part": 3,
+       "id": "DVE0f3am0UE",
+       "title": "Practice",
+       "seconds": 440,
+       "chapters": [
+        [
+         0,
+         "Practice Question 1"
+        ],
+        [
+         40,
+         "Practice Question 2"
+        ],
+        [
+         84,
+         "Practice Question 3"
+        ],
+        [
+         123,
+         "Practice Question 4"
+        ],
+        [
+         160,
+         "Practice Question 5"
+        ],
+        [
+         197,
+         "Practice Question 6"
+        ],
+        [
+         240,
+         "Practice Question 7"
+        ],
+        [
+         283,
+         "Practice Question 8"
+        ],
+        [
+         325,
+         "Practice Question 9"
+        ],
+        [
+         366,
+         "Practice Question 10"
+        ]
+       ],
+       "published": "2026-10-27T18:49:09Z",
+       "thumb": "img/modules/aigp/13-3.jpg"
+      }
+     ],
+     "deck": "downloads/aigp/13-governing-deployment-and-use.pptx",
+     "deck_kb": 1216,
+     "seconds": 1723,
+     "words": 3759
+    },
+    {
+     "num": "14",
+     "slug": "14-quick-reference-recap",
+     "title": "Quick-Reference Recap",
+     "desc": "Comparisons, glossary and decision aid",
+     "parts": [
+      {
+       "part": 1,
+       "id": "n0nsekBKrBo",
+       "title": "Comparisons, glossary and decision aid",
+       "seconds": 789,
+       "chapters": [
+        [
+         0,
+         "How to Use This Recap"
+        ],
+        [
+         51,
+         "The Exam Map: Four Domains, Thirteen Competencies"
+        ],
+        [
+         94,
+         "Roles by Law"
+        ],
+        [
+         139,
+         "EU AI Act Risk Tiers and What Each Brings"
+        ],
+        [
+         185,
+         "Provider and Deployer Duties Side by Side"
+        ],
+        [
+         233,
+         "Penalties Compared"
+        ],
+        [
+         279,
+         "Timelines at a Glance"
+        ],
+        [
+         328,
+         "Privacy Law and AI Law Compared"
+        ],
+        [
+         369,
+         "NIST, ISO and OECD Compared"
+        ],
+        [
+         416,
+         "The Life Cycle and Where Each Control Sits"
+        ],
+        [
+         462,
+         "Reporting Clocks at a Glance"
+        ],
+        [
+         503,
+         "Glossary 1: Concepts and Risks"
+        ],
+        [
+         582,
+         "Glossary 2: Roles, Law and Assessment"
+        ],
+        [
+         660,
+         "Glossary 3: Frameworks and Practice"
+        ],
+        [
+         736,
+         "Which Instrument Applies? A Decision Aid"
+        ]
+       ],
+       "published": "2026-10-27T18:49:46Z",
+       "thumb": "img/modules/aigp/14-1.jpg"
+      }
+     ],
+     "deck": "downloads/aigp/14-quick-reference-recap.pptx",
+     "deck_kb": 979,
+     "seconds": 789,
+     "words": 1758
+    },
+    {
+     "num": "15",
+     "slug": "15-exam-technique-and-final-review",
+     "title": "Exam Technique and Final Review",
+     "desc": "Technique",
+     "parts": [
+      {
+       "part": 1,
+       "id": "_g1xkLq-n1A",
+       "title": "Technique",
+       "seconds": 422,
+       "chapters": [
+        [
+         0,
+         "The Exam in One Page"
+        ],
+        [
+         95,
+         "Pacing: About Ninety-Nine Seconds a Question"
+        ],
+        [
+         135,
+         "Reading a Stem: Five Steps"
+        ],
+        [
+         173,
+         "Scenario Questions: Role, Instrument and Stage"
+        ],
+        [
+         219,
+         "Multi-Select: Exactly N, No Partial Credit"
+        ],
+        [
+         257,
+         "The Verbs Set the Depth: How to Answer"
+        ],
+        [
+         298,
+         "Eliminating Options: Traps That Look Right"
+        ],
+        [
+         338,
+         "Flagging, Changing Answers and the First-Half Rule"
+        ],
+        [
+         375,
+         "Look-Alike Pairs the Course Teaches Apart"
+        ]
+       ],
+       "published": "2026-10-27T18:49:54Z",
+       "thumb": "img/modules/aigp/15-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "VSUAlUx6UB4",
+       "title": "Final review, exam day and a case set",
+       "seconds": 492,
+       "chapters": [
+        [
+         0,
+         "Your Final Week: A Plan"
+        ],
+        [
+         44,
+         "Exam Day at a Test Center"
+        ],
+        [
+         85,
+         "Exam Day Online With OnVUE"
+        ],
+        [
+         131,
+         "After the Exam: Results, Breakdown and Next Steps"
+        ],
+        [
+         173,
+         "Final Checklist"
+        ],
+        [
+         214,
+         "Case Set: The Helios Candidate Chat"
+        ],
+        [
+         260,
+         "Practice Question 1"
+        ],
+        [
+         297,
+         "Practice Question 2"
+        ],
+        [
+         339,
+         "Practice Question 3"
+        ],
+        [
+         380,
+         "Practice Question 4"
+        ],
+        [
+         422,
+         "Practice Question 5"
+        ]
+       ],
+       "published": "2026-10-27T18:50:16Z",
+       "thumb": "img/modules/aigp/15-2.jpg"
+      }
+     ],
+     "deck": "downloads/aigp/15-exam-technique-and-final-review.pptx",
+     "deck_kb": 687,
+     "seconds": 914,
+     "words": 2165
+    }
+   ],
+   "facts": null,
+   "videos": 32,
+   "seconds": 18361,
+   "notes": null,
+   "glossary": 0
+  },
+  {
+   "kind": "certification",
+   "topic": null,
+   "slug": "cdmp",
+   "institute": "dama",
+   "short": "CDMP",
+   "name": "Data Management Professional",
+   "title": "CDMP Exam Prep Masterclass",
+   "accent": "c-cdmp",
+   "desc": "The fourteen DMBOK knowledge areas: governance, architecture, modeling, quality and more.",
+   "audience": "Data professionals preparing for the CDMP Associate exam.",
+   "sources": "DAMA-DMBOK, 2nd Edition, and the CDMP exam guidance.",
+   "playlist": "PLB-CWVCN34-EK6n_WRbVScn_xeEQ_Ce6Y",
+   "cover": "img/covers/cdmp.jpg",
+   "modules": [
+    {
+     "num": "00",
+     "slug": "00-course-introduction-and-exam-orientation",
+     "title": "Course Introduction & Exam Orientation",
+     "desc": "Course Introduction & Exam Orientation",
+     "parts": [
+      {
+       "part": 1,
+       "id": "yTE9OtaIN9A",
+       "title": "Course Introduction & Exam Orientation",
+       "seconds": 912,
+       "chapters": [],
+       "published": "2026-06-23T10:23:54Z",
+       "thumb": "img/modules/cdmp/00-1.jpg"
+      }
+     ],
+     "deck": "downloads/cdmp/00-course-introduction-and-exam-orientation.pptx",
+     "deck_kb": 607,
+     "seconds": 912,
+     "words": 2313
+    },
+    {
+     "num": "01",
+     "slug": "01-data-management",
+     "title": "Data Management",
+     "desc": "Data Management",
+     "parts": [
+      {
+       "part": 1,
+       "id": "4oVD3abp7fw",
+       "title": "Data Management",
+       "seconds": 1523,
+       "chapters": [],
+       "published": "2026-06-23T10:24:56Z",
+       "thumb": "img/modules/cdmp/01-1.jpg"
+      }
+     ],
+     "deck": "downloads/cdmp/01-data-management.pptx",
+     "deck_kb": 668,
+     "seconds": 1523,
+     "words": 3812
+    },
+    {
+     "num": "02",
+     "slug": "02-data-handling-ethics",
+     "title": "Data Handling Ethics",
+     "desc": "Data Handling Ethics",
+     "parts": [
+      {
+       "part": 1,
+       "id": "KiouvGvGP2I",
+       "title": "Data Handling Ethics",
+       "seconds": 1307,
+       "chapters": [],
+       "published": "2026-06-23T10:25:05Z",
+       "thumb": "img/modules/cdmp/02-1.jpg"
+      }
+     ],
+     "deck": "downloads/cdmp/02-data-handling-ethics.pptx",
+     "deck_kb": 270,
+     "seconds": 1307,
+     "words": 3056
+    },
+    {
+     "num": "03",
+     "slug": "03-data-governance",
+     "title": "Data Governance",
+     "desc": "Data Governance",
+     "parts": [
+      {
+       "part": 1,
+       "id": "aJQ7K8dBwpE",
+       "title": "Data Governance",
+       "seconds": 1977,
+       "chapters": [],
+       "published": "2026-06-23T10:26:10Z",
+       "thumb": "img/modules/cdmp/03-1.jpg"
+      }
+     ],
+     "deck": "downloads/cdmp/03-data-governance.pptx",
+     "deck_kb": 520,
+     "seconds": 1977,
+     "words": 4537
+    },
+    {
+     "num": "04",
+     "slug": "04-data-architecture",
+     "title": "Data Architecture",
+     "desc": "Data Architecture",
+     "parts": [
+      {
+       "part": 1,
+       "id": "G1uUy3fH7Ew",
+       "title": "Data Architecture",
+       "seconds": 1519,
+       "chapters": [],
+       "published": "2026-06-23T10:25:56Z",
+       "thumb": "img/modules/cdmp/04-1.jpg"
+      }
+     ],
+     "deck": "downloads/cdmp/04-data-architecture.pptx",
+     "deck_kb": 408,
+     "seconds": 1519,
+     "words": 3487
+    },
+    {
+     "num": "05",
+     "slug": "05-data-modeling-and-design",
+     "title": "Data Modeling & Design",
+     "desc": "Data Modeling & Design",
+     "parts": [
+      {
+       "part": 1,
+       "id": "5krn2JeTZWs",
+       "title": "Data Modeling & Design",
+       "seconds": 2013,
+       "chapters": [],
+       "published": "2026-06-23T10:26:54Z",
+       "thumb": "img/modules/cdmp/05-1.jpg"
+      }
+     ],
+     "deck": "downloads/cdmp/05-data-modeling-and-design.pptx",
+     "deck_kb": 400,
+     "seconds": 2013,
+     "words": 4684
+    },
+    {
+     "num": "06",
+     "slug": "06-data-storage-and-operations",
+     "title": "Data Storage & Operations",
+     "desc": "Data Storage & Operations",
+     "parts": [
+      {
+       "part": 1,
+       "id": "9ijmMAdQiAM",
+       "title": "Data Storage & Operations",
+       "seconds": 1446,
+       "chapters": [],
+       "published": "2026-06-23T10:26:50Z",
+       "thumb": "img/modules/cdmp/06-1.jpg"
+      }
+     ],
+     "deck": "downloads/cdmp/06-data-storage-and-operations.pptx",
+     "deck_kb": 294,
+     "seconds": 1446,
+     "words": 3261
+    },
+    {
+     "num": "07",
+     "slug": "07-data-security",
+     "title": "Data Security",
+     "desc": "Data Security",
+     "parts": [
+      {
+       "part": 1,
+       "id": "cgNDJQF5yIo",
+       "title": "Data Security",
+       "seconds": 1443,
+       "chapters": [],
+       "published": "2026-06-23T10:27:26Z",
+       "thumb": "img/modules/cdmp/07-1.jpg"
+      }
+     ],
+     "deck": "downloads/cdmp/07-data-security.pptx",
+     "deck_kb": 320,
+     "seconds": 1443,
+     "words": 3338
+    },
+    {
+     "num": "08",
+     "slug": "08-data-integration-and-interoperability",
+     "title": "Data Integration & Interoperability",
+     "desc": "Data Integration & Interoperability",
+     "parts": [
+      {
+       "part": 1,
+       "id": "sfPGqKDkhpg",
+       "title": "Data Integration & Interoperability",
+       "seconds": 1000,
+       "chapters": [],
+       "published": "2026-06-23T10:27:17Z",
+       "thumb": "img/modules/cdmp/08-1.jpg"
+      }
+     ],
+     "deck": "downloads/cdmp/08-data-integration-and-interoperability.pptx",
+     "deck_kb": 290,
+     "seconds": 1000,
+     "words": 2242
+    },
+    {
+     "num": "09",
+     "slug": "09-document-and-content-management",
+     "title": "Document & Content Management",
+     "desc": "Document & Content Management",
+     "parts": [
+      {
+       "part": 1,
+       "id": "LaC6oY2eIWU",
+       "title": "Document & Content Management",
+       "seconds": 1266,
+       "chapters": [],
+       "published": "2026-06-23T10:28:08Z",
+       "thumb": "img/modules/cdmp/09-1.jpg"
+      }
+     ],
+     "deck": "downloads/cdmp/09-document-and-content-management.pptx",
+     "deck_kb": 283,
+     "seconds": 1266,
+     "words": 2731
+    },
+    {
+     "num": "10",
+     "slug": "10-reference-and-master-data",
+     "title": "Reference & Master Data",
+     "desc": "Reference & Master Data",
+     "parts": [
+      {
+       "part": 1,
+       "id": "FbwJqZCbStA",
+       "title": "Reference & Master Data",
+       "seconds": 1452,
+       "chapters": [],
+       "published": "2026-06-23T10:28:17Z",
+       "thumb": "img/modules/cdmp/10-1.jpg"
+      }
+     ],
+     "deck": "downloads/cdmp/10-reference-and-master-data.pptx",
+     "deck_kb": 364,
+     "seconds": 1452,
+     "words": 3383
+    },
+    {
+     "num": "11",
+     "slug": "11-data-warehousing-and-bi",
+     "title": "Data Warehousing & BI",
+     "desc": "Data Warehousing & BI",
+     "parts": [
+      {
+       "part": 1,
+       "id": "RtaVWJG5IrI",
+       "title": "Data Warehousing & BI",
+       "seconds": 1452,
+       "chapters": [],
+       "published": "2026-06-23T10:28:40Z",
+       "thumb": "img/modules/cdmp/11-1.jpg"
+      }
+     ],
+     "deck": "downloads/cdmp/11-data-warehousing-and-bi.pptx",
+     "deck_kb": 400,
+     "seconds": 1452,
+     "words": 3403
+    },
+    {
+     "num": "12",
+     "slug": "12-metadata-management",
+     "title": "Metadata Management",
+     "desc": "Metadata Management",
+     "parts": [
+      {
+       "part": 1,
+       "id": "OFW3MJqmaxE",
+       "title": "Metadata Management",
+       "seconds": 1684,
+       "chapters": [],
+       "published": "2026-06-23T10:29:32Z",
+       "thumb": "img/modules/cdmp/12-1.jpg"
+      }
+     ],
+     "deck": "downloads/cdmp/12-metadata-management.pptx",
+     "deck_kb": 375,
+     "seconds": 1684,
+     "words": 3786
+    },
+    {
+     "num": "13",
+     "slug": "13-data-quality",
+     "title": "Data Quality",
+     "desc": "Data Quality",
+     "parts": [
+      {
+       "part": 1,
+       "id": "ZMzAgWlCXOA",
+       "title": "Data Quality",
+       "seconds": 1560,
+       "chapters": [],
+       "published": "2026-06-23T10:29:58Z",
+       "thumb": "img/modules/cdmp/13-1.jpg"
+      }
+     ],
+     "deck": "downloads/cdmp/13-data-quality.pptx",
+     "deck_kb": 438,
+     "seconds": 1560,
+     "words": 3742
+    },
+    {
+     "num": "14",
+     "slug": "14-big-data-and-data-science",
+     "title": "Big Data & Data Science",
+     "desc": "Big Data & Data Science",
+     "parts": [
+      {
+       "part": 1,
+       "id": "8lZl6uPcFQg",
+       "title": "Big Data & Data Science",
+       "seconds": 1116,
+       "chapters": [],
+       "published": "2026-06-23T10:29:50Z",
+       "thumb": "img/modules/cdmp/14-1.jpg"
+      }
+     ],
+     "deck": "downloads/cdmp/14-big-data-and-data-science.pptx",
+     "deck_kb": 292,
+     "seconds": 1116,
+     "words": 2543
+    }
+   ],
+   "facts": null,
+   "videos": 15,
+   "seconds": 21670,
+   "notes": [
+    {
+     "num": "01",
+     "slug": "01-data-management",
+     "title": "Data Management",
+     "group": "Chapters",
+     "tasks": 0,
+     "los": [],
+     "minutes": 13,
+     "check": {
+      "src_words": 2946,
+      "page_words": 2923,
+      "src_tables": 7,
+      "tables": 7,
+      "src_images": 0,
+      "images": 0,
+      "src_scenario": 0,
+      "scenario": 0,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 12,
+      "sections": 12
+     },
+     "modules": [
+      "01"
+     ],
+     "domain": "",
+     "ref": "Chapter 1",
+     "tn": "Ch 01",
+     "of": 14,
+     "module": "01"
+    },
+    {
+     "num": "02",
+     "slug": "02-data-handling-ethics",
+     "title": "Data Handling Ethics",
+     "group": "Chapters",
+     "tasks": 0,
+     "los": [],
+     "minutes": 12,
+     "check": {
+      "src_words": 2689,
+      "page_words": 2673,
+      "src_tables": 7,
+      "tables": 7,
+      "src_images": 0,
+      "images": 0,
+      "src_scenario": 0,
+      "scenario": 0,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 13,
+      "sections": 13
+     },
+     "modules": [
+      "02"
+     ],
+     "domain": "",
+     "ref": "Chapter 2",
+     "tn": "Ch 02",
+     "of": 14,
+     "module": "02"
+    },
+    {
+     "num": "03",
+     "slug": "03-data-governance",
+     "title": "Data Governance",
+     "group": "Chapters",
+     "tasks": 0,
+     "los": [],
+     "minutes": 12,
+     "check": {
+      "src_words": 2639,
+      "page_words": 2624,
+      "src_tables": 15,
+      "tables": 15,
+      "src_images": 0,
+      "images": 0,
+      "src_scenario": 0,
+      "scenario": 0,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 18,
+      "sections": 18
+     },
+     "modules": [
+      "03"
+     ],
+     "domain": "",
+     "ref": "Chapter 3",
+     "tn": "Ch 03",
+     "of": 14,
+     "module": "03"
+    },
+    {
+     "num": "04",
+     "slug": "04-data-architecture",
+     "title": "Data Architecture",
+     "group": "Chapters",
+     "tasks": 0,
+     "los": [],
+     "minutes": 13,
+     "check": {
+      "src_words": 2885,
+      "page_words": 2861,
+      "src_tables": 9,
+      "tables": 9,
+      "src_images": 0,
+      "images": 0,
+      "src_scenario": 0,
+      "scenario": 0,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 16,
+      "sections": 16
+     },
+     "modules": [
+      "04"
+     ],
+     "domain": "",
+     "ref": "Chapter 4",
+     "tn": "Ch 04",
+     "of": 14,
+     "module": "04"
+    },
+    {
+     "num": "05",
+     "slug": "05-data-modeling-and-design",
+     "title": "Data Modeling and Design",
+     "group": "Chapters",
+     "tasks": 0,
+     "los": [],
+     "minutes": 14,
+     "check": {
+      "src_words": 3133,
+      "page_words": 3121,
+      "src_tables": 16,
+      "tables": 16,
+      "src_images": 0,
+      "images": 0,
+      "src_scenario": 0,
+      "scenario": 0,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 17,
+      "sections": 17
+     },
+     "modules": [
+      "05"
+     ],
+     "domain": "",
+     "ref": "Chapter 5",
+     "tn": "Ch 05",
+     "of": 14,
+     "module": "05"
+    },
+    {
+     "num": "06",
+     "slug": "06-data-storage-and-operations",
+     "title": "Data Storage and Operations",
+     "group": "Chapters",
+     "tasks": 0,
+     "los": [],
+     "minutes": 11,
+     "check": {
+      "src_words": 2486,
+      "page_words": 2464,
+      "src_tables": 13,
+      "tables": 13,
+      "src_images": 0,
+      "images": 0,
+      "src_scenario": 0,
+      "scenario": 0,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 15,
+      "sections": 15
+     },
+     "modules": [
+      "06"
+     ],
+     "domain": "",
+     "ref": "Chapter 6",
+     "tn": "Ch 06",
+     "of": 14,
+     "module": "06"
+    },
+    {
+     "num": "07",
+     "slug": "07-data-security",
+     "title": "Data Security",
+     "group": "Chapters",
+     "tasks": 0,
+     "los": [],
+     "minutes": 10,
+     "check": {
+      "src_words": 2199,
+      "page_words": 2196,
+      "src_tables": 11,
+      "tables": 11,
+      "src_images": 0,
+      "images": 0,
+      "src_scenario": 0,
+      "scenario": 0,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 17,
+      "sections": 17
+     },
+     "modules": [
+      "07"
+     ],
+     "domain": "",
+     "ref": "Chapter 7",
+     "tn": "Ch 07",
+     "of": 14,
+     "module": "07"
+    },
+    {
+     "num": "08",
+     "slug": "08-data-integration-and-interoperability",
+     "title": "Data Integration and Interoperability",
+     "group": "Chapters",
+     "tasks": 0,
+     "los": [],
+     "minutes": 7,
+     "check": {
+      "src_words": 1576,
+      "page_words": 1582,
+      "src_tables": 4,
+      "tables": 4,
+      "src_images": 0,
+      "images": 0,
+      "src_scenario": 0,
+      "scenario": 0,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 12,
+      "sections": 12
+     },
+     "modules": [
+      "08"
+     ],
+     "domain": "",
+     "ref": "Chapter 8",
+     "tn": "Ch 08",
+     "of": 14,
+     "module": "08"
+    },
+    {
+     "num": "09",
+     "slug": "09-document-and-content-management",
+     "title": "Document and Content Management",
+     "group": "Chapters",
+     "tasks": 0,
+     "los": [],
+     "minutes": 10,
+     "check": {
+      "src_words": 2202,
+      "page_words": 2190,
+      "src_tables": 10,
+      "tables": 10,
+      "src_images": 0,
+      "images": 0,
+      "src_scenario": 0,
+      "scenario": 0,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 14,
+      "sections": 14
+     },
+     "modules": [
+      "09"
+     ],
+     "domain": "",
+     "ref": "Chapter 9",
+     "tn": "Ch 09",
+     "of": 14,
+     "module": "09"
+    },
+    {
+     "num": "10",
+     "slug": "10-reference-and-master-data",
+     "title": "Reference and Master Data",
+     "group": "Chapters",
+     "tasks": 0,
+     "los": [],
+     "minutes": 7,
+     "check": {
+      "src_words": 1460,
+      "page_words": 1470,
+      "src_tables": 8,
+      "tables": 8,
+      "src_images": 0,
+      "images": 0,
+      "src_scenario": 0,
+      "scenario": 0,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 13,
+      "sections": 13
+     },
+     "modules": [
+      "10"
+     ],
+     "domain": "",
+     "ref": "Chapter 10",
+     "tn": "Ch 10",
+     "of": 14,
+     "module": "10"
+    },
+    {
+     "num": "11",
+     "slug": "11-data-warehousing-and-business-intelligence",
+     "title": "Data Warehousing and Business Intelligence",
+     "group": "Chapters",
+     "tasks": 0,
+     "los": [],
+     "minutes": 7,
+     "check": {
+      "src_words": 1557,
+      "page_words": 1557,
+      "src_tables": 7,
+      "tables": 7,
+      "src_images": 0,
+      "images": 0,
+      "src_scenario": 0,
+      "scenario": 0,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 13,
+      "sections": 13
+     },
+     "modules": [
+      "11"
+     ],
+     "domain": "",
+     "ref": "Chapter 11",
+     "tn": "Ch 11",
+     "of": 14,
+     "module": "11"
+    },
+    {
+     "num": "12",
+     "slug": "12-metadata-management",
+     "title": "Metadata Management",
+     "group": "Chapters",
+     "tasks": 0,
+     "los": [],
+     "minutes": 11,
+     "check": {
+      "src_words": 2404,
+      "page_words": 2383,
+      "src_tables": 4,
+      "tables": 4,
+      "src_images": 0,
+      "images": 0,
+      "src_scenario": 0,
+      "scenario": 0,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 13,
+      "sections": 13
+     },
+     "modules": [
+      "12"
+     ],
+     "domain": "",
+     "ref": "Chapter 12",
+     "tn": "Ch 12",
+     "of": 14,
+     "module": "12"
+    },
+    {
+     "num": "13",
+     "slug": "13-data-quality",
+     "title": "Data Quality",
+     "group": "Chapters",
+     "tasks": 0,
+     "los": [],
+     "minutes": 8,
+     "check": {
+      "src_words": 1696,
+      "page_words": 1698,
+      "src_tables": 6,
+      "tables": 6,
+      "src_images": 0,
+      "images": 0,
+      "src_scenario": 0,
+      "scenario": 0,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 14,
+      "sections": 14
+     },
+     "modules": [
+      "13"
+     ],
+     "domain": "",
+     "ref": "Chapter 13",
+     "tn": "Ch 13",
+     "of": 14,
+     "module": "13"
+    },
+    {
+     "num": "14",
+     "slug": "14-big-data-and-data-science",
+     "title": "Big Data and Data Science",
+     "group": "Chapters",
+     "tasks": 0,
+     "los": [],
+     "minutes": 7,
+     "check": {
+      "src_words": 1603,
+      "page_words": 1615,
+      "src_tables": 7,
+      "tables": 7,
+      "src_images": 0,
+      "images": 0,
+      "src_scenario": 0,
+      "scenario": 0,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 15,
+      "sections": 15
+     },
+     "modules": [
+      "14"
+     ],
+     "domain": "",
+     "ref": "Chapter 14",
+     "tn": "Ch 14",
+     "of": 14,
+     "module": "14"
+    },
+    {
+     "num": "15",
+     "slug": "15-data-governance-and-stewardship-specialist-reference-notes",
+     "title": "Data Governance and Stewardship Specialist: Reference Notes",
+     "group": "Specialist exam notes",
+     "tasks": 0,
+     "los": [],
+     "minutes": 84,
+     "check": {
+      "src_words": 18411,
+      "page_words": 18362,
+      "src_tables": 75,
+      "tables": 75,
+      "src_images": 0,
+      "images": 0,
+      "src_scenario": 0,
+      "scenario": 0,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 17,
+      "sections": 17
+     },
+     "modules": [
+      "03"
+     ],
+     "domain": "",
+     "ref": "Specialist 1",
+     "tn": "Spec 1",
+     "of": 2,
+     "module": "03"
+    },
+    {
+     "num": "16",
+     "slug": "16-reference-and-master-data-specialist-reference-notes",
+     "title": "Reference and Master Data Specialist: Reference Notes",
+     "group": "Specialist exam notes",
+     "tasks": 0,
+     "los": [],
+     "minutes": 25,
+     "check": {
+      "src_words": 5418,
+      "page_words": 5364,
+      "src_tables": 21,
+      "tables": 21,
+      "src_images": 0,
+      "images": 0,
+      "src_scenario": 0,
+      "scenario": 0,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 20,
+      "sections": 20
+     },
+     "modules": [
+      "10"
+     ],
+     "domain": "",
+     "ref": "Specialist 2",
+     "tn": "Spec 2",
+     "of": 2,
+     "module": "10"
+    }
+   ],
+   "glossary": 0
+  },
+  {
+   "kind": "certification",
+   "topic": null,
+   "slug": "togaf",
+   "institute": "the-open-group",
+   "short": "TOGAF",
+   "name": "TOGAF Enterprise Architecture",
+   "title": "TOGAF 10 Associate Masterclass",
+   "accent": "c-togaf",
+   "desc": "Enterprise architecture and the TOGAF Standard: the ADM, the content framework, governance and the exam.",
+   "audience": "Architects, analysts and managers preparing for the TOGAF Foundation (Level 1) exam.",
+   "sources": "The TOGAF Standard, 10th Edition (The Open Group) and the weekly study guides.",
+   "playlist": "PLB-CWVCN34-Fe_dKZYYKU-Lpjsi4m2Fov",
+   "cover": "img/covers/togaf.jpg",
+   "modules": [
+    {
+     "num": "00",
+     "slug": "00-course-introduction-and-exam-guide",
+     "title": "Course Introduction & Exam Guide",
+     "desc": "Course Introduction & Exam Guide",
+     "parts": [
+      {
+       "part": 1,
+       "id": "MnKUY8O5FLM",
+       "title": "Course Introduction & Exam Guide",
+       "seconds": 1206,
+       "chapters": [],
+       "published": "2026-06-24T18:47:44Z",
+       "thumb": "img/modules/togaf/00-1.jpg"
+      }
+     ],
+     "deck": "downloads/togaf/00-course-introduction-and-exam-guide.pptx",
+     "deck_kb": 466,
+     "seconds": 1206,
+     "words": 3008
+    },
+    {
+     "num": "01",
+     "slug": "01-introduction-to-enterprise-architecture-and-togaf",
+     "title": "Introduction to Enterprise Architecture & TOGAF",
+     "desc": "Introduction to Enterprise Architecture & TOGAF",
+     "parts": [
+      {
+       "part": 1,
+       "id": "IPOGQh-gsyI",
+       "title": "Introduction to Enterprise Architecture & TOGAF",
+       "seconds": 1586,
+       "chapters": [],
+       "published": "2026-06-24T18:48:07Z",
+       "thumb": "img/modules/togaf/01-1.jpg"
+      }
+     ],
+     "deck": "downloads/togaf/01-introduction-to-enterprise-architecture-and-togaf.pptx",
+     "deck_kb": 238,
+     "seconds": 1586,
+     "words": 3806
+    },
+    {
+     "num": "02",
+     "slug": "02-the-adm-overview",
+     "title": "The ADM — Overview",
+     "desc": "The ADM — Overview",
+     "parts": [
+      {
+       "part": 1,
+       "id": "pM_E-WAnnPQ",
+       "title": "The ADM — Overview",
+       "seconds": 1467,
+       "chapters": [],
+       "published": "2026-06-24T18:49:23Z",
+       "thumb": "img/modules/togaf/02-1.jpg"
+      }
+     ],
+     "deck": "downloads/togaf/02-the-adm-overview.pptx",
+     "deck_kb": 412,
+     "seconds": 1467,
+     "words": 3601
+    },
+    {
+     "num": "03",
+     "slug": "03-adm-phase-a-architecture-vision",
+     "title": "ADM Phase A — Architecture Vision",
+     "desc": "ADM Phase A — Architecture Vision",
+     "parts": [
+      {
+       "part": 1,
+       "id": "IIC4JkV1Yqw",
+       "title": "ADM Phase A — Architecture Vision",
+       "seconds": 1281,
+       "chapters": [],
+       "published": "2026-06-24T18:49:12Z",
+       "thumb": "img/modules/togaf/03-1.jpg"
+      }
+     ],
+     "deck": "downloads/togaf/03-adm-phase-a-architecture-vision.pptx",
+     "deck_kb": 356,
+     "seconds": 1281,
+     "words": 3210
+    },
+    {
+     "num": "04",
+     "slug": "04-adm-phases-b-c-and-d",
+     "title": "ADM Phases B, C & D",
+     "desc": "ADM Phases B, C & D",
+     "parts": [
+      {
+       "part": 1,
+       "id": "V-2ZdleOpd8",
+       "title": "ADM Phases B, C & D",
+       "seconds": 1443,
+       "chapters": [],
+       "published": "2026-06-24T18:50:04Z",
+       "thumb": "img/modules/togaf/04-1.jpg"
+      }
+     ],
+     "deck": "downloads/togaf/04-adm-phases-b-c-and-d.pptx",
+     "deck_kb": 306,
+     "seconds": 1443,
+     "words": 3575
+    },
+    {
+     "num": "05",
+     "slug": "05-adm-phases-e-and-f",
+     "title": "ADM Phases E & F",
+     "desc": "ADM Phases E & F",
+     "parts": [
+      {
+       "part": 1,
+       "id": "SmcjfnWQRRQ",
+       "title": "ADM Phases E & F",
+       "seconds": 1197,
+       "chapters": [],
+       "published": "2026-06-24T18:49:52Z",
+       "thumb": "img/modules/togaf/05-1.jpg"
+      }
+     ],
+     "deck": "downloads/togaf/05-adm-phases-e-and-f.pptx",
+     "deck_kb": 199,
+     "seconds": 1197,
+     "words": 2932
+    },
+    {
+     "num": "06",
+     "slug": "06-adm-phases-g-and-h",
+     "title": "ADM Phases G & H",
+     "desc": "ADM Phases G & H",
+     "parts": [
+      {
+       "part": 1,
+       "id": "g5oJDw-MD_Q",
+       "title": "ADM Phases G & H",
+       "seconds": 1179,
+       "chapters": [],
+       "published": "2026-06-24T18:50:20Z",
+       "thumb": "img/modules/togaf/06-1.jpg"
+      }
+     ],
+     "deck": "downloads/togaf/06-adm-phases-g-and-h.pptx",
+     "deck_kb": 217,
+     "seconds": 1179,
+     "words": 2885
+    },
+    {
+     "num": "07",
+     "slug": "07-adm-requirements-management",
+     "title": "ADM Requirements Management",
+     "desc": "ADM Requirements Management",
+     "parts": [
+      {
+       "part": 1,
+       "id": "n854rDwynmM",
+       "title": "ADM Requirements Management",
+       "seconds": 1076,
+       "chapters": [],
+       "published": "2026-06-24T18:50:55Z",
+       "thumb": "img/modules/togaf/07-1.jpg"
+      }
+     ],
+     "deck": "downloads/togaf/07-adm-requirements-management.pptx",
+     "deck_kb": 241,
+     "seconds": 1076,
+     "words": 2569
+    },
+    {
+     "num": "08",
+     "slug": "08-the-enterprise-continuum-and-architecture-repository",
+     "title": "The Enterprise Continuum & Architecture Repository",
+     "desc": "The Enterprise Continuum & Architecture Repository",
+     "parts": [
+      {
+       "part": 1,
+       "id": "lNIJIgPWPRQ",
+       "title": "The Enterprise Continuum & Architecture Repository",
+       "seconds": 1287,
+       "chapters": [],
+       "published": "2026-06-24T18:51:20Z",
+       "thumb": "img/modules/togaf/08-1.jpg"
+      }
+     ],
+     "deck": "downloads/togaf/08-the-enterprise-continuum-and-architecture-repository.pptx",
+     "deck_kb": 356,
+     "seconds": 1287,
+     "words": 2919
+    },
+    {
+     "num": "09",
+     "slug": "09-the-content-framework",
+     "title": "The Content Framework",
+     "desc": "The Content Framework",
+     "parts": [
+      {
+       "part": 1,
+       "id": "SFGdYNde31Y",
+       "title": "The Content Framework",
+       "seconds": 1377,
+       "chapters": [],
+       "published": "2026-06-24T18:52:14Z",
+       "thumb": "img/modules/togaf/09-1.jpg"
+      }
+     ],
+     "deck": "downloads/togaf/09-the-content-framework.pptx",
+     "deck_kb": 241,
+     "seconds": 1377,
+     "words": 3300
+    },
+    {
+     "num": "10",
+     "slug": "10-partitioning-landscapes-views-and-viewpoints",
+     "title": "Partitioning, Landscapes, Views & Viewpoints",
+     "desc": "Partitioning, Landscapes, Views & Viewpoints",
+     "parts": [
+      {
+       "part": 1,
+       "id": "VRZ5gSaIjrk",
+       "title": "Partitioning, Landscapes, Views & Viewpoints",
+       "seconds": 1266,
+       "chapters": [],
+       "published": "2026-06-24T18:52:25Z",
+       "thumb": "img/modules/togaf/10-1.jpg"
+      }
+     ],
+     "deck": "downloads/togaf/10-partitioning-landscapes-views-and-viewpoints.pptx",
+     "deck_kb": 296,
+     "seconds": 1266,
+     "words": 3019
+    },
+    {
+     "num": "11",
+     "slug": "11-stakeholder-management-and-communication",
+     "title": "Stakeholder Management & Communication",
+     "desc": "Stakeholder Management & Communication",
+     "parts": [
+      {
+       "part": 1,
+       "id": "rl1URiD2MYA",
+       "title": "Stakeholder Management & Communication",
+       "seconds": 1122,
+       "chapters": [],
+       "published": "2026-06-24T18:52:46Z",
+       "thumb": "img/modules/togaf/11-1.jpg"
+      }
+     ],
+     "deck": "downloads/togaf/11-stakeholder-management-and-communication.pptx",
+     "deck_kb": 204,
+     "seconds": 1122,
+     "words": 2794
+    },
+    {
+     "num": "12",
+     "slug": "12-architecture-governance",
+     "title": "Architecture Governance",
+     "desc": "Architecture Governance",
+     "parts": [
+      {
+       "part": 1,
+       "id": "MI_QjWGJe8A",
+       "title": "Architecture Governance",
+       "seconds": 1302,
+       "chapters": [],
+       "published": "2026-06-24T18:53:15Z",
+       "thumb": "img/modules/togaf/12-1.jpg"
+      }
+     ],
+     "deck": "downloads/togaf/12-architecture-governance.pptx",
+     "deck_kb": 133,
+     "seconds": 1302,
+     "words": 3026
+    },
+    {
+     "num": "13",
+     "slug": "13-togaf-reference-models-trm-and-iii-rm",
+     "title": "TOGAF Reference Models — TRM & III-RM",
+     "desc": "TOGAF Reference Models — TRM & III-RM",
+     "parts": [
+      {
+       "part": 1,
+       "id": "swGB_V6ytts",
+       "title": "TOGAF Reference Models — TRM & III-RM",
+       "seconds": 1172,
+       "chapters": [],
+       "published": "2026-06-24T18:53:37Z",
+       "thumb": "img/modules/togaf/13-1.jpg"
+      }
+     ],
+     "deck": "downloads/togaf/13-togaf-reference-models-trm-and-iii-rm.pptx",
+     "deck_kb": 212,
+     "seconds": 1172,
+     "words": 2764
+    },
+    {
+     "num": "14",
+     "slug": "14-applying-togaf-and-final-exam-strategy",
+     "title": "Applying TOGAF & Final Exam Strategy",
+     "desc": "Applying TOGAF & Final Exam Strategy",
+     "parts": [
+      {
+       "part": 1,
+       "id": "9vuLuN7C0bA",
+       "title": "Applying TOGAF & Final Exam Strategy",
+       "seconds": 1414,
+       "chapters": [],
+       "published": "2026-06-24T18:54:39Z",
+       "thumb": "img/modules/togaf/14-1.jpg"
+      }
+     ],
+     "deck": "downloads/togaf/14-applying-togaf-and-final-exam-strategy.pptx",
+     "deck_kb": 300,
+     "seconds": 1414,
+     "words": 3398
+    }
+   ],
+   "facts": null,
+   "videos": 15,
+   "seconds": 19375,
+   "notes": [
+    {
+     "num": "01",
+     "slug": "01-togaf-fundamentals-and-adm-introduction",
+     "title": "TOGAF Fundamentals & ADM Introduction",
+     "group": "Learn the framework (Weeks 1 to 4)",
+     "tasks": 28,
+     "los": [],
+     "minutes": 41,
+     "check": {
+      "src_words": 9642,
+      "page_words": 9590,
+      "src_tables": 13,
+      "tables": 13,
+      "src_images": 0,
+      "images": 0,
+      "src_scenario": 0,
+      "scenario": 0,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 12,
+      "sections": 12
+     },
+     "modules": [
+      "01",
+      "02"
+     ],
+     "domain": "",
+     "ref": "Week 1",
+     "tn": "Week 01",
+     "of": 8,
+     "module": "01"
+    },
+    {
+     "num": "02",
+     "slug": "02-adm-deep-dive-phases-a-through-e",
+     "title": "ADM Deep Dive — Phases A Through E",
+     "group": "Learn the framework (Weeks 1 to 4)",
+     "tasks": 31,
+     "los": [],
+     "minutes": 52,
+     "check": {
+      "src_words": 11379,
+      "page_words": 11321,
+      "src_tables": 35,
+      "tables": 35,
+      "src_images": 0,
+      "images": 0,
+      "src_scenario": 0,
+      "scenario": 0,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 13,
+      "sections": 13
+     },
+     "modules": [
+      "03",
+      "04",
+      "05"
+     ],
+     "domain": "",
+     "ref": "Week 2",
+     "tn": "Week 02",
+     "of": 8,
+     "module": "03"
+    },
+    {
+     "num": "03",
+     "slug": "03-preliminary-phase-adm-phases-f-h-governance-and-techniques",
+     "title": "Preliminary Phase, ADM Phases F–H, Governance & Techniques",
+     "group": "Learn the framework (Weeks 1 to 4)",
+     "tasks": 34,
+     "los": [],
+     "minutes": 58,
+     "check": {
+      "src_words": 12684,
+      "page_words": 12639,
+      "src_tables": 31,
+      "tables": 31,
+      "src_images": 0,
+      "images": 0,
+      "src_scenario": 0,
+      "scenario": 0,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 12,
+      "sections": 12
+     },
+     "modules": [
+      "06",
+      "05",
+      "12",
+      "09"
+     ],
+     "domain": "",
+     "ref": "Week 3",
+     "tn": "Week 03",
+     "of": 8,
+     "module": "06"
+    },
+    {
+     "num": "04",
+     "slug": "04-enterprise-continuum-reference-models-views-and-viewpoints-content-framework-and-synthesis",
+     "title": "Enterprise Continuum, Reference Models, Views & Viewpoints, Content Framework & Synthesis",
+     "group": "Learn the framework (Weeks 1 to 4)",
+     "tasks": 28,
+     "los": [],
+     "minutes": 64,
+     "check": {
+      "src_words": 14115,
+      "page_words": 14069,
+      "src_tables": 27,
+      "tables": 27,
+      "src_images": 0,
+      "images": 0,
+      "src_scenario": 0,
+      "scenario": 0,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 12,
+      "sections": 12
+     },
+     "modules": [
+      "08",
+      "13",
+      "10",
+      "09"
+     ],
+     "domain": "",
+     "ref": "Week 4",
+     "tn": "Week 04",
+     "of": 8,
+     "module": "08"
+    },
+    {
+     "num": "05",
+     "slug": "05-applied-architecture-domains-deep-dive-frameworks-integration-and-scenario-practice",
+     "title": "Applied Architecture — Domains Deep Dive, Frameworks Integration & Scenario Practice",
+     "group": "Apply it (Weeks 5 and 6)",
+     "tasks": 41,
+     "los": [],
+     "minutes": 94,
+     "check": {
+      "src_words": 20659,
+      "page_words": 20632,
+      "src_tables": 43,
+      "tables": 43,
+      "src_images": 0,
+      "images": 0,
+      "src_scenario": 0,
+      "scenario": 0,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 11,
+      "sections": 11
+     },
+     "modules": [
+      "04"
+     ],
+     "domain": "",
+     "ref": "Week 5",
+     "tn": "Week 05",
+     "of": 8,
+     "module": "04"
+    },
+    {
+     "num": "06",
+     "slug": "06-consolidation-exam-mastery-and-final-preparation",
+     "title": "Consolidation, Exam Mastery & Final Preparation",
+     "group": "Apply it (Weeks 5 and 6)",
+     "tasks": 67,
+     "los": [],
+     "minutes": 85,
+     "check": {
+      "src_words": 18607,
+      "page_words": 18585,
+      "src_tables": 36,
+      "tables": 36,
+      "src_images": 0,
+      "images": 0,
+      "src_scenario": 0,
+      "scenario": 0,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 11,
+      "sections": 11
+     },
+     "modules": [
+      "07",
+      "11",
+      "14"
+     ],
+     "domain": "",
+     "ref": "Week 6",
+     "tn": "Week 06",
+     "of": 8,
+     "module": "07"
+    },
+    {
+     "num": "07",
+     "slug": "07-integration-practice-exams-and-gap-closure",
+     "title": "Integration, Practice Exams & Gap Closure",
+     "group": "Practice and exam day (Weeks 7 and 8)",
+     "tasks": 5,
+     "los": [],
+     "minutes": 91,
+     "check": {
+      "src_words": 20092,
+      "page_words": 19937,
+      "src_tables": 24,
+      "tables": 24,
+      "src_images": 0,
+      "images": 0,
+      "src_scenario": 0,
+      "scenario": 0,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "14"
+     ],
+     "domain": "",
+     "ref": "Week 7",
+     "tn": "Week 07",
+     "of": 8,
+     "module": "14"
+    },
+    {
+     "num": "08",
+     "slug": "08-final-preparation-and-exam-day",
+     "title": "Final Preparation and Exam Day",
+     "group": "Practice and exam day (Weeks 7 and 8)",
+     "tasks": 38,
+     "los": [],
+     "minutes": 59,
+     "check": {
+      "src_words": 13018,
+      "page_words": 12964,
+      "src_tables": 8,
+      "tables": 8,
+      "src_images": 0,
+      "images": 0,
+      "src_scenario": 0,
+      "scenario": 0,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 8,
+      "sections": 8
+     },
+     "modules": [
+      "14"
+     ],
+     "domain": "",
+     "ref": "Week 8",
+     "tn": "Week 08",
+     "of": 8,
+     "module": "14"
+    }
+   ],
+   "glossary": 0
+  },
+  {
+   "kind": "training",
+   "topic": "AI",
+   "slug": "aigov",
+   "institute": "training",
+   "short": "AI Governance",
+   "name": "AI Governance Masterclass",
+   "title": "AI Governance Masterclass",
+   "accent": "c-aigov",
+   "desc": "From principles and risk to laws, frameworks and a working governance program, built around one running case.",
+   "audience": "Anyone who builds, buys or oversees AI: governance, risk, legal, product and engineering teams.",
+   "sources": "Public laws, standards and frameworks, such as the NIST AI Risk Management Framework and ISO/IEC 42001, and the course's own running case.",
+   "playlist": "PLC8XuYndGDXY",
+   "cover": "img/covers/aigov.jpg",
+   "modules": [
+    {
+     "num": "00",
+     "slug": "00-course-introduction-and-the-ai-governance-landscape",
+     "title": "Course Introduction & The AI Governance Landscape",
+     "desc": "Course Introduction & The AI Governance Landscape",
+     "parts": [
+      {
+       "part": 1,
+       "id": "lWLIUW8rYXo",
+       "title": "Course Introduction & The AI Governance Landscape",
+       "seconds": 446,
+       "chapters": [],
+       "published": "2026-06-26T20:05:57Z",
+       "thumb": "img/modules/aigov/00-1.jpg"
+      }
+     ],
+     "deck": null,
+     "deck_kb": null,
+     "seconds": 446,
+     "words": 1090
+    },
+    {
+     "num": "01",
+     "slug": "01-ai-foundations-for-governance",
+     "title": "AI Foundations for Governance",
+     "desc": "AI Foundations for Governance",
+     "parts": [
+      {
+       "part": 1,
+       "id": "Nl9ynTZXoAk",
+       "title": "AI Foundations for Governance",
+       "seconds": 468,
+       "chapters": [],
+       "published": "2026-06-26T20:06:30Z",
+       "thumb": "img/modules/aigov/01-1.jpg"
+      }
+     ],
+     "deck": null,
+     "deck_kb": null,
+     "seconds": 468,
+     "words": 1185
+    },
+    {
+     "num": "02",
+     "slug": "02-why-govern-ai-the-risk-landscape",
+     "title": "Why Govern AI? The Risk Landscape",
+     "desc": "Why Govern AI? The Risk Landscape",
+     "parts": [
+      {
+       "part": 1,
+       "id": "qu6YZL5v53U",
+       "title": "Why Govern AI? The Risk Landscape",
+       "seconds": 586,
+       "chapters": [],
+       "published": "2026-06-26T20:06:54Z",
+       "thumb": "img/modules/aigov/02-1.jpg"
+      }
+     ],
+     "deck": null,
+     "deck_kb": null,
+     "seconds": 586,
+     "words": 1489
+    },
+    {
+     "num": "03",
+     "slug": "03-ethical-foundations-and-trustworthy-ai-principles",
+     "title": "Ethical Foundations & Trustworthy-AI Principles",
+     "desc": "Ethical Foundations & Trustworthy-AI Principles",
+     "parts": [
+      {
+       "part": 1,
+       "id": "_N18dGrs61U",
+       "title": "Ethical Foundations & Trustworthy-AI Principles",
+       "seconds": 560,
+       "chapters": [],
+       "published": "2026-06-26T20:06:45Z",
+       "thumb": "img/modules/aigov/03-1.jpg"
+      }
+     ],
+     "deck": null,
+     "deck_kb": null,
+     "seconds": 560,
+     "words": 1346
+    },
+    {
+     "num": "04",
+     "slug": "04-the-global-regulatory-landscape",
+     "title": "The Global Regulatory Landscape",
+     "desc": "The Global Regulatory Landscape",
+     "parts": [
+      {
+       "part": 1,
+       "id": "z1aaNeKpi_0",
+       "title": "The Global Regulatory Landscape",
+       "seconds": 484,
+       "chapters": [],
+       "published": "2026-06-26T20:07:03Z",
+       "thumb": "img/modules/aigov/04-1.jpg"
+      }
+     ],
+     "deck": null,
+     "deck_kb": null,
+     "seconds": 484,
+     "words": 1215
+    },
+    {
+     "num": "05",
+     "slug": "05-ai-regulations-deep-dive-eu-ai-act-us-and-beyond",
+     "title": "AI Regulations Deep Dive — EU AI Act, US & Beyond",
+     "desc": "AI Regulations Deep Dive — EU AI Act, US & Beyond",
+     "parts": [
+      {
+       "part": 1,
+       "id": "s2o5sx97N-Y",
+       "title": "AI Regulations Deep Dive — EU AI Act, US & Beyond",
+       "seconds": 885,
+       "chapters": [],
+       "published": "2026-06-26T20:07:34Z",
+       "thumb": "img/modules/aigov/05-1.jpg"
+      }
+     ],
+     "deck": null,
+     "deck_kb": null,
+     "seconds": 885,
+     "words": 2162
+    },
+    {
+     "num": "06",
+     "slug": "06-frameworks-and-standards-nist-ai-rmf-and-iso-iec-42001",
+     "title": "Frameworks & Standards — NIST AI RMF & ISO/IEC 42001",
+     "desc": "Frameworks & Standards — NIST AI RMF & ISO/IEC 42001",
+     "parts": [
+      {
+       "part": 1,
+       "id": "EV3rZMvC73M",
+       "title": "Frameworks & Standards — NIST AI RMF & ISO/IEC 42001",
+       "seconds": 641,
+       "chapters": [],
+       "published": "2026-06-26T20:08:02Z",
+       "thumb": "img/modules/aigov/06-1.jpg"
+      }
+     ],
+     "deck": null,
+     "deck_kb": null,
+     "seconds": 641,
+     "words": 1525
+    },
+    {
+     "num": "07",
+     "slug": "07-building-an-ai-governance-program",
+     "title": "Building an AI Governance Program",
+     "desc": "Building an AI Governance Program",
+     "parts": [
+      {
+       "part": 1,
+       "id": "EzU1UDZeFEY",
+       "title": "Building an AI Governance Program",
+       "seconds": 556,
+       "chapters": [],
+       "published": "2026-06-26T20:08:08Z",
+       "thumb": "img/modules/aigov/07-1.jpg"
+      }
+     ],
+     "deck": null,
+     "deck_kb": null,
+     "seconds": 556,
+     "words": 1419
+    },
+    {
+     "num": "08",
+     "slug": "08-ai-risk-management-and-impact-assessments",
+     "title": "AI Risk Management & Impact Assessments",
+     "desc": "AI Risk Management & Impact Assessments",
+     "parts": [
+      {
+       "part": 1,
+       "id": "3LHE2eTUNLA",
+       "title": "AI Risk Management & Impact Assessments",
+       "seconds": 505,
+       "chapters": [],
+       "published": "2026-06-26T20:08:37Z",
+       "thumb": "img/modules/aigov/08-1.jpg"
+      }
+     ],
+     "deck": null,
+     "deck_kb": null,
+     "seconds": 505,
+     "words": 1301
+    },
+    {
+     "num": "09",
+     "slug": "09-governing-the-ai-lifecycle-development-and-deployment",
+     "title": "Governing the AI Lifecycle — Development & Deployment",
+     "desc": "Governing the AI Lifecycle — Development & Deployment",
+     "parts": [
+      {
+       "part": 1,
+       "id": "MsssmMjyYUY",
+       "title": "Governing the AI Lifecycle — Development & Deployment",
+       "seconds": 698,
+       "chapters": [],
+       "published": "2026-06-26T20:08:59Z",
+       "thumb": "img/modules/aigov/09-1.jpg"
+      }
+     ],
+     "deck": null,
+     "deck_kb": null,
+     "seconds": 698,
+     "words": 1750
+    },
+    {
+     "num": "10",
+     "slug": "10-governing-generative-and-agentic-ai",
+     "title": "Governing Generative & Agentic AI",
+     "desc": "Governing Generative & Agentic AI",
+     "parts": [
+      {
+       "part": 1,
+       "id": "bJTQJLMitYU",
+       "title": "Governing Generative & Agentic AI",
+       "seconds": 566,
+       "chapters": [],
+       "published": "2026-06-26T20:10:14Z",
+       "thumb": "img/modules/aigov/10-1.jpg"
+      }
+     ],
+     "deck": null,
+     "deck_kb": null,
+     "seconds": 566,
+     "words": 1391
+    },
+    {
+     "num": "11",
+     "slug": "11-assurance-audit-and-the-path-forward",
+     "title": "Assurance, Audit & The Path Forward",
+     "desc": "Assurance, Audit & The Path Forward",
+     "parts": [
+      {
+       "part": 1,
+       "id": "qFJ8BgoHSUM",
+       "title": "Assurance, Audit & The Path Forward",
+       "seconds": 651,
+       "chapters": [],
+       "published": "2026-06-26T20:12:16Z",
+       "thumb": "img/modules/aigov/11-1.jpg"
+      }
+     ],
+     "deck": null,
+     "deck_kb": null,
+     "seconds": 651,
+     "words": 1627
+    }
+   ],
+   "facts": null,
+   "videos": 12,
+   "seconds": 7046,
+   "notes": null,
+   "glossary": 0
+  }
+ ]
+}

@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Study plan | Techversation</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css">
+<script>try{var t=JSON.parse(localStorage.getItem("tv-theme"));if(t)document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
+</head>
+<body data-page="plan">
+<div id="top"></div>
+<main class="wrap">
+  <section style="padding-block:2rem 0.4rem;display:grid;gap:.9rem">
+    <p class="eyebrow">Study plan</p>
+    <h1 style="font-size:clamp(1.9rem,3.6vw,2.8rem)">Plan the weeks until your exam</h1>
+    <p class="muted" style="max-width:62ch;font-size:1.08rem">Tell us your exam date and how many hours you have each week. The plan lists what to study each week and keeps the last week for review. It runs in your browser.</p>
+  </section>
+  <div class="plan-grid">
+    <form class="panel ring plan-form" onsubmit="return false">
+      <label class="field">Course<select id="pc"></select></label>
+      <label class="field">Exam date<input class="input" id="pd" type="date"></label>
+      <div class="range"><label class="field" for="ph">Hours per week</label><output id="ph-out" for="ph"></output><input id="ph" type="range" min="1" max="20" value="5"></div>
+      <label class="check"><input id="pn" type="checkbox" checked> Include reading the study notes</label>
+      <button class="btn btn-ghost" id="print" type="button">Print or save as PDF</button>
+      <p class="note" id="plan-note"></p>
+    </form>
+    <section aria-live="polite" id="plan-out"></section>
+  </div>
+</main>
+<div id="foot"></div>
+<script src="assets/data.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>

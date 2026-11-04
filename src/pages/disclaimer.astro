@@ -1,0 +1,19 @@
+---
+import Base from '../layouts/Base.astro';
+import { independence } from '../lib/data';
+---
+<Base title="Disclaimer" description="Techversation is independent and not affiliated with any exam provider. Exam details change, so check the official site." page="disclaimer">
+  <main id="main" class="wrap page-narrow">
+    <p class="eyebrow">Disclaimer</p>
+    <h1 style="font-size:clamp(2rem,4vw,3rem)">Disclaimer</h1>
+    <p>{independence}</p>
+    <h2>Study material, not a promise</h2>
+    <p>The lectures, notes and plans are study aids. They do not guarantee a result in any exam. Use them together with the official exam guide and the sources each course lists.</p>
+    <h2>Exam facts can change</h2>
+    <p>The number of questions, the time, the passing score, the fee and the requirements are set by the exam provider and can change without notice. Where this site shows them, it names the source. Confirm them on the official site before you book.</p>
+    <h2>Sources and licences</h2>
+    <p>The CSM notes summarize the Scrum Guide, which is licensed under CC BY-SA 4.0 by Ken Schwaber and Jeff Sutherland. Other course sources are listed on each course page. Trademarks, names and logos belong to their owners and are not used here.</p>
+    <h2>Mistakes</h2>
+    <p>If you find an error, tell us in the comments under the video on YouTube or through the course request form, and it will be checked and fixed.</p>
+  </main>
+</Base>

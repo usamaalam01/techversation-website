@@ -1,0 +1,24 @@
+---
+import Base from '../../layouts/Base.astro';
+import CourseCard from '../../components/CourseCard.astro';
+import { courses, institutes, soon, u } from '../../lib/data';
+
+export function getStaticPaths() {
+  return institutes.map((i) => ({ params: { institute: i.id }, props: { i } }));
+}
+const { i } = Astro.props;
+const list = courses.filter((c) => c.institute === i.id);
+const coming = soon.filter((s) => s.institute === i.id);
+---
+<Base title={i.id === 'training' ? 'Training courses' : `${i.name} exam prep`} description={i.id === 'training' ? `Free video training courses with no certifying institute: ${list.map((c) => c.short).join(', ')}.` : `Free video lectures and study notes for ${i.name} exams. ${list.map((c) => c.short).join(', ') || 'Courses coming soon'}.`} page="institute">
+  <main id="main" class="wrap">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href={u('')}>Home</a><i>/</i>{i.id !== 'training' && <><a href={u('#certs')}>Certifications</a><i>/</i></>}<span>{i.name}</span></nav>
+    <section style="padding-block:1.6rem 1rem;display:grid;gap:.8rem">
+      <p class="eyebrow">{i.id === 'training' ? 'Training' : 'Institute'}</p>
+      <h1 style="font-size:clamp(2rem,4vw,3.2rem)">{i.id === 'training' ? 'Training courses' : i.name}</h1>
+      <p class="muted" style="max-width:62ch">{i.id === 'training' ? 'Courses with no certifying institute, made by Techversation.' : `${i.full}. Techversation is independent and not affiliated with ${i.name}. The name is used only to say which exam a course prepares for.`}</p>
+    </section>
+    {list.length > 0 && <div class="cards" style="padding-bottom:2rem">{list.map((c) => <CourseCard course={c} />)}</div>}
+    {coming.length > 0 && <div class="empty" style="margin-bottom:2rem"><b>Courses for {i.name} are coming soon</b><span>{coming.map((s) => `${s.short}: ${s.desc}`).join(' ')}</span></div>}
+  </main>
+</Base>

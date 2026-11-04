@@ -1,0 +1,10 @@
+---
+import { notesUrl, type Course, type NoteMeta } from '../lib/data';
+interface Props { c: Course; n: NoteMeta }
+const { c, n } = Astro.props;
+---
+<a class="note-row" href={notesUrl(c, n)} data-q={`${n.num} ${n.title} ${n.domain} ${n.los.join(' ')}`.toLowerCase()}>
+  <span class="tn">{n.tn}</span>
+  <div><h3>{n.title}</h3>{(n.los.length > 0 || n.domain) && <div class="los">{n.domain ? n.domain : n.los.join(' · ')}</div>}</div>
+  <span class="rt">{n.minutes} min read</span>
+</a>

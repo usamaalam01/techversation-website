@@ -1,0 +1,17 @@
+---
+import { certCourses, u, courseUrl, CHANNEL_URL, independence } from '../lib/data';
+---
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot">
+      <div>
+        <a class="brand" href={u('')}><img src={u('logo.jpg')} alt="" width="38" height="38" /><span>Tech<b>versation</b></span></a>
+        <p class="muted" style="margin-top:.9rem;max-width:34ch">Free video lectures and study notes for certification exams. Data, AI, insights, future.</p>
+      </div>
+      <div><h4>Certifications</h4><ul>{certCourses.map((c) => <li><a href={courseUrl(c)}>{c.short}</a></li>)}</ul></div>
+      <div><h4>Learn</h4><ul><li><a href={u('training/')}>Training courses</a></li><li><a href={u('study-plan/')}>Study plan</a></li><li><a href={u('search/')}>Search</a></li><li><a href={u('#request')}>Request a course</a></li></ul></div>
+      <div><h4>Techversation</h4><ul><li><a href={CHANNEL_URL} target="_blank" rel="noopener">YouTube channel</a></li><li><a href={u('about/')}>About</a></li><li><a href={u('disclaimer/')}>Disclaimer</a></li><li><a href={u('privacy/')}>Privacy</a></li></ul></div>
+    </div>
+    <p class="legal">{independence}</p>
+  </div>
+</footer>

@@ -1,0 +1,111 @@
+---
+import Base from '../../../../layouts/Base.astro';
+import Icon from '../../../../components/Icon.astro';
+import { courses, inst, u, courseUrl, moduleUrl, notesUrl, watchUrl, mmss, iso, transcript, type Course, type Module } from '../../../../lib/data';
+
+export function getStaticPaths() {
+  return courses.flatMap((c) => c.modules.map((m, idx) => ({ params: { institute: c.institute, cert: c.slug, module: m.slug }, props: { c, m, idx } })));
+}
+const { c, m, idx } = Astro.props as { c: Course; m: Module; idx: number };
+const i = inst(c.institute);
+const tr = transcript(c.slug, m.num);
+const related = (c.notes ?? []).filter((n) => n.modules.includes(m.num));
+const prev = c.modules[idx - 1], next = c.modules[idx + 1];
+const hasChapters = m.parts.some((p) => p.chapters.length > 0);
+const desc = `${m.desc.replace(/\.$/, '')}. Free ${c.short} exam prep video lecture (${mmss(m.seconds)}) with a full transcript${m.deck ? ' and a slide deck' : ''}.`;
+const abs = (p: string) => new URL(p, Astro.site).href;
+const ld = m.parts.map((p) => ({
+  '@context': 'https://schema.org', '@type': 'VideoObject', name: `${c.short} Module ${m.num}: ${m.title}${m.parts.length > 1 ? ` (part ${p.part})` : ''}`,
+  description: p.title || m.desc, thumbnailUrl: p.thumb ? abs(u(p.thumb)) : abs(u(c.cover)), uploadDate: p.published, duration: p.seconds ? iso(p.seconds) : undefined,
+  embedUrl: `https://www.youtube-nocookie.com/embed/${p.id}`, inLanguage: 'en', isAccessibleForFree: true,
+}));
+const parts = m.parts.map((p) => ({ part: p.part, id: p.id, thumb: p.thumb ? u(p.thumb) : '', seconds: p.seconds ?? 0, title: p.title }));
+---
+<Base title={`${c.short} Module ${m.num}: ${m.title}`} description={desc} image={u(m.parts[0].thumb ?? c.cover)} accent={c.accent} page="module" type="video.other">
+  {ld.map((x) => <script type="application/ld+json" slot="head" set:html={JSON.stringify(x)} />)}
+  <main id="main" class="wrap" data-pagefind-body>
+    <span hidden data-pagefind-filter="type[data-v]" data-v="Video module"></span>
+    <span hidden data-pagefind-filter="institute[data-v]" data-v={i.name}></span>
+    <span hidden data-pagefind-meta="image[data-v]" data-v={u(m.parts[0].thumb ?? c.cover)}></span>
+    <nav class="crumbs" aria-label="Breadcrumb"><a href={u('')}>Home</a><i>/</i><a href={courseUrl(c)}>{c.short}</a><i>/</i><a href={courseUrl(c) + '#video'}>Video course</a><i>/</i><span>Module {m.num}</span></nav>
+    <div class="module-grid">
+      <article>
+        <div class="mod-title"><p class="eyebrow">{c.short} · Module {m.num}</p><h1 data-pagefind-meta="title" style="font-size:clamp(1.9rem,3.6vw,2.9rem)">{m.title}</h1></div>
+
+        <div class="player" id="player" data-id={m.parts[0].id} data-pagefind-ignore>
+          {m.parts[0].thumb && <img src={u(m.parts[0].thumb)} alt={`Video thumbnail: ${m.title}`} width="480" height="270" id="poster" />}
+          <a class="play" id="play" href={watchUrl(m.parts[0].id)} target="_blank" rel="noopener" aria-label="Play the video"><span class="pbtn"><Icon name="play" size={30} /></span></a>
+          <div class="cap"><span class="dur" id="dur">{mmss(m.parts[0].seconds ?? 0)}</span></div>
+        </div>
+        <p class="note" style="margin-top:.7rem" data-pagefind-ignore>Press play to load the video from YouTube. It uses the privacy-friendly player, which sets nothing until you press play.</p>
+
+        {m.parts.length > 1 && (
+          <div class="parts" data-pagefind-ignore role="tablist" aria-label="Video parts">
+            {m.parts.map((p, k) => (
+              <button class="part" type="button" role="tab" data-part={p.part} aria-selected={k === 0}><b>Part {p.part}</b><span>{mmss(p.seconds ?? 0)} · {p.title.length > 34 ? p.title.slice(0, 33) + '…' : p.title}</span></button>
+            ))}
+          </div>
+        )}
+
+        <div class="mod-bar" data-pagefind-ignore>
+          <button class="btn btn-ghost" id="done" type="button" aria-pressed="false">Mark as done</button>
+          <span class="meta"><span>{m.parts.length} part{m.parts.length > 1 ? 's' : ''}</span><span>{mmss(m.seconds)} total</span><span>Transcript</span>{m.deck && <span>Slide deck</span>}</span>
+        </div>
+
+        <div class="tabs" id="mtabs" role="tablist" data-pagefind-ignore>
+          <button class="tab" role="tab" data-tab="tr" aria-selected="true">Transcript</button>
+          {hasChapters && <button class="tab" role="tab" data-tab="chap" aria-selected="false">Chapters</button>}
+          {m.deck && <button class="tab" role="tab" data-tab="dl" aria-selected="false">Downloads</button>}
+          <button class="tab" role="tab" data-tab="talk" aria-selected="false">Discussion</button>
+        </div>
+
+        <div class="tabpanel" id="p-tr" role="tabpanel">
+          {m.parts.map((p, k) => (
+            <div class="transcript" data-part={p.part} hidden={k > 0}>
+              {(tr[String(p.part)] ?? []).map((s) => <div><h4>{s.at !== undefined && <time>{mmss(s.at)}</time>}{s.title}</h4><p>{s.text}</p></div>)}
+            </div>
+          ))}
+        </div>
+        {hasChapters && (
+          <div class="tabpanel" id="p-chap" role="tabpanel" hidden>
+            {m.parts.map((p, k) => (
+              <div class="chapters" data-part={p.part} hidden={k > 0}>
+                {p.chapters.length ? p.chapters.map(([t, name]) => <button class="chap" type="button" data-t={t}><time>{mmss(t)}</time><span>{name}</span></button>) : <p class="muted">No chapters for this part.</p>}
+              </div>
+            ))}
+          </div>
+        )}
+        {m.deck && (
+          <div class="tabpanel" id="p-dl" role="tabpanel" hidden>
+            <div class="dl-list"><div class="dl"><div class="ft">PPTX</div><div><b>Slide deck for this module</b><small>The same slides as the video · {m.deck_kb! >= 1024 ? (m.deck_kb! / 1024).toFixed(1) + ' MB' : m.deck_kb + ' KB'}</small></div><a class="btn btn-ghost" href={u(m.deck)} download>Download</a></div></div>
+          </div>
+        )}
+        <div class="tabpanel" id="p-talk" role="tabpanel" hidden data-pagefind-ignore>
+          <div class="comments">
+            <b style="color:var(--fg)">Questions and comments</b>
+            <p>Anyone can comment under the video on YouTube. Comments on this page open with the site launch.</p>
+            <div class="actions"><a class="btn btn-ghost" href={watchUrl(m.parts[0].id)} target="_blank" rel="noopener">Discuss on YouTube</a></div>
+          </div>
+        </div>
+
+        {related.map((note) => <a class="related" href={notesUrl(c, note)}><span class="ic"><Icon name="doc" size={22} /></span><span><b>Read the study notes: {note.ref}</b><br /><span class="muted">{note.title} · {note.minutes} min read</span></span><span style="margin-left:auto;color:var(--accent-ink)"><Icon name="arrow" size={16} /></span></a>)}
+
+        <div class="pn" data-pagefind-ignore>
+          {prev ? <a href={moduleUrl(c, prev)}><small>Previous</small><b>Module {prev.num}: {prev.title}</b></a> : <span></span>}
+          {next ? <a class="next" href={moduleUrl(c, next)}><small>Next</small><b>Module {next.num}: {next.title}</b></a> : <span></span>}
+        </div>
+      </article>
+
+      <aside class="sidebar" aria-label="Course modules" data-pagefind-ignore>
+        <div class="side-card">
+          <div class="side-head"><b>Course modules</b><span class="mono muted" id="side-count"></span></div>
+          <div class="side-list" id="side-list">
+            {c.modules.map((x) => <a class="side-item" href={moduleUrl(c, x)} data-num={x.num} aria-current={x.num === m.num ? 'page' : undefined}><span class="sn">{x.num}</span><span>{x.title}</span><span class="ck"></span></a>)}
+          </div>
+        </div>
+      </aside>
+    </div>
+  </main>
+  <script type="application/json" id="module-data" set:html={JSON.stringify({ course: c.slug, num: m.num, total: c.modules.length, parts })} />
+  <script>import '../../../../scripts/module.ts';</script>
+</Base>

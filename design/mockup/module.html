@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Module | Techversation</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css">
+<script>try{var t=JSON.parse(localStorage.getItem("tv-theme"));if(t)document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
+</head>
+<body data-page="module">
+<div id="top"></div>
+<main class="wrap">
+  <nav class="crumbs" id="crumbs" aria-label="Breadcrumb"></nav>
+  <div class="module-grid">
+    <article>
+      <div class="mod-title"><p class="eyebrow" id="ey"></p><h1 id="h1" style="font-size:clamp(1.9rem,3.6vw,2.9rem)"></h1></div>
+      <div class="player" id="player"></div>
+      <p class="note" id="pnote" style="margin-top:.7rem"></p>
+      <div class="parts" id="parts" role="tablist" aria-label="Video parts"></div>
+      <div class="mod-bar">
+        <button class="btn btn-ghost" id="done" type="button" aria-pressed="false">Mark as done</button>
+        <span class="meta" id="meta"></span>
+      </div>
+
+      <div class="tabs" id="mtabs" role="tablist">
+        <button class="tab" role="tab" data-tab="tr" aria-selected="true">Transcript</button>
+        <button class="tab" role="tab" data-tab="chap" aria-selected="false">Chapters</button>
+        <button class="tab" role="tab" data-tab="dl" aria-selected="false">Downloads</button>
+        <button class="tab" role="tab" data-tab="talk" aria-selected="false">Discussion</button>
+      </div>
+      <div class="tabpanel" id="p-tr" role="tabpanel"></div>
+      <div class="tabpanel" id="p-chap" role="tabpanel" hidden></div>
+      <div class="tabpanel" id="p-dl" role="tabpanel" hidden>
+        <div class="dl-list">
+          <div class="dl"><div class="ft">PPTX</div><div><b>Slide deck for this module</b><small>The same slides as the video.</small></div><span class="badge">At launch</span></div>
+          <div class="dl"><div class="ft">PDF</div><div><b>Quick-reference sheet</b><small>One printable page of the key facts.</small></div><span class="badge">At launch</span></div>
+        </div>
+      </div>
+      <div class="tabpanel" id="p-talk" role="tabpanel" hidden>
+        <div class="comments">
+          <b style="color:var(--fg)">Questions and comments</b>
+          <p>Comments for this module load here (GitHub Discussions, through Giscus). Commenting needs a GitHub account, so each module also links to the video, where anyone can comment on YouTube.</p>
+          <div class="actions"><a class="btn btn-ghost" id="yt-disc" href="#" target="_blank" rel="noopener">Discuss on YouTube</a><button class="btn btn-ghost" type="button" disabled>Sign in with GitHub to comment</button></div>
+        </div>
+      </div>
+
+      <div id="related"></div>
+      <div class="pn" id="pn"></div>
+    </article>
+
+    <aside class="sidebar" aria-label="Course modules">
+      <div class="side-card">
+        <div class="side-head"><b>Course modules</b><span class="mono muted" id="side-count"></span></div>
+        <div class="side-list" id="side-list"></div>
+      </div>
+    </aside>
+  </div>
+</main>
+<div id="foot"></div>
+<script src="assets/data.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>

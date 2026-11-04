@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.astro/
+*.log
+tools/_guide2020.txt
+tools/_private/
+__pycache__/
+*.pyc
+tools/overlap_report.md
