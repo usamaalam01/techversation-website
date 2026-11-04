@@ -66,12 +66,7 @@ INSTITUTES = [
     dict(id="the-open-group", name="The Open Group", full="The Open Group", mono="TOG", certs=["togaf"]),
     dict(id="training", name="Training", full="Techversation training courses", mono="TV", certs=[], hidden=True),
 ]
-SOON = [
-    dict(slug="prompt", institute=None, short="Prompt Engineering", name="Training", kind="Training",
-         desc="Zero-shot to agent prompting, structured output and how to evaluate prompts."),
-    dict(slug="sdd", institute=None, short="Spec-Driven Development", name="Training", kind="Training",
-         desc="Write specs first and build with an AI coding assistant, in four phases."),
-]
+SOON = []      # 'coming soon' cards (slug, institute, short, name, kind, desc); none at the moment
 # exam facts: only where the course files carry a statement; the fee and the prerequisite are checked at the source before launch
 FACTS = dict(
     csm=dict(questions="50", time="60 min", passing="37 correct (74%)", source="scrumalliance.org", url="https://www.scrumalliance.org/get-certified/scrum-master-track/certified-scrummaster"),

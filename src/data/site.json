@@ -63,24 +63,7 @@
    "hidden": true
   }
  ],
- "soon": [
-  {
-   "slug": "prompt",
-   "institute": null,
-   "short": "Prompt Engineering",
-   "name": "Training",
-   "kind": "Training",
-   "desc": "Zero-shot to agent prompting, structured output and how to evaluate prompts."
-  },
-  {
-   "slug": "sdd",
-   "institute": null,
-   "short": "Spec-Driven Development",
-   "name": "Training",
-   "kind": "Training",
-   "desc": "Write specs first and build with an AI coding assistant, in four phases."
-  }
- ],
+ "soon": [],
  "courses": [
   {
    "kind": "certification",
