@@ -29,19 +29,19 @@ def plain(s):
 def tag_html(text):
     """'Beyond PMBOK 8 — exam practice' -> a badge and, where there is one, the qualifier next to it"""
     text = text.strip()
-    m = re.match(r"(Beyond PMBOK 8|Beyond the Scrum Guide|Beyond the curriculum|Beyond the BoK|Old wording|Moving|Archived topic|Verify live|Dates)(.*)$", text)
+    m = re.match(r"(Beyond PMBOK 8|Beyond the Scrum Guide|Beyond the curriculum|Beyond the BoK|Beyond the guide|Old wording|Old name|Moving|Archived topic|Verify live|Dates)(.*)$", text)
     if not m:
         return f'<span class="tag tag-beyond">{text}</span>'
     base, rest = m.group(1), re.sub(r"^[\s—:;,.-]+", "", m.group(2)).strip()
-    label = {"Beyond the Scrum Guide": "Beyond the Guide"}.get(base, base)
-    cls = "tag-old" if base in ("Old wording", "Moving", "Archived topic", "Verify live", "Dates") else "tag-beyond"
+    label = {"Beyond the Scrum Guide": "Beyond the Guide", "Beyond the guide": "Beyond the guide"}.get(base, base)
+    cls = "tag-old" if base in ("Old wording", "Old name", "Moving", "Archived topic", "Verify live", "Dates") else "tag-beyond"
     q = f'<span class="tag-q">{rest}</span>' if rest else ""
     return f'<span class="tag {cls}" title="{text}">{label}</span>{q}'
 
 
 def tag_label(text):
-    base = re.match(r"(Beyond PMBOK 8|Beyond the Scrum Guide|Beyond the curriculum|Beyond the BoK|Old wording|Moving|Archived topic|Verify live|Dates)", text.strip())
-    return {"Beyond the Scrum Guide": "Beyond the Guide"}.get(base.group(1), base.group(1)) if base else text.strip()
+    base = re.match(r"(Beyond PMBOK 8|Beyond the Scrum Guide|Beyond the curriculum|Beyond the BoK|Beyond the guide|Old wording|Old name|Moving|Archived topic|Verify live|Dates)", text.strip())
+    return {"Beyond the Scrum Guide": "Beyond the Guide", "Beyond the guide": "Beyond the guide"}.get(base.group(1), base.group(1)) if base else text.strip()
 
 
 def callouts(html):
@@ -166,7 +166,7 @@ def read_header_bold(lines):
 
 def title_of(path):
     first = path.read_text(encoding="utf-8").splitlines()[0]
-    m = re.match(r"#\s*(Topic|Chapter|Week|Module)\s+(\d+):\s*(.+?)(?:\s+[—-]\s+(?:CSM|PMP|CDMP|KCNA|AIGP) Exam Summary)?\s*$", first)
+    m = re.match(r"#\s*(Topic|Chapter|Week|Module)\s+(\d+):\s*(.+?)(?:\s+[—-]\s+(?:CSM|PMP|CDMP|KCNA|AIGP|CLF|AIF|SAA) Exam Summary)?\s*$", first)
     if m:
         return m.group(2).zfill(2), m.group(3)
     m = re.match(r"#\s*DMBOK2 Chapter\s+(\d+)\s*[—–-]\s*(.+?)\s*$", first)             # CDMP chapters 1 and 2 use this title line
@@ -251,7 +251,7 @@ def convert_note(cfg, slug, path, group, urls, pub, entry=None):
         html.append(f'<section class="note-sec" id="{sid}"><h2>{numh}{inline(stitle)}{tagh}</h2>{inner}</section>')
     out = "\n".join(html)
     out = callouts(out)
-    out = re.sub(r"<strong>\[((?:Beyond|Old wording|Moving|Archived topic)[^\]]*)\]</strong>", lambda m: tag_html(m.group(1)), out)
+    out = re.sub(r"<strong>\[((?:Beyond|Old wording|Old name|Moving|Archived topic)[^\]]*)\]</strong>", lambda m: tag_html(m.group(1)), out)
     counts["tables"] = out.count("<table>")
     out = out.replace("<table>", '<div class="table-wrap"><table>').replace("</table>", "</table></div>")
     out = re.sub(r"<hr\s*/?>", "", out)
@@ -349,7 +349,7 @@ def build_notes(cfg, slug, institute, modules, data_dir, pub):
         n = convert_note(cfg, slug, f, group, urls, pub)
         if cfg.get("group_from"):
             item = next((h for h in n["header"] if h["key"] == cfg["group_from"]), None)
-            n["group"] = re.sub(r"<[^>]+>", "", item["html"]).split(":")[0].strip() if item else cfg.get("group_default", {}).get(n["num"], group)
+            n["group"] = (cfg.get("group_default", {}).get(n["num"], group) if cfg.get("group_full") and not re.sub(r"<[^>]+>", "", item["html"]).startswith("Domain") else re.sub(r"\s*\(.*?\)\s*$", "", re.sub(r"<[^>]+>", "", item["html"])).strip() if cfg.get("group_full") else re.sub(r"<[^>]+>", "", item["html"]).split(":")[0].strip()) if item else cfg.get("group_default", {}).get(n["num"], group)
         if cfg.get("modules_of"):
             modnums, domain = cfg["modules_of"].get(n["num"], ([], ""))
         else:
