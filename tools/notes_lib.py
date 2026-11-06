@@ -46,14 +46,14 @@ def tag_label(text):
 
 def callouts(html):
     def drop(inner, pattern):
-        return re.sub(r"^(\s*<p>)\s*(?:<strong>)?" + pattern + r"(?:</strong>)?:?(?:</strong>)?\s*", r"\1", inner, count=1)
+        return re.sub(r"^(\s*<p>)\s*(?:<strong>)?" + pattern + r"(?:</strong>)?:?(?:</strong>)?\s*", r"\1", inner, count=1, flags=re.I)
 
     def rep(m):
         inner = m.group(1)
         head = re.sub(r"<[^>]+>", "", inner[:240])
         if re.match(r"\s*Exam angle", head):
             return '<div class="callout exam"><span class="lbl">Exam angle</span><div>' + drop(inner, "Exam angle") + "</div></div>"
-        if re.match(r"\s*Exam Tip", head):
+        if re.match(r"\s*Exam tip", head, flags=re.I):
             return '<div class="callout exam"><span class="lbl">Exam tip</span><div>' + drop(inner, "Exam Tip") + "</div></div>"
         if re.match(r"\s*Watch the PMBOK", head):
             return '<div class="callout old"><span class="lbl">Terminology</span><div>' + inner + "</div></div>"
