@@ -19,6 +19,10 @@ def ids():
         d = json.loads((OC / c / "upload_progress.json").read_text(encoding="utf-8"))
         for k, v in d["videos"].items():
             out[v["id"]] = (c.lower(), k)
+    for c, slug in (("AWS-CLF", "clf"), ("AWS-AIF", "aif"), ("AWS-SAA", "saa")):          # progress files like the first loop, but the site slug differs from the folder
+        d = json.loads((OC / c / "upload_progress.json").read_text(encoding="utf-8"))
+        for k, v in d["videos"].items():
+            out[v["id"]] = (slug, k)
     for c, slug in (("CDMP", "cdmp"), ("TOGAF", "togaf"), ("AIGovernance", "aigov")):       # courses whose progress file lists one video per module
         d = json.loads((OC / c / "upload_progress.json").read_text(encoding="utf-8"))
         for k, v in d["uploaded"].items():

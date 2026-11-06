@@ -52,6 +52,18 @@ COURSES = {
                   desc="Enterprise architecture and the TOGAF Standard: the ADM, the content framework, governance and the exam.",
                   audience="Architects, analysts and managers preparing for the TOGAF Foundation (Level 1) exam.",
                   sources="The TOGAF Standard, 10th Edition (The Open Group) and the weekly study guides."),
+    "clf": dict(folder="AWS-CLF", institute="aws", short="CLF-C02", name="AWS Cloud Practitioner", title="AWS Cloud Practitioner (CLF-C02) Exam Prep Masterclass", accent="c-clf",
+                desc="Cloud concepts, security, core AWS services, pricing and support, with the Lantern and Loom running case.",
+                audience="Beginners, students, sales and project staff, and career changers preparing for the AWS Cloud Practitioner exam. No hands-on experience is needed.",
+                sources="The official AWS Cloud Practitioner (CLF-C02) exam guide and AWS's own documentation."),
+    "aif": dict(folder="AWS-AIF", institute="aws", short="AIF-C01", name="AWS AI Practitioner", title="AWS AI Practitioner (AIF-C01) Exam Prep Masterclass", accent="c-aif",
+                desc="AI, machine learning and generative AI on AWS: foundation models, prompt engineering, responsible AI and security.",
+                audience="Anyone preparing for the AWS AI Practitioner exam, with or without a technical background.",
+                sources="The official AWS AI Practitioner (AIF-C01) exam guide and AWS's own documentation."),
+    "saa": dict(folder="AWS-SAA", institute="aws", short="SAA-C03", name="AWS Solutions Architect Associate", title="AWS Solutions Architect Associate (SAA-C03) Exam Prep Masterclass", accent="c-saa",
+                desc="Secure, resilient, high-performing and cost-optimized architectures, with the Lantern and Loom running case.",
+                audience="Engineers and architects preparing for the AWS Solutions Architect Associate exam.",
+                sources="The official AWS Solutions Architect Associate (SAA-C03) exam guide and AWS's own documentation."),
     "aigov": dict(folder="AIGovernance", institute="training", kind="training", topic="AI", short="AI Governance", name="AI Governance Masterclass", title="AI Governance Masterclass", accent="c-aigov",
                   desc="From principles and risk to laws, frameworks and a working governance program, built around one running case.",
                   audience="Anyone who builds, buys or oversees AI: governance, risk, legal, product and engineering teams.",
@@ -64,12 +76,16 @@ INSTITUTES = [
     dict(id="linux-foundation", name="Linux Foundation", full="The Linux Foundation and CNCF", mono="LF", certs=["kcna"]),
     dict(id="dama", name="DAMA International", full="Data Management Association International", mono="DAMA", certs=["cdmp"]),
     dict(id="the-open-group", name="The Open Group", full="The Open Group", mono="TOG", certs=["togaf"]),
+    dict(id="aws", name="AWS", full="Amazon Web Services", mono="AWS", certs=["clf", "aif", "saa"]),
     dict(id="training", name="Training", full="Techversation training courses", mono="TV", certs=[], hidden=True),
 ]
 SOON = []      # 'coming soon' cards (slug, institute, short, name, kind, desc); none at the moment
 # exam facts: only where the course files carry a statement; the fee and the prerequisite are checked at the source before launch
 FACTS = dict(
     csm=dict(questions="50", time="60 min", passing="37 correct (74%)", source="scrumalliance.org", url="https://www.scrumalliance.org/get-certified/scrum-master-track/certified-scrummaster"),
+    clf=dict(questions="65", time="90 min", passing="700 of 1,000", source="aws.amazon.com/certification", url="https://aws.amazon.com/certification/"),
+    aif=dict(questions="65", time="90 min", passing="700 of 1,000", source="aws.amazon.com/certification", url="https://aws.amazon.com/certification/"),
+    saa=dict(questions="65", time="130 min", passing="720 of 1,000", source="aws.amazon.com/certification", url="https://aws.amazon.com/certification/"),
     kcna=dict(questions="60", time="90 min", passing="75%", source="training.linuxfoundation.org", url="https://training.linuxfoundation.org/certification/kubernetes-cloud-native-associate/"),
 )
 

@@ -4000,6 +4000,5079 @@
    ]
   ]
  },
+ "xPzjsPW5oVQ": {
+  "course": "clf",
+  "key": "00-Course-Introduction-part-1",
+  "title": "AWS CLF-C02 Exam Prep Introduction: Exam Format, Domains and How to Study | AWS Cloud Practitioner",
+  "seconds": 448,
+  "published": "2026-11-04T18:52:45Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Meet Tidewater Outfitters"
+   ],
+   [
+    79,
+    "The Exam at a Glance"
+   ],
+   [
+    115,
+    "Question Types and Scoring"
+   ],
+   [
+    156,
+    "Booking, Taking and Keeping the Credential"
+   ],
+   [
+    205,
+    "The Exam Guide Is Your Scope"
+   ],
+   [
+    247,
+    "Four Domains, Nineteen Task Statements"
+   ],
+   [
+    287,
+    "Who the Exam Is For"
+   ],
+   [
+    327,
+    "How This Course Works"
+   ],
+   [
+    366,
+    "Independent Course, Official Sources"
+   ],
+   [
+    405,
+    "Your Study Plan and Ground Rules"
+   ]
+  ]
+ },
+ "k5B0_4X4q8M": {
+  "course": "clf",
+  "key": "01-The-AWS-Cloud-Value-Reach-and-Economics-part-1",
+  "title": "AWS CLF-C02 Exam Prep Module 1 Part 1 of 2: Cloud Benefits, Elasticity and High Availability",
+  "seconds": 564,
+  "published": "2026-11-04T18:53:19Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Tidewater Weighs Its Server Room"
+   ],
+   [
+    79,
+    "What Is Cloud Computing?"
+   ],
+   [
+    113,
+    "Service Models: IaaS, PaaS and SaaS"
+   ],
+   [
+    155,
+    "The Value Proposition: Six Advantages"
+   ],
+   [
+    199,
+    "Speed of Deployment and Agility"
+   ],
+   [
+    235,
+    "Global Reach in Minutes"
+   ],
+   [
+    274,
+    "High Availability"
+   ],
+   [
+    317,
+    "Elasticity: Capacity That Follows Demand"
+   ],
+   [
+    359,
+    "Which Benefit Is It?"
+   ],
+   [
+    403,
+    "Fixed Costs and Variable Costs"
+   ],
+   [
+    447,
+    "Costs of Running Your Own Data Center"
+   ],
+   [
+    490,
+    "Economies of Scale"
+   ],
+   [
+    525,
+    "Licensing: Bring Your Own License or License Included"
+   ]
+  ]
+ },
+ "Lk3k3jrOInw": {
+  "course": "clf",
+  "key": "01-The-AWS-Cloud-Value-Reach-and-Economics-part-2",
+  "title": "AWS CLF-C02 Exam Prep Module 1 Part 2 of 2: Cloud Economics, Costs and Practice Questions",
+  "seconds": 801,
+  "published": "2026-11-04T18:53:47Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "AWS License Manager"
+   ],
+   [
+    40,
+    "Rightsizing: Matching Size to Workload"
+   ],
+   [
+    83,
+    "Tools That Help: Compute Optimizer and Cost Explorer"
+   ],
+   [
+    119,
+    "Automation: Faster, Repeatable, Less Error-Prone"
+   ],
+   [
+    159,
+    "What the Exam Asks: Value and Economics"
+   ],
+   [
+    200,
+    "Design Check: Tidewater's Move"
+   ],
+   [
+    257,
+    "Common Traps: Value and Economics"
+   ],
+   [
+    341,
+    "Practice Question 1"
+   ],
+   [
+    376,
+    "Practice Question 2"
+   ],
+   [
+    415,
+    "Practice Question 3"
+   ],
+   [
+    452,
+    "Practice Question 4"
+   ],
+   [
+    495,
+    "Practice Question 5"
+   ],
+   [
+    533,
+    "Practice Question 6"
+   ],
+   [
+    570,
+    "Practice Question 7"
+   ],
+   [
+    609,
+    "Practice Question 8"
+   ],
+   [
+    653,
+    "Practice Question 9"
+   ],
+   [
+    697,
+    "Practice Question 10"
+   ],
+   [
+    731,
+    "Practice Question 11"
+   ]
+  ]
+ },
+ "A7T7sM0cg_4": {
+  "course": "clf",
+  "key": "02-Well-Architected-Adoption-and-Migration-part-1",
+  "title": "AWS CLF-C02 Exam Prep Module 2 Part 1 of 2: Well-Architected Pillars and Cloud Adoption Framework",
+  "seconds": 529,
+  "published": "2026-11-04T18:54:03Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Tidewater Plans the Move"
+   ],
+   [
+    76,
+    "What Is the Well-Architected Framework?"
+   ],
+   [
+    116,
+    "The Six Pillars at a Glance"
+   ],
+   [
+    161,
+    "Operational Excellence and Security"
+   ],
+   [
+    204,
+    "Reliability and Performance Efficiency"
+   ],
+   [
+    250,
+    "Cost Optimization and Sustainability"
+   ],
+   [
+    290,
+    "Telling the Pillars Apart"
+   ],
+   [
+    336,
+    "The AWS Well-Architected Tool"
+   ],
+   [
+    372,
+    "The Cloud Adoption Framework: Purpose and Outcomes"
+   ],
+   [
+    411,
+    "CAF Perspectives and Phases"
+   ],
+   [
+    447,
+    "Benefits of Migrating to AWS"
+   ],
+   [
+    486,
+    "Migration Strategies: The Seven Rs"
+   ]
+  ]
+ },
+ "Z5xUZ177n-Q": {
+  "course": "clf",
+  "key": "02-Well-Architected-Adoption-and-Migration-part-2",
+  "title": "AWS CLF-C02 Exam Prep Module 2 Part 2 of 2: Migration Strategies, the 7 Rs and Practice",
+  "seconds": 831,
+  "published": "2026-11-04T18:54:43Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Rehost, Relocate and Replatform"
+   ],
+   [
+    47,
+    "Repurchase, Refactor, Retire and Retain"
+   ],
+   [
+    88,
+    "Database Replication With AWS DMS"
+   ],
+   [
+    134,
+    "Migration Services: Discover, Track, Move"
+   ],
+   [
+    190,
+    "What the Exam Asks: Frameworks and Migration"
+   ],
+   [
+    230,
+    "Design Check: Tidewater's Migration Plan"
+   ],
+   [
+    282,
+    "Common Traps: Frameworks and Migration"
+   ],
+   [
+    370,
+    "Practice Question 1"
+   ],
+   [
+    408,
+    "Practice Question 2"
+   ],
+   [
+    448,
+    "Practice Question 3"
+   ],
+   [
+    495,
+    "Practice Question 4"
+   ],
+   [
+    529,
+    "Practice Question 5"
+   ],
+   [
+    568,
+    "Practice Question 6"
+   ],
+   [
+    601,
+    "Practice Question 7"
+   ],
+   [
+    646,
+    "Practice Question 8"
+   ],
+   [
+    683,
+    "Practice Question 9"
+   ],
+   [
+    720,
+    "Practice Question 10"
+   ],
+   [
+    762,
+    "Practice Question 11"
+   ]
+  ]
+ },
+ "9ySvDqqaeQA": {
+  "course": "clf",
+  "key": "03-Shared-Responsibility-Governance-and-Compliance-part-1",
+  "title": "AWS CLF-C02 Exam Prep Module 3 Part 1 of 3: Shared Responsibility Model: EC2, RDS and Lambda",
+  "seconds": 486,
+  "published": "2026-11-04T18:55:40Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Tidewater Asks Who Secures What"
+   ],
+   [
+    89,
+    "Security of the Cloud, Security in the Cloud"
+   ],
+   [
+    123,
+    "What AWS Is Responsible For"
+   ],
+   [
+    159,
+    "What You Are Responsible For"
+   ],
+   [
+    197,
+    "Inherited, Shared and Customer-Specific Controls"
+   ],
+   [
+    239,
+    "Responsibility Shifts With the Service"
+   ],
+   [
+    284,
+    "Amazon EC2: Most of the Management Is Yours"
+   ],
+   [
+    321,
+    "Amazon RDS: AWS Runs the Database Platform"
+   ],
+   [
+    367,
+    "AWS Lambda and Other Abstracted Services"
+   ],
+   [
+    410,
+    "Who Is Responsible?"
+   ],
+   [
+    444,
+    "Common Traps: Shared Responsibility"
+   ]
+  ]
+ },
+ "GDj4G96BD_8": {
+  "course": "clf",
+  "key": "03-Shared-Responsibility-Governance-and-Compliance-part-2",
+  "title": "AWS CLF-C02 Exam Prep Module 3 Part 2 of 3: Compliance, Encryption, CloudTrail, CloudWatch, Config",
+  "seconds": 595,
+  "published": "2026-11-04T18:55:26Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "AWS Compliance Programs and Your Part"
+   ],
+   [
+    42,
+    "AWS Artifact: Reports and Agreements"
+   ],
+   [
+    85,
+    "Compliance Varies by Location, Industry and Service"
+   ],
+   [
+    125,
+    "Encryption: In Transit and At Rest"
+   ],
+   [
+    173,
+    "AWS KMS and AWS Certificate Manager"
+   ],
+   [
+    218,
+    "Where to Find Logs"
+   ],
+   [
+    264,
+    "AWS CloudTrail: Who Did What, and When"
+   ],
+   [
+    304,
+    "Amazon CloudWatch: Metrics, Logs and Alarms"
+   ],
+   [
+    336,
+    "AWS Config: What Changed, and Is It Compliant?"
+   ],
+   [
+    368,
+    "CloudTrail, CloudWatch or Config?"
+   ],
+   [
+    405,
+    "AWS Control Tower: Governing Many Accounts"
+   ],
+   [
+    441,
+    "Access Reports and Security Services"
+   ],
+   [
+    499,
+    "What the Exam Asks: Responsibility and Governance"
+   ],
+   [
+    540,
+    "Design Check: Tidewater's Security Plan"
+   ]
+  ]
+ },
+ "L5JodFcMgr0": {
+  "course": "clf",
+  "key": "03-Shared-Responsibility-Governance-and-Compliance-part-3",
+  "title": "AWS CLF-C02 Exam Prep Module 3 Part 3 of 3: Governance Recap and Practice Questions",
+  "seconds": 595,
+  "published": "2026-11-04T18:55:45Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Practice Question 1"
+   ],
+   [
+    85,
+    "Practice Question 2"
+   ],
+   [
+    119,
+    "Practice Question 3"
+   ],
+   [
+    163,
+    "Practice Question 4"
+   ],
+   [
+    197,
+    "Practice Question 5"
+   ],
+   [
+    232,
+    "Practice Question 6"
+   ],
+   [
+    269,
+    "Practice Question 7"
+   ],
+   [
+    306,
+    "Practice Question 8"
+   ],
+   [
+    346,
+    "Practice Question 9"
+   ],
+   [
+    382,
+    "Practice Question 10"
+   ],
+   [
+    416,
+    "Practice Question 11"
+   ],
+   [
+    448,
+    "Practice Question 12"
+   ],
+   [
+    482,
+    "Practice Question 13"
+   ],
+   [
+    525,
+    "Practice Question 14"
+   ]
+  ]
+ },
+ "ZSb7XCEHyA4": {
+  "course": "clf",
+  "key": "04-Identity-and-Access-Management-part-1",
+  "title": "AWS CLF-C02 Exam Prep Module 4 Part 1 of 2: IAM Users, Groups, Roles, Policies and Root User",
+  "seconds": 695,
+  "published": "2026-11-04T18:56:08Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Tidewater's First AWS Account"
+   ],
+   [
+    89,
+    "Authentication and Authorization: Two Questions"
+   ],
+   [
+    133,
+    "The Root User: All Power, Few Uses"
+   ],
+   [
+    176,
+    "Protecting the Root User: Habits That Matter"
+   ],
+   [
+    225,
+    "Tasks Only the Root User Can Do"
+   ],
+   [
+    282,
+    "IAM Users, Groups and Roles"
+   ],
+   [
+    321,
+    "IAM Groups: One Place for Shared Permissions"
+   ],
+   [
+    366,
+    "IAM Roles and Temporary Credentials"
+   ],
+   [
+    415,
+    "Cross-Account Access and Federation"
+   ],
+   [
+    462,
+    "Reading an IAM Policy"
+   ],
+   [
+    510,
+    "Policy Types: Identity-Based and Resource-Based"
+   ],
+   [
+    556,
+    "Guardrails Limit; Policies Grant"
+   ],
+   [
+    601,
+    "Least Privilege in Practice"
+   ],
+   [
+    642,
+    "Passwords and Access Keys"
+   ]
+  ]
+ },
+ "xulDcdcoTBY": {
+  "course": "clf",
+  "key": "04-Identity-and-Access-Management-part-2",
+  "title": "AWS CLF-C02 Exam Prep Module 4 Part 2 of 2: MFA, Secrets Manager, Identity Center and Practice",
+  "seconds": 787,
+  "published": "2026-11-04T18:56:41Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Multi-Factor Authentication"
+   ],
+   [
+    50,
+    "Where to Keep Secrets: Secrets Manager and Parameter Store"
+   ],
+   [
+    101,
+    "IAM Identity Center: One Front Door for Your Workforce"
+   ],
+   [
+    148,
+    "Amazon Cognito and AWS Directory Service"
+   ],
+   [
+    204,
+    "What the Exam Asks: Identity and Access"
+   ],
+   [
+    248,
+    "Design Check: Tidewater's Access Plan"
+   ],
+   [
+    307,
+    "Try It: Least Privilege in Twenty Minutes (Optional)"
+   ],
+   [
+    407,
+    "Practice Question 1"
+   ],
+   [
+    449,
+    "Practice Question 2"
+   ],
+   [
+    485,
+    "Practice Question 3"
+   ],
+   [
+    532,
+    "Practice Question 4"
+   ],
+   [
+    575,
+    "Practice Question 5"
+   ],
+   [
+    618,
+    "Practice Question 6"
+   ],
+   [
+    660,
+    "Practice Question 7"
+   ],
+   [
+    707,
+    "Practice Question 8"
+   ]
+  ]
+ },
+ "k9jUPr5E1MY": {
+  "course": "clf",
+  "key": "05-Security-Services-and-Resources-part-1",
+  "title": "AWS CLF-C02 Exam Prep Module 5 Part 1 of 2: WAF, Shield, GuardDuty, Inspector, Macie, Detective",
+  "seconds": 542,
+  "published": "2026-11-04T18:57:04Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Tidewater Prepares for the Sale"
+   ],
+   [
+    98,
+    "The Security Toolbox at a Glance"
+   ],
+   [
+    145,
+    "AWS WAF: Filtering Web Requests"
+   ],
+   [
+    201,
+    "AWS Shield: Standard and Advanced"
+   ],
+   [
+    262,
+    "AWS Firewall Manager: One Policy, Many Accounts"
+   ],
+   [
+    311,
+    "Amazon GuardDuty: Threat Detection"
+   ],
+   [
+    358,
+    "Amazon Inspector: Finding Weaknesses"
+   ],
+   [
+    409,
+    "Amazon Macie: Sensitive Data in S3"
+   ],
+   [
+    452,
+    "Amazon Detective: Finding the Root Cause"
+   ],
+   [
+    490,
+    "AWS Security Hub: One View of Findings"
+   ]
+  ]
+ },
+ "lwQP_QEkubI": {
+  "course": "clf",
+  "key": "05-Security-Services-and-Resources-part-2",
+  "title": "AWS CLF-C02 Exam Prep Module 5 Part 2 of 2: KMS, CloudHSM, Trusted Advisor and Practice",
+  "seconds": 748,
+  "published": "2026-11-04T18:57:26Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Keys and Certificates: KMS, CloudHSM and ACM"
+   ],
+   [
+    65,
+    "AWS Resource Access Manager: Share, Don't Copy"
+   ],
+   [
+    114,
+    "AWS Trusted Advisor: Security Checks"
+   ],
+   [
+    168,
+    "AWS Marketplace: Third-Party Security Products"
+   ],
+   [
+    213,
+    "Where to Find Security Information"
+   ],
+   [
+    266,
+    "What the Exam Asks: Security Services"
+   ],
+   [
+    312,
+    "Design Check: Tidewater's Security Plan"
+   ],
+   [
+    412,
+    "Practice Question 1"
+   ],
+   [
+    464,
+    "Practice Question 2"
+   ],
+   [
+    514,
+    "Practice Question 3"
+   ],
+   [
+    563,
+    "Practice Question 4"
+   ],
+   [
+    616,
+    "Practice Question 5"
+   ],
+   [
+    672,
+    "Practice Question 6"
+   ]
+  ]
+ },
+ "ef3V5AWwoW0": {
+  "course": "clf",
+  "key": "06-Deploying-Operating-and-Global-Infrastructure-part-1",
+  "title": "AWS CLF-C02 Exam Prep Module 6 Part 1 of 2: Console, CLI, SDK, CloudFormation and Regions",
+  "seconds": 464,
+  "published": "2026-11-04T18:57:38Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Tidewater Goes Global"
+   ],
+   [
+    89,
+    "Ways to Reach AWS"
+   ],
+   [
+    142,
+    "Console, CLI, SDK or Template?"
+   ],
+   [
+    192,
+    "Infrastructure as Code: AWS CloudFormation"
+   ],
+   [
+    246,
+    "Service Catalog and Service Quotas"
+   ],
+   [
+    297,
+    "Deployment Models: Cloud, Hybrid and On-Premises"
+   ],
+   [
+    355,
+    "Regions, Availability Zones and Edge Locations"
+   ],
+   [
+    413,
+    "Choosing a Region"
+   ]
+  ]
+ },
+ "p3fpSvghOmo": {
+  "course": "clf",
+  "key": "06-Deploying-Operating-and-Global-Infrastructure-part-2",
+  "title": "AWS CLF-C02 Exam Prep Module 6 Part 2 of 2: Availability Zones, Edge Locations and Practice",
+  "seconds": 648,
+  "published": "2026-11-04T18:58:12Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Availability Zones and High Availability"
+   ],
+   [
+    42,
+    "Multiple Regions: When and Why"
+   ],
+   [
+    90,
+    "Edge Locations: Content Close to Users"
+   ],
+   [
+    141,
+    "What the Exam Asks: Deploying and Global Infrastructure"
+   ],
+   [
+    194,
+    "Design Check: Tidewater Goes Global"
+   ],
+   [
+    297,
+    "Practice Question 1"
+   ],
+   [
+    345,
+    "Practice Question 2"
+   ],
+   [
+    394,
+    "Practice Question 3"
+   ],
+   [
+    441,
+    "Practice Question 4"
+   ],
+   [
+    480,
+    "Practice Question 5"
+   ],
+   [
+    527,
+    "Practice Question 6"
+   ],
+   [
+    572,
+    "Practice Question 7"
+   ]
+  ]
+ },
+ "phoW26bnOUU": {
+  "course": "clf",
+  "key": "07-Compute-Containers-and-Serverless-part-1",
+  "title": "AWS CLF-C02 Exam Prep Module 7 Part 1 of 2: EC2, Load Balancing, Auto Scaling and Containers",
+  "seconds": 455,
+  "published": "2026-11-04T18:58:26Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Tidewater Needs Compute That Flexes"
+   ],
+   [
+    88,
+    "Compute Choices: How Much Do You Manage?"
+   ],
+   [
+    137,
+    "Amazon EC2: Virtual Servers in the Cloud"
+   ],
+   [
+    190,
+    "EC2 Instance Types: Match the Family to the Workload"
+   ],
+   [
+    245,
+    "Elastic Load Balancing: Sharing the Traffic"
+   ],
+   [
+    300,
+    "Auto Scaling: Elasticity on Demand"
+   ],
+   [
+    357,
+    "Containers: Amazon ECS, Amazon EKS and Amazon ECR"
+   ],
+   [
+    412,
+    "AWS Fargate: Containers Without Servers"
+   ]
+  ]
+ },
+ "TKukckyy0TU": {
+  "course": "clf",
+  "key": "07-Compute-Containers-and-Serverless-part-2",
+  "title": "AWS CLF-C02 Exam Prep Module 7 Part 2 of 2: Lambda, Fargate, Elastic Beanstalk and Practice",
+  "seconds": 637,
+  "published": "2026-11-04T18:58:55Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "AWS Lambda: Run Code Without Servers"
+   ],
+   [
+    41,
+    "Elastic Beanstalk, Lightsail and AWS Batch"
+   ],
+   [
+    96,
+    "AWS Outposts: AWS Infrastructure on Your Premises"
+   ],
+   [
+    140,
+    "What the Exam Asks: Compute"
+   ],
+   [
+    187,
+    "Design Check: Tidewater's Compute Plan"
+   ],
+   [
+    284,
+    "Practice Question 1"
+   ],
+   [
+    332,
+    "Practice Question 2"
+   ],
+   [
+    383,
+    "Practice Question 3"
+   ],
+   [
+    431,
+    "Practice Question 4"
+   ],
+   [
+    474,
+    "Practice Question 5"
+   ],
+   [
+    517,
+    "Practice Question 6"
+   ],
+   [
+    564,
+    "Practice Question 7"
+   ]
+  ]
+ },
+ "qiB3SDo55Fw": {
+  "course": "clf",
+  "key": "08-Storage-part-1",
+  "title": "AWS CLF-C02 Exam Prep Module 8 Part 1 of 2: S3 Storage Classes, EBS and Instance Store",
+  "seconds": 426,
+  "published": "2026-11-04T18:59:06Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Tidewater's Data Grows"
+   ],
+   [
+    93,
+    "Object, Block and File Storage"
+   ],
+   [
+    141,
+    "Amazon S3: Object Storage at Any Scale"
+   ],
+   [
+    187,
+    "S3 Storage Classes: Frequent and Infrequent Access"
+   ],
+   [
+    254,
+    "S3 Glacier Classes: Archive Storage"
+   ],
+   [
+    314,
+    "S3 Lifecycle and Versioning"
+   ],
+   [
+    366,
+    "Block Storage: Amazon EBS and Instance Store"
+   ]
+  ]
+ },
+ "eu4YWUVWdk0": {
+  "course": "clf",
+  "key": "08-Storage-part-2",
+  "title": "AWS CLF-C02 Exam Prep Module 8 Part 2 of 2: EFS, FSx, Storage Gateway, Backup and Practice",
+  "seconds": 669,
+  "published": "2026-11-04T18:59:43Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "File Storage: Amazon EFS and Amazon FSx"
+   ],
+   [
+    54,
+    "AWS Storage Gateway: Cloud Storage for On-Premises Apps"
+   ],
+   [
+    116,
+    "AWS Backup and AWS Elastic Disaster Recovery"
+   ],
+   [
+    173,
+    "What the Exam Asks: Storage"
+   ],
+   [
+    222,
+    "Design Check: Tidewater's Storage Plan"
+   ],
+   [
+    274,
+    "Try It: A Bucket, Versioning and a Lifecycle Rule (Optional)"
+   ],
+   [
+    359,
+    "Practice Question 1"
+   ],
+   [
+    406,
+    "Practice Question 2"
+   ],
+   [
+    450,
+    "Practice Question 3"
+   ],
+   [
+    499,
+    "Practice Question 4"
+   ],
+   [
+    547,
+    "Practice Question 5"
+   ],
+   [
+    594,
+    "Practice Question 6"
+   ]
+  ]
+ },
+ "Jm0n3fWJgxI": {
+  "course": "clf",
+  "key": "09-Databases-part-1",
+  "title": "AWS CLF-C02 Exam Prep Module 9 Part 1 of 2: RDS, Aurora, DynamoDB and ElastiCache",
+  "seconds": 406,
+  "published": "2026-11-04T18:59:49Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Tidewater's Data Needs Differ"
+   ],
+   [
+    90,
+    "Database Types at a Glance"
+   ],
+   [
+    140,
+    "Self-Managed or Managed: Databases on EC2 and Amazon RDS"
+   ],
+   [
+    193,
+    "RDS Multi-AZ and Read Replicas"
+   ],
+   [
+    246,
+    "Amazon Aurora: Relational Built for the Cloud"
+   ],
+   [
+    303,
+    "Amazon DynamoDB: Serverless NoSQL"
+   ],
+   [
+    357,
+    "Amazon ElastiCache: In-Memory Caching"
+   ]
+  ]
+ },
+ "9UprSdgDN5c": {
+  "course": "clf",
+  "key": "09-Databases-part-2",
+  "title": "AWS CLF-C02 Exam Prep Module 9 Part 2 of 2: DocumentDB, Neptune, DMS and Practice Questions",
+  "seconds": 481,
+  "published": "2026-11-04T19:00:31Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Amazon DocumentDB and Amazon Neptune"
+   ],
+   [
+    49,
+    "Moving Databases: AWS DMS and AWS SCT"
+   ],
+   [
+    98,
+    "What the Exam Asks: Databases"
+   ],
+   [
+    142,
+    "Design Check: Tidewater's Database Plan"
+   ],
+   [
+    226,
+    "Practice Question 1"
+   ],
+   [
+    273,
+    "Practice Question 2"
+   ],
+   [
+    316,
+    "Practice Question 3"
+   ],
+   [
+    362,
+    "Practice Question 4"
+   ],
+   [
+    405,
+    "Practice Question 5"
+   ]
+  ]
+ },
+ "3pDZV_SKp2U": {
+  "course": "clf",
+  "key": "10-Networking-and-Content-Delivery-part-1",
+  "title": "AWS CLF-C02 Exam Prep Module 10 Part 1 of 2: VPC, Security Groups, Route 53 and CloudFront",
+  "seconds": 378,
+  "published": "2026-11-04T19:00:37Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Tidewater Builds Its Network"
+   ],
+   [
+    85,
+    "Amazon VPC: Your Private Network in AWS"
+   ],
+   [
+    137,
+    "Public and Private Subnets: Internet and NAT Gateways"
+   ],
+   [
+    188,
+    "Security Groups and Network ACLs"
+   ],
+   [
+    244,
+    "Amazon Route 53: DNS and Health Checks"
+   ],
+   [
+    283,
+    "Amazon CloudFront: Faster Delivery Worldwide"
+   ],
+   [
+    328,
+    "Your Network to AWS: VPN and Direct Connect"
+   ]
+  ]
+ },
+ "tLjkpIvWAfk": {
+  "course": "clf",
+  "key": "10-Networking-and-Content-Delivery-part-2",
+  "title": "AWS CLF-C02 Exam Prep Module 10 Part 2 of 2: VPN, Direct Connect, API Gateway and Practice",
+  "seconds": 554,
+  "published": "2026-11-04T19:02:40Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Transit Gateway, PrivateLink and Global Accelerator"
+   ],
+   [
+    50,
+    "Amazon API Gateway: The Front Door for APIs"
+   ],
+   [
+    99,
+    "What the Exam Asks: Networking"
+   ],
+   [
+    148,
+    "Design Check: Tidewater's Network Plan"
+   ],
+   [
+    199,
+    "Try It: A VPC with Public and Private Subnets (Optional)"
+   ],
+   [
+    298,
+    "Practice Question 1"
+   ],
+   [
+    343,
+    "Practice Question 2"
+   ],
+   [
+    394,
+    "Practice Question 3"
+   ],
+   [
+    439,
+    "Practice Question 4"
+   ],
+   [
+    486,
+    "Practice Question 5"
+   ]
+  ]
+ },
+ "ZX2IvJq32HE": {
+  "course": "clf",
+  "key": "11-AI-ML-and-Analytics-part-1",
+  "title": "AWS CLF-C02 Exam Prep Module 11: SageMaker AI, Comprehend, Athena, Kinesis, Glue",
+  "seconds": 809,
+  "published": "2026-11-04T19:01:42Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Tidewater Has Data to Use"
+   ],
+   [
+    86,
+    "Task First, Then the Service"
+   ],
+   [
+    130,
+    "Text and Documents: Comprehend, Translate and Textract"
+   ],
+   [
+    175,
+    "Speech, Images and Chat: Transcribe, Polly, Rekognition and Lex"
+   ],
+   [
+    225,
+    "Build Your Own and Ask for Help: SageMaker AI, Bedrock and Amazon Q"
+   ],
+   [
+    285,
+    "From Data to Decisions: The Analytics Services"
+   ],
+   [
+    329,
+    "Streaming and Preparing Data: Kinesis, Firehose and AWS Glue"
+   ],
+   [
+    388,
+    "Querying and Big Data: Athena, Redshift, EMR and OpenSearch"
+   ],
+   [
+    440,
+    "What the Exam Asks: AI/ML and Analytics"
+   ],
+   [
+    481,
+    "Design Check: Tidewater's Data and AI Plan"
+   ],
+   [
+    571,
+    "Practice Question 1"
+   ],
+   [
+    614,
+    "Practice Question 2"
+   ],
+   [
+    651,
+    "Practice Question 3"
+   ],
+   [
+    694,
+    "Practice Question 4"
+   ],
+   [
+    741,
+    "Practice Question 5"
+   ]
+  ]
+ },
+ "6LnXHkaiZ7s": {
+  "course": "clf",
+  "key": "12-Integration-Developer-Tools-and-Other-Services-part-1",
+  "title": "AWS CLF-C02 Exam Prep Module 12: SQS, SNS, EventBridge, Dev Tools, WorkSpaces, IoT",
+  "seconds": 779,
+  "published": "2026-11-04T19:02:11Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Tidewater's Order Day"
+   ],
+   [
+    91,
+    "Queues and Topics: Amazon SQS and Amazon SNS"
+   ],
+   [
+    148,
+    "Events and Workflows: Amazon EventBridge and AWS Step Functions"
+   ],
+   [
+    201,
+    "Business Applications: Amazon Connect and Amazon SES"
+   ],
+   [
+    253,
+    "Developer Tools: CodeBuild, CodePipeline and X-Ray"
+   ],
+   [
+    302,
+    "End-User Computing: WorkSpaces, WorkSpaces Applications and Secure Browser"
+   ],
+   [
+    370,
+    "Web, Mobile and Devices: AWS Amplify and AWS IoT Core"
+   ],
+   [
+    420,
+    "What the Exam Asks: Other Services"
+   ],
+   [
+    469,
+    "Design Check: Tidewater's Order Day"
+   ],
+   [
+    568,
+    "Practice Question 1"
+   ],
+   [
+    616,
+    "Practice Question 2"
+   ],
+   [
+    661,
+    "Practice Question 3"
+   ],
+   [
+    709,
+    "Practice Question 4"
+   ]
+  ]
+ },
+ "HzhtpwUG1ME": {
+  "course": "clf",
+  "key": "13-Pricing-Models-and-Cost-Management-part-1",
+  "title": "AWS CLF-C02 Exam Prep Module 13 Part 1 of 2: EC2 Pricing, Savings Plans, Spot and Data Transfer",
+  "seconds": 482,
+  "published": "2026-11-04T19:02:29Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Tidewater Watches Its Bill"
+   ],
+   [
+    88,
+    "How AWS Pricing Works"
+   ],
+   [
+    139,
+    "EC2 Purchasing: On-Demand, Savings Plans and Reserved Instances"
+   ],
+   [
+    197,
+    "EC2 Purchasing: Spot, Dedicated Hosts, Dedicated Instances and Capacity Reservations"
+   ],
+   [
+    252,
+    "Choosing a Purchasing Option"
+   ],
+   [
+    295,
+    "Data Transfer Costs"
+   ],
+   [
+    338,
+    "Storage Pricing: Options and Tiers"
+   ],
+   [
+    392,
+    "One Bill for Many Accounts: AWS Organizations"
+   ],
+   [
+    437,
+    "Estimating Costs: AWS Pricing Calculator"
+   ]
+  ]
+ },
+ "grxlME-AnT4": {
+  "course": "clf",
+  "key": "13-Pricing-Models-and-Cost-Management-part-2",
+  "title": "AWS CLF-C02 Exam Prep Module 13 Part 2 of 2: Cost Explorer, Budgets, Tags and Practice Questions",
+  "seconds": 734,
+  "published": "2026-11-04T19:03:39Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Tracking Costs: AWS Cost Explorer and AWS Budgets"
+   ],
+   [
+    48,
+    "Organizing Costs: Cost Allocation Tags and Cost and Usage Reports"
+   ],
+   [
+    104,
+    "Cutting Costs: Compute Optimizer and the Billing Console"
+   ],
+   [
+    152,
+    "What the Exam Asks: Pricing and Cost Management"
+   ],
+   [
+    202,
+    "Design Check: Tidewater's Cost Plan"
+   ],
+   [
+    260,
+    "Try It: A Monthly Cost Budget With an Email Alert (Optional)"
+   ],
+   [
+    350,
+    "Practice Question 1"
+   ],
+   [
+    401,
+    "Practice Question 2"
+   ],
+   [
+    446,
+    "Practice Question 3"
+   ],
+   [
+    493,
+    "Practice Question 4"
+   ],
+   [
+    534,
+    "Practice Question 5"
+   ],
+   [
+    576,
+    "Practice Question 6"
+   ],
+   [
+    620,
+    "Practice Question 7"
+   ],
+   [
+    663,
+    "Practice Question 8"
+   ]
+  ]
+ },
+ "HBKe888r3EQ": {
+  "course": "clf",
+  "key": "14-Support-Resources-and-Partners-part-1",
+  "title": "AWS CLF-C02 Exam Prep Module 14: Support Plans, Trusted Advisor and Partners | Cloud Practitioner",
+  "seconds": 808,
+  "published": "2026-11-04T19:04:10Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Tidewater Plans for Trouble"
+   ],
+   [
+    86,
+    "Self-Service Help: Documentation, Guidance and Communities"
+   ],
+   [
+    142,
+    "AWS Support Plans: Basic and Business Support+"
+   ],
+   [
+    199,
+    "AWS Support Plans: Enterprise Support and Unified Operations"
+   ],
+   [
+    253,
+    "Choosing a Support Plan"
+   ],
+   [
+    295,
+    "Support Center, AWS Health Dashboard and Trusted Advisor"
+   ],
+   [
+    354,
+    "Expert Help: AWS Professional Services, Solutions Architects and Partners"
+   ],
+   [
+    400,
+    "AWS Partner Network and AWS Marketplace"
+   ],
+   [
+    456,
+    "What the Exam Asks: Support and Resources"
+   ],
+   [
+    506,
+    "Design Check: Tidewater Plans for Trouble"
+   ],
+   [
+    601,
+    "Practice Question 1"
+   ],
+   [
+    652,
+    "Practice Question 2"
+   ],
+   [
+    693,
+    "Practice Question 3"
+   ],
+   [
+    739,
+    "Practice Question 4"
+   ]
+  ]
+ },
+ "B7AXVPdCu8k": {
+  "course": "clf",
+  "key": "15-Quick-Reference-Recap-and-Service-Chooser-part-1",
+  "title": "AWS CLF-C02 Exam Prep Module 15: Quick Reference Recap and Service Chooser | AWS Cloud Practitioner",
+  "seconds": 723,
+  "published": "2026-11-04T19:04:14Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Tidewater's Final Review"
+   ],
+   [
+    78,
+    "The Exam on One Page"
+   ],
+   [
+    131,
+    "Look-Alikes: Security and Identity"
+   ],
+   [
+    202,
+    "Look-Alikes: Compute, Storage and Databases"
+   ],
+   [
+    269,
+    "Look-Alikes: Networking, Integration, AI and Analytics"
+   ],
+   [
+    333,
+    "Look-Alikes: Billing, Pricing and Support"
+   ],
+   [
+    397,
+    "Service Chooser: Security, Identity and Governance"
+   ],
+   [
+    454,
+    "Service Chooser: Compute, Storage, Databases and Networking"
+   ],
+   [
+    510,
+    "Service Chooser: AI, Analytics, Integration, Cost and Support"
+   ],
+   [
+    567,
+    "Lists the Exam Likes"
+   ],
+   [
+    628,
+    "Terms That Trip People Up"
+   ]
+  ]
+ },
+ "rTI0ZB19F2Y": {
+  "course": "clf",
+  "key": "16-Exam-Technique-and-Final-Review-part-1",
+  "title": "AWS CLF-C02 Exam Prep Module 16 Part 1 of 2: Exam Technique, Pacing and Answering Strategy",
+  "seconds": 413,
+  "published": "2026-11-04T19:04:42Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Tidewater's Mock Exam"
+   ],
+   [
+    80,
+    "The Exam Clock"
+   ],
+   [
+    123,
+    "Read for the Requirement"
+   ],
+   [
+    165,
+    "A Four-Step Answer Method"
+   ],
+   [
+    198,
+    "Eliminating Distractors"
+   ],
+   [
+    235,
+    "Multiple-Response Questions"
+   ],
+   [
+    265,
+    "Qualifier Words Steer the Answer"
+   ],
+   [
+    316,
+    "Responsibility Shortcuts"
+   ],
+   [
+    364,
+    "Cost Question Shortcuts"
+   ]
+  ]
+ },
+ "DFwokxUubMA": {
+  "course": "clf",
+  "key": "16-Exam-Technique-and-Final-Review-part-2",
+  "title": "AWS CLF-C02 Exam Prep Module 16 Part 2 of 2: Final Week, Exam Day and Practice Questions",
+  "seconds": 481,
+  "published": "2026-11-04T19:05:16Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "When You Are Unsure"
+   ],
+   [
+    46,
+    "Your Final Week"
+   ],
+   [
+    86,
+    "Exam Day and Afterwards"
+   ],
+   [
+    135,
+    "Design Check: Tidewater's Mock Exam"
+   ],
+   [
+    217,
+    "Practice Question 1"
+   ],
+   [
+    267,
+    "Practice Question 2"
+   ],
+   [
+    311,
+    "Practice Question 3"
+   ],
+   [
+    362,
+    "Practice Question 4"
+   ],
+   [
+    408,
+    "Practice Question 5"
+   ]
+  ]
+ },
+ "P_GL6AFlWgU": {
+  "course": "aif",
+  "key": "00-Course-Introduction-part-1",
+  "title": "AWS AIF-C01 Exam Prep Introduction: Exam Format, Domains and How to Study | AWS AI Practitioner",
+  "seconds": 455,
+  "published": "2026-11-05T16:51:18Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Meet Cedar and Salt Travel"
+   ],
+   [
+    82,
+    "The Exam at a Glance"
+   ],
+   [
+    118,
+    "Question Types and Scoring"
+   ],
+   [
+    160,
+    "Booking, Taking and Keeping the Credential"
+   ],
+   [
+    209,
+    "The Exam Guide Is Your Scope"
+   ],
+   [
+    248,
+    "Five Domains, Fourteen Task Statements"
+   ],
+   [
+    290,
+    "Who the Exam Is For"
+   ],
+   [
+    332,
+    "How This Course Works"
+   ],
+   [
+    372,
+    "Independent Course, Official Sources"
+   ],
+   [
+    412,
+    "Your Study Plan and Ground Rules"
+   ]
+  ]
+ },
+ "vg2Gn0nNva0": {
+  "course": "aif",
+  "key": "01-AI-ML-and-Deep-Learning-Core-Concepts-part-1",
+  "title": "AWS AIF-C01 Exam Prep Module 1 Part 1 of 2: AI, ML, Deep Learning, Inference and Data Types",
+  "seconds": 433,
+  "published": "2026-11-05T16:51:23Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Cedar and Salt Hears the Buzzwords"
+   ],
+   [
+    80,
+    "How AI, ML and Deep Learning Fit Together"
+   ],
+   [
+    120,
+    "Machine Learning, Models and Algorithms"
+   ],
+   [
+    153,
+    "Neural Networks and Deep Learning"
+   ],
+   [
+    184,
+    "The Fields of AI: Vision, Language and Speech"
+   ],
+   [
+    230,
+    "Training and Inference"
+   ],
+   [
+    262,
+    "Types of Inference"
+   ],
+   [
+    313,
+    "Types of Data"
+   ],
+   [
+    352,
+    "Types of Learning"
+   ],
+   [
+    397,
+    "Design Check: Cedar and Salt's First Vocabulary"
+   ]
+  ]
+ },
+ "vbPy7PRUIok": {
+  "course": "aif",
+  "key": "01-AI-ML-and-Deep-Learning-Core-Concepts-part-2",
+  "title": "AWS AIF-C01 Exam Prep Module 1 Part 2 of 2: Learning Types, Overfitting, LLMs and Practice",
+  "seconds": 521,
+  "published": "2026-11-05T16:51:58Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Fit: Underfitting, Overfitting and a Good Fit"
+   ],
+   [
+    38,
+    "Bias and Fairness"
+   ],
+   [
+    66,
+    "Large Language Models and Generative AI"
+   ],
+   [
+    105,
+    "Agentic AI"
+   ],
+   [
+    137,
+    "Telling Them Apart"
+   ],
+   [
+    173,
+    "What the Exam Asks: Core Concepts"
+   ],
+   [
+    248,
+    "Practice Question 1"
+   ],
+   [
+    289,
+    "Practice Question 2"
+   ],
+   [
+    333,
+    "Practice Question 3"
+   ],
+   [
+    372,
+    "Practice Question 4"
+   ],
+   [
+    411,
+    "Practice Question 5"
+   ],
+   [
+    455,
+    "Practice Question 6"
+   ]
+  ]
+ },
+ "_-sxCtDZyqY": {
+  "course": "aif",
+  "key": "02-Use-Cases-for-AI-and-AWS-AI-Services-part-1",
+  "title": "AWS AIF-C01 Exam Prep Module 2 Part 1 of 2: AI Use Cases, Transcribe, Comprehend, Textract",
+  "seconds": 476,
+  "published": "2026-11-05T16:52:08Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Cedar and Salt's AI Wish List"
+   ],
+   [
+    89,
+    "Where AI and ML Add Value"
+   ],
+   [
+    127,
+    "When AI Is Not Appropriate"
+   ],
+   [
+    164,
+    "Matching the Technique to the Problem"
+   ],
+   [
+    202,
+    "Real-World AI Applications"
+   ],
+   [
+    247,
+    "Ready-Made Services, SageMaker AI or Foundation Models"
+   ],
+   [
+    284,
+    "Speech and Language: Transcribe, Translate and Polly"
+   ],
+   [
+    321,
+    "Text and Documents: Comprehend and Textract"
+   ],
+   [
+    367,
+    "Images and Video: Amazon Rekognition"
+   ],
+   [
+    400,
+    "Conversation and Recommendations: Lex and Personalize"
+   ],
+   [
+    436,
+    "Amazon SageMaker AI: Your Own Models"
+   ]
+  ]
+ },
+ "9INeTWu6ic8": {
+  "course": "aif",
+  "key": "02-Use-Cases-for-AI-and-AWS-AI-Services-part-2",
+  "title": "AWS AIF-C01 Exam Prep Module 2 Part 2 of 2: SageMaker AI, Traditional ML vs Foundation Models",
+  "seconds": 527,
+  "published": "2026-11-05T16:52:32Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Traditional ML or a Foundation Model?"
+   ],
+   [
+    44,
+    "Service Chooser: I Need To..."
+   ],
+   [
+    88,
+    "What the Exam Asks: Use Cases and Services"
+   ],
+   [
+    128,
+    "Design Check: Cedar and Salt's Wish List"
+   ],
+   [
+    199,
+    "Practice Question 1"
+   ],
+   [
+    241,
+    "Practice Question 2"
+   ],
+   [
+    285,
+    "Practice Question 3"
+   ],
+   [
+    326,
+    "Practice Question 4"
+   ],
+   [
+    369,
+    "Practice Question 5"
+   ],
+   [
+    413,
+    "Practice Question 6"
+   ],
+   [
+    456,
+    "Practice Question 7"
+   ]
+  ]
+ },
+ "X6Qz6OJZSf8": {
+  "course": "aif",
+  "key": "03-The-AI-ML-Lifecycle-MLOps-and-Metrics-part-1",
+  "title": "AWS AIF-C01 Exam Prep Module 3 Part 1 of 2: ML Lifecycle, Model Sources and AWS Services by Stage",
+  "seconds": 392,
+  "published": "2026-11-05T16:52:56Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Cedar and Salt Plans a Cancellation Model"
+   ],
+   [
+    77,
+    "The ML Lifecycle at a Glance"
+   ],
+   [
+    118,
+    "Business Goal and Problem Framing"
+   ],
+   [
+    153,
+    "Data Processing: Collect, Prepare and Engineer Features"
+   ],
+   [
+    188,
+    "Model Development: Train, Tune and Evaluate"
+   ],
+   [
+    224,
+    "Deployment and Monitoring"
+   ],
+   [
+    256,
+    "Where Models Come From"
+   ],
+   [
+    300,
+    "Ways to Use a Model in Production"
+   ],
+   [
+    343,
+    "AWS Services by Stage of the Pipeline"
+   ]
+  ]
+ },
+ "g1JoIRbSXlE": {
+  "course": "aif",
+  "key": "03-The-AI-ML-Lifecycle-MLOps-and-Metrics-part-2",
+  "title": "AWS AIF-C01 Exam Prep Module 3 Part 2 of 2: MLOps, Precision, Recall, F1 and Practice Questions",
+  "seconds": 576,
+  "published": "2026-11-05T16:53:16Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "MLOps: What and Why"
+   ],
+   [
+    37,
+    "MLOps on Amazon SageMaker AI"
+   ],
+   [
+    74,
+    "Model Performance Metrics"
+   ],
+   [
+    113,
+    "Precision or Recall?"
+   ],
+   [
+    147,
+    "Business Metrics for an ML Model"
+   ],
+   [
+    174,
+    "What the Exam Asks: The Lifecycle, MLOps and Metrics"
+   ],
+   [
+    218,
+    "Design Check: Cedar and Salt's Cancellation Model"
+   ],
+   [
+    295,
+    "Practice Question 1"
+   ],
+   [
+    336,
+    "Practice Question 2"
+   ],
+   [
+    381,
+    "Practice Question 3"
+   ],
+   [
+    422,
+    "Practice Question 4"
+   ],
+   [
+    466,
+    "Practice Question 5"
+   ],
+   [
+    509,
+    "Practice Question 6"
+   ]
+  ]
+ },
+ "5yMlid4FhEU": {
+  "course": "aif",
+  "key": "04-Generative-AI-Core-Concepts-part-1",
+  "title": "AWS AIF-C01 Exam Prep Module 4 Part 1 of 2: Tokens, Embeddings, Foundation Models and Pricing",
+  "seconds": 470,
+  "published": "2026-11-05T16:53:34Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Cedar and Salt Starts a GenAI Pilot"
+   ],
+   [
+    78,
+    "Foundation Models and Large Language Models"
+   ],
+   [
+    114,
+    "Transformers and Multi-Modal Models"
+   ],
+   [
+    150,
+    "Diffusion Models"
+   ],
+   [
+    180,
+    "Tokens"
+   ],
+   [
+    212,
+    "Embeddings and Vectors"
+   ],
+   [
+    246,
+    "Chunking and Vector Search"
+   ],
+   [
+    279,
+    "Prompt Engineering in One Slide"
+   ],
+   [
+    307,
+    "Use Cases for Generative AI"
+   ],
+   [
+    350,
+    "The Foundation Model Lifecycle"
+   ],
+   [
+    384,
+    "Token-Based Pricing"
+   ],
+   [
+    427,
+    "Context Engineering"
+   ]
+  ]
+ },
+ "76mIpjodvVY": {
+  "course": "aif",
+  "key": "04-Generative-AI-Core-Concepts-part-2",
+  "title": "AWS AIF-C01 Exam Prep Module 4 Part 2 of 2: AI Agents, MCP and Practice Questions | AI Practitioner",
+  "seconds": 546,
+  "published": "2026-11-05T16:53:59Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Agentic AI: Core Ideas"
+   ],
+   [
+    35,
+    "Multi-Agent Patterns"
+   ],
+   [
+    73,
+    "Model Context Protocol (MCP)"
+   ],
+   [
+    113,
+    "What the Exam Asks: GenAI Core Concepts"
+   ],
+   [
+    151,
+    "Design Check: Cedar and Salt's GenAI Vocabulary"
+   ],
+   [
+    231,
+    "Practice Question 1"
+   ],
+   [
+    269,
+    "Practice Question 2"
+   ],
+   [
+    312,
+    "Practice Question 3"
+   ],
+   [
+    356,
+    "Practice Question 4"
+   ],
+   [
+    392,
+    "Practice Question 5"
+   ],
+   [
+    432,
+    "Practice Question 6"
+   ],
+   [
+    472,
+    "Practice Question 7"
+   ]
+  ]
+ },
+ "yZ8NbsSeKxw": {
+  "course": "aif",
+  "key": "05-GenAI-Capabilities-Limits-and-Business-Value-part-1",
+  "title": "AWS AIF-C01 Exam Prep Module 5: GenAI Strengths, Hallucinations, Model Selection and ROI",
+  "seconds": 682,
+  "published": "2026-11-05T16:54:23Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Cedar and Salt Weighs Its Pilots"
+   ],
+   [
+    68,
+    "What Generative AI Does Well"
+   ],
+   [
+    104,
+    "Hallucinations"
+   ],
+   [
+    143,
+    "Other Limits: Nondeterminism, Interpretability and Inaccuracy"
+   ],
+   [
+    182,
+    "Factors for Choosing a Model"
+   ],
+   [
+    222,
+    "Quality, Cost and Speed Trade-Offs"
+   ],
+   [
+    255,
+    "Business Value and Metrics"
+   ],
+   [
+    296,
+    "Measuring Value Honestly"
+   ],
+   [
+    332,
+    "What the Exam Asks: Capabilities, Limits and Value"
+   ],
+   [
+    375,
+    "Design Check: Cedar and Salt's Pilot Review"
+   ],
+   [
+    452,
+    "Practice Question 1"
+   ],
+   [
+    490,
+    "Practice Question 2"
+   ],
+   [
+    535,
+    "Practice Question 3"
+   ],
+   [
+    574,
+    "Practice Question 4"
+   ],
+   [
+    619,
+    "Practice Question 5"
+   ]
+  ]
+ },
+ "jNp0SLR-_zA": {
+  "course": "aif",
+  "key": "06-AWS-Infrastructure-and-Services-for-GenAI-part-1",
+  "title": "AWS AIF-C01 Exam Prep Module 6 Part 1 of 2: Bedrock, SageMaker AI, Nova, AgentCore, Kiro, Quick",
+  "seconds": 417,
+  "published": "2026-11-05T16:54:36Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Cedar and Salt Picks Its AWS Tools"
+   ],
+   [
+    79,
+    "The AWS GenAI Services at a Glance"
+   ],
+   [
+    121,
+    "Amazon Bedrock: Foundation Models as a Service"
+   ],
+   [
+    157,
+    "What Bedrock Adds Around the Model"
+   ],
+   [
+    195,
+    "Amazon Nova"
+   ],
+   [
+    229,
+    "Amazon SageMaker AI and SageMaker JumpStart"
+   ],
+   [
+    264,
+    "Bedrock or SageMaker AI?"
+   ],
+   [
+    296,
+    "Amazon Quick, Kiro and AWS Transform"
+   ],
+   [
+    339,
+    "Strands Agents and Amazon Bedrock AgentCore"
+   ],
+   [
+    377,
+    "Advantages of Building GenAI on AWS"
+   ]
+  ]
+ },
+ "-9E2kTts-y8": {
+  "course": "aif",
+  "key": "06-AWS-Infrastructure-and-Services-for-GenAI-part-2",
+  "title": "AWS AIF-C01 Exam Prep Module 6 Part 2 of 2: AWS Infrastructure, GenAI Costs and Practice Questions",
+  "seconds": 550,
+  "published": "2026-11-05T16:55:03Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Benefits of AWS Infrastructure for GenAI"
+   ],
+   [
+    50,
+    "Cost Trade-Offs of AWS GenAI Services"
+   ],
+   [
+    102,
+    "What the Exam Asks: AWS Services for GenAI"
+   ],
+   [
+    138,
+    "Design Check: Cedar and Salt's AWS Stack"
+   ],
+   [
+    182,
+    "Try It: Compare Two Models in the Bedrock Playground (Optional)"
+   ],
+   [
+    260,
+    "Practice Question 1"
+   ],
+   [
+    305,
+    "Practice Question 2"
+   ],
+   [
+    350,
+    "Practice Question 3"
+   ],
+   [
+    394,
+    "Practice Question 4"
+   ],
+   [
+    437,
+    "Practice Question 5"
+   ],
+   [
+    481,
+    "Practice Question 6"
+   ]
+  ]
+ },
+ "WSofHmhEnMs": {
+  "course": "aif",
+  "key": "07-Designing-Applications-with-Foundation-Models-part-1",
+  "title": "AWS AIF-C01 Exam Prep Module 7 Part 1 of 2: Model Selection, Temperature, RAG and Vector Stores",
+  "seconds": 527,
+  "published": "2026-11-05T16:55:28Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Cedar and Salt Designs the Booking Assistant"
+   ],
+   [
+    80,
+    "Criteria for Choosing a Foundation Model"
+   ],
+   [
+    128,
+    "Reading the Criteria"
+   ],
+   [
+    167,
+    "Prompt Caching"
+   ],
+   [
+    217,
+    "Inference Parameters: Temperature, Top K and Top P"
+   ],
+   [
+    261,
+    "Length Parameters and Stop Sequences"
+   ],
+   [
+    303,
+    "Retrieval Augmented Generation (RAG)"
+   ],
+   [
+    344,
+    "Amazon Bedrock Knowledge Bases"
+   ],
+   [
+    389,
+    "Business Applications of RAG"
+   ],
+   [
+    423,
+    "Vector Databases: AWS Services That Store Embeddings"
+   ],
+   [
+    478,
+    "Choosing a Vector Store"
+   ]
+  ]
+ },
+ "1RLFB833rJg": {
+  "course": "aif",
+  "key": "07-Designing-Applications-with-Foundation-Models-part-2",
+  "title": "AWS AIF-C01 Exam Prep Module 7 Part 2 of 2: Customization Costs, AI Agents and Practice Questions",
+  "seconds": 642,
+  "published": "2026-11-05T16:55:46Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Customizing a Model: The Cost Ladder"
+   ],
+   [
+    44,
+    "Which Approach, and When?"
+   ],
+   [
+    92,
+    "AI Agents"
+   ],
+   [
+    141,
+    "Business Applications of AI Agents"
+   ],
+   [
+    178,
+    "What the Exam Asks: Designing with FMs"
+   ],
+   [
+    221,
+    "Design Check: Cedar and Salt's Assistant"
+   ],
+   [
+    306,
+    "Practice Question 1"
+   ],
+   [
+    349,
+    "Practice Question 2"
+   ],
+   [
+    394,
+    "Practice Question 3"
+   ],
+   [
+    438,
+    "Practice Question 4"
+   ],
+   [
+    482,
+    "Practice Question 5"
+   ],
+   [
+    529,
+    "Practice Question 6"
+   ],
+   [
+    571,
+    "Practice Question 7"
+   ]
+  ]
+ },
+ "21tsRhZRBH0": {
+  "course": "aif",
+  "key": "08-Prompt-Engineering-part-1",
+  "title": "AWS AIF-C01 Exam Prep Module 8 Part 1 of 2: Prompt Techniques, Best Practices and Prompt Attacks",
+  "seconds": 415,
+  "published": "2026-11-05T16:56:06Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Cedar and Salt Writes Better Prompts"
+   ],
+   [
+    81,
+    "Prompt Engineering: What and Why"
+   ],
+   [
+    118,
+    "The Parts of a Prompt"
+   ],
+   [
+    155,
+    "Zero-Shot, Single-Shot and Few-Shot Prompting"
+   ],
+   [
+    189,
+    "Chain-of-Thought and Other Techniques"
+   ],
+   [
+    219,
+    "Prompt Templates"
+   ],
+   [
+    256,
+    "Best Practices for Writing Prompts"
+   ],
+   [
+    298,
+    "Benefits of Prompt Engineering"
+   ],
+   [
+    329,
+    "Risks and Limitations of Prompt Engineering"
+   ],
+   [
+    375,
+    "Defending Against Prompt Attacks"
+   ]
+  ]
+ },
+ "0HWnXm0o32s": {
+  "course": "aif",
+  "key": "08-Prompt-Engineering-part-2",
+  "title": "AWS AIF-C01 Exam Prep Module 8 Part 2 of 2: Bedrock Prompt Management and Practice Questions",
+  "seconds": 497,
+  "published": "2026-11-05T16:56:20Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Amazon Bedrock Prompt Management"
+   ],
+   [
+    44,
+    "Prompt Versioning and Management Strategies"
+   ],
+   [
+    82,
+    "Try It: Build a Reusable Prompt (Optional)"
+   ],
+   [
+    119,
+    "What the Exam Asks: Prompt Engineering"
+   ],
+   [
+    159,
+    "Design Check: Cedar and Salt's Prompts"
+   ],
+   [
+    234,
+    "Practice Question 1"
+   ],
+   [
+    269,
+    "Practice Question 2"
+   ],
+   [
+    310,
+    "Practice Question 3"
+   ],
+   [
+    350,
+    "Practice Question 4"
+   ],
+   [
+    395,
+    "Practice Question 5"
+   ],
+   [
+    432,
+    "Practice Question 6"
+   ]
+  ]
+ },
+ "YqsHewvl-II": {
+  "course": "aif",
+  "key": "09-Training-and-Fine-Tuning-Foundation-Models-part-1",
+  "title": "AWS AIF-C01 Exam Prep Module 9: Fine-Tuning, Distillation, RLHF and Data Preparation",
+  "seconds": 799,
+  "published": "2026-11-05T16:56:58Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Cedar and Salt Considers Training"
+   ],
+   [
+    71,
+    "Training a Foundation Model: The Key Elements"
+   ],
+   [
+    114,
+    "The Ways to Adapt a Pre-Trained Model"
+   ],
+   [
+    150,
+    "Fine-Tuning and Instruction Tuning"
+   ],
+   [
+    191,
+    "Domain Adaptation and Continued Pre-Training"
+   ],
+   [
+    233,
+    "Transfer Learning and Distillation"
+   ],
+   [
+    273,
+    "Preparing Data to Fine-Tune"
+   ],
+   [
+    311,
+    "Fine-Tuning Data in Practice"
+   ],
+   [
+    352,
+    "Reinforcement Learning from Human Feedback (RLHF)"
+   ],
+   [
+    394,
+    "Which Method for Which Data?"
+   ],
+   [
+    430,
+    "What the Exam Asks: Training and Fine-Tuning"
+   ],
+   [
+    462,
+    "Design Check: Cedar and Salt's Training Plan"
+   ],
+   [
+    532,
+    "Practice Question 1"
+   ],
+   [
+    569,
+    "Practice Question 2"
+   ],
+   [
+    614,
+    "Practice Question 3"
+   ],
+   [
+    656,
+    "Practice Question 4"
+   ],
+   [
+    698,
+    "Practice Question 5"
+   ],
+   [
+    732,
+    "Practice Question 6"
+   ]
+  ]
+ },
+ "qUm-1yCrgbQ": {
+  "course": "aif",
+  "key": "10-Evaluating-Foundation-Models-part-1",
+  "title": "AWS AIF-C01 Exam Prep Module 10: ROUGE, BLEU, BERTScore, LLM-as-a-Judge and Human Review",
+  "seconds": 811,
+  "published": "2026-11-05T16:57:30Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Cedar and Salt Tests Before Launch"
+   ],
+   [
+    70,
+    "Why Evaluate, and with What Data"
+   ],
+   [
+    109,
+    "Benchmark Datasets and Built-In Tasks"
+   ],
+   [
+    155,
+    "Evaluation Approaches in Amazon Bedrock"
+   ],
+   [
+    190,
+    "ROUGE and BLEU"
+   ],
+   [
+    234,
+    "BERTScore"
+   ],
+   [
+    268,
+    "LLM-as-a-Judge"
+   ],
+   [
+    310,
+    "Human-in-the-Loop Evaluation"
+   ],
+   [
+    346,
+    "Evaluating RAG, Agents and Workflows"
+   ],
+   [
+    391,
+    "Do the Results Meet Business Objectives?"
+   ],
+   [
+    432,
+    "What the Exam Asks: Evaluation"
+   ],
+   [
+    468,
+    "Design Check: Cedar and Salt's Launch Review"
+   ],
+   [
+    540,
+    "Practice Question 1"
+   ],
+   [
+    579,
+    "Practice Question 2"
+   ],
+   [
+    621,
+    "Practice Question 3"
+   ],
+   [
+    662,
+    "Practice Question 4"
+   ],
+   [
+    704,
+    "Practice Question 5"
+   ],
+   [
+    744,
+    "Practice Question 6"
+   ]
+  ]
+ },
+ "_QCfM-MTjMM": {
+  "course": "aif",
+  "key": "11-Responsible-AI-part-1",
+  "title": "AWS AIF-C01 Exam Prep Module 11 Part 1 of 2: Responsible AI, Bias, Datasets and Bedrock Guardrails",
+  "seconds": 411,
+  "published": "2026-11-05T16:57:37Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Cedar and Salt Faces Questions of Trust"
+   ],
+   [
+    78,
+    "Features of Responsible AI"
+   ],
+   [
+    130,
+    "Bias and Its Effects"
+   ],
+   [
+    166,
+    "Characteristics of Responsible Datasets"
+   ],
+   [
+    201,
+    "Bias and Variance"
+   ],
+   [
+    241,
+    "Detecting and Monitoring Bias, Trust and Truthfulness"
+   ],
+   [
+    283,
+    "Amazon Bedrock Guardrails: The Safeguards"
+   ],
+   [
+    331,
+    "How Guardrails Works"
+   ],
+   [
+    371,
+    "Responsible Model Selection and Sustainability"
+   ]
+  ]
+ },
+ "S6SC5mjIIII": {
+  "course": "aif",
+  "key": "11-Responsible-AI-part-2",
+  "title": "AWS AIF-C01 Exam Prep Module 11 Part 2 of 2: Sustainable Model Choice, Legal Risks and Practice",
+  "seconds": 505,
+  "published": "2026-11-05T16:58:27Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Legal Risks of Generative AI"
+   ],
+   [
+    45,
+    "Veracity and Robustness"
+   ],
+   [
+    80,
+    "Responsible AI in Practice"
+   ],
+   [
+    125,
+    "What the Exam Asks: Responsible AI"
+   ],
+   [
+    163,
+    "Design Check: Cedar and Salt's Trust Review"
+   ],
+   [
+    242,
+    "Practice Question 1"
+   ],
+   [
+    283,
+    "Practice Question 2"
+   ],
+   [
+    324,
+    "Practice Question 3"
+   ],
+   [
+    366,
+    "Practice Question 4"
+   ],
+   [
+    407,
+    "Practice Question 5"
+   ],
+   [
+    444,
+    "Practice Question 6"
+   ]
+  ]
+ },
+ "wS_9F-9tj-U": {
+  "course": "aif",
+  "key": "12-Transparent-and-Explainable-Models-part-1",
+  "title": "AWS AIF-C01 Exam Prep Module 12: Transparent and Explainable Models, Model Cards | AI Practitioner",
+  "seconds": 605,
+  "published": "2026-11-05T16:58:20Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Cedar and Salt Must Explain Itself"
+   ],
+   [
+    79,
+    "Transparent, Explainable and Opaque Models"
+   ],
+   [
+    118,
+    "Amazon SageMaker Model Cards"
+   ],
+   [
+    162,
+    "AI Service Cards and Other Transparency Tools"
+   ],
+   [
+    201,
+    "Open Source Models, Data and Licensing"
+   ],
+   [
+    236,
+    "Trade-Offs: Safety, Transparency, Interpretability and Performance"
+   ],
+   [
+    276,
+    "Human-Centered Design for Explainable AI"
+   ],
+   [
+    312,
+    "What the Exam Asks: Transparency and Explainability"
+   ],
+   [
+    349,
+    "Design Check: Cedar and Salt Explains Itself"
+   ],
+   [
+    423,
+    "Practice Question 1"
+   ],
+   [
+    464,
+    "Practice Question 2"
+   ],
+   [
+    503,
+    "Practice Question 3"
+   ],
+   [
+    546,
+    "Practice Question 4"
+   ]
+  ]
+ },
+ "fZNIDB5dnVA": {
+  "course": "aif",
+  "key": "13-Securing-AI-Systems-part-1",
+  "title": "AWS AIF-C01 Exam Prep Module 13 Part 1 of 2: IAM, KMS, PrivateLink, Macie, AgentCore Identity",
+  "seconds": 391,
+  "published": "2026-11-05T16:58:32Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Cedar and Salt Hardens Its Assistant"
+   ],
+   [
+    78,
+    "Shared Responsibility and Data Protection"
+   ],
+   [
+    123,
+    "IAM: Roles, Policies and Permissions"
+   ],
+   [
+    158,
+    "Encryption: AWS KMS and TLS"
+   ],
+   [
+    201,
+    "Private Networks: Amazon VPC and AWS PrivateLink"
+   ],
+   [
+    239,
+    "Amazon Macie: Find Sensitive Data"
+   ],
+   [
+    273,
+    "Secrets Manager and CloudWatch"
+   ],
+   [
+    311,
+    "Securing Agents: AgentCore Identity and Policy"
+   ],
+   [
+    348,
+    "Source Citation and Documenting Data Origins"
+   ]
+  ]
+ },
+ "ZhXN5dk1iZ0": {
+  "course": "aif",
+  "key": "13-Securing-AI-Systems-part-2",
+  "title": "AWS AIF-C01 Exam Prep Module 13 Part 2 of 2: Data Origins, Privacy, Grounding and Practice Questions",
+  "seconds": 508,
+  "published": "2026-11-05T16:59:08Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Secure Data Engineering"
+   ],
+   [
+    38,
+    "Security and Privacy Considerations"
+   ],
+   [
+    89,
+    "Hallucination Detection and Grounding"
+   ],
+   [
+    129,
+    "What the Exam Asks: Securing AI Systems"
+   ],
+   [
+    171,
+    "Design Check: Cedar and Salt's Security Review"
+   ],
+   [
+    254,
+    "Practice Question 1"
+   ],
+   [
+    292,
+    "Practice Question 2"
+   ],
+   [
+    331,
+    "Practice Question 3"
+   ],
+   [
+    373,
+    "Practice Question 4"
+   ],
+   [
+    412,
+    "Practice Question 5"
+   ],
+   [
+    448,
+    "Practice Question 6"
+   ]
+  ]
+ },
+ "xUIN1hVJIXU": {
+  "course": "aif",
+  "key": "14-Governance-and-Compliance-for-AI-part-1",
+  "title": "AWS AIF-C01 Exam Prep Module 14: Config, Inspector, Artifact, CloudTrail, Scoping Matrix",
+  "seconds": 742,
+  "published": "2026-11-05T16:59:18Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Cedar and Salt Meets the Auditors"
+   ],
+   [
+    76,
+    "The Regulatory Landscape and AWS Compliance"
+   ],
+   [
+    128,
+    "AWS Config and Amazon Inspector"
+   ],
+   [
+    170,
+    "AWS Artifact, AWS CloudTrail and AWS Trusted Advisor"
+   ],
+   [
+    216,
+    "Data Governance Strategies"
+   ],
+   [
+    253,
+    "AWS Services for Data Governance"
+   ],
+   [
+    303,
+    "Governance Processes"
+   ],
+   [
+    342,
+    "The Generative AI Security Scoping Matrix"
+   ],
+   [
+    384,
+    "What the Exam Asks: Governance and Compliance"
+   ],
+   [
+    427,
+    "Design Check: Cedar and Salt Meets the Auditors"
+   ],
+   [
+    511,
+    "Practice Question 1"
+   ],
+   [
+    553,
+    "Practice Question 2"
+   ],
+   [
+    596,
+    "Practice Question 3"
+   ],
+   [
+    645,
+    "Practice Question 4"
+   ],
+   [
+    683,
+    "Practice Question 5"
+   ]
+  ]
+ },
+ "Ly7tTk3GINw": {
+  "course": "aif",
+  "key": "15-Quick-Reference-Recap-and-Service-Chooser-part-1",
+  "title": "AWS AIF-C01 Exam Prep Module 15: Quick Reference Recap and Service Chooser | AWS AI Practitioner",
+  "seconds": 592,
+  "published": "2026-11-05T16:59:46Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Cedar and Salt's Final Review"
+   ],
+   [
+    71,
+    "The Exam on One Page"
+   ],
+   [
+    120,
+    "Look-Alikes: AI and ML Concepts"
+   ],
+   [
+    166,
+    "Look-Alikes: AWS AI Services"
+   ],
+   [
+    215,
+    "Look-Alikes: GenAI Platforms and Tools"
+   ],
+   [
+    268,
+    "Look-Alikes: Customizing and Evaluating Models"
+   ],
+   [
+    321,
+    "Look-Alikes: Responsible AI, Security and Governance"
+   ],
+   [
+    376,
+    "Service Chooser: Building AI Applications"
+   ],
+   [
+    415,
+    "Service Chooser: Safe, Secure and Compliant"
+   ],
+   [
+    461,
+    "Lists the Exam Likes"
+   ],
+   [
+    509,
+    "Terms That Trip People Up"
+   ]
+  ]
+ },
+ "SDME6p27Yhs": {
+  "course": "aif",
+  "key": "16-Exam-Technique-and-Final-Review-part-1",
+  "title": "AWS AIF-C01 Exam Prep Module 16 Part 1 of 2: Exam Technique, Pacing and Question Types",
+  "seconds": 407,
+  "published": "2026-11-05T17:00:01Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Cedar and Salt's Mock Exam"
+   ],
+   [
+    68,
+    "The Exam Clock"
+   ],
+   [
+    104,
+    "Read for the Requirement"
+   ],
+   [
+    143,
+    "A Four-Step Answer Method"
+   ],
+   [
+    173,
+    "Eliminating Distractors"
+   ],
+   [
+    207,
+    "Multiple-Response Questions"
+   ],
+   [
+    236,
+    "Ordering and Matching Questions"
+   ],
+   [
+    273,
+    "Qualifier Words Steer the Answer"
+   ],
+   [
+    320,
+    "Generative AI Question Shortcuts"
+   ],
+   [
+    366,
+    "When You Are Unsure"
+   ]
+  ]
+ },
+ "CuKpHWmUdwQ": {
+  "course": "aif",
+  "key": "16-Exam-Technique-and-Final-Review-part-2",
+  "title": "AWS AIF-C01 Exam Prep Module 16 Part 2 of 2: Final Week, Exam Day and Practice Questions",
+  "seconds": 418,
+  "published": "2026-11-05T17:00:23Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Your Final Week"
+   ],
+   [
+    38,
+    "Exam Day and Afterwards"
+   ],
+   [
+    88,
+    "Design Check: Cedar and Salt's Mock Exam"
+   ],
+   [
+    169,
+    "Practice Question 1"
+   ],
+   [
+    216,
+    "Practice Question 2"
+   ],
+   [
+    260,
+    "Practice Question 3"
+   ],
+   [
+    302,
+    "Practice Question 4"
+   ],
+   [
+    342,
+    "Practice Question 5"
+   ]
+  ]
+ },
+ "QZcI8holsSw": {
+  "course": "saa",
+  "key": "00-Course-Introduction-part-1",
+  "title": "AWS SAA-C03 Exam Prep Introduction: Exam Format, Domains and How to Study | AWS Solutions Architect",
+  "seconds": 439,
+  "published": "2026-11-06T04:47:12Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Meet Lantern and Loom"
+   ],
+   [
+    80,
+    "The Exam at a Glance"
+   ],
+   [
+    115,
+    "Question Types and Scoring"
+   ],
+   [
+    154,
+    "Booking, Taking and Keeping the Credential"
+   ],
+   [
+    203,
+    "The Exam Guide Is Your Scope"
+   ],
+   [
+    241,
+    "Four Domains, Fourteen Task Statements"
+   ],
+   [
+    277,
+    "Who the Exam Is For"
+   ],
+   [
+    324,
+    "How This Course Works"
+   ],
+   [
+    356,
+    "Independent Course, Official Sources"
+   ],
+   [
+    396,
+    "Your Study Plan and Ground Rules"
+   ]
+  ]
+ },
+ "zBJ1xkzDpIQ": {
+  "course": "saa",
+  "key": "01-Secure-Access-to-AWS-Resources-part-1",
+  "title": "AWS SAA-C03 Exam Prep Module 1 Part 1 of 2: IAM Users, Roles, Policies, Federation and Directories",
+  "seconds": 688,
+  "published": "2026-11-06T04:47:39Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Lantern and Loom Opens the Doors"
+   ],
+   [
+    92,
+    "The Shared Responsibility Model"
+   ],
+   [
+    145,
+    "Regions and Availability Zones"
+   ],
+   [
+    193,
+    "Protect the Root User"
+   ],
+   [
+    243,
+    "IAM Users, Groups and Roles"
+   ],
+   [
+    291,
+    "IAM Policy Types"
+   ],
+   [
+    333,
+    "Policy Evaluation: An Explicit Deny Always Wins"
+   ],
+   [
+    380,
+    "Least Privilege and IAM Best Practices"
+   ],
+   [
+    427,
+    "IAM Roles and Temporary Credentials with AWS STS"
+   ],
+   [
+    474,
+    "Cross-Account Access with Roles"
+   ],
+   [
+    520,
+    "Resource-Based Policy or Role?"
+   ],
+   [
+    565,
+    "Federation with IAM Identity Center"
+   ],
+   [
+    620,
+    "AWS Directory Service Options"
+   ]
+  ]
+ },
+ "5nhy71xdH3M": {
+  "course": "saa",
+  "key": "01-Secure-Access-to-AWS-Resources-part-2",
+  "title": "AWS SAA-C03 Exam Prep Module 1 Part 2 of 2: Organizations, SCPs, Control Tower and Practice",
+  "seconds": 759,
+  "published": "2026-11-06T04:48:40Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Multiple Accounts with AWS Organizations"
+   ],
+   [
+    43,
+    "Service Control Policies: Guardrails, Not Grants"
+   ],
+   [
+    91,
+    "AWS Control Tower and AWS RAM"
+   ],
+   [
+    142,
+    "What the Exam Asks: Secure Access"
+   ],
+   [
+    179,
+    "Design Check: Lantern and Loom Opens the Doors"
+   ],
+   [
+    274,
+    "Practice Question 1"
+   ],
+   [
+    316,
+    "Practice Question 2"
+   ],
+   [
+    363,
+    "Practice Question 3"
+   ],
+   [
+    407,
+    "Practice Question 4"
+   ],
+   [
+    450,
+    "Practice Question 5"
+   ],
+   [
+    500,
+    "Practice Question 6"
+   ],
+   [
+    552,
+    "Practice Question 7"
+   ],
+   [
+    592,
+    "Practice Question 8"
+   ],
+   [
+    638,
+    "Practice Question 9"
+   ],
+   [
+    687,
+    "Practice Question 10"
+   ]
+  ]
+ },
+ "BhQXr8T6Nes": {
+  "course": "saa",
+  "key": "02-Secure-Workloads-and-Applications-part-1",
+  "title": "AWS SAA-C03 Exam Prep Module 2 Part 1 of 3: VPC Security, Security Groups, NACLs and Endpoints",
+  "seconds": 445,
+  "published": "2026-11-06T04:48:28Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Lantern and Loom Locks the Shop"
+   ],
+   [
+    92,
+    "Threats and Defense in Depth"
+   ],
+   [
+    139,
+    "A Secure VPC Layout"
+   ],
+   [
+    176,
+    "Subnet Types and Route Tables"
+   ],
+   [
+    220,
+    "Security Groups"
+   ],
+   [
+    265,
+    "Network ACLs"
+   ],
+   [
+    305,
+    "Security Group or Network ACL?"
+   ],
+   [
+    351,
+    "NAT Gateways and Outbound-Only Access"
+   ],
+   [
+    398,
+    "VPC Endpoints: Private Paths to AWS Services"
+   ]
+  ]
+ },
+ "6RRuMEEc5Cs": {
+  "course": "saa",
+  "key": "02-Secure-Workloads-and-Applications-part-2",
+  "title": "AWS SAA-C03 Exam Prep Module 2 Part 2 of 3: WAF, Shield, GuardDuty, Secrets Manager and Cognito",
+  "seconds": 498,
+  "published": "2026-11-06T04:48:42Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Edge Protection with AWS WAF"
+   ],
+   [
+    49,
+    "DDoS Protection with AWS Shield"
+   ],
+   [
+    96,
+    "AWS Firewall Manager and AWS Network Firewall"
+   ],
+   [
+    144,
+    "Threat Detection: GuardDuty, Inspector, Detective and Security Hub"
+   ],
+   [
+    194,
+    "Application Credentials: Secrets Manager and Parameter Store"
+   ],
+   [
+    242,
+    "Amazon Cognito for Application Users"
+   ],
+   [
+    297,
+    "Choosing the Sign-In Service"
+   ],
+   [
+    339,
+    "Site-to-Site VPN and Client VPN"
+   ],
+   [
+    380,
+    "AWS Direct Connect"
+   ],
+   [
+    425,
+    "Choosing an External Connection"
+   ],
+   [
+    458,
+    "What the Exam Asks: Secure Workloads"
+   ]
+  ]
+ },
+ "b7F5F2w7YJM": {
+  "course": "saa",
+  "key": "02-Secure-Workloads-and-Applications-part-3",
+  "title": "AWS SAA-C03 Exam Prep Module 2 Part 3 of 3: Design Check, Recap and Practice Questions | AWS SAA",
+  "seconds": 578,
+  "published": "2026-11-06T04:49:05Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Design Check: Lantern and Loom Locks the Shop"
+   ],
+   [
+    94,
+    "Practice Question 1"
+   ],
+   [
+    137,
+    "Practice Question 2"
+   ],
+   [
+    184,
+    "Practice Question 3"
+   ],
+   [
+    229,
+    "Practice Question 4"
+   ],
+   [
+    278,
+    "Practice Question 5"
+   ],
+   [
+    325,
+    "Practice Question 6"
+   ],
+   [
+    372,
+    "Practice Question 7"
+   ],
+   [
+    417,
+    "Practice Question 8"
+   ],
+   [
+    464,
+    "Practice Question 9"
+   ],
+   [
+    508,
+    "Practice Question 10"
+   ]
+  ]
+ },
+ "EoN6ydrsMxA": {
+  "course": "saa",
+  "key": "03-Data-Security-Controls-part-1",
+  "title": "AWS SAA-C03 Exam Prep Module 3 Part 1 of 2: KMS, Encryption at Rest and in Transit, Key Policies",
+  "seconds": 523,
+  "published": "2026-11-06T04:49:23Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Lantern and Loom Protects the Ledger"
+   ],
+   [
+    79,
+    "The Data Protection Cycle"
+   ],
+   [
+    120,
+    "AWS KMS Key Types"
+   ],
+   [
+    172,
+    "Envelope Encryption and Key Policies"
+   ],
+   [
+    223,
+    "Key Rotation and Multi-Region Keys"
+   ],
+   [
+    271,
+    "AWS KMS or AWS CloudHSM?"
+   ],
+   [
+    319,
+    "Encrypting Data at Rest"
+   ],
+   [
+    382,
+    "Encrypting Data in Transit with ACM"
+   ],
+   [
+    435,
+    "Keeping S3 Data Private"
+   ],
+   [
+    478,
+    "Access Policies for Data"
+   ]
+  ]
+ },
+ "C8-imSZTzxs": {
+  "course": "saa",
+  "key": "03-Data-Security-Controls-part-2",
+  "title": "AWS SAA-C03 Exam Prep Module 3 Part 2 of 2: Backup, Retention, Macie, CloudTrail and Practice",
+  "seconds": 765,
+  "published": "2026-11-06T04:49:51Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Retention and Recovery in S3"
+   ],
+   [
+    51,
+    "Backups with AWS Backup"
+   ],
+   [
+    99,
+    "Discovering Sensitive Data with Amazon Macie"
+   ],
+   [
+    137,
+    "Auditing and Compliance: CloudTrail, Config and Artifact"
+   ],
+   [
+    189,
+    "Data Lifecycle Policies"
+   ],
+   [
+    236,
+    "What the Exam Asks: Data Security"
+   ],
+   [
+    278,
+    "Design Check: Lantern and Loom Protects the Ledger"
+   ],
+   [
+    374,
+    "Practice Question 1"
+   ],
+   [
+    422,
+    "Practice Question 2"
+   ],
+   [
+    469,
+    "Practice Question 3"
+   ],
+   [
+    515,
+    "Practice Question 4"
+   ],
+   [
+    558,
+    "Practice Question 5"
+   ],
+   [
+    602,
+    "Practice Question 6"
+   ],
+   [
+    646,
+    "Practice Question 7"
+   ],
+   [
+    691,
+    "Practice Question 8"
+   ]
+  ]
+ },
+ "g6uG0mepPRQ": {
+  "course": "saa",
+  "key": "04-Scalable-and-Loosely-Coupled-Architectures-part-1",
+  "title": "AWS SAA-C03 Exam Prep Module 4 Part 1 of 3: Stateless Design, Load Balancers, Caching, Read Replicas",
+  "seconds": 433,
+  "published": "2026-11-06T04:50:04Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Lantern and Loom Meets the Holiday Rush"
+   ],
+   [
+    82,
+    "Tight and Loose Coupling"
+   ],
+   [
+    126,
+    "Stateless and Stateful Workloads"
+   ],
+   [
+    165,
+    "Scaling Up and Scaling Out"
+   ],
+   [
+    210,
+    "Multi-Tier Architectures"
+   ],
+   [
+    245,
+    "Choosing a Load Balancer"
+   ],
+   [
+    298,
+    "Application Load Balancer Routing"
+   ],
+   [
+    344,
+    "Caching Strategies"
+   ],
+   [
+    391,
+    "Read Replicas and Data-Tier Scaling"
+   ]
+  ]
+ },
+ "vv-QXuambIY": {
+  "course": "saa",
+  "key": "04-Scalable-and-Loosely-Coupled-Architectures-part-2",
+  "title": "AWS SAA-C03 Exam Prep Module 4 Part 2 of 3: SQS, SNS, EventBridge, Lambda, ECS, EKS and API Gateway",
+  "seconds": 498,
+  "published": "2026-11-06T04:50:24Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Amazon SQS Queues"
+   ],
+   [
+    47,
+    "Amazon SNS Publish and Subscribe"
+   ],
+   [
+    89,
+    "Fan-Out with SNS and SQS"
+   ],
+   [
+    124,
+    "Amazon EventBridge"
+   ],
+   [
+    170,
+    "Amazon MQ"
+   ],
+   [
+    210,
+    "Choosing a Messaging Service"
+   ],
+   [
+    249,
+    "AWS Step Functions Workflows"
+   ],
+   [
+    292,
+    "AWS Lambda and Serverless Patterns"
+   ],
+   [
+    344,
+    "Containers: ECS, EKS and Fargate"
+   ],
+   [
+    403,
+    "Amazon API Gateway"
+   ],
+   [
+    446,
+    "Purpose-Built Managed Services"
+   ]
+  ]
+ },
+ "5RyUR7Gl1S0": {
+  "course": "saa",
+  "key": "04-Scalable-and-Loosely-Coupled-Architectures-part-3",
+  "title": "AWS SAA-C03 Exam Prep Module 4 Part 3 of 3: Event-Driven Patterns, Design Check and Practice",
+  "seconds": 669,
+  "published": "2026-11-06T04:52:13Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "An Event-Driven Microservice Pattern"
+   ],
+   [
+    37,
+    "Lambda, Fargate or EC2?"
+   ],
+   [
+    76,
+    "What the Exam Asks: Scalable and Loosely Coupled"
+   ],
+   [
+    116,
+    "Design Check: Lantern and Loom Meets the Holiday Rush"
+   ],
+   [
+    205,
+    "Practice Question 1"
+   ],
+   [
+    246,
+    "Practice Question 2"
+   ],
+   [
+    290,
+    "Practice Question 3"
+   ],
+   [
+    333,
+    "Practice Question 4"
+   ],
+   [
+    382,
+    "Practice Question 5"
+   ],
+   [
+    423,
+    "Practice Question 6"
+   ],
+   [
+    468,
+    "Practice Question 7"
+   ],
+   [
+    514,
+    "Practice Question 8"
+   ],
+   [
+    557,
+    "Practice Question 9"
+   ],
+   [
+    600,
+    "Practice Question 10"
+   ]
+  ]
+ },
+ "khFNMUgASxs": {
+  "course": "saa",
+  "key": "05-Highly-Available-and-Fault-Tolerant-Architectures-part-1",
+  "title": "AWS SAA-C03 Exam Prep Module 5 Part 1 of 3: Multi-AZ, Failure Domains, Route 53 and Resilient Data",
+  "seconds": 466,
+  "published": "2026-11-06T04:51:07Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Lantern and Loom Survives a Bad Day"
+   ],
+   [
+    82,
+    "High Availability, Fault Tolerance and Resilience"
+   ],
+   [
+    127,
+    "Removing Single Points of Failure"
+   ],
+   [
+    169,
+    "Multi-AZ or Multi-Region?"
+   ],
+   [
+    211,
+    "Failover Patterns and Health Checks"
+   ],
+   [
+    256,
+    "Amazon Route 53 Routing Policies"
+   ],
+   [
+    297,
+    "Route 53 Health Checks and DNS Failover"
+   ],
+   [
+    339,
+    "Database High Availability"
+   ],
+   [
+    384,
+    "Amazon RDS Proxy"
+   ],
+   [
+    421,
+    "Storage Durability and Availability"
+   ]
+  ]
+ },
+ "PczA8tf8lcY": {
+  "course": "saa",
+  "key": "05-Highly-Available-and-Fault-Tolerant-Architectures-part-2",
+  "title": "AWS SAA-C03 Exam Prep Module 5 Part 2 of 3: Disaster Recovery, RTO, RPO, Quotas and Automation",
+  "seconds": 530,
+  "published": "2026-11-06T04:51:38Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "RPO and RTO"
+   ],
+   [
+    39,
+    "Four Disaster Recovery Strategies"
+   ],
+   [
+    79,
+    "Comparing the Strategies"
+   ],
+   [
+    120,
+    "Building the Recovery Region"
+   ],
+   [
+    163,
+    "Service Quotas and Throttling"
+   ],
+   [
+    201,
+    "Automation and Immutable Infrastructure"
+   ],
+   [
+    247,
+    "Systems Manager, Service Catalog, Proton and the Well-Architected Tool"
+   ],
+   [
+    296,
+    "Workload Visibility: X-Ray, Health and Grafana"
+   ],
+   [
+    339,
+    "Improving Reliability of Legacy Applications"
+   ],
+   [
+    390,
+    "Purpose-Built AWS AI Services"
+   ],
+   [
+    439,
+    "What the Exam Asks: High Availability and Recovery"
+   ],
+   [
+    479,
+    "Design Check: Lantern and Loom Survives a Bad Day"
+   ]
+  ]
+ },
+ "t9m5W0pilfM": {
+  "course": "saa",
+  "key": "05-Highly-Available-and-Fault-Tolerant-Architectures-part-3",
+  "title": "AWS SAA-C03 Exam Prep Module 5 Part 3 of 3: Recap and Practice Questions | AWS Solutions Architect",
+  "seconds": 502,
+  "published": "2026-11-06T04:51:49Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Practice Question 1"
+   ],
+   [
+    75,
+    "Practice Question 2"
+   ],
+   [
+    124,
+    "Practice Question 3"
+   ],
+   [
+    170,
+    "Practice Question 4"
+   ],
+   [
+    216,
+    "Practice Question 5"
+   ],
+   [
+    264,
+    "Practice Question 6"
+   ],
+   [
+    304,
+    "Practice Question 7"
+   ],
+   [
+    349,
+    "Practice Question 8"
+   ],
+   [
+    392,
+    "Practice Question 9"
+   ],
+   [
+    437,
+    "Practice Question 10"
+   ]
+  ]
+ },
+ "REyHK-GlW0I": {
+  "course": "saa",
+  "key": "06-High-Performing-Storage-part-1",
+  "title": "AWS SAA-C03 Exam Prep Module 6: S3, EBS, EFS, FSx and Storage Gateway Performance | AWS SAA",
+  "seconds": 759,
+  "published": "2026-11-06T04:52:19Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Lantern and Loom Speeds Up Storage"
+   ],
+   [
+    71,
+    "Block, File and Object Storage"
+   ],
+   [
+    116,
+    "Amazon EBS Volume Types"
+   ],
+   [
+    172,
+    "EBS Features and Instance Store"
+   ],
+   [
+    209,
+    "Amazon EFS"
+   ],
+   [
+    253,
+    "Amazon FSx File Systems"
+   ],
+   [
+    298,
+    "Amazon S3 Performance"
+   ],
+   [
+    349,
+    "Hybrid Storage with AWS Storage Gateway"
+   ],
+   [
+    391,
+    "Choosing Storage"
+   ],
+   [
+    428,
+    "What the Exam Asks: High-Performing Storage"
+   ],
+   [
+    461,
+    "Design Check: Lantern and Loom Speeds Up Storage"
+   ],
+   [
+    534,
+    "Practice Question 1"
+   ],
+   [
+    578,
+    "Practice Question 2"
+   ],
+   [
+    620,
+    "Practice Question 3"
+   ],
+   [
+    660,
+    "Practice Question 4"
+   ],
+   [
+    700,
+    "Practice Question 5"
+   ]
+  ]
+ },
+ "_wAiRjTmDqc": {
+  "course": "saa",
+  "key": "07-High-Performing-and-Elastic-Compute-part-1",
+  "title": "AWS SAA-C03 Exam Prep Module 7 Part 1 of 2: EC2 Instance Types, Auto Scaling, Lambda and Containers",
+  "seconds": 397,
+  "published": "2026-11-06T04:52:39Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Lantern and Loom Handles the Peaks"
+   ],
+   [
+    72,
+    "EC2 Instance Families"
+   ],
+   [
+    125,
+    "Right-Sizing and Placement Groups"
+   ],
+   [
+    169,
+    "EC2 Auto Scaling Groups"
+   ],
+   [
+    211,
+    "Scaling Policies"
+   ],
+   [
+    257,
+    "Metrics and Conditions for Scaling"
+   ],
+   [
+    302,
+    "Application Auto Scaling and Scaling Plans"
+   ],
+   [
+    341,
+    "Serverless and Container Compute"
+   ]
+  ]
+ },
+ "v-y7FEadTvk": {
+  "course": "saa",
+  "key": "07-High-Performing-and-Elastic-Compute-part-2",
+  "title": "AWS SAA-C03 Exam Prep Module 7 Part 2 of 2: AWS Batch, EMR, Decoupling and Practice Questions",
+  "seconds": 447,
+  "published": "2026-11-06T04:52:56Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "AWS Batch and Amazon EMR"
+   ],
+   [
+    41,
+    "Decoupling and Distributed Compute"
+   ],
+   [
+    81,
+    "Choosing Compute"
+   ],
+   [
+    120,
+    "What the Exam Asks: High-Performing Compute"
+   ],
+   [
+    148,
+    "Design Check: Lantern and Loom Handles the Peaks"
+   ],
+   [
+    218,
+    "Practice Question 1"
+   ],
+   [
+    259,
+    "Practice Question 2"
+   ],
+   [
+    299,
+    "Practice Question 3"
+   ],
+   [
+    340,
+    "Practice Question 4"
+   ],
+   [
+    385,
+    "Practice Question 5"
+   ]
+  ]
+ },
+ "hJB71zcU3XI": {
+  "course": "saa",
+  "key": "08-High-Performing-Databases-part-1",
+  "title": "AWS SAA-C03 Exam Prep Module 8 Part 1 of 2: RDS, Aurora, DynamoDB, ElastiCache and Database Types",
+  "seconds": 460,
+  "published": "2026-11-06T04:53:09Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Lantern and Loom Chooses Databases"
+   ],
+   [
+    78,
+    "Database Types and Access Patterns"
+   ],
+   [
+    131,
+    "Amazon RDS Engines and Capacity"
+   ],
+   [
+    182,
+    "Amazon Aurora"
+   ],
+   [
+    229,
+    "Aurora Serverless"
+   ],
+   [
+    280,
+    "Read Replicas, Endpoints and Connections"
+   ],
+   [
+    320,
+    "Amazon DynamoDB"
+   ],
+   [
+    367,
+    "Caching with ElastiCache, DAX and MemoryDB"
+   ],
+   [
+    416,
+    "Purpose-Built Databases"
+   ]
+  ]
+ },
+ "NNMU0wxza_Q": {
+  "course": "saa",
+  "key": "08-High-Performing-Databases-part-2",
+  "title": "AWS SAA-C03 Exam Prep Module 8 Part 2 of 2: Database Migration, Choosing a Database and Practice",
+  "seconds": 458,
+  "published": "2026-11-06T04:53:30Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Migrating Databases"
+   ],
+   [
+    48,
+    "Choosing a Database"
+   ],
+   [
+    81,
+    "What the Exam Asks: High-Performing Databases"
+   ],
+   [
+    114,
+    "Design Check: Lantern and Loom Chooses Databases"
+   ],
+   [
+    188,
+    "Practice Question 1"
+   ],
+   [
+    230,
+    "Practice Question 2"
+   ],
+   [
+    270,
+    "Practice Question 3"
+   ],
+   [
+    315,
+    "Practice Question 4"
+   ],
+   [
+    355,
+    "Practice Question 5"
+   ],
+   [
+    401,
+    "Practice Question 6"
+   ]
+  ]
+ },
+ "C6OZozGYh6E": {
+  "course": "saa",
+  "key": "09-High-Performing-Network-Architectures-part-1",
+  "title": "AWS SAA-C03 Exam Prep Module 9 Part 1 of 2: CIDR Planning, CloudFront and Global Accelerator",
+  "seconds": 429,
+  "published": "2026-11-06T04:53:49Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Lantern and Loom Goes Global"
+   ],
+   [
+    76,
+    "IP Addressing and CIDR Planning"
+   ],
+   [
+    128,
+    "Placing Resources"
+   ],
+   [
+    170,
+    "Amazon CloudFront"
+   ],
+   [
+    214,
+    "CloudFront Origins and Private Content"
+   ],
+   [
+    254,
+    "Edge Compute: CloudFront Functions and Lambda@Edge"
+   ],
+   [
+    293,
+    "AWS Global Accelerator"
+   ],
+   [
+    339,
+    "CloudFront or Global Accelerator?"
+   ],
+   [
+    381,
+    "Connecting VPCs: Peering, Transit Gateway and PrivateLink"
+   ]
+  ]
+ },
+ "e51KGLHgHTE": {
+  "course": "saa",
+  "key": "09-High-Performing-Network-Architectures-part-2",
+  "title": "AWS SAA-C03 Exam Prep Module 9 Part 2 of 2: Peering, Transit Gateway, PrivateLink, Load Balancing",
+  "seconds": 425,
+  "published": "2026-11-06T04:54:07Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Hybrid and Multi-Region Topologies"
+   ],
+   [
+    42,
+    "Load Balancing Strategy"
+   ],
+   [
+    87,
+    "What the Exam Asks: High-Performing Networks"
+   ],
+   [
+    120,
+    "Design Check: Lantern and Loom Goes Global"
+   ],
+   [
+    197,
+    "Practice Question 1"
+   ],
+   [
+    239,
+    "Practice Question 2"
+   ],
+   [
+    281,
+    "Practice Question 3"
+   ],
+   [
+    326,
+    "Practice Question 4"
+   ],
+   [
+    368,
+    "Practice Question 5"
+   ]
+  ]
+ },
+ "cQdB-TMfKcY": {
+  "course": "saa",
+  "key": "10-Data-Ingestion-and-Transformation-part-1",
+  "title": "AWS SAA-C03 Exam Prep Module 10 Part 1 of 2: Kinesis, Firehose, Glue and Data Lakes | AWS SAA",
+  "seconds": 410,
+  "published": "2026-11-06T04:54:22Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Lantern and Loom Learns from Its Data"
+   ],
+   [
+    85,
+    "Data Ingestion Patterns"
+   ],
+   [
+    129,
+    "Amazon Kinesis Data Streams"
+   ],
+   [
+    172,
+    "Amazon Data Firehose and Managed Service for Apache Flink"
+   ],
+   [
+    215,
+    "A Streaming Architecture"
+   ],
+   [
+    247,
+    "Amazon MSK and Kinesis Video Streams"
+   ],
+   [
+    290,
+    "AWS Glue: Catalog, Crawlers and ETL"
+   ],
+   [
+    328,
+    "Building a Data Lake"
+   ],
+   [
+    364,
+    "Securing a Data Lake with Lake Formation"
+   ]
+  ]
+ },
+ "y0iHEP6eXlI": {
+  "course": "saa",
+  "key": "10-Data-Ingestion-and-Transformation-part-2",
+  "title": "AWS SAA-C03 Exam Prep Module 10 Part 2 of 2: Athena, Quick, DataSync and Practice Questions",
+  "seconds": 483,
+  "published": "2026-11-06T04:54:39Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Querying and Visualizing Data"
+   ],
+   [
+    44,
+    "Data Transfer and Integration Services"
+   ],
+   [
+    102,
+    "Choosing Ingestion and Analytics Services"
+   ],
+   [
+    140,
+    "What the Exam Asks: Ingestion and Transformation"
+   ],
+   [
+    175,
+    "Design Check: Lantern and Loom Learns from Its Data"
+   ],
+   [
+    250,
+    "Practice Question 1"
+   ],
+   [
+    295,
+    "Practice Question 2"
+   ],
+   [
+    334,
+    "Practice Question 3"
+   ],
+   [
+    374,
+    "Practice Question 4"
+   ],
+   [
+    417,
+    "Practice Question 5"
+   ]
+  ]
+ },
+ "tanG-a3WGKM": {
+  "course": "saa",
+  "key": "11-Cost-Optimized-Storage-part-1",
+  "title": "AWS SAA-C03 Exam Prep Module 11 Part 1 of 2: Cost Explorer, Budgets, S3 Classes and Lifecycle",
+  "seconds": 399,
+  "published": "2026-11-06T04:54:59Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Lantern and Loom Trims the Storage Bill"
+   ],
+   [
+    82,
+    "Cost Management Tools"
+   ],
+   [
+    128,
+    "Tags, Accounts and Consolidated Billing"
+   ],
+   [
+    171,
+    "S3 Storage Classes"
+   ],
+   [
+    220,
+    "S3 Intelligent-Tiering and Lifecycle Rules"
+   ],
+   [
+    265,
+    "S3 Glacier Retrieval and Archiving"
+   ],
+   [
+    310,
+    "S3 Cost Levers"
+   ],
+   [
+    354,
+    "Block Storage Cost: EBS"
+   ]
+  ]
+ },
+ "jglmhMB5KAg": {
+  "course": "saa",
+  "key": "11-Cost-Optimized-Storage-part-2",
+  "title": "AWS SAA-C03 Exam Prep Module 11 Part 2 of 2: EBS and EFS Cost, Backup, Transfer and Practice",
+  "seconds": 532,
+  "published": "2026-11-06T04:55:11Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "File Storage Cost: EFS and FSx"
+   ],
+   [
+    48,
+    "Backup and Archival Strategy"
+   ],
+   [
+    90,
+    "Moving Data into AWS at Low Cost"
+   ],
+   [
+    148,
+    "Choosing the Cheapest Storage"
+   ],
+   [
+    190,
+    "What the Exam Asks: Cost-Optimized Storage"
+   ],
+   [
+    221,
+    "Design Check: Lantern and Loom Trims the Storage Bill"
+   ],
+   [
+    303,
+    "Practice Question 1"
+   ],
+   [
+    348,
+    "Practice Question 2"
+   ],
+   [
+    391,
+    "Practice Question 3"
+   ],
+   [
+    436,
+    "Practice Question 4"
+   ],
+   [
+    476,
+    "Practice Question 5"
+   ]
+  ]
+ },
+ "uKOaFYWwjpw": {
+  "course": "saa",
+  "key": "12-Cost-Optimized-Compute-part-1",
+  "title": "AWS SAA-C03 Exam Prep Module 12 Part 1 of 2: Savings Plans, Reserved, Spot and Right-Sizing",
+  "seconds": 406,
+  "published": "2026-11-06T04:55:30Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Lantern and Loom Trims the Compute Bill"
+   ],
+   [
+    84,
+    "EC2 Purchasing Options"
+   ],
+   [
+    131,
+    "Savings Plans and Reserved Instances"
+   ],
+   [
+    183,
+    "Layering Purchase Options"
+   ],
+   [
+    219,
+    "Spot Instances Done Right"
+   ],
+   [
+    268,
+    "Right-Sizing and Instance Families"
+   ],
+   [
+    316,
+    "Compute Optimizer and Cost Visibility"
+   ],
+   [
+    365,
+    "Scaling for Cost"
+   ]
+  ]
+ },
+ "dG9B1P842ks": {
+  "course": "saa",
+  "key": "12-Cost-Optimized-Compute-part-2",
+  "title": "AWS SAA-C03 Exam Prep Module 12 Part 2 of 2: Hibernation, Lambda, Fargate, ALB Cost and Practice",
+  "seconds": 566,
+  "published": "2026-11-06T04:55:52Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Hibernation and Availability by Workload Class"
+   ],
+   [
+    48,
+    "Serverless and Containers"
+   ],
+   [
+    96,
+    "Hybrid, Edge and Licensing"
+   ],
+   [
+    143,
+    "Load Balancer Cost Strategy"
+   ],
+   [
+    191,
+    "Choosing the Cheapest Compute"
+   ],
+   [
+    224,
+    "What the Exam Asks: Cost-Optimized Compute"
+   ],
+   [
+    255,
+    "Design Check: Lantern and Loom Trims the Compute Bill"
+   ],
+   [
+    329,
+    "Practice Question 1"
+   ],
+   [
+    373,
+    "Practice Question 2"
+   ],
+   [
+    417,
+    "Practice Question 3"
+   ],
+   [
+    461,
+    "Practice Question 4"
+   ],
+   [
+    504,
+    "Practice Question 5"
+   ]
+  ]
+ },
+ "fcP409-_qAQ": {
+  "course": "saa",
+  "key": "13-Cost-Optimized-Databases-part-1",
+  "title": "AWS SAA-C03 Exam Prep Module 13 Part 1 of 2: DynamoDB Capacity, Aurora and Database Savings Plans",
+  "seconds": 428,
+  "published": "2026-11-06T04:56:12Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Lantern and Loom Trims the Database Bill"
+   ],
+   [
+    86,
+    "Choosing a Cost-Effective Database"
+   ],
+   [
+    129,
+    "Capacity Planning"
+   ],
+   [
+    179,
+    "DynamoDB Capacity Modes and Table Classes"
+   ],
+   [
+    226,
+    "Aurora Cost Options"
+   ],
+   [
+    277,
+    "Database Savings Plans and Reserved Instances"
+   ],
+   [
+    328,
+    "Caching, Read Replicas and Connection Pooling"
+   ],
+   [
+    374,
+    "Backup and Retention Policies"
+   ]
+  ]
+ },
+ "enItdLgDuzs": {
+  "course": "saa",
+  "key": "13-Cost-Optimized-Databases-part-2",
+  "title": "AWS SAA-C03 Exam Prep Module 13 Part 2 of 2: Redshift, Timestream, DMS, Idle Databases and Practice",
+  "seconds": 513,
+  "published": "2026-11-06T04:56:22Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Columnar and Time Series Stores"
+   ],
+   [
+    49,
+    "Choosing Engines and Migrating"
+   ],
+   [
+    102,
+    "Stop Idle and Non-Production Databases"
+   ],
+   [
+    153,
+    "Choosing the Cheapest Database"
+   ],
+   [
+    190,
+    "What the Exam Asks: Cost-Optimized Databases"
+   ],
+   [
+    222,
+    "Design Check: Lantern and Loom Trims the Database Bill"
+   ],
+   [
+    290,
+    "Practice Question 1"
+   ],
+   [
+    331,
+    "Practice Question 2"
+   ],
+   [
+    373,
+    "Practice Question 3"
+   ],
+   [
+    416,
+    "Practice Question 4"
+   ],
+   [
+    457,
+    "Practice Question 5"
+   ]
+  ]
+ },
+ "cNDjrMOcqXU": {
+  "course": "saa",
+  "key": "14-Cost-Optimized-Network-Architectures-part-1",
+  "title": "AWS SAA-C03 Exam Prep Module 14 Part 1 of 2: NAT Gateway, VPC Endpoints, Direct Connect, Peering",
+  "seconds": 402,
+  "published": "2026-11-06T04:56:52Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Lantern and Loom Trims the Network Bill"
+   ],
+   [
+    81,
+    "Where Network Cost Comes From"
+   ],
+   [
+    129,
+    "NAT Gateway Cost"
+   ],
+   [
+    181,
+    "Avoiding NAT Cost with VPC Endpoints"
+   ],
+   [
+    223,
+    "Direct Connect, VPN and the Internet"
+   ],
+   [
+    272,
+    "Connecting VPCs: Peering, Transit Gateway and PrivateLink"
+   ],
+   [
+    315,
+    "Routing to Minimize Transfer Cost"
+   ],
+   [
+    357,
+    "CDN and Edge Caching Cost"
+   ]
+  ]
+ },
+ "a7xo7bWaAn0": {
+  "course": "saa",
+  "key": "14-Cost-Optimized-Network-Architectures-part-2",
+  "title": "AWS SAA-C03 Exam Prep Module 14 Part 2 of 2: CloudFront, Throttling, Reviewing Costs and Practice",
+  "seconds": 508,
+  "published": "2026-11-06T04:57:09Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Load Balancing and DNS Cost"
+   ],
+   [
+    48,
+    "Throttling and Bandwidth Allocation"
+   ],
+   [
+    93,
+    "Reviewing Existing Workloads"
+   ],
+   [
+    140,
+    "Choosing the Cheapest Network Design"
+   ],
+   [
+    175,
+    "What the Exam Asks: Cost-Optimized Networks"
+   ],
+   [
+    207,
+    "Design Check: Lantern and Loom Trims the Network Bill"
+   ],
+   [
+    281,
+    "Practice Question 1"
+   ],
+   [
+    322,
+    "Practice Question 2"
+   ],
+   [
+    364,
+    "Practice Question 3"
+   ],
+   [
+    406,
+    "Practice Question 4"
+   ],
+   [
+    448,
+    "Practice Question 5"
+   ]
+  ]
+ },
+ "r79AIGfb4G8": {
+  "course": "saa",
+  "key": "15-Quick-Reference-Recap-and-Service-Chooser-part-1",
+  "title": "AWS SAA-C03 Exam Prep Module 15: Quick Reference Recap and Service Chooser | AWS Solutions Architect",
+  "seconds": 599,
+  "published": "2026-11-06T04:57:34Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Lantern and Loom's Final Review"
+   ],
+   [
+    66,
+    "The Exam on One Page"
+   ],
+   [
+    117,
+    "Look-Alikes: Security and Identity"
+   ],
+   [
+    174,
+    "Look-Alikes: Decoupling and Integration"
+   ],
+   [
+    228,
+    "Look-Alikes: Resilience and Recovery"
+   ],
+   [
+    282,
+    "Look-Alikes: Storage and Databases"
+   ],
+   [
+    337,
+    "Look-Alikes: Compute, Network and Edge"
+   ],
+   [
+    388,
+    "Look-Alikes: Ingestion and Analytics"
+   ],
+   [
+    433,
+    "Service Chooser: Secure and Resilient"
+   ],
+   [
+    475,
+    "Service Chooser: High-Performing and Cost-Optimized"
+   ],
+   [
+    515,
+    "Lists and Terms the Exam Likes"
+   ]
+  ]
+ },
+ "WyissycB8R0": {
+  "course": "saa",
+  "key": "16-Exam-Technique-and-Final-Review-part-1",
+  "title": "AWS SAA-C03 Exam Prep Module 16 Part 1 of 2: Exam Technique, Pacing and Question Types | AWS SAA",
+  "seconds": 406,
+  "published": "2026-11-06T04:57:49Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Lantern and Loom's Mock Exam"
+   ],
+   [
+    64,
+    "The Exam Clock"
+   ],
+   [
+    101,
+    "Read for the Requirement"
+   ],
+   [
+    138,
+    "A Four-Step Answer Method"
+   ],
+   [
+    167,
+    "Eliminating Distractors"
+   ],
+   [
+    205,
+    "Multiple-Response Questions"
+   ],
+   [
+    241,
+    "Qualifier Words Steer the Answer"
+   ],
+   [
+    292,
+    "Architecture Question Shortcuts"
+   ],
+   [
+    336,
+    "Choosing Between Two Valid Answers"
+   ],
+   [
+    373,
+    "When You Are Unsure"
+   ]
+  ]
+ },
+ "U37tPPf2USA": {
+  "course": "saa",
+  "key": "16-Exam-Technique-and-Final-Review-part-2",
+  "title": "AWS SAA-C03 Exam Prep Module 16 Part 2 of 2: Final Week, Exam Day and Practice Questions | AWS SAA",
+  "seconds": 402,
+  "published": "2026-11-06T04:58:08Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Your Final Week"
+   ],
+   [
+    38,
+    "Exam Day and Afterwards"
+   ],
+   [
+    82,
+    "Design Check: Lantern and Loom's Mock Exam"
+   ],
+   [
+    159,
+    "Practice Question 1"
+   ],
+   [
+    203,
+    "Practice Question 2"
+   ],
+   [
+    254,
+    "Practice Question 3"
+   ],
+   [
+    295,
+    "Practice Question 4"
+   ],
+   [
+    336,
+    "Practice Question 5"
+   ]
+  ]
+ },
  "yTE9OtaIN9A": {
   "course": "cdmp",
   "key": "00-Course-Introduction",
