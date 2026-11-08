@@ -18,7 +18,7 @@ const domains: Record<string, typeof c.notes> = {};
 const byDomain = (c.notes ?? []).some((n) => n.domain);
 const first = c.modules[0];
 const training = c.kind === 'training';
-const unit = c.slug === 'cdmp' ? 'chapters' : c.slug === 'togaf' ? 'weekly guides' : ['kcna', 'aigp', 'clf', 'aif', 'saa'].includes(c.slug) ? 'modules' : 'topics';
+const unit = c.slug === 'cdmp' ? 'chapters' : c.slug === 'togaf' ? 'weekly guides' : ['kcna', 'aigp', 'clf', 'aif', 'saa', 'dea'].includes(c.slug) ? 'modules' : 'topics';
 const ld = {
   '@context': 'https://schema.org', '@type': 'Course', name: c.title, description: c.desc,
   provider: { '@type': 'Organization', name: 'Techversation', url: Astro.site?.href },

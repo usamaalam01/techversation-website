@@ -64,6 +64,10 @@ COURSES = {
                 desc="Secure, resilient, high-performing and cost-optimized architectures, with the Lantern and Loom running case.",
                 audience="Engineers and architects preparing for the AWS Solutions Architect Associate exam.",
                 sources="The official AWS Solutions Architect Associate (SAA-C03) exam guide and AWS's own documentation."),
+    "dea": dict(folder="AWS-DEA", institute="aws", short="DEA-C01", name="AWS Data Engineer Associate", title="AWS Data Engineer Associate (DEA-C01) Exam Prep Masterclass", accent="c-dea",
+                desc="Ingest, transform, store, operate and secure data pipelines on AWS, with the Kestrel Freight running case.",
+                audience="Data engineers, analysts and developers preparing for the AWS Data Engineer Associate exam.",
+                sources="The official AWS Data Engineer Associate (DEA-C01) exam guide and AWS's own documentation."),
     "aigov": dict(folder="AIGovernance", institute="training", kind="training", topic="AI", short="AI Governance", name="AI Governance Masterclass", title="AI Governance Masterclass", accent="c-aigov",
                   desc="From principles and risk to laws, frameworks and a working governance program, built around one running case.",
                   audience="Anyone who builds, buys or oversees AI: governance, risk, legal, product and engineering teams.",
@@ -76,7 +80,7 @@ INSTITUTES = [
     dict(id="linux-foundation", name="Linux Foundation", full="The Linux Foundation and CNCF", mono="LF", certs=["kcna"]),
     dict(id="dama", name="DAMA International", full="Data Management Association International", mono="DAMA", certs=["cdmp"]),
     dict(id="the-open-group", name="The Open Group", full="The Open Group", mono="TOG", certs=["togaf"]),
-    dict(id="aws", name="AWS", full="Amazon Web Services", mono="AWS", certs=["clf", "aif", "saa"]),
+    dict(id="aws", name="AWS", full="Amazon Web Services", mono="AWS", certs=["clf", "aif", "saa", "dea"]),
     dict(id="training", name="Training", full="Techversation training courses", mono="TV", certs=[], hidden=True),
 ]
 SOON = []      # 'coming soon' cards (slug, institute, short, name, kind, desc); none at the moment
@@ -86,6 +90,7 @@ FACTS = dict(
     clf=dict(questions="65", time="90 min", passing="700 of 1,000", source="aws.amazon.com/certification", url="https://aws.amazon.com/certification/"),
     aif=dict(questions="65", time="90 min", passing="700 of 1,000", source="aws.amazon.com/certification", url="https://aws.amazon.com/certification/"),
     saa=dict(questions="65", time="130 min", passing="720 of 1,000", source="aws.amazon.com/certification", url="https://aws.amazon.com/certification/"),
+    dea=dict(questions="65", time="130 min", passing="720 of 1,000", source="aws.amazon.com/certification", url="https://aws.amazon.com/certification/"),
     kcna=dict(questions="60", time="90 min", passing="75%", source="training.linuxfoundation.org", url="https://training.linuxfoundation.org/certification/kubernetes-cloud-native-associate/"),
 )
 
@@ -246,6 +251,9 @@ NOTES = {
     # SAA: generated from the verified course slides by OnlineCourses\make_aws_study_notes.py (one note per module); the group is the exam domain
     "saa": dict(root=OC / "AWS-SAA" / "study-notes", glob="Module_*.md", qa=True, kind="Module", link_word="Module", group_from="Exam guide", group_full=True,
                  group_default={"00": "Start here", "15": "Review and exam day", "16": "Review and exam day"}),
+    # DEA: the study notes of the course (OnlineCourses\AWS-DEA\study-notes, one note per module); the group is the exam domain
+    "dea": dict(root=OC / "AWS-DEA" / "study-notes", glob="Module_*.md", qa=True, kind="Module", link_word="Module", group_from="Exam guide", group_full=True,
+                 group_default={"00": "Start here", "19": "Review and exam day", "20": "Review and exam day"}),
     "togaf": dict(root=REPO / "TOGAF", glob="week*/Week_*.md", qa=False, header="bold", kind="Week",
                   scrub=dict(drop_lines=[r"\d+\. \*\*Apply to your experience\.\*\*"]),      # one prompt in Week 1 is about the author's own work history
                   append={"01": (REPO / "TOGAF" / "week1" / "Quick_Reference_Week_1.md", "Quick Reference Card for Week 1")},

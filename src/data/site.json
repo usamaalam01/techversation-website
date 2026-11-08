@@ -62,7 +62,8 @@
    "certs": [
     "clf",
     "aif",
-    "saa"
+    "saa",
+    "dea"
    ]
   },
   {
@@ -16177,6 +16178,3336 @@
      "tn": "Module 16",
      "of": 17,
      "module": "16"
+    }
+   ],
+   "glossary": 0
+  },
+  {
+   "kind": "certification",
+   "topic": null,
+   "slug": "dea",
+   "institute": "aws",
+   "short": "DEA-C01",
+   "name": "AWS Data Engineer Associate",
+   "title": "AWS Data Engineer Associate (DEA-C01) Exam Prep Masterclass",
+   "accent": "c-dea",
+   "desc": "Ingest, transform, store, operate and secure data pipelines on AWS, with the Kestrel Freight running case.",
+   "audience": "Data engineers, analysts and developers preparing for the AWS Data Engineer Associate exam.",
+   "sources": "The official AWS Data Engineer Associate (DEA-C01) exam guide and AWS's own documentation.",
+   "playlist": "PLQGfYj5Lo9E4",
+   "cover": "img/covers/dea.jpg",
+   "modules": [
+    {
+     "num": "00",
+     "slug": "00-course-introduction-and-exam-orientation",
+     "title": "Course Introduction and Exam Orientation",
+     "desc": "The numbers and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "R3IFCV-oVIE",
+       "title": "The numbers and recap",
+       "seconds": 637,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Meet Kestrel Freight"
+        ],
+        [
+         74,
+         "The numbers"
+        ],
+        [
+         93,
+         "The numbers, continued"
+        ],
+        [
+         151,
+         "Two kinds of question"
+        ],
+        [
+         182,
+         "Who the exam is for"
+        ],
+        [
+         224,
+         "Four Domains, Seventeen Task Statements"
+        ],
+        [
+         240,
+         "Four Domains, Seventeen Task Statements, continued"
+        ],
+        [
+         292,
+         "Four Domains, Seventeen Task Statements, continued"
+        ],
+        [
+         348,
+         "What changed in guide version 1.1"
+        ],
+        [
+         381,
+         "What changed in guide version 1.1, continued"
+        ],
+        [
+         423,
+         "How This Course Works"
+        ],
+        [
+         453,
+         "How This Course Works, continued"
+        ],
+        [
+         481,
+         "Labels you will see"
+        ],
+        [
+         508,
+         "Study Plan and Ground Rules"
+        ],
+        [
+         548,
+         "Study Plan and Ground Rules, continued"
+        ]
+       ],
+       "published": "2026-11-07T11:22:52Z",
+       "thumb": "img/modules/dea/00-1.jpg"
+      }
+     ],
+     "deck": "downloads/dea/00-course-introduction-and-exam-orientation.pptx",
+     "deck_kb": 251,
+     "seconds": 637,
+     "words": 1576
+    },
+    {
+     "num": "01",
+     "slug": "01-batch-ingestion-schedules-and-triggers",
+     "title": "Batch Ingestion, Schedules and Triggers",
+     "desc": "Batch or streaming and Batch sources and tools",
+     "parts": [
+      {
+       "part": 1,
+       "id": "gh4GerqiVDU",
+       "title": "Batch or streaming and Batch sources and tools",
+       "seconds": 722,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Kestrel Freight Loads Its First Data"
+        ],
+        [
+         91,
+         "Batch or streaming"
+        ],
+        [
+         116,
+         "Batch sources and tools"
+        ],
+        [
+         136,
+         "Batch sources and tools, continued"
+        ],
+        [
+         194,
+         "Batch sources and tools, continued"
+        ],
+        [
+         255,
+         "AWS DMS in one page"
+        ],
+        [
+         307,
+         "Amazon AppFlow in one page"
+        ],
+        [
+         359,
+         "Configuration Options for Batch Ingestion"
+        ],
+        [
+         407,
+         "Configuration Options for Batch Ingestion, continued"
+        ],
+        [
+         418,
+         "Glue job bookmarks"
+        ],
+        [
+         456,
+         "Glue job bookmarks, continued"
+        ],
+        [
+         484,
+         "Loading Amazon Redshift from S3 (COPY)"
+        ],
+        [
+         533,
+         "Consuming Data APIs"
+        ],
+        [
+         579,
+         "Consuming Data APIs, continued"
+        ],
+        [
+         598,
+         "Schedulers: Time-Based Starts"
+        ],
+        [
+         654,
+         "Schedulers: Time-Based Starts, continued"
+        ],
+        [
+         675,
+         "EventBridge schedule expressions"
+        ]
+       ],
+       "published": "2026-11-07T11:23:20Z",
+       "thumb": "img/modules/dea/01-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "PJ5WcngJwJk",
+       "title": "Event Triggers: Start When Something Happens, recap and practice",
+       "seconds": 683,
+       "chapters": [
+        [
+         0,
+         "Event Triggers: Start When Something Happens"
+        ],
+        [
+         42,
+         "Event Triggers: Start When Something Happens, continued"
+        ],
+        [
+         82,
+         "Event Triggers: Start When Something Happens, continued"
+        ],
+        [
+         132,
+         "Allowlists for Data Sources"
+        ],
+        [
+         170,
+         "Allowlists for Data Sources, continued"
+        ],
+        [
+         203,
+         "Throttling and Rate Limits"
+        ],
+        [
+         244,
+         "Throttling and Rate Limits, continued"
+        ],
+        [
+         276,
+         "Throttling and Rate Limits, continued"
+        ],
+        [
+         366,
+         "Practice Question 1"
+        ],
+        [
+         408,
+         "Practice Question 2"
+        ],
+        [
+         452,
+         "Practice Question 3"
+        ],
+        [
+         492,
+         "Practice Question 4"
+        ],
+        [
+         542,
+         "Practice Question 5"
+        ],
+        [
+         587,
+         "Practice Question 6"
+        ],
+        [
+         629,
+         "Practice Question 7"
+        ]
+       ],
+       "published": "2026-11-07T11:23:44Z",
+       "thumb": "img/modules/dea/01-2.jpg"
+      }
+     ],
+     "deck": "downloads/dea/01-batch-ingestion-schedules-and-triggers.pptx",
+     "deck_kb": 344,
+     "seconds": 1405,
+     "words": 3254
+    },
+    {
+     "num": "02",
+     "slug": "02-streaming-ingestion",
+     "title": "Streaming Ingestion",
+     "desc": "Streaming Sources and the Service That Fits",
+     "parts": [
+      {
+       "part": 1,
+       "id": "K-t0Zr7pzTk",
+       "title": "Streaming Sources and the Service That Fits",
+       "seconds": 682,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Kestrel Freight Tracks Its Trucks"
+        ],
+        [
+         84,
+         "Streaming Sources and the Service That Fits"
+        ],
+        [
+         104,
+         "Streaming Sources and the Service That Fits, continued"
+        ],
+        [
+         157,
+         "Streaming Sources and the Service That Fits, continued"
+        ],
+        [
+         217,
+         "Streaming Sources and the Service That Fits, continued"
+        ],
+        [
+         253,
+         "Amazon Kinesis Data Streams"
+        ],
+        [
+         269,
+         "How it works"
+        ],
+        [
+         303,
+         "How it works, continued"
+        ],
+        [
+         319,
+         "Capacity modes and limits"
+        ],
+        [
+         367,
+         "Capacity modes and limits, continued"
+        ],
+        [
+         401,
+         "Hot shards"
+        ],
+        [
+         432,
+         "Amazon Data Firehose"
+        ],
+        [
+         475,
+         "Amazon Data Firehose, continued"
+        ],
+        [
+         514,
+         "Amazon MSK (Managed Streaming for Apache Kafka)"
+        ],
+        [
+         558,
+         "Amazon MSK (Managed Streaming for Apache Kafka), continued"
+        ],
+        [
+         612,
+         "DynamoDB Streams"
+        ],
+        [
+         648,
+         "AWS DMS, Glue and Redshift as streaming sources"
+        ]
+       ],
+       "published": "2026-11-07T11:24:08Z",
+       "thumb": "img/modules/dea/02-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "oeRojQimr5s",
+       "title": "Calling a Lambda Function from Kinesis, recap and practice",
+       "seconds": 704,
+       "chapters": [
+        [
+         0,
+         "Calling a Lambda Function from Kinesis"
+        ],
+        [
+         41,
+         "Calling a Lambda Function from Kinesis, continued"
+        ],
+        [
+         90,
+         "Fan-In and Fan-Out"
+        ],
+        [
+         106,
+         "Fan-In and Fan-Out, continued"
+        ],
+        [
+         158,
+         "Fan-In and Fan-Out, continued"
+        ],
+        [
+         190,
+         "Replayability"
+        ],
+        [
+         225,
+         "Replayability, continued"
+        ],
+        [
+         258,
+         "Stateful and Stateless Data Transactions"
+        ],
+        [
+         303,
+         "Stateful and Stateless Data Transactions, continued"
+        ],
+        [
+         394,
+         "Practice Question 1"
+        ],
+        [
+         437,
+         "Practice Question 2"
+        ],
+        [
+         480,
+         "Practice Question 3"
+        ],
+        [
+         518,
+         "Practice Question 4"
+        ],
+        [
+         570,
+         "Practice Question 5"
+        ],
+        [
+         618,
+         "Practice Question 6"
+        ],
+        [
+         652,
+         "Practice Question 7"
+        ]
+       ],
+       "published": "2026-11-07T11:24:41Z",
+       "thumb": "img/modules/dea/02-2.jpg"
+      }
+     ],
+     "deck": "downloads/dea/02-streaming-ingestion.pptx",
+     "deck_kb": 390,
+     "seconds": 1386,
+     "words": 3056
+    },
+    {
+     "num": "03",
+     "slug": "03-transform-and-process-data",
+     "title": "Transform and Process Data",
+     "desc": "Choosing the Transformation Service",
+     "parts": [
+      {
+       "part": 1,
+       "id": "fhkFdJngZzo",
+       "title": "Choosing the Transformation Service",
+       "seconds": 762,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Kestrel Freight Cleans Its Data"
+        ],
+        [
+         88,
+         "Choosing the Transformation Service"
+        ],
+        [
+         109,
+         "Choosing the Transformation Service, continued"
+        ],
+        [
+         169,
+         "Choosing the Transformation Service, continued"
+        ],
+        [
+         223,
+         "Glue facts to know"
+        ],
+        [
+         259,
+         "Glue facts to know, continued"
+        ],
+        [
+         286,
+         "EMR facts to know"
+        ],
+        [
+         338,
+         "File Formats and Conversion"
+        ],
+        [
+         351,
+         "File Formats and Conversion, continued"
+        ],
+        [
+         424,
+         "File Formats and Conversion, continued"
+        ],
+        [
+         474,
+         "Connecting to and Integrating Data Sources"
+        ],
+        [
+         520,
+         "Connecting to and Integrating Data Sources, continued"
+        ],
+        [
+         570,
+         "Cost while processing"
+        ],
+        [
+         623,
+         "Cost while processing, continued"
+        ],
+        [
+         641,
+         "Containers (Amazon ECS, Amazon EKS)"
+        ],
+        [
+         681,
+         "Containers (Amazon ECS, Amazon EKS), continued"
+        ],
+        [
+         708,
+         "Troubleshooting Failures and Slow Jobs"
+        ]
+       ],
+       "published": "2026-11-07T11:25:12Z",
+       "thumb": "img/modules/dea/03-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "bYjubKENQ9U",
+       "title": "Troubleshooting Failures and Slow Jobs, recap and practice",
+       "seconds": 772,
+       "chapters": [
+        [
+         0,
+         "Troubleshooting Failures and Slow Jobs, continued"
+        ],
+        [
+         64,
+         "Troubleshooting Failures and Slow Jobs, continued"
+        ],
+        [
+         94,
+         "Data APIs: Making Data Available to Other Systems"
+        ],
+        [
+         147,
+         "Data APIs: Making Data Available to Other Systems, continued"
+        ],
+        [
+         190,
+         "Volume, Velocity and Variety"
+        ],
+        [
+         203,
+         "Volume, Velocity and Variety, continued"
+        ],
+        [
+         275,
+         "Using Large Language Models in Data Processing"
+        ],
+        [
+         323,
+         "Using Large Language Models in Data Processing, continued"
+        ],
+        [
+         436,
+         "Practice Question 1"
+        ],
+        [
+         479,
+         "Practice Question 2"
+        ],
+        [
+         517,
+         "Practice Question 3"
+        ],
+        [
+         561,
+         "Practice Question 4"
+        ],
+        [
+         597,
+         "Practice Question 5"
+        ],
+        [
+         638,
+         "Practice Question 6"
+        ],
+        [
+         679,
+         "Practice Question 7"
+        ],
+        [
+         710,
+         "Practice Question 8"
+        ]
+       ],
+       "published": "2026-11-07T11:25:43Z",
+       "thumb": "img/modules/dea/03-2.jpg"
+      }
+     ],
+     "deck": "downloads/dea/03-transform-and-process-data.pptx",
+     "deck_kb": 373,
+     "seconds": 1534,
+     "words": 3377
+    },
+    {
+     "num": "04",
+     "slug": "04-orchestrate-data-pipelines",
+     "title": "Orchestrate Data Pipelines",
+     "desc": "What Orchestration Does",
+     "parts": [
+      {
+       "part": 1,
+       "id": "7OaWohp1QK8",
+       "title": "What Orchestration Does",
+       "seconds": 605,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Kestrel Freight Chains Its Steps"
+        ],
+        [
+         74,
+         "What Orchestration Does"
+        ],
+        [
+         107,
+         "What Orchestration Does, continued"
+        ],
+        [
+         125,
+         "What Orchestration Does, continued"
+        ],
+        [
+         173,
+         "What Orchestration Does, continued"
+        ],
+        [
+         233,
+         "Workflow types"
+        ],
+        [
+         296,
+         "Service integration patterns"
+        ],
+        [
+         346,
+         "Service integration patterns, continued"
+        ],
+        [
+         363,
+         "Flow control and error handling"
+        ],
+        [
+         402,
+         "Amazon MWAA (Managed Apache Airflow)"
+        ],
+        [
+         452,
+         "Amazon MWAA (Managed Apache Airflow), continued"
+        ],
+        [
+         519,
+         "Glue workflows"
+        ],
+        [
+         559,
+         "Amazon EventBridge"
+        ]
+       ],
+       "published": "2026-11-07T11:25:59Z",
+       "thumb": "img/modules/dea/04-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "XlmrN1pa4PU",
+       "title": "Building Reliable, Scalable Pipelines, recap and practice",
+       "seconds": 562,
+       "chapters": [
+        [
+         0,
+         "Building Reliable, Scalable Pipelines"
+        ],
+        [
+         57,
+         "Building Reliable, Scalable Pipelines, continued"
+        ],
+        [
+         97,
+         "Serverless Workflows"
+        ],
+        [
+         149,
+         "Notifications and Alerts: SNS and SQS"
+        ],
+        [
+         223,
+         "Notifications and Alerts: SNS and SQS, continued"
+        ],
+        [
+         295,
+         "Practice Question 1"
+        ],
+        [
+         341,
+         "Practice Question 2"
+        ],
+        [
+         381,
+         "Practice Question 3"
+        ],
+        [
+         422,
+         "Practice Question 4"
+        ],
+        [
+         472,
+         "Practice Question 5"
+        ],
+        [
+         510,
+         "Practice Question 6"
+        ]
+       ],
+       "published": "2026-11-07T11:26:21Z",
+       "thumb": "img/modules/dea/04-2.jpg"
+      }
+     ],
+     "deck": "downloads/dea/04-orchestrate-data-pipelines.pptx",
+     "deck_kb": 200,
+     "seconds": 1167,
+     "words": 2515
+    },
+    {
+     "num": "05",
+     "slug": "05-programming-concepts-for-data-engineering",
+     "title": "Programming Concepts for Data Engineering",
+     "desc": "Optimizing Code and Runtime",
+     "parts": [
+      {
+       "part": 1,
+       "id": "b_J1IdtFC1M",
+       "title": "Optimizing Code and Runtime",
+       "seconds": 605,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Kestrel Freight Speeds Up Its Nightly Job"
+        ],
+        [
+         81,
+         "Optimizing Code and Runtime"
+        ],
+        [
+         138,
+         "Optimizing Code and Runtime, continued"
+        ],
+        [
+         160,
+         "Lambda Concurrency and Performance"
+        ],
+        [
+         205,
+         "Lambda Concurrency and Performance, continued"
+        ],
+        [
+         255,
+         "Lambda Concurrency and Performance, continued"
+        ],
+        [
+         292,
+         "Mounting storage in Lambda"
+        ],
+        [
+         350,
+         "Languages and frameworks"
+        ],
+        [
+         400,
+         "Practices"
+        ],
+        [
+         462,
+         "Infrastructure as Code"
+        ],
+        [
+         477,
+         "Infrastructure as Code, continued"
+        ],
+        [
+         533,
+         "CloudFormation essentials"
+        ],
+        [
+         556,
+         "AWS SAM essentials"
+        ]
+       ],
+       "published": "2026-11-07T11:26:50Z",
+       "thumb": "img/modules/dea/05-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "xKuxeVOi0l0",
+       "title": "CI/CD for Data Pipelines, recap and practice",
+       "seconds": 574,
+       "chapters": [
+        [
+         0,
+         "CI/CD for Data Pipelines"
+        ],
+        [
+         31,
+         "CI/CD for Data Pipelines, continued"
+        ],
+        [
+         86,
+         "Distributed computing"
+        ],
+        [
+         137,
+         "Data structures and algorithms"
+        ],
+        [
+         148,
+         "Data structures and algorithms, continued"
+        ],
+        [
+         213,
+         "Data structures and algorithms, continued"
+        ],
+        [
+         323,
+         "Practice Question 1"
+        ],
+        [
+         361,
+         "Practice Question 2"
+        ],
+        [
+         404,
+         "Practice Question 3"
+        ],
+        [
+         445,
+         "Practice Question 4"
+        ],
+        [
+         482,
+         "Practice Question 5"
+        ],
+        [
+         519,
+         "Practice Question 6"
+        ]
+       ],
+       "published": "2026-11-07T11:27:05Z",
+       "thumb": "img/modules/dea/05-2.jpg"
+      }
+     ],
+     "deck": "downloads/dea/05-programming-concepts-for-data-engineering.pptx",
+     "deck_kb": 336,
+     "seconds": 1179,
+     "words": 2417
+    },
+    {
+     "num": "06",
+     "slug": "06-choose-a-data-store",
+     "title": "Choose a Data Store",
+     "desc": "Matching the Workload to the Store",
+     "parts": [
+      {
+       "part": 1,
+       "id": "22J_dcyQh_4",
+       "title": "Matching the Workload to the Store",
+       "seconds": 684,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Kestrel Freight Picks Its Stores"
+        ],
+        [
+         96,
+         "Matching the Workload to the Store"
+        ],
+        [
+         118,
+         "Matching the Workload to the Store, continued"
+        ],
+        [
+         190,
+         "Matching the Workload to the Store, continued"
+        ],
+        [
+         266,
+         "Matching the Workload to the Store, continued"
+        ],
+        [
+         326,
+         "Amazon Redshift configuration"
+        ],
+        [
+         365,
+         "Amazon Redshift configuration, continued"
+        ],
+        [
+         383,
+         "Amazon DynamoDB configuration"
+        ],
+        [
+         426,
+         "RDS and Aurora configuration"
+        ],
+        [
+         448,
+         "Amazon EMR and Lake Formation"
+        ],
+        [
+         467,
+         "Vector Stores, MemoryDB and Index Types"
+        ],
+        [
+         510,
+         "Vector Stores, MemoryDB and Index Types, continued"
+        ],
+        [
+         530,
+         "Vector Stores, MemoryDB and Index Types, continued"
+        ],
+        [
+         580,
+         "Vector Stores, MemoryDB and Index Types, continued"
+        ],
+        [
+         601,
+         "Amazon MemoryDB for fast key/value access"
+        ],
+        [
+         641,
+         "AWS Transfer Family"
+        ]
+       ],
+       "published": "2026-11-07T11:27:45Z",
+       "thumb": "img/modules/dea/06-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "VZwbu8L8rEY",
+       "title": "Redshift remote access, recap and practice",
+       "seconds": 645,
+       "chapters": [
+        [
+         0,
+         "Redshift remote access"
+        ],
+        [
+         60,
+         "Redshift remote access, continued"
+        ],
+        [
+         89,
+         "Locks"
+        ],
+        [
+         121,
+         "Locks, continued"
+        ],
+        [
+         163,
+         "Open Table Formats and Amazon S3 Tables"
+        ],
+        [
+         208,
+         "Open Table Formats and Amazon S3 Tables, continued"
+        ],
+        [
+         314,
+         "Practice Question 1"
+        ],
+        [
+         354,
+         "Practice Question 2"
+        ],
+        [
+         391,
+         "Practice Question 3"
+        ],
+        [
+         438,
+         "Practice Question 4"
+        ],
+        [
+         479,
+         "Practice Question 5"
+        ],
+        [
+         515,
+         "Practice Question 6"
+        ],
+        [
+         549,
+         "Practice Question 7"
+        ],
+        [
+         588,
+         "Practice Question 8"
+        ]
+       ],
+       "published": "2026-11-07T11:28:09Z",
+       "thumb": "img/modules/dea/06-2.jpg"
+      }
+     ],
+     "deck": "downloads/dea/06-choose-a-data-store.pptx",
+     "deck_kb": 369,
+     "seconds": 1329,
+     "words": 2839
+    },
+    {
+     "num": "07",
+     "slug": "07-data-catalogs",
+     "title": "Data Catalogs",
+     "desc": "What a Catalog Is and Why It Matters",
+     "parts": [
+      {
+       "part": 1,
+       "id": "XMBiRJ_N50Y",
+       "title": "What a Catalog Is and Why It Matters",
+       "seconds": 448,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Kestrel Freight Finds Its Data"
+        ],
+        [
+         75,
+         "What a Catalog Is and Why It Matters"
+        ],
+        [
+         111,
+         "What a Catalog Is and Why It Matters, continued"
+        ],
+        [
+         129,
+         "What a Catalog Is and Why It Matters, continued"
+        ],
+        [
+         192,
+         "What a Catalog Is and Why It Matters, continued"
+        ],
+        [
+         223,
+         "Glue Crawlers: Discovering Schemas"
+        ],
+        [
+         246,
+         "Glue Crawlers: Discovering Schemas, continued"
+        ],
+        [
+         289,
+         "Glue Crawlers: Discovering Schemas, continued"
+        ],
+        [
+         336,
+         "Synchronizing Partitions"
+        ],
+        [
+         358,
+         "Synchronizing Partitions, continued"
+        ],
+        [
+         410,
+         "Synchronizing Partitions, continued"
+        ]
+       ],
+       "published": "2026-11-07T11:28:24Z",
+       "thumb": "img/modules/dea/07-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "pKRBrFOie68",
+       "title": "Connections for Cataloging, recap and practice",
+       "seconds": 484,
+       "chapters": [
+        [
+         0,
+         "Connections for Cataloging"
+        ],
+        [
+         42,
+         "Connections for Cataloging, continued"
+        ],
+        [
+         70,
+         "Business Data Catalogs: Amazon SageMaker Catalog"
+        ],
+        [
+         94,
+         "Business Data Catalogs: Amazon SageMaker Catalog, continued"
+        ],
+        [
+         137,
+         "Business Data Catalogs: Amazon SageMaker Catalog, continued"
+        ],
+        [
+         266,
+         "Practice Question 1"
+        ],
+        [
+         306,
+         "Practice Question 2"
+        ],
+        [
+         351,
+         "Practice Question 3"
+        ],
+        [
+         391,
+         "Practice Question 4"
+        ],
+        [
+         429,
+         "Practice Question 5"
+        ]
+       ],
+       "published": "2026-11-07T11:28:36Z",
+       "thumb": "img/modules/dea/07-2.jpg"
+      }
+     ],
+     "deck": "downloads/dea/07-data-catalogs.pptx",
+     "deck_kb": 228,
+     "seconds": 932,
+     "words": 2054
+    },
+    {
+     "num": "08",
+     "slug": "08-manage-the-lifecycle-of-data",
+     "title": "Manage the Lifecycle of Data",
+     "desc": "Loading and Unloading Between S3 and Redshift",
+     "parts": [
+      {
+       "part": 1,
+       "id": "SKgCVqEQ65M",
+       "title": "Loading and Unloading Between S3 and Redshift",
+       "seconds": 464,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Kestrel Freight Ages Its Data"
+        ],
+        [
+         70,
+         "Loading and Unloading Between S3 and Redshift"
+        ],
+        [
+         87,
+         "Loading and Unloading Between S3 and Redshift, continued"
+        ],
+        [
+         142,
+         "Loading and Unloading Between S3 and Redshift, continued"
+        ],
+        [
+         191,
+         "S3 Lifecycle Policies: Tiering and Expiring"
+        ],
+        [
+         207,
+         "Lifecycle actions"
+        ],
+        [
+         244,
+         "Rules to remember"
+        ],
+        [
+         278,
+         "Rules to remember, continued"
+        ],
+        [
+         312,
+         "Rules to remember, continued"
+        ],
+        [
+         366,
+         "S3 versioning"
+        ],
+        [
+         412,
+         "DynamoDB TTL (time to live)"
+        ]
+       ],
+       "published": "2026-11-07T11:28:55Z",
+       "thumb": "img/modules/dea/08-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "0gk_e_BRE9A",
+       "title": "Deleting Data to Meet Business and Legal Needs, recap and practice",
+       "seconds": 529,
+       "chapters": [
+        [
+         0,
+         "Deleting Data to Meet Business and Legal Needs"
+        ],
+        [
+         46,
+         "Deleting Data to Meet Business and Legal Needs, continued"
+        ],
+        [
+         89,
+         "Resiliency and Availability of Stored Data"
+        ],
+        [
+         147,
+         "Resiliency and Availability of Stored Data, continued"
+        ],
+        [
+         212,
+         "Resiliency and Availability of Stored Data, continued"
+        ],
+        [
+         316,
+         "Practice Question 1"
+        ],
+        [
+         354,
+         "Practice Question 2"
+        ],
+        [
+         390,
+         "Practice Question 3"
+        ],
+        [
+         426,
+         "Practice Question 4"
+        ],
+        [
+         474,
+         "Practice Question 5"
+        ]
+       ],
+       "published": "2026-11-07T11:29:27Z",
+       "thumb": "img/modules/dea/08-2.jpg"
+      }
+     ],
+     "deck": "downloads/dea/08-manage-the-lifecycle-of-data.pptx",
+     "deck_kb": 222,
+     "seconds": 993,
+     "words": 2190
+    },
+    {
+     "num": "09",
+     "slug": "09-data-models-and-schema-evolution",
+     "title": "Data Models and Schema Evolution",
+     "desc": "Amazon Redshift: dimensional design",
+     "parts": [
+      {
+       "part": 1,
+       "id": "7YuDNFmY5Tg",
+       "title": "Amazon Redshift: dimensional design",
+       "seconds": 567,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Kestrel Freight Models Its Data"
+        ],
+        [
+         83,
+         "Amazon Redshift: dimensional design"
+        ],
+        [
+         109,
+         "Amazon Redshift: dimensional design, continued"
+        ],
+        [
+         146,
+         "Amazon Redshift: dimensional design, continued"
+        ],
+        [
+         155,
+         "Amazon DynamoDB: design from the access patterns"
+        ],
+        [
+         188,
+         "Amazon DynamoDB: design from the access patterns, continued"
+        ],
+        [
+         237,
+         "AWS Lake Formation: lake tables"
+        ],
+        [
+         287,
+         "Schema Evolution and Changing Data"
+        ],
+        [
+         310,
+         "Schema Evolution and Changing Data, continued"
+        ],
+        [
+         366,
+         "Schema Evolution and Changing Data, continued"
+        ],
+        [
+         427,
+         "Schema Conversion"
+        ],
+        [
+         457,
+         "Schema Conversion, continued"
+        ],
+        [
+         499,
+         "Data Lineage"
+        ],
+        [
+         540,
+         "Data Lineage, continued"
+        ]
+       ],
+       "published": "2026-11-07T11:29:44Z",
+       "thumb": "img/modules/dea/09-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "0-mpFhy6YWk",
+       "title": "Indexing, Partitioning, Compression and Optimization, recap and practice",
+       "seconds": 630,
+       "chapters": [
+        [
+         0,
+         "Indexing, Partitioning, Compression and Optimization"
+        ],
+        [
+         60,
+         "Indexing, Partitioning, Compression and Optimization, continued"
+        ],
+        [
+         132,
+         "Vectorization Concepts"
+        ],
+        [
+         157,
+         "Vectorization Concepts, continued"
+        ],
+        [
+         193,
+         "Vectorization Concepts, continued"
+        ],
+        [
+         301,
+         "Practice Question 1"
+        ],
+        [
+         342,
+         "Practice Question 2"
+        ],
+        [
+         383,
+         "Practice Question 3"
+        ],
+        [
+         421,
+         "Practice Question 4"
+        ],
+        [
+         459,
+         "Practice Question 5"
+        ],
+        [
+         494,
+         "Practice Question 6"
+        ],
+        [
+         533,
+         "Practice Question 7"
+        ],
+        [
+         569,
+         "Practice Question 8"
+        ]
+       ],
+       "published": "2026-11-07T11:30:11Z",
+       "thumb": "img/modules/dea/09-2.jpg"
+      }
+     ],
+     "deck": "downloads/dea/09-data-models-and-schema-evolution.pptx",
+     "deck_kb": 337,
+     "seconds": 1197,
+     "words": 2510
+    },
+    {
+     "num": "10",
+     "slug": "10-automate-data-processing",
+     "title": "Automate Data Processing",
+     "desc": "Orchestrating and Troubleshooting Managed Workflows",
+     "parts": [
+      {
+       "part": 1,
+       "id": "NWRN5N1Dc7M",
+       "title": "Orchestrating and Troubleshooting Managed Workflows",
+       "seconds": 512,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Kestrel Freight Keeps the Pipeline Running"
+        ],
+        [
+         82,
+         "Orchestrating and Troubleshooting Managed Workflows"
+        ],
+        [
+         127,
+         "Orchestrating and Troubleshooting Managed Workflows, continued"
+        ],
+        [
+         159,
+         "Orchestrating and Troubleshooting Managed Workflows, continued"
+        ],
+        [
+         206,
+         "Orchestrating and Troubleshooting Managed Workflows, continued"
+        ],
+        [
+         219,
+         "Orchestrating and Troubleshooting Managed Workflows, continued"
+        ],
+        [
+         250,
+         "Calling SDKs from Code"
+        ],
+        [
+         296,
+         "Calling SDKs from Code, continued"
+        ],
+        [
+         343,
+         "Using Service Features to Process Data"
+        ],
+        [
+         398,
+         "Using Service Features to Process Data, continued"
+        ],
+        [
+         419,
+         "Consuming and Maintaining Data APIs"
+        ],
+        [
+         466,
+         "Consuming and Maintaining Data APIs, continued"
+        ],
+        [
+         479,
+         "Preparing Data for Transformation"
+        ]
+       ],
+       "published": "2026-11-07T11:30:27Z",
+       "thumb": "img/modules/dea/10-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "0BQYZ_VcDq0",
+       "title": "Preparing Data for Transformation and Querying Data with Amazon Athena, recap and practice",
+       "seconds": 498,
+       "chapters": [
+        [
+         0,
+         "Preparing Data for Transformation, continued"
+        ],
+        [
+         44,
+         "Querying Data with Amazon Athena"
+        ],
+        [
+         86,
+         "Querying Data with Amazon Athena, continued"
+        ],
+        [
+         122,
+         "Lambda, Events and Schedulers"
+        ],
+        [
+         171,
+         "Lambda, Events and Schedulers, continued"
+        ],
+        [
+         260,
+         "Practice Question 1"
+        ],
+        [
+         298,
+         "Practice Question 2"
+        ],
+        [
+         333,
+         "Practice Question 3"
+        ],
+        [
+         370,
+         "Practice Question 4"
+        ],
+        [
+         404,
+         "Practice Question 5"
+        ],
+        [
+         442,
+         "Practice Question 6"
+        ]
+       ],
+       "published": "2026-11-07T11:30:50Z",
+       "thumb": "img/modules/dea/10-2.jpg"
+      }
+     ],
+     "deck": "downloads/dea/10-automate-data-processing.pptx",
+     "deck_kb": 222,
+     "seconds": 1010,
+     "words": 2212
+    },
+    {
+     "num": "11",
+     "slug": "11-analyze-data",
+     "title": "Analyze Data",
+     "desc": "Visualizing Data",
+     "parts": [
+      {
+       "part": 1,
+       "id": "Gwzo2Y40ykQ",
+       "title": "Visualizing Data",
+       "seconds": 452,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Kestrel Freight Builds Dashboards"
+        ],
+        [
+         76,
+         "Visualizing Data"
+        ],
+        [
+         147,
+         "Visualizing Data, continued"
+        ],
+        [
+         193,
+         "Verifying and Cleaning Data"
+        ],
+        [
+         211,
+         "Verifying and Cleaning Data, continued"
+        ],
+        [
+         267,
+         "Verifying and Cleaning Data, continued"
+        ],
+        [
+         292,
+         "SQL in Amazon Redshift and Athena"
+        ],
+        [
+         340,
+         "SQL in Amazon Redshift and Athena, continued"
+        ],
+        [
+         363,
+         "SQL in Amazon Redshift and Athena, continued"
+        ],
+        [
+         373,
+         "Aggregation, Grouping, Rolling Averages and Pivoting"
+        ],
+        [
+         405,
+         "Aggregation, Grouping, Rolling Averages and Pivoting, continued"
+        ],
+        [
+         415,
+         "Aggregation, Grouping, Rolling Averages and Pivoting, continued"
+        ]
+       ],
+       "published": "2026-11-07T11:31:07Z",
+       "thumb": "img/modules/dea/11-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "8WUc9Wwjg3w",
+       "title": "Athena Notebooks with Apache Spark and Provisioned versus Serverless, recap and practice",
+       "seconds": 510,
+       "chapters": [
+        [
+         0,
+         "Athena Notebooks with Apache Spark"
+        ],
+        [
+         53,
+         "Provisioned versus Serverless"
+        ],
+        [
+         69,
+         "Provisioned versus Serverless, continued"
+        ],
+        [
+         123,
+         "Provisioned versus Serverless, continued"
+        ],
+        [
+         272,
+         "Practice Question 1"
+        ],
+        [
+         309,
+         "Practice Question 2"
+        ],
+        [
+         344,
+         "Practice Question 3"
+        ],
+        [
+         377,
+         "Practice Question 4"
+        ],
+        [
+         413,
+         "Practice Question 5"
+        ],
+        [
+         455,
+         "Practice Question 6"
+        ]
+       ],
+       "published": "2026-11-07T11:31:35Z",
+       "thumb": "img/modules/dea/11-2.jpg"
+      }
+     ],
+     "deck": "downloads/dea/11-analyze-data.pptx",
+     "deck_kb": 257,
+     "seconds": 962,
+     "words": 1829
+    },
+    {
+     "num": "12",
+     "slug": "12-maintain-and-monitor-pipelines",
+     "title": "Maintain and Monitor Pipelines",
+     "desc": "What to Monitor and Why and CloudWatch Metrics, Alarms and Notifications",
+     "parts": [
+      {
+       "part": 1,
+       "id": "C5ROfKqrWWo",
+       "title": "What to Monitor and Why and CloudWatch Metrics, Alarms and Notifications",
+       "seconds": 478,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Kestrel Freight Watches the Pipeline"
+        ],
+        [
+         79,
+         "What to Monitor and Why"
+        ],
+        [
+         142,
+         "CloudWatch Metrics, Alarms and Notifications"
+        ],
+        [
+         190,
+         "CloudWatch Metrics, Alarms and Notifications, continued"
+        ],
+        [
+         238,
+         "CloudWatch Metrics, Alarms and Notifications, continued"
+        ],
+        [
+         278,
+         "CloudWatch Logs"
+        ],
+        [
+         302,
+         "CloudWatch Logs, continued"
+        ],
+        [
+         343,
+         "CloudWatch Logs, continued"
+        ],
+        [
+         356,
+         "CloudWatch Logs, continued"
+        ],
+        [
+         364,
+         "CloudWatch Logs, continued"
+        ],
+        [
+         427,
+         "AWS Glue"
+        ],
+        [
+         460,
+         "AWS Glue, continued"
+        ]
+       ],
+       "published": "2026-11-07T11:31:56Z",
+       "thumb": "img/modules/dea/12-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "0DRv3GC3YL4",
+       "title": "Amazon EMR and Performance issues in general, recap and practice",
+       "seconds": 491,
+       "chapters": [
+        [
+         0,
+         "Amazon EMR"
+        ],
+        [
+         35,
+         "Performance issues in general"
+        ],
+        [
+         95,
+         "AWS CloudTrail"
+        ],
+        [
+         135,
+         "AWS CloudTrail, continued"
+        ],
+        [
+         165,
+         "Extracting Logs for Audits"
+        ],
+        [
+         206,
+         "Extracting Logs for Audits, continued"
+        ],
+        [
+         286,
+         "Practice Question 1"
+        ],
+        [
+         321,
+         "Practice Question 2"
+        ],
+        [
+         362,
+         "Practice Question 3"
+        ],
+        [
+         394,
+         "Practice Question 4"
+        ],
+        [
+         430,
+         "Practice Question 5"
+        ]
+       ],
+       "published": "2026-11-07T11:32:14Z",
+       "thumb": "img/modules/dea/12-2.jpg"
+      }
+     ],
+     "deck": "downloads/dea/12-maintain-and-monitor-pipelines.pptx",
+     "deck_kb": 185,
+     "seconds": 969,
+     "words": 2052
+    },
+    {
+     "num": "13",
+     "slug": "13-ensure-data-quality",
+     "title": "Ensure Data Quality",
+     "desc": "Dimensions of Data Quality",
+     "parts": [
+      {
+       "part": 1,
+       "id": "U5u8JwP8RIA",
+       "title": "Dimensions of Data Quality",
+       "seconds": 509,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Kestrel Freight Trusts Its Numbers"
+        ],
+        [
+         67,
+         "Dimensions of Data Quality"
+        ],
+        [
+         132,
+         "Dimensions of Data Quality, continued"
+        ],
+        [
+         167,
+         "Running Checks While Processing"
+        ],
+        [
+         192,
+         "Running Checks While Processing, continued"
+        ],
+        [
+         244,
+         "Running Checks While Processing, continued"
+        ],
+        [
+         276,
+         "AWS Glue Data Quality"
+        ],
+        [
+         300,
+         "AWS Glue Data Quality, continued"
+        ],
+        [
+         320,
+         "Defining Data Quality Rules with DataBrew"
+        ],
+        [
+         350,
+         "Defining Data Quality Rules with DataBrew, continued"
+        ],
+        [
+         385,
+         "Defining Data Quality Rules with DataBrew, continued"
+        ],
+        [
+         399,
+         "Investigating Data Consistency"
+        ],
+        [
+         444,
+         "Investigating Data Consistency, continued"
+        ],
+        [
+         497,
+         "Data Sampling Techniques"
+        ]
+       ],
+       "published": "2026-11-07T11:32:44Z",
+       "thumb": "img/modules/dea/13-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "Q2cDk-h6A0A",
+       "title": "Data Sampling Techniques, recap and practice",
+       "seconds": 479,
+       "chapters": [
+        [
+         0,
+         "Data Sampling Techniques, continued"
+        ],
+        [
+         59,
+         "Data Sampling Techniques, continued"
+        ],
+        [
+         88,
+         "Data Skew"
+        ],
+        [
+         112,
+         "Data Skew, continued"
+        ],
+        [
+         130,
+         "Data Skew, continued"
+        ],
+        [
+         171,
+         "Data Skew, continued"
+        ],
+        [
+         264,
+         "Practice Question 1"
+        ],
+        [
+         302,
+         "Practice Question 2"
+        ],
+        [
+         338,
+         "Practice Question 3"
+        ],
+        [
+         381,
+         "Practice Question 4"
+        ],
+        [
+         426,
+         "Practice Question 5"
+        ]
+       ],
+       "published": "2026-11-07T11:32:52Z",
+       "thumb": "img/modules/dea/13-2.jpg"
+      }
+     ],
+     "deck": "downloads/dea/13-ensure-data-quality.pptx",
+     "deck_kb": 275,
+     "seconds": 988,
+     "words": 2077
+    },
+    {
+     "num": "14",
+     "slug": "14-authentication-mechanisms",
+     "title": "Authentication Mechanisms",
+     "desc": "Network Access: VPC Security Groups",
+     "parts": [
+      {
+       "part": 1,
+       "id": "1ZFwoqoYv5Y",
+       "title": "Network Access: VPC Security Groups",
+       "seconds": 508,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Kestrel Freight Locks the Doors"
+        ],
+        [
+         81,
+         "Network Access: VPC Security Groups"
+        ],
+        [
+         106,
+         "Network Access: VPC Security Groups, continued"
+        ],
+        [
+         154,
+         "Network Access: VPC Security Groups, continued"
+        ],
+        [
+         178,
+         "IAM Identities: Groups, Roles, Endpoints and Services"
+        ],
+        [
+         195,
+         "IAM Identities: Groups, Roles, Endpoints and Services, continued"
+        ],
+        [
+         255,
+         "IAM Identities: Groups, Roles, Endpoints and Services, continued"
+        ],
+        [
+         274,
+         "IAM roles for services and tools"
+        ],
+        [
+         322,
+         "IAM roles for services and tools, continued"
+        ],
+        [
+         368,
+         "Endpoints"
+        ],
+        [
+         409,
+         "Secrets: Creating and Rotating Credentials"
+        ],
+        [
+         443,
+         "Secrets: Creating and Rotating Credentials, continued"
+        ],
+        [
+         478,
+         "Secrets: Creating and Rotating Credentials, continued"
+        ]
+       ],
+       "published": "2026-11-07T11:33:23Z",
+       "thumb": "img/modules/dea/14-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "dLstDvVI388",
+       "title": "Applying IAM Policies to Roles, Endpoints and Services, recap and practice",
+       "seconds": 542,
+       "chapters": [
+        [
+         0,
+         "Applying IAM Policies to Roles, Endpoints and Services"
+        ],
+        [
+         31,
+         "Applying IAM Policies to Roles, Endpoints and Services, continued"
+        ],
+        [
+         78,
+         "Applying IAM Policies to Roles, Endpoints and Services, continued"
+        ],
+        [
+         107,
+         "Managed versus Unmanaged Services"
+        ],
+        [
+         177,
+         "Managed versus Unmanaged Services, continued"
+        ],
+        [
+         207,
+         "SageMaker Unified Studio: Domains, Domain Units and Projects"
+        ],
+        [
+         245,
+         "SageMaker Unified Studio: Domains, Domain Units and Projects, continued"
+        ],
+        [
+         279,
+         "SageMaker Unified Studio: Domains, Domain Units and Projects, continued"
+        ],
+        [
+         384,
+         "Practice Question 1"
+        ],
+        [
+         418,
+         "Practice Question 2"
+        ],
+        [
+         456,
+         "Practice Question 3"
+        ],
+        [
+         490,
+         "Practice Question 4"
+        ]
+       ],
+       "published": "2026-11-07T11:33:30Z",
+       "thumb": "img/modules/dea/14-2.jpg"
+      }
+     ],
+     "deck": "downloads/dea/14-authentication-mechanisms.pptx",
+     "deck_kb": 363,
+     "seconds": 1050,
+     "words": 2387
+    },
+    {
+     "num": "15",
+     "slug": "15-authorization-mechanisms",
+     "title": "Authorization Mechanisms",
+     "desc": "Custom IAM Policies and Policy structure",
+     "parts": [
+      {
+       "part": 1,
+       "id": "SCNoLwguYYo",
+       "title": "Custom IAM Policies and Policy structure",
+       "seconds": 465,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Kestrel Freight Draws the Lines"
+        ],
+        [
+         77,
+         "Custom IAM Policies"
+        ],
+        [
+         124,
+         "Policy structure"
+        ],
+        [
+         131,
+         "Policy structure, continued"
+        ],
+        [
+         153,
+         "Building least privilege"
+        ],
+        [
+         214,
+         "Storing Application and Database Credentials"
+        ],
+        [
+         300,
+         "Storing Application and Database Credentials, continued"
+        ],
+        [
+         349,
+         "Database Authorization in Amazon Redshift"
+        ],
+        [
+         385,
+         "Database Authorization in Amazon Redshift, continued"
+        ],
+        [
+         414,
+         "Database Authorization in Amazon Redshift, continued"
+        ],
+        [
+         435,
+         "Permissions through AWS Lake Formation"
+        ]
+       ],
+       "published": "2026-11-07T11:34:01Z",
+       "thumb": "img/modules/dea/15-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "XBbqsJizHVw",
+       "title": "Permissions through AWS Lake Formation, recap and practice",
+       "seconds": 470,
+       "chapters": [
+        [
+         0,
+         "Permissions through AWS Lake Formation, continued"
+        ],
+        [
+         45,
+         "Permissions through AWS Lake Formation, continued"
+        ],
+        [
+         90,
+         "Permissions through AWS Lake Formation, continued"
+        ],
+        [
+         111,
+         "Role-Based, Tag-Based and Attribute-Based Authorization"
+        ],
+        [
+         128,
+         "Role-Based, Tag-Based and Attribute-Based Authorization, continued"
+        ],
+        [
+         174,
+         "Role-Based, Tag-Based and Attribute-Based Authorization, continued"
+        ],
+        [
+         305,
+         "Practice Question 1"
+        ],
+        [
+         338,
+         "Practice Question 2"
+        ],
+        [
+         378,
+         "Practice Question 3"
+        ],
+        [
+         414,
+         "Practice Question 4"
+        ]
+       ],
+       "published": "2026-11-07T11:34:18Z",
+       "thumb": "img/modules/dea/15-2.jpg"
+      }
+     ],
+     "deck": "downloads/dea/15-authorization-mechanisms.pptx",
+     "deck_kb": 265,
+     "seconds": 935,
+     "words": 1980
+    },
+    {
+     "num": "16",
+     "slug": "16-encryption-and-masking",
+     "title": "Encryption and Masking",
+     "desc": "Masking and Anonymization",
+     "parts": [
+      {
+       "part": 1,
+       "id": "qOzZ-jdAIZg",
+       "title": "Masking and Anonymization",
+       "seconds": 519,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Kestrel Freight Protects Customer Data"
+        ],
+        [
+         66,
+         "Masking and Anonymization"
+        ],
+        [
+         123,
+         "Masking and Anonymization, continued"
+        ],
+        [
+         185,
+         "Masking and Anonymization, continued"
+        ],
+        [
+         211,
+         "AWS tools"
+        ],
+        [
+         269,
+         "Encryption Keys with AWS KMS"
+        ],
+        [
+         297,
+         "Encryption Keys with AWS KMS, continued"
+        ],
+        [
+         347,
+         "Encryption Keys with AWS KMS, continued"
+        ],
+        [
+         396,
+         "Encryption Keys with AWS KMS, continued"
+        ],
+        [
+         410,
+         "Encryption at rest in the data services"
+        ],
+        [
+         472,
+         "Encryption at rest in the data services, continued"
+        ]
+       ],
+       "published": "2026-11-07T11:34:44Z",
+       "thumb": "img/modules/dea/16-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "TIqQV02LW-k",
+       "title": "Encryption across Account Boundaries, recap and practice",
+       "seconds": 418,
+       "chapters": [
+        [
+         0,
+         "Encryption across Account Boundaries"
+        ],
+        [
+         26,
+         "Encryption across Account Boundaries, continued"
+        ],
+        [
+         39,
+         "Encryption across Account Boundaries, continued"
+        ],
+        [
+         76,
+         "Encryption across Account Boundaries, continued"
+        ],
+        [
+         104,
+         "Encryption in Transit or Before Transit"
+        ],
+        [
+         156,
+         "Encryption in Transit or Before Transit, continued"
+        ],
+        [
+         283,
+         "Practice Question 1"
+        ],
+        [
+         321,
+         "Practice Question 2"
+        ],
+        [
+         368,
+         "Practice Question 3"
+        ]
+       ],
+       "published": "2026-11-07T11:34:55Z",
+       "thumb": "img/modules/dea/16-2.jpg"
+      }
+     ],
+     "deck": "downloads/dea/16-encryption-and-masking.pptx",
+     "deck_kb": 303,
+     "seconds": 937,
+     "words": 2133
+    },
+    {
+     "num": "17",
+     "slug": "17-prepare-logs-for-audit",
+     "title": "Prepare Logs for Audit",
+     "desc": "Audit Logs: What an Auditor Needs and AWS CloudTrail: Tracking API Calls",
+     "parts": [
+      {
+       "part": 1,
+       "id": "aBYbO3B6Tg0",
+       "title": "Audit Logs: What an Auditor Needs and AWS CloudTrail: Tracking API Calls",
+       "seconds": 446,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Kestrel Freight Faces an Audit"
+        ],
+        [
+         76,
+         "Audit Logs: What an Auditor Needs"
+        ],
+        [
+         152,
+         "AWS CloudTrail: Tracking API Calls"
+        ],
+        [
+         187,
+         "AWS CloudTrail: Tracking API Calls, continued"
+        ],
+        [
+         213,
+         "AWS CloudTrail: Tracking API Calls, continued"
+        ],
+        [
+         257,
+         "CloudWatch Logs for Application Logs"
+        ],
+        [
+         277,
+         "CloudWatch Logs for Application Logs, continued"
+        ],
+        [
+         313,
+         "CloudWatch Logs for Application Logs, continued"
+        ],
+        [
+         326,
+         "AWS CloudTrail Lake: Centralized Queries"
+        ],
+        [
+         356,
+         "AWS CloudTrail Lake: Centralized Queries, continued"
+        ],
+        [
+         400,
+         "AWS CloudTrail Lake: Centralized Queries, continued"
+        ]
+       ],
+       "published": "2026-11-07T11:35:23Z",
+       "thumb": "img/modules/dea/17-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "dDq9kZbpkXo",
+       "title": "AWS CloudTrail Lake: Centralized Queries, recap and practice",
+       "seconds": 475,
+       "chapters": [
+        [
+         0,
+         "AWS CloudTrail Lake: Centralized Queries, continued"
+        ],
+        [
+         38,
+         "AWS CloudTrail Lake: Centralized Queries, continued"
+        ],
+        [
+         112,
+         "Analyzing Logs"
+        ],
+        [
+         162,
+         "Analyzing Logs, continued"
+        ],
+        [
+         177,
+         "Analyzing Logs, continued"
+        ],
+        [
+         185,
+         "Integrating Services for Logging at Scale"
+        ],
+        [
+         220,
+         "Integrating Services for Logging at Scale, continued"
+        ],
+        [
+         258,
+         "Integrating Services for Logging at Scale, continued"
+        ],
+        [
+         345,
+         "Practice Question 1"
+        ],
+        [
+         380,
+         "Practice Question 2"
+        ],
+        [
+         426,
+         "Practice Question 3"
+        ]
+       ],
+       "published": "2026-11-07T11:35:36Z",
+       "thumb": "img/modules/dea/17-2.jpg"
+      }
+     ],
+     "deck": "downloads/dea/17-prepare-logs-for-audit.pptx",
+     "deck_kb": 351,
+     "seconds": 921,
+     "words": 2116
+    },
+    {
+     "num": "18",
+     "slug": "18-data-privacy-and-governance",
+     "title": "Data Privacy and Governance",
+     "desc": "Granting Permissions for Data Sharing",
+     "parts": [
+      {
+       "part": 1,
+       "id": "MQ-bmYBhxmw",
+       "title": "Granting Permissions for Data Sharing",
+       "seconds": 546,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Kestrel Freight Shares Data Safely"
+        ],
+        [
+         75,
+         "Granting Permissions for Data Sharing"
+        ],
+        [
+         111,
+         "Granting Permissions for Data Sharing, continued"
+        ],
+        [
+         172,
+         "Granting Permissions for Data Sharing, continued"
+        ],
+        [
+         214,
+         "Identifying PII with Amazon Macie and Lake Formation"
+        ],
+        [
+         242,
+         "Identifying PII with Amazon Macie and Lake Formation, continued"
+        ],
+        [
+         283,
+         "Identifying PII with Amazon Macie and Lake Formation, continued"
+        ],
+        [
+         334,
+         "Preventing Backups and Replication to Disallowed Regions"
+        ],
+        [
+         374,
+         "Preventing Backups and Replication to Disallowed Regions, continued"
+        ],
+        [
+         424,
+         "Preventing Backups and Replication to Disallowed Regions, continued"
+        ],
+        [
+         460,
+         "Viewing Configuration Changes with AWS Config"
+        ],
+        [
+         504,
+         "Viewing Configuration Changes with AWS Config, continued"
+        ]
+       ],
+       "published": "2026-11-07T11:36:08Z",
+       "thumb": "img/modules/dea/18-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "XS3RtfrBuio",
+       "title": "Data Sovereignty, recap and practice",
+       "seconds": 618,
+       "chapters": [
+        [
+         0,
+         "Data Sovereignty"
+        ],
+        [
+         27,
+         "Data Sovereignty, continued"
+        ],
+        [
+         69,
+         "SageMaker Catalog Projects and Data Access"
+        ],
+        [
+         102,
+         "SageMaker Catalog Projects and Data Access, continued"
+        ],
+        [
+         136,
+         "SageMaker Catalog Projects and Data Access, continued"
+        ],
+        [
+         175,
+         "Governance Frameworks and Data Sharing Patterns"
+        ],
+        [
+         193,
+         "Governance framework: what it contains"
+        ],
+        [
+         261,
+         "Data sharing patterns"
+        ],
+        [
+         274,
+         "Data sharing patterns, continued"
+        ],
+        [
+         407,
+         "Practice Question 1"
+        ],
+        [
+         443,
+         "Practice Question 2"
+        ],
+        [
+         479,
+         "Practice Question 3"
+        ],
+        [
+         526,
+         "Practice Question 4"
+        ],
+        [
+         565,
+         "Practice Question 5"
+        ]
+       ],
+       "published": "2026-11-07T11:36:24Z",
+       "thumb": "img/modules/dea/18-2.jpg"
+      }
+     ],
+     "deck": "downloads/dea/18-data-privacy-and-governance.pptx",
+     "deck_kb": 433,
+     "seconds": 1164,
+     "words": 2506
+    },
+    {
+     "num": "19",
+     "slug": "19-quick-reference-recap-and-service-chooser",
+     "title": "Quick-Reference Recap and Service Chooser",
+     "desc": "The Whole Pipeline on One Page and Service Chooser by Requirement and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "D_EhTrvODf8",
+       "title": "The Whole Pipeline on One Page and Service Chooser by Requirement and recap",
+       "seconds": 870,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Kestrel Freight, Start to Finish"
+        ],
+        [
+         63,
+         "The Whole Pipeline on One Page"
+        ],
+        [
+         78,
+         "Service Chooser by Requirement"
+        ],
+        [
+         91,
+         "Ingestion"
+        ],
+        [
+         167,
+         "Ingestion, continued"
+        ],
+        [
+         176,
+         "Transform and process"
+        ],
+        [
+         244,
+         "Orchestrate and automate"
+        ],
+        [
+         282,
+         "Store"
+        ],
+        [
+         328,
+         "Catalog, quality, analysis"
+        ],
+        [
+         367,
+         "Operate, secure, govern"
+        ],
+        [
+         423,
+         "Look-Alike Services: How to Tell Them Apart"
+        ],
+        [
+         438,
+         "Look-Alike Services: How to Tell Them Apart, continued"
+        ],
+        [
+         503,
+         "Look-Alike Services: How to Tell Them Apart, continued"
+        ],
+        [
+         566,
+         "Look-Alike Services: How to Tell Them Apart, continued"
+        ],
+        [
+         628,
+         "Numbers and Rules Worth Remembering"
+        ],
+        [
+         680,
+         "Numbers and Rules Worth Remembering, continued"
+        ],
+        [
+         735,
+         "Numbers and Rules Worth Remembering, continued"
+        ]
+       ],
+       "published": "2026-11-07T11:37:25Z",
+       "thumb": "img/modules/dea/19-1.jpg"
+      }
+     ],
+     "deck": "downloads/dea/19-quick-reference-recap-and-service-chooser.pptx",
+     "deck_kb": 200,
+     "seconds": 870,
+     "words": 1711
+    },
+    {
+     "num": "20",
+     "slug": "20-exam-technique-and-final-review",
+     "title": "Exam Technique and Final Review",
+     "desc": "Pacing, recap and practice",
+     "parts": [
+      {
+       "part": 1,
+       "id": "ZR2BabFIS4s",
+       "title": "Pacing, recap and practice",
+       "seconds": 676,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Kestrel Freight's Data Engineer Sits the Exam"
+        ],
+        [
+         62,
+         "Pacing"
+        ],
+        [
+         97,
+         "Pacing, continued"
+        ],
+        [
+         124,
+         "A Four-Step Method"
+        ],
+        [
+         160,
+         "A Four-Step Method, continued"
+        ],
+        [
+         181,
+         "Requirement Words and What They Point To"
+        ],
+        [
+         252,
+         "Requirement Words and What They Point To, continued"
+        ],
+        [
+         304,
+         "How the Distractors Work"
+        ],
+        [
+         352,
+         "How the Distractors Work, continued"
+        ],
+        [
+         375,
+         "Final Week and Exam Day"
+        ],
+        [
+         412,
+         "Final Week and Exam Day, continued"
+        ],
+        [
+         478,
+         "Practice Question 1"
+        ],
+        [
+         519,
+         "Practice Question 2"
+        ],
+        [
+         557,
+         "Practice Question 3"
+        ],
+        [
+         589,
+         "Practice Question 4"
+        ],
+        [
+         623,
+         "Practice Question 5"
+        ]
+       ],
+       "published": "2026-11-07T11:37:21Z",
+       "thumb": "img/modules/dea/20-1.jpg"
+      }
+     ],
+     "deck": "downloads/dea/20-exam-technique-and-final-review.pptx",
+     "deck_kb": 217,
+     "seconds": 676,
+     "words": 1407
+    }
+   ],
+   "facts": {
+    "questions": "65",
+    "time": "130 min",
+    "passing": "720 of 1,000",
+    "source": "aws.amazon.com/certification",
+    "url": "https://aws.amazon.com/certification/"
+   },
+   "videos": 39,
+   "seconds": 22241,
+   "notes": [
+    {
+     "num": "00",
+     "slug": "00-course-introduction-and-exam-orientation",
+     "title": "Course Introduction and Exam Orientation",
+     "group": "Start here",
+     "tasks": 0,
+     "los": [],
+     "minutes": 9,
+     "check": {
+      "src_words": 1640,
+      "page_words": 1660,
+      "src_tables": 3,
+      "tables": 3,
+      "src_images": 3,
+      "images": 3,
+      "src_scenario": 4,
+      "scenario": 4,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "00"
+     ],
+     "domain": "",
+     "ref": "Module 0",
+     "tn": "Module 00",
+     "of": 21,
+     "module": "00"
+    },
+    {
+     "num": "01",
+     "slug": "01-batch-ingestion-schedules-and-triggers",
+     "title": "Batch Ingestion, Schedules and Triggers",
+     "group": "Domain 1: Data Ingestion and Transformation",
+     "tasks": 0,
+     "los": [],
+     "minutes": 16,
+     "check": {
+      "src_words": 3148,
+      "page_words": 3180,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 3,
+      "images": 3,
+      "src_scenario": 7,
+      "scenario": 7,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 10,
+      "sections": 10
+     },
+     "modules": [
+      "01"
+     ],
+     "domain": "",
+     "ref": "Module 1",
+     "tn": "Module 01",
+     "of": 21,
+     "module": "01"
+    },
+    {
+     "num": "02",
+     "slug": "02-streaming-ingestion",
+     "title": "Streaming Ingestion",
+     "group": "Domain 1: Data Ingestion and Transformation",
+     "tasks": 0,
+     "los": [],
+     "minutes": 15,
+     "check": {
+      "src_words": 2967,
+      "page_words": 3001,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 3,
+      "images": 3,
+      "src_scenario": 7,
+      "scenario": 7,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 12,
+      "sections": 12
+     },
+     "modules": [
+      "02"
+     ],
+     "domain": "",
+     "ref": "Module 2",
+     "tn": "Module 02",
+     "of": 21,
+     "module": "02"
+    },
+    {
+     "num": "03",
+     "slug": "03-transform-and-process-data",
+     "title": "Transform and Process Data",
+     "group": "Domain 1: Data Ingestion and Transformation",
+     "tasks": 0,
+     "los": [],
+     "minutes": 16,
+     "check": {
+      "src_words": 3204,
+      "page_words": 3230,
+      "src_tables": 6,
+      "tables": 6,
+      "src_images": 3,
+      "images": 3,
+      "src_scenario": 8,
+      "scenario": 8,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 11,
+      "sections": 11
+     },
+     "modules": [
+      "03"
+     ],
+     "domain": "",
+     "ref": "Module 3",
+     "tn": "Module 03",
+     "of": 21,
+     "module": "03"
+    },
+    {
+     "num": "04",
+     "slug": "04-orchestrate-data-pipelines",
+     "title": "Orchestrate Data Pipelines",
+     "group": "Domain 1: Data Ingestion and Transformation",
+     "tasks": 0,
+     "los": [],
+     "minutes": 12,
+     "check": {
+      "src_words": 2364,
+      "page_words": 2393,
+      "src_tables": 6,
+      "tables": 6,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 10,
+      "sections": 10
+     },
+     "modules": [
+      "04"
+     ],
+     "domain": "",
+     "ref": "Module 4",
+     "tn": "Module 04",
+     "of": 21,
+     "module": "04"
+    },
+    {
+     "num": "05",
+     "slug": "05-programming-concepts-for-data-engineering",
+     "title": "Programming Concepts for Data Engineering",
+     "group": "Domain 1: Data Ingestion and Transformation",
+     "tasks": 0,
+     "los": [],
+     "minutes": 12,
+     "check": {
+      "src_words": 2345,
+      "page_words": 2373,
+      "src_tables": 7,
+      "tables": 7,
+      "src_images": 3,
+      "images": 3,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 9,
+      "sections": 9
+     },
+     "modules": [
+      "05"
+     ],
+     "domain": "",
+     "ref": "Module 5",
+     "tn": "Module 05",
+     "of": 21,
+     "module": "05"
+    },
+    {
+     "num": "06",
+     "slug": "06-choose-a-data-store",
+     "title": "Choose a Data Store",
+     "group": "Domain 2: Data Store Management",
+     "tasks": 0,
+     "los": [],
+     "minutes": 13,
+     "check": {
+      "src_words": 2594,
+      "page_words": 2627,
+      "src_tables": 4,
+      "tables": 4,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 8,
+      "scenario": 8,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 8,
+      "sections": 8
+     },
+     "modules": [
+      "06"
+     ],
+     "domain": "",
+     "ref": "Module 6",
+     "tn": "Module 06",
+     "of": 21,
+     "module": "06"
+    },
+    {
+     "num": "07",
+     "slug": "07-data-catalogs",
+     "title": "Data Catalogs",
+     "group": "Domain 2: Data Store Management",
+     "tasks": 0,
+     "los": [],
+     "minutes": 10,
+     "check": {
+      "src_words": 1880,
+      "page_words": 1904,
+      "src_tables": 4,
+      "tables": 4,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 5,
+      "scenario": 5,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 8,
+      "sections": 8
+     },
+     "modules": [
+      "07"
+     ],
+     "domain": "",
+     "ref": "Module 7",
+     "tn": "Module 07",
+     "of": 21,
+     "module": "07"
+    },
+    {
+     "num": "08",
+     "slug": "08-manage-the-lifecycle-of-data",
+     "title": "Manage the Lifecycle of Data",
+     "group": "Domain 2: Data Store Management",
+     "tasks": 0,
+     "los": [],
+     "minutes": 11,
+     "check": {
+      "src_words": 2101,
+      "page_words": 2126,
+      "src_tables": 4,
+      "tables": 4,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 5,
+      "scenario": 5,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 8,
+      "sections": 8
+     },
+     "modules": [
+      "08"
+     ],
+     "domain": "",
+     "ref": "Module 8",
+     "tn": "Module 08",
+     "of": 21,
+     "module": "08"
+    },
+    {
+     "num": "09",
+     "slug": "09-data-models-and-schema-evolution",
+     "title": "Data Models and Schema Evolution",
+     "group": "Domain 2: Data Store Management",
+     "tasks": 0,
+     "los": [],
+     "minutes": 13,
+     "check": {
+      "src_words": 2536,
+      "page_words": 2564,
+      "src_tables": 3,
+      "tables": 3,
+      "src_images": 3,
+      "images": 3,
+      "src_scenario": 8,
+      "scenario": 8,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 9,
+      "sections": 9
+     },
+     "modules": [
+      "09"
+     ],
+     "domain": "",
+     "ref": "Module 9",
+     "tn": "Module 09",
+     "of": 21,
+     "module": "09"
+    },
+    {
+     "num": "10",
+     "slug": "10-automate-data-processing",
+     "title": "Automate Data Processing",
+     "group": "Domain 3: Data Operations and Support",
+     "tasks": 0,
+     "los": [],
+     "minutes": 11,
+     "check": {
+      "src_words": 2226,
+      "page_words": 2248,
+      "src_tables": 3,
+      "tables": 3,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 10,
+      "sections": 10
+     },
+     "modules": [
+      "10"
+     ],
+     "domain": "",
+     "ref": "Module 10",
+     "tn": "Module 10",
+     "of": 21,
+     "module": "10"
+    },
+    {
+     "num": "11",
+     "slug": "11-analyze-data",
+     "title": "Analyze Data",
+     "group": "Domain 3: Data Operations and Support",
+     "tasks": 0,
+     "los": [],
+     "minutes": 9,
+     "check": {
+      "src_words": 1848,
+      "page_words": 1875,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 9,
+      "sections": 9
+     },
+     "modules": [
+      "11"
+     ],
+     "domain": "",
+     "ref": "Module 11",
+     "tn": "Module 11",
+     "of": 21,
+     "module": "11"
+    },
+    {
+     "num": "12",
+     "slug": "12-maintain-and-monitor-pipelines",
+     "title": "Maintain and Monitor Pipelines",
+     "group": "Domain 3: Data Operations and Support",
+     "tasks": 0,
+     "los": [],
+     "minutes": 10,
+     "check": {
+      "src_words": 2058,
+      "page_words": 2083,
+      "src_tables": 4,
+      "tables": 4,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 5,
+      "scenario": 5,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 9,
+      "sections": 9
+     },
+     "modules": [
+      "12"
+     ],
+     "domain": "",
+     "ref": "Module 12",
+     "tn": "Module 12",
+     "of": 21,
+     "module": "12"
+    },
+    {
+     "num": "13",
+     "slug": "13-ensure-data-quality",
+     "title": "Ensure Data Quality",
+     "group": "Domain 3: Data Operations and Support",
+     "tasks": 0,
+     "los": [],
+     "minutes": 11,
+     "check": {
+      "src_words": 2082,
+      "page_words": 2113,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 3,
+      "images": 3,
+      "src_scenario": 5,
+      "scenario": 5,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 9,
+      "sections": 9
+     },
+     "modules": [
+      "13"
+     ],
+     "domain": "",
+     "ref": "Module 13",
+     "tn": "Module 13",
+     "of": 21,
+     "module": "13"
+    },
+    {
+     "num": "14",
+     "slug": "14-authentication-mechanisms",
+     "title": "Authentication Mechanisms",
+     "group": "Domain 4: Data Security and Governance",
+     "tasks": 0,
+     "los": [],
+     "minutes": 11,
+     "check": {
+      "src_words": 2232,
+      "page_words": 2254,
+      "src_tables": 4,
+      "tables": 4,
+      "src_images": 4,
+      "images": 4,
+      "src_scenario": 4,
+      "scenario": 4,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 9,
+      "sections": 9
+     },
+     "modules": [
+      "14"
+     ],
+     "domain": "",
+     "ref": "Module 14",
+     "tn": "Module 14",
+     "of": 21,
+     "module": "14"
+    },
+    {
+     "num": "15",
+     "slug": "15-authorization-mechanisms",
+     "title": "Authorization Mechanisms",
+     "group": "Domain 4: Data Security and Governance",
+     "tasks": 0,
+     "los": [],
+     "minutes": 10,
+     "check": {
+      "src_words": 1917,
+      "page_words": 1919,
+      "src_tables": 4,
+      "tables": 4,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 4,
+      "scenario": 4,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 8,
+      "sections": 8
+     },
+     "modules": [
+      "15"
+     ],
+     "domain": "",
+     "ref": "Module 15",
+     "tn": "Module 15",
+     "of": 21,
+     "module": "15"
+    },
+    {
+     "num": "16",
+     "slug": "16-encryption-and-masking",
+     "title": "Encryption and Masking",
+     "group": "Domain 4: Data Security and Governance",
+     "tasks": 0,
+     "los": [],
+     "minutes": 10,
+     "check": {
+      "src_words": 1906,
+      "page_words": 1923,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 3,
+      "images": 3,
+      "src_scenario": 3,
+      "scenario": 3,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "16"
+     ],
+     "domain": "",
+     "ref": "Module 16",
+     "tn": "Module 16",
+     "of": 21,
+     "module": "16"
+    },
+    {
+     "num": "17",
+     "slug": "17-prepare-logs-for-audit",
+     "title": "Prepare Logs for Audit",
+     "group": "Domain 4: Data Security and Governance",
+     "tasks": 0,
+     "los": [],
+     "minutes": 10,
+     "check": {
+      "src_words": 1863,
+      "page_words": 1882,
+      "src_tables": 4,
+      "tables": 4,
+      "src_images": 3,
+      "images": 3,
+      "src_scenario": 3,
+      "scenario": 3,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 9,
+      "sections": 9
+     },
+     "modules": [
+      "17"
+     ],
+     "domain": "",
+     "ref": "Module 17",
+     "tn": "Module 17",
+     "of": 21,
+     "module": "17"
+    },
+    {
+     "num": "18",
+     "slug": "18-data-privacy-and-governance",
+     "title": "Data Privacy and Governance",
+     "group": "Domain 4: Data Security and Governance",
+     "tasks": 0,
+     "los": [],
+     "minutes": 12,
+     "check": {
+      "src_words": 2344,
+      "page_words": 2370,
+      "src_tables": 4,
+      "tables": 4,
+      "src_images": 5,
+      "images": 5,
+      "src_scenario": 5,
+      "scenario": 5,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 10,
+      "sections": 10
+     },
+     "modules": [
+      "18"
+     ],
+     "domain": "",
+     "ref": "Module 18",
+     "tn": "Module 18",
+     "of": 21,
+     "module": "18"
+    },
+    {
+     "num": "19",
+     "slug": "19-quick-reference-recap-and-service-chooser",
+     "title": "Quick-Reference Recap and Service Chooser",
+     "group": "Review and exam day",
+     "tasks": 0,
+     "los": [],
+     "minutes": 7,
+     "check": {
+      "src_words": 1366,
+      "page_words": 1374,
+      "src_tables": 9,
+      "tables": 9,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 0,
+      "scenario": 0,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "19"
+     ],
+     "domain": "",
+     "ref": "Module 19",
+     "tn": "Module 19",
+     "of": 21,
+     "module": "19"
+    },
+    {
+     "num": "20",
+     "slug": "20-exam-technique-and-final-review",
+     "title": "Exam Technique and Final Review",
+     "group": "Review and exam day",
+     "tasks": 0,
+     "los": [],
+     "minutes": 8,
+     "check": {
+      "src_words": 1486,
+      "page_words": 1506,
+      "src_tables": 2,
+      "tables": 2,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 5,
+      "scenario": 5,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 8,
+      "sections": 8
+     },
+     "modules": [
+      "20"
+     ],
+     "domain": "",
+     "ref": "Module 20",
+     "tn": "Module 20",
+     "of": 21,
+     "module": "20"
     }
    ],
    "glossary": 0

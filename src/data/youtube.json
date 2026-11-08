@@ -9073,6 +9073,2443 @@
    ]
   ]
  },
+ "R3IFCV-oVIE": {
+  "course": "dea",
+  "key": "00-Course-Introduction-and-Exam-Orientation-part-1",
+  "title": "AWS DEA-C01 Exam Prep Introduction: Exam Format, Domains and How to Study | AWS Data Engineer",
+  "seconds": 637,
+  "published": "2026-11-07T11:22:52Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Meet Kestrel Freight"
+   ],
+   [
+    74,
+    "The numbers"
+   ],
+   [
+    93,
+    "The numbers, continued"
+   ],
+   [
+    151,
+    "Two kinds of question"
+   ],
+   [
+    182,
+    "Who the exam is for"
+   ],
+   [
+    224,
+    "Four Domains, Seventeen Task Statements"
+   ],
+   [
+    240,
+    "Four Domains, Seventeen Task Statements, continued"
+   ],
+   [
+    292,
+    "Four Domains, Seventeen Task Statements, continued"
+   ],
+   [
+    348,
+    "What changed in guide version 1.1"
+   ],
+   [
+    381,
+    "What changed in guide version 1.1, continued"
+   ],
+   [
+    423,
+    "How This Course Works"
+   ],
+   [
+    453,
+    "How This Course Works, continued"
+   ],
+   [
+    481,
+    "Labels you will see"
+   ],
+   [
+    508,
+    "Study Plan and Ground Rules"
+   ],
+   [
+    548,
+    "Study Plan and Ground Rules, continued"
+   ]
+  ]
+ },
+ "gh4GerqiVDU": {
+  "course": "dea",
+  "key": "01-Batch-Ingestion-Schedules-and-Triggers-part-1",
+  "title": "AWS DEA-C01 Exam Prep Module 1 Part 1 of 2: Batch Sources, DMS, AppFlow, Glue and Schedules",
+  "seconds": 722,
+  "published": "2026-11-07T11:23:20Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Kestrel Freight Loads Its First Data"
+   ],
+   [
+    91,
+    "Batch or streaming"
+   ],
+   [
+    116,
+    "Batch sources and tools"
+   ],
+   [
+    136,
+    "Batch sources and tools, continued"
+   ],
+   [
+    194,
+    "Batch sources and tools, continued"
+   ],
+   [
+    255,
+    "AWS DMS in one page"
+   ],
+   [
+    307,
+    "Amazon AppFlow in one page"
+   ],
+   [
+    359,
+    "Configuration Options for Batch Ingestion"
+   ],
+   [
+    407,
+    "Configuration Options for Batch Ingestion, continued"
+   ],
+   [
+    418,
+    "Glue job bookmarks"
+   ],
+   [
+    456,
+    "Glue job bookmarks, continued"
+   ],
+   [
+    484,
+    "Loading Amazon Redshift from S3 (COPY)"
+   ],
+   [
+    533,
+    "Consuming Data APIs"
+   ],
+   [
+    579,
+    "Consuming Data APIs, continued"
+   ],
+   [
+    598,
+    "Schedulers: Time-Based Starts"
+   ],
+   [
+    654,
+    "Schedulers: Time-Based Starts, continued"
+   ],
+   [
+    675,
+    "EventBridge schedule expressions"
+   ]
+  ]
+ },
+ "PJ5WcngJwJk": {
+  "course": "dea",
+  "key": "01-Batch-Ingestion-Schedules-and-Triggers-part-2",
+  "title": "AWS DEA-C01 Exam Prep Module 1 Part 2 of 2: Event Triggers, Throttling and Practice | AWS DEA",
+  "seconds": 683,
+  "published": "2026-11-07T11:23:44Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Event Triggers: Start When Something Happens"
+   ],
+   [
+    42,
+    "Event Triggers: Start When Something Happens, continued"
+   ],
+   [
+    82,
+    "Event Triggers: Start When Something Happens, continued"
+   ],
+   [
+    132,
+    "Allowlists for Data Sources"
+   ],
+   [
+    170,
+    "Allowlists for Data Sources, continued"
+   ],
+   [
+    203,
+    "Throttling and Rate Limits"
+   ],
+   [
+    244,
+    "Throttling and Rate Limits, continued"
+   ],
+   [
+    276,
+    "Throttling and Rate Limits, continued"
+   ],
+   [
+    366,
+    "Practice Question 1"
+   ],
+   [
+    408,
+    "Practice Question 2"
+   ],
+   [
+    452,
+    "Practice Question 3"
+   ],
+   [
+    492,
+    "Practice Question 4"
+   ],
+   [
+    542,
+    "Practice Question 5"
+   ],
+   [
+    587,
+    "Practice Question 6"
+   ],
+   [
+    629,
+    "Practice Question 7"
+   ]
+  ]
+ },
+ "K-t0Zr7pzTk": {
+  "course": "dea",
+  "key": "02-Streaming-Ingestion-part-1",
+  "title": "AWS DEA-C01 Exam Prep Module 2 Part 1 of 2: Kinesis, MSK, DynamoDB Streams and Firehose | AWS DEA",
+  "seconds": 682,
+  "published": "2026-11-07T11:24:08Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Kestrel Freight Tracks Its Trucks"
+   ],
+   [
+    84,
+    "Streaming Sources and the Service That Fits"
+   ],
+   [
+    104,
+    "Streaming Sources and the Service That Fits, continued"
+   ],
+   [
+    157,
+    "Streaming Sources and the Service That Fits, continued"
+   ],
+   [
+    217,
+    "Streaming Sources and the Service That Fits, continued"
+   ],
+   [
+    253,
+    "Amazon Kinesis Data Streams"
+   ],
+   [
+    269,
+    "How it works"
+   ],
+   [
+    303,
+    "How it works, continued"
+   ],
+   [
+    319,
+    "Capacity modes and limits"
+   ],
+   [
+    367,
+    "Capacity modes and limits, continued"
+   ],
+   [
+    401,
+    "Hot shards"
+   ],
+   [
+    432,
+    "Amazon Data Firehose"
+   ],
+   [
+    475,
+    "Amazon Data Firehose, continued"
+   ],
+   [
+    514,
+    "Amazon MSK (Managed Streaming for Apache Kafka)"
+   ],
+   [
+    558,
+    "Amazon MSK (Managed Streaming for Apache Kafka), continued"
+   ],
+   [
+    612,
+    "DynamoDB Streams"
+   ],
+   [
+    648,
+    "AWS DMS, Glue and Redshift as streaming sources"
+   ]
+  ]
+ },
+ "oeRojQimr5s": {
+  "course": "dea",
+  "key": "02-Streaming-Ingestion-part-2",
+  "title": "AWS DEA-C01 Exam Prep Module 2 Part 2 of 2: Lambda with Kinesis, Replay, Fan-Out and Practice",
+  "seconds": 704,
+  "published": "2026-11-07T11:24:41Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Calling a Lambda Function from Kinesis"
+   ],
+   [
+    41,
+    "Calling a Lambda Function from Kinesis, continued"
+   ],
+   [
+    90,
+    "Fan-In and Fan-Out"
+   ],
+   [
+    106,
+    "Fan-In and Fan-Out, continued"
+   ],
+   [
+    158,
+    "Fan-In and Fan-Out, continued"
+   ],
+   [
+    190,
+    "Replayability"
+   ],
+   [
+    225,
+    "Replayability, continued"
+   ],
+   [
+    258,
+    "Stateful and Stateless Data Transactions"
+   ],
+   [
+    303,
+    "Stateful and Stateless Data Transactions, continued"
+   ],
+   [
+    394,
+    "Practice Question 1"
+   ],
+   [
+    437,
+    "Practice Question 2"
+   ],
+   [
+    480,
+    "Practice Question 3"
+   ],
+   [
+    518,
+    "Practice Question 4"
+   ],
+   [
+    570,
+    "Practice Question 5"
+   ],
+   [
+    618,
+    "Practice Question 6"
+   ],
+   [
+    652,
+    "Practice Question 7"
+   ]
+  ]
+ },
+ "fhkFdJngZzo": {
+  "course": "dea",
+  "key": "03-Transform-and-Process-Data-part-1",
+  "title": "AWS DEA-C01 Exam Prep Module 3 Part 1 of 2: Glue, EMR, Lambda, Redshift and Containers | AWS DEA",
+  "seconds": 762,
+  "published": "2026-11-07T11:25:12Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Kestrel Freight Cleans Its Data"
+   ],
+   [
+    88,
+    "Choosing the Transformation Service"
+   ],
+   [
+    109,
+    "Choosing the Transformation Service, continued"
+   ],
+   [
+    169,
+    "Choosing the Transformation Service, continued"
+   ],
+   [
+    223,
+    "Glue facts to know"
+   ],
+   [
+    259,
+    "Glue facts to know, continued"
+   ],
+   [
+    286,
+    "EMR facts to know"
+   ],
+   [
+    338,
+    "File Formats and Conversion"
+   ],
+   [
+    351,
+    "File Formats and Conversion, continued"
+   ],
+   [
+    424,
+    "File Formats and Conversion, continued"
+   ],
+   [
+    474,
+    "Connecting to and Integrating Data Sources"
+   ],
+   [
+    520,
+    "Connecting to and Integrating Data Sources, continued"
+   ],
+   [
+    570,
+    "Cost while processing"
+   ],
+   [
+    623,
+    "Cost while processing, continued"
+   ],
+   [
+    641,
+    "Containers (Amazon ECS, Amazon EKS)"
+   ],
+   [
+    681,
+    "Containers (Amazon ECS, Amazon EKS), continued"
+   ],
+   [
+    708,
+    "Troubleshooting Failures and Slow Jobs"
+   ]
+  ]
+ },
+ "bYjubKENQ9U": {
+  "course": "dea",
+  "key": "03-Transform-and-Process-Data-part-2",
+  "title": "AWS DEA-C01 Exam Prep Module 3 Part 2 of 2: Troubleshooting, Formats, LLMs and Practice | AWS DEA",
+  "seconds": 772,
+  "published": "2026-11-07T11:25:43Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Troubleshooting Failures and Slow Jobs, continued"
+   ],
+   [
+    64,
+    "Troubleshooting Failures and Slow Jobs, continued"
+   ],
+   [
+    94,
+    "Data APIs: Making Data Available to Other Systems"
+   ],
+   [
+    147,
+    "Data APIs: Making Data Available to Other Systems, continued"
+   ],
+   [
+    190,
+    "Volume, Velocity and Variety"
+   ],
+   [
+    203,
+    "Volume, Velocity and Variety, continued"
+   ],
+   [
+    275,
+    "Using Large Language Models in Data Processing"
+   ],
+   [
+    323,
+    "Using Large Language Models in Data Processing, continued"
+   ],
+   [
+    436,
+    "Practice Question 1"
+   ],
+   [
+    479,
+    "Practice Question 2"
+   ],
+   [
+    517,
+    "Practice Question 3"
+   ],
+   [
+    561,
+    "Practice Question 4"
+   ],
+   [
+    597,
+    "Practice Question 5"
+   ],
+   [
+    638,
+    "Practice Question 6"
+   ],
+   [
+    679,
+    "Practice Question 7"
+   ],
+   [
+    710,
+    "Practice Question 8"
+   ]
+  ]
+ },
+ "7OaWohp1QK8": {
+  "course": "dea",
+  "key": "04-Orchestrate-Data-Pipelines-part-1",
+  "title": "AWS DEA-C01 Exam Prep Module 4 Part 1 of 2: Step Functions, MWAA, Glue Workflows and EventBridge",
+  "seconds": 605,
+  "published": "2026-11-07T11:25:59Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Kestrel Freight Chains Its Steps"
+   ],
+   [
+    74,
+    "What Orchestration Does"
+   ],
+   [
+    107,
+    "What Orchestration Does, continued"
+   ],
+   [
+    125,
+    "What Orchestration Does, continued"
+   ],
+   [
+    173,
+    "What Orchestration Does, continued"
+   ],
+   [
+    233,
+    "Workflow types"
+   ],
+   [
+    296,
+    "Service integration patterns"
+   ],
+   [
+    346,
+    "Service integration patterns, continued"
+   ],
+   [
+    363,
+    "Flow control and error handling"
+   ],
+   [
+    402,
+    "Amazon MWAA (Managed Apache Airflow)"
+   ],
+   [
+    452,
+    "Amazon MWAA (Managed Apache Airflow), continued"
+   ],
+   [
+    519,
+    "Glue workflows"
+   ],
+   [
+    559,
+    "Amazon EventBridge"
+   ]
+  ]
+ },
+ "XlmrN1pa4PU": {
+  "course": "dea",
+  "key": "04-Orchestrate-Data-Pipelines-part-2",
+  "title": "AWS DEA-C01 Exam Prep Module 4 Part 2 of 2: Reliable Pipelines, SNS, SQS and Practice | AWS DEA",
+  "seconds": 562,
+  "published": "2026-11-07T11:26:21Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Building Reliable, Scalable Pipelines"
+   ],
+   [
+    57,
+    "Building Reliable, Scalable Pipelines, continued"
+   ],
+   [
+    97,
+    "Serverless Workflows"
+   ],
+   [
+    149,
+    "Notifications and Alerts: SNS and SQS"
+   ],
+   [
+    223,
+    "Notifications and Alerts: SNS and SQS, continued"
+   ],
+   [
+    295,
+    "Practice Question 1"
+   ],
+   [
+    341,
+    "Practice Question 2"
+   ],
+   [
+    381,
+    "Practice Question 3"
+   ],
+   [
+    422,
+    "Practice Question 4"
+   ],
+   [
+    472,
+    "Practice Question 5"
+   ],
+   [
+    510,
+    "Practice Question 6"
+   ]
+  ]
+ },
+ "b_J1IdtFC1M": {
+  "course": "dea",
+  "key": "05-Programming-Concepts-for-Data-Engineering-part-1",
+  "title": "AWS DEA-C01 Exam Prep Module 5 Part 1 of 2: SQL, Lambda Tuning, Code and Infrastructure as Code",
+  "seconds": 605,
+  "published": "2026-11-07T11:26:50Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Kestrel Freight Speeds Up Its Nightly Job"
+   ],
+   [
+    81,
+    "Optimizing Code and Runtime"
+   ],
+   [
+    138,
+    "Optimizing Code and Runtime, continued"
+   ],
+   [
+    160,
+    "Lambda Concurrency and Performance"
+   ],
+   [
+    205,
+    "Lambda Concurrency and Performance, continued"
+   ],
+   [
+    255,
+    "Lambda Concurrency and Performance, continued"
+   ],
+   [
+    292,
+    "Mounting storage in Lambda"
+   ],
+   [
+    350,
+    "Languages and frameworks"
+   ],
+   [
+    400,
+    "Practices"
+   ],
+   [
+    462,
+    "Infrastructure as Code"
+   ],
+   [
+    477,
+    "Infrastructure as Code, continued"
+   ],
+   [
+    533,
+    "CloudFormation essentials"
+   ],
+   [
+    556,
+    "AWS SAM essentials"
+   ]
+  ]
+ },
+ "xKuxeVOi0l0": {
+  "course": "dea",
+  "key": "05-Programming-Concepts-for-Data-Engineering-part-2",
+  "title": "AWS DEA-C01 Exam Prep Module 5 Part 2 of 2: CI/CD, Git, SAM, Distributed Computing and Practice",
+  "seconds": 574,
+  "published": "2026-11-07T11:27:05Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "CI/CD for Data Pipelines"
+   ],
+   [
+    31,
+    "CI/CD for Data Pipelines, continued"
+   ],
+   [
+    86,
+    "Distributed computing"
+   ],
+   [
+    137,
+    "Data structures and algorithms"
+   ],
+   [
+    148,
+    "Data structures and algorithms, continued"
+   ],
+   [
+    213,
+    "Data structures and algorithms, continued"
+   ],
+   [
+    323,
+    "Practice Question 1"
+   ],
+   [
+    361,
+    "Practice Question 2"
+   ],
+   [
+    404,
+    "Practice Question 3"
+   ],
+   [
+    445,
+    "Practice Question 4"
+   ],
+   [
+    482,
+    "Practice Question 5"
+   ],
+   [
+    519,
+    "Practice Question 6"
+   ]
+  ]
+ },
+ "22J_dcyQh_4": {
+  "course": "dea",
+  "key": "06-Choose-a-Data-Store-part-1",
+  "title": "AWS DEA-C01 Exam Prep Module 6 Part 1 of 2: S3, Redshift, DynamoDB, Lake Formation and Formats",
+  "seconds": 684,
+  "published": "2026-11-07T11:27:45Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Kestrel Freight Picks Its Stores"
+   ],
+   [
+    96,
+    "Matching the Workload to the Store"
+   ],
+   [
+    118,
+    "Matching the Workload to the Store, continued"
+   ],
+   [
+    190,
+    "Matching the Workload to the Store, continued"
+   ],
+   [
+    266,
+    "Matching the Workload to the Store, continued"
+   ],
+   [
+    326,
+    "Amazon Redshift configuration"
+   ],
+   [
+    365,
+    "Amazon Redshift configuration, continued"
+   ],
+   [
+    383,
+    "Amazon DynamoDB configuration"
+   ],
+   [
+    426,
+    "RDS and Aurora configuration"
+   ],
+   [
+    448,
+    "Amazon EMR and Lake Formation"
+   ],
+   [
+    467,
+    "Vector Stores, MemoryDB and Index Types"
+   ],
+   [
+    510,
+    "Vector Stores, MemoryDB and Index Types, continued"
+   ],
+   [
+    530,
+    "Vector Stores, MemoryDB and Index Types, continued"
+   ],
+   [
+    580,
+    "Vector Stores, MemoryDB and Index Types, continued"
+   ],
+   [
+    601,
+    "Amazon MemoryDB for fast key/value access"
+   ],
+   [
+    641,
+    "AWS Transfer Family"
+   ]
+  ]
+ },
+ "VZwbu8L8rEY": {
+  "course": "dea",
+  "key": "06-Choose-a-Data-Store-part-2",
+  "title": "AWS DEA-C01 Exam Prep Module 6 Part 2 of 2: Migration, Remote Access and Practice | AWS DEA",
+  "seconds": 645,
+  "published": "2026-11-07T11:28:09Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Redshift remote access"
+   ],
+   [
+    60,
+    "Redshift remote access, continued"
+   ],
+   [
+    89,
+    "Locks"
+   ],
+   [
+    121,
+    "Locks, continued"
+   ],
+   [
+    163,
+    "Open Table Formats and Amazon S3 Tables"
+   ],
+   [
+    208,
+    "Open Table Formats and Amazon S3 Tables, continued"
+   ],
+   [
+    314,
+    "Practice Question 1"
+   ],
+   [
+    354,
+    "Practice Question 2"
+   ],
+   [
+    391,
+    "Practice Question 3"
+   ],
+   [
+    438,
+    "Practice Question 4"
+   ],
+   [
+    479,
+    "Practice Question 5"
+   ],
+   [
+    515,
+    "Practice Question 6"
+   ],
+   [
+    549,
+    "Practice Question 7"
+   ],
+   [
+    588,
+    "Practice Question 8"
+   ]
+  ]
+ },
+ "XMBiRJ_N50Y": {
+  "course": "dea",
+  "key": "07-Data-Catalogs-part-1",
+  "title": "AWS DEA-C01 Exam Prep Module 7 Part 1 of 2: Glue Data Catalog, Crawlers and Partitions | AWS DEA",
+  "seconds": 448,
+  "published": "2026-11-07T11:28:24Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Kestrel Freight Finds Its Data"
+   ],
+   [
+    75,
+    "What a Catalog Is and Why It Matters"
+   ],
+   [
+    111,
+    "What a Catalog Is and Why It Matters, continued"
+   ],
+   [
+    129,
+    "What a Catalog Is and Why It Matters, continued"
+   ],
+   [
+    192,
+    "What a Catalog Is and Why It Matters, continued"
+   ],
+   [
+    223,
+    "Glue Crawlers: Discovering Schemas"
+   ],
+   [
+    246,
+    "Glue Crawlers: Discovering Schemas, continued"
+   ],
+   [
+    289,
+    "Glue Crawlers: Discovering Schemas, continued"
+   ],
+   [
+    336,
+    "Synchronizing Partitions"
+   ],
+   [
+    358,
+    "Synchronizing Partitions, continued"
+   ],
+   [
+    410,
+    "Synchronizing Partitions, continued"
+   ]
+  ]
+ },
+ "pKRBrFOie68": {
+  "course": "dea",
+  "key": "07-Data-Catalogs-part-2",
+  "title": "AWS DEA-C01 Exam Prep Module 7 Part 2 of 2: Connections, Hive Metastore and Practice | AWS DEA",
+  "seconds": 484,
+  "published": "2026-11-07T11:28:36Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Connections for Cataloging"
+   ],
+   [
+    42,
+    "Connections for Cataloging, continued"
+   ],
+   [
+    70,
+    "Business Data Catalogs: Amazon SageMaker Catalog"
+   ],
+   [
+    94,
+    "Business Data Catalogs: Amazon SageMaker Catalog, continued"
+   ],
+   [
+    137,
+    "Business Data Catalogs: Amazon SageMaker Catalog, continued"
+   ],
+   [
+    266,
+    "Practice Question 1"
+   ],
+   [
+    306,
+    "Practice Question 2"
+   ],
+   [
+    351,
+    "Practice Question 3"
+   ],
+   [
+    391,
+    "Practice Question 4"
+   ],
+   [
+    429,
+    "Practice Question 5"
+   ]
+  ]
+ },
+ "SKgCVqEQ65M": {
+  "course": "dea",
+  "key": "08-Manage-the-Lifecycle-of-Data-part-1",
+  "title": "AWS DEA-C01 Exam Prep Module 8 Part 1 of 2: S3 Tiers, Redshift Load and Unload, Lifecycle | AWS DEA",
+  "seconds": 464,
+  "published": "2026-11-07T11:28:55Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Kestrel Freight Ages Its Data"
+   ],
+   [
+    70,
+    "Loading and Unloading Between S3 and Redshift"
+   ],
+   [
+    87,
+    "Loading and Unloading Between S3 and Redshift, continued"
+   ],
+   [
+    142,
+    "Loading and Unloading Between S3 and Redshift, continued"
+   ],
+   [
+    191,
+    "S3 Lifecycle Policies: Tiering and Expiring"
+   ],
+   [
+    207,
+    "Lifecycle actions"
+   ],
+   [
+    244,
+    "Rules to remember"
+   ],
+   [
+    278,
+    "Rules to remember, continued"
+   ],
+   [
+    312,
+    "Rules to remember, continued"
+   ],
+   [
+    366,
+    "S3 versioning"
+   ],
+   [
+    412,
+    "DynamoDB TTL (time to live)"
+   ]
+  ]
+ },
+ "0gk_e_BRE9A": {
+  "course": "dea",
+  "key": "08-Manage-the-Lifecycle-of-Data-part-2",
+  "title": "AWS DEA-C01 Exam Prep Module 8 Part 2 of 2: Retention, Deletion, Backup and Practice | AWS DEA",
+  "seconds": 529,
+  "published": "2026-11-07T11:29:27Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Deleting Data to Meet Business and Legal Needs"
+   ],
+   [
+    46,
+    "Deleting Data to Meet Business and Legal Needs, continued"
+   ],
+   [
+    89,
+    "Resiliency and Availability of Stored Data"
+   ],
+   [
+    147,
+    "Resiliency and Availability of Stored Data, continued"
+   ],
+   [
+    212,
+    "Resiliency and Availability of Stored Data, continued"
+   ],
+   [
+    316,
+    "Practice Question 1"
+   ],
+   [
+    354,
+    "Practice Question 2"
+   ],
+   [
+    390,
+    "Practice Question 3"
+   ],
+   [
+    426,
+    "Practice Question 4"
+   ],
+   [
+    474,
+    "Practice Question 5"
+   ]
+  ]
+ },
+ "7YuDNFmY5Tg": {
+  "course": "dea",
+  "key": "09-Data-Models-and-Schema-Evolution-part-1",
+  "title": "AWS DEA-C01 Exam Prep Module 9 Part 1 of 2: Redshift Design, DynamoDB, Schema Evolution | AWS DEA",
+  "seconds": 567,
+  "published": "2026-11-07T11:29:44Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Kestrel Freight Models Its Data"
+   ],
+   [
+    83,
+    "Amazon Redshift: dimensional design"
+   ],
+   [
+    109,
+    "Amazon Redshift: dimensional design, continued"
+   ],
+   [
+    146,
+    "Amazon Redshift: dimensional design, continued"
+   ],
+   [
+    155,
+    "Amazon DynamoDB: design from the access patterns"
+   ],
+   [
+    188,
+    "Amazon DynamoDB: design from the access patterns, continued"
+   ],
+   [
+    237,
+    "AWS Lake Formation: lake tables"
+   ],
+   [
+    287,
+    "Schema Evolution and Changing Data"
+   ],
+   [
+    310,
+    "Schema Evolution and Changing Data, continued"
+   ],
+   [
+    366,
+    "Schema Evolution and Changing Data, continued"
+   ],
+   [
+    427,
+    "Schema Conversion"
+   ],
+   [
+    457,
+    "Schema Conversion, continued"
+   ],
+   [
+    499,
+    "Data Lineage"
+   ],
+   [
+    540,
+    "Data Lineage, continued"
+   ]
+  ]
+ },
+ "0-mpFhy6YWk": {
+  "course": "dea",
+  "key": "09-Data-Models-and-Schema-Evolution-part-2",
+  "title": "AWS DEA-C01 Exam Prep Module 9 Part 2 of 2: Partitioning, Indexing, Compression, Lineage | AWS DEA",
+  "seconds": 630,
+  "published": "2026-11-07T11:30:11Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Indexing, Partitioning, Compression and Optimization"
+   ],
+   [
+    60,
+    "Indexing, Partitioning, Compression and Optimization, continued"
+   ],
+   [
+    132,
+    "Vectorization Concepts"
+   ],
+   [
+    157,
+    "Vectorization Concepts, continued"
+   ],
+   [
+    193,
+    "Vectorization Concepts, continued"
+   ],
+   [
+    301,
+    "Practice Question 1"
+   ],
+   [
+    342,
+    "Practice Question 2"
+   ],
+   [
+    383,
+    "Practice Question 3"
+   ],
+   [
+    421,
+    "Practice Question 4"
+   ],
+   [
+    459,
+    "Practice Question 5"
+   ],
+   [
+    494,
+    "Practice Question 6"
+   ],
+   [
+    533,
+    "Practice Question 7"
+   ],
+   [
+    569,
+    "Practice Question 8"
+   ]
+  ]
+ },
+ "NWRN5N1Dc7M": {
+  "course": "dea",
+  "key": "10-Automate-Data-Processing-part-1",
+  "title": "AWS DEA-C01 Exam Prep Module 10 Part 1 of 2: Managed Workflows, Troubleshooting and Automation",
+  "seconds": 512,
+  "published": "2026-11-07T11:30:27Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Kestrel Freight Keeps the Pipeline Running"
+   ],
+   [
+    82,
+    "Orchestrating and Troubleshooting Managed Workflows"
+   ],
+   [
+    127,
+    "Orchestrating and Troubleshooting Managed Workflows, continued"
+   ],
+   [
+    159,
+    "Orchestrating and Troubleshooting Managed Workflows, continued"
+   ],
+   [
+    206,
+    "Orchestrating and Troubleshooting Managed Workflows, continued"
+   ],
+   [
+    219,
+    "Orchestrating and Troubleshooting Managed Workflows, continued"
+   ],
+   [
+    250,
+    "Calling SDKs from Code"
+   ],
+   [
+    296,
+    "Calling SDKs from Code, continued"
+   ],
+   [
+    343,
+    "Using Service Features to Process Data"
+   ],
+   [
+    398,
+    "Using Service Features to Process Data, continued"
+   ],
+   [
+    419,
+    "Consuming and Maintaining Data APIs"
+   ],
+   [
+    466,
+    "Consuming and Maintaining Data APIs, continued"
+   ],
+   [
+    479,
+    "Preparing Data for Transformation"
+   ]
+  ]
+ },
+ "0BQYZ_VcDq0": {
+  "course": "dea",
+  "key": "10-Automate-Data-Processing-part-2",
+  "title": "AWS DEA-C01 Exam Prep Module 10 Part 2 of 2: DataBrew, Athena, Lambda and Practice | AWS DEA",
+  "seconds": 498,
+  "published": "2026-11-07T11:30:50Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Preparing Data for Transformation, continued"
+   ],
+   [
+    44,
+    "Querying Data with Amazon Athena"
+   ],
+   [
+    86,
+    "Querying Data with Amazon Athena, continued"
+   ],
+   [
+    122,
+    "Lambda, Events and Schedulers"
+   ],
+   [
+    171,
+    "Lambda, Events and Schedulers, continued"
+   ],
+   [
+    260,
+    "Practice Question 1"
+   ],
+   [
+    298,
+    "Practice Question 2"
+   ],
+   [
+    333,
+    "Practice Question 3"
+   ],
+   [
+    370,
+    "Practice Question 4"
+   ],
+   [
+    404,
+    "Practice Question 5"
+   ],
+   [
+    442,
+    "Practice Question 6"
+   ]
+  ]
+ },
+ "Gwzo2Y40ykQ": {
+  "course": "dea",
+  "key": "11-Analyze-Data-part-1",
+  "title": "AWS DEA-C01 Exam Prep Module 11 Part 1 of 2: Visualization, QuickSight, Cleaning and SQL | AWS DEA",
+  "seconds": 452,
+  "published": "2026-11-07T11:31:07Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Kestrel Freight Builds Dashboards"
+   ],
+   [
+    76,
+    "Visualizing Data"
+   ],
+   [
+    147,
+    "Visualizing Data, continued"
+   ],
+   [
+    193,
+    "Verifying and Cleaning Data"
+   ],
+   [
+    211,
+    "Verifying and Cleaning Data, continued"
+   ],
+   [
+    267,
+    "Verifying and Cleaning Data, continued"
+   ],
+   [
+    292,
+    "SQL in Amazon Redshift and Athena"
+   ],
+   [
+    340,
+    "SQL in Amazon Redshift and Athena, continued"
+   ],
+   [
+    363,
+    "SQL in Amazon Redshift and Athena, continued"
+   ],
+   [
+    373,
+    "Aggregation, Grouping, Rolling Averages and Pivoting"
+   ],
+   [
+    405,
+    "Aggregation, Grouping, Rolling Averages and Pivoting, continued"
+   ],
+   [
+    415,
+    "Aggregation, Grouping, Rolling Averages and Pivoting, continued"
+   ]
+  ]
+ },
+ "8WUc9Wwjg3w": {
+  "course": "dea",
+  "key": "11-Analyze-Data-part-2",
+  "title": "AWS DEA-C01 Exam Prep Module 11 Part 2 of 2: Athena Spark, Provisioned vs Serverless and Practice",
+  "seconds": 510,
+  "published": "2026-11-07T11:31:35Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Athena Notebooks with Apache Spark"
+   ],
+   [
+    53,
+    "Provisioned versus Serverless"
+   ],
+   [
+    69,
+    "Provisioned versus Serverless, continued"
+   ],
+   [
+    123,
+    "Provisioned versus Serverless, continued"
+   ],
+   [
+    272,
+    "Practice Question 1"
+   ],
+   [
+    309,
+    "Practice Question 2"
+   ],
+   [
+    344,
+    "Practice Question 3"
+   ],
+   [
+    377,
+    "Practice Question 4"
+   ],
+   [
+    413,
+    "Practice Question 5"
+   ],
+   [
+    455,
+    "Practice Question 6"
+   ]
+  ]
+ },
+ "C5ROfKqrWWo": {
+  "course": "dea",
+  "key": "12-Maintain-and-Monitor-Pipelines-part-1",
+  "title": "AWS DEA-C01 Exam Prep Module 12 Part 1 of 2: CloudWatch Metrics, Alarms, Logs and Notifications",
+  "seconds": 478,
+  "published": "2026-11-07T11:31:56Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Kestrel Freight Watches the Pipeline"
+   ],
+   [
+    79,
+    "What to Monitor and Why"
+   ],
+   [
+    142,
+    "CloudWatch Metrics, Alarms and Notifications"
+   ],
+   [
+    190,
+    "CloudWatch Metrics, Alarms and Notifications, continued"
+   ],
+   [
+    238,
+    "CloudWatch Metrics, Alarms and Notifications, continued"
+   ],
+   [
+    278,
+    "CloudWatch Logs"
+   ],
+   [
+    302,
+    "CloudWatch Logs, continued"
+   ],
+   [
+    343,
+    "CloudWatch Logs, continued"
+   ],
+   [
+    356,
+    "CloudWatch Logs, continued"
+   ],
+   [
+    364,
+    "CloudWatch Logs, continued"
+   ],
+   [
+    427,
+    "AWS Glue"
+   ],
+   [
+    460,
+    "AWS Glue, continued"
+   ]
+  ]
+ },
+ "0DRv3GC3YL4": {
+  "course": "dea",
+  "key": "12-Maintain-and-Monitor-Pipelines-part-2",
+  "title": "AWS DEA-C01 Exam Prep Module 12 Part 2 of 2: EMR, Performance, Troubleshooting and Practice",
+  "seconds": 491,
+  "published": "2026-11-07T11:32:14Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Amazon EMR"
+   ],
+   [
+    35,
+    "Performance issues in general"
+   ],
+   [
+    95,
+    "AWS CloudTrail"
+   ],
+   [
+    135,
+    "AWS CloudTrail, continued"
+   ],
+   [
+    165,
+    "Extracting Logs for Audits"
+   ],
+   [
+    206,
+    "Extracting Logs for Audits, continued"
+   ],
+   [
+    286,
+    "Practice Question 1"
+   ],
+   [
+    321,
+    "Practice Question 2"
+   ],
+   [
+    362,
+    "Practice Question 3"
+   ],
+   [
+    394,
+    "Practice Question 4"
+   ],
+   [
+    430,
+    "Practice Question 5"
+   ]
+  ]
+ },
+ "U5u8JwP8RIA": {
+  "course": "dea",
+  "key": "13-Ensure-Data-Quality-part-1",
+  "title": "AWS DEA-C01 Exam Prep Module 13 Part 1 of 2: Quality Dimensions, Glue Data Quality and DataBrew",
+  "seconds": 509,
+  "published": "2026-11-07T11:32:44Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Kestrel Freight Trusts Its Numbers"
+   ],
+   [
+    67,
+    "Dimensions of Data Quality"
+   ],
+   [
+    132,
+    "Dimensions of Data Quality, continued"
+   ],
+   [
+    167,
+    "Running Checks While Processing"
+   ],
+   [
+    192,
+    "Running Checks While Processing, continued"
+   ],
+   [
+    244,
+    "Running Checks While Processing, continued"
+   ],
+   [
+    276,
+    "AWS Glue Data Quality"
+   ],
+   [
+    300,
+    "AWS Glue Data Quality, continued"
+   ],
+   [
+    320,
+    "Defining Data Quality Rules with DataBrew"
+   ],
+   [
+    350,
+    "Defining Data Quality Rules with DataBrew, continued"
+   ],
+   [
+    385,
+    "Defining Data Quality Rules with DataBrew, continued"
+   ],
+   [
+    399,
+    "Investigating Data Consistency"
+   ],
+   [
+    444,
+    "Investigating Data Consistency, continued"
+   ],
+   [
+    497,
+    "Data Sampling Techniques"
+   ]
+  ]
+ },
+ "Q2cDk-h6A0A": {
+  "course": "dea",
+  "key": "13-Ensure-Data-Quality-part-2",
+  "title": "AWS DEA-C01 Exam Prep Module 13 Part 2 of 2: Sampling, Validation, Bad Data and Practice | AWS DEA",
+  "seconds": 479,
+  "published": "2026-11-07T11:32:52Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Data Sampling Techniques, continued"
+   ],
+   [
+    59,
+    "Data Sampling Techniques, continued"
+   ],
+   [
+    88,
+    "Data Skew"
+   ],
+   [
+    112,
+    "Data Skew, continued"
+   ],
+   [
+    130,
+    "Data Skew, continued"
+   ],
+   [
+    171,
+    "Data Skew, continued"
+   ],
+   [
+    264,
+    "Practice Question 1"
+   ],
+   [
+    302,
+    "Practice Question 2"
+   ],
+   [
+    338,
+    "Practice Question 3"
+   ],
+   [
+    381,
+    "Practice Question 4"
+   ],
+   [
+    426,
+    "Practice Question 5"
+   ]
+  ]
+ },
+ "1ZFwoqoYv5Y": {
+  "course": "dea",
+  "key": "14-Authentication-Mechanisms-part-1",
+  "title": "AWS DEA-C01 Exam Prep Module 14 Part 1 of 2: IAM, Secrets Manager, VPC and Network Access | AWS DEA",
+  "seconds": 508,
+  "published": "2026-11-07T11:33:23Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Kestrel Freight Locks the Doors"
+   ],
+   [
+    81,
+    "Network Access: VPC Security Groups"
+   ],
+   [
+    106,
+    "Network Access: VPC Security Groups, continued"
+   ],
+   [
+    154,
+    "Network Access: VPC Security Groups, continued"
+   ],
+   [
+    178,
+    "IAM Identities: Groups, Roles, Endpoints and Services"
+   ],
+   [
+    195,
+    "IAM Identities: Groups, Roles, Endpoints and Services, continued"
+   ],
+   [
+    255,
+    "IAM Identities: Groups, Roles, Endpoints and Services, continued"
+   ],
+   [
+    274,
+    "IAM roles for services and tools"
+   ],
+   [
+    322,
+    "IAM roles for services and tools, continued"
+   ],
+   [
+    368,
+    "Endpoints"
+   ],
+   [
+    409,
+    "Secrets: Creating and Rotating Credentials"
+   ],
+   [
+    443,
+    "Secrets: Creating and Rotating Credentials, continued"
+   ],
+   [
+    478,
+    "Secrets: Creating and Rotating Credentials, continued"
+   ]
+  ]
+ },
+ "dLstDvVI388": {
+  "course": "dea",
+  "key": "14-Authentication-Mechanisms-part-2",
+  "title": "AWS DEA-C01 Exam Prep Module 14 Part 2 of 2: Roles, Endpoints, Services and Practice | AWS DEA",
+  "seconds": 542,
+  "published": "2026-11-07T11:33:30Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Applying IAM Policies to Roles, Endpoints and Services"
+   ],
+   [
+    31,
+    "Applying IAM Policies to Roles, Endpoints and Services, continued"
+   ],
+   [
+    78,
+    "Applying IAM Policies to Roles, Endpoints and Services, continued"
+   ],
+   [
+    107,
+    "Managed versus Unmanaged Services"
+   ],
+   [
+    177,
+    "Managed versus Unmanaged Services, continued"
+   ],
+   [
+    207,
+    "SageMaker Unified Studio: Domains, Domain Units and Projects"
+   ],
+   [
+    245,
+    "SageMaker Unified Studio: Domains, Domain Units and Projects, continued"
+   ],
+   [
+    279,
+    "SageMaker Unified Studio: Domains, Domain Units and Projects, continued"
+   ],
+   [
+    384,
+    "Practice Question 1"
+   ],
+   [
+    418,
+    "Practice Question 2"
+   ],
+   [
+    456,
+    "Practice Question 3"
+   ],
+   [
+    490,
+    "Practice Question 4"
+   ]
+  ]
+ },
+ "SCNoLwguYYo": {
+  "course": "dea",
+  "key": "15-Authorization-Mechanisms-part-1",
+  "title": "AWS DEA-C01 Exam Prep Module 15 Part 1 of 2: IAM Policies, Roles and Least Privilege | AWS DEA",
+  "seconds": 465,
+  "published": "2026-11-07T11:34:01Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Kestrel Freight Draws the Lines"
+   ],
+   [
+    77,
+    "Custom IAM Policies"
+   ],
+   [
+    124,
+    "Policy structure"
+   ],
+   [
+    131,
+    "Policy structure, continued"
+   ],
+   [
+    153,
+    "Building least privilege"
+   ],
+   [
+    214,
+    "Storing Application and Database Credentials"
+   ],
+   [
+    300,
+    "Storing Application and Database Credentials, continued"
+   ],
+   [
+    349,
+    "Database Authorization in Amazon Redshift"
+   ],
+   [
+    385,
+    "Database Authorization in Amazon Redshift, continued"
+   ],
+   [
+    414,
+    "Database Authorization in Amazon Redshift, continued"
+   ],
+   [
+    435,
+    "Permissions through AWS Lake Formation"
+   ]
+  ]
+ },
+ "XBbqsJizHVw": {
+  "course": "dea",
+  "key": "15-Authorization-Mechanisms-part-2",
+  "title": "AWS DEA-C01 Exam Prep Module 15 Part 2 of 2: Lake Formation, Redshift, Database Access and Practice",
+  "seconds": 470,
+  "published": "2026-11-07T11:34:18Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Permissions through AWS Lake Formation, continued"
+   ],
+   [
+    45,
+    "Permissions through AWS Lake Formation, continued"
+   ],
+   [
+    90,
+    "Permissions through AWS Lake Formation, continued"
+   ],
+   [
+    111,
+    "Role-Based, Tag-Based and Attribute-Based Authorization"
+   ],
+   [
+    128,
+    "Role-Based, Tag-Based and Attribute-Based Authorization, continued"
+   ],
+   [
+    174,
+    "Role-Based, Tag-Based and Attribute-Based Authorization, continued"
+   ],
+   [
+    305,
+    "Practice Question 1"
+   ],
+   [
+    338,
+    "Practice Question 2"
+   ],
+   [
+    378,
+    "Practice Question 3"
+   ],
+   [
+    414,
+    "Practice Question 4"
+   ]
+  ]
+ },
+ "qOzZ-jdAIZg": {
+  "course": "dea",
+  "key": "16-Encryption-and-Masking-part-1",
+  "title": "AWS DEA-C01 Exam Prep Module 16 Part 1 of 2: Masking, Anonymization and KMS Encryption | AWS DEA",
+  "seconds": 519,
+  "published": "2026-11-07T11:34:44Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Kestrel Freight Protects Customer Data"
+   ],
+   [
+    66,
+    "Masking and Anonymization"
+   ],
+   [
+    123,
+    "Masking and Anonymization, continued"
+   ],
+   [
+    185,
+    "Masking and Anonymization, continued"
+   ],
+   [
+    211,
+    "AWS tools"
+   ],
+   [
+    269,
+    "Encryption Keys with AWS KMS"
+   ],
+   [
+    297,
+    "Encryption Keys with AWS KMS, continued"
+   ],
+   [
+    347,
+    "Encryption Keys with AWS KMS, continued"
+   ],
+   [
+    396,
+    "Encryption Keys with AWS KMS, continued"
+   ],
+   [
+    410,
+    "Encryption at rest in the data services"
+   ],
+   [
+    472,
+    "Encryption at rest in the data services, continued"
+   ]
+  ]
+ },
+ "TIqQV02LW-k": {
+  "course": "dea",
+  "key": "16-Encryption-and-Masking-part-2",
+  "title": "AWS DEA-C01 Exam Prep Module 16 Part 2 of 2: Cross-Account Encryption, Key Policies and Practice",
+  "seconds": 418,
+  "published": "2026-11-07T11:34:55Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Encryption across Account Boundaries"
+   ],
+   [
+    26,
+    "Encryption across Account Boundaries, continued"
+   ],
+   [
+    39,
+    "Encryption across Account Boundaries, continued"
+   ],
+   [
+    76,
+    "Encryption across Account Boundaries, continued"
+   ],
+   [
+    104,
+    "Encryption in Transit or Before Transit"
+   ],
+   [
+    156,
+    "Encryption in Transit or Before Transit, continued"
+   ],
+   [
+    283,
+    "Practice Question 1"
+   ],
+   [
+    321,
+    "Practice Question 2"
+   ],
+   [
+    368,
+    "Practice Question 3"
+   ]
+  ]
+ },
+ "aBYbO3B6Tg0": {
+  "course": "dea",
+  "key": "17-Prepare-Logs-for-Audit-part-1",
+  "title": "AWS DEA-C01 Exam Prep Module 17 Part 1 of 2: CloudTrail, CloudWatch Logs and Audit Needs | AWS DEA",
+  "seconds": 446,
+  "published": "2026-11-07T11:35:23Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Kestrel Freight Faces an Audit"
+   ],
+   [
+    76,
+    "Audit Logs: What an Auditor Needs"
+   ],
+   [
+    152,
+    "AWS CloudTrail: Tracking API Calls"
+   ],
+   [
+    187,
+    "AWS CloudTrail: Tracking API Calls, continued"
+   ],
+   [
+    213,
+    "AWS CloudTrail: Tracking API Calls, continued"
+   ],
+   [
+    257,
+    "CloudWatch Logs for Application Logs"
+   ],
+   [
+    277,
+    "CloudWatch Logs for Application Logs, continued"
+   ],
+   [
+    313,
+    "CloudWatch Logs for Application Logs, continued"
+   ],
+   [
+    326,
+    "AWS CloudTrail Lake: Centralized Queries"
+   ],
+   [
+    356,
+    "AWS CloudTrail Lake: Centralized Queries, continued"
+   ],
+   [
+    400,
+    "AWS CloudTrail Lake: Centralized Queries, continued"
+   ]
+  ]
+ },
+ "dDq9kZbpkXo": {
+  "course": "dea",
+  "key": "17-Prepare-Logs-for-Audit-part-2",
+  "title": "AWS DEA-C01 Exam Prep Module 17 Part 2 of 2: CloudTrail Lake, Athena Log Queries and Practice",
+  "seconds": 475,
+  "published": "2026-11-07T11:35:36Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "AWS CloudTrail Lake: Centralized Queries, continued"
+   ],
+   [
+    38,
+    "AWS CloudTrail Lake: Centralized Queries, continued"
+   ],
+   [
+    112,
+    "Analyzing Logs"
+   ],
+   [
+    162,
+    "Analyzing Logs, continued"
+   ],
+   [
+    177,
+    "Analyzing Logs, continued"
+   ],
+   [
+    185,
+    "Integrating Services for Logging at Scale"
+   ],
+   [
+    220,
+    "Integrating Services for Logging at Scale, continued"
+   ],
+   [
+    258,
+    "Integrating Services for Logging at Scale, continued"
+   ],
+   [
+    345,
+    "Practice Question 1"
+   ],
+   [
+    380,
+    "Practice Question 2"
+   ],
+   [
+    426,
+    "Practice Question 3"
+   ]
+  ]
+ },
+ "MQ-bmYBhxmw": {
+  "course": "dea",
+  "key": "18-Data-Privacy-and-Governance-part-1",
+  "title": "AWS DEA-C01 Exam Prep Module 18 Part 1 of 2: Macie, PII, Data Sharing and Governance | AWS DEA",
+  "seconds": 546,
+  "published": "2026-11-07T11:36:08Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Kestrel Freight Shares Data Safely"
+   ],
+   [
+    75,
+    "Granting Permissions for Data Sharing"
+   ],
+   [
+    111,
+    "Granting Permissions for Data Sharing, continued"
+   ],
+   [
+    172,
+    "Granting Permissions for Data Sharing, continued"
+   ],
+   [
+    214,
+    "Identifying PII with Amazon Macie and Lake Formation"
+   ],
+   [
+    242,
+    "Identifying PII with Amazon Macie and Lake Formation, continued"
+   ],
+   [
+    283,
+    "Identifying PII with Amazon Macie and Lake Formation, continued"
+   ],
+   [
+    334,
+    "Preventing Backups and Replication to Disallowed Regions"
+   ],
+   [
+    374,
+    "Preventing Backups and Replication to Disallowed Regions, continued"
+   ],
+   [
+    424,
+    "Preventing Backups and Replication to Disallowed Regions, continued"
+   ],
+   [
+    460,
+    "Viewing Configuration Changes with AWS Config"
+   ],
+   [
+    504,
+    "Viewing Configuration Changes with AWS Config, continued"
+   ]
+  ]
+ },
+ "XS3RtfrBuio": {
+  "course": "dea",
+  "key": "18-Data-Privacy-and-Governance-part-2",
+  "title": "AWS DEA-C01 Exam Prep Module 18 Part 2 of 2: Data Sovereignty, Backups, Config and Practice",
+  "seconds": 618,
+  "published": "2026-11-07T11:36:24Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Data Sovereignty"
+   ],
+   [
+    27,
+    "Data Sovereignty, continued"
+   ],
+   [
+    69,
+    "SageMaker Catalog Projects and Data Access"
+   ],
+   [
+    102,
+    "SageMaker Catalog Projects and Data Access, continued"
+   ],
+   [
+    136,
+    "SageMaker Catalog Projects and Data Access, continued"
+   ],
+   [
+    175,
+    "Governance Frameworks and Data Sharing Patterns"
+   ],
+   [
+    193,
+    "Governance framework: what it contains"
+   ],
+   [
+    261,
+    "Data sharing patterns"
+   ],
+   [
+    274,
+    "Data sharing patterns, continued"
+   ],
+   [
+    407,
+    "Practice Question 1"
+   ],
+   [
+    443,
+    "Practice Question 2"
+   ],
+   [
+    479,
+    "Practice Question 3"
+   ],
+   [
+    526,
+    "Practice Question 4"
+   ],
+   [
+    565,
+    "Practice Question 5"
+   ]
+  ]
+ },
+ "D_EhTrvODf8": {
+  "course": "dea",
+  "key": "19-Quick-Reference-Recap-and-Service-Chooser-part-1",
+  "title": "AWS DEA-C01 Exam Prep Module 19: Quick Reference Recap and Service Chooser | AWS Data Engineer",
+  "seconds": 870,
+  "published": "2026-11-07T11:37:25Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Kestrel Freight, Start to Finish"
+   ],
+   [
+    63,
+    "The Whole Pipeline on One Page"
+   ],
+   [
+    78,
+    "Service Chooser by Requirement"
+   ],
+   [
+    91,
+    "Ingestion"
+   ],
+   [
+    167,
+    "Ingestion, continued"
+   ],
+   [
+    176,
+    "Transform and process"
+   ],
+   [
+    244,
+    "Orchestrate and automate"
+   ],
+   [
+    282,
+    "Store"
+   ],
+   [
+    328,
+    "Catalog, quality, analysis"
+   ],
+   [
+    367,
+    "Operate, secure, govern"
+   ],
+   [
+    423,
+    "Look-Alike Services: How to Tell Them Apart"
+   ],
+   [
+    438,
+    "Look-Alike Services: How to Tell Them Apart, continued"
+   ],
+   [
+    503,
+    "Look-Alike Services: How to Tell Them Apart, continued"
+   ],
+   [
+    566,
+    "Look-Alike Services: How to Tell Them Apart, continued"
+   ],
+   [
+    628,
+    "Numbers and Rules Worth Remembering"
+   ],
+   [
+    680,
+    "Numbers and Rules Worth Remembering, continued"
+   ],
+   [
+    735,
+    "Numbers and Rules Worth Remembering, continued"
+   ]
+  ]
+ },
+ "ZR2BabFIS4s": {
+  "course": "dea",
+  "key": "20-Exam-Technique-and-Final-Review-part-1",
+  "title": "AWS DEA-C01 Exam Prep Module 20: Exam Technique, Pacing and Final Review | AWS Data Engineer",
+  "seconds": 676,
+  "published": "2026-11-07T11:37:21Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Kestrel Freight's Data Engineer Sits the Exam"
+   ],
+   [
+    62,
+    "Pacing"
+   ],
+   [
+    97,
+    "Pacing, continued"
+   ],
+   [
+    124,
+    "A Four-Step Method"
+   ],
+   [
+    160,
+    "A Four-Step Method, continued"
+   ],
+   [
+    181,
+    "Requirement Words and What They Point To"
+   ],
+   [
+    252,
+    "Requirement Words and What They Point To, continued"
+   ],
+   [
+    304,
+    "How the Distractors Work"
+   ],
+   [
+    352,
+    "How the Distractors Work, continued"
+   ],
+   [
+    375,
+    "Final Week and Exam Day"
+   ],
+   [
+    412,
+    "Final Week and Exam Day, continued"
+   ],
+   [
+    478,
+    "Practice Question 1"
+   ],
+   [
+    519,
+    "Practice Question 2"
+   ],
+   [
+    557,
+    "Practice Question 3"
+   ],
+   [
+    589,
+    "Practice Question 4"
+   ],
+   [
+    623,
+    "Practice Question 5"
+   ]
+  ]
+ },
  "yTE9OtaIN9A": {
   "course": "cdmp",
   "key": "00-Course-Introduction",
