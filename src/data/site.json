@@ -67,6 +67,15 @@
    ]
   },
   {
+   "id": "anthropic",
+   "name": "Anthropic",
+   "full": "Anthropic Partner Academy",
+   "mono": "ANT",
+   "certs": [
+    "ccar"
+   ]
+  },
+  {
    "id": "training",
    "name": "Training",
    "full": "Techversation training courses",
@@ -19508,6 +19517,2503 @@
      "tn": "Module 20",
      "of": 21,
      "module": "20"
+    }
+   ],
+   "glossary": 0
+  },
+  {
+   "kind": "certification",
+   "topic": null,
+   "slug": "ccar",
+   "institute": "anthropic",
+   "short": "CCAR-F",
+   "name": "Claude Architect Foundations",
+   "title": "Claude Architect Foundations (CCAR-F) Exam Prep Masterclass",
+   "accent": "c-ccar",
+   "desc": "Agentic architecture, tool design and MCP, Claude Code workflows, structured output and reliability, with the Birchwood Supply running case.",
+   "audience": "Solution architects and engineers who build with Claude, the Agent SDK, Claude Code and MCP, and anyone preparing for the Claude Architect Foundations exam.",
+   "sources": "The official Claude Architect Foundations (CCAR-F) exam guide and Anthropic's own documentation.",
+   "playlist": "PLVxvowucGdmY",
+   "cover": "img/covers/ccar.jpg",
+   "modules": [
+    {
+     "num": "00",
+     "slug": "00-course-introduction-exam-orientation-and-the-six-scenarios",
+     "title": "Course Introduction, Exam Orientation and the Six Scenarios",
+     "desc": "The Exam at a Glance",
+     "parts": [
+      {
+       "part": 1,
+       "id": "bNjvn7ntMAg",
+       "title": "The Exam at a Glance",
+       "seconds": 424,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Birchwood Supply"
+        ],
+        [
+         73,
+         "The Exam at a Glance"
+        ],
+        [
+         90,
+         "The Exam at a Glance, continued"
+        ],
+        [
+         141,
+         "The Exam at a Glance, continued"
+        ],
+        [
+         174,
+         "The Exam at a Glance, continued"
+        ],
+        [
+         214,
+         "The Five Domains"
+        ],
+        [
+         236,
+         "The Five Domains, continued"
+        ],
+        [
+         304,
+         "The Five Domains, continued"
+        ],
+        [
+         325,
+         "The Five Domains, continued"
+        ],
+        [
+         357,
+         "The Six Scenarios"
+        ],
+        [
+         365,
+         "The Six Scenarios, continued"
+        ]
+       ],
+       "published": "2026-11-08T07:33:51Z",
+       "thumb": "img/modules/ccar/00-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "HjkJEzUTnvk",
+       "title": "The Six Scenarios and Ten Decision Rules the Questions Reward and recap",
+       "seconds": 476,
+       "chapters": [
+        [
+         0,
+         "The Six Scenarios, continued"
+        ],
+        [
+         66,
+         "Ten Decision Rules the Questions Reward"
+        ],
+        [
+         83,
+         "Ten Decision Rules the Questions Reward, continued"
+        ],
+        [
+         131,
+         "Ten Decision Rules the Questions Reward, continued"
+        ],
+        [
+         191,
+         "Ten Decision Rules the Questions Reward, continued"
+        ],
+        [
+         247,
+         "The Technologies at a Glance"
+        ],
+        [
+         263,
+         "The Technologies at a Glance, continued"
+        ],
+        [
+         312,
+         "The Technologies at a Glance, continued"
+        ],
+        [
+         340,
+         "How to Use This Course"
+        ],
+        [
+         362,
+         "How to Use This Course, continued"
+        ],
+        [
+         403,
+         "How to Use This Course, continued"
+        ]
+       ],
+       "published": "2026-11-08T07:34:17Z",
+       "thumb": "img/modules/ccar/00-2.jpg"
+      }
+     ],
+     "deck": "downloads/ccar/00-course-introduction-exam-orientation-and-the-six-scenarios.pptx",
+     "deck_kb": 361,
+     "seconds": 900,
+     "words": 2041
+    },
+    {
+     "num": "01",
+     "slug": "01-agentic-loops-and-stop-reason",
+     "title": "Agentic Loops and stop_reason",
+     "desc": "The Agentic Loop, recap and practice",
+     "parts": [
+      {
+       "part": 1,
+       "id": "Y5jBBgd7JiI",
+       "title": "The Agentic Loop, recap and practice",
+       "seconds": 796,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Birchwood Supply Answers a Return Request"
+        ],
+        [
+         70,
+         "The Agentic Loop"
+        ],
+        [
+         108,
+         "The Agentic Loop, continued"
+        ],
+        [
+         122,
+         "The Agentic Loop, continued"
+        ],
+        [
+         139,
+         "How Tool Results Reach the Model"
+        ],
+        [
+         175,
+         "How Tool Results Reach the Model, continued"
+        ],
+        [
+         193,
+         "How Tool Results Reach the Model, continued"
+        ],
+        [
+         216,
+         "Model-Driven Versus Pre-Configured"
+        ],
+        [
+         271,
+         "Model-Driven Versus Pre-Configured, continued"
+        ],
+        [
+         310,
+         "Stopping the Loop Correctly"
+        ],
+        [
+         322,
+         "Stopping the Loop Correctly, continued"
+        ],
+        [
+         358,
+         "Stopping the Loop Correctly, continued"
+        ],
+        [
+         369,
+         "Other stop reasons"
+        ],
+        [
+         426,
+         "Other stop reasons, continued"
+        ],
+        [
+         494,
+         "Practice Question 1"
+        ],
+        [
+         539,
+         "Practice Question 2"
+        ],
+        [
+         579,
+         "Practice Question 3"
+        ],
+        [
+         610,
+         "Practice Question 4"
+        ],
+        [
+         641,
+         "Practice Question 5"
+        ],
+        [
+         674,
+         "Practice Question 6"
+        ],
+        [
+         705,
+         "Practice Question 7"
+        ],
+        [
+         736,
+         "Practice Question 8"
+        ]
+       ],
+       "published": "2026-11-08T07:34:58Z",
+       "thumb": "img/modules/ccar/01-1.jpg"
+      }
+     ],
+     "deck": "downloads/ccar/01-agentic-loops-and-stop-reason.pptx",
+     "deck_kb": 298,
+     "seconds": 796,
+     "words": 1693
+    },
+    {
+     "num": "02",
+     "slug": "02-multi-agent-orchestration-coordinator-subagents-and-spawning",
+     "title": "Multi-Agent Orchestration: Coordinator, Subagents and Spawning",
+     "desc": "The Coordinator and Subagents, recap and practice",
+     "parts": [
+      {
+       "part": 1,
+       "id": "aDdU8K6Xpc4",
+       "title": "The Coordinator and Subagents, recap and practice",
+       "seconds": 831,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Birchwood Supply Researches a Market"
+        ],
+        [
+         72,
+         "The Coordinator and Subagents"
+        ],
+        [
+         81,
+         "The Coordinator and Subagents, continued"
+        ],
+        [
+         98,
+         "The Coordinator and Subagents, continued"
+        ],
+        [
+         154,
+         "Decomposition: Coverage and Dynamic Selection"
+        ],
+        [
+         195,
+         "Decomposition: Coverage and Dynamic Selection, continued"
+        ],
+        [
+         211,
+         "Decomposition: Coverage and Dynamic Selection, continued"
+        ],
+        [
+         235,
+         "Spawning Subagents"
+        ],
+        [
+         273,
+         "Spawning Subagents, continued"
+        ],
+        [
+         302,
+         "Spawning Subagents, continued"
+        ],
+        [
+         310,
+         "Passing context"
+        ],
+        [
+         350,
+         "Passing context, continued"
+        ],
+        [
+         443,
+         "Practice Question 1"
+        ],
+        [
+         487,
+         "Practice Question 2"
+        ],
+        [
+         517,
+         "Practice Question 3"
+        ],
+        [
+         554,
+         "Practice Question 4"
+        ],
+        [
+         594,
+         "Practice Question 5"
+        ],
+        [
+         628,
+         "Practice Question 6"
+        ],
+        [
+         662,
+         "Practice Question 7"
+        ],
+        [
+         691,
+         "Practice Question 8"
+        ],
+        [
+         724,
+         "Practice Question 9"
+        ],
+        [
+         766,
+         "Practice Question 10"
+        ]
+       ],
+       "published": "2026-11-08T07:35:20Z",
+       "thumb": "img/modules/ccar/02-1.jpg"
+      }
+     ],
+     "deck": "downloads/ccar/02-multi-agent-orchestration-coordinator-subagents-and-spawning.pptx",
+     "deck_kb": 309,
+     "seconds": 831,
+     "words": 1551
+    },
+    {
+     "num": "03",
+     "slug": "03-enforcement-handoffs-and-hooks",
+     "title": "Enforcement, Handoffs and Hooks",
+     "desc": "Enforcement Versus Guidance, recap and practice",
+     "parts": [
+      {
+       "part": 1,
+       "id": "rtLrMghEzKc",
+       "title": "Enforcement Versus Guidance, recap and practice",
+       "seconds": 787,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Birchwood Supply Stops Wrong Refunds"
+        ],
+        [
+         73,
+         "Enforcement Versus Guidance"
+        ],
+        [
+         125,
+         "Enforcement Versus Guidance, continued"
+        ],
+        [
+         156,
+         "Prerequisite Gates and Multi-Concern Requests"
+        ],
+        [
+         198,
+         "Structured Handoffs to Humans"
+        ],
+        [
+         211,
+         "Structured Handoffs to Humans, continued"
+        ],
+        [
+         224,
+         "Structured Handoffs to Humans, continued"
+        ],
+        [
+         264,
+         "Hooks"
+        ],
+        [
+         276,
+         "Hooks, continued"
+        ],
+        [
+         288,
+         "Hooks, continued"
+        ],
+        [
+         331,
+         "Hooks, continued"
+        ],
+        [
+         338,
+         "Hooks, continued"
+        ],
+        [
+         434,
+         "Practice Question 1"
+        ],
+        [
+         477,
+         "Practice Question 2"
+        ],
+        [
+         515,
+         "Practice Question 3"
+        ],
+        [
+         553,
+         "Practice Question 4"
+        ],
+        [
+         588,
+         "Practice Question 5"
+        ],
+        [
+         621,
+         "Practice Question 6"
+        ],
+        [
+         652,
+         "Practice Question 7"
+        ],
+        [
+         683,
+         "Practice Question 8"
+        ],
+        [
+         723,
+         "Practice Question 9"
+        ]
+       ],
+       "published": "2026-11-08T07:35:48Z",
+       "thumb": "img/modules/ccar/03-1.jpg"
+      }
+     ],
+     "deck": "downloads/ccar/03-enforcement-handoffs-and-hooks.pptx",
+     "deck_kb": 288,
+     "seconds": 787,
+     "words": 1517
+    },
+    {
+     "num": "04",
+     "slug": "04-task-decomposition-sessions-resume-and-fork",
+     "title": "Task Decomposition, Sessions, Resume and Fork",
+     "desc": "Choosing a Decomposition Strategy, recap and practice",
+     "parts": [
+      {
+       "part": 1,
+       "id": "a2bPMdJlV2o",
+       "title": "Choosing a Decomposition Strategy, recap and practice",
+       "seconds": 691,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Birchwood Supply Reviews a Big Change"
+        ],
+        [
+         67,
+         "Choosing a Decomposition Strategy"
+        ],
+        [
+         115,
+         "Choosing a Decomposition Strategy, continued"
+        ],
+        [
+         137,
+         "Reviewing many files: local passes plus an integration pass"
+        ],
+        [
+         173,
+         "Open-ended tasks (\"add tests to the legacy system\")"
+        ],
+        [
+         202,
+         "Session State, Resumption and Forking"
+        ],
+        [
+         262,
+         "Session State, Resumption and Forking, continued"
+        ],
+        [
+         297,
+         "Session State, Resumption and Forking, continued"
+        ],
+        [
+         310,
+         "Session State, Resumption and Forking, continued"
+        ],
+        [
+         319,
+         "Session State, Resumption and Forking, continued"
+        ],
+        [
+         394,
+         "Practice Question 1"
+        ],
+        [
+         434,
+         "Practice Question 2"
+        ],
+        [
+         464,
+         "Practice Question 3"
+        ],
+        [
+         501,
+         "Practice Question 4"
+        ],
+        [
+         537,
+         "Practice Question 5"
+        ],
+        [
+         571,
+         "Practice Question 6"
+        ],
+        [
+         605,
+         "Practice Question 7"
+        ],
+        [
+         632,
+         "Practice Question 8"
+        ]
+       ],
+       "published": "2026-11-08T07:36:04Z",
+       "thumb": "img/modules/ccar/04-1.jpg"
+      }
+     ],
+     "deck": "downloads/ccar/04-task-decomposition-sessions-resume-and-fork.pptx",
+     "deck_kb": 247,
+     "seconds": 691,
+     "words": 1326
+    },
+    {
+     "num": "05",
+     "slug": "05-tool-interfaces-and-structured-error-responses",
+     "title": "Tool Interfaces and Structured Error Responses",
+     "desc": "Tool Descriptions Drive Tool Selection",
+     "parts": [
+      {
+       "part": 1,
+       "id": "CUU08R-V_Yw",
+       "title": "Tool Descriptions Drive Tool Selection",
+       "seconds": 458,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Birchwood Supply's Agent Picks the Wrong Tool"
+        ],
+        [
+         69,
+         "Tool Descriptions Drive Tool Selection"
+        ],
+        [
+         93,
+         "Tool Descriptions Drive Tool Selection, continued"
+        ],
+        [
+         106,
+         "Tool Descriptions Drive Tool Selection, continued"
+        ],
+        [
+         135,
+         "Fixing overlap"
+        ],
+        [
+         193,
+         "Fixing overlap, continued"
+        ],
+        [
+         207,
+         "Structured Error Responses"
+        ],
+        [
+         220,
+         "Structured Error Responses, continued"
+        ],
+        [
+         278,
+         "Structured Error Responses, continued"
+        ],
+        [
+         286,
+         "Structured Error Responses, continued"
+        ],
+        [
+         320,
+         "Structured Error Responses, continued"
+        ],
+        [
+         343,
+         "Access failure versus valid empty result"
+        ],
+        [
+         378,
+         "Access failure versus valid empty result, continued"
+        ]
+       ],
+       "published": "2026-11-08T07:36:31Z",
+       "thumb": "img/modules/ccar/05-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "TGrQheVMptk",
+       "title": "Practice Question 1, recap and practice",
+       "seconds": 418,
+       "chapters": [
+        [
+         0,
+         "Practice Question 1"
+        ],
+        [
+         45,
+         "Practice Question 2"
+        ],
+        [
+         78,
+         "Practice Question 3"
+        ],
+        [
+         116,
+         "Practice Question 4"
+        ],
+        [
+         153,
+         "Practice Question 5"
+        ],
+        [
+         187,
+         "Practice Question 6"
+        ],
+        [
+         221,
+         "Practice Question 7"
+        ],
+        [
+         254,
+         "Practice Question 8"
+        ],
+        [
+         285,
+         "Practice Question 9"
+        ],
+        [
+         314,
+         "Practice Question 10"
+        ],
+        [
+         352,
+         "Practice Question 11"
+        ]
+       ],
+       "published": "2026-11-08T07:36:53Z",
+       "thumb": "img/modules/ccar/05-2.jpg"
+      }
+     ],
+     "deck": "downloads/ccar/05-tool-interfaces-and-structured-error-responses.pptx",
+     "deck_kb": 316,
+     "seconds": 876,
+     "words": 1608
+    },
+    {
+     "num": "06",
+     "slug": "06-tool-distribution-tool-choice-mcp-servers-and-built-in-tools",
+     "title": "Tool Distribution, tool_choice, MCP Servers and Built-in Tools",
+     "desc": "Distributing Tools Across Agents",
+     "parts": [
+      {
+       "part": 1,
+       "id": "ZE8PRZGuCcg",
+       "title": "Distributing Tools Across Agents",
+       "seconds": 502,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Birchwood Supply's Synthesis Agent Wanders"
+        ],
+        [
+         73,
+         "Distributing Tools Across Agents"
+        ],
+        [
+         107,
+         "Distributing Tools Across Agents, continued"
+        ],
+        [
+         122,
+         "Distributing Tools Across Agents, continued"
+        ],
+        [
+         151,
+         "tool_choice"
+        ],
+        [
+         189,
+         "tool_choice, continued"
+        ],
+        [
+         237,
+         "MCP Servers in Claude Code and Agent Workflows"
+        ],
+        [
+         254,
+         "MCP Servers in Claude Code and Agent Workflows, continued"
+        ],
+        [
+         305,
+         "MCP Servers in Claude Code and Agent Workflows, continued"
+        ],
+        [
+         331,
+         "MCP Servers in Claude Code and Agent Workflows, continued"
+        ],
+        [
+         341,
+         "MCP Servers in Claude Code and Agent Workflows, continued"
+        ],
+        [
+         396,
+         "Built-in Tools"
+        ],
+        [
+         453,
+         "Built-in Tools, continued"
+        ],
+        [
+         483,
+         "Built-in Tools, continued"
+        ]
+       ],
+       "published": "2026-11-08T07:37:14Z",
+       "thumb": "img/modules/ccar/06-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "f8avddze0Xk",
+       "title": "Module Recap, recap and practice",
+       "seconds": 514,
+       "chapters": [
+        [
+         0,
+         "Practice Question 1"
+        ],
+        [
+         94,
+         "Practice Question 2"
+        ],
+        [
+         140,
+         "Practice Question 3"
+        ],
+        [
+         173,
+         "Practice Question 4"
+        ],
+        [
+         210,
+         "Practice Question 5"
+        ],
+        [
+         242,
+         "Practice Question 6"
+        ],
+        [
+         274,
+         "Practice Question 7"
+        ],
+        [
+         307,
+         "Practice Question 8"
+        ],
+        [
+         340,
+         "Practice Question 9"
+        ],
+        [
+         373,
+         "Practice Question 10"
+        ],
+        [
+         407,
+         "Practice Question 11"
+        ],
+        [
+         450,
+         "Practice Question 12"
+        ]
+       ],
+       "published": "2026-11-08T07:37:32Z",
+       "thumb": "img/modules/ccar/06-2.jpg"
+      }
+     ],
+     "deck": "downloads/ccar/06-tool-distribution-tool-choice-mcp-servers-and-built-in-tools.pptx",
+     "deck_kb": 362,
+     "seconds": 1016,
+     "words": 2033
+    },
+    {
+     "num": "07",
+     "slug": "07-claude-md-rules-slash-commands-and-skills",
+     "title": "CLAUDE.md, Rules, Slash Commands and Skills",
+     "desc": "CLAUDE.md Files and Their Hierarchy",
+     "parts": [
+      {
+       "part": 1,
+       "id": "_vXceW9YFGU",
+       "title": "CLAUDE.md Files and Their Hierarchy",
+       "seconds": 513,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: A New Engineer at Birchwood Supply Gets Different Answers"
+        ],
+        [
+         74,
+         "CLAUDE.md Files and Their Hierarchy"
+        ],
+        [
+         115,
+         "CLAUDE.md Files and Their Hierarchy, continued"
+        ],
+        [
+         153,
+         "Keeping it modular"
+        ],
+        [
+         198,
+         "Keeping it modular, continued"
+        ],
+        [
+         229,
+         "Slash Commands and Skills"
+        ],
+        [
+         268,
+         "Slash Commands and Skills, continued"
+        ],
+        [
+         276,
+         "Slash Commands and Skills, continued"
+        ],
+        [
+         310,
+         "Slash Commands and Skills, continued"
+        ],
+        [
+         333,
+         "Skills versus CLAUDE.md"
+        ],
+        [
+         358,
+         "Skills versus CLAUDE.md, continued"
+        ],
+        [
+         413,
+         "Path-Specific Rules"
+        ],
+        [
+         441,
+         "Path-Specific Rules, continued"
+        ],
+        [
+         449,
+         "Path-Specific Rules, continued"
+        ],
+        [
+         462,
+         "Path-Specific Rules, continued"
+        ]
+       ],
+       "published": "2026-11-08T07:37:52Z",
+       "thumb": "img/modules/ccar/07-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "SHm49Wi5lZ4",
+       "title": "Module Recap, recap and practice",
+       "seconds": 488,
+       "chapters": [
+        [
+         0,
+         "Practice Question 1"
+        ],
+        [
+         92,
+         "Practice Question 2"
+        ],
+        [
+         125,
+         "Practice Question 3"
+        ],
+        [
+         158,
+         "Practice Question 4"
+        ],
+        [
+         189,
+         "Practice Question 5"
+        ],
+        [
+         223,
+         "Practice Question 6"
+        ],
+        [
+         256,
+         "Practice Question 7"
+        ],
+        [
+         288,
+         "Practice Question 8"
+        ],
+        [
+         319,
+         "Practice Question 9"
+        ],
+        [
+         355,
+         "Practice Question 10"
+        ],
+        [
+         386,
+         "Practice Question 11"
+        ],
+        [
+         424,
+         "Practice Question 12"
+        ]
+       ],
+       "published": "2026-11-08T07:38:08Z",
+       "thumb": "img/modules/ccar/07-2.jpg"
+      }
+     ],
+     "deck": "downloads/ccar/07-claude-md-rules-slash-commands-and-skills.pptx",
+     "deck_kb": 322,
+     "seconds": 1001,
+     "words": 2034
+    },
+    {
+     "num": "08",
+     "slug": "08-plan-mode-iterative-refinement-and-ci-cd",
+     "title": "Plan Mode, Iterative Refinement and CI/CD",
+     "desc": "Plan Mode or Direct Execution",
+     "parts": [
+      {
+       "part": 1,
+       "id": "nRoGwtHC70w",
+       "title": "Plan Mode or Direct Execution",
+       "seconds": 509,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Two Tickets at Birchwood Supply"
+        ],
+        [
+         71,
+         "Plan Mode or Direct Execution"
+        ],
+        [
+         129,
+         "Plan Mode or Direct Execution, continued"
+        ],
+        [
+         163,
+         "Plan Mode or Direct Execution, continued"
+        ],
+        [
+         201,
+         "Iterative Refinement"
+        ],
+        [
+         257,
+         "Iterative Refinement, continued"
+        ],
+        [
+         272,
+         "Iterative Refinement, continued"
+        ],
+        [
+         291,
+         "Claude Code in CI/CD"
+        ],
+        [
+         308,
+         "Claude Code in CI/CD, continued"
+        ],
+        [
+         366,
+         "Claude Code in CI/CD, continued"
+        ],
+        [
+         374,
+         "Claude Code in CI/CD, continued"
+        ],
+        [
+         403,
+         "Claude Code in CI/CD, continued"
+        ]
+       ],
+       "published": "2026-11-08T07:38:34Z",
+       "thumb": "img/modules/ccar/08-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "nCK-KZHQI6k",
+       "title": "Practice Question 1, recap and practice",
+       "seconds": 475,
+       "chapters": [
+        [
+         0,
+         "Practice Question 1"
+        ],
+        [
+         43,
+         "Practice Question 2"
+        ],
+        [
+         74,
+         "Practice Question 3"
+        ],
+        [
+         109,
+         "Practice Question 4"
+        ],
+        [
+         142,
+         "Practice Question 5"
+        ],
+        [
+         174,
+         "Practice Question 6"
+        ],
+        [
+         206,
+         "Practice Question 7"
+        ],
+        [
+         243,
+         "Practice Question 8"
+        ],
+        [
+         275,
+         "Practice Question 9"
+        ],
+        [
+         307,
+         "Practice Question 10"
+        ],
+        [
+         338,
+         "Practice Question 11"
+        ],
+        [
+         372,
+         "Practice Question 12"
+        ],
+        [
+         410,
+         "Practice Question 13"
+        ]
+       ],
+       "published": "2026-11-08T07:38:41Z",
+       "thumb": "img/modules/ccar/08-2.jpg"
+      }
+     ],
+     "deck": "downloads/ccar/08-plan-mode-iterative-refinement-and-ci-cd.pptx",
+     "deck_kb": 298,
+     "seconds": 984,
+     "words": 1869
+    },
+    {
+     "num": "09",
+     "slug": "09-explicit-criteria-and-few-shot-prompting",
+     "title": "Explicit Criteria and Few-Shot Prompting",
+     "desc": "Explicit Criteria Beat Vague Instructions, recap and practice",
+     "parts": [
+      {
+       "part": 1,
+       "id": "VIvGmSJ2kHY",
+       "title": "Explicit Criteria Beat Vague Instructions, recap and practice",
+       "seconds": 613,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Birchwood Supply's Review Bot Cries Wolf"
+        ],
+        [
+         66,
+         "Explicit Criteria Beat Vague Instructions"
+        ],
+        [
+         96,
+         "Explicit Criteria Beat Vague Instructions, continued"
+        ],
+        [
+         131,
+         "Explicit Criteria Beat Vague Instructions, continued"
+        ],
+        [
+         152,
+         "Explicit Criteria Beat Vague Instructions, continued"
+        ],
+        [
+         178,
+         "Few-Shot Prompting"
+        ],
+        [
+         218,
+         "Few-Shot Prompting, continued"
+        ],
+        [
+         245,
+         "Few-Shot Prompting, continued"
+        ],
+        [
+         329,
+         "Practice Question 1"
+        ],
+        [
+         366,
+         "Practice Question 2"
+        ],
+        [
+         403,
+         "Practice Question 3"
+        ],
+        [
+         434,
+         "Practice Question 4"
+        ],
+        [
+         465,
+         "Practice Question 5"
+        ],
+        [
+         494,
+         "Practice Question 6"
+        ],
+        [
+         527,
+         "Practice Question 7"
+        ],
+        [
+         556,
+         "Practice Question 8"
+        ]
+       ],
+       "published": "2026-11-08T07:39:19Z",
+       "thumb": "img/modules/ccar/09-1.jpg"
+      }
+     ],
+     "deck": "downloads/ccar/09-explicit-criteria-and-few-shot-prompting.pptx",
+     "deck_kb": 212,
+     "seconds": 613,
+     "words": 1108
+    },
+    {
+     "num": "10",
+     "slug": "10-structured-output-schemas-validation-and-retry",
+     "title": "Structured Output, Schemas, Validation and Retry",
+     "desc": "Structured Output with Tool Use, recap and practice",
+     "parts": [
+      {
+       "part": 1,
+       "id": "44wDZL0hb_o",
+       "title": "Structured Output with Tool Use, recap and practice",
+       "seconds": 806,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Birchwood Supply Reads Supplier Invoices"
+        ],
+        [
+         73,
+         "Structured Output with Tool Use"
+        ],
+        [
+         95,
+         "Structured Output with Tool Use, continued"
+        ],
+        [
+         138,
+         "Structured Output with Tool Use, continued"
+        ],
+        [
+         180,
+         "What a schema does not guarantee"
+        ],
+        [
+         225,
+         "Schema design rules"
+        ],
+        [
+         254,
+         "Schema design rules, continued"
+        ],
+        [
+         272,
+         "Schema design rules, continued"
+        ],
+        [
+         294,
+         "Validation, Retry and Feedback Loops"
+        ],
+        [
+         308,
+         "Validation, Retry and Feedback Loops, continued"
+        ],
+        [
+         350,
+         "Validation, Retry and Feedback Loops, continued"
+        ],
+        [
+         440,
+         "Practice Question 1"
+        ],
+        [
+         471,
+         "Practice Question 2"
+        ],
+        [
+         508,
+         "Practice Question 3"
+        ],
+        [
+         542,
+         "Practice Question 4"
+        ],
+        [
+         574,
+         "Practice Question 5"
+        ],
+        [
+         608,
+         "Practice Question 6"
+        ],
+        [
+         642,
+         "Practice Question 7"
+        ],
+        [
+         674,
+         "Practice Question 8"
+        ],
+        [
+         706,
+         "Practice Question 9"
+        ],
+        [
+         743,
+         "Practice Question 10"
+        ]
+       ],
+       "published": "2026-11-08T07:39:50Z",
+       "thumb": "img/modules/ccar/10-1.jpg"
+      }
+     ],
+     "deck": "downloads/ccar/10-structured-output-schemas-validation-and-retry.pptx",
+     "deck_kb": 297,
+     "seconds": 806,
+     "words": 1533
+    },
+    {
+     "num": "11",
+     "slug": "11-batch-processing-and-multi-pass-review",
+     "title": "Batch Processing and Multi-Pass Review",
+     "desc": "The Message Batches API, recap and practice",
+     "parts": [
+      {
+       "part": 1,
+       "id": "osaQwARSCbs",
+       "title": "The Message Batches API, recap and practice",
+       "seconds": 745,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Birchwood Supply Wants a Smaller Bill"
+        ],
+        [
+         70,
+         "The Message Batches API"
+        ],
+        [
+         113,
+         "The Message Batches API, continued"
+        ],
+        [
+         124,
+         "The Message Batches API, continued"
+        ],
+        [
+         163,
+         "The Message Batches API, continued"
+        ],
+        [
+         193,
+         "Planning against an SLA"
+        ],
+        [
+         218,
+         "Planning against an SLA, continued"
+        ],
+        [
+         230,
+         "Handling failures and improving first-pass success"
+        ],
+        [
+         265,
+         "Why self-review is weak"
+        ],
+        [
+         286,
+         "Multi-pass review"
+        ],
+        [
+         298,
+         "Multi-pass review, continued"
+        ],
+        [
+         382,
+         "Practice Question 1"
+        ],
+        [
+         424,
+         "Practice Question 2"
+        ],
+        [
+         451,
+         "Practice Question 3"
+        ],
+        [
+         488,
+         "Practice Question 4"
+        ],
+        [
+         520,
+         "Practice Question 5"
+        ],
+        [
+         551,
+         "Practice Question 6"
+        ],
+        [
+         580,
+         "Practice Question 7"
+        ],
+        [
+         615,
+         "Practice Question 8"
+        ],
+        [
+         648,
+         "Practice Question 9"
+        ],
+        [
+         683,
+         "Practice Question 10"
+        ]
+       ],
+       "published": "2026-11-08T07:40:08Z",
+       "thumb": "img/modules/ccar/11-1.jpg"
+      }
+     ],
+     "deck": "downloads/ccar/11-batch-processing-and-multi-pass-review.pptx",
+     "deck_kb": 247,
+     "seconds": 745,
+     "words": 1424
+    },
+    {
+     "num": "12",
+     "slug": "12-context-management-and-large-codebase-exploration",
+     "title": "Context Management and Large Codebase Exploration",
+     "desc": "Keeping Critical Facts Alive, recap and practice",
+     "parts": [
+      {
+       "part": 1,
+       "id": "klFGb4dUC7c",
+       "title": "Keeping Critical Facts Alive, recap and practice",
+       "seconds": 709,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Birchwood Supply's Long Support Chat"
+        ],
+        [
+         72,
+         "Keeping Critical Facts Alive"
+        ],
+        [
+         118,
+         "Keeping Critical Facts Alive, continued"
+        ],
+        [
+         167,
+         "Keeping Critical Facts Alive, continued"
+        ],
+        [
+         180,
+         "Keeping Critical Facts Alive, continued"
+        ],
+        [
+         189,
+         "Keeping Critical Facts Alive, continued"
+        ],
+        [
+         205,
+         "Keeping Critical Facts Alive, continued"
+        ],
+        [
+         236,
+         "Exploring Large Codebases"
+        ],
+        [
+         263,
+         "Exploring Large Codebases, continued"
+        ],
+        [
+         299,
+         "Exploring Large Codebases, continued"
+        ],
+        [
+         321,
+         "Exploring Large Codebases, continued"
+        ],
+        [
+         419,
+         "Practice Question 1"
+        ],
+        [
+         451,
+         "Practice Question 2"
+        ],
+        [
+         483,
+         "Practice Question 3"
+        ],
+        [
+         515,
+         "Practice Question 4"
+        ],
+        [
+         549,
+         "Practice Question 5"
+        ],
+        [
+         582,
+         "Practice Question 6"
+        ],
+        [
+         617,
+         "Practice Question 7"
+        ],
+        [
+         654,
+         "Practice Question 8"
+        ]
+       ],
+       "published": "2026-11-08T07:40:32Z",
+       "thumb": "img/modules/ccar/12-1.jpg"
+      }
+     ],
+     "deck": "downloads/ccar/12-context-management-and-large-codebase-exploration.pptx",
+     "deck_kb": 249,
+     "seconds": 709,
+     "words": 1343
+    },
+    {
+     "num": "13",
+     "slug": "13-escalation-and-error-propagation",
+     "title": "Escalation and Error Propagation",
+     "desc": "When to escalate, recap and practice",
+     "parts": [
+      {
+       "part": 1,
+       "id": "yYPD7b28O-0",
+       "title": "When to escalate, recap and practice",
+       "seconds": 693,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Birchwood Supply's Agent Escalates the Wrong Cases"
+        ],
+        [
+         65,
+         "When to escalate"
+        ],
+        [
+         92,
+         "When to escalate, continued"
+        ],
+        [
+         115,
+         "When to escalate, continued"
+        ],
+        [
+         130,
+         "Unreliable proxies"
+        ],
+        [
+         165,
+         "Ambiguity: multiple matches"
+        ],
+        [
+         202,
+         "Error Propagation in Multi-Agent Systems"
+        ],
+        [
+         214,
+         "Error Propagation in Multi-Agent Systems, continued"
+        ],
+        [
+         227,
+         "Error Propagation in Multi-Agent Systems, continued"
+        ],
+        [
+         278,
+         "Error Propagation in Multi-Agent Systems, continued"
+        ],
+        [
+         371,
+         "Practice Question 1"
+        ],
+        [
+         412,
+         "Practice Question 2"
+        ],
+        [
+         441,
+         "Practice Question 3"
+        ],
+        [
+         474,
+         "Practice Question 4"
+        ],
+        [
+         508,
+         "Practice Question 5"
+        ],
+        [
+         539,
+         "Practice Question 6"
+        ],
+        [
+         576,
+         "Practice Question 7"
+        ],
+        [
+         605,
+         "Practice Question 8"
+        ],
+        [
+         634,
+         "Practice Question 9"
+        ]
+       ],
+       "published": "2026-11-08T07:40:56Z",
+       "thumb": "img/modules/ccar/13-1.jpg"
+      }
+     ],
+     "deck": "downloads/ccar/13-escalation-and-error-propagation.pptx",
+     "deck_kb": 243,
+     "seconds": 693,
+     "words": 1251
+    },
+    {
+     "num": "14",
+     "slug": "14-human-review-confidence-and-provenance",
+     "title": "Human Review, Confidence and Provenance",
+     "desc": "Human Review and Confidence Calibration, recap and practice",
+     "parts": [
+      {
+       "part": 1,
+       "id": "z5wmC69rPG8",
+       "title": "Human Review and Confidence Calibration, recap and practice",
+       "seconds": 598,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Birchwood Supply Automates Invoice Entry"
+        ],
+        [
+         68,
+         "Human Review and Confidence Calibration"
+        ],
+        [
+         121,
+         "Human Review and Confidence Calibration, continued"
+        ],
+        [
+         170,
+         "Provenance and Uncertainty in Multi-Source Synthesis"
+        ],
+        [
+         194,
+         "Provenance and Uncertainty in Multi-Source Synthesis, continued"
+        ],
+        [
+         245,
+         "Provenance and Uncertainty in Multi-Source Synthesis, continued"
+        ],
+        [
+         263,
+         "Provenance and Uncertainty in Multi-Source Synthesis, continued"
+        ],
+        [
+         347,
+         "Practice Question 1"
+        ],
+        [
+         380,
+         "Practice Question 2"
+        ],
+        [
+         410,
+         "Practice Question 3"
+        ],
+        [
+         444,
+         "Practice Question 4"
+        ],
+        [
+         472,
+         "Practice Question 5"
+        ],
+        [
+         505,
+         "Practice Question 6"
+        ],
+        [
+         542,
+         "Practice Question 7"
+        ]
+       ],
+       "published": "2026-11-08T07:41:18Z",
+       "thumb": "img/modules/ccar/14-1.jpg"
+      }
+     ],
+     "deck": "downloads/ccar/14-human-review-confidence-and-provenance.pptx",
+     "deck_kb": 205,
+     "seconds": 598,
+     "words": 1096
+    },
+    {
+     "num": "15",
+     "slug": "15-the-six-scenarios-worked-end-to-end",
+     "title": "The Six Scenarios Worked End to End",
+     "desc": "Scenario 1: Customer Support Resolution Agent, recap and practice",
+     "parts": [
+      {
+       "part": 1,
+       "id": "U-e5U5WFyQc",
+       "title": "Scenario 1: Customer Support Resolution Agent, recap and practice",
+       "seconds": 976,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Birchwood Supply"
+        ],
+        [
+         49,
+         "Scenario 1: Customer Support Resolution Agent"
+        ],
+        [
+         68,
+         "Scenario 1: Customer Support Resolution Agent, continued"
+        ],
+        [
+         141,
+         "Scenario 1: Customer Support Resolution Agent, continued"
+        ],
+        [
+         173,
+         "Scenario 2: Code Generation with Claude Code"
+        ],
+        [
+         188,
+         "Scenario 2: Code Generation with Claude Code, continued"
+        ],
+        [
+         263,
+         "Scenario 2: Code Generation with Claude Code, continued"
+        ],
+        [
+         277,
+         "Scenario 3: Multi-Agent Research System"
+        ],
+        [
+         361,
+         "Scenario 3: Multi-Agent Research System, continued"
+        ],
+        [
+         383,
+         "Scenario 4: Developer Productivity with Claude"
+        ],
+        [
+         400,
+         "Scenario 4: Developer Productivity with Claude, continued"
+        ],
+        [
+         474,
+         "Scenario 5: Claude Code for Continuous Integration"
+        ],
+        [
+         567,
+         "Scenario 5: Claude Code for Continuous Integration, continued"
+        ],
+        [
+         579,
+         "Scenario 6: Structured Data Extraction"
+        ],
+        [
+         595,
+         "Scenario 6: Structured Data Extraction, continued"
+        ],
+        [
+         675,
+         "Scenario 6: Structured Data Extraction, continued"
+        ],
+        [
+         752,
+         "Practice Question 1"
+        ],
+        [
+         789,
+         "Practice Question 2"
+        ],
+        [
+         823,
+         "Practice Question 3"
+        ],
+        [
+         858,
+         "Practice Question 4"
+        ],
+        [
+         890,
+         "Practice Question 5"
+        ],
+        [
+         924,
+         "Practice Question 6"
+        ]
+       ],
+       "published": "2026-11-08T07:41:54Z",
+       "thumb": "img/modules/ccar/15-1.jpg"
+      }
+     ],
+     "deck": "downloads/ccar/15-the-six-scenarios-worked-end-to-end.pptx",
+     "deck_kb": 118,
+     "seconds": 976,
+     "words": 1646
+    },
+    {
+     "num": "16",
+     "slug": "16-quick-reference-recap-and-pattern-chooser",
+     "title": "Quick Reference Recap and Pattern Chooser",
+     "desc": "Domain 1: Agentic Architecture and Orchestration (27%) and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "B7x7vE-lB5s",
+       "title": "Domain 1: Agentic Architecture and Orchestration (27%) and recap",
+       "seconds": 909,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Birchwood Supply"
+        ],
+        [
+         46,
+         "Domain 1: Agentic Architecture and Orchestration (27%)"
+        ],
+        [
+         111,
+         "Domain 1: Agentic Architecture and Orchestration (27%), continued"
+        ],
+        [
+         174,
+         "Domain 2: Tool Design and MCP Integration (18%)"
+        ],
+        [
+         250,
+         "Domain 2: Tool Design and MCP Integration (18%), continued"
+        ],
+        [
+         295,
+         "Domain 3: Claude Code Configuration and Workflows (20%)"
+        ],
+        [
+         399,
+         "Domain 3: Claude Code Configuration and Workflows (20%), continued"
+        ],
+        [
+         422,
+         "Domain 4: Prompt Engineering and Structured Output (20%)"
+        ],
+        [
+         503,
+         "Domain 4: Prompt Engineering and Structured Output (20%), continued"
+        ],
+        [
+         532,
+         "Domain 5: Context Management and Reliability (15%)"
+        ],
+        [
+         621,
+         "Domain 5: Context Management and Reliability (15%), continued"
+        ],
+        [
+         643,
+         "Names and Values to Know Exactly"
+        ],
+        [
+         728,
+         "Names and Values to Know Exactly, continued"
+        ],
+        [
+         772,
+         "Distractor Patterns and the Rule That Beats Them"
+        ],
+        [
+         858,
+         "Distractor Patterns and the Rule That Beats Them, continued"
+        ]
+       ],
+       "published": "2026-11-08T07:42:32Z",
+       "thumb": "img/modules/ccar/16-1.jpg"
+      }
+     ],
+     "deck": "downloads/ccar/16-quick-reference-recap-and-pattern-chooser.pptx",
+     "deck_kb": 93,
+     "seconds": 909,
+     "words": 1702
+    },
+    {
+     "num": "17",
+     "slug": "17-exam-technique-and-final-review",
+     "title": "Exam Technique and Final Review",
+     "desc": "Time Plan and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "CTDZkWTCUPM",
+       "title": "Time Plan and recap",
+       "seconds": 452,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Birchwood Supply"
+        ],
+        [
+         51,
+         "Time Plan"
+        ],
+        [
+         62,
+         "Time Plan, continued"
+        ],
+        [
+         112,
+         "Reading a Scenario Item"
+        ],
+        [
+         132,
+         "Reading a Scenario Item, continued"
+        ],
+        [
+         194,
+         "Eliminating Distractors"
+        ],
+        [
+         231,
+         "Eliminating Distractors, continued"
+        ],
+        [
+         242,
+         "Multiple-response items"
+        ],
+        [
+         270,
+         "Policies and Logistics"
+        ],
+        [
+         318,
+         "Policies and Logistics, continued"
+        ],
+        [
+         360,
+         "Final Review Checklist"
+        ],
+        [
+         403,
+         "Final Review Checklist, continued"
+        ]
+       ],
+       "published": "2026-11-08T07:42:29Z",
+       "thumb": "img/modules/ccar/17-1.jpg"
+      }
+     ],
+     "deck": "downloads/ccar/17-exam-technique-and-final-review.pptx",
+     "deck_kb": 134,
+     "seconds": 452,
+     "words": 1000
+    }
+   ],
+   "facts": {
+    "questions": "60",
+    "time": "120 min",
+    "passing": "720 of 1,000",
+    "source": "Anthropic Partner Academy",
+    "url": "https://anthropic-partners.skilljar.com/claude-certified-architect-foundations-certification"
+   },
+   "videos": 23,
+   "seconds": 14383,
+   "notes": [
+    {
+     "num": "00",
+     "slug": "00-course-introduction-exam-orientation-and-the-six-scenarios",
+     "title": "Course Introduction, Exam Orientation and the Six Scenarios",
+     "group": "Start here",
+     "tasks": 0,
+     "los": [],
+     "minutes": 11,
+     "check": {
+      "src_words": 2080,
+      "page_words": 2103,
+      "src_tables": 6,
+      "tables": 6,
+      "src_images": 4,
+      "images": 4,
+      "src_scenario": 4,
+      "scenario": 4,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 9,
+      "sections": 9
+     },
+     "modules": [
+      "00"
+     ],
+     "domain": "",
+     "ref": "Module 0",
+     "tn": "Module 00",
+     "of": 18,
+     "module": "00"
+    },
+    {
+     "num": "01",
+     "slug": "01-agentic-loops-and-stop-reason",
+     "title": "Agentic Loops and stop_reason",
+     "group": "Domain 1: Agentic Architecture and Orchestration",
+     "tasks": 0,
+     "los": [],
+     "minutes": 10,
+     "check": {
+      "src_words": 2010,
+      "page_words": 2036,
+      "src_tables": 4,
+      "tables": 4,
+      "src_images": 3,
+      "images": 3,
+      "src_scenario": 8,
+      "scenario": 8,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "01"
+     ],
+     "domain": "",
+     "ref": "Module 1",
+     "tn": "Module 01",
+     "of": 18,
+     "module": "01"
+    },
+    {
+     "num": "02",
+     "slug": "02-multi-agent-orchestration-coordinator-subagents-and-spawning",
+     "title": "Multi-Agent Orchestration: Coordinator, Subagents and Spawning",
+     "group": "Domain 1: Agentic Architecture and Orchestration",
+     "tasks": 0,
+     "los": [],
+     "minutes": 10,
+     "check": {
+      "src_words": 1881,
+      "page_words": 1917,
+      "src_tables": 3,
+      "tables": 3,
+      "src_images": 3,
+      "images": 3,
+      "src_scenario": 10,
+      "scenario": 10,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "02"
+     ],
+     "domain": "",
+     "ref": "Module 2",
+     "tn": "Module 02",
+     "of": 18,
+     "module": "02"
+    },
+    {
+     "num": "03",
+     "slug": "03-enforcement-handoffs-and-hooks",
+     "title": "Enforcement, Handoffs and Hooks",
+     "group": "Domain 1: Agentic Architecture and Orchestration",
+     "tasks": 0,
+     "los": [],
+     "minutes": 9,
+     "check": {
+      "src_words": 1711,
+      "page_words": 1736,
+      "src_tables": 4,
+      "tables": 4,
+      "src_images": 3,
+      "images": 3,
+      "src_scenario": 9,
+      "scenario": 9,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "03"
+     ],
+     "domain": "",
+     "ref": "Module 3",
+     "tn": "Module 03",
+     "of": 18,
+     "module": "03"
+    },
+    {
+     "num": "04",
+     "slug": "04-task-decomposition-sessions-resume-and-fork",
+     "title": "Task Decomposition, Sessions, Resume and Fork",
+     "group": "Domain 1: Agentic Architecture and Orchestration",
+     "tasks": 0,
+     "los": [],
+     "minutes": 8,
+     "check": {
+      "src_words": 1491,
+      "page_words": 1522,
+      "src_tables": 3,
+      "tables": 3,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 8,
+      "scenario": 8,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 5,
+      "sections": 5
+     },
+     "modules": [
+      "04"
+     ],
+     "domain": "",
+     "ref": "Module 4",
+     "tn": "Module 04",
+     "of": 18,
+     "module": "04"
+    },
+    {
+     "num": "05",
+     "slug": "05-tool-interfaces-and-structured-error-responses",
+     "title": "Tool Interfaces and Structured Error Responses",
+     "group": "Domain 2: Tool Design and MCP Integration",
+     "tasks": 0,
+     "los": [],
+     "minutes": 9,
+     "check": {
+      "src_words": 1835,
+      "page_words": 1873,
+      "src_tables": 4,
+      "tables": 4,
+      "src_images": 3,
+      "images": 3,
+      "src_scenario": 11,
+      "scenario": 11,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 5,
+      "sections": 5
+     },
+     "modules": [
+      "05"
+     ],
+     "domain": "",
+     "ref": "Module 5",
+     "tn": "Module 05",
+     "of": 18,
+     "module": "05"
+    },
+    {
+     "num": "06",
+     "slug": "06-tool-distribution-tool-choice-mcp-servers-and-built-in-tools",
+     "title": "Tool Distribution, tool_choice, MCP Servers and Built-in Tools",
+     "group": "Domain 2: Tool Design and MCP Integration",
+     "tasks": 0,
+     "los": [],
+     "minutes": 11,
+     "check": {
+      "src_words": 2159,
+      "page_words": 2205,
+      "src_tables": 4,
+      "tables": 4,
+      "src_images": 4,
+      "images": 4,
+      "src_scenario": 12,
+      "scenario": 12,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "06"
+     ],
+     "domain": "",
+     "ref": "Module 6",
+     "tn": "Module 06",
+     "of": 18,
+     "module": "06"
+    },
+    {
+     "num": "07",
+     "slug": "07-claude-md-rules-slash-commands-and-skills",
+     "title": "CLAUDE.md, Rules, Slash Commands and Skills",
+     "group": "Domain 3: Claude Code Configuration and Workflows",
+     "tasks": 0,
+     "los": [],
+     "minutes": 11,
+     "check": {
+      "src_words": 2126,
+      "page_words": 2154,
+      "src_tables": 6,
+      "tables": 6,
+      "src_images": 3,
+      "images": 3,
+      "src_scenario": 12,
+      "scenario": 12,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "07"
+     ],
+     "domain": "",
+     "ref": "Module 7",
+     "tn": "Module 07",
+     "of": 18,
+     "module": "07"
+    },
+    {
+     "num": "08",
+     "slug": "08-plan-mode-iterative-refinement-and-ci-cd",
+     "title": "Plan Mode, Iterative Refinement and CI/CD",
+     "group": "Domain 3: Claude Code Configuration and Workflows",
+     "tasks": 0,
+     "los": [],
+     "minutes": 10,
+     "check": {
+      "src_words": 2033,
+      "page_words": 2078,
+      "src_tables": 4,
+      "tables": 4,
+      "src_images": 3,
+      "images": 3,
+      "src_scenario": 13,
+      "scenario": 13,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "08"
+     ],
+     "domain": "",
+     "ref": "Module 8",
+     "tn": "Module 08",
+     "of": 18,
+     "module": "08"
+    },
+    {
+     "num": "09",
+     "slug": "09-explicit-criteria-and-few-shot-prompting",
+     "title": "Explicit Criteria and Few-Shot Prompting",
+     "group": "Domain 4: Prompt Engineering and Structured Output",
+     "tasks": 0,
+     "los": [],
+     "minutes": 7,
+     "check": {
+      "src_words": 1338,
+      "page_words": 1367,
+      "src_tables": 3,
+      "tables": 3,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 8,
+      "scenario": 8,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 5,
+      "sections": 5
+     },
+     "modules": [
+      "09"
+     ],
+     "domain": "",
+     "ref": "Module 9",
+     "tn": "Module 09",
+     "of": 18,
+     "module": "09"
+    },
+    {
+     "num": "10",
+     "slug": "10-structured-output-schemas-validation-and-retry",
+     "title": "Structured Output, Schemas, Validation and Retry",
+     "group": "Domain 4: Prompt Engineering and Structured Output",
+     "tasks": 0,
+     "los": [],
+     "minutes": 9,
+     "check": {
+      "src_words": 1716,
+      "page_words": 1751,
+      "src_tables": 4,
+      "tables": 4,
+      "src_images": 3,
+      "images": 3,
+      "src_scenario": 10,
+      "scenario": 10,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 5,
+      "sections": 5
+     },
+     "modules": [
+      "10"
+     ],
+     "domain": "",
+     "ref": "Module 10",
+     "tn": "Module 10",
+     "of": 18,
+     "module": "10"
+    },
+    {
+     "num": "11",
+     "slug": "11-batch-processing-and-multi-pass-review",
+     "title": "Batch Processing and Multi-Pass Review",
+     "group": "Domain 4: Prompt Engineering and Structured Output",
+     "tasks": 0,
+     "los": [],
+     "minutes": 8,
+     "check": {
+      "src_words": 1588,
+      "page_words": 1624,
+      "src_tables": 4,
+      "tables": 4,
+      "src_images": 3,
+      "images": 3,
+      "src_scenario": 10,
+      "scenario": 10,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 5,
+      "sections": 5
+     },
+     "modules": [
+      "11"
+     ],
+     "domain": "",
+     "ref": "Module 11",
+     "tn": "Module 11",
+     "of": 18,
+     "module": "11"
+    },
+    {
+     "num": "12",
+     "slug": "12-context-management-and-large-codebase-exploration",
+     "title": "Context Management and Large Codebase Exploration",
+     "group": "Domain 5: Context Management and Reliability",
+     "tasks": 0,
+     "los": [],
+     "minutes": 8,
+     "check": {
+      "src_words": 1478,
+      "page_words": 1507,
+      "src_tables": 3,
+      "tables": 3,
+      "src_images": 3,
+      "images": 3,
+      "src_scenario": 8,
+      "scenario": 8,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 5,
+      "sections": 5
+     },
+     "modules": [
+      "12"
+     ],
+     "domain": "",
+     "ref": "Module 12",
+     "tn": "Module 12",
+     "of": 18,
+     "module": "12"
+    },
+    {
+     "num": "13",
+     "slug": "13-escalation-and-error-propagation",
+     "title": "Escalation and Error Propagation",
+     "group": "Domain 5: Context Management and Reliability",
+     "tasks": 0,
+     "los": [],
+     "minutes": 7,
+     "check": {
+      "src_words": 1442,
+      "page_words": 1475,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 9,
+      "scenario": 9,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 5,
+      "sections": 5
+     },
+     "modules": [
+      "13"
+     ],
+     "domain": "",
+     "ref": "Module 13",
+     "tn": "Module 13",
+     "of": 18,
+     "module": "13"
+    },
+    {
+     "num": "14",
+     "slug": "14-human-review-confidence-and-provenance",
+     "title": "Human Review, Confidence and Provenance",
+     "group": "Domain 5: Context Management and Reliability",
+     "tasks": 0,
+     "los": [],
+     "minutes": 6,
+     "check": {
+      "src_words": 1160,
+      "page_words": 1187,
+      "src_tables": 3,
+      "tables": 3,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 7,
+      "scenario": 7,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 5,
+      "sections": 5
+     },
+     "modules": [
+      "14"
+     ],
+     "domain": "",
+     "ref": "Module 14",
+     "tn": "Module 14",
+     "of": 18,
+     "module": "14"
+    },
+    {
+     "num": "15",
+     "slug": "15-the-six-scenarios-worked-end-to-end",
+     "title": "The Six Scenarios Worked End to End",
+     "group": "Review and exam day",
+     "tasks": 0,
+     "los": [],
+     "minutes": 8,
+     "check": {
+      "src_words": 1573,
+      "page_words": 1600,
+      "src_tables": 7,
+      "tables": 7,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 9,
+      "sections": 9
+     },
+     "modules": [
+      "15"
+     ],
+     "domain": "",
+     "ref": "Module 15",
+     "tn": "Module 15",
+     "of": 18,
+     "module": "15"
+    },
+    {
+     "num": "16",
+     "slug": "16-quick-reference-recap-and-pattern-chooser",
+     "title": "Quick Reference Recap and Pattern Chooser",
+     "group": "Review and exam day",
+     "tasks": 0,
+     "los": [],
+     "minutes": 6,
+     "check": {
+      "src_words": 1123,
+      "page_words": 1132,
+      "src_tables": 8,
+      "tables": 8,
+      "src_images": 0,
+      "images": 0,
+      "src_scenario": 0,
+      "scenario": 0,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 5,
+      "sections": 5
+     },
+     "modules": [
+      "16"
+     ],
+     "domain": "",
+     "ref": "Module 16",
+     "tn": "Module 16",
+     "of": 18,
+     "module": "16"
+    },
+    {
+     "num": "17",
+     "slug": "17-exam-technique-and-final-review",
+     "title": "Exam Technique and Final Review",
+     "group": "Review and exam day",
+     "tasks": 8,
+     "los": [],
+     "minutes": 5,
+     "check": {
+      "src_words": 898,
+      "page_words": 901,
+      "src_tables": 4,
+      "tables": 4,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 0,
+      "scenario": 0,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "17"
+     ],
+     "domain": "",
+     "ref": "Module 17",
+     "tn": "Module 17",
+     "of": 18,
+     "module": "17"
     }
    ],
    "glossary": 0
