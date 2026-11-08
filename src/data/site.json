@@ -72,7 +72,8 @@
    "full": "Anthropic Partner Academy",
    "mono": "ANT",
    "certs": [
-    "ccar"
+    "ccar",
+    "ccdv"
    ]
   },
   {
@@ -22014,6 +22015,2480 @@
      "tn": "Module 17",
      "of": 18,
      "module": "17"
+    }
+   ],
+   "glossary": 0
+  },
+  {
+   "kind": "certification",
+   "topic": null,
+   "slug": "ccdv",
+   "institute": "anthropic",
+   "short": "CCDV-F",
+   "name": "Claude Developer Foundations",
+   "title": "Claude Developer Foundations (CCDV-F) Exam Prep Masterclass",
+   "accent": "c-ccdv",
+   "desc": "The Messages API, agents, model selection, context and prompts, tools and MCP, security and Claude Code, with the Tidewater Insurance running case.",
+   "audience": "Developers who build, integrate and ship applications with Claude, and anyone preparing for the Claude Developer Foundations exam.",
+   "sources": "The official Claude Developer Foundations (CCDV-F) exam guide and Anthropic's own documentation.",
+   "playlist": "PLBknhMGYAlpU",
+   "cover": "img/covers/ccdv.jpg",
+   "modules": [
+    {
+     "num": "00",
+     "slug": "00-course-introduction-and-exam-orientation",
+     "title": "Course Introduction and Exam Orientation",
+     "desc": "The Exam at a Glance and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "pTrhEkApXho",
+       "title": "The Exam at a Glance and recap",
+       "seconds": 762,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Tidewater Insurance"
+        ],
+        [
+         69,
+         "The Exam at a Glance"
+        ],
+        [
+         85,
+         "The Exam at a Glance, continued"
+        ],
+        [
+         133,
+         "The Exam at a Glance, continued"
+        ],
+        [
+         165,
+         "The Exam at a Glance, continued"
+        ],
+        [
+         196,
+         "The Eight Domains"
+        ],
+        [
+         224,
+         "The Eight Domains, continued"
+        ],
+        [
+         290,
+         "The Eight Domains, continued"
+        ],
+        [
+         355,
+         "The Eight Domains, continued"
+        ],
+        [
+         410,
+         "The Minimally Qualified Candidate"
+        ],
+        [
+         461,
+         "The Minimally Qualified Candidate, continued"
+        ],
+        [
+         475,
+         "Ten Decision Rules the Questions Reward"
+        ],
+        [
+         490,
+         "Ten Decision Rules the Questions Reward, continued"
+        ],
+        [
+         532,
+         "Ten Decision Rules the Questions Reward, continued"
+        ],
+        [
+         589,
+         "Ten Decision Rules the Questions Reward, continued"
+        ],
+        [
+         639,
+         "How to Use This Course"
+        ],
+        [
+         672,
+         "How to Use This Course, continued"
+        ]
+       ],
+       "published": "2026-11-08T13:33:10Z",
+       "thumb": "img/modules/ccdv/00-1.jpg"
+      }
+     ],
+     "deck": "downloads/ccdv/00-course-introduction-and-exam-orientation.pptx",
+     "deck_kb": 276,
+     "seconds": 762,
+     "words": 1752
+    },
+    {
+     "num": "01",
+     "slug": "01-requirements-life-cycle-and-software-engineering-foundations",
+     "title": "Requirements, Life Cycle and Software Engineering Foundations",
+     "desc": "Understanding Requirements",
+     "parts": [
+      {
+       "part": 1,
+       "id": "KiD_EW1Pz8Q",
+       "title": "Understanding Requirements",
+       "seconds": 436,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Tidewater Insurance Wants a Claims Assistant"
+        ],
+        [
+         75,
+         "Understanding Requirements"
+        ],
+        [
+         129,
+         "Understanding Requirements, continued"
+        ],
+        [
+         164,
+         "Understanding Requirements, continued"
+        ],
+        [
+         193,
+         "Systems Life Cycle"
+        ],
+        [
+         208,
+         "Systems Life Cycle, continued"
+        ],
+        [
+         263,
+         "Systems Life Cycle, continued"
+        ],
+        [
+         274,
+         "REST APIs and JSON"
+        ],
+        [
+         308,
+         "REST APIs and JSON, continued"
+        ],
+        [
+         324,
+         "Asynchronous programming"
+        ],
+        [
+         355,
+         "Asynchronous programming, continued"
+        ],
+        [
+         367,
+         "Version control, SDLC integration, code review, refactoring"
+        ],
+        [
+         411,
+         "Version control, SDLC integration, code review, refactoring, continued"
+        ]
+       ],
+       "published": "2026-11-08T13:33:00Z",
+       "thumb": "img/modules/ccdv/01-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "lRydgJ0ji7U",
+       "title": "Module Recap, recap and practice",
+       "seconds": 445,
+       "chapters": [
+        [
+         0,
+         "Practice Question 1"
+        ],
+        [
+         96,
+         "Practice Question 2"
+        ],
+        [
+         129,
+         "Practice Question 3"
+        ],
+        [
+         163,
+         "Practice Question 4"
+        ],
+        [
+         191,
+         "Practice Question 5"
+        ],
+        [
+         224,
+         "Practice Question 6"
+        ],
+        [
+         256,
+         "Practice Question 7"
+        ],
+        [
+         288,
+         "Practice Question 8"
+        ],
+        [
+         321,
+         "Practice Question 9"
+        ],
+        [
+         350,
+         "Practice Question 10"
+        ],
+        [
+         386,
+         "Practice Question 11"
+        ]
+       ],
+       "published": "2026-11-08T13:33:19Z",
+       "thumb": "img/modules/ccdv/01-2.jpg"
+      }
+     ],
+     "deck": "downloads/ccdv/01-requirements-life-cycle-and-software-engineering-foundations.pptx",
+     "deck_kb": 288,
+     "seconds": 881,
+     "words": 1651
+    },
+    {
+     "num": "02",
+     "slug": "02-the-messages-api-requests-streaming-and-multi-format-input",
+     "title": "The Messages API: Requests, Streaming and Multi-Format Input",
+     "desc": "A Request and Its Response, recap and practice",
+     "parts": [
+      {
+       "part": 1,
+       "id": "_7VmRinoeHA",
+       "title": "A Request and Its Response, recap and practice",
+       "seconds": 809,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Tidewater's First Call"
+        ],
+        [
+         72,
+         "A Request and Its Response"
+        ],
+        [
+         86,
+         "A Request and Its Response, continued"
+        ],
+        [
+         135,
+         "A Request and Its Response, continued"
+        ],
+        [
+         146,
+         "A Request and Its Response, continued"
+        ],
+        [
+         155,
+         "Stateless, so you resend the conversation"
+        ],
+        [
+         203,
+         "Streaming"
+        ],
+        [
+         217,
+         "Streaming, continued"
+        ],
+        [
+         230,
+         "Streaming, continued"
+        ],
+        [
+         290,
+         "Streaming, continued"
+        ],
+        [
+         300,
+         "Multi-Format Input: Images and PDFs"
+        ],
+        [
+         335,
+         "Multi-Format Input: Images and PDFs, continued"
+        ],
+        [
+         369,
+         "Multi-Format Input: Images and PDFs, continued"
+        ],
+        [
+         399,
+         "Multi-Format Input: Images and PDFs, continued"
+        ],
+        [
+         497,
+         "Practice Question 1"
+        ],
+        [
+         531,
+         "Practice Question 2"
+        ],
+        [
+         562,
+         "Practice Question 3"
+        ],
+        [
+         592,
+         "Practice Question 4"
+        ],
+        [
+         621,
+         "Practice Question 5"
+        ],
+        [
+         651,
+         "Practice Question 6"
+        ],
+        [
+         684,
+         "Practice Question 7"
+        ],
+        [
+         720,
+         "Practice Question 8"
+        ],
+        [
+         752,
+         "Practice Question 9"
+        ]
+       ],
+       "published": "2026-11-08T13:34:36Z",
+       "thumb": "img/modules/ccdv/02-1.jpg"
+      }
+     ],
+     "deck": "downloads/ccdv/02-the-messages-api-requests-streaming-and-multi-format-input.pptx",
+     "deck_kb": 268,
+     "seconds": 809,
+     "words": 1652
+    },
+    {
+     "num": "03",
+     "slug": "03-thinking-caching-batch-platforms-and-api-errors",
+     "title": "Thinking, Caching, Batch, Platforms and API Errors",
+     "desc": "Thinking, Effort and Fast Mode",
+     "parts": [
+      {
+       "part": 1,
+       "id": "WFfEEuCXjQo",
+       "title": "Thinking, Effort and Fast Mode",
+       "seconds": 555,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Tidewater's Costly Answers"
+        ],
+        [
+         77,
+         "Thinking, Effort and Fast Mode"
+        ],
+        [
+         120,
+         "Thinking, Effort and Fast Mode, continued"
+        ],
+        [
+         136,
+         "Thinking, Effort and Fast Mode, continued"
+        ],
+        [
+         163,
+         "Thinking, Effort and Fast Mode, continued"
+        ],
+        [
+         186,
+         "Prompt Caching"
+        ],
+        [
+         200,
+         "Prompt Caching, continued"
+        ],
+        [
+         211,
+         "Prompt Caching, continued"
+        ],
+        [
+         253,
+         "Prompt Caching, continued"
+        ],
+        [
+         290,
+         "Prompt Caching, continued"
+        ],
+        [
+         316,
+         "Realtime Versus Batch"
+        ],
+        [
+         385,
+         "Realtime Versus Batch, continued"
+        ],
+        [
+         408,
+         "Third-Party Platforms"
+        ],
+        [
+         427,
+         "Third-Party Platforms, continued"
+        ],
+        [
+         471,
+         "Third-Party Platforms, continued"
+        ],
+        [
+         486,
+         "API Errors and Retries"
+        ],
+        [
+         498,
+         "API Errors and Retries, continued"
+        ]
+       ],
+       "published": "2026-11-08T13:35:26Z",
+       "thumb": "img/modules/ccdv/03-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "voSpuy1FLzA",
+       "title": "API Errors and Retries, recap and practice",
+       "seconds": 513,
+       "chapters": [
+        [
+         0,
+         "API Errors and Retries, continued"
+        ],
+        [
+         98,
+         "Practice Question 1"
+        ],
+        [
+         136,
+         "Practice Question 2"
+        ],
+        [
+         170,
+         "Practice Question 3"
+        ],
+        [
+         203,
+         "Practice Question 4"
+        ],
+        [
+         230,
+         "Practice Question 5"
+        ],
+        [
+         259,
+         "Practice Question 6"
+        ],
+        [
+         291,
+         "Practice Question 7"
+        ],
+        [
+         321,
+         "Practice Question 8"
+        ],
+        [
+         354,
+         "Practice Question 9"
+        ],
+        [
+         386,
+         "Practice Question 10"
+        ],
+        [
+         418,
+         "Practice Question 11"
+        ],
+        [
+         453,
+         "Practice Question 12"
+        ]
+       ],
+       "published": "2026-11-08T13:35:17Z",
+       "thumb": "img/modules/ccdv/03-2.jpg"
+      }
+     ],
+     "deck": "downloads/ccdv/03-thinking-caching-batch-platforms-and-api-errors.pptx",
+     "deck_kb": 360,
+     "seconds": 1068,
+     "words": 2110
+    },
+    {
+     "num": "04",
+     "slug": "04-claude-application-design-and-configuration-management",
+     "title": "Claude Application Design and Configuration Management",
+     "desc": "The same words, different interfaces, recap and practice",
+     "parts": [
+      {
+       "part": 1,
+       "id": "n5FXmerbU18",
+       "title": "The same words, different interfaces, recap and practice",
+       "seconds": 730,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Tidewater's Prompt Behaves Differently"
+        ],
+        [
+         68,
+         "The same words, different interfaces"
+        ],
+        [
+         81,
+         "The same words, different interfaces, continued"
+        ],
+        [
+         127,
+         "The same words, different interfaces, continued"
+        ],
+        [
+         142,
+         "Content boundaries and schemas"
+        ],
+        [
+         177,
+         "Session hygiene"
+        ],
+        [
+         204,
+         "Plugin management"
+        ],
+        [
+         239,
+         "Configuration Management"
+        ],
+        [
+         253,
+         "Configuration Management, continued"
+        ],
+        [
+         298,
+         "Configuration Management, continued"
+        ],
+        [
+         338,
+         "Configuration Management, continued"
+        ],
+        [
+         427,
+         "Practice Question 1"
+        ],
+        [
+         459,
+         "Practice Question 2"
+        ],
+        [
+         490,
+         "Practice Question 3"
+        ],
+        [
+         522,
+         "Practice Question 4"
+        ],
+        [
+         557,
+         "Practice Question 5"
+        ],
+        [
+         584,
+         "Practice Question 6"
+        ],
+        [
+         612,
+         "Practice Question 7"
+        ],
+        [
+         643,
+         "Practice Question 8"
+        ],
+        [
+         675,
+         "Practice Question 9"
+        ]
+       ],
+       "published": "2026-11-08T13:36:12Z",
+       "thumb": "img/modules/ccdv/04-1.jpg"
+      }
+     ],
+     "deck": "downloads/ccdv/04-claude-application-design-and-configuration-management.pptx",
+     "deck_kb": 226,
+     "seconds": 730,
+     "words": 1414
+    },
+    {
+     "num": "05",
+     "slug": "05-agent-architecture-and-patterns",
+     "title": "Agent Architecture and Patterns",
+     "desc": "Workflow or Agent?, recap and practice",
+     "parts": [
+      {
+       "part": 1,
+       "id": "00e5TUb3bcg",
+       "title": "Workflow or Agent?, recap and practice",
+       "seconds": 788,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Tidewater Automates Claim Intake"
+        ],
+        [
+         71,
+         "Workflow or Agent?"
+        ],
+        [
+         112,
+         "Workflow or Agent?, continued"
+        ],
+        [
+         143,
+         "Workflow or Agent?, continued"
+        ],
+        [
+         163,
+         "Workflow Patterns"
+        ],
+        [
+         174,
+         "Workflow Patterns, continued"
+        ],
+        [
+         224,
+         "Workflow Patterns, continued"
+        ],
+        [
+         248,
+         "Agent Architecture: Loops, Supervisors and Subagents"
+        ],
+        [
+         275,
+         "Agent Architecture: Loops, Supervisors and Subagents, continued"
+        ],
+        [
+         313,
+         "Agent Architecture: Loops, Supervisors and Subagents, continued"
+        ],
+        [
+         328,
+         "Agentic Frameworks"
+        ],
+        [
+         385,
+         "Agentic Frameworks, continued"
+        ],
+        [
+         470,
+         "Practice Question 1"
+        ],
+        [
+         506,
+         "Practice Question 2"
+        ],
+        [
+         539,
+         "Practice Question 3"
+        ],
+        [
+         570,
+         "Practice Question 4"
+        ],
+        [
+         603,
+         "Practice Question 5"
+        ],
+        [
+         636,
+         "Practice Question 6"
+        ],
+        [
+         665,
+         "Practice Question 7"
+        ],
+        [
+         697,
+         "Practice Question 8"
+        ],
+        [
+         729,
+         "Practice Question 9"
+        ]
+       ],
+       "published": "2026-11-08T13:36:31Z",
+       "thumb": "img/modules/ccdv/05-1.jpg"
+      }
+     ],
+     "deck": "downloads/ccdv/05-agent-architecture-and-patterns.pptx",
+     "deck_kb": 286,
+     "seconds": 788,
+     "words": 1448
+    },
+    {
+     "num": "06",
+     "slug": "06-building-agents-agent-sdk-custom-loops-managed-agents-and-hooks",
+     "title": "Building Agents: Agent SDK, Custom Loops, Managed Agents and Hooks",
+     "desc": "Choosing How to Build, recap and practice",
+     "parts": [
+      {
+       "part": 1,
+       "id": "Ho-QZk5_Gzs",
+       "title": "Choosing How to Build, recap and practice",
+       "seconds": 705,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Tidewater's Overnight Investigator"
+        ],
+        [
+         67,
+         "Choosing How to Build"
+        ],
+        [
+         81,
+         "Choosing How to Build, continued"
+        ],
+        [
+         122,
+         "Choosing How to Build, continued"
+        ],
+        [
+         157,
+         "The harness"
+        ],
+        [
+         177,
+         "Agent SDK Essentials"
+        ],
+        [
+         185,
+         "Agent SDK Essentials, continued"
+        ],
+        [
+         228,
+         "Managed Agents and Deployment Models"
+        ],
+        [
+         239,
+         "Managed Agents and Deployment Models, continued"
+        ],
+        [
+         291,
+         "Managed Agents and Deployment Models, continued"
+        ],
+        [
+         311,
+         "Hooks and Safety Limits"
+        ],
+        [
+         346,
+         "Hooks and Safety Limits, continued"
+        ],
+        [
+         411,
+         "Practice Question 1"
+        ],
+        [
+         443,
+         "Practice Question 2"
+        ],
+        [
+         475,
+         "Practice Question 3"
+        ],
+        [
+         503,
+         "Practice Question 4"
+        ],
+        [
+         533,
+         "Practice Question 5"
+        ],
+        [
+         563,
+         "Practice Question 6"
+        ],
+        [
+         590,
+         "Practice Question 7"
+        ],
+        [
+         619,
+         "Practice Question 8"
+        ],
+        [
+         648,
+         "Practice Question 9"
+        ]
+       ],
+       "published": "2026-11-08T13:36:35Z",
+       "thumb": "img/modules/ccdv/06-1.jpg"
+      }
+     ],
+     "deck": "downloads/ccdv/06-building-agents-agent-sdk-custom-loops-managed-agents-and-hooks.pptx",
+     "deck_kb": 238,
+     "seconds": 705,
+     "words": 1314
+    },
+    {
+     "num": "07",
+     "slug": "07-llm-and-technical-fundamentals",
+     "title": "LLM and Technical Fundamentals",
+     "desc": "How an LLM Works (the Parts the Exam Needs)",
+     "parts": [
+      {
+       "part": 1,
+       "id": "dEzGdaH3eyw",
+       "title": "How an LLM Works (the Parts the Exam Needs)",
+       "seconds": 412,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Tidewater Meets Strange Behavior"
+        ],
+        [
+         69,
+         "How an LLM Works (the Parts the Exam Needs)"
+        ],
+        [
+         85,
+         "How an LLM Works (the Parts the Exam Needs), continued"
+        ],
+        [
+         121,
+         "How an LLM Works (the Parts the Exam Needs), continued"
+        ],
+        [
+         161,
+         "How an LLM Works (the Parts the Exam Needs), continued"
+        ],
+        [
+         189,
+         "How an LLM Works (the Parts the Exam Needs), continued"
+        ],
+        [
+         227,
+         "Model Options: Thinking, Effort and Fast Mode"
+        ],
+        [
+         278,
+         "Model Options: Thinking, Effort and Fast Mode, continued"
+        ],
+        [
+         298,
+         "Fundamental Prompting Techniques"
+        ],
+        [
+         341,
+         "Technical Fundamentals"
+        ],
+        [
+         393,
+         "Technical Fundamentals, continued"
+        ]
+       ],
+       "published": "2026-11-08T13:36:56Z",
+       "thumb": "img/modules/ccdv/07-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "W3-3JBHnGO0",
+       "title": "Technical Fundamentals, recap and practice",
+       "seconds": 431,
+       "chapters": [
+        [
+         0,
+         "Technical Fundamentals, continued"
+        ],
+        [
+         76,
+         "Practice Question 1"
+        ],
+        [
+         109,
+         "Practice Question 2"
+        ],
+        [
+         138,
+         "Practice Question 3"
+        ],
+        [
+         163,
+         "Practice Question 4"
+        ],
+        [
+         190,
+         "Practice Question 5"
+        ],
+        [
+         221,
+         "Practice Question 6"
+        ],
+        [
+         249,
+         "Practice Question 7"
+        ],
+        [
+         278,
+         "Practice Question 8"
+        ],
+        [
+         306,
+         "Practice Question 9"
+        ],
+        [
+         335,
+         "Practice Question 10"
+        ],
+        [
+         371,
+         "Practice Question 11"
+        ]
+       ],
+       "published": "2026-11-08T13:37:08Z",
+       "thumb": "img/modules/ccdv/07-2.jpg"
+      }
+     ],
+     "deck": "downloads/ccdv/07-llm-and-technical-fundamentals.pptx",
+     "deck_kb": 236,
+     "seconds": 843,
+     "words": 1600
+    },
+    {
+     "num": "08",
+     "slug": "08-model-selection-cost-and-token-management",
+     "title": "Model Selection, Cost and Token Management",
+     "desc": "Choosing a Model, recap and practice",
+     "parts": [
+      {
+       "part": 1,
+       "id": "9LPjDeMDwb8",
+       "title": "Choosing a Model, recap and practice",
+       "seconds": 802,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Tidewater Picks Models"
+        ],
+        [
+         59,
+         "Choosing a Model"
+        ],
+        [
+         116,
+         "Choosing a Model, continued"
+        ],
+        [
+         147,
+         "Choosing a Model, continued"
+        ],
+        [
+         193,
+         "Breaking behavior changes across releases"
+        ],
+        [
+         242,
+         "Know what you spend"
+        ],
+        [
+         268,
+         "Know what you spend, continued"
+        ],
+        [
+         313,
+         "The cost levers"
+        ],
+        [
+         378,
+         "The cost levers, continued"
+        ],
+        [
+         391,
+         "The cost levers, continued"
+        ],
+        [
+         461,
+         "Practice Question 1"
+        ],
+        [
+         495,
+         "Practice Question 2"
+        ],
+        [
+         527,
+         "Practice Question 3"
+        ],
+        [
+         558,
+         "Practice Question 4"
+        ],
+        [
+         591,
+         "Practice Question 5"
+        ],
+        [
+         621,
+         "Practice Question 6"
+        ],
+        [
+         651,
+         "Practice Question 7"
+        ],
+        [
+         681,
+         "Practice Question 8"
+        ],
+        [
+         714,
+         "Practice Question 9"
+        ],
+        [
+         745,
+         "Practice Question 10"
+        ]
+       ],
+       "published": "2026-11-08T13:37:35Z",
+       "thumb": "img/modules/ccdv/08-1.jpg"
+      }
+     ],
+     "deck": "downloads/ccdv/08-model-selection-cost-and-token-management.pptx",
+     "deck_kb": 248,
+     "seconds": 802,
+     "words": 1539
+    },
+    {
+     "num": "09",
+     "slug": "09-context-engineering",
+     "title": "Context Engineering",
+     "desc": "The Context Is a Budget, recap and practice",
+     "parts": [
+      {
+       "part": 1,
+       "id": "RW4a05WAngA",
+       "title": "The Context Is a Budget, recap and practice",
+       "seconds": 554,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Tidewater's Assistant Gets Confused Late in the Day"
+        ],
+        [
+         59,
+         "The Context Is a Budget"
+        ],
+        [
+         91,
+         "The Context Is a Budget, continued"
+        ],
+        [
+         111,
+         "Techniques"
+        ],
+        [
+         154,
+         "Techniques, continued"
+        ],
+        [
+         204,
+         "Techniques, continued"
+        ],
+        [
+         232,
+         "Techniques, continued"
+        ],
+        [
+         315,
+         "Practice Question 1"
+        ],
+        [
+         348,
+         "Practice Question 2"
+        ],
+        [
+         379,
+         "Practice Question 3"
+        ],
+        [
+         412,
+         "Practice Question 4"
+        ],
+        [
+         443,
+         "Practice Question 5"
+        ],
+        [
+         473,
+         "Practice Question 6"
+        ],
+        [
+         502,
+         "Practice Question 7"
+        ]
+       ],
+       "published": "2026-11-08T13:37:59Z",
+       "thumb": "img/modules/ccdv/09-1.jpg"
+      }
+     ],
+     "deck": "downloads/ccdv/09-context-engineering.pptx",
+     "deck_kb": 170,
+     "seconds": 554,
+     "words": 1058
+    },
+    {
+     "num": "10",
+     "slug": "10-prompt-engineering-and-output-handling",
+     "title": "Prompt Engineering and Output Handling",
+     "desc": "Prompt Engineering, recap and practice",
+     "parts": [
+      {
+       "part": 1,
+       "id": "OVDFh2Lmvh4",
+       "title": "Prompt Engineering, recap and practice",
+       "seconds": 725,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Tidewater's Vague Summaries"
+        ],
+        [
+         60,
+         "Prompt Engineering"
+        ],
+        [
+         102,
+         "Prompt Engineering, continued"
+        ],
+        [
+         162,
+         "Prompt Engineering, continued"
+        ],
+        [
+         178,
+         "Prompt Engineering, continued"
+        ],
+        [
+         204,
+         "Prompt Engineering, continued"
+        ],
+        [
+         239,
+         "Output Handling"
+        ],
+        [
+         251,
+         "Output Handling, continued"
+        ],
+        [
+         292,
+         "Output Handling, continued"
+        ],
+        [
+         330,
+         "Output Handling, continued"
+        ],
+        [
+         424,
+         "Practice Question 1"
+        ],
+        [
+         456,
+         "Practice Question 2"
+        ],
+        [
+         486,
+         "Practice Question 3"
+        ],
+        [
+         519,
+         "Practice Question 4"
+        ],
+        [
+         550,
+         "Practice Question 5"
+        ],
+        [
+         582,
+         "Practice Question 6"
+        ],
+        [
+         613,
+         "Practice Question 7"
+        ],
+        [
+         640,
+         "Practice Question 8"
+        ],
+        [
+         671,
+         "Practice Question 9"
+        ]
+       ],
+       "published": "2026-11-08T13:38:46Z",
+       "thumb": "img/modules/ccdv/10-1.jpg"
+      }
+     ],
+     "deck": "downloads/ccdv/10-prompt-engineering-and-output-handling.pptx",
+     "deck_kb": 196,
+     "seconds": 725,
+     "words": 1339
+    },
+    {
+     "num": "11",
+     "slug": "11-tool-implementation",
+     "title": "Tool Implementation",
+     "desc": "The Tool Round Trip, recap and practice",
+     "parts": [
+      {
+       "part": 1,
+       "id": "IF5rJUWQNJE",
+       "title": "The Tool Round Trip, recap and practice",
+       "seconds": 644,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Tidewater Connects the Policy System"
+        ],
+        [
+         56,
+         "The Tool Round Trip"
+        ],
+        [
+         68,
+         "The Tool Round Trip, continued"
+        ],
+        [
+         107,
+         "The Tool Round Trip, continued"
+        ],
+        [
+         115,
+         "The Tool Round Trip, continued"
+        ],
+        [
+         158,
+         "Client-Side Versus Server-Side Tools"
+        ],
+        [
+         169,
+         "Client-Side Versus Server-Side Tools, continued"
+        ],
+        [
+         237,
+         "Error Handling, Dispatch and Approval"
+        ],
+        [
+         276,
+         "Approval patterns"
+        ],
+        [
+         303,
+         "Approval patterns, continued"
+        ],
+        [
+         316,
+         "Building a Good Tool Set"
+        ],
+        [
+         412,
+         "Practice Question 1"
+        ],
+        [
+         444,
+         "Practice Question 2"
+        ],
+        [
+         470,
+         "Practice Question 3"
+        ],
+        [
+         501,
+         "Practice Question 4"
+        ],
+        [
+         531,
+         "Practice Question 5"
+        ],
+        [
+         564,
+         "Practice Question 6"
+        ],
+        [
+         593,
+         "Practice Question 7"
+        ]
+       ],
+       "published": "2026-11-08T13:38:47Z",
+       "thumb": "img/modules/ccdv/11-1.jpg"
+      }
+     ],
+     "deck": "downloads/ccdv/11-tool-implementation.pptx",
+     "deck_kb": 234,
+     "seconds": 644,
+     "words": 1176
+    },
+    {
+     "num": "12",
+     "slug": "12-mcp-servers-and-agentic-customization",
+     "title": "MCP Servers and Agentic Customization",
+     "desc": "MCP Server Development, recap and practice",
+     "parts": [
+      {
+       "part": 1,
+       "id": "Gq6patAjtcI",
+       "title": "MCP Server Development, recap and practice",
+       "seconds": 704,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Tidewater Shares Its Policy System"
+        ],
+        [
+         66,
+         "MCP Server Development"
+        ],
+        [
+         78,
+         "MCP Server Development, continued"
+        ],
+        [
+         126,
+         "MCP Server Development, continued"
+        ],
+        [
+         143,
+         "MCP Server Development, continued"
+        ],
+        [
+         152,
+         "Transports and logging"
+        ],
+        [
+         198,
+         "Transports and logging, continued"
+        ],
+        [
+         209,
+         "Deploying and integrating"
+        ],
+        [
+         259,
+         "Agentic Customization: Which Mechanism?"
+        ],
+        [
+         274,
+         "Agentic Customization: Which Mechanism?, continued"
+        ],
+        [
+         331,
+         "Agentic Customization: Which Mechanism?, continued"
+        ],
+        [
+         356,
+         "How Skills load (progressive disclosure)"
+        ],
+        [
+         378,
+         "How Skills load (progressive disclosure), continued"
+        ],
+        [
+         464,
+         "Practice Question 1"
+        ],
+        [
+         498,
+         "Practice Question 2"
+        ],
+        [
+         529,
+         "Practice Question 3"
+        ],
+        [
+         558,
+         "Practice Question 4"
+        ],
+        [
+         591,
+         "Practice Question 5"
+        ],
+        [
+         618,
+         "Practice Question 6"
+        ],
+        [
+         650,
+         "Practice Question 7"
+        ]
+       ],
+       "published": "2026-11-08T13:39:12Z",
+       "thumb": "img/modules/ccdv/12-1.jpg"
+      }
+     ],
+     "deck": "downloads/ccdv/12-mcp-servers-and-agentic-customization.pptx",
+     "deck_kb": 292,
+     "seconds": 704,
+     "words": 1399
+    },
+    {
+     "num": "13",
+     "slug": "13-ai-application-security-and-safe-deployment",
+     "title": "AI Application Security and Safe Deployment",
+     "desc": "Threats, recap and practice",
+     "parts": [
+      {
+       "part": 1,
+       "id": "4bvtHjfKjI4",
+       "title": "Threats, recap and practice",
+       "seconds": 600,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Tidewater's Assistant Reads a Hostile Email"
+        ],
+        [
+         62,
+         "Threats"
+        ],
+        [
+         73,
+         "Threats, continued"
+        ],
+        [
+         131,
+         "Against indirect injection and untrusted input"
+        ],
+        [
+         172,
+         "Against indirect injection and untrusted input, continued"
+        ],
+        [
+         203,
+         "Against jailbreaks and leakage"
+        ],
+        [
+         238,
+         "Against jailbreaks and leakage, continued"
+        ],
+        [
+         259,
+         "Guardrails and Safe Deployment"
+        ],
+        [
+         303,
+         "Guardrails and Safe Deployment, continued"
+        ],
+        [
+         400,
+         "Practice Question 1"
+        ],
+        [
+         434,
+         "Practice Question 2"
+        ],
+        [
+         462,
+         "Practice Question 3"
+        ],
+        [
+         492,
+         "Practice Question 4"
+        ],
+        [
+         521,
+         "Practice Question 5"
+        ],
+        [
+         550,
+         "Practice Question 6"
+        ]
+       ],
+       "published": "2026-11-08T13:39:31Z",
+       "thumb": "img/modules/ccdv/13-1.jpg"
+      }
+     ],
+     "deck": "downloads/ccdv/13-ai-application-security-and-safe-deployment.pptx",
+     "deck_kb": 199,
+     "seconds": 600,
+     "words": 1141
+    },
+    {
+     "num": "14",
+     "slug": "14-hooks-secrets-and-key-management",
+     "title": "Hooks, Secrets and Key Management",
+     "desc": "Hooks as Guardrails, recap and practice",
+     "parts": [
+      {
+       "part": 1,
+       "id": "7nStWPTF9l8",
+       "title": "Hooks as Guardrails, recap and practice",
+       "seconds": 541,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Tidewater's Coding Agent Almost Deletes a Folder"
+        ],
+        [
+         59,
+         "Hooks as Guardrails"
+        ],
+        [
+         106,
+         "Hooks as Guardrails, continued"
+        ],
+        [
+         146,
+         "Hooks as Guardrails, continued"
+        ],
+        [
+         175,
+         "Identity, Secrets and Key Management"
+        ],
+        [
+         213,
+         "Identity, Secrets and Key Management, continued"
+        ],
+        [
+         258,
+         "Identity, Secrets and Key Management, continued"
+        ],
+        [
+         289,
+         "Identity, Secrets and Key Management, continued"
+        ],
+        [
+         365,
+         "Practice Question 1"
+        ],
+        [
+         399,
+         "Practice Question 2"
+        ],
+        [
+         430,
+         "Practice Question 3"
+        ],
+        [
+         463,
+         "Practice Question 4"
+        ],
+        [
+         491,
+         "Practice Question 5"
+        ]
+       ],
+       "published": "2026-11-08T13:39:40Z",
+       "thumb": "img/modules/ccdv/14-1.jpg"
+      }
+     ],
+     "deck": "downloads/ccdv/14-hooks-secrets-and-key-management.pptx",
+     "deck_kb": 157,
+     "seconds": 541,
+     "words": 1129
+    },
+    {
+     "num": "15",
+     "slug": "15-claude-code-operation",
+     "title": "Claude Code Operation",
+     "desc": "Core Components, recap and practice",
+     "parts": [
+      {
+       "part": 1,
+       "id": "F-s9k-b2Cns",
+       "title": "Core Components, recap and practice",
+       "seconds": 573,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Tidewater Rolls Out Claude Code"
+        ],
+        [
+         53,
+         "Core Components"
+        ],
+        [
+         67,
+         "Core Components, continued"
+        ],
+        [
+         134,
+         "Core Components, continued"
+        ],
+        [
+         163,
+         "The CLAUDE.md hierarchy"
+        ],
+        [
+         215,
+         "Features"
+        ],
+        [
+         267,
+         "Features, continued"
+        ],
+        [
+         284,
+         "Features, continued"
+        ],
+        [
+         314,
+         "Features, continued"
+        ],
+        [
+         401,
+         "Practice Question 1"
+        ],
+        [
+         433,
+         "Practice Question 2"
+        ],
+        [
+         458,
+         "Practice Question 3"
+        ],
+        [
+         490,
+         "Practice Question 4"
+        ],
+        [
+         522,
+         "Practice Question 5"
+        ]
+       ],
+       "published": "2026-11-08T13:40:11Z",
+       "thumb": "img/modules/ccdv/15-1.jpg"
+      }
+     ],
+     "deck": "downloads/ccdv/15-claude-code-operation.pptx",
+     "deck_kb": 174,
+     "seconds": 573,
+     "words": 1126
+    },
+    {
+     "num": "16",
+     "slug": "16-debugging-evals-and-error-handling",
+     "title": "Debugging, Evals and Error Handling",
+     "desc": "Step 1: classify the failure, recap and practice",
+     "parts": [
+      {
+       "part": 1,
+       "id": "w7BkrjH-6QA",
+       "title": "Step 1: classify the failure, recap and practice",
+       "seconds": 584,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Tidewater's Assistant \"Stopped Working\""
+        ],
+        [
+         55,
+         "Step 1: classify the failure"
+        ],
+        [
+         66,
+         "Step 1: classify the failure, continued"
+        ],
+        [
+         144,
+         "Step 1: classify the failure, continued"
+        ],
+        [
+         173,
+         "Step 2: use traces"
+        ],
+        [
+         199,
+         "Step 3: isolate the origin"
+        ],
+        [
+         231,
+         "Step 3: isolate the origin, continued"
+        ],
+        [
+         262,
+         "Evals"
+        ],
+        [
+         275,
+         "Evals, continued"
+        ],
+        [
+         319,
+         "Evals, continued"
+        ],
+        [
+         333,
+         "Evals, continued"
+        ],
+        [
+         407,
+         "Practice Question 1"
+        ],
+        [
+         437,
+         "Practice Question 2"
+        ],
+        [
+         467,
+         "Practice Question 3"
+        ],
+        [
+         496,
+         "Practice Question 4"
+        ],
+        [
+         532,
+         "Practice Question 5"
+        ]
+       ],
+       "published": "2026-11-08T13:40:31Z",
+       "thumb": "img/modules/ccdv/16-1.jpg"
+      }
+     ],
+     "deck": "downloads/ccdv/16-debugging-evals-and-error-handling.pptx",
+     "deck_kb": 233,
+     "seconds": 584,
+     "words": 1095
+    },
+    {
+     "num": "17",
+     "slug": "17-quick-reference-recap-and-decision-chooser",
+     "title": "Quick Reference Recap and Decision Chooser",
+     "desc": "Decision Chooser and D2 Applications and Integration (33.1%) and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "v_W7kZAKUjs",
+       "title": "Decision Chooser and D2 Applications and Integration (33.1%) and recap",
+       "seconds": 651,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Tidewater Insurance"
+        ],
+        [
+         46,
+         "Decision Chooser"
+        ],
+        [
+         54,
+         "D2 Applications and Integration (33.1%)"
+        ],
+        [
+         131,
+         "D2 Applications and Integration (33.1%), continued"
+        ],
+        [
+         168,
+         "D1 Agents (14.7%), D5 Models (16.8%)"
+        ],
+        [
+         249,
+         "D1 Agents (14.7%), D5 Models (16.8%), continued"
+        ],
+        [
+         277,
+         "D6, D8, D7, D3, D4"
+        ],
+        [
+         367,
+         "D6, D8, D7, D3, D4, continued"
+        ],
+        [
+         449,
+         "Names and Values to Know"
+        ],
+        [
+         496,
+         "Names and Values to Know, continued"
+        ],
+        [
+         550,
+         "Distractor Patterns"
+        ],
+        [
+         599,
+         "Distractor Patterns, continued"
+        ]
+       ],
+       "published": "2026-11-08T13:40:54Z",
+       "thumb": "img/modules/ccdv/17-1.jpg"
+      }
+     ],
+     "deck": "downloads/ccdv/17-quick-reference-recap-and-decision-chooser.pptx",
+     "deck_kb": 166,
+     "seconds": 651,
+     "words": 1263
+    },
+    {
+     "num": "18",
+     "slug": "18-exam-technique-and-final-review",
+     "title": "Exam Technique and Final Review",
+     "desc": "Time Plan and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "5taWDYDIJzA",
+       "title": "Time Plan and recap",
+       "seconds": 440,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Tidewater Insurance"
+        ],
+        [
+         49,
+         "Time Plan"
+        ],
+        [
+         61,
+         "Time Plan, continued"
+        ],
+        [
+         111,
+         "Reading an Item"
+        ],
+        [
+         130,
+         "Reading an Item, continued"
+        ],
+        [
+         194,
+         "Eliminating Distractors"
+        ],
+        [
+         225,
+         "Multiple-response items"
+        ],
+        [
+         248,
+         "Policies and Logistics"
+        ],
+        [
+         302,
+         "Policies and Logistics, continued"
+        ],
+        [
+         323,
+         "Final Review Checklist"
+        ],
+        [
+         364,
+         "The last week"
+        ],
+        [
+         397,
+         "The last week, continued"
+        ]
+       ],
+       "published": "2026-11-08T13:41:07Z",
+       "thumb": "img/modules/ccdv/18-1.jpg"
+      }
+     ],
+     "deck": "downloads/ccdv/18-exam-technique-and-final-review.pptx",
+     "deck_kb": 121,
+     "seconds": 440,
+     "words": 978
+    }
+   ],
+   "facts": {
+    "questions": "53",
+    "time": "120 min",
+    "passing": "720 of 1,000",
+    "source": "Anthropic Partner Academy",
+    "url": "https://anthropic-partners.skilljar.com/"
+   },
+   "videos": 22,
+   "seconds": 13404,
+   "notes": [
+    {
+     "num": "00",
+     "slug": "00-course-introduction-and-exam-orientation",
+     "title": "Course Introduction and Exam Orientation",
+     "group": "Start here",
+     "tasks": 0,
+     "los": [],
+     "minutes": 9,
+     "check": {
+      "src_words": 1727,
+      "page_words": 1748,
+      "src_tables": 4,
+      "tables": 4,
+      "src_images": 3,
+      "images": 3,
+      "src_scenario": 4,
+      "scenario": 4,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 8,
+      "sections": 8
+     },
+     "modules": [
+      "00"
+     ],
+     "domain": "",
+     "ref": "Module 0",
+     "tn": "Module 00",
+     "of": 19,
+     "module": "00"
+    },
+    {
+     "num": "01",
+     "slug": "01-requirements-life-cycle-and-software-engineering-foundations",
+     "title": "Requirements, Life Cycle and Software Engineering Foundations",
+     "group": "Domain 2: Applications and Integration",
+     "tasks": 0,
+     "los": [],
+     "minutes": 9,
+     "check": {
+      "src_words": 1833,
+      "page_words": 1873,
+      "src_tables": 4,
+      "tables": 4,
+      "src_images": 3,
+      "images": 3,
+      "src_scenario": 11,
+      "scenario": 11,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "01"
+     ],
+     "domain": "",
+     "ref": "Module 1",
+     "tn": "Module 01",
+     "of": 19,
+     "module": "01"
+    },
+    {
+     "num": "02",
+     "slug": "02-the-messages-api-requests-streaming-and-multi-format-input",
+     "title": "The Messages API: Requests, Streaming and Multi-Format Input",
+     "group": "Domain 2: Applications and Integration",
+     "tasks": 0,
+     "los": [],
+     "minutes": 8,
+     "check": {
+      "src_words": 1701,
+      "page_words": 1734,
+      "src_tables": 4,
+      "tables": 4,
+      "src_images": 3,
+      "images": 3,
+      "src_scenario": 9,
+      "scenario": 9,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "02"
+     ],
+     "domain": "",
+     "ref": "Module 2",
+     "tn": "Module 02",
+     "of": 19,
+     "module": "02"
+    },
+    {
+     "num": "03",
+     "slug": "03-thinking-caching-batch-platforms-and-api-errors",
+     "title": "Thinking, Caching, Batch, Platforms and API Errors",
+     "group": "Domain 2: Applications and Integration",
+     "tasks": 0,
+     "los": [],
+     "minutes": 11,
+     "check": {
+      "src_words": 2221,
+      "page_words": 2266,
+      "src_tables": 6,
+      "tables": 6,
+      "src_images": 4,
+      "images": 4,
+      "src_scenario": 12,
+      "scenario": 12,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 8,
+      "sections": 8
+     },
+     "modules": [
+      "03"
+     ],
+     "domain": "",
+     "ref": "Module 3",
+     "tn": "Module 03",
+     "of": 19,
+     "module": "03"
+    },
+    {
+     "num": "04",
+     "slug": "04-claude-application-design-and-configuration-management",
+     "title": "Claude Application Design and Configuration Management",
+     "group": "Domain 2: Applications and Integration",
+     "tasks": 0,
+     "los": [],
+     "minutes": 8,
+     "check": {
+      "src_words": 1538,
+      "page_words": 1571,
+      "src_tables": 4,
+      "tables": 4,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 9,
+      "scenario": 9,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 5,
+      "sections": 5
+     },
+     "modules": [
+      "04"
+     ],
+     "domain": "",
+     "ref": "Module 4",
+     "tn": "Module 04",
+     "of": 19,
+     "module": "04"
+    },
+    {
+     "num": "05",
+     "slug": "05-agent-architecture-and-patterns",
+     "title": "Agent Architecture and Patterns",
+     "group": "Domain 1: Agents and Workflows",
+     "tasks": 0,
+     "los": [],
+     "minutes": 8,
+     "check": {
+      "src_words": 1491,
+      "page_words": 1526,
+      "src_tables": 4,
+      "tables": 4,
+      "src_images": 3,
+      "images": 3,
+      "src_scenario": 9,
+      "scenario": 9,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "05"
+     ],
+     "domain": "",
+     "ref": "Module 5",
+     "tn": "Module 05",
+     "of": 19,
+     "module": "05"
+    },
+    {
+     "num": "06",
+     "slug": "06-building-agents-agent-sdk-custom-loops-managed-agents-and-hooks",
+     "title": "Building Agents: Agent SDK, Custom Loops, Managed Agents and Hooks",
+     "group": "Domain 1: Agents and Workflows",
+     "tasks": 0,
+     "los": [],
+     "minutes": 7,
+     "check": {
+      "src_words": 1438,
+      "page_words": 1472,
+      "src_tables": 3,
+      "tables": 3,
+      "src_images": 3,
+      "images": 3,
+      "src_scenario": 9,
+      "scenario": 9,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "06"
+     ],
+     "domain": "",
+     "ref": "Module 6",
+     "tn": "Module 06",
+     "of": 19,
+     "module": "06"
+    },
+    {
+     "num": "07",
+     "slug": "07-llm-and-technical-fundamentals",
+     "title": "LLM and Technical Fundamentals",
+     "group": "Domain 5: Model Selection and Optimization",
+     "tasks": 0,
+     "los": [],
+     "minutes": 9,
+     "check": {
+      "src_words": 1685,
+      "page_words": 1726,
+      "src_tables": 4,
+      "tables": 4,
+      "src_images": 3,
+      "images": 3,
+      "src_scenario": 11,
+      "scenario": 11,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "07"
+     ],
+     "domain": "",
+     "ref": "Module 7",
+     "tn": "Module 07",
+     "of": 19,
+     "module": "07"
+    },
+    {
+     "num": "08",
+     "slug": "08-model-selection-cost-and-token-management",
+     "title": "Model Selection, Cost and Token Management",
+     "group": "Domain 5: Model Selection and Optimization",
+     "tasks": 0,
+     "los": [],
+     "minutes": 8,
+     "check": {
+      "src_words": 1603,
+      "page_words": 1629,
+      "src_tables": 3,
+      "tables": 3,
+      "src_images": 3,
+      "images": 3,
+      "src_scenario": 10,
+      "scenario": 10,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 5,
+      "sections": 5
+     },
+     "modules": [
+      "08"
+     ],
+     "domain": "",
+     "ref": "Module 8",
+     "tn": "Module 08",
+     "of": 19,
+     "module": "08"
+    },
+    {
+     "num": "09",
+     "slug": "09-context-engineering",
+     "title": "Context Engineering",
+     "group": "Domain 6: Prompt and Context Engineering",
+     "tasks": 0,
+     "los": [],
+     "minutes": 6,
+     "check": {
+      "src_words": 1154,
+      "page_words": 1181,
+      "src_tables": 2,
+      "tables": 2,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 7,
+      "scenario": 7,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 5,
+      "sections": 5
+     },
+     "modules": [
+      "09"
+     ],
+     "domain": "",
+     "ref": "Module 9",
+     "tn": "Module 09",
+     "of": 19,
+     "module": "09"
+    },
+    {
+     "num": "10",
+     "slug": "10-prompt-engineering-and-output-handling",
+     "title": "Prompt Engineering and Output Handling",
+     "group": "Domain 6: Prompt and Context Engineering",
+     "tasks": 0,
+     "los": [],
+     "minutes": 7,
+     "check": {
+      "src_words": 1471,
+      "page_words": 1512,
+      "src_tables": 3,
+      "tables": 3,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 9,
+      "scenario": 9,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 5,
+      "sections": 5
+     },
+     "modules": [
+      "10"
+     ],
+     "domain": "",
+     "ref": "Module 10",
+     "tn": "Module 10",
+     "of": 19,
+     "module": "10"
+    },
+    {
+     "num": "11",
+     "slug": "11-tool-implementation",
+     "title": "Tool Implementation",
+     "group": "Domain 8: Tools and MCPs",
+     "tasks": 0,
+     "los": [],
+     "minutes": 7,
+     "check": {
+      "src_words": 1366,
+      "page_words": 1394,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 3,
+      "images": 3,
+      "src_scenario": 7,
+      "scenario": 7,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "11"
+     ],
+     "domain": "",
+     "ref": "Module 11",
+     "tn": "Module 11",
+     "of": 19,
+     "module": "11"
+    },
+    {
+     "num": "12",
+     "slug": "12-mcp-servers-and-agentic-customization",
+     "title": "MCP Servers and Agentic Customization",
+     "group": "Domain 8: Tools and MCPs",
+     "tasks": 0,
+     "los": [],
+     "minutes": 7,
+     "check": {
+      "src_words": 1407,
+      "page_words": 1431,
+      "src_tables": 4,
+      "tables": 4,
+      "src_images": 4,
+      "images": 4,
+      "src_scenario": 7,
+      "scenario": 7,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 5,
+      "sections": 5
+     },
+     "modules": [
+      "12"
+     ],
+     "domain": "",
+     "ref": "Module 12",
+     "tn": "Module 12",
+     "of": 19,
+     "module": "12"
+    },
+    {
+     "num": "13",
+     "slug": "13-ai-application-security-and-safe-deployment",
+     "title": "AI Application Security and Safe Deployment",
+     "group": "Domain 7: Security and Safety",
+     "tasks": 0,
+     "los": [],
+     "minutes": 6,
+     "check": {
+      "src_words": 1246,
+      "page_words": 1271,
+      "src_tables": 4,
+      "tables": 4,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "13"
+     ],
+     "domain": "",
+     "ref": "Module 13",
+     "tn": "Module 13",
+     "of": 19,
+     "module": "13"
+    },
+    {
+     "num": "14",
+     "slug": "14-hooks-secrets-and-key-management",
+     "title": "Hooks, Secrets and Key Management",
+     "group": "Domain 7: Security and Safety",
+     "tasks": 0,
+     "los": [],
+     "minutes": 6,
+     "check": {
+      "src_words": 1160,
+      "page_words": 1180,
+      "src_tables": 3,
+      "tables": 3,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 5,
+      "scenario": 5,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 5,
+      "sections": 5
+     },
+     "modules": [
+      "14"
+     ],
+     "domain": "",
+     "ref": "Module 14",
+     "tn": "Module 14",
+     "of": 19,
+     "module": "14"
+    },
+    {
+     "num": "15",
+     "slug": "15-claude-code-operation",
+     "title": "Claude Code Operation",
+     "group": "Domain 3: Claude Code",
+     "tasks": 0,
+     "los": [],
+     "minutes": 5,
+     "check": {
+      "src_words": 1030,
+      "page_words": 1040,
+      "src_tables": 3,
+      "tables": 3,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 5,
+      "scenario": 5,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 5,
+      "sections": 5
+     },
+     "modules": [
+      "15"
+     ],
+     "domain": "",
+     "ref": "Module 15",
+     "tn": "Module 15",
+     "of": 19,
+     "module": "15"
+    },
+    {
+     "num": "16",
+     "slug": "16-debugging-evals-and-error-handling",
+     "title": "Debugging, Evals and Error Handling",
+     "group": "Domain 4: Eval, Testing, and Debugging",
+     "tasks": 0,
+     "los": [],
+     "minutes": 6,
+     "check": {
+      "src_words": 1108,
+      "page_words": 1129,
+      "src_tables": 3,
+      "tables": 3,
+      "src_images": 3,
+      "images": 3,
+      "src_scenario": 5,
+      "scenario": 5,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 5,
+      "sections": 5
+     },
+     "modules": [
+      "16"
+     ],
+     "domain": "",
+     "ref": "Module 16",
+     "tn": "Module 16",
+     "of": 19,
+     "module": "16"
+    },
+    {
+     "num": "17",
+     "slug": "17-quick-reference-recap-and-decision-chooser",
+     "title": "Quick Reference Recap and Decision Chooser",
+     "group": "Review and exam day",
+     "tasks": 0,
+     "los": [],
+     "minutes": 5,
+     "check": {
+      "src_words": 940,
+      "page_words": 945,
+      "src_tables": 6,
+      "tables": 6,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 0,
+      "scenario": 0,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 5,
+      "sections": 5
+     },
+     "modules": [
+      "17"
+     ],
+     "domain": "",
+     "ref": "Module 17",
+     "tn": "Module 17",
+     "of": 19,
+     "module": "17"
+    },
+    {
+     "num": "18",
+     "slug": "18-exam-technique-and-final-review",
+     "title": "Exam Technique and Final Review",
+     "group": "Review and exam day",
+     "tasks": 8,
+     "los": [],
+     "minutes": 5,
+     "check": {
+      "src_words": 874,
+      "page_words": 878,
+      "src_tables": 4,
+      "tables": 4,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 0,
+      "scenario": 0,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "18"
+     ],
+     "domain": "",
+     "ref": "Module 18",
+     "tn": "Module 18",
+     "of": 19,
+     "module": "18"
     }
    ],
    "glossary": 0

@@ -72,6 +72,10 @@ COURSES = {
                  desc="Agentic architecture, tool design and MCP, Claude Code workflows, structured output and reliability, with the Birchwood Supply running case.",
                  audience="Solution architects and engineers who build with Claude, the Agent SDK, Claude Code and MCP, and anyone preparing for the Claude Architect Foundations exam.",
                  sources="The official Claude Architect Foundations (CCAR-F) exam guide and Anthropic's own documentation."),
+    "ccdv": dict(folder="Anthropic-CCDV-F", institute="anthropic", short="CCDV-F", name="Claude Developer Foundations", title="Claude Developer Foundations (CCDV-F) Exam Prep Masterclass", accent="c-ccdv",
+                 desc="The Messages API, agents, model selection, context and prompts, tools and MCP, security and Claude Code, with the Tidewater Insurance running case.",
+                 audience="Developers who build, integrate and ship applications with Claude, and anyone preparing for the Claude Developer Foundations exam.",
+                 sources="The official Claude Developer Foundations (CCDV-F) exam guide and Anthropic's own documentation."),
     "aigov": dict(folder="AIGovernance", institute="training", kind="training", topic="AI", short="AI Governance", name="AI Governance Masterclass", title="AI Governance Masterclass", accent="c-aigov",
                   desc="From principles and risk to laws, frameworks and a working governance program, built around one running case.",
                   audience="Anyone who builds, buys or oversees AI: governance, risk, legal, product and engineering teams.",
@@ -85,7 +89,7 @@ INSTITUTES = [
     dict(id="dama", name="DAMA International", full="Data Management Association International", mono="DAMA", certs=["cdmp"]),
     dict(id="the-open-group", name="The Open Group", full="The Open Group", mono="TOG", certs=["togaf"]),
     dict(id="aws", name="AWS", full="Amazon Web Services", mono="AWS", certs=["clf", "aif", "saa", "dea"]),
-    dict(id="anthropic", name="Anthropic", full="Anthropic Partner Academy", mono="ANT", certs=["ccar"]),
+    dict(id="anthropic", name="Anthropic", full="Anthropic Partner Academy", mono="ANT", certs=["ccar", "ccdv"]),
     dict(id="training", name="Training", full="Techversation training courses", mono="TV", certs=[], hidden=True),
 ]
 SOON = []      # 'coming soon' cards (slug, institute, short, name, kind, desc); none at the moment
@@ -96,6 +100,7 @@ FACTS = dict(
     aif=dict(questions="65", time="90 min", passing="700 of 1,000", source="aws.amazon.com/certification", url="https://aws.amazon.com/certification/"),
     saa=dict(questions="65", time="130 min", passing="720 of 1,000", source="aws.amazon.com/certification", url="https://aws.amazon.com/certification/"),
     dea=dict(questions="65", time="130 min", passing="720 of 1,000", source="aws.amazon.com/certification", url="https://aws.amazon.com/certification/"),
+    ccdv=dict(questions="53", time="120 min", passing="720 of 1,000", source="Anthropic Partner Academy", url="https://anthropic-partners.skilljar.com/"),
     ccar=dict(questions="60", time="120 min", passing="720 of 1,000", source="Anthropic Partner Academy", url="https://anthropic-partners.skilljar.com/claude-certified-architect-foundations-certification"),
     kcna=dict(questions="60", time="90 min", passing="75%", source="training.linuxfoundation.org", url="https://training.linuxfoundation.org/certification/kubernetes-cloud-native-associate/"),
 )
@@ -263,6 +268,8 @@ NOTES = {
     # CCAR-F: the study notes of the course (OnlineCourses\Anthropic-CCAR-F\study-notes, one note per module); the group is the exam domain
     "ccar": dict(root=OC / "Anthropic-CCAR-F" / "study-notes", glob="Module_*.md", qa=True, kind="Module", link_word="Module", group_from="Exam guide", group_full=True,
                  group_default={"00": "Start here", "15": "Review and exam day", "16": "Review and exam day", "17": "Review and exam day"}),
+    "ccdv": dict(root=OC / "Anthropic-CCDV-F" / "study-notes", glob="Module_*.md", qa=True, kind="Module", link_word="Module", group_from="Exam guide", group_full=True,
+                 group_default={"00": "Start here", "17": "Review and exam day", "18": "Review and exam day"}),
     "togaf": dict(root=REPO / "TOGAF", glob="week*/Week_*.md", qa=False, header="bold", kind="Week",
                   scrub=dict(drop_lines=[r"\d+\. \*\*Apply to your experience\.\*\*"]),      # one prompt in Week 1 is about the author's own work history
                   append={"01": (REPO / "TOGAF" / "week1" / "Quick_Reference_Week_1.md", "Quick Reference Card for Week 1")},

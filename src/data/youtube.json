@@ -13227,6 +13227,1656 @@
    ]
   ]
  },
+ "pTrhEkApXho": {
+  "course": "ccdv",
+  "key": "00-Course-Introduction-and-Exam-Orientation-part-1",
+  "title": "CCDV-F Exam Prep Introduction: Exam Format, Domains and Scoring | Claude Developer",
+  "seconds": 762,
+  "published": "2026-11-08T13:33:10Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Tidewater Insurance"
+   ],
+   [
+    69,
+    "The Exam at a Glance"
+   ],
+   [
+    85,
+    "The Exam at a Glance, continued"
+   ],
+   [
+    133,
+    "The Exam at a Glance, continued"
+   ],
+   [
+    165,
+    "The Exam at a Glance, continued"
+   ],
+   [
+    196,
+    "The Eight Domains"
+   ],
+   [
+    224,
+    "The Eight Domains, continued"
+   ],
+   [
+    290,
+    "The Eight Domains, continued"
+   ],
+   [
+    355,
+    "The Eight Domains, continued"
+   ],
+   [
+    410,
+    "The Minimally Qualified Candidate"
+   ],
+   [
+    461,
+    "The Minimally Qualified Candidate, continued"
+   ],
+   [
+    475,
+    "Ten Decision Rules the Questions Reward"
+   ],
+   [
+    490,
+    "Ten Decision Rules the Questions Reward, continued"
+   ],
+   [
+    532,
+    "Ten Decision Rules the Questions Reward, continued"
+   ],
+   [
+    589,
+    "Ten Decision Rules the Questions Reward, continued"
+   ],
+   [
+    639,
+    "How to Use This Course"
+   ],
+   [
+    672,
+    "How to Use This Course, continued"
+   ]
+  ]
+ },
+ "KiD_EW1Pz8Q": {
+  "course": "ccdv",
+  "key": "01-Requirements-Life-Cycle-and-Software-Engineering-Foundations-part-1",
+  "title": "CCDV-F Exam Prep Module 1 Part 1 of 2: Requirements and the Systems Life Cycle | Claude Developer",
+  "seconds": 436,
+  "published": "2026-11-08T13:33:00Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Tidewater Insurance Wants a Claims Assistant"
+   ],
+   [
+    75,
+    "Understanding Requirements"
+   ],
+   [
+    129,
+    "Understanding Requirements, continued"
+   ],
+   [
+    164,
+    "Understanding Requirements, continued"
+   ],
+   [
+    193,
+    "Systems Life Cycle"
+   ],
+   [
+    208,
+    "Systems Life Cycle, continued"
+   ],
+   [
+    263,
+    "Systems Life Cycle, continued"
+   ],
+   [
+    274,
+    "REST APIs and JSON"
+   ],
+   [
+    308,
+    "REST APIs and JSON, continued"
+   ],
+   [
+    324,
+    "Asynchronous programming"
+   ],
+   [
+    355,
+    "Asynchronous programming, continued"
+   ],
+   [
+    367,
+    "Version control, SDLC integration, code review, refactoring"
+   ],
+   [
+    411,
+    "Version control, SDLC integration, code review, refactoring, continued"
+   ]
+  ]
+ },
+ "lRydgJ0ji7U": {
+  "course": "ccdv",
+  "key": "01-Requirements-Life-Cycle-and-Software-Engineering-Foundations-part-2",
+  "title": "CCDV-F Exam Prep Module 1 Part 2 of 2: Software Engineering Foundations | Claude Developer",
+  "seconds": 445,
+  "published": "2026-11-08T13:33:19Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Practice Question 1"
+   ],
+   [
+    96,
+    "Practice Question 2"
+   ],
+   [
+    129,
+    "Practice Question 3"
+   ],
+   [
+    163,
+    "Practice Question 4"
+   ],
+   [
+    191,
+    "Practice Question 5"
+   ],
+   [
+    224,
+    "Practice Question 6"
+   ],
+   [
+    256,
+    "Practice Question 7"
+   ],
+   [
+    288,
+    "Practice Question 8"
+   ],
+   [
+    321,
+    "Practice Question 9"
+   ],
+   [
+    350,
+    "Practice Question 10"
+   ],
+   [
+    386,
+    "Practice Question 11"
+   ]
+  ]
+ },
+ "_7VmRinoeHA": {
+  "course": "ccdv",
+  "key": "02-The-Messages-API-Requests-Streaming-and-Multi-Format-Input-part-1",
+  "title": "CCDV-F Exam Prep Module 2: Messages API, Streaming and Files | Claude Developer",
+  "seconds": 809,
+  "published": "2026-11-08T13:34:36Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Tidewater's First Call"
+   ],
+   [
+    72,
+    "A Request and Its Response"
+   ],
+   [
+    86,
+    "A Request and Its Response, continued"
+   ],
+   [
+    135,
+    "A Request and Its Response, continued"
+   ],
+   [
+    146,
+    "A Request and Its Response, continued"
+   ],
+   [
+    155,
+    "Stateless, so you resend the conversation"
+   ],
+   [
+    203,
+    "Streaming"
+   ],
+   [
+    217,
+    "Streaming, continued"
+   ],
+   [
+    230,
+    "Streaming, continued"
+   ],
+   [
+    290,
+    "Streaming, continued"
+   ],
+   [
+    300,
+    "Multi-Format Input: Images and PDFs"
+   ],
+   [
+    335,
+    "Multi-Format Input: Images and PDFs, continued"
+   ],
+   [
+    369,
+    "Multi-Format Input: Images and PDFs, continued"
+   ],
+   [
+    399,
+    "Multi-Format Input: Images and PDFs, continued"
+   ],
+   [
+    497,
+    "Practice Question 1"
+   ],
+   [
+    531,
+    "Practice Question 2"
+   ],
+   [
+    562,
+    "Practice Question 3"
+   ],
+   [
+    592,
+    "Practice Question 4"
+   ],
+   [
+    621,
+    "Practice Question 5"
+   ],
+   [
+    651,
+    "Practice Question 6"
+   ],
+   [
+    684,
+    "Practice Question 7"
+   ],
+   [
+    720,
+    "Practice Question 8"
+   ],
+   [
+    752,
+    "Practice Question 9"
+   ]
+  ]
+ },
+ "WFfEEuCXjQo": {
+  "course": "ccdv",
+  "key": "03-Thinking-Caching-Batch-Platforms-and-API-Errors-part-1",
+  "title": "CCDV-F Exam Prep Module 3 Part 1 of 2: Thinking, Effort and Prompt Caching | Claude Developer",
+  "seconds": 555,
+  "published": "2026-11-08T13:35:26Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Tidewater's Costly Answers"
+   ],
+   [
+    77,
+    "Thinking, Effort and Fast Mode"
+   ],
+   [
+    120,
+    "Thinking, Effort and Fast Mode, continued"
+   ],
+   [
+    136,
+    "Thinking, Effort and Fast Mode, continued"
+   ],
+   [
+    163,
+    "Thinking, Effort and Fast Mode, continued"
+   ],
+   [
+    186,
+    "Prompt Caching"
+   ],
+   [
+    200,
+    "Prompt Caching, continued"
+   ],
+   [
+    211,
+    "Prompt Caching, continued"
+   ],
+   [
+    253,
+    "Prompt Caching, continued"
+   ],
+   [
+    290,
+    "Prompt Caching, continued"
+   ],
+   [
+    316,
+    "Realtime Versus Batch"
+   ],
+   [
+    385,
+    "Realtime Versus Batch, continued"
+   ],
+   [
+    408,
+    "Third-Party Platforms"
+   ],
+   [
+    427,
+    "Third-Party Platforms, continued"
+   ],
+   [
+    471,
+    "Third-Party Platforms, continued"
+   ],
+   [
+    486,
+    "API Errors and Retries"
+   ],
+   [
+    498,
+    "API Errors and Retries, continued"
+   ]
+  ]
+ },
+ "voSpuy1FLzA": {
+  "course": "ccdv",
+  "key": "03-Thinking-Caching-Batch-Platforms-and-API-Errors-part-2",
+  "title": "CCDV-F Exam Prep Module 3 Part 2 of 2: Batch API, Platforms and API Errors | Claude Developer",
+  "seconds": 513,
+  "published": "2026-11-08T13:35:17Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "API Errors and Retries, continued"
+   ],
+   [
+    98,
+    "Practice Question 1"
+   ],
+   [
+    136,
+    "Practice Question 2"
+   ],
+   [
+    170,
+    "Practice Question 3"
+   ],
+   [
+    203,
+    "Practice Question 4"
+   ],
+   [
+    230,
+    "Practice Question 5"
+   ],
+   [
+    259,
+    "Practice Question 6"
+   ],
+   [
+    291,
+    "Practice Question 7"
+   ],
+   [
+    321,
+    "Practice Question 8"
+   ],
+   [
+    354,
+    "Practice Question 9"
+   ],
+   [
+    386,
+    "Practice Question 10"
+   ],
+   [
+    418,
+    "Practice Question 11"
+   ],
+   [
+    453,
+    "Practice Question 12"
+   ]
+  ]
+ },
+ "n5FXmerbU18": {
+  "course": "ccdv",
+  "key": "04-Claude-Application-Design-and-Configuration-Management-part-1",
+  "title": "CCDV-F Exam Prep Module 4: Application Design and Configuration | Claude Developer",
+  "seconds": 730,
+  "published": "2026-11-08T13:36:12Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Tidewater's Prompt Behaves Differently"
+   ],
+   [
+    68,
+    "The same words, different interfaces"
+   ],
+   [
+    81,
+    "The same words, different interfaces, continued"
+   ],
+   [
+    127,
+    "The same words, different interfaces, continued"
+   ],
+   [
+    142,
+    "Content boundaries and schemas"
+   ],
+   [
+    177,
+    "Session hygiene"
+   ],
+   [
+    204,
+    "Plugin management"
+   ],
+   [
+    239,
+    "Configuration Management"
+   ],
+   [
+    253,
+    "Configuration Management, continued"
+   ],
+   [
+    298,
+    "Configuration Management, continued"
+   ],
+   [
+    338,
+    "Configuration Management, continued"
+   ],
+   [
+    427,
+    "Practice Question 1"
+   ],
+   [
+    459,
+    "Practice Question 2"
+   ],
+   [
+    490,
+    "Practice Question 3"
+   ],
+   [
+    522,
+    "Practice Question 4"
+   ],
+   [
+    557,
+    "Practice Question 5"
+   ],
+   [
+    584,
+    "Practice Question 6"
+   ],
+   [
+    612,
+    "Practice Question 7"
+   ],
+   [
+    643,
+    "Practice Question 8"
+   ],
+   [
+    675,
+    "Practice Question 9"
+   ]
+  ]
+ },
+ "00e5TUb3bcg": {
+  "course": "ccdv",
+  "key": "05-Agent-Architecture-and-Patterns-part-1",
+  "title": "CCDV-F Exam Prep Module 5: Agent Architecture and Patterns | Claude Developer",
+  "seconds": 788,
+  "published": "2026-11-08T13:36:31Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Tidewater Automates Claim Intake"
+   ],
+   [
+    71,
+    "Workflow or Agent?"
+   ],
+   [
+    112,
+    "Workflow or Agent?, continued"
+   ],
+   [
+    143,
+    "Workflow or Agent?, continued"
+   ],
+   [
+    163,
+    "Workflow Patterns"
+   ],
+   [
+    174,
+    "Workflow Patterns, continued"
+   ],
+   [
+    224,
+    "Workflow Patterns, continued"
+   ],
+   [
+    248,
+    "Agent Architecture: Loops, Supervisors and Subagents"
+   ],
+   [
+    275,
+    "Agent Architecture: Loops, Supervisors and Subagents, continued"
+   ],
+   [
+    313,
+    "Agent Architecture: Loops, Supervisors and Subagents, continued"
+   ],
+   [
+    328,
+    "Agentic Frameworks"
+   ],
+   [
+    385,
+    "Agentic Frameworks, continued"
+   ],
+   [
+    470,
+    "Practice Question 1"
+   ],
+   [
+    506,
+    "Practice Question 2"
+   ],
+   [
+    539,
+    "Practice Question 3"
+   ],
+   [
+    570,
+    "Practice Question 4"
+   ],
+   [
+    603,
+    "Practice Question 5"
+   ],
+   [
+    636,
+    "Practice Question 6"
+   ],
+   [
+    665,
+    "Practice Question 7"
+   ],
+   [
+    697,
+    "Practice Question 8"
+   ],
+   [
+    729,
+    "Practice Question 9"
+   ]
+  ]
+ },
+ "Ho-QZk5_Gzs": {
+  "course": "ccdv",
+  "key": "06-Building-Agents-Agent-SDK-Custom-Loops-Managed-Agents-and-Hooks-part-1",
+  "title": "CCDV-F Exam Prep Module 6: Agent SDK, Custom Loops and Managed Agents | Claude Developer",
+  "seconds": 705,
+  "published": "2026-11-08T13:36:35Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Tidewater's Overnight Investigator"
+   ],
+   [
+    67,
+    "Choosing How to Build"
+   ],
+   [
+    81,
+    "Choosing How to Build, continued"
+   ],
+   [
+    122,
+    "Choosing How to Build, continued"
+   ],
+   [
+    157,
+    "The harness"
+   ],
+   [
+    177,
+    "Agent SDK Essentials"
+   ],
+   [
+    185,
+    "Agent SDK Essentials, continued"
+   ],
+   [
+    228,
+    "Managed Agents and Deployment Models"
+   ],
+   [
+    239,
+    "Managed Agents and Deployment Models, continued"
+   ],
+   [
+    291,
+    "Managed Agents and Deployment Models, continued"
+   ],
+   [
+    311,
+    "Hooks and Safety Limits"
+   ],
+   [
+    346,
+    "Hooks and Safety Limits, continued"
+   ],
+   [
+    411,
+    "Practice Question 1"
+   ],
+   [
+    443,
+    "Practice Question 2"
+   ],
+   [
+    475,
+    "Practice Question 3"
+   ],
+   [
+    503,
+    "Practice Question 4"
+   ],
+   [
+    533,
+    "Practice Question 5"
+   ],
+   [
+    563,
+    "Practice Question 6"
+   ],
+   [
+    590,
+    "Practice Question 7"
+   ],
+   [
+    619,
+    "Practice Question 8"
+   ],
+   [
+    648,
+    "Practice Question 9"
+   ]
+  ]
+ },
+ "dEzGdaH3eyw": {
+  "course": "ccdv",
+  "key": "07-LLM-and-Technical-Fundamentals-part-1",
+  "title": "CCDV-F Exam Prep Module 7 Part 1 of 2: How LLMs Work: Tokens, Context, Sampling | Claude Developer",
+  "seconds": 412,
+  "published": "2026-11-08T13:36:56Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Tidewater Meets Strange Behavior"
+   ],
+   [
+    69,
+    "How an LLM Works (the Parts the Exam Needs)"
+   ],
+   [
+    85,
+    "How an LLM Works (the Parts the Exam Needs), continued"
+   ],
+   [
+    121,
+    "How an LLM Works (the Parts the Exam Needs), continued"
+   ],
+   [
+    161,
+    "How an LLM Works (the Parts the Exam Needs), continued"
+   ],
+   [
+    189,
+    "How an LLM Works (the Parts the Exam Needs), continued"
+   ],
+   [
+    227,
+    "Model Options: Thinking, Effort and Fast Mode"
+   ],
+   [
+    278,
+    "Model Options: Thinking, Effort and Fast Mode, continued"
+   ],
+   [
+    298,
+    "Fundamental Prompting Techniques"
+   ],
+   [
+    341,
+    "Technical Fundamentals"
+   ],
+   [
+    393,
+    "Technical Fundamentals, continued"
+   ]
+  ]
+ },
+ "W3-3JBHnGO0": {
+  "course": "ccdv",
+  "key": "07-LLM-and-Technical-Fundamentals-part-2",
+  "title": "CCDV-F Exam Prep Module 7 Part 2 of 2: Model Options, Prompting and SDKs | Claude Developer",
+  "seconds": 431,
+  "published": "2026-11-08T13:37:08Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Technical Fundamentals, continued"
+   ],
+   [
+    76,
+    "Practice Question 1"
+   ],
+   [
+    109,
+    "Practice Question 2"
+   ],
+   [
+    138,
+    "Practice Question 3"
+   ],
+   [
+    163,
+    "Practice Question 4"
+   ],
+   [
+    190,
+    "Practice Question 5"
+   ],
+   [
+    221,
+    "Practice Question 6"
+   ],
+   [
+    249,
+    "Practice Question 7"
+   ],
+   [
+    278,
+    "Practice Question 8"
+   ],
+   [
+    306,
+    "Practice Question 9"
+   ],
+   [
+    335,
+    "Practice Question 10"
+   ],
+   [
+    371,
+    "Practice Question 11"
+   ]
+  ]
+ },
+ "9LPjDeMDwb8": {
+  "course": "ccdv",
+  "key": "08-Model-Selection-Cost-and-Token-Management-part-1",
+  "title": "CCDV-F Exam Prep Module 8: Model Selection, Cost and Tokens | Claude Developer",
+  "seconds": 802,
+  "published": "2026-11-08T13:37:35Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Tidewater Picks Models"
+   ],
+   [
+    59,
+    "Choosing a Model"
+   ],
+   [
+    116,
+    "Choosing a Model, continued"
+   ],
+   [
+    147,
+    "Choosing a Model, continued"
+   ],
+   [
+    193,
+    "Breaking behavior changes across releases"
+   ],
+   [
+    242,
+    "Know what you spend"
+   ],
+   [
+    268,
+    "Know what you spend, continued"
+   ],
+   [
+    313,
+    "The cost levers"
+   ],
+   [
+    378,
+    "The cost levers, continued"
+   ],
+   [
+    391,
+    "The cost levers, continued"
+   ],
+   [
+    461,
+    "Practice Question 1"
+   ],
+   [
+    495,
+    "Practice Question 2"
+   ],
+   [
+    527,
+    "Practice Question 3"
+   ],
+   [
+    558,
+    "Practice Question 4"
+   ],
+   [
+    591,
+    "Practice Question 5"
+   ],
+   [
+    621,
+    "Practice Question 6"
+   ],
+   [
+    651,
+    "Practice Question 7"
+   ],
+   [
+    681,
+    "Practice Question 8"
+   ],
+   [
+    714,
+    "Practice Question 9"
+   ],
+   [
+    745,
+    "Practice Question 10"
+   ]
+  ]
+ },
+ "RW4a05WAngA": {
+  "course": "ccdv",
+  "key": "09-Context-Engineering-part-1",
+  "title": "CCDV-F Exam Prep Module 9: Context Engineering | Claude Developer",
+  "seconds": 554,
+  "published": "2026-11-08T13:37:59Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Tidewater's Assistant Gets Confused Late in the Day"
+   ],
+   [
+    59,
+    "The Context Is a Budget"
+   ],
+   [
+    91,
+    "The Context Is a Budget, continued"
+   ],
+   [
+    111,
+    "Techniques"
+   ],
+   [
+    154,
+    "Techniques, continued"
+   ],
+   [
+    204,
+    "Techniques, continued"
+   ],
+   [
+    232,
+    "Techniques, continued"
+   ],
+   [
+    315,
+    "Practice Question 1"
+   ],
+   [
+    348,
+    "Practice Question 2"
+   ],
+   [
+    379,
+    "Practice Question 3"
+   ],
+   [
+    412,
+    "Practice Question 4"
+   ],
+   [
+    443,
+    "Practice Question 5"
+   ],
+   [
+    473,
+    "Practice Question 6"
+   ],
+   [
+    502,
+    "Practice Question 7"
+   ]
+  ]
+ },
+ "OVDFh2Lmvh4": {
+  "course": "ccdv",
+  "key": "10-Prompt-Engineering-and-Output-Handling-part-1",
+  "title": "CCDV-F Exam Prep Module 10: Prompt Engineering and Output Validation | Claude Developer",
+  "seconds": 725,
+  "published": "2026-11-08T13:38:46Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Tidewater's Vague Summaries"
+   ],
+   [
+    60,
+    "Prompt Engineering"
+   ],
+   [
+    102,
+    "Prompt Engineering, continued"
+   ],
+   [
+    162,
+    "Prompt Engineering, continued"
+   ],
+   [
+    178,
+    "Prompt Engineering, continued"
+   ],
+   [
+    204,
+    "Prompt Engineering, continued"
+   ],
+   [
+    239,
+    "Output Handling"
+   ],
+   [
+    251,
+    "Output Handling, continued"
+   ],
+   [
+    292,
+    "Output Handling, continued"
+   ],
+   [
+    330,
+    "Output Handling, continued"
+   ],
+   [
+    424,
+    "Practice Question 1"
+   ],
+   [
+    456,
+    "Practice Question 2"
+   ],
+   [
+    486,
+    "Practice Question 3"
+   ],
+   [
+    519,
+    "Practice Question 4"
+   ],
+   [
+    550,
+    "Practice Question 5"
+   ],
+   [
+    582,
+    "Practice Question 6"
+   ],
+   [
+    613,
+    "Practice Question 7"
+   ],
+   [
+    640,
+    "Practice Question 8"
+   ],
+   [
+    671,
+    "Practice Question 9"
+   ]
+  ]
+ },
+ "IF5rJUWQNJE": {
+  "course": "ccdv",
+  "key": "11-Tool-Implementation-part-1",
+  "title": "CCDV-F Exam Prep Module 11: Client Tools, Server Tools and tool_result | Claude Developer",
+  "seconds": 644,
+  "published": "2026-11-08T13:38:47Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Tidewater Connects the Policy System"
+   ],
+   [
+    56,
+    "The Tool Round Trip"
+   ],
+   [
+    68,
+    "The Tool Round Trip, continued"
+   ],
+   [
+    107,
+    "The Tool Round Trip, continued"
+   ],
+   [
+    115,
+    "The Tool Round Trip, continued"
+   ],
+   [
+    158,
+    "Client-Side Versus Server-Side Tools"
+   ],
+   [
+    169,
+    "Client-Side Versus Server-Side Tools, continued"
+   ],
+   [
+    237,
+    "Error Handling, Dispatch and Approval"
+   ],
+   [
+    276,
+    "Approval patterns"
+   ],
+   [
+    303,
+    "Approval patterns, continued"
+   ],
+   [
+    316,
+    "Building a Good Tool Set"
+   ],
+   [
+    412,
+    "Practice Question 1"
+   ],
+   [
+    444,
+    "Practice Question 2"
+   ],
+   [
+    470,
+    "Practice Question 3"
+   ],
+   [
+    501,
+    "Practice Question 4"
+   ],
+   [
+    531,
+    "Practice Question 5"
+   ],
+   [
+    564,
+    "Practice Question 6"
+   ],
+   [
+    593,
+    "Practice Question 7"
+   ]
+  ]
+ },
+ "Gq6patAjtcI": {
+  "course": "ccdv",
+  "key": "12-MCP-Servers-and-Agentic-Customization-part-1",
+  "title": "CCDV-F Exam Prep Module 12: MCP Servers and Skills | Claude Developer",
+  "seconds": 704,
+  "published": "2026-11-08T13:39:12Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Tidewater Shares Its Policy System"
+   ],
+   [
+    66,
+    "MCP Server Development"
+   ],
+   [
+    78,
+    "MCP Server Development, continued"
+   ],
+   [
+    126,
+    "MCP Server Development, continued"
+   ],
+   [
+    143,
+    "MCP Server Development, continued"
+   ],
+   [
+    152,
+    "Transports and logging"
+   ],
+   [
+    198,
+    "Transports and logging, continued"
+   ],
+   [
+    209,
+    "Deploying and integrating"
+   ],
+   [
+    259,
+    "Agentic Customization: Which Mechanism?"
+   ],
+   [
+    274,
+    "Agentic Customization: Which Mechanism?, continued"
+   ],
+   [
+    331,
+    "Agentic Customization: Which Mechanism?, continued"
+   ],
+   [
+    356,
+    "How Skills load (progressive disclosure)"
+   ],
+   [
+    378,
+    "How Skills load (progressive disclosure), continued"
+   ],
+   [
+    464,
+    "Practice Question 1"
+   ],
+   [
+    498,
+    "Practice Question 2"
+   ],
+   [
+    529,
+    "Practice Question 3"
+   ],
+   [
+    558,
+    "Practice Question 4"
+   ],
+   [
+    591,
+    "Practice Question 5"
+   ],
+   [
+    618,
+    "Practice Question 6"
+   ],
+   [
+    650,
+    "Practice Question 7"
+   ]
+  ]
+ },
+ "4bvtHjfKjI4": {
+  "course": "ccdv",
+  "key": "13-AI-Application-Security-and-Safe-Deployment-part-1",
+  "title": "CCDV-F Exam Prep Module 13: Prompt Injection and Safe Deployment | Claude Developer",
+  "seconds": 600,
+  "published": "2026-11-08T13:39:31Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Tidewater's Assistant Reads a Hostile Email"
+   ],
+   [
+    62,
+    "Threats"
+   ],
+   [
+    73,
+    "Threats, continued"
+   ],
+   [
+    131,
+    "Against indirect injection and untrusted input"
+   ],
+   [
+    172,
+    "Against indirect injection and untrusted input, continued"
+   ],
+   [
+    203,
+    "Against jailbreaks and leakage"
+   ],
+   [
+    238,
+    "Against jailbreaks and leakage, continued"
+   ],
+   [
+    259,
+    "Guardrails and Safe Deployment"
+   ],
+   [
+    303,
+    "Guardrails and Safe Deployment, continued"
+   ],
+   [
+    400,
+    "Practice Question 1"
+   ],
+   [
+    434,
+    "Practice Question 2"
+   ],
+   [
+    462,
+    "Practice Question 3"
+   ],
+   [
+    492,
+    "Practice Question 4"
+   ],
+   [
+    521,
+    "Practice Question 5"
+   ],
+   [
+    550,
+    "Practice Question 6"
+   ]
+  ]
+ },
+ "7nStWPTF9l8": {
+  "course": "ccdv",
+  "key": "14-Hooks-Secrets-and-Key-Management-part-1",
+  "title": "CCDV-F Exam Prep Module 14: Hooks, Secrets and API Keys | Claude Developer",
+  "seconds": 541,
+  "published": "2026-11-08T13:39:40Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Tidewater's Coding Agent Almost Deletes a Folder"
+   ],
+   [
+    59,
+    "Hooks as Guardrails"
+   ],
+   [
+    106,
+    "Hooks as Guardrails, continued"
+   ],
+   [
+    146,
+    "Hooks as Guardrails, continued"
+   ],
+   [
+    175,
+    "Identity, Secrets and Key Management"
+   ],
+   [
+    213,
+    "Identity, Secrets and Key Management, continued"
+   ],
+   [
+    258,
+    "Identity, Secrets and Key Management, continued"
+   ],
+   [
+    289,
+    "Identity, Secrets and Key Management, continued"
+   ],
+   [
+    365,
+    "Practice Question 1"
+   ],
+   [
+    399,
+    "Practice Question 2"
+   ],
+   [
+    430,
+    "Practice Question 3"
+   ],
+   [
+    463,
+    "Practice Question 4"
+   ],
+   [
+    491,
+    "Practice Question 5"
+   ]
+  ]
+ },
+ "F-s9k-b2Cns": {
+  "course": "ccdv",
+  "key": "15-Claude-Code-Operation-part-1",
+  "title": "CCDV-F Exam Prep Module 15: Claude Code Settings and Headless Use | Claude Developer",
+  "seconds": 573,
+  "published": "2026-11-08T13:40:11Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Tidewater Rolls Out Claude Code"
+   ],
+   [
+    53,
+    "Core Components"
+   ],
+   [
+    67,
+    "Core Components, continued"
+   ],
+   [
+    134,
+    "Core Components, continued"
+   ],
+   [
+    163,
+    "The CLAUDE.md hierarchy"
+   ],
+   [
+    215,
+    "Features"
+   ],
+   [
+    267,
+    "Features, continued"
+   ],
+   [
+    284,
+    "Features, continued"
+   ],
+   [
+    314,
+    "Features, continued"
+   ],
+   [
+    401,
+    "Practice Question 1"
+   ],
+   [
+    433,
+    "Practice Question 2"
+   ],
+   [
+    458,
+    "Practice Question 3"
+   ],
+   [
+    490,
+    "Practice Question 4"
+   ],
+   [
+    522,
+    "Practice Question 5"
+   ]
+  ]
+ },
+ "w7BkrjH-6QA": {
+  "course": "ccdv",
+  "key": "16-Debugging-Evals-and-Error-Handling-part-1",
+  "title": "CCDV-F Exam Prep Module 16: Debugging, Evals and Error Handling | Claude Developer",
+  "seconds": 584,
+  "published": "2026-11-08T13:40:31Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Tidewater's Assistant \"Stopped Working\""
+   ],
+   [
+    55,
+    "Step 1: classify the failure"
+   ],
+   [
+    66,
+    "Step 1: classify the failure, continued"
+   ],
+   [
+    144,
+    "Step 1: classify the failure, continued"
+   ],
+   [
+    173,
+    "Step 2: use traces"
+   ],
+   [
+    199,
+    "Step 3: isolate the origin"
+   ],
+   [
+    231,
+    "Step 3: isolate the origin, continued"
+   ],
+   [
+    262,
+    "Evals"
+   ],
+   [
+    275,
+    "Evals, continued"
+   ],
+   [
+    319,
+    "Evals, continued"
+   ],
+   [
+    333,
+    "Evals, continued"
+   ],
+   [
+    407,
+    "Practice Question 1"
+   ],
+   [
+    437,
+    "Practice Question 2"
+   ],
+   [
+    467,
+    "Practice Question 3"
+   ],
+   [
+    496,
+    "Practice Question 4"
+   ],
+   [
+    532,
+    "Practice Question 5"
+   ]
+  ]
+ },
+ "v_W7kZAKUjs": {
+  "course": "ccdv",
+  "key": "17-Quick-Reference-Recap-and-Decision-Chooser-part-1",
+  "title": "CCDV-F Exam Prep Module 17: Quick Reference and Decision Chooser | Claude Developer",
+  "seconds": 651,
+  "published": "2026-11-08T13:40:54Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Tidewater Insurance"
+   ],
+   [
+    46,
+    "Decision Chooser"
+   ],
+   [
+    54,
+    "D2 Applications and Integration (33.1%)"
+   ],
+   [
+    131,
+    "D2 Applications and Integration (33.1%), continued"
+   ],
+   [
+    168,
+    "D1 Agents (14.7%), D5 Models (16.8%)"
+   ],
+   [
+    249,
+    "D1 Agents (14.7%), D5 Models (16.8%), continued"
+   ],
+   [
+    277,
+    "D6, D8, D7, D3, D4"
+   ],
+   [
+    367,
+    "D6, D8, D7, D3, D4, continued"
+   ],
+   [
+    449,
+    "Names and Values to Know"
+   ],
+   [
+    496,
+    "Names and Values to Know, continued"
+   ],
+   [
+    550,
+    "Distractor Patterns"
+   ],
+   [
+    599,
+    "Distractor Patterns, continued"
+   ]
+  ]
+ },
+ "5taWDYDIJzA": {
+  "course": "ccdv",
+  "key": "18-Exam-Technique-and-Final-Review-part-1",
+  "title": "CCDV-F Exam Prep Module 18: Exam Technique and Final Review | Claude Developer",
+  "seconds": 440,
+  "published": "2026-11-08T13:41:07Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Tidewater Insurance"
+   ],
+   [
+    49,
+    "Time Plan"
+   ],
+   [
+    61,
+    "Time Plan, continued"
+   ],
+   [
+    111,
+    "Reading an Item"
+   ],
+   [
+    130,
+    "Reading an Item, continued"
+   ],
+   [
+    194,
+    "Eliminating Distractors"
+   ],
+   [
+    225,
+    "Multiple-response items"
+   ],
+   [
+    248,
+    "Policies and Logistics"
+   ],
+   [
+    302,
+    "Policies and Logistics, continued"
+   ],
+   [
+    323,
+    "Final Review Checklist"
+   ],
+   [
+    364,
+    "The last week"
+   ],
+   [
+    397,
+    "The last week, continued"
+   ]
+  ]
+ },
  "yTE9OtaIN9A": {
   "course": "cdmp",
   "key": "00-Course-Introduction",
