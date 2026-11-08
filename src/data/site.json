@@ -73,7 +73,8 @@
    "mono": "ANT",
    "certs": [
     "ccar",
-    "ccdv"
+    "ccdv",
+    "ccao"
    ]
   },
   {
@@ -24472,6 +24473,2736 @@
       "page_words": 878,
       "src_tables": 4,
       "tables": 4,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 0,
+      "scenario": 0,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "18"
+     ],
+     "domain": "",
+     "ref": "Module 18",
+     "tn": "Module 18",
+     "of": 19,
+     "module": "18"
+    }
+   ],
+   "glossary": 0
+  },
+  {
+   "kind": "certification",
+   "topic": null,
+   "slug": "ccao",
+   "institute": "anthropic",
+   "short": "CCAO-F",
+   "name": "Claude Associate Foundations",
+   "title": "Claude Associate Foundations (CCAO-F) Exam Prep Masterclass",
+   "accent": "c-ccao",
+   "desc": "Prompting, checking outputs, choosing features and models, Projects and connectors, responsible use and troubleshooting, with the Cedarbrook Outfitters running case.",
+   "audience": "Professionals who use Claude every day in operations, marketing, project management, education and communications, and anyone preparing for the Claude Associate Foundations exam.",
+   "sources": "The official Claude Associate Foundations (CCAO-F) exam guide, the Claude Help Center and Anthropic's own documentation.",
+   "playlist": "PLYRDlvKz58Vo",
+   "cover": "img/covers/ccao.jpg",
+   "modules": [
+    {
+     "num": "00",
+     "slug": "00-course-introduction-and-exam-orientation",
+     "title": "Course Introduction and Exam Orientation",
+     "desc": "The Exam at a Glance and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "uHNwHGC8w3s",
+       "title": "The Exam at a Glance and recap",
+       "seconds": 682,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Cedarbrook Outfitters"
+        ],
+        [
+         67,
+         "The Exam at a Glance"
+        ],
+        [
+         83,
+         "The Exam at a Glance, continued"
+        ],
+        [
+         132,
+         "The Exam at a Glance, continued"
+        ],
+        [
+         174,
+         "The Seven Domains"
+        ],
+        [
+         199,
+         "The Seven Domains, continued"
+        ],
+        [
+         256,
+         "The Seven Domains, continued"
+        ],
+        [
+         320,
+         "The Seven Domains, continued"
+        ],
+        [
+         359,
+         "The Minimally Qualified Candidate"
+        ],
+        [
+         402,
+         "The Minimally Qualified Candidate, continued"
+        ],
+        [
+         416,
+         "Ten Decision Rules the Questions Reward"
+        ],
+        [
+         431,
+         "Ten Decision Rules the Questions Reward, continued"
+        ],
+        [
+         482,
+         "Ten Decision Rules the Questions Reward, continued"
+        ],
+        [
+         533,
+         "Ten Decision Rules the Questions Reward, continued"
+        ],
+        [
+         568,
+         "How to Use This Course"
+        ],
+        [
+         600,
+         "How to Use This Course, continued"
+        ]
+       ],
+       "published": "2026-11-08T15:58:00Z",
+       "thumb": "img/modules/ccao/00-1.jpg"
+      }
+     ],
+     "deck": "downloads/ccao/00-course-introduction-and-exam-orientation.pptx",
+     "deck_kb": 262,
+     "seconds": 682,
+     "words": 1510
+    },
+    {
+     "num": "01",
+     "slug": "01-prompting-fundamentals",
+     "title": "Prompting Fundamentals",
+     "desc": "The Anatomy of an Effective Prompt",
+     "parts": [
+      {
+       "part": 1,
+       "id": "lGtz1363zoQ",
+       "title": "The Anatomy of an Effective Prompt",
+       "seconds": 418,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Cedarbrook's Vague Request"
+        ],
+        [
+         69,
+         "The Anatomy of an Effective Prompt"
+        ],
+        [
+         90,
+         "The Anatomy of an Effective Prompt, continued"
+        ],
+        [
+         153,
+         "The Anatomy of an Effective Prompt, continued"
+        ],
+        [
+         176,
+         "Be clear and direct"
+        ],
+        [
+         203,
+         "Give the reason"
+        ],
+        [
+         224,
+         "Use examples"
+        ],
+        [
+         246,
+         "Separate instructions from material"
+        ],
+        [
+         269,
+         "Give Claude a role"
+        ],
+        [
+         285,
+         "Let Claude ask and admit doubt"
+        ],
+        [
+         301,
+         "Let Claude ask and admit doubt, continued"
+        ],
+        [
+         326,
+         "Let Claude ask and admit doubt, continued"
+        ],
+        [
+         340,
+         "Prompts for Business and Technical Tasks"
+        ],
+        [
+         378,
+         "Prompts for Business and Technical Tasks, continued"
+        ]
+       ],
+       "published": "2026-11-08T15:58:07Z",
+       "thumb": "img/modules/ccao/01-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "Qy2K0Moqmg0",
+       "title": "Prompts for Business and Technical Tasks and Common Mistakes, recap and practice",
+       "seconds": 428,
+       "chapters": [
+        [
+         0,
+         "Prompts for Business and Technical Tasks, continued"
+        ],
+        [
+         49,
+         "Common Mistakes"
+        ],
+        [
+         129,
+         "Practice Question 1"
+        ],
+        [
+         163,
+         "Practice Question 2"
+        ],
+        [
+         190,
+         "Practice Question 3"
+        ],
+        [
+         220,
+         "Practice Question 4"
+        ],
+        [
+         252,
+         "Practice Question 5"
+        ],
+        [
+         282,
+         "Practice Question 6"
+        ],
+        [
+         317,
+         "Practice Question 7"
+        ],
+        [
+         347,
+         "Practice Question 8"
+        ],
+        [
+         379,
+         "Practice Question 9"
+        ]
+       ],
+       "published": "2026-11-08T15:58:19Z",
+       "thumb": "img/modules/ccao/01-2.jpg"
+      }
+     ],
+     "deck": "downloads/ccao/01-prompting-fundamentals.pptx",
+     "deck_kb": 257,
+     "seconds": 846,
+     "words": 1701
+    },
+    {
+     "num": "02",
+     "slug": "02-task-decomposition-iteration-and-task-types",
+     "title": "Task Decomposition, Iteration and Task Types",
+     "desc": "Task Decomposition, recap and practice",
+     "parts": [
+      {
+       "part": 1,
+       "id": "DzFARLir73g",
+       "title": "Task Decomposition, recap and practice",
+       "seconds": 860,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Cedarbrook's Quarterly Review"
+        ],
+        [
+         65,
+         "Task Decomposition"
+        ],
+        [
+         77,
+         "Task Decomposition, continued"
+        ],
+        [
+         90,
+         "Task Decomposition, continued"
+        ],
+        [
+         149,
+         "Task Decomposition, continued"
+        ],
+        [
+         193,
+         "Iteration"
+        ],
+        [
+         203,
+         "Iteration, continued"
+        ],
+        [
+         247,
+         "Iteration, continued"
+        ],
+        [
+         281,
+         "Iteration, continued"
+        ],
+        [
+         303,
+         "Adapt the Prompt to the Task Type"
+        ],
+        [
+         344,
+         "Adapt the Prompt to the Task Type, continued"
+        ],
+        [
+         392,
+         "Adapt the Prompt to the Task Type, continued"
+        ],
+        [
+         447,
+         "Putting It Together"
+        ],
+        [
+         531,
+         "Practice Question 1"
+        ],
+        [
+         563,
+         "Practice Question 2"
+        ],
+        [
+         594,
+         "Practice Question 3"
+        ],
+        [
+         620,
+         "Practice Question 4"
+        ],
+        [
+         654,
+         "Practice Question 5"
+        ],
+        [
+         687,
+         "Practice Question 6"
+        ],
+        [
+         719,
+         "Practice Question 7"
+        ],
+        [
+         749,
+         "Practice Question 8"
+        ],
+        [
+         777,
+         "Practice Question 9"
+        ],
+        [
+         809,
+         "Practice Question 10"
+        ]
+       ],
+       "published": "2026-11-08T15:59:29Z",
+       "thumb": "img/modules/ccao/02-1.jpg"
+      }
+     ],
+     "deck": "downloads/ccao/02-task-decomposition-iteration-and-task-types.pptx",
+     "deck_kb": 196,
+     "seconds": 860,
+     "words": 1586
+    },
+    {
+     "num": "03",
+     "slug": "03-evaluating-accuracy-hallucinations-inconsistencies-and-bias",
+     "title": "Evaluating Accuracy: Hallucinations, Inconsistencies and Bias",
+     "desc": "Why Outputs Can Be Wrong",
+     "parts": [
+      {
+       "part": 1,
+       "id": "rkOrHzh5LxM",
+       "title": "Why Outputs Can Be Wrong",
+       "seconds": 444,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Cedarbrook's Confident Summary"
+        ],
+        [
+         69,
+         "Why Outputs Can Be Wrong"
+        ],
+        [
+         88,
+         "Why Outputs Can Be Wrong, continued"
+        ],
+        [
+         120,
+         "Why Outputs Can Be Wrong, continued"
+        ],
+        [
+         153,
+         "What to Look For"
+        ],
+        [
+         208,
+         "What to Look For, continued"
+        ],
+        [
+         255,
+         "What to Look For, continued"
+        ],
+        [
+         273,
+         "Completeness and Inconsistency"
+        ],
+        [
+         286,
+         "Completeness and Inconsistency, continued"
+        ],
+        [
+         336,
+         "Completeness and Inconsistency, continued"
+        ],
+        [
+         351,
+         "Completeness and Inconsistency, continued"
+        ],
+        [
+         372,
+         "Bias"
+        ],
+        [
+         388,
+         "Bias, continued"
+        ]
+       ],
+       "published": "2026-11-08T15:59:11Z",
+       "thumb": "img/modules/ccao/03-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "UlAdsv005-k",
+       "title": "Bias and An Evaluation Checklist, recap and practice",
+       "seconds": 449,
+       "chapters": [
+        [
+         0,
+         "Bias, continued"
+        ],
+        [
+         37,
+         "An Evaluation Checklist"
+        ],
+        [
+         118,
+         "Practice Question 1"
+        ],
+        [
+         152,
+         "Practice Question 2"
+        ],
+        [
+         179,
+         "Practice Question 3"
+        ],
+        [
+         209,
+         "Practice Question 4"
+        ],
+        [
+         240,
+         "Practice Question 5"
+        ],
+        [
+         271,
+         "Practice Question 6"
+        ],
+        [
+         304,
+         "Practice Question 7"
+        ],
+        [
+         332,
+         "Practice Question 8"
+        ],
+        [
+         364,
+         "Practice Question 9"
+        ],
+        [
+         396,
+         "Practice Question 10"
+        ]
+       ],
+       "published": "2026-11-08T15:59:19Z",
+       "thumb": "img/modules/ccao/03-2.jpg"
+      }
+     ],
+     "deck": "downloads/ccao/03-evaluating-accuracy-hallucinations-inconsistencies-and-bias.pptx",
+     "deck_kb": 209,
+     "seconds": 893,
+     "words": 1654
+    },
+    {
+     "num": "04",
+     "slug": "04-fact-checking-validation-and-human-review",
+     "title": "Fact-Checking, Validation and Human Review",
+     "desc": "Fact-Checking Techniques, recap and practice",
+     "parts": [
+      {
+       "part": 1,
+       "id": "JRc_838uC54",
+       "title": "Fact-Checking Techniques, recap and practice",
+       "seconds": 806,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Cedarbrook's Press Release"
+        ],
+        [
+         63,
+         "Fact-Checking Techniques"
+        ],
+        [
+         115,
+         "Fact-Checking Techniques, continued"
+        ],
+        [
+         160,
+         "Fact-Checking Techniques, continued"
+        ],
+        [
+         186,
+         "Fact-Checking Techniques, continued"
+        ],
+        [
+         212,
+         "Using Web Search and Citations"
+        ],
+        [
+         251,
+         "Using Web Search and Citations, continued"
+        ],
+        [
+         270,
+         "Using Web Search and Citations, continued"
+        ],
+        [
+         289,
+         "How Much Checking Is Enough?"
+        ],
+        [
+         341,
+         "How Much Checking Is Enough?, continued"
+        ],
+        [
+         367,
+         "When Human Review Is Required"
+        ],
+        [
+         408,
+         "When Human Review Is Required, continued"
+        ],
+        [
+         511,
+         "Practice Question 1"
+        ],
+        [
+         543,
+         "Practice Question 2"
+        ],
+        [
+         572,
+         "Practice Question 3"
+        ],
+        [
+         604,
+         "Practice Question 4"
+        ],
+        [
+         634,
+         "Practice Question 5"
+        ],
+        [
+         661,
+         "Practice Question 6"
+        ],
+        [
+         695,
+         "Practice Question 7"
+        ],
+        [
+         725,
+         "Practice Question 8"
+        ],
+        [
+         753,
+         "Practice Question 9"
+        ]
+       ],
+       "published": "2026-11-08T15:59:48Z",
+       "thumb": "img/modules/ccao/04-1.jpg"
+      }
+     ],
+     "deck": "downloads/ccao/04-fact-checking-validation-and-human-review.pptx",
+     "deck_kb": 278,
+     "seconds": 806,
+     "words": 1503
+    },
+    {
+     "num": "05",
+     "slug": "05-editing-adapting-organizing-and-choosing-output-formats",
+     "title": "Editing, Adapting, Organizing and Choosing Output Formats",
+     "desc": "Edit and Adapt for the Audience, recap and practice",
+     "parts": [
+      {
+       "part": 1,
+       "id": "vUhR5Mn-9jU",
+       "title": "Edit and Adapt for the Audience, recap and practice",
+       "seconds": 808,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Cedarbrook's One Message, Three Readers"
+        ],
+        [
+         64,
+         "Edit and Adapt for the Audience"
+        ],
+        [
+         75,
+         "Edit and Adapt for the Audience, continued"
+        ],
+        [
+         129,
+         "Edit and Adapt for the Audience, continued"
+        ],
+        [
+         175,
+         "Organize and Curate Information"
+        ],
+        [
+         241,
+         "Organize and Curate Information, continued"
+        ],
+        [
+         273,
+         "Choosing the Output Format"
+        ],
+        [
+         287,
+         "Choosing the Output Format, continued"
+        ],
+        [
+         334,
+         "Choosing the Output Format, continued"
+        ],
+        [
+         381,
+         "Choosing the Output Format, continued"
+        ],
+        [
+         440,
+         "Choosing the Output Format, continued"
+        ],
+        [
+         503,
+         "Practice Question 1"
+        ],
+        [
+         534,
+         "Practice Question 2"
+        ],
+        [
+         567,
+         "Practice Question 3"
+        ],
+        [
+         599,
+         "Practice Question 4"
+        ],
+        [
+         630,
+         "Practice Question 5"
+        ],
+        [
+         656,
+         "Practice Question 6"
+        ],
+        [
+         690,
+         "Practice Question 7"
+        ],
+        [
+         725,
+         "Practice Question 8"
+        ],
+        [
+         757,
+         "Practice Question 9"
+        ]
+       ],
+       "published": "2026-11-08T16:00:42Z",
+       "thumb": "img/modules/ccao/05-1.jpg"
+      }
+     ],
+     "deck": "downloads/ccao/05-editing-adapting-organizing-and-choosing-output-formats.pptx",
+     "deck_kb": 217,
+     "seconds": 808,
+     "words": 1534
+    },
+    {
+     "num": "06",
+     "slug": "06-claude-features-chat-search-thinking-research-files-and-artifacts",
+     "title": "Claude Features: Chat, Search, Thinking, Research, Files and Artifacts",
+     "desc": "The Feature Map",
+     "parts": [
+      {
+       "part": 1,
+       "id": "7fUfW4PMIYE",
+       "title": "The Feature Map",
+       "seconds": 447,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Cedarbrook's Monday Requests"
+        ],
+        [
+         66,
+         "The Feature Map"
+        ],
+        [
+         80,
+         "The Feature Map, continued"
+        ],
+        [
+         144,
+         "The Feature Map, continued"
+        ],
+        [
+         203,
+         "The Feature Map, continued"
+        ],
+        [
+         228,
+         "Search, Thinking and Research"
+        ],
+        [
+         239,
+         "Search, Thinking and Research, continued"
+        ],
+        [
+         295,
+         "Search, Thinking and Research, continued"
+        ],
+        [
+         328,
+         "Search, Thinking and Research, continued"
+        ],
+        [
+         361,
+         "Files, Projects, Artifacts and More"
+        ],
+        [
+         403,
+         "Files, Projects, Artifacts and More, continued"
+        ]
+       ],
+       "published": "2026-11-08T16:00:22Z",
+       "thumb": "img/modules/ccao/06-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "WKBedoRia9I",
+       "title": "Files, Projects, Artifacts and More and A Feature Chooser, recap and practice",
+       "seconds": 459,
+       "chapters": [
+        [
+         0,
+         "Files, Projects, Artifacts and More, continued"
+        ],
+        [
+         41,
+         "A Feature Chooser"
+        ],
+        [
+         59,
+         "A Feature Chooser, continued"
+        ],
+        [
+         158,
+         "Practice Question 1"
+        ],
+        [
+         188,
+         "Practice Question 2"
+        ],
+        [
+         221,
+         "Practice Question 3"
+        ],
+        [
+         253,
+         "Practice Question 4"
+        ],
+        [
+         287,
+         "Practice Question 5"
+        ],
+        [
+         319,
+         "Practice Question 6"
+        ],
+        [
+         351,
+         "Practice Question 7"
+        ],
+        [
+         382,
+         "Practice Question 8"
+        ],
+        [
+         409,
+         "Practice Question 9"
+        ]
+       ],
+       "published": "2026-11-08T16:00:44Z",
+       "thumb": "img/modules/ccao/06-2.jpg"
+      }
+     ],
+     "deck": "downloads/ccao/06-claude-features-chat-search-thinking-research-files-and-artifacts.pptx",
+     "deck_kb": 300,
+     "seconds": 906,
+     "words": 1728
+    },
+    {
+     "num": "07",
+     "slug": "07-choosing-a-model-and-effort-haiku-sonnet-opus",
+     "title": "Choosing a Model and Effort: Haiku, Sonnet, Opus",
+     "desc": "The Model Families, recap and practice",
+     "parts": [
+      {
+       "part": 1,
+       "id": "_KwQSGJeAV0",
+       "title": "The Model Families, recap and practice",
+       "seconds": 713,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Cedarbrook's Reply Queue"
+        ],
+        [
+         59,
+         "The Model Families"
+        ],
+        [
+         73,
+         "The Model Families, continued"
+        ],
+        [
+         145,
+         "The Model Families, continued"
+        ],
+        [
+         177,
+         "The Model Families, continued"
+        ],
+        [
+         206,
+         "Aligning Model to Task"
+        ],
+        [
+         218,
+         "Aligning Model to Task, continued"
+        ],
+        [
+         263,
+         "Aligning Model to Task, continued"
+        ],
+        [
+         297,
+         "Aligning Model to Task, continued"
+        ],
+        [
+         327,
+         "Effort and Thinking"
+        ],
+        [
+         385,
+         "Effort and Thinking, continued"
+        ],
+        [
+         420,
+         "Cost and Speed in Practice"
+        ],
+        [
+         504,
+         "Practice Question 1"
+        ],
+        [
+         539,
+         "Practice Question 2"
+        ],
+        [
+         573,
+         "Practice Question 3"
+        ],
+        [
+         599,
+         "Practice Question 4"
+        ],
+        [
+         631,
+         "Practice Question 5"
+        ],
+        [
+         664,
+         "Practice Question 6"
+        ]
+       ],
+       "published": "2026-11-08T16:01:09Z",
+       "thumb": "img/modules/ccao/07-1.jpg"
+      }
+     ],
+     "deck": "downloads/ccao/07-choosing-a-model-and-effort-haiku-sonnet-opus.pptx",
+     "deck_kb": 202,
+     "seconds": 713,
+     "words": 1396
+    },
+    {
+     "num": "08",
+     "slug": "08-context-limits-and-memory-restart-summarize-or-persist",
+     "title": "Context Limits and Memory: Restart, Summarize or Persist",
+     "desc": "The Context Window, recap and practice",
+     "parts": [
+      {
+       "part": 1,
+       "id": "yXff9nop9mI",
+       "title": "The Context Window, recap and practice",
+       "seconds": 705,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Cedarbrook's Marathon Chat"
+        ],
+        [
+         56,
+         "The Context Window"
+        ],
+        [
+         84,
+         "The Context Window, continued"
+        ],
+        [
+         121,
+         "The Context Window, continued"
+        ],
+        [
+         144,
+         "Restart, Summarize or Persist"
+        ],
+        [
+         159,
+         "Restart, Summarize or Persist, continued"
+        ],
+        [
+         191,
+         "Restart, Summarize or Persist, continued"
+        ],
+        [
+         233,
+         "Restart, Summarize or Persist, continued"
+        ],
+        [
+         244,
+         "Memory and Chat Search"
+        ],
+        [
+         281,
+         "Memory and Chat Search, continued"
+        ],
+        [
+         312,
+         "Memory and Chat Search, continued"
+        ],
+        [
+         333,
+         "Memory and Chat Search, continued"
+        ],
+        [
+         365,
+         "Memory and Chat Search, continued"
+        ],
+        [
+         411,
+         "Memory and Chat Search, continued"
+        ],
+        [
+         501,
+         "Practice Question 1"
+        ],
+        [
+         531,
+         "Practice Question 2"
+        ],
+        [
+         563,
+         "Practice Question 3"
+        ],
+        [
+         592,
+         "Practice Question 4"
+        ],
+        [
+         624,
+         "Practice Question 5"
+        ],
+        [
+         655,
+         "Practice Question 6"
+        ]
+       ],
+       "published": "2026-11-08T16:01:34Z",
+       "thumb": "img/modules/ccao/08-1.jpg"
+      }
+     ],
+     "deck": "downloads/ccao/08-context-limits-and-memory-restart-summarize-or-persist.pptx",
+     "deck_kb": 208,
+     "seconds": 705,
+     "words": 1479
+    },
+    {
+     "num": "09",
+     "slug": "09-requirements-research-planning-and-process-optimization",
+     "title": "Requirements, Research, Planning and Process Optimization",
+     "desc": "Analyzing Requirements, recap and practice",
+     "parts": [
+      {
+       "part": 1,
+       "id": "qJtiDyhZWV4",
+       "title": "Analyzing Requirements, recap and practice",
+       "seconds": 889,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Cedarbrook's Returns Overhaul"
+        ],
+        [
+         66,
+         "Analyzing Requirements"
+        ],
+        [
+         74,
+         "Analyzing Requirements, continued"
+        ],
+        [
+         120,
+         "Analyzing Requirements, continued"
+        ],
+        [
+         161,
+         "Identifying Good Use Cases"
+        ],
+        [
+         170,
+         "Identifying Good Use Cases, continued"
+        ],
+        [
+         185,
+         "Identifying Good Use Cases, continued"
+        ],
+        [
+         229,
+         "Identifying Good Use Cases, continued"
+        ],
+        [
+         260,
+         "Research and Planning"
+        ],
+        [
+         293,
+         "Research and Planning, continued"
+        ],
+        [
+         363,
+         "Research and Planning, continued"
+        ],
+        [
+         371,
+         "Process Optimization"
+        ],
+        [
+         383,
+         "Process Optimization, continued"
+        ],
+        [
+         452,
+         "Process Optimization, continued"
+        ],
+        [
+         538,
+         "Practice Question 1"
+        ],
+        [
+         568,
+         "Practice Question 2"
+        ],
+        [
+         594,
+         "Practice Question 3"
+        ],
+        [
+         622,
+         "Practice Question 4"
+        ],
+        [
+         652,
+         "Practice Question 5"
+        ],
+        [
+         681,
+         "Practice Question 6"
+        ],
+        [
+         712,
+         "Practice Question 7"
+        ],
+        [
+         740,
+         "Practice Question 8"
+        ],
+        [
+         772,
+         "Practice Question 9"
+        ],
+        [
+         800,
+         "Practice Question 10"
+        ],
+        [
+         831,
+         "Practice Question 11"
+        ]
+       ],
+       "published": "2026-11-08T16:02:07Z",
+       "thumb": "img/modules/ccao/09-1.jpg"
+      }
+     ],
+     "deck": "downloads/ccao/09-requirements-research-planning-and-process-optimization.pptx",
+     "deck_kb": 216,
+     "seconds": 889,
+     "words": 1554
+    },
+    {
+     "num": "10",
+     "slug": "10-solution-design-workflow-integration-and-stakeholder-communication",
+     "title": "Solution Design, Workflow Integration and Stakeholder Communication",
+     "desc": "Supporting Solution Design and Iteration",
+     "parts": [
+      {
+       "part": 1,
+       "id": "LsZ8fZcF65w",
+       "title": "Supporting Solution Design and Iteration",
+       "seconds": 472,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Cedarbrook's Onboarding Kit"
+        ],
+        [
+         68,
+         "Supporting Solution Design and Iteration"
+        ],
+        [
+         135,
+         "Supporting Solution Design and Iteration, continued"
+        ],
+        [
+         157,
+         "Fitting Claude into a Workflow"
+        ],
+        [
+         169,
+         "Fitting Claude into a Workflow, continued"
+        ],
+        [
+         204,
+         "Fitting Claude into a Workflow, continued"
+        ],
+        [
+         254,
+         "Fitting Claude into a Workflow, continued"
+        ],
+        [
+         292,
+         "Know the Boundary: When to Escalate"
+        ],
+        [
+         304,
+         "Know the Boundary: When to Escalate, continued"
+        ],
+        [
+         359,
+         "Know the Boundary: When to Escalate, continued"
+        ],
+        [
+         371,
+         "Communicating Value and Limits"
+        ],
+        [
+         379,
+         "Communicating Value and Limits, continued"
+        ],
+        [
+         390,
+         "Communicating Value and Limits, continued"
+        ],
+        [
+         435,
+         "Communicating Value and Limits, continued"
+        ]
+       ],
+       "published": "2026-11-08T16:02:11Z",
+       "thumb": "img/modules/ccao/10-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "WKJAbog4T1s",
+       "title": "Communicating Value and Limits, recap and practice",
+       "seconds": 437,
+       "chapters": [
+        [
+         0,
+         "Communicating Value and Limits, continued"
+        ],
+        [
+         77,
+         "Practice Question 1"
+        ],
+        [
+         108,
+         "Practice Question 2"
+        ],
+        [
+         143,
+         "Practice Question 3"
+        ],
+        [
+         169,
+         "Practice Question 4"
+        ],
+        [
+         197,
+         "Practice Question 5"
+        ],
+        [
+         230,
+         "Practice Question 6"
+        ],
+        [
+         265,
+         "Practice Question 7"
+        ],
+        [
+         295,
+         "Practice Question 8"
+        ],
+        [
+         322,
+         "Practice Question 9"
+        ],
+        [
+         354,
+         "Practice Question 10"
+        ],
+        [
+         384,
+         "Practice Question 11"
+        ]
+       ],
+       "published": "2026-11-08T16:02:37Z",
+       "thumb": "img/modules/ccao/10-2.jpg"
+      }
+     ],
+     "deck": "downloads/ccao/10-solution-design-workflow-integration-and-stakeholder-communication.pptx",
+     "deck_kb": 305,
+     "seconds": 909,
+     "words": 1654
+    },
+    {
+     "num": "11",
+     "slug": "11-projects-instructions-and-knowledge",
+     "title": "Projects: Instructions and Knowledge",
+     "desc": "What a Project Is, recap and practice",
+     "parts": [
+      {
+       "part": 1,
+       "id": "rKTMcvRMdEc",
+       "title": "What a Project Is, recap and practice",
+       "seconds": 869,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Cedarbrook's Customer-Care Project"
+        ],
+        [
+         66,
+         "What a Project Is"
+        ],
+        [
+         79,
+         "What a Project Is, continued"
+        ],
+        [
+         90,
+         "What a Project Is, continued"
+        ],
+        [
+         143,
+         "What a Project Is, continued"
+        ],
+        [
+         178,
+         "Writing Effective Instructions"
+        ],
+        [
+         191,
+         "Writing Effective Instructions, continued"
+        ],
+        [
+         205,
+         "Writing Effective Instructions, continued"
+        ],
+        [
+         269,
+         "Writing Effective Instructions, continued"
+        ],
+        [
+         322,
+         "Writing Effective Instructions, continued"
+        ],
+        [
+         354,
+         "Choosing and Organizing Knowledge"
+        ],
+        [
+         401,
+         "Choosing and Organizing Knowledge, continued"
+        ],
+        [
+         423,
+         "Choosing and Organizing Knowledge, continued"
+        ],
+        [
+         468,
+         "Projects Compared with Other Context Tools"
+        ],
+        [
+         483,
+         "Projects Compared with Other Context Tools, continued"
+        ],
+        [
+         594,
+         "Practice Question 1"
+        ],
+        [
+         625,
+         "Practice Question 2"
+        ],
+        [
+         653,
+         "Practice Question 3"
+        ],
+        [
+         688,
+         "Practice Question 4"
+        ],
+        [
+         723,
+         "Practice Question 5"
+        ],
+        [
+         754,
+         "Practice Question 6"
+        ],
+        [
+         787,
+         "Practice Question 7"
+        ],
+        [
+         817,
+         "Practice Question 8"
+        ]
+       ],
+       "published": "2026-11-08T16:03:15Z",
+       "thumb": "img/modules/ccao/11-1.jpg"
+      }
+     ],
+     "deck": "downloads/ccao/11-projects-instructions-and-knowledge.pptx",
+     "deck_kb": 274,
+     "seconds": 869,
+     "words": 1614
+    },
+    {
+     "num": "12",
+     "slug": "12-connectors-skills-and-keeping-configurations-current",
+     "title": "Connectors, Skills and Keeping Configurations Current",
+     "desc": "Connectors",
+     "parts": [
+      {
+       "part": 1,
+       "id": "vet41TobCmY",
+       "title": "Connectors",
+       "seconds": 497,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Cedarbrook's Weekly Digest"
+        ],
+        [
+         65,
+         "Connectors"
+        ],
+        [
+         79,
+         "Connectors, continued"
+        ],
+        [
+         90,
+         "Connectors, continued"
+        ],
+        [
+         139,
+         "Connectors, continued"
+        ],
+        [
+         194,
+         "Connectors, continued"
+        ],
+        [
+         236,
+         "Managing Connectors and Knowledge Well"
+        ],
+        [
+         285,
+         "Managing Connectors and Knowledge Well, continued"
+        ],
+        [
+         346,
+         "Managing Connectors and Knowledge Well, continued"
+        ],
+        [
+         364,
+         "Skills"
+        ],
+        [
+         378,
+         "Skills, continued"
+        ],
+        [
+         390,
+         "Skills, continued"
+        ],
+        [
+         434,
+         "Skills, continued"
+        ]
+       ],
+       "published": "2026-11-08T16:03:31Z",
+       "thumb": "img/modules/ccao/12-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "Hxf_TvO9qgg",
+       "title": "Keeping Configurations Current, recap and practice",
+       "seconds": 478,
+       "chapters": [
+        [
+         0,
+         "Keeping Configurations Current"
+        ],
+        [
+         12,
+         "Keeping Configurations Current, continued"
+        ],
+        [
+         24,
+         "Keeping Configurations Current, continued"
+        ],
+        [
+         67,
+         "Keeping Configurations Current, continued"
+        ],
+        [
+         175,
+         "Practice Question 1"
+        ],
+        [
+         207,
+         "Practice Question 2"
+        ],
+        [
+         234,
+         "Practice Question 3"
+        ],
+        [
+         266,
+         "Practice Question 4"
+        ],
+        [
+         293,
+         "Practice Question 5"
+        ],
+        [
+         323,
+         "Practice Question 6"
+        ],
+        [
+         359,
+         "Practice Question 7"
+        ],
+        [
+         394,
+         "Practice Question 8"
+        ],
+        [
+         427,
+         "Practice Question 9"
+        ]
+       ],
+       "published": "2026-11-08T16:03:51Z",
+       "thumb": "img/modules/ccao/12-2.jpg"
+      }
+     ],
+     "deck": "downloads/ccao/12-connectors-skills-and-keeping-configurations-current.pptx",
+     "deck_kb": 261,
+     "seconds": 975,
+     "words": 1853
+    },
+    {
+     "num": "13",
+     "slug": "13-appropriate-use-data-sensitivity-and-privacy",
+     "title": "Appropriate Use, Data Sensitivity and Privacy",
+     "desc": "Appropriate and Inappropriate Use Cases",
+     "parts": [
+      {
+       "part": 1,
+       "id": "Oak0S5BEf6c",
+       "title": "Appropriate and Inappropriate Use Cases",
+       "seconds": 497,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Cedarbrook's Three Requests"
+        ],
+        [
+         65,
+         "Appropriate and Inappropriate Use Cases"
+        ],
+        [
+         76,
+         "Appropriate and Inappropriate Use Cases, continued"
+        ],
+        [
+         116,
+         "Appropriate and Inappropriate Use Cases, continued"
+        ],
+        [
+         165,
+         "Appropriate and Inappropriate Use Cases, continued"
+        ],
+        [
+         192,
+         "Data Sensitivity"
+        ],
+        [
+         206,
+         "Data Sensitivity, continued"
+        ],
+        [
+         264,
+         "Data Sensitivity, continued"
+        ],
+        [
+         317,
+         "Privacy Controls in the Product"
+        ],
+        [
+         357,
+         "Privacy Controls in the Product, continued"
+        ],
+        [
+         390,
+         "Privacy Controls in the Product, continued"
+        ],
+        [
+         425,
+         "Privacy Controls in the Product, continued"
+        ],
+        [
+         459,
+         "Regulation and Everyday Use"
+        ]
+       ],
+       "published": "2026-11-08T16:04:01Z",
+       "thumb": "img/modules/ccao/13-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "5o2lhw4F_fE",
+       "title": "Regulation and Everyday Use, recap and practice",
+       "seconds": 445,
+       "chapters": [
+        [
+         0,
+         "Regulation and Everyday Use, continued"
+        ],
+        [
+         18,
+         "Regulation and Everyday Use, continued"
+        ],
+        [
+         104,
+         "Practice Question 1"
+        ],
+        [
+         146,
+         "Practice Question 2"
+        ],
+        [
+         173,
+         "Practice Question 3"
+        ],
+        [
+         204,
+         "Practice Question 4"
+        ],
+        [
+         235,
+         "Practice Question 5"
+        ],
+        [
+         267,
+         "Practice Question 6"
+        ],
+        [
+         303,
+         "Practice Question 7"
+        ],
+        [
+         331,
+         "Practice Question 8"
+        ],
+        [
+         363,
+         "Practice Question 9"
+        ],
+        [
+         393,
+         "Practice Question 10"
+        ]
+       ],
+       "published": "2026-11-08T16:04:20Z",
+       "thumb": "img/modules/ccao/13-2.jpg"
+      }
+     ],
+     "deck": "downloads/ccao/13-appropriate-use-data-sensitivity-and-privacy.pptx",
+     "deck_kb": 283,
+     "seconds": 942,
+     "words": 1811
+    },
+    {
+     "num": "14",
+     "slug": "14-ai-policies-governance-and-ethics",
+     "title": "AI Policies, Governance and Ethics",
+     "desc": "Organizational AI Policies",
+     "parts": [
+      {
+       "part": 1,
+       "id": "5Co2g5-keqA",
+       "title": "Organizational AI Policies",
+       "seconds": 482,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Cedarbrook's AI Use Policy"
+        ],
+        [
+         64,
+         "Organizational AI Policies"
+        ],
+        [
+         74,
+         "Organizational AI Policies, continued"
+        ],
+        [
+         88,
+         "Organizational AI Policies, continued"
+        ],
+        [
+         143,
+         "Organizational AI Policies, continued"
+        ],
+        [
+         193,
+         "Organizational AI Policies, continued"
+        ],
+        [
+         222,
+         "Governance in Practice"
+        ],
+        [
+         231,
+         "Governance in Practice, continued"
+        ],
+        [
+         285,
+         "Governance in Practice, continued"
+        ],
+        [
+         300,
+         "Governance in Practice, continued"
+        ],
+        [
+         327,
+         "Ethics of Everyday AI Use"
+        ],
+        [
+         388,
+         "Ethics of Everyday AI Use, continued"
+        ],
+        [
+         444,
+         "Ethics of Everyday AI Use, continued"
+        ]
+       ],
+       "published": "2026-11-08T16:04:35Z",
+       "thumb": "img/modules/ccao/14-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "43Usb62RbXE",
+       "title": "Ethics of Everyday AI Use and When Your Request Conflicts with Policy, recap and practice",
+       "seconds": 426,
+       "chapters": [
+        [
+         0,
+         "Ethics of Everyday AI Use, continued"
+        ],
+        [
+         27,
+         "When Your Request Conflicts with Policy"
+        ],
+        [
+         114,
+         "Practice Question 1"
+        ],
+        [
+         144,
+         "Practice Question 2"
+        ],
+        [
+         178,
+         "Practice Question 3"
+        ],
+        [
+         210,
+         "Practice Question 4"
+        ],
+        [
+         240,
+         "Practice Question 5"
+        ],
+        [
+         272,
+         "Practice Question 6"
+        ],
+        [
+         309,
+         "Practice Question 7"
+        ],
+        [
+         344,
+         "Practice Question 8"
+        ],
+        [
+         373,
+         "Practice Question 9"
+        ]
+       ],
+       "published": "2026-11-08T16:04:51Z",
+       "thumb": "img/modules/ccao/14-2.jpg"
+      }
+     ],
+     "deck": "downloads/ccao/14-ai-policies-governance-and-ethics.pptx",
+     "deck_kb": 221,
+     "seconds": 908,
+     "words": 1676
+    },
+    {
+     "num": "15",
+     "slug": "15-diagnosing-and-fixing-poor-outputs",
+     "title": "Diagnosing and Fixing Poor Outputs",
+     "desc": "A Diagnostic Method, recap and practice",
+     "parts": [
+      {
+       "part": 1,
+       "id": "s51TN07K8a8",
+       "title": "A Diagnostic Method, recap and practice",
+       "seconds": 810,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Cedarbrook's Disappointing Replies"
+        ],
+        [
+         58,
+         "A Diagnostic Method"
+        ],
+        [
+         90,
+         "A Diagnostic Method, continued"
+        ],
+        [
+         128,
+         "Symptoms, Causes and Fixes"
+        ],
+        [
+         186,
+         "Symptoms, Causes and Fixes, continued"
+        ],
+        [
+         239,
+         "Symptoms, Causes and Fixes, continued"
+        ],
+        [
+         293,
+         "Symptoms, Causes and Fixes, continued"
+        ],
+        [
+         319,
+         "Symptoms, Causes and Fixes, continued"
+        ],
+        [
+         338,
+         "Feature, File and Error Problems"
+        ],
+        [
+         384,
+         "Feature, File and Error Problems, continued"
+        ],
+        [
+         433,
+         "Feature, File and Error Problems, continued"
+        ],
+        [
+         452,
+         "Using Feedback and Results"
+        ],
+        [
+         492,
+         "Using Feedback and Results, continued"
+        ],
+        [
+         571,
+         "Practice Question 1"
+        ],
+        [
+         601,
+         "Practice Question 2"
+        ],
+        [
+         632,
+         "Practice Question 3"
+        ],
+        [
+         663,
+         "Practice Question 4"
+        ],
+        [
+         693,
+         "Practice Question 5"
+        ],
+        [
+         727,
+         "Practice Question 6"
+        ],
+        [
+         760,
+         "Practice Question 7"
+        ]
+       ],
+       "published": "2026-11-08T16:05:19Z",
+       "thumb": "img/modules/ccao/15-1.jpg"
+      }
+     ],
+     "deck": "downloads/ccao/15-diagnosing-and-fixing-poor-outputs.pptx",
+     "deck_kb": 239,
+     "seconds": 810,
+     "words": 1567
+    },
+    {
+     "num": "16",
+     "slug": "16-optimizing-workflows-usage-and-cost",
+     "title": "Optimizing Workflows, Usage and Cost",
+     "desc": "Efficiency and Effectiveness, recap and practice",
+     "parts": [
+      {
+       "part": 1,
+       "id": "FhVIYAOA4Dg",
+       "title": "Efficiency and Effectiveness, recap and practice",
+       "seconds": 721,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Cedarbrook's Monthly Report"
+        ],
+        [
+         61,
+         "Efficiency and Effectiveness"
+        ],
+        [
+         89,
+         "Efficiency and Effectiveness, continued"
+        ],
+        [
+         102,
+         "The Main Levers"
+        ],
+        [
+         163,
+         "The Main Levers, continued"
+        ],
+        [
+         221,
+         "The Main Levers, continued"
+        ],
+        [
+         254,
+         "The Main Levers, continued"
+        ],
+        [
+         279,
+         "Standardize and Share What Works"
+        ],
+        [
+         312,
+         "Standardize and Share What Works, continued"
+        ],
+        [
+         331,
+         "Measure and Improve"
+        ],
+        [
+         342,
+         "Measure and Improve, continued"
+        ],
+        [
+         406,
+         "Measure and Improve, continued"
+        ],
+        [
+         483,
+         "Practice Question 1"
+        ],
+        [
+         514,
+         "Practice Question 2"
+        ],
+        [
+         545,
+         "Practice Question 3"
+        ],
+        [
+         575,
+         "Practice Question 4"
+        ],
+        [
+         606,
+         "Practice Question 5"
+        ],
+        [
+         640,
+         "Practice Question 6"
+        ],
+        [
+         671,
+         "Practice Question 7"
+        ]
+       ],
+       "published": "2026-11-08T16:05:37Z",
+       "thumb": "img/modules/ccao/16-1.jpg"
+      }
+     ],
+     "deck": "downloads/ccao/16-optimizing-workflows-usage-and-cost.pptx",
+     "deck_kb": 254,
+     "seconds": 721,
+     "words": 1383
+    },
+    {
+     "num": "17",
+     "slug": "17-quick-reference-recap-and-decision-chooser",
+     "title": "Quick-Reference Recap and Decision Chooser",
+     "desc": "Decision Chooser and D1 Prompting and D2 Output Evaluation (35%) and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "-Kgkj4W9DZg",
+       "title": "Decision Chooser and D1 Prompting and D2 Output Evaluation (35%) and recap",
+       "seconds": 759,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Cedarbrook Outfitters"
+        ],
+        [
+         45,
+         "Decision Chooser"
+        ],
+        [
+         55,
+         "D1 Prompting and D2 Output Evaluation (35%)"
+        ],
+        [
+         122,
+         "D1 Prompting and D2 Output Evaluation (35%), continued"
+        ],
+        [
+         171,
+         "D3 Product and Model Selection (12%)"
+        ],
+        [
+         231,
+         "D4 Workflow and D5 Configuration (28%)"
+        ],
+        [
+         294,
+         "D4 Workflow and D5 Configuration (28%), continued"
+        ],
+        [
+         318,
+         "D6 Governance (15%) and D7 Troubleshooting (10%)"
+        ],
+        [
+         376,
+         "D6 Governance (15%) and D7 Troubleshooting (10%), continued"
+        ],
+        [
+         399,
+         "Names and Values to Know"
+        ],
+        [
+         460,
+         "Names and Values to Know, continued"
+        ],
+        [
+         524,
+         "Names and Values to Know, continued"
+        ],
+        [
+         535,
+         "Distractor Patterns"
+        ],
+        [
+         603,
+         "Distractor Patterns, continued"
+        ]
+       ],
+       "published": "2026-11-08T16:06:03Z",
+       "thumb": "img/modules/ccao/17-1.jpg"
+      }
+     ],
+     "deck": "downloads/ccao/17-quick-reference-recap-and-decision-chooser.pptx",
+     "deck_kb": 200,
+     "seconds": 759,
+     "words": 1412
+    },
+    {
+     "num": "18",
+     "slug": "18-exam-technique-and-final-review",
+     "title": "Exam Technique and Final Review",
+     "desc": "Time Plan and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "dK1hB9Sq7nI",
+       "title": "Time Plan and recap",
+       "seconds": 559,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Cedarbrook Outfitters"
+        ],
+        [
+         53,
+         "Time Plan"
+        ],
+        [
+         83,
+         "Time Plan, continued"
+        ],
+        [
+         116,
+         "Reading an Item"
+        ],
+        [
+         142,
+         "Reading an Item, continued"
+        ],
+        [
+         209,
+         "Reading an Item, continued"
+        ],
+        [
+         243,
+         "Eliminating Distractors"
+        ],
+        [
+         296,
+         "Multiple-response items"
+        ],
+        [
+         319,
+         "Policies and Logistics"
+        ],
+        [
+         373,
+         "Policies and Logistics, continued"
+        ],
+        [
+         410,
+         "Final Review Checklist"
+        ],
+        [
+         453,
+         "Final Review Checklist, continued"
+        ],
+        [
+         473,
+         "The last week"
+        ]
+       ],
+       "published": "2026-11-08T16:06:14Z",
+       "thumb": "img/modules/ccao/18-1.jpg"
+      }
+     ],
+     "deck": "downloads/ccao/18-exam-technique-and-final-review.pptx",
+     "deck_kb": 127,
+     "seconds": 559,
+     "words": 1236
+    }
+   ],
+   "facts": {
+    "questions": "60",
+    "time": "120 min",
+    "passing": "720 of 1,000",
+    "source": "Anthropic Partner Academy",
+    "url": "https://anthropic-partners.skilljar.com/claude-certified-associate-foundations-certification"
+   },
+   "videos": 26,
+   "seconds": 15560,
+   "notes": [
+    {
+     "num": "00",
+     "slug": "00-course-introduction-and-exam-orientation",
+     "title": "Course Introduction and Exam Orientation",
+     "group": "Start here",
+     "tasks": 0,
+     "los": [],
+     "minutes": 8,
+     "check": {
+      "src_words": 1600,
+      "page_words": 1621,
+      "src_tables": 4,
+      "tables": 4,
+      "src_images": 3,
+      "images": 3,
+      "src_scenario": 4,
+      "scenario": 4,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 8,
+      "sections": 8
+     },
+     "modules": [
+      "00"
+     ],
+     "domain": "",
+     "ref": "Module 0",
+     "tn": "Module 00",
+     "of": 19,
+     "module": "00"
+    },
+    {
+     "num": "01",
+     "slug": "01-prompting-fundamentals",
+     "title": "Prompting Fundamentals",
+     "group": "Domain 1: Prompting and Task Execution",
+     "tasks": 0,
+     "los": [],
+     "minutes": 9,
+     "check": {
+      "src_words": 1811,
+      "page_words": 1850,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 9,
+      "scenario": 9,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "01"
+     ],
+     "domain": "",
+     "ref": "Module 1",
+     "tn": "Module 01",
+     "of": 19,
+     "module": "01"
+    },
+    {
+     "num": "02",
+     "slug": "02-task-decomposition-iteration-and-task-types",
+     "title": "Task Decomposition, Iteration and Task Types",
+     "group": "Domain 1: Prompting and Task Execution",
+     "tasks": 0,
+     "los": [],
+     "minutes": 9,
+     "check": {
+      "src_words": 1769,
+      "page_words": 1808,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 10,
+      "scenario": 10,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "02"
+     ],
+     "domain": "",
+     "ref": "Module 2",
+     "tn": "Module 02",
+     "of": 19,
+     "module": "02"
+    },
+    {
+     "num": "03",
+     "slug": "03-evaluating-accuracy-hallucinations-inconsistencies-and-bias",
+     "title": "Evaluating Accuracy: Hallucinations, Inconsistencies and Bias",
+     "group": "Domain 2: Output Evaluation and Validation",
+     "tasks": 0,
+     "los": [],
+     "minutes": 9,
+     "check": {
+      "src_words": 1758,
+      "page_words": 1791,
+      "src_tables": 4,
+      "tables": 4,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 10,
+      "scenario": 10,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 8,
+      "sections": 8
+     },
+     "modules": [
+      "03"
+     ],
+     "domain": "",
+     "ref": "Module 3",
+     "tn": "Module 03",
+     "of": 19,
+     "module": "03"
+    },
+    {
+     "num": "04",
+     "slug": "04-fact-checking-validation-and-human-review",
+     "title": "Fact-Checking, Validation and Human Review",
+     "group": "Domain 2: Output Evaluation and Validation",
+     "tasks": 0,
+     "los": [],
+     "minutes": 9,
+     "check": {
+      "src_words": 1680,
+      "page_words": 1708,
+      "src_tables": 3,
+      "tables": 3,
+      "src_images": 3,
+      "images": 3,
+      "src_scenario": 9,
+      "scenario": 9,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "04"
+     ],
+     "domain": "",
+     "ref": "Module 4",
+     "tn": "Module 04",
+     "of": 19,
+     "module": "04"
+    },
+    {
+     "num": "05",
+     "slug": "05-editing-adapting-organizing-and-choosing-output-formats",
+     "title": "Editing, Adapting, Organizing and Choosing Output Formats",
+     "group": "Domain 2: Output Evaluation and Validation",
+     "tasks": 0,
+     "los": [],
+     "minutes": 8,
+     "check": {
+      "src_words": 1659,
+      "page_words": 1693,
+      "src_tables": 4,
+      "tables": 4,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 9,
+      "scenario": 9,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "05"
+     ],
+     "domain": "",
+     "ref": "Module 5",
+     "tn": "Module 05",
+     "of": 19,
+     "module": "05"
+    },
+    {
+     "num": "06",
+     "slug": "06-claude-features-chat-search-thinking-research-files-and-artifacts",
+     "title": "Claude Features: Chat, Search, Thinking, Research, Files and Artifacts",
+     "group": "Domain 3: Product and Model Selection",
+     "tasks": 0,
+     "los": [],
+     "minutes": 9,
+     "check": {
+      "src_words": 1670,
+      "page_words": 1705,
+      "src_tables": 4,
+      "tables": 4,
+      "src_images": 3,
+      "images": 3,
+      "src_scenario": 9,
+      "scenario": 9,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "06"
+     ],
+     "domain": "",
+     "ref": "Module 6",
+     "tn": "Module 06",
+     "of": 19,
+     "module": "06"
+    },
+    {
+     "num": "07",
+     "slug": "07-choosing-a-model-and-effort-haiku-sonnet-opus",
+     "title": "Choosing a Model and Effort: Haiku, Sonnet, Opus",
+     "group": "Domain 3: Product and Model Selection",
+     "tasks": 0,
+     "los": [],
+     "minutes": 8,
+     "check": {
+      "src_words": 1467,
+      "page_words": 1493,
+      "src_tables": 4,
+      "tables": 4,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "07"
+     ],
+     "domain": "",
+     "ref": "Module 7",
+     "tn": "Module 07",
+     "of": 19,
+     "module": "07"
+    },
+    {
+     "num": "08",
+     "slug": "08-context-limits-and-memory-restart-summarize-or-persist",
+     "title": "Context Limits and Memory: Restart, Summarize or Persist",
+     "group": "Domain 3: Product and Model Selection",
+     "tasks": 0,
+     "los": [],
+     "minutes": 8,
+     "check": {
+      "src_words": 1514,
+      "page_words": 1539,
+      "src_tables": 3,
+      "tables": 3,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "08"
+     ],
+     "domain": "",
+     "ref": "Module 8",
+     "tn": "Module 08",
+     "of": 19,
+     "module": "08"
+    },
+    {
+     "num": "09",
+     "slug": "09-requirements-research-planning-and-process-optimization",
+     "title": "Requirements, Research, Planning and Process Optimization",
+     "group": "Domain 4: Workflow Integration and Solution Design",
+     "tasks": 0,
+     "los": [],
+     "minutes": 9,
+     "check": {
+      "src_words": 1725,
+      "page_words": 1766,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 11,
+      "scenario": 11,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "09"
+     ],
+     "domain": "",
+     "ref": "Module 9",
+     "tn": "Module 09",
+     "of": 19,
+     "module": "09"
+    },
+    {
+     "num": "10",
+     "slug": "10-solution-design-workflow-integration-and-stakeholder-communication",
+     "title": "Solution Design, Workflow Integration and Stakeholder Communication",
+     "group": "Domain 4: Workflow Integration and Solution Design",
+     "tasks": 0,
+     "los": [],
+     "minutes": 10,
+     "check": {
+      "src_words": 1846,
+      "page_words": 1887,
+      "src_tables": 6,
+      "tables": 6,
+      "src_images": 3,
+      "images": 3,
+      "src_scenario": 11,
+      "scenario": 11,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "10"
+     ],
+     "domain": "",
+     "ref": "Module 10",
+     "tn": "Module 10",
+     "of": 19,
+     "module": "10"
+    },
+    {
+     "num": "11",
+     "slug": "11-projects-instructions-and-knowledge",
+     "title": "Projects: Instructions and Knowledge",
+     "group": "Domain 5: Configuration and Knowledge Management",
+     "tasks": 0,
+     "los": [],
+     "minutes": 9,
+     "check": {
+      "src_words": 1668,
+      "page_words": 1700,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 3,
+      "images": 3,
+      "src_scenario": 8,
+      "scenario": 8,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "11"
+     ],
+     "domain": "",
+     "ref": "Module 11",
+     "tn": "Module 11",
+     "of": 19,
+     "module": "11"
+    },
+    {
+     "num": "12",
+     "slug": "12-connectors-skills-and-keeping-configurations-current",
+     "title": "Connectors, Skills and Keeping Configurations Current",
+     "group": "Domain 5: Configuration and Knowledge Management",
+     "tasks": 0,
+     "los": [],
+     "minutes": 10,
+     "check": {
+      "src_words": 1919,
+      "page_words": 1957,
+      "src_tables": 8,
+      "tables": 8,
+      "src_images": 3,
+      "images": 3,
+      "src_scenario": 9,
+      "scenario": 9,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "12"
+     ],
+     "domain": "",
+     "ref": "Module 12",
+     "tn": "Module 12",
+     "of": 19,
+     "module": "12"
+    },
+    {
+     "num": "13",
+     "slug": "13-appropriate-use-data-sensitivity-and-privacy",
+     "title": "Appropriate Use, Data Sensitivity and Privacy",
+     "group": "Domain 6: Governance, Risk, and Responsible Use",
+     "tasks": 0,
+     "los": [],
+     "minutes": 10,
+     "check": {
+      "src_words": 1975,
+      "page_words": 2013,
+      "src_tables": 4,
+      "tables": 4,
+      "src_images": 3,
+      "images": 3,
+      "src_scenario": 10,
+      "scenario": 10,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "13"
+     ],
+     "domain": "",
+     "ref": "Module 13",
+     "tn": "Module 13",
+     "of": 19,
+     "module": "13"
+    },
+    {
+     "num": "14",
+     "slug": "14-ai-policies-governance-and-ethics",
+     "title": "AI Policies, Governance and Ethics",
+     "group": "Domain 6: Governance, Risk, and Responsible Use",
+     "tasks": 0,
+     "los": [],
+     "minutes": 9,
+     "check": {
+      "src_words": 1748,
+      "page_words": 1777,
+      "src_tables": 4,
+      "tables": 4,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 9,
+      "scenario": 9,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "14"
+     ],
+     "domain": "",
+     "ref": "Module 14",
+     "tn": "Module 14",
+     "of": 19,
+     "module": "14"
+    },
+    {
+     "num": "15",
+     "slug": "15-diagnosing-and-fixing-poor-outputs",
+     "title": "Diagnosing and Fixing Poor Outputs",
+     "group": "Domain 7: Troubleshooting and Optimization",
+     "tasks": 0,
+     "los": [],
+     "minutes": 9,
+     "check": {
+      "src_words": 1643,
+      "page_words": 1668,
+      "src_tables": 3,
+      "tables": 3,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 7,
+      "scenario": 7,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "15"
+     ],
+     "domain": "",
+     "ref": "Module 15",
+     "tn": "Module 15",
+     "of": 19,
+     "module": "15"
+    },
+    {
+     "num": "16",
+     "slug": "16-optimizing-workflows-usage-and-cost",
+     "title": "Optimizing Workflows, Usage and Cost",
+     "group": "Domain 7: Troubleshooting and Optimization",
+     "tasks": 0,
+     "los": [],
+     "minutes": 8,
+     "check": {
+      "src_words": 1428,
+      "page_words": 1451,
+      "src_tables": 4,
+      "tables": 4,
+      "src_images": 3,
+      "images": 3,
+      "src_scenario": 7,
+      "scenario": 7,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "16"
+     ],
+     "domain": "",
+     "ref": "Module 16",
+     "tn": "Module 16",
+     "of": 19,
+     "module": "16"
+    },
+    {
+     "num": "17",
+     "slug": "17-quick-reference-recap-and-decision-chooser",
+     "title": "Quick-Reference Recap and Decision Chooser",
+     "group": "Review and exam day",
+     "tasks": 0,
+     "los": [],
+     "minutes": 6,
+     "check": {
+      "src_words": 1154,
+      "page_words": 1159,
+      "src_tables": 7,
+      "tables": 7,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 0,
+      "scenario": 0,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 5,
+      "sections": 5
+     },
+     "modules": [
+      "17"
+     ],
+     "domain": "",
+     "ref": "Module 17",
+     "tn": "Module 17",
+     "of": 19,
+     "module": "17"
+    },
+    {
+     "num": "18",
+     "slug": "18-exam-technique-and-final-review",
+     "title": "Exam Technique and Final Review",
+     "group": "Review and exam day",
+     "tasks": 12,
+     "los": [],
+     "minutes": 6,
+     "check": {
+      "src_words": 1125,
+      "page_words": 1128,
+      "src_tables": 3,
+      "tables": 3,
       "src_images": 1,
       "images": 1,
       "src_scenario": 0,

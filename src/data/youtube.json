@@ -14877,6 +14877,1916 @@
    ]
   ]
  },
+ "uHNwHGC8w3s": {
+  "course": "ccao",
+  "key": "00-Course-Introduction-and-Exam-Orientation-part-1",
+  "title": "CCAO-F Exam Prep Introduction: Exam Format, Domains and Scoring | Claude Associate",
+  "seconds": 682,
+  "published": "2026-11-08T15:58:00Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Cedarbrook Outfitters"
+   ],
+   [
+    67,
+    "The Exam at a Glance"
+   ],
+   [
+    83,
+    "The Exam at a Glance, continued"
+   ],
+   [
+    132,
+    "The Exam at a Glance, continued"
+   ],
+   [
+    174,
+    "The Seven Domains"
+   ],
+   [
+    199,
+    "The Seven Domains, continued"
+   ],
+   [
+    256,
+    "The Seven Domains, continued"
+   ],
+   [
+    320,
+    "The Seven Domains, continued"
+   ],
+   [
+    359,
+    "The Minimally Qualified Candidate"
+   ],
+   [
+    402,
+    "The Minimally Qualified Candidate, continued"
+   ],
+   [
+    416,
+    "Ten Decision Rules the Questions Reward"
+   ],
+   [
+    431,
+    "Ten Decision Rules the Questions Reward, continued"
+   ],
+   [
+    482,
+    "Ten Decision Rules the Questions Reward, continued"
+   ],
+   [
+    533,
+    "Ten Decision Rules the Questions Reward, continued"
+   ],
+   [
+    568,
+    "How to Use This Course"
+   ],
+   [
+    600,
+    "How to Use This Course, continued"
+   ]
+  ]
+ },
+ "lGtz1363zoQ": {
+  "course": "ccao",
+  "key": "01-Prompting-Fundamentals-part-1",
+  "title": "CCAO-F Exam Prep Module 1 Part 1 of 2: The Anatomy of an Effective Prompt | Claude Associate",
+  "seconds": 418,
+  "published": "2026-11-08T15:58:07Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Cedarbrook's Vague Request"
+   ],
+   [
+    69,
+    "The Anatomy of an Effective Prompt"
+   ],
+   [
+    90,
+    "The Anatomy of an Effective Prompt, continued"
+   ],
+   [
+    153,
+    "The Anatomy of an Effective Prompt, continued"
+   ],
+   [
+    176,
+    "Be clear and direct"
+   ],
+   [
+    203,
+    "Give the reason"
+   ],
+   [
+    224,
+    "Use examples"
+   ],
+   [
+    246,
+    "Separate instructions from material"
+   ],
+   [
+    269,
+    "Give Claude a role"
+   ],
+   [
+    285,
+    "Let Claude ask and admit doubt"
+   ],
+   [
+    301,
+    "Let Claude ask and admit doubt, continued"
+   ],
+   [
+    326,
+    "Let Claude ask and admit doubt, continued"
+   ],
+   [
+    340,
+    "Prompts for Business and Technical Tasks"
+   ],
+   [
+    378,
+    "Prompts for Business and Technical Tasks, continued"
+   ]
+  ]
+ },
+ "Qy2K0Moqmg0": {
+  "course": "ccao",
+  "key": "01-Prompting-Fundamentals-part-2",
+  "title": "CCAO-F Exam Prep Module 1 Part 2 of 2: Prompts for Business and Technical Tasks | Claude Associate",
+  "seconds": 428,
+  "published": "2026-11-08T15:58:19Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Prompts for Business and Technical Tasks, continued"
+   ],
+   [
+    49,
+    "Common Mistakes"
+   ],
+   [
+    129,
+    "Practice Question 1"
+   ],
+   [
+    163,
+    "Practice Question 2"
+   ],
+   [
+    190,
+    "Practice Question 3"
+   ],
+   [
+    220,
+    "Practice Question 4"
+   ],
+   [
+    252,
+    "Practice Question 5"
+   ],
+   [
+    282,
+    "Practice Question 6"
+   ],
+   [
+    317,
+    "Practice Question 7"
+   ],
+   [
+    347,
+    "Practice Question 8"
+   ],
+   [
+    379,
+    "Practice Question 9"
+   ]
+  ]
+ },
+ "DzFARLir73g": {
+  "course": "ccao",
+  "key": "02-Task-Decomposition-Iteration-and-Task-Types-part-1",
+  "title": "CCAO-F Exam Prep Module 2: Task Decomposition, Iteration and Task Types | Claude Associate",
+  "seconds": 860,
+  "published": "2026-11-08T15:59:29Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Cedarbrook's Quarterly Review"
+   ],
+   [
+    65,
+    "Task Decomposition"
+   ],
+   [
+    77,
+    "Task Decomposition, continued"
+   ],
+   [
+    90,
+    "Task Decomposition, continued"
+   ],
+   [
+    149,
+    "Task Decomposition, continued"
+   ],
+   [
+    193,
+    "Iteration"
+   ],
+   [
+    203,
+    "Iteration, continued"
+   ],
+   [
+    247,
+    "Iteration, continued"
+   ],
+   [
+    281,
+    "Iteration, continued"
+   ],
+   [
+    303,
+    "Adapt the Prompt to the Task Type"
+   ],
+   [
+    344,
+    "Adapt the Prompt to the Task Type, continued"
+   ],
+   [
+    392,
+    "Adapt the Prompt to the Task Type, continued"
+   ],
+   [
+    447,
+    "Putting It Together"
+   ],
+   [
+    531,
+    "Practice Question 1"
+   ],
+   [
+    563,
+    "Practice Question 2"
+   ],
+   [
+    594,
+    "Practice Question 3"
+   ],
+   [
+    620,
+    "Practice Question 4"
+   ],
+   [
+    654,
+    "Practice Question 5"
+   ],
+   [
+    687,
+    "Practice Question 6"
+   ],
+   [
+    719,
+    "Practice Question 7"
+   ],
+   [
+    749,
+    "Practice Question 8"
+   ],
+   [
+    777,
+    "Practice Question 9"
+   ],
+   [
+    809,
+    "Practice Question 10"
+   ]
+  ]
+ },
+ "rkOrHzh5LxM": {
+  "course": "ccao",
+  "key": "03-Evaluating-Accuracy-Hallucinations-Inconsistencies-and-Bias-part-1",
+  "title": "CCAO-F Exam Prep Module 3 Part 1 of 2: Why Outputs Go Wrong and What to Look For | Claude Associate",
+  "seconds": 444,
+  "published": "2026-11-08T15:59:11Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Cedarbrook's Confident Summary"
+   ],
+   [
+    69,
+    "Why Outputs Can Be Wrong"
+   ],
+   [
+    88,
+    "Why Outputs Can Be Wrong, continued"
+   ],
+   [
+    120,
+    "Why Outputs Can Be Wrong, continued"
+   ],
+   [
+    153,
+    "What to Look For"
+   ],
+   [
+    208,
+    "What to Look For, continued"
+   ],
+   [
+    255,
+    "What to Look For, continued"
+   ],
+   [
+    273,
+    "Completeness and Inconsistency"
+   ],
+   [
+    286,
+    "Completeness and Inconsistency, continued"
+   ],
+   [
+    336,
+    "Completeness and Inconsistency, continued"
+   ],
+   [
+    351,
+    "Completeness and Inconsistency, continued"
+   ],
+   [
+    372,
+    "Bias"
+   ],
+   [
+    388,
+    "Bias, continued"
+   ]
+  ]
+ },
+ "UlAdsv005-k": {
+  "course": "ccao",
+  "key": "03-Evaluating-Accuracy-Hallucinations-Inconsistencies-and-Bias-part-2",
+  "title": "CCAO-F Exam Prep Module 3 Part 2 of 2: Completeness, Bias and an Evaluation Checklist | CCAO-F",
+  "seconds": 449,
+  "published": "2026-11-08T15:59:19Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Bias, continued"
+   ],
+   [
+    37,
+    "An Evaluation Checklist"
+   ],
+   [
+    118,
+    "Practice Question 1"
+   ],
+   [
+    152,
+    "Practice Question 2"
+   ],
+   [
+    179,
+    "Practice Question 3"
+   ],
+   [
+    209,
+    "Practice Question 4"
+   ],
+   [
+    240,
+    "Practice Question 5"
+   ],
+   [
+    271,
+    "Practice Question 6"
+   ],
+   [
+    304,
+    "Practice Question 7"
+   ],
+   [
+    332,
+    "Practice Question 8"
+   ],
+   [
+    364,
+    "Practice Question 9"
+   ],
+   [
+    396,
+    "Practice Question 10"
+   ]
+  ]
+ },
+ "JRc_838uC54": {
+  "course": "ccao",
+  "key": "04-Fact-Checking-Validation-and-Human-Review-part-1",
+  "title": "CCAO-F Exam Prep Module 4: Fact-Checking, Validation and Human Review | Claude Associate",
+  "seconds": 806,
+  "published": "2026-11-08T15:59:48Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Cedarbrook's Press Release"
+   ],
+   [
+    63,
+    "Fact-Checking Techniques"
+   ],
+   [
+    115,
+    "Fact-Checking Techniques, continued"
+   ],
+   [
+    160,
+    "Fact-Checking Techniques, continued"
+   ],
+   [
+    186,
+    "Fact-Checking Techniques, continued"
+   ],
+   [
+    212,
+    "Using Web Search and Citations"
+   ],
+   [
+    251,
+    "Using Web Search and Citations, continued"
+   ],
+   [
+    270,
+    "Using Web Search and Citations, continued"
+   ],
+   [
+    289,
+    "How Much Checking Is Enough?"
+   ],
+   [
+    341,
+    "How Much Checking Is Enough?, continued"
+   ],
+   [
+    367,
+    "When Human Review Is Required"
+   ],
+   [
+    408,
+    "When Human Review Is Required, continued"
+   ],
+   [
+    511,
+    "Practice Question 1"
+   ],
+   [
+    543,
+    "Practice Question 2"
+   ],
+   [
+    572,
+    "Practice Question 3"
+   ],
+   [
+    604,
+    "Practice Question 4"
+   ],
+   [
+    634,
+    "Practice Question 5"
+   ],
+   [
+    661,
+    "Practice Question 6"
+   ],
+   [
+    695,
+    "Practice Question 7"
+   ],
+   [
+    725,
+    "Practice Question 8"
+   ],
+   [
+    753,
+    "Practice Question 9"
+   ]
+  ]
+ },
+ "vUhR5Mn-9jU": {
+  "course": "ccao",
+  "key": "05-Editing-Adapting-Organizing-and-Choosing-Output-Formats-part-1",
+  "title": "CCAO-F Exam Prep Module 5: Editing, Adapting and Choosing Output Formats | Claude Associate",
+  "seconds": 808,
+  "published": "2026-11-08T16:00:42Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Cedarbrook's One Message, Three Readers"
+   ],
+   [
+    64,
+    "Edit and Adapt for the Audience"
+   ],
+   [
+    75,
+    "Edit and Adapt for the Audience, continued"
+   ],
+   [
+    129,
+    "Edit and Adapt for the Audience, continued"
+   ],
+   [
+    175,
+    "Organize and Curate Information"
+   ],
+   [
+    241,
+    "Organize and Curate Information, continued"
+   ],
+   [
+    273,
+    "Choosing the Output Format"
+   ],
+   [
+    287,
+    "Choosing the Output Format, continued"
+   ],
+   [
+    334,
+    "Choosing the Output Format, continued"
+   ],
+   [
+    381,
+    "Choosing the Output Format, continued"
+   ],
+   [
+    440,
+    "Choosing the Output Format, continued"
+   ],
+   [
+    503,
+    "Practice Question 1"
+   ],
+   [
+    534,
+    "Practice Question 2"
+   ],
+   [
+    567,
+    "Practice Question 3"
+   ],
+   [
+    599,
+    "Practice Question 4"
+   ],
+   [
+    630,
+    "Practice Question 5"
+   ],
+   [
+    656,
+    "Practice Question 6"
+   ],
+   [
+    690,
+    "Practice Question 7"
+   ],
+   [
+    725,
+    "Practice Question 8"
+   ],
+   [
+    757,
+    "Practice Question 9"
+   ]
+  ]
+ },
+ "7fUfW4PMIYE": {
+  "course": "ccao",
+  "key": "06-Claude-Features-Chat-Search-Thinking-Research-Files-and-Artifacts-part-1",
+  "title": "CCAO-F Exam Prep Module 6 Part 1 of 2: The Feature Map: Search, Thinking, Research | CCAO-F",
+  "seconds": 447,
+  "published": "2026-11-08T16:00:22Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Cedarbrook's Monday Requests"
+   ],
+   [
+    66,
+    "The Feature Map"
+   ],
+   [
+    80,
+    "The Feature Map, continued"
+   ],
+   [
+    144,
+    "The Feature Map, continued"
+   ],
+   [
+    203,
+    "The Feature Map, continued"
+   ],
+   [
+    228,
+    "Search, Thinking and Research"
+   ],
+   [
+    239,
+    "Search, Thinking and Research, continued"
+   ],
+   [
+    295,
+    "Search, Thinking and Research, continued"
+   ],
+   [
+    328,
+    "Search, Thinking and Research, continued"
+   ],
+   [
+    361,
+    "Files, Projects, Artifacts and More"
+   ],
+   [
+    403,
+    "Files, Projects, Artifacts and More, continued"
+   ]
+  ]
+ },
+ "WKBedoRia9I": {
+  "course": "ccao",
+  "key": "06-Claude-Features-Chat-Search-Thinking-Research-Files-and-Artifacts-part-2",
+  "title": "CCAO-F Exam Prep Module 6 Part 2 of 2: Files, Projects, Artifacts, Feature Chooser | CCAO-F",
+  "seconds": 459,
+  "published": "2026-11-08T16:00:44Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Files, Projects, Artifacts and More, continued"
+   ],
+   [
+    41,
+    "A Feature Chooser"
+   ],
+   [
+    59,
+    "A Feature Chooser, continued"
+   ],
+   [
+    158,
+    "Practice Question 1"
+   ],
+   [
+    188,
+    "Practice Question 2"
+   ],
+   [
+    221,
+    "Practice Question 3"
+   ],
+   [
+    253,
+    "Practice Question 4"
+   ],
+   [
+    287,
+    "Practice Question 5"
+   ],
+   [
+    319,
+    "Practice Question 6"
+   ],
+   [
+    351,
+    "Practice Question 7"
+   ],
+   [
+    382,
+    "Practice Question 8"
+   ],
+   [
+    409,
+    "Practice Question 9"
+   ]
+  ]
+ },
+ "_KwQSGJeAV0": {
+  "course": "ccao",
+  "key": "07-Choosing-a-Model-and-Effort-Haiku-Sonnet-Opus-part-1",
+  "title": "CCAO-F Exam Prep Module 7: Haiku, Sonnet, Opus and Effort | Claude Associate",
+  "seconds": 713,
+  "published": "2026-11-08T16:01:09Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Cedarbrook's Reply Queue"
+   ],
+   [
+    59,
+    "The Model Families"
+   ],
+   [
+    73,
+    "The Model Families, continued"
+   ],
+   [
+    145,
+    "The Model Families, continued"
+   ],
+   [
+    177,
+    "The Model Families, continued"
+   ],
+   [
+    206,
+    "Aligning Model to Task"
+   ],
+   [
+    218,
+    "Aligning Model to Task, continued"
+   ],
+   [
+    263,
+    "Aligning Model to Task, continued"
+   ],
+   [
+    297,
+    "Aligning Model to Task, continued"
+   ],
+   [
+    327,
+    "Effort and Thinking"
+   ],
+   [
+    385,
+    "Effort and Thinking, continued"
+   ],
+   [
+    420,
+    "Cost and Speed in Practice"
+   ],
+   [
+    504,
+    "Practice Question 1"
+   ],
+   [
+    539,
+    "Practice Question 2"
+   ],
+   [
+    573,
+    "Practice Question 3"
+   ],
+   [
+    599,
+    "Practice Question 4"
+   ],
+   [
+    631,
+    "Practice Question 5"
+   ],
+   [
+    664,
+    "Practice Question 6"
+   ]
+  ]
+ },
+ "yXff9nop9mI": {
+  "course": "ccao",
+  "key": "08-Context-Limits-and-Memory-Restart-Summarize-or-Persist-part-1",
+  "title": "CCAO-F Exam Prep Module 8: Context Limits, Memory and Restarting | Claude Associate",
+  "seconds": 705,
+  "published": "2026-11-08T16:01:34Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Cedarbrook's Marathon Chat"
+   ],
+   [
+    56,
+    "The Context Window"
+   ],
+   [
+    84,
+    "The Context Window, continued"
+   ],
+   [
+    121,
+    "The Context Window, continued"
+   ],
+   [
+    144,
+    "Restart, Summarize or Persist"
+   ],
+   [
+    159,
+    "Restart, Summarize or Persist, continued"
+   ],
+   [
+    191,
+    "Restart, Summarize or Persist, continued"
+   ],
+   [
+    233,
+    "Restart, Summarize or Persist, continued"
+   ],
+   [
+    244,
+    "Memory and Chat Search"
+   ],
+   [
+    281,
+    "Memory and Chat Search, continued"
+   ],
+   [
+    312,
+    "Memory and Chat Search, continued"
+   ],
+   [
+    333,
+    "Memory and Chat Search, continued"
+   ],
+   [
+    365,
+    "Memory and Chat Search, continued"
+   ],
+   [
+    411,
+    "Memory and Chat Search, continued"
+   ],
+   [
+    501,
+    "Practice Question 1"
+   ],
+   [
+    531,
+    "Practice Question 2"
+   ],
+   [
+    563,
+    "Practice Question 3"
+   ],
+   [
+    592,
+    "Practice Question 4"
+   ],
+   [
+    624,
+    "Practice Question 5"
+   ],
+   [
+    655,
+    "Practice Question 6"
+   ]
+  ]
+ },
+ "qJtiDyhZWV4": {
+  "course": "ccao",
+  "key": "09-Requirements-Research-Planning-and-Process-Optimization-part-1",
+  "title": "CCAO-F Exam Prep Module 9: Requirements, Research, Planning, Process | Claude Associate",
+  "seconds": 889,
+  "published": "2026-11-08T16:02:07Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Cedarbrook's Returns Overhaul"
+   ],
+   [
+    66,
+    "Analyzing Requirements"
+   ],
+   [
+    74,
+    "Analyzing Requirements, continued"
+   ],
+   [
+    120,
+    "Analyzing Requirements, continued"
+   ],
+   [
+    161,
+    "Identifying Good Use Cases"
+   ],
+   [
+    170,
+    "Identifying Good Use Cases, continued"
+   ],
+   [
+    185,
+    "Identifying Good Use Cases, continued"
+   ],
+   [
+    229,
+    "Identifying Good Use Cases, continued"
+   ],
+   [
+    260,
+    "Research and Planning"
+   ],
+   [
+    293,
+    "Research and Planning, continued"
+   ],
+   [
+    363,
+    "Research and Planning, continued"
+   ],
+   [
+    371,
+    "Process Optimization"
+   ],
+   [
+    383,
+    "Process Optimization, continued"
+   ],
+   [
+    452,
+    "Process Optimization, continued"
+   ],
+   [
+    538,
+    "Practice Question 1"
+   ],
+   [
+    568,
+    "Practice Question 2"
+   ],
+   [
+    594,
+    "Practice Question 3"
+   ],
+   [
+    622,
+    "Practice Question 4"
+   ],
+   [
+    652,
+    "Practice Question 5"
+   ],
+   [
+    681,
+    "Practice Question 6"
+   ],
+   [
+    712,
+    "Practice Question 7"
+   ],
+   [
+    740,
+    "Practice Question 8"
+   ],
+   [
+    772,
+    "Practice Question 9"
+   ],
+   [
+    800,
+    "Practice Question 10"
+   ],
+   [
+    831,
+    "Practice Question 11"
+   ]
+  ]
+ },
+ "LsZ8fZcF65w": {
+  "course": "ccao",
+  "key": "10-Solution-Design-Workflow-Integration-and-Stakeholder-Communication-part-1",
+  "title": "CCAO-F Exam Prep Module 10 Part 1 of 2: Solution Design and Workflows | Claude Associate",
+  "seconds": 472,
+  "published": "2026-11-08T16:02:11Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Cedarbrook's Onboarding Kit"
+   ],
+   [
+    68,
+    "Supporting Solution Design and Iteration"
+   ],
+   [
+    135,
+    "Supporting Solution Design and Iteration, continued"
+   ],
+   [
+    157,
+    "Fitting Claude into a Workflow"
+   ],
+   [
+    169,
+    "Fitting Claude into a Workflow, continued"
+   ],
+   [
+    204,
+    "Fitting Claude into a Workflow, continued"
+   ],
+   [
+    254,
+    "Fitting Claude into a Workflow, continued"
+   ],
+   [
+    292,
+    "Know the Boundary: When to Escalate"
+   ],
+   [
+    304,
+    "Know the Boundary: When to Escalate, continued"
+   ],
+   [
+    359,
+    "Know the Boundary: When to Escalate, continued"
+   ],
+   [
+    371,
+    "Communicating Value and Limits"
+   ],
+   [
+    379,
+    "Communicating Value and Limits, continued"
+   ],
+   [
+    390,
+    "Communicating Value and Limits, continued"
+   ],
+   [
+    435,
+    "Communicating Value and Limits, continued"
+   ]
+  ]
+ },
+ "WKJAbog4T1s": {
+  "course": "ccao",
+  "key": "10-Solution-Design-Workflow-Integration-and-Stakeholder-Communication-part-2",
+  "title": "CCAO-F Exam Prep Module 10 Part 2 of 2: Escalation and Communicating Value | Claude Associate",
+  "seconds": 437,
+  "published": "2026-11-08T16:02:37Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Communicating Value and Limits, continued"
+   ],
+   [
+    77,
+    "Practice Question 1"
+   ],
+   [
+    108,
+    "Practice Question 2"
+   ],
+   [
+    143,
+    "Practice Question 3"
+   ],
+   [
+    169,
+    "Practice Question 4"
+   ],
+   [
+    197,
+    "Practice Question 5"
+   ],
+   [
+    230,
+    "Practice Question 6"
+   ],
+   [
+    265,
+    "Practice Question 7"
+   ],
+   [
+    295,
+    "Practice Question 8"
+   ],
+   [
+    322,
+    "Practice Question 9"
+   ],
+   [
+    354,
+    "Practice Question 10"
+   ],
+   [
+    384,
+    "Practice Question 11"
+   ]
+  ]
+ },
+ "rKTMcvRMdEc": {
+  "course": "ccao",
+  "key": "11-Projects-Instructions-and-Knowledge-part-1",
+  "title": "CCAO-F Exam Prep Module 11: Projects: Instructions and Knowledge | Claude Associate",
+  "seconds": 869,
+  "published": "2026-11-08T16:03:15Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Cedarbrook's Customer-Care Project"
+   ],
+   [
+    66,
+    "What a Project Is"
+   ],
+   [
+    79,
+    "What a Project Is, continued"
+   ],
+   [
+    90,
+    "What a Project Is, continued"
+   ],
+   [
+    143,
+    "What a Project Is, continued"
+   ],
+   [
+    178,
+    "Writing Effective Instructions"
+   ],
+   [
+    191,
+    "Writing Effective Instructions, continued"
+   ],
+   [
+    205,
+    "Writing Effective Instructions, continued"
+   ],
+   [
+    269,
+    "Writing Effective Instructions, continued"
+   ],
+   [
+    322,
+    "Writing Effective Instructions, continued"
+   ],
+   [
+    354,
+    "Choosing and Organizing Knowledge"
+   ],
+   [
+    401,
+    "Choosing and Organizing Knowledge, continued"
+   ],
+   [
+    423,
+    "Choosing and Organizing Knowledge, continued"
+   ],
+   [
+    468,
+    "Projects Compared with Other Context Tools"
+   ],
+   [
+    483,
+    "Projects Compared with Other Context Tools, continued"
+   ],
+   [
+    594,
+    "Practice Question 1"
+   ],
+   [
+    625,
+    "Practice Question 2"
+   ],
+   [
+    653,
+    "Practice Question 3"
+   ],
+   [
+    688,
+    "Practice Question 4"
+   ],
+   [
+    723,
+    "Practice Question 5"
+   ],
+   [
+    754,
+    "Practice Question 6"
+   ],
+   [
+    787,
+    "Practice Question 7"
+   ],
+   [
+    817,
+    "Practice Question 8"
+   ]
+  ]
+ },
+ "vet41TobCmY": {
+  "course": "ccao",
+  "key": "12-Connectors-Skills-and-Keeping-Configurations-Current-part-1",
+  "title": "CCAO-F Exam Prep Module 12 Part 1 of 2: Connectors and Google Workspace | Claude Associate",
+  "seconds": 497,
+  "published": "2026-11-08T16:03:31Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Cedarbrook's Weekly Digest"
+   ],
+   [
+    65,
+    "Connectors"
+   ],
+   [
+    79,
+    "Connectors, continued"
+   ],
+   [
+    90,
+    "Connectors, continued"
+   ],
+   [
+    139,
+    "Connectors, continued"
+   ],
+   [
+    194,
+    "Connectors, continued"
+   ],
+   [
+    236,
+    "Managing Connectors and Knowledge Well"
+   ],
+   [
+    285,
+    "Managing Connectors and Knowledge Well, continued"
+   ],
+   [
+    346,
+    "Managing Connectors and Knowledge Well, continued"
+   ],
+   [
+    364,
+    "Skills"
+   ],
+   [
+    378,
+    "Skills, continued"
+   ],
+   [
+    390,
+    "Skills, continued"
+   ],
+   [
+    434,
+    "Skills, continued"
+   ]
+  ]
+ },
+ "Hxf_TvO9qgg": {
+  "course": "ccao",
+  "key": "12-Connectors-Skills-and-Keeping-Configurations-Current-part-2",
+  "title": "CCAO-F Exam Prep Module 12 Part 2 of 2: Skills and Keeping Configurations Current | Claude Associate",
+  "seconds": 478,
+  "published": "2026-11-08T16:03:51Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Keeping Configurations Current"
+   ],
+   [
+    12,
+    "Keeping Configurations Current, continued"
+   ],
+   [
+    24,
+    "Keeping Configurations Current, continued"
+   ],
+   [
+    67,
+    "Keeping Configurations Current, continued"
+   ],
+   [
+    175,
+    "Practice Question 1"
+   ],
+   [
+    207,
+    "Practice Question 2"
+   ],
+   [
+    234,
+    "Practice Question 3"
+   ],
+   [
+    266,
+    "Practice Question 4"
+   ],
+   [
+    293,
+    "Practice Question 5"
+   ],
+   [
+    323,
+    "Practice Question 6"
+   ],
+   [
+    359,
+    "Practice Question 7"
+   ],
+   [
+    394,
+    "Practice Question 8"
+   ],
+   [
+    427,
+    "Practice Question 9"
+   ]
+  ]
+ },
+ "Oak0S5BEf6c": {
+  "course": "ccao",
+  "key": "13-Appropriate-Use-Data-Sensitivity-and-Privacy-part-1",
+  "title": "CCAO-F Exam Prep Module 13 Part 1 of 2: Appropriate Use and Data Sensitivity | Claude Associate",
+  "seconds": 497,
+  "published": "2026-11-08T16:04:01Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Cedarbrook's Three Requests"
+   ],
+   [
+    65,
+    "Appropriate and Inappropriate Use Cases"
+   ],
+   [
+    76,
+    "Appropriate and Inappropriate Use Cases, continued"
+   ],
+   [
+    116,
+    "Appropriate and Inappropriate Use Cases, continued"
+   ],
+   [
+    165,
+    "Appropriate and Inappropriate Use Cases, continued"
+   ],
+   [
+    192,
+    "Data Sensitivity"
+   ],
+   [
+    206,
+    "Data Sensitivity, continued"
+   ],
+   [
+    264,
+    "Data Sensitivity, continued"
+   ],
+   [
+    317,
+    "Privacy Controls in the Product"
+   ],
+   [
+    357,
+    "Privacy Controls in the Product, continued"
+   ],
+   [
+    390,
+    "Privacy Controls in the Product, continued"
+   ],
+   [
+    425,
+    "Privacy Controls in the Product, continued"
+   ],
+   [
+    459,
+    "Regulation and Everyday Use"
+   ]
+  ]
+ },
+ "5o2lhw4F_fE": {
+  "course": "ccao",
+  "key": "13-Appropriate-Use-Data-Sensitivity-and-Privacy-part-2",
+  "title": "CCAO-F Exam Prep Module 13 Part 2 of 2: Privacy Controls and Regulation | Claude Associate",
+  "seconds": 445,
+  "published": "2026-11-08T16:04:20Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Regulation and Everyday Use, continued"
+   ],
+   [
+    18,
+    "Regulation and Everyday Use, continued"
+   ],
+   [
+    104,
+    "Practice Question 1"
+   ],
+   [
+    146,
+    "Practice Question 2"
+   ],
+   [
+    173,
+    "Practice Question 3"
+   ],
+   [
+    204,
+    "Practice Question 4"
+   ],
+   [
+    235,
+    "Practice Question 5"
+   ],
+   [
+    267,
+    "Practice Question 6"
+   ],
+   [
+    303,
+    "Practice Question 7"
+   ],
+   [
+    331,
+    "Practice Question 8"
+   ],
+   [
+    363,
+    "Practice Question 9"
+   ],
+   [
+    393,
+    "Practice Question 10"
+   ]
+  ]
+ },
+ "5Co2g5-keqA": {
+  "course": "ccao",
+  "key": "14-AI-Policies-Governance-and-Ethics-part-1",
+  "title": "CCAO-F Exam Prep Module 14 Part 1 of 2: AI Policies and Governance | Claude Associate",
+  "seconds": 482,
+  "published": "2026-11-08T16:04:35Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Cedarbrook's AI Use Policy"
+   ],
+   [
+    64,
+    "Organizational AI Policies"
+   ],
+   [
+    74,
+    "Organizational AI Policies, continued"
+   ],
+   [
+    88,
+    "Organizational AI Policies, continued"
+   ],
+   [
+    143,
+    "Organizational AI Policies, continued"
+   ],
+   [
+    193,
+    "Organizational AI Policies, continued"
+   ],
+   [
+    222,
+    "Governance in Practice"
+   ],
+   [
+    231,
+    "Governance in Practice, continued"
+   ],
+   [
+    285,
+    "Governance in Practice, continued"
+   ],
+   [
+    300,
+    "Governance in Practice, continued"
+   ],
+   [
+    327,
+    "Ethics of Everyday AI Use"
+   ],
+   [
+    388,
+    "Ethics of Everyday AI Use, continued"
+   ],
+   [
+    444,
+    "Ethics of Everyday AI Use, continued"
+   ]
+  ]
+ },
+ "43Usb62RbXE": {
+  "course": "ccao",
+  "key": "14-AI-Policies-Governance-and-Ethics-part-2",
+  "title": "CCAO-F Exam Prep Module 14 Part 2 of 2: Ethics of Everyday AI Use | Claude Associate",
+  "seconds": 426,
+  "published": "2026-11-08T16:04:51Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Ethics of Everyday AI Use, continued"
+   ],
+   [
+    27,
+    "When Your Request Conflicts with Policy"
+   ],
+   [
+    114,
+    "Practice Question 1"
+   ],
+   [
+    144,
+    "Practice Question 2"
+   ],
+   [
+    178,
+    "Practice Question 3"
+   ],
+   [
+    210,
+    "Practice Question 4"
+   ],
+   [
+    240,
+    "Practice Question 5"
+   ],
+   [
+    272,
+    "Practice Question 6"
+   ],
+   [
+    309,
+    "Practice Question 7"
+   ],
+   [
+    344,
+    "Practice Question 8"
+   ],
+   [
+    373,
+    "Practice Question 9"
+   ]
+  ]
+ },
+ "s51TN07K8a8": {
+  "course": "ccao",
+  "key": "15-Diagnosing-and-Fixing-Poor-Outputs-part-1",
+  "title": "CCAO-F Exam Prep Module 15: Diagnosing and Fixing Poor Outputs | Claude Associate",
+  "seconds": 810,
+  "published": "2026-11-08T16:05:19Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Cedarbrook's Disappointing Replies"
+   ],
+   [
+    58,
+    "A Diagnostic Method"
+   ],
+   [
+    90,
+    "A Diagnostic Method, continued"
+   ],
+   [
+    128,
+    "Symptoms, Causes and Fixes"
+   ],
+   [
+    186,
+    "Symptoms, Causes and Fixes, continued"
+   ],
+   [
+    239,
+    "Symptoms, Causes and Fixes, continued"
+   ],
+   [
+    293,
+    "Symptoms, Causes and Fixes, continued"
+   ],
+   [
+    319,
+    "Symptoms, Causes and Fixes, continued"
+   ],
+   [
+    338,
+    "Feature, File and Error Problems"
+   ],
+   [
+    384,
+    "Feature, File and Error Problems, continued"
+   ],
+   [
+    433,
+    "Feature, File and Error Problems, continued"
+   ],
+   [
+    452,
+    "Using Feedback and Results"
+   ],
+   [
+    492,
+    "Using Feedback and Results, continued"
+   ],
+   [
+    571,
+    "Practice Question 1"
+   ],
+   [
+    601,
+    "Practice Question 2"
+   ],
+   [
+    632,
+    "Practice Question 3"
+   ],
+   [
+    663,
+    "Practice Question 4"
+   ],
+   [
+    693,
+    "Practice Question 5"
+   ],
+   [
+    727,
+    "Practice Question 6"
+   ],
+   [
+    760,
+    "Practice Question 7"
+   ]
+  ]
+ },
+ "FhVIYAOA4Dg": {
+  "course": "ccao",
+  "key": "16-Optimizing-Workflows-Usage-and-Cost-part-1",
+  "title": "CCAO-F Exam Prep Module 16: Optimizing Workflows, Usage and Cost | Claude Associate",
+  "seconds": 721,
+  "published": "2026-11-08T16:05:37Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Cedarbrook's Monthly Report"
+   ],
+   [
+    61,
+    "Efficiency and Effectiveness"
+   ],
+   [
+    89,
+    "Efficiency and Effectiveness, continued"
+   ],
+   [
+    102,
+    "The Main Levers"
+   ],
+   [
+    163,
+    "The Main Levers, continued"
+   ],
+   [
+    221,
+    "The Main Levers, continued"
+   ],
+   [
+    254,
+    "The Main Levers, continued"
+   ],
+   [
+    279,
+    "Standardize and Share What Works"
+   ],
+   [
+    312,
+    "Standardize and Share What Works, continued"
+   ],
+   [
+    331,
+    "Measure and Improve"
+   ],
+   [
+    342,
+    "Measure and Improve, continued"
+   ],
+   [
+    406,
+    "Measure and Improve, continued"
+   ],
+   [
+    483,
+    "Practice Question 1"
+   ],
+   [
+    514,
+    "Practice Question 2"
+   ],
+   [
+    545,
+    "Practice Question 3"
+   ],
+   [
+    575,
+    "Practice Question 4"
+   ],
+   [
+    606,
+    "Practice Question 5"
+   ],
+   [
+    640,
+    "Practice Question 6"
+   ],
+   [
+    671,
+    "Practice Question 7"
+   ]
+  ]
+ },
+ "-Kgkj4W9DZg": {
+  "course": "ccao",
+  "key": "17-Quick-Reference-Recap-and-Decision-Chooser-part-1",
+  "title": "CCAO-F Exam Prep Module 17: Quick Reference and Decision Chooser | Claude Associate",
+  "seconds": 759,
+  "published": "2026-11-08T16:06:03Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Cedarbrook Outfitters"
+   ],
+   [
+    45,
+    "Decision Chooser"
+   ],
+   [
+    55,
+    "D1 Prompting and D2 Output Evaluation (35%)"
+   ],
+   [
+    122,
+    "D1 Prompting and D2 Output Evaluation (35%), continued"
+   ],
+   [
+    171,
+    "D3 Product and Model Selection (12%)"
+   ],
+   [
+    231,
+    "D4 Workflow and D5 Configuration (28%)"
+   ],
+   [
+    294,
+    "D4 Workflow and D5 Configuration (28%), continued"
+   ],
+   [
+    318,
+    "D6 Governance (15%) and D7 Troubleshooting (10%)"
+   ],
+   [
+    376,
+    "D6 Governance (15%) and D7 Troubleshooting (10%), continued"
+   ],
+   [
+    399,
+    "Names and Values to Know"
+   ],
+   [
+    460,
+    "Names and Values to Know, continued"
+   ],
+   [
+    524,
+    "Names and Values to Know, continued"
+   ],
+   [
+    535,
+    "Distractor Patterns"
+   ],
+   [
+    603,
+    "Distractor Patterns, continued"
+   ]
+  ]
+ },
+ "dK1hB9Sq7nI": {
+  "course": "ccao",
+  "key": "18-Exam-Technique-and-Final-Review-part-1",
+  "title": "CCAO-F Exam Prep Module 18: Exam Technique and Final Review | Claude Associate",
+  "seconds": 559,
+  "published": "2026-11-08T16:06:14Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Cedarbrook Outfitters"
+   ],
+   [
+    53,
+    "Time Plan"
+   ],
+   [
+    83,
+    "Time Plan, continued"
+   ],
+   [
+    116,
+    "Reading an Item"
+   ],
+   [
+    142,
+    "Reading an Item, continued"
+   ],
+   [
+    209,
+    "Reading an Item, continued"
+   ],
+   [
+    243,
+    "Eliminating Distractors"
+   ],
+   [
+    296,
+    "Multiple-response items"
+   ],
+   [
+    319,
+    "Policies and Logistics"
+   ],
+   [
+    373,
+    "Policies and Logistics, continued"
+   ],
+   [
+    410,
+    "Final Review Checklist"
+   ],
+   [
+    453,
+    "Final Review Checklist, continued"
+   ],
+   [
+    473,
+    "The last week"
+   ]
+  ]
+ },
  "yTE9OtaIN9A": {
   "course": "cdmp",
   "key": "00-Course-Introduction",
