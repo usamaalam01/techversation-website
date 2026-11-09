@@ -74,7 +74,8 @@
    "certs": [
     "ccar",
     "ccdv",
-    "ccao"
+    "ccao",
+    "ccarp"
    ]
   },
   {
@@ -27220,6 +27221,2673 @@
      "tn": "Module 18",
      "of": 19,
      "module": "18"
+    }
+   ],
+   "glossary": 0
+  },
+  {
+   "kind": "certification",
+   "topic": null,
+   "slug": "ccarp",
+   "institute": "anthropic",
+   "short": "CCAR-P",
+   "name": "Claude Architect Professional",
+   "title": "Claude Architect Professional (CCAR-P) Exam Prep Masterclass",
+   "accent": "c-ccarp",
+   "desc": "Solution design, multi-agent patterns, RAG, integration and authorization, evaluation, governance, compliance and stakeholder work, with the Lumen Advisory running case.",
+   "audience": "Solution architects, AI and ML engineers and technical leads who design and deliver production Claude solutions, and anyone preparing for the Claude Architect Professional exam.",
+   "sources": "The official Claude Architect Professional (CCAR-P) exam guide, Anthropic's documentation and engineering articles, and the Model Context Protocol specification.",
+   "playlist": "PLcFwBqZqfYB8",
+   "cover": "img/covers/ccarp.jpg",
+   "modules": [
+    {
+     "num": "00",
+     "slug": "00-course-introduction-and-exam-orientation",
+     "title": "Course Introduction and Exam Orientation",
+     "desc": "The Exam at a Glance and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "sDqROPeUw38",
+       "title": "The Exam at a Glance and recap",
+       "seconds": 702,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Lumen Advisory"
+        ],
+        [
+         66,
+         "The Exam at a Glance"
+        ],
+        [
+         83,
+         "The Exam at a Glance, continued"
+        ],
+        [
+         134,
+         "The Exam at a Glance, continued"
+        ],
+        [
+         179,
+         "The Seven Domains"
+        ],
+        [
+         202,
+         "The Seven Domains, continued"
+        ],
+        [
+         281,
+         "The Seven Domains, continued"
+        ],
+        [
+         345,
+         "The Seven Domains, continued"
+        ],
+        [
+         374,
+         "The Minimally Qualified Candidate"
+        ],
+        [
+         419,
+         "The Minimally Qualified Candidate, continued"
+        ],
+        [
+         433,
+         "Ten Decision Rules the Questions Reward"
+        ],
+        [
+         448,
+         "Ten Decision Rules the Questions Reward, continued"
+        ],
+        [
+         500,
+         "Ten Decision Rules the Questions Reward, continued"
+        ],
+        [
+         552,
+         "Ten Decision Rules the Questions Reward, continued"
+        ],
+        [
+         588,
+         "How to Use This Course"
+        ],
+        [
+         630,
+         "How to Use This Course, continued"
+        ]
+       ],
+       "published": "2026-11-08T18:48:45Z",
+       "thumb": "img/modules/ccarp/00-1.jpg"
+      }
+     ],
+     "deck": "downloads/ccarp/00-course-introduction-and-exam-orientation.pptx",
+     "deck_kb": 264,
+     "seconds": 702,
+     "words": 1554
+    },
+    {
+     "num": "01",
+     "slug": "01-from-business-problem-to-claude-solution",
+     "title": "From Business Problem to Claude Solution",
+     "desc": "From Ask to Problem Statement, recap and practice",
+     "parts": [
+      {
+       "part": 1,
+       "id": "up2CTIU7K_U",
+       "title": "From Ask to Problem Statement, recap and practice",
+       "seconds": 777,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Lumen Advisory and the Bank That Wants \"AI for Customer Service\""
+        ],
+        [
+         68,
+         "From Ask to Problem Statement"
+        ],
+        [
+         78,
+         "From Ask to Problem Statement, continued"
+        ],
+        [
+         92,
+         "From Ask to Problem Statement, continued"
+        ],
+        [
+         157,
+         "From Ask to Problem Statement, continued"
+        ],
+        [
+         202,
+         "Choosing the Solution Shape"
+        ],
+        [
+         216,
+         "Choosing the Solution Shape, continued"
+        ],
+        [
+         277,
+         "Choosing the Solution Shape, continued"
+        ],
+        [
+         287,
+         "Business Value Pillars"
+        ],
+        [
+         297,
+         "Business Value Pillars, continued"
+        ],
+        [
+         373,
+         "Business Value Pillars, continued"
+        ],
+        [
+         414,
+         "Constraints That Shape the Design"
+        ],
+        [
+         514,
+         "Practice Question 1"
+        ],
+        [
+         544,
+         "Practice Question 2"
+        ],
+        [
+         574,
+         "Practice Question 3"
+        ],
+        [
+         604,
+         "Practice Question 4"
+        ],
+        [
+         634,
+         "Practice Question 5"
+        ],
+        [
+         665,
+         "Practice Question 6"
+        ],
+        [
+         698,
+         "Practice Question 7"
+        ],
+        [
+         726,
+         "Practice Question 8"
+        ]
+       ],
+       "published": "2026-11-08T18:49:17Z",
+       "thumb": "img/modules/ccarp/01-1.jpg"
+      }
+     ],
+     "deck": "downloads/ccarp/01-from-business-problem-to-claude-solution.pptx",
+     "deck_kb": 254,
+     "seconds": 777,
+     "words": 1406
+    },
+    {
+     "num": "02",
+     "slug": "02-architectures-and-patterns",
+     "title": "Architectures and Patterns",
+     "desc": "An End-to-End Architecture, recap and practice",
+     "parts": [
+      {
+       "part": 1,
+       "id": "IZQ8JYz4ybs",
+       "title": "An End-to-End Architecture, recap and practice",
+       "seconds": 864,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Lumen Advisory Designs a Claims Intake for a Health Insurer"
+        ],
+        [
+         63,
+         "An End-to-End Architecture"
+        ],
+        [
+         77,
+         "An End-to-End Architecture, continued"
+        ],
+        [
+         151,
+         "An End-to-End Architecture, continued"
+        ],
+        [
+         187,
+         "The Augmented LLM"
+        ],
+        [
+         201,
+         "The Augmented LLM, continued"
+        ],
+        [
+         228,
+         "The Augmented LLM, continued"
+        ],
+        [
+         240,
+         "Workflow Patterns"
+        ],
+        [
+         247,
+         "Workflow Patterns, continued"
+        ],
+        [
+         323,
+         "Workflow Patterns, continued"
+        ],
+        [
+         341,
+         "Workflow Patterns, continued"
+        ],
+        [
+         373,
+         "Workflow Patterns, continued"
+        ],
+        [
+         382,
+         "Agents"
+        ],
+        [
+         419,
+         "Agents, continued"
+        ],
+        [
+         447,
+         "Selecting a Pattern"
+        ],
+        [
+         458,
+         "Selecting a Pattern, continued"
+        ],
+        [
+         559,
+         "Practice Question 1"
+        ],
+        [
+         590,
+         "Practice Question 2"
+        ],
+        [
+         622,
+         "Practice Question 3"
+        ],
+        [
+         655,
+         "Practice Question 4"
+        ],
+        [
+         687,
+         "Practice Question 5"
+        ],
+        [
+         716,
+         "Practice Question 6"
+        ],
+        [
+         750,
+         "Practice Question 7"
+        ],
+        [
+         783,
+         "Practice Question 8"
+        ],
+        [
+         811,
+         "Practice Question 9"
+        ]
+       ],
+       "published": "2026-11-08T18:49:42Z",
+       "thumb": "img/modules/ccarp/02-1.jpg"
+      }
+     ],
+     "deck": "downloads/ccarp/02-architectures-and-patterns.pptx",
+     "deck_kb": 317,
+     "seconds": 864,
+     "words": 1496
+    },
+    {
+     "num": "03",
+     "slug": "03-multi-agent-orchestration-and-decomposition",
+     "title": "Multi-Agent Orchestration and Decomposition",
+     "desc": "When Multi-Agent Pays Off, recap and practice",
+     "parts": [
+      {
+       "part": 1,
+       "id": "e9zGaAVlxYo",
+       "title": "When Multi-Agent Pays Off, recap and practice",
+       "seconds": 777,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Lumen Advisory and the Due-Diligence Research Tool"
+        ],
+        [
+         58,
+         "When Multi-Agent Pays Off"
+        ],
+        [
+         121,
+         "When Multi-Agent Pays Off, continued"
+        ],
+        [
+         146,
+         "Orchestrator-Worker Design"
+        ],
+        [
+         161,
+         "Orchestrator-Worker Design, continued"
+        ],
+        [
+         212,
+         "Orchestrator-Worker Design, continued"
+        ],
+        [
+         231,
+         "Decomposition"
+        ],
+        [
+         238,
+         "Decomposition, continued"
+        ],
+        [
+         251,
+         "Decomposition, continued"
+        ],
+        [
+         316,
+         "Production Concerns"
+        ],
+        [
+         370,
+         "Production Concerns, continued"
+        ],
+        [
+         445,
+         "Practice Question 1"
+        ],
+        [
+         480,
+         "Practice Question 2"
+        ],
+        [
+         507,
+         "Practice Question 3"
+        ],
+        [
+         535,
+         "Practice Question 4"
+        ],
+        [
+         568,
+         "Practice Question 5"
+        ],
+        [
+         600,
+         "Practice Question 6"
+        ],
+        [
+         632,
+         "Practice Question 7"
+        ],
+        [
+         660,
+         "Practice Question 8"
+        ],
+        [
+         692,
+         "Practice Question 9"
+        ],
+        [
+         720,
+         "Practice Question 10"
+        ]
+       ],
+       "published": "2026-11-08T18:50:08Z",
+       "thumb": "img/modules/ccarp/03-1.jpg"
+      }
+     ],
+     "deck": "downloads/ccarp/03-multi-agent-orchestration-and-decomposition.pptx",
+     "deck_kb": 204,
+     "seconds": 777,
+     "words": 1295
+    },
+    {
+     "num": "04",
+     "slug": "04-selecting-claude-models",
+     "title": "Selecting Claude Models",
+     "desc": "The Tiers and the Levers, recap and practice",
+     "parts": [
+      {
+       "part": 1,
+       "id": "My7fqLWQzDk",
+       "title": "The Tiers and the Levers, recap and practice",
+       "seconds": 692,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Lumen Advisory Picks Models for a Bank's Three Workloads"
+        ],
+        [
+         63,
+         "The Tiers and the Levers"
+        ],
+        [
+         133,
+         "The Tiers and the Levers, continued"
+        ],
+        [
+         159,
+         "The Tiers and the Levers, continued"
+        ],
+        [
+         204,
+         "The Tiers and the Levers, continued"
+        ],
+        [
+         234,
+         "Making the Choice"
+        ],
+        [
+         249,
+         "Making the Choice, continued"
+        ],
+        [
+         310,
+         "Making the Choice, continued"
+        ],
+        [
+         345,
+         "Trade-Off Table"
+        ],
+        [
+         455,
+         "Practice Question 1"
+        ],
+        [
+         487,
+         "Practice Question 2"
+        ],
+        [
+         519,
+         "Practice Question 3"
+        ],
+        [
+         547,
+         "Practice Question 4"
+        ],
+        [
+         573,
+         "Practice Question 5"
+        ],
+        [
+         608,
+         "Practice Question 6"
+        ],
+        [
+         641,
+         "Practice Question 7"
+        ]
+       ],
+       "published": "2026-11-08T18:50:41Z",
+       "thumb": "img/modules/ccarp/04-1.jpg"
+      }
+     ],
+     "deck": "downloads/ccarp/04-selecting-claude-models.pptx",
+     "deck_kb": 180,
+     "seconds": 692,
+     "words": 1296
+    },
+    {
+     "num": "05",
+     "slug": "05-system-prompts-templates-and-prompting-techniques",
+     "title": "System Prompts, Templates and Prompting Techniques",
+     "desc": "System Prompts, recap and practice",
+     "parts": [
+      {
+       "part": 1,
+       "id": "5V2_P-3_heM",
+       "title": "System Prompts, recap and practice",
+       "seconds": 682,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Lumen Advisory Writes the System Prompt for a Bank's Policy Assistant"
+        ],
+        [
+         61,
+         "System Prompts"
+        ],
+        [
+         75,
+         "System Prompts, continued"
+        ],
+        [
+         136,
+         "System Prompts, continued"
+        ],
+        [
+         168,
+         "Templates and Reuse"
+        ],
+        [
+         212,
+         "Prompting Techniques"
+        ],
+        [
+         224,
+         "Prompting Techniques, continued"
+        ],
+        [
+         276,
+         "Prompting Techniques, continued"
+        ],
+        [
+         327,
+         "Prompting Techniques, continued"
+        ],
+        [
+         335,
+         "Guardrails in Prompts"
+        ],
+        [
+         447,
+         "Practice Question 1"
+        ],
+        [
+         485,
+         "Practice Question 2"
+        ],
+        [
+         516,
+         "Practice Question 3"
+        ],
+        [
+         543,
+         "Practice Question 4"
+        ],
+        [
+         577,
+         "Practice Question 5"
+        ],
+        [
+         609,
+         "Practice Question 6"
+        ],
+        [
+         636,
+         "Practice Question 7"
+        ]
+       ],
+       "published": "2026-11-08T18:50:46Z",
+       "thumb": "img/modules/ccarp/05-1.jpg"
+      }
+     ],
+     "deck": "downloads/ccarp/05-system-prompts-templates-and-prompting-techniques.pptx",
+     "deck_kb": 198,
+     "seconds": 682,
+     "words": 1218
+    },
+    {
+     "num": "06",
+     "slug": "06-context-tokens-and-prompt-reuse",
+     "title": "Context, Tokens and Prompt Reuse",
+     "desc": "The Context Is a Budget, recap and practice",
+     "parts": [
+      {
+       "part": 1,
+       "id": "mUUeL_B1jFc",
+       "title": "The Context Is a Budget, recap and practice",
+       "seconds": 739,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Lumen Advisory and the Retail Client's Slow, Costly Assistant"
+        ],
+        [
+         62,
+         "The Context Is a Budget"
+        ],
+        [
+         96,
+         "The Context Is a Budget, continued"
+        ],
+        [
+         111,
+         "The Context Is a Budget, continued"
+        ],
+        [
+         174,
+         "The Context Is a Budget, continued"
+        ],
+        [
+         201,
+         "Prompt Caching"
+        ],
+        [
+         213,
+         "Prompt Caching, continued"
+        ],
+        [
+         256,
+         "Prompt Caching, continued"
+        ],
+        [
+         315,
+         "Modular Prompts and Skills"
+        ],
+        [
+         360,
+         "Modular Prompts and Skills, continued"
+        ],
+        [
+         388,
+         "Token Optimization Levers"
+        ],
+        [
+         497,
+         "Practice Question 1"
+        ],
+        [
+         531,
+         "Practice Question 2"
+        ],
+        [
+         562,
+         "Practice Question 3"
+        ],
+        [
+         593,
+         "Practice Question 4"
+        ],
+        [
+         624,
+         "Practice Question 5"
+        ],
+        [
+         658,
+         "Practice Question 6"
+        ],
+        [
+         687,
+         "Practice Question 7"
+        ]
+       ],
+       "published": "2026-11-08T18:51:16Z",
+       "thumb": "img/modules/ccarp/06-1.jpg"
+      }
+     ],
+     "deck": "downloads/ccarp/06-context-tokens-and-prompt-reuse.pptx",
+     "deck_kb": 232,
+     "seconds": 739,
+     "words": 1389
+    },
+    {
+     "num": "07",
+     "slug": "07-tools-capability-bloat-and-progressive-discovery",
+     "title": "Tools, Capability Bloat and Progressive Discovery",
+     "desc": "Capability Bloat, recap and practice",
+     "parts": [
+      {
+       "part": 1,
+       "id": "7yyEVIZsLZM",
+       "title": "Capability Bloat, recap and practice",
+       "seconds": 681,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Lumen Advisory Audits a Support Agent With 140 Tools"
+        ],
+        [
+         74,
+         "Capability Bloat"
+        ],
+        [
+         82,
+         "Capability Bloat, continued"
+        ],
+        [
+         94,
+         "Capability Bloat, continued"
+        ],
+        [
+         144,
+         "Capability Bloat, continued"
+        ],
+        [
+         173,
+         "Progressive Discovery"
+        ],
+        [
+         180,
+         "Progressive Discovery, continued"
+        ],
+        [
+         194,
+         "Progressive Discovery, continued"
+        ],
+        [
+         241,
+         "Progressive Discovery, continued"
+        ],
+        [
+         288,
+         "Progressive Discovery, continued"
+        ],
+        [
+         319,
+         "Monolithic versus progressive"
+        ],
+        [
+         356,
+         "Tool Design for the Agent-Computer Interface"
+        ],
+        [
+         445,
+         "Practice Question 1"
+        ],
+        [
+         482,
+         "Practice Question 2"
+        ],
+        [
+         514,
+         "Practice Question 3"
+        ],
+        [
+         544,
+         "Practice Question 4"
+        ],
+        [
+         575,
+         "Practice Question 5"
+        ],
+        [
+         607,
+         "Practice Question 6"
+        ],
+        [
+         635,
+         "Practice Question 7"
+        ]
+       ],
+       "published": "2026-11-08T18:51:35Z",
+       "thumb": "img/modules/ccarp/07-1.jpg"
+      }
+     ],
+     "deck": "downloads/ccarp/07-tools-capability-bloat-and-progressive-discovery.pptx",
+     "deck_kb": 206,
+     "seconds": 681,
+     "words": 1296
+    },
+    {
+     "num": "08",
+     "slug": "08-authentication-authorization-and-integration-protocols",
+     "title": "Authentication, Authorization and Integration Protocols",
+     "desc": "Authentication and Authorization, recap and practice",
+     "parts": [
+      {
+       "part": 1,
+       "id": "gpWK8QgjNtc",
+       "title": "Authentication and Authorization, recap and practice",
+       "seconds": 801,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Lumen Advisory Reviews a Healthcare Client's Records Assistant"
+        ],
+        [
+         67,
+         "Authentication and Authorization"
+        ],
+        [
+         82,
+         "Authentication and Authorization, continued"
+        ],
+        [
+         99,
+         "Authentication and Authorization, continued"
+        ],
+        [
+         161,
+         "Authentication and Authorization, continued"
+        ],
+        [
+         209,
+         "Authentication and Authorization, continued"
+        ],
+        [
+         232,
+         "OAuth 2.1 and MCP"
+        ],
+        [
+         245,
+         "OAuth 2.1 and MCP, continued"
+        ],
+        [
+         295,
+         "OAuth 2.1 and MCP, continued"
+        ],
+        [
+         345,
+         "OAuth 2.1 and MCP, continued"
+        ],
+        [
+         371,
+         "Choosing the Integration Mechanism"
+        ],
+        [
+         388,
+         "Choosing the Integration Mechanism, continued"
+        ],
+        [
+         427,
+         "Choosing the Integration Mechanism, continued"
+        ],
+        [
+         468,
+         "Choosing the Integration Mechanism, continued"
+        ],
+        [
+         548,
+         "Practice Question 1"
+        ],
+        [
+         581,
+         "Practice Question 2"
+        ],
+        [
+         612,
+         "Practice Question 3"
+        ],
+        [
+         645,
+         "Practice Question 4"
+        ],
+        [
+         678,
+         "Practice Question 5"
+        ],
+        [
+         713,
+         "Practice Question 6"
+        ],
+        [
+         749,
+         "Practice Question 7"
+        ]
+       ],
+       "published": "2026-11-08T18:52:01Z",
+       "thumb": "img/modules/ccarp/08-1.jpg"
+      }
+     ],
+     "deck": "downloads/ccarp/08-authentication-authorization-and-integration-protocols.pptx",
+     "deck_kb": 239,
+     "seconds": 801,
+     "words": 1643
+    },
+    {
+     "num": "09",
+     "slug": "09-rag-pipelines-chunking-and-indexing",
+     "title": "RAG Pipelines: Chunking and Indexing",
+     "desc": "The Pipeline, recap and practice",
+     "parts": [
+      {
+       "part": 1,
+       "id": "_noFNxyCQP0",
+       "title": "The Pipeline, recap and practice",
+       "seconds": 858,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Lumen Advisory Builds a Knowledge Assistant for a Law-Adjacent Compliance Team"
+        ],
+        [
+         63,
+         "The Pipeline"
+        ],
+        [
+         77,
+         "The Pipeline, continued"
+        ],
+        [
+         155,
+         "The Pipeline, continued"
+        ],
+        [
+         185,
+         "Chunking"
+        ],
+        [
+         197,
+         "Chunking, continued"
+        ],
+        [
+         268,
+         "Chunking, continued"
+        ],
+        [
+         294,
+         "Indexing"
+        ],
+        [
+         353,
+         "Indexing, continued"
+        ],
+        [
+         362,
+         "Contextual retrieval"
+        ],
+        [
+         391,
+         "Contextual retrieval, continued"
+        ],
+        [
+         428,
+         "Freshness, Security and Evaluation"
+        ],
+        [
+         480,
+         "When not to use RAG"
+        ],
+        [
+         570,
+         "Practice Question 1"
+        ],
+        [
+         611,
+         "Practice Question 2"
+        ],
+        [
+         643,
+         "Practice Question 3"
+        ],
+        [
+         679,
+         "Practice Question 4"
+        ],
+        [
+         711,
+         "Practice Question 5"
+        ],
+        [
+         744,
+         "Practice Question 6"
+        ],
+        [
+         777,
+         "Practice Question 7"
+        ],
+        [
+         808,
+         "Practice Question 8"
+        ]
+       ],
+       "published": "2026-11-08T18:52:31Z",
+       "thumb": "img/modules/ccarp/09-1.jpg"
+      }
+     ],
+     "deck": "downloads/ccarp/09-rag-pipelines-chunking-and-indexing.pptx",
+     "deck_kb": 239,
+     "seconds": 858,
+     "words": 1527
+    },
+    {
+     "num": "10",
+     "slug": "10-retrieval-strategies-latency-trade-offs-and-observability",
+     "title": "Retrieval Strategies, Latency Trade-offs and Observability",
+     "desc": "Retrieval Matched to Data and Query, recap and practice",
+     "parts": [
+      {
+       "part": 1,
+       "id": "cxBpJ-wPZpo",
+       "title": "Retrieval Matched to Data and Query, recap and practice",
+       "seconds": 936,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Lumen Advisory Designs Search for a Retailer's Three Data Sets"
+        ],
+        [
+         60,
+         "Retrieval Matched to Data and Query"
+        ],
+        [
+         76,
+         "Retrieval Matched to Data and Query, continued"
+        ],
+        [
+         160,
+         "Retrieval Matched to Data and Query, continued"
+        ],
+        [
+         204,
+         "Retrieval Matched to Data and Query, continued"
+        ],
+        [
+         241,
+         "Accuracy-Latency-Cost Trade-offs"
+        ],
+        [
+         254,
+         "Accuracy-Latency-Cost Trade-offs, continued"
+        ],
+        [
+         353,
+         "Accuracy-Latency-Cost Trade-offs, continued"
+        ],
+        [
+         387,
+         "Observability at Scale"
+        ],
+        [
+         402,
+         "Observability at Scale, continued"
+        ],
+        [
+         414,
+         "Observability at Scale, continued"
+        ],
+        [
+         478,
+         "Observability at Scale, continued"
+        ],
+        [
+         532,
+         "Observability at Scale, continued"
+        ],
+        [
+         585,
+         "Observability at Scale, continued"
+        ],
+        [
+         651,
+         "Practice Question 1"
+        ],
+        [
+         684,
+         "Practice Question 2"
+        ],
+        [
+         718,
+         "Practice Question 3"
+        ],
+        [
+         750,
+         "Practice Question 4"
+        ],
+        [
+         786,
+         "Practice Question 5"
+        ],
+        [
+         820,
+         "Practice Question 6"
+        ],
+        [
+         856,
+         "Practice Question 7"
+        ],
+        [
+         886,
+         "Practice Question 8"
+        ]
+       ],
+       "published": "2026-11-08T18:53:02Z",
+       "thumb": "img/modules/ccarp/10-1.jpg"
+      }
+     ],
+     "deck": "downloads/ccarp/10-retrieval-strategies-latency-trade-offs-and-observability.pptx",
+     "deck_kb": 249,
+     "seconds": 936,
+     "words": 1650
+    },
+    {
+     "num": "11",
+     "slug": "11-evaluation-metrics-datasets-and-frameworks",
+     "title": "Evaluation Metrics, Datasets and Frameworks",
+     "desc": "Success Criteria and Metrics, recap and practice",
+     "parts": [
+      {
+       "part": 1,
+       "id": "lL9g36VO1_s",
+       "title": "Success Criteria and Metrics, recap and practice",
+       "seconds": 915,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Lumen Advisory Defines \"Good\" for a Bank's Claims-Triage Assistant"
+        ],
+        [
+         56,
+         "Success Criteria and Metrics"
+        ],
+        [
+         68,
+         "Success Criteria and Metrics, continued"
+        ],
+        [
+         147,
+         "Success Criteria and Metrics, continued"
+        ],
+        [
+         171,
+         "Success Criteria and Metrics, continued"
+        ],
+        [
+         207,
+         "Success Criteria and Metrics, continued"
+        ],
+        [
+         228,
+         "Evaluation Datasets"
+        ],
+        [
+         243,
+         "Evaluation Datasets, continued"
+        ],
+        [
+         299,
+         "Evaluation Datasets, continued"
+        ],
+        [
+         319,
+         "Mixed Methodologies"
+        ],
+        [
+         399,
+         "Mixed Methodologies, continued"
+        ],
+        [
+         418,
+         "An Evaluation Framework"
+        ],
+        [
+         455,
+         "An Evaluation Framework, continued"
+        ],
+        [
+         545,
+         "Practice Question 1"
+        ],
+        [
+         575,
+         "Practice Question 2"
+        ],
+        [
+         603,
+         "Practice Question 3"
+        ],
+        [
+         634,
+         "Practice Question 4"
+        ],
+        [
+         665,
+         "Practice Question 5"
+        ],
+        [
+         700,
+         "Practice Question 6"
+        ],
+        [
+         732,
+         "Practice Question 7"
+        ],
+        [
+         765,
+         "Practice Question 8"
+        ],
+        [
+         793,
+         "Practice Question 9"
+        ],
+        [
+         825,
+         "Practice Question 10"
+        ],
+        [
+         856,
+         "Practice Question 11"
+        ]
+       ],
+       "published": "2026-11-08T18:53:32Z",
+       "thumb": "img/modules/ccarp/11-1.jpg"
+      }
+     ],
+     "deck": "downloads/ccarp/11-evaluation-metrics-datasets-and-frameworks.pptx",
+     "deck_kb": 269,
+     "seconds": 915,
+     "words": 1555
+    },
+    {
+     "num": "12",
+     "slug": "12-a-b-testing-diagnosis-optimization-and-monitoring",
+     "title": "A/B Testing, Diagnosis, Optimization and Monitoring",
+     "desc": "A/B Testing and Iteration, recap and practice",
+     "parts": [
+      {
+       "part": 1,
+       "id": "hjJk7M-7DRA",
+       "title": "A/B Testing and Iteration, recap and practice",
+       "seconds": 924,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Lumen Advisory Tests a New Prompt for a Retailer's Returns Assistant"
+        ],
+        [
+         58,
+         "A/B Testing and Iteration"
+        ],
+        [
+         72,
+         "A/B Testing and Iteration, continued"
+        ],
+        [
+         125,
+         "A/B Testing and Iteration, continued"
+        ],
+        [
+         159,
+         "Diagnosing Problems"
+        ],
+        [
+         172,
+         "Diagnosing Problems, continued"
+        ],
+        [
+         243,
+         "Diagnosing Problems, continued"
+        ],
+        [
+         297,
+         "Optimizing Tokens, Latency and Cost"
+        ],
+        [
+         361,
+         "Optimizing Tokens, Latency and Cost, continued"
+        ],
+        [
+         385,
+         "Monitoring in Production"
+        ],
+        [
+         458,
+         "Monitoring in Production, continued"
+        ],
+        [
+         532,
+         "Practice Question 1"
+        ],
+        [
+         563,
+         "Practice Question 2"
+        ],
+        [
+         590,
+         "Practice Question 3"
+        ],
+        [
+         621,
+         "Practice Question 4"
+        ],
+        [
+         654,
+         "Practice Question 5"
+        ],
+        [
+         685,
+         "Practice Question 6"
+        ],
+        [
+         716,
+         "Practice Question 7"
+        ],
+        [
+         747,
+         "Practice Question 8"
+        ],
+        [
+         777,
+         "Practice Question 9"
+        ],
+        [
+         808,
+         "Practice Question 10"
+        ],
+        [
+         839,
+         "Practice Question 11"
+        ],
+        [
+         872,
+         "Practice Question 12"
+        ]
+       ],
+       "published": "2026-11-08T18:53:49Z",
+       "thumb": "img/modules/ccarp/12-1.jpg"
+      }
+     ],
+     "deck": "downloads/ccarp/12-a-b-testing-diagnosis-optimization-and-monitoring.pptx",
+     "deck_kb": 242,
+     "seconds": 924,
+     "words": 1538
+    },
+    {
+     "num": "13",
+     "slug": "13-guardrails-failure-modes-and-human-in-the-loop",
+     "title": "Guardrails, Failure Modes and Human-in-the-Loop",
+     "desc": "Failure Modes and Limitations, recap and practice",
+     "parts": [
+      {
+       "part": 1,
+       "id": "zh6fOkPFD3A",
+       "title": "Failure Modes and Limitations, recap and practice",
+       "seconds": 825,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Lumen Advisory Reviews a Government Agency's Benefits Assistant"
+        ],
+        [
+         57,
+         "Failure Modes and Limitations"
+        ],
+        [
+         129,
+         "Failure Modes and Limitations, continued"
+        ],
+        [
+         196,
+         "Guardrail Layers"
+        ],
+        [
+         209,
+         "Guardrail Layers, continued"
+        ],
+        [
+         281,
+         "Guardrail Layers, continued"
+        ],
+        [
+         318,
+         "Guardrail Layers, continued"
+        ],
+        [
+         327,
+         "Human-in-the-Loop Strategies"
+        ],
+        [
+         340,
+         "Human-in-the-Loop Strategies, continued"
+        ],
+        [
+         401,
+         "Human-in-the-Loop Strategies, continued"
+        ],
+        [
+         502,
+         "Practice Question 1"
+        ],
+        [
+         534,
+         "Practice Question 2"
+        ],
+        [
+         560,
+         "Practice Question 3"
+        ],
+        [
+         592,
+         "Practice Question 4"
+        ],
+        [
+         624,
+         "Practice Question 5"
+        ],
+        [
+         653,
+         "Practice Question 6"
+        ],
+        [
+         683,
+         "Practice Question 7"
+        ],
+        [
+         711,
+         "Practice Question 8"
+        ],
+        [
+         743,
+         "Practice Question 9"
+        ],
+        [
+         772,
+         "Practice Question 10"
+        ]
+       ],
+       "published": "2026-11-08T18:54:11Z",
+       "thumb": "img/modules/ccarp/13-1.jpg"
+      }
+     ],
+     "deck": "downloads/ccarp/13-guardrails-failure-modes-and-human-in-the-loop.pptx",
+     "deck_kb": 214,
+     "seconds": 825,
+     "words": 1383
+    },
+    {
+     "num": "14",
+     "slug": "14-compliance-and-ethical-ai",
+     "title": "Compliance and Ethical AI",
+     "desc": "Compliance Is an Architecture Decision",
+     "parts": [
+      {
+       "part": 1,
+       "id": "h50pekqd4sw",
+       "title": "Compliance Is an Architecture Decision",
+       "seconds": 426,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Lumen Advisory Serves Three Regulated Clients"
+        ],
+        [
+         61,
+         "Compliance Is an Architecture Decision"
+        ],
+        [
+         77,
+         "Compliance Is an Architecture Decision, continued"
+        ],
+        [
+         95,
+         "Compliance Is an Architecture Decision, continued"
+        ],
+        [
+         136,
+         "Compliance Is an Architecture Decision, continued"
+        ],
+        [
+         177,
+         "Anthropic Data Handling Arrangements"
+        ],
+        [
+         215,
+         "Anthropic Data Handling Arrangements, continued"
+        ],
+        [
+         276,
+         "Anthropic Data Handling Arrangements, continued"
+        ],
+        [
+         311,
+         "Anthropic Data Handling Arrangements, continued"
+        ],
+        [
+         355,
+         "Ethical AI: Bias, Fairness and Transparency"
+        ],
+        [
+         370,
+         "Ethical AI: Bias, Fairness and Transparency, continued"
+        ]
+       ],
+       "published": "2026-11-08T18:54:20Z",
+       "thumb": "img/modules/ccarp/14-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "4wRtEWtwBqg",
+       "title": "Ethical AI: Bias, Fairness and Transparency, recap and practice",
+       "seconds": 437,
+       "chapters": [
+        [
+         0,
+         "Ethical AI: Bias, Fairness and Transparency, continued"
+        ],
+        [
+         99,
+         "Practice Question 1"
+        ],
+        [
+         131,
+         "Practice Question 2"
+        ],
+        [
+         163,
+         "Practice Question 3"
+        ],
+        [
+         200,
+         "Practice Question 4"
+        ],
+        [
+         230,
+         "Practice Question 5"
+        ],
+        [
+         259,
+         "Practice Question 6"
+        ],
+        [
+         289,
+         "Practice Question 7"
+        ],
+        [
+         322,
+         "Practice Question 8"
+        ],
+        [
+         352,
+         "Practice Question 9"
+        ],
+        [
+         383,
+         "Practice Question 10"
+        ]
+       ],
+       "published": "2026-11-08T18:54:41Z",
+       "thumb": "img/modules/ccarp/14-2.jpg"
+      }
+     ],
+     "deck": "downloads/ccarp/14-compliance-and-ethical-ai.pptx",
+     "deck_kb": 294,
+     "seconds": 863,
+     "words": 1703
+    },
+    {
+     "num": "15",
+     "slug": "15-discovery-communication-and-expectations",
+     "title": "Discovery, Communication and Expectations",
+     "desc": "Structured Discovery, recap and practice",
+     "parts": [
+      {
+       "part": 1,
+       "id": "xLCC1lb-n7c",
+       "title": "Structured Discovery, recap and practice",
+       "seconds": 879,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Lumen Advisory Runs Discovery for an Airline's Disruption Assistant"
+        ],
+        [
+         58,
+         "Structured Discovery"
+        ],
+        [
+         72,
+         "Structured Discovery, continued"
+        ],
+        [
+         137,
+         "Structured Discovery, continued"
+        ],
+        [
+         196,
+         "Structured Discovery, continued"
+        ],
+        [
+         215,
+         "Communicating Decisions and Trade-offs"
+        ],
+        [
+         231,
+         "Communicating Decisions and Trade-offs, continued"
+        ],
+        [
+         305,
+         "Communicating Decisions and Trade-offs, continued"
+        ],
+        [
+         340,
+         "SLAs, SLOs and Expectation Alignment"
+        ],
+        [
+         400,
+         "SLAs, SLOs and Expectation Alignment, continued"
+        ],
+        [
+         428,
+         "Feedback Loops"
+        ],
+        [
+         460,
+         "Feedback Loops, continued"
+        ],
+        [
+         536,
+         "Practice Question 1"
+        ],
+        [
+         566,
+         "Practice Question 2"
+        ],
+        [
+         595,
+         "Practice Question 3"
+        ],
+        [
+         626,
+         "Practice Question 4"
+        ],
+        [
+         657,
+         "Practice Question 5"
+        ],
+        [
+         695,
+         "Practice Question 6"
+        ],
+        [
+         726,
+         "Practice Question 7"
+        ],
+        [
+         756,
+         "Practice Question 8"
+        ],
+        [
+         787,
+         "Practice Question 9"
+        ],
+        [
+         822,
+         "Practice Question 10"
+        ]
+       ],
+       "published": "2026-11-08T18:55:16Z",
+       "thumb": "img/modules/ccarp/15-1.jpg"
+      }
+     ],
+     "deck": "downloads/ccarp/15-discovery-communication-and-expectations.pptx",
+     "deck_kb": 260,
+     "seconds": 879,
+     "words": 1512
+    },
+    {
+     "num": "16",
+     "slug": "16-documentation-and-lifecycle-management",
+     "title": "Documentation and Lifecycle Management",
+     "desc": "Documenting an Architecture, recap and practice",
+     "parts": [
+      {
+       "part": 1,
+       "id": "S-YQbvtibGo",
+       "title": "Documenting an Architecture, recap and practice",
+       "seconds": 797,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Lumen Advisory Hands Over a Claims Assistant to the Insurer's Team"
+        ],
+        [
+         55,
+         "Documenting an Architecture"
+        ],
+        [
+         70,
+         "Documenting an Architecture, continued"
+        ],
+        [
+         140,
+         "Documenting an Architecture, continued"
+        ],
+        [
+         189,
+         "Implementation Guidance"
+        ],
+        [
+         239,
+         "Lifecycle Phases"
+        ],
+        [
+         250,
+         "Lifecycle Phases, continued"
+        ],
+        [
+         325,
+         "Change Management for Models, Prompts and Data"
+        ],
+        [
+         387,
+         "Change Management for Models, Prompts and Data, continued"
+        ],
+        [
+         471,
+         "Practice Question 1"
+        ],
+        [
+         502,
+         "Practice Question 2"
+        ],
+        [
+         534,
+         "Practice Question 3"
+        ],
+        [
+         564,
+         "Practice Question 4"
+        ],
+        [
+         596,
+         "Practice Question 5"
+        ],
+        [
+         624,
+         "Practice Question 6"
+        ],
+        [
+         650,
+         "Practice Question 7"
+        ],
+        [
+         681,
+         "Practice Question 8"
+        ],
+        [
+         714,
+         "Practice Question 9"
+        ],
+        [
+         741,
+         "Practice Question 10"
+        ]
+       ],
+       "published": "2026-11-08T18:55:36Z",
+       "thumb": "img/modules/ccarp/16-1.jpg"
+      }
+     ],
+     "deck": "downloads/ccarp/16-documentation-and-lifecycle-management.pptx",
+     "deck_kb": 224,
+     "seconds": 797,
+     "words": 1329
+    },
+    {
+     "num": "17",
+     "slug": "17-developer-productivity-and-operational-enablement",
+     "title": "Developer Productivity and Operational Enablement",
+     "desc": "Configuring Claude Code for Teams, recap and practice",
+     "parts": [
+      {
+       "part": 1,
+       "id": "erkS9g3_gI0",
+       "title": "Configuring Claude Code for Teams, recap and practice",
+       "seconds": 914,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Lumen Advisory Rolls Out Claude Code to a Bank's 300 Engineers"
+        ],
+        [
+         66,
+         "Configuring Claude Code for Teams"
+        ],
+        [
+         128,
+         "Configuring Claude Code for Teams, continued"
+        ],
+        [
+         155,
+         "Configuring Claude Code for Teams, continued"
+        ],
+        [
+         203,
+         "Team Standards and Extensions"
+        ],
+        [
+         274,
+         "Team Standards and Extensions, continued"
+        ],
+        [
+         313,
+         "Team Standards and Extensions, continued"
+        ],
+        [
+         353,
+         "AI-Assisted Developer Workflows"
+        ],
+        [
+         367,
+         "AI-Assisted Developer Workflows, continued"
+        ],
+        [
+         437,
+         "AI-Assisted Developer Workflows, continued"
+        ],
+        [
+         464,
+         "Debugging and Operational Support"
+        ],
+        [
+         565,
+         "Practice Question 1"
+        ],
+        [
+         597,
+         "Practice Question 2"
+        ],
+        [
+         626,
+         "Practice Question 3"
+        ],
+        [
+         660,
+         "Practice Question 4"
+        ],
+        [
+         694,
+         "Practice Question 5"
+        ],
+        [
+         725,
+         "Practice Question 6"
+        ],
+        [
+         760,
+         "Practice Question 7"
+        ],
+        [
+         795,
+         "Practice Question 8"
+        ],
+        [
+         828,
+         "Practice Question 9"
+        ],
+        [
+         863,
+         "Practice Question 10"
+        ]
+       ],
+       "published": "2026-11-08T18:56:08Z",
+       "thumb": "img/modules/ccarp/17-1.jpg"
+      }
+     ],
+     "deck": "downloads/ccarp/17-developer-productivity-and-operational-enablement.pptx",
+     "deck_kb": 208,
+     "seconds": 914,
+     "words": 1632
+    },
+    {
+     "num": "18",
+     "slug": "18-quick-reference-recap-and-decision-chooser",
+     "title": "Quick-Reference Recap and Decision Chooser",
+     "desc": "Decision Chooser and D1 Solution Design (17%) and D2 Models, Prompting, Context (13%) and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "Tn71PWRQyZ0",
+       "title": "Decision Chooser and D1 Solution Design (17%) and D2 Models, Prompting, Context (13%) and recap",
+       "seconds": 739,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Lumen Advisory"
+        ],
+        [
+         45,
+         "Decision Chooser"
+        ],
+        [
+         56,
+         "D1 Solution Design (17%) and D2 Models, Prompting, Context (13%)"
+        ],
+        [
+         137,
+         "D3 Integration (19%)"
+        ],
+        [
+         204,
+         "D3 Integration (19%), continued"
+        ],
+        [
+         253,
+         "D4 Evaluation (16%), D5 Governance (14%), D6 Stakeholders (14%), D7 Productivity (7%)"
+        ],
+        [
+         315,
+         "D4 Evaluation (16%), D5 Governance (14%), D6 Stakeholders (14%), D7 Productivity (7%), continued"
+        ],
+        [
+         388,
+         "Names and Values to Know"
+        ],
+        [
+         447,
+         "Names and Values to Know, continued"
+        ],
+        [
+         509,
+         "Names and Values to Know, continued"
+        ],
+        [
+         542,
+         "Distractor Patterns"
+        ],
+        [
+         602,
+         "Distractor Patterns, continued"
+        ]
+       ],
+       "published": "2026-11-08T18:56:34Z",
+       "thumb": "img/modules/ccarp/18-1.jpg"
+      }
+     ],
+     "deck": "downloads/ccarp/18-quick-reference-recap-and-decision-chooser.pptx",
+     "deck_kb": 193,
+     "seconds": 739,
+     "words": 1473
+    },
+    {
+     "num": "19",
+     "slug": "19-exam-technique-and-final-review",
+     "title": "Exam Technique and Final Review",
+     "desc": "Time Plan and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "U40BfYLxiks",
+       "title": "Time Plan and recap",
+       "seconds": 575,
+       "chapters": [
+        [
+         0,
+         "Case Check-In: Lumen Advisory"
+        ],
+        [
+         53,
+         "Time Plan"
+        ],
+        [
+         85,
+         "Time Plan, continued"
+        ],
+        [
+         114,
+         "Reading an Item"
+        ],
+        [
+         142,
+         "Reading an Item, continued"
+        ],
+        [
+         206,
+         "Reading an Item, continued"
+        ],
+        [
+         251,
+         "Eliminating Distractors"
+        ],
+        [
+         303,
+         "Multiple-response items"
+        ],
+        [
+         318,
+         "Policies and Logistics"
+        ],
+        [
+         371,
+         "Policies and Logistics, continued"
+        ],
+        [
+         407,
+         "Final Review Checklist"
+        ],
+        [
+         449,
+         "Final Review Checklist, continued"
+        ],
+        [
+         492,
+         "The last week"
+        ]
+       ],
+       "published": "2026-11-08T18:56:52Z",
+       "thumb": "img/modules/ccarp/19-1.jpg"
+      }
+     ],
+     "deck": "downloads/ccarp/19-exam-technique-and-final-review.pptx",
+     "deck_kb": 127,
+     "seconds": 575,
+     "words": 1289
+    }
+   ],
+   "facts": {
+    "questions": "63",
+    "time": "120 min",
+    "passing": "720 of 1,000",
+    "source": "Anthropic Partner Academy",
+    "url": "https://anthropic-partners.skilljar.com/claude-certified-architect-professional-certification"
+   },
+   "videos": 21,
+   "seconds": 15940,
+   "notes": [
+    {
+     "num": "00",
+     "slug": "00-course-introduction-and-exam-orientation",
+     "title": "Course Introduction and Exam Orientation",
+     "group": "Start here",
+     "tasks": 0,
+     "los": [],
+     "minutes": 8,
+     "check": {
+      "src_words": 1625,
+      "page_words": 1646,
+      "src_tables": 4,
+      "tables": 4,
+      "src_images": 3,
+      "images": 3,
+      "src_scenario": 4,
+      "scenario": 4,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 8,
+      "sections": 8
+     },
+     "modules": [
+      "00"
+     ],
+     "domain": "",
+     "ref": "Module 0",
+     "tn": "Module 00",
+     "of": 20,
+     "module": "00"
+    },
+    {
+     "num": "01",
+     "slug": "01-from-business-problem-to-claude-solution",
+     "title": "From Business Problem to Claude Solution",
+     "group": "Domain 1: Solution Design &amp; Architecture",
+     "tasks": 0,
+     "los": [],
+     "minutes": 8,
+     "check": {
+      "src_words": 1562,
+      "page_words": 1594,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 3,
+      "images": 3,
+      "src_scenario": 8,
+      "scenario": 8,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "01"
+     ],
+     "domain": "",
+     "ref": "Module 1",
+     "tn": "Module 01",
+     "of": 20,
+     "module": "01"
+    },
+    {
+     "num": "02",
+     "slug": "02-architectures-and-patterns",
+     "title": "Architectures and Patterns",
+     "group": "Domain 1: Solution Design &amp; Architecture",
+     "tasks": 0,
+     "los": [],
+     "minutes": 9,
+     "check": {
+      "src_words": 1721,
+      "page_words": 1757,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 4,
+      "images": 4,
+      "src_scenario": 9,
+      "scenario": 9,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 8,
+      "sections": 8
+     },
+     "modules": [
+      "02"
+     ],
+     "domain": "",
+     "ref": "Module 2",
+     "tn": "Module 02",
+     "of": 20,
+     "module": "02"
+    },
+    {
+     "num": "03",
+     "slug": "03-multi-agent-orchestration-and-decomposition",
+     "title": "Multi-Agent Orchestration and Decomposition",
+     "group": "Domain 1: Solution Design &amp; Architecture",
+     "tasks": 0,
+     "los": [],
+     "minutes": 8,
+     "check": {
+      "src_words": 1620,
+      "page_words": 1658,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 10,
+      "scenario": 10,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "03"
+     ],
+     "domain": "",
+     "ref": "Module 3",
+     "tn": "Module 03",
+     "of": 20,
+     "module": "03"
+    },
+    {
+     "num": "04",
+     "slug": "04-selecting-claude-models",
+     "title": "Selecting Claude Models",
+     "group": "Domain 2: Claude Models, Prompting &amp; Context Engineering",
+     "tasks": 0,
+     "los": [],
+     "minutes": 7,
+     "check": {
+      "src_words": 1367,
+      "page_words": 1395,
+      "src_tables": 4,
+      "tables": 4,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 7,
+      "scenario": 7,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "04"
+     ],
+     "domain": "",
+     "ref": "Module 4",
+     "tn": "Module 04",
+     "of": 20,
+     "module": "04"
+    },
+    {
+     "num": "05",
+     "slug": "05-system-prompts-templates-and-prompting-techniques",
+     "title": "System Prompts, Templates and Prompting Techniques",
+     "group": "Domain 2: Claude Models, Prompting &amp; Context Engineering",
+     "tasks": 0,
+     "los": [],
+     "minutes": 7,
+     "check": {
+      "src_words": 1374,
+      "page_words": 1407,
+      "src_tables": 4,
+      "tables": 4,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 7,
+      "scenario": 7,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "05"
+     ],
+     "domain": "",
+     "ref": "Module 5",
+     "tn": "Module 05",
+     "of": 20,
+     "module": "05"
+    },
+    {
+     "num": "06",
+     "slug": "06-context-tokens-and-prompt-reuse",
+     "title": "Context, Tokens and Prompt Reuse",
+     "group": "Domain 2: Claude Models, Prompting &amp; Context Engineering",
+     "tasks": 0,
+     "los": [],
+     "minutes": 8,
+     "check": {
+      "src_words": 1506,
+      "page_words": 1535,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 3,
+      "images": 3,
+      "src_scenario": 7,
+      "scenario": 7,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "06"
+     ],
+     "domain": "",
+     "ref": "Module 6",
+     "tn": "Module 06",
+     "of": 20,
+     "module": "06"
+    },
+    {
+     "num": "07",
+     "slug": "07-tools-capability-bloat-and-progressive-discovery",
+     "title": "Tools, Capability Bloat and Progressive Discovery",
+     "group": "Domain 3: Integration",
+     "tasks": 0,
+     "los": [],
+     "minutes": 8,
+     "check": {
+      "src_words": 1502,
+      "page_words": 1525,
+      "src_tables": 4,
+      "tables": 4,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 7,
+      "scenario": 7,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "07"
+     ],
+     "domain": "",
+     "ref": "Module 7",
+     "tn": "Module 07",
+     "of": 20,
+     "module": "07"
+    },
+    {
+     "num": "08",
+     "slug": "08-authentication-authorization-and-integration-protocols",
+     "title": "Authentication, Authorization and Integration Protocols",
+     "group": "Domain 3: Integration",
+     "tasks": 0,
+     "los": [],
+     "minutes": 9,
+     "check": {
+      "src_words": 1699,
+      "page_words": 1727,
+      "src_tables": 4,
+      "tables": 4,
+      "src_images": 3,
+      "images": 3,
+      "src_scenario": 7,
+      "scenario": 7,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "08"
+     ],
+     "domain": "",
+     "ref": "Module 8",
+     "tn": "Module 08",
+     "of": 20,
+     "module": "08"
+    },
+    {
+     "num": "09",
+     "slug": "09-rag-pipelines-chunking-and-indexing",
+     "title": "RAG Pipelines: Chunking and Indexing",
+     "group": "Domain 3: Integration",
+     "tasks": 0,
+     "los": [],
+     "minutes": 9,
+     "check": {
+      "src_words": 1689,
+      "page_words": 1721,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 3,
+      "images": 3,
+      "src_scenario": 8,
+      "scenario": 8,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "09"
+     ],
+     "domain": "",
+     "ref": "Module 9",
+     "tn": "Module 09",
+     "of": 20,
+     "module": "09"
+    },
+    {
+     "num": "10",
+     "slug": "10-retrieval-strategies-latency-trade-offs-and-observability",
+     "title": "Retrieval Strategies, Latency Trade-offs and Observability",
+     "group": "Domain 3: Integration",
+     "tasks": 0,
+     "los": [],
+     "minutes": 9,
+     "check": {
+      "src_words": 1763,
+      "page_words": 1794,
+      "src_tables": 6,
+      "tables": 6,
+      "src_images": 3,
+      "images": 3,
+      "src_scenario": 8,
+      "scenario": 8,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "10"
+     ],
+     "domain": "",
+     "ref": "Module 10",
+     "tn": "Module 10",
+     "of": 20,
+     "module": "10"
+    },
+    {
+     "num": "11",
+     "slug": "11-evaluation-metrics-datasets-and-frameworks",
+     "title": "Evaluation Metrics, Datasets and Frameworks",
+     "group": "Domain 4: Evaluation, Testing &amp; Optimization",
+     "tasks": 0,
+     "los": [],
+     "minutes": 9,
+     "check": {
+      "src_words": 1776,
+      "page_words": 1810,
+      "src_tables": 4,
+      "tables": 4,
+      "src_images": 3,
+      "images": 3,
+      "src_scenario": 11,
+      "scenario": 11,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "11"
+     ],
+     "domain": "",
+     "ref": "Module 11",
+     "tn": "Module 11",
+     "of": 20,
+     "module": "11"
+    },
+    {
+     "num": "12",
+     "slug": "12-a-b-testing-diagnosis-optimization-and-monitoring",
+     "title": "A/B Testing, Diagnosis, Optimization and Monitoring",
+     "group": "Domain 4: Evaluation, Testing &amp; Optimization",
+     "tasks": 0,
+     "los": [],
+     "minutes": 9,
+     "check": {
+      "src_words": 1802,
+      "page_words": 1842,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 12,
+      "scenario": 12,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "12"
+     ],
+     "domain": "",
+     "ref": "Module 12",
+     "tn": "Module 12",
+     "of": 20,
+     "module": "12"
+    },
+    {
+     "num": "13",
+     "slug": "13-guardrails-failure-modes-and-human-in-the-loop",
+     "title": "Guardrails, Failure Modes and Human-in-the-Loop",
+     "group": "Domain 5: Governance, Safety &amp; Risk Management",
+     "tasks": 0,
+     "los": [],
+     "minutes": 8,
+     "check": {
+      "src_words": 1617,
+      "page_words": 1654,
+      "src_tables": 4,
+      "tables": 4,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 10,
+      "scenario": 10,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "13"
+     ],
+     "domain": "",
+     "ref": "Module 13",
+     "tn": "Module 13",
+     "of": 20,
+     "module": "13"
+    },
+    {
+     "num": "14",
+     "slug": "14-compliance-and-ethical-ai",
+     "title": "Compliance and Ethical AI",
+     "group": "Domain 5: Governance, Safety &amp; Risk Management",
+     "tasks": 0,
+     "los": [],
+     "minutes": 9,
+     "check": {
+      "src_words": 1749,
+      "page_words": 1786,
+      "src_tables": 4,
+      "tables": 4,
+      "src_images": 3,
+      "images": 3,
+      "src_scenario": 10,
+      "scenario": 10,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "14"
+     ],
+     "domain": "",
+     "ref": "Module 14",
+     "tn": "Module 14",
+     "of": 20,
+     "module": "14"
+    },
+    {
+     "num": "15",
+     "slug": "15-discovery-communication-and-expectations",
+     "title": "Discovery, Communication and Expectations",
+     "group": "Domain 6: Stakeholder Communication &amp; Lifecycle Management",
+     "tasks": 0,
+     "los": [],
+     "minutes": 9,
+     "check": {
+      "src_words": 1675,
+      "page_words": 1708,
+      "src_tables": 4,
+      "tables": 4,
+      "src_images": 3,
+      "images": 3,
+      "src_scenario": 10,
+      "scenario": 10,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "15"
+     ],
+     "domain": "",
+     "ref": "Module 15",
+     "tn": "Module 15",
+     "of": 20,
+     "module": "15"
+    },
+    {
+     "num": "16",
+     "slug": "16-documentation-and-lifecycle-management",
+     "title": "Documentation and Lifecycle Management",
+     "group": "Domain 6: Stakeholder Communication &amp; Lifecycle Management",
+     "tasks": 0,
+     "los": [],
+     "minutes": 8,
+     "check": {
+      "src_words": 1482,
+      "page_words": 1520,
+      "src_tables": 4,
+      "tables": 4,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 10,
+      "scenario": 10,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "16"
+     ],
+     "domain": "",
+     "ref": "Module 16",
+     "tn": "Module 16",
+     "of": 20,
+     "module": "16"
+    },
+    {
+     "num": "17",
+     "slug": "17-developer-productivity-and-operational-enablement",
+     "title": "Developer Productivity and Operational Enablement",
+     "group": "Domain 7: Developer Productivity &amp; Operational Enablement",
+     "tasks": 0,
+     "los": [],
+     "minutes": 9,
+     "check": {
+      "src_words": 1775,
+      "page_words": 1817,
+      "src_tables": 4,
+      "tables": 4,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 10,
+      "scenario": 10,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "17"
+     ],
+     "domain": "",
+     "ref": "Module 17",
+     "tn": "Module 17",
+     "of": 20,
+     "module": "17"
+    },
+    {
+     "num": "18",
+     "slug": "18-quick-reference-recap-and-decision-chooser",
+     "title": "Quick-Reference Recap and Decision Chooser",
+     "group": "Review and exam day",
+     "tasks": 0,
+     "los": [],
+     "minutes": 6,
+     "check": {
+      "src_words": 1143,
+      "page_words": 1152,
+      "src_tables": 6,
+      "tables": 6,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 0,
+      "scenario": 0,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 5,
+      "sections": 5
+     },
+     "modules": [
+      "18"
+     ],
+     "domain": "",
+     "ref": "Module 18",
+     "tn": "Module 18",
+     "of": 20,
+     "module": "18"
+    },
+    {
+     "num": "19",
+     "slug": "19-exam-technique-and-final-review",
+     "title": "Exam Technique and Final Review",
+     "group": "Review and exam day",
+     "tasks": 14,
+     "los": [],
+     "minutes": 6,
+     "check": {
+      "src_words": 1160,
+      "page_words": 1163,
+      "src_tables": 3,
+      "tables": 3,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 0,
+      "scenario": 0,
+      "src_recall": 0,
+      "recall": 0,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "19"
+     ],
+     "domain": "",
+     "ref": "Module 19",
+     "tn": "Module 19",
+     "of": 20,
+     "module": "19"
     }
    ],
    "glossary": 0

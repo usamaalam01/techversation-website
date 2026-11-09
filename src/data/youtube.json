@@ -16787,6 +16787,1805 @@
    ]
   ]
  },
+ "sDqROPeUw38": {
+  "course": "ccarp",
+  "key": "00-Course-Introduction-and-Exam-Orientation-part-1",
+  "title": "CCAR-P Exam Prep Introduction: Exam Format, Domains and Scoring | Claude Architect",
+  "seconds": 702,
+  "published": "2026-11-08T18:48:45Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Lumen Advisory"
+   ],
+   [
+    66,
+    "The Exam at a Glance"
+   ],
+   [
+    83,
+    "The Exam at a Glance, continued"
+   ],
+   [
+    134,
+    "The Exam at a Glance, continued"
+   ],
+   [
+    179,
+    "The Seven Domains"
+   ],
+   [
+    202,
+    "The Seven Domains, continued"
+   ],
+   [
+    281,
+    "The Seven Domains, continued"
+   ],
+   [
+    345,
+    "The Seven Domains, continued"
+   ],
+   [
+    374,
+    "The Minimally Qualified Candidate"
+   ],
+   [
+    419,
+    "The Minimally Qualified Candidate, continued"
+   ],
+   [
+    433,
+    "Ten Decision Rules the Questions Reward"
+   ],
+   [
+    448,
+    "Ten Decision Rules the Questions Reward, continued"
+   ],
+   [
+    500,
+    "Ten Decision Rules the Questions Reward, continued"
+   ],
+   [
+    552,
+    "Ten Decision Rules the Questions Reward, continued"
+   ],
+   [
+    588,
+    "How to Use This Course"
+   ],
+   [
+    630,
+    "How to Use This Course, continued"
+   ]
+  ]
+ },
+ "up2CTIU7K_U": {
+  "course": "ccarp",
+  "key": "01-From-Business-Problem-to-Claude-Solution-part-1",
+  "title": "CCAR-P Exam Prep Module 1: From Business Problem to Claude Solution | Claude Architect",
+  "seconds": 777,
+  "published": "2026-11-08T18:49:17Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Lumen Advisory and the Bank That Wants \"AI for Customer Service\""
+   ],
+   [
+    68,
+    "From Ask to Problem Statement"
+   ],
+   [
+    78,
+    "From Ask to Problem Statement, continued"
+   ],
+   [
+    92,
+    "From Ask to Problem Statement, continued"
+   ],
+   [
+    157,
+    "From Ask to Problem Statement, continued"
+   ],
+   [
+    202,
+    "Choosing the Solution Shape"
+   ],
+   [
+    216,
+    "Choosing the Solution Shape, continued"
+   ],
+   [
+    277,
+    "Choosing the Solution Shape, continued"
+   ],
+   [
+    287,
+    "Business Value Pillars"
+   ],
+   [
+    297,
+    "Business Value Pillars, continued"
+   ],
+   [
+    373,
+    "Business Value Pillars, continued"
+   ],
+   [
+    414,
+    "Constraints That Shape the Design"
+   ],
+   [
+    514,
+    "Practice Question 1"
+   ],
+   [
+    544,
+    "Practice Question 2"
+   ],
+   [
+    574,
+    "Practice Question 3"
+   ],
+   [
+    604,
+    "Practice Question 4"
+   ],
+   [
+    634,
+    "Practice Question 5"
+   ],
+   [
+    665,
+    "Practice Question 6"
+   ],
+   [
+    698,
+    "Practice Question 7"
+   ],
+   [
+    726,
+    "Practice Question 8"
+   ]
+  ]
+ },
+ "IZQ8JYz4ybs": {
+  "course": "ccarp",
+  "key": "02-Architectures-and-Patterns-part-1",
+  "title": "CCAR-P Exam Prep Module 2: Architectures and Patterns | Claude Architect",
+  "seconds": 864,
+  "published": "2026-11-08T18:49:42Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Lumen Advisory Designs a Claims Intake for a Health Insurer"
+   ],
+   [
+    63,
+    "An End-to-End Architecture"
+   ],
+   [
+    77,
+    "An End-to-End Architecture, continued"
+   ],
+   [
+    151,
+    "An End-to-End Architecture, continued"
+   ],
+   [
+    187,
+    "The Augmented LLM"
+   ],
+   [
+    201,
+    "The Augmented LLM, continued"
+   ],
+   [
+    228,
+    "The Augmented LLM, continued"
+   ],
+   [
+    240,
+    "Workflow Patterns"
+   ],
+   [
+    247,
+    "Workflow Patterns, continued"
+   ],
+   [
+    323,
+    "Workflow Patterns, continued"
+   ],
+   [
+    341,
+    "Workflow Patterns, continued"
+   ],
+   [
+    373,
+    "Workflow Patterns, continued"
+   ],
+   [
+    382,
+    "Agents"
+   ],
+   [
+    419,
+    "Agents, continued"
+   ],
+   [
+    447,
+    "Selecting a Pattern"
+   ],
+   [
+    458,
+    "Selecting a Pattern, continued"
+   ],
+   [
+    559,
+    "Practice Question 1"
+   ],
+   [
+    590,
+    "Practice Question 2"
+   ],
+   [
+    622,
+    "Practice Question 3"
+   ],
+   [
+    655,
+    "Practice Question 4"
+   ],
+   [
+    687,
+    "Practice Question 5"
+   ],
+   [
+    716,
+    "Practice Question 6"
+   ],
+   [
+    750,
+    "Practice Question 7"
+   ],
+   [
+    783,
+    "Practice Question 8"
+   ],
+   [
+    811,
+    "Practice Question 9"
+   ]
+  ]
+ },
+ "e9zGaAVlxYo": {
+  "course": "ccarp",
+  "key": "03-Multi-Agent-Orchestration-and-Decomposition-part-1",
+  "title": "CCAR-P Exam Prep Module 3: Multi-Agent Orchestration and Decomposition | Claude Architect",
+  "seconds": 777,
+  "published": "2026-11-08T18:50:08Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Lumen Advisory and the Due-Diligence Research Tool"
+   ],
+   [
+    58,
+    "When Multi-Agent Pays Off"
+   ],
+   [
+    121,
+    "When Multi-Agent Pays Off, continued"
+   ],
+   [
+    146,
+    "Orchestrator-Worker Design"
+   ],
+   [
+    161,
+    "Orchestrator-Worker Design, continued"
+   ],
+   [
+    212,
+    "Orchestrator-Worker Design, continued"
+   ],
+   [
+    231,
+    "Decomposition"
+   ],
+   [
+    238,
+    "Decomposition, continued"
+   ],
+   [
+    251,
+    "Decomposition, continued"
+   ],
+   [
+    316,
+    "Production Concerns"
+   ],
+   [
+    370,
+    "Production Concerns, continued"
+   ],
+   [
+    445,
+    "Practice Question 1"
+   ],
+   [
+    480,
+    "Practice Question 2"
+   ],
+   [
+    507,
+    "Practice Question 3"
+   ],
+   [
+    535,
+    "Practice Question 4"
+   ],
+   [
+    568,
+    "Practice Question 5"
+   ],
+   [
+    600,
+    "Practice Question 6"
+   ],
+   [
+    632,
+    "Practice Question 7"
+   ],
+   [
+    660,
+    "Practice Question 8"
+   ],
+   [
+    692,
+    "Practice Question 9"
+   ],
+   [
+    720,
+    "Practice Question 10"
+   ]
+  ]
+ },
+ "My7fqLWQzDk": {
+  "course": "ccarp",
+  "key": "04-Selecting-Claude-Models-part-1",
+  "title": "CCAR-P Exam Prep Module 4: Selecting Claude Models | Claude Architect",
+  "seconds": 692,
+  "published": "2026-11-08T18:50:41Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Lumen Advisory Picks Models for a Bank's Three Workloads"
+   ],
+   [
+    63,
+    "The Tiers and the Levers"
+   ],
+   [
+    133,
+    "The Tiers and the Levers, continued"
+   ],
+   [
+    159,
+    "The Tiers and the Levers, continued"
+   ],
+   [
+    204,
+    "The Tiers and the Levers, continued"
+   ],
+   [
+    234,
+    "Making the Choice"
+   ],
+   [
+    249,
+    "Making the Choice, continued"
+   ],
+   [
+    310,
+    "Making the Choice, continued"
+   ],
+   [
+    345,
+    "Trade-Off Table"
+   ],
+   [
+    455,
+    "Practice Question 1"
+   ],
+   [
+    487,
+    "Practice Question 2"
+   ],
+   [
+    519,
+    "Practice Question 3"
+   ],
+   [
+    547,
+    "Practice Question 4"
+   ],
+   [
+    573,
+    "Practice Question 5"
+   ],
+   [
+    608,
+    "Practice Question 6"
+   ],
+   [
+    641,
+    "Practice Question 7"
+   ]
+  ]
+ },
+ "5V2_P-3_heM": {
+  "course": "ccarp",
+  "key": "05-System-Prompts-Templates-and-Prompting-Techniques-part-1",
+  "title": "CCAR-P Exam Prep Module 5: System Prompts and Prompting Techniques | Claude Architect",
+  "seconds": 682,
+  "published": "2026-11-08T18:50:46Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Lumen Advisory Writes the System Prompt for a Bank's Policy Assistant"
+   ],
+   [
+    61,
+    "System Prompts"
+   ],
+   [
+    75,
+    "System Prompts, continued"
+   ],
+   [
+    136,
+    "System Prompts, continued"
+   ],
+   [
+    168,
+    "Templates and Reuse"
+   ],
+   [
+    212,
+    "Prompting Techniques"
+   ],
+   [
+    224,
+    "Prompting Techniques, continued"
+   ],
+   [
+    276,
+    "Prompting Techniques, continued"
+   ],
+   [
+    327,
+    "Prompting Techniques, continued"
+   ],
+   [
+    335,
+    "Guardrails in Prompts"
+   ],
+   [
+    447,
+    "Practice Question 1"
+   ],
+   [
+    485,
+    "Practice Question 2"
+   ],
+   [
+    516,
+    "Practice Question 3"
+   ],
+   [
+    543,
+    "Practice Question 4"
+   ],
+   [
+    577,
+    "Practice Question 5"
+   ],
+   [
+    609,
+    "Practice Question 6"
+   ],
+   [
+    636,
+    "Practice Question 7"
+   ]
+  ]
+ },
+ "mUUeL_B1jFc": {
+  "course": "ccarp",
+  "key": "06-Context-Tokens-and-Prompt-Reuse-part-1",
+  "title": "CCAR-P Exam Prep Module 6: Context, Tokens, Caching and Skills | Claude Architect",
+  "seconds": 739,
+  "published": "2026-11-08T18:51:16Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Lumen Advisory and the Retail Client's Slow, Costly Assistant"
+   ],
+   [
+    62,
+    "The Context Is a Budget"
+   ],
+   [
+    96,
+    "The Context Is a Budget, continued"
+   ],
+   [
+    111,
+    "The Context Is a Budget, continued"
+   ],
+   [
+    174,
+    "The Context Is a Budget, continued"
+   ],
+   [
+    201,
+    "Prompt Caching"
+   ],
+   [
+    213,
+    "Prompt Caching, continued"
+   ],
+   [
+    256,
+    "Prompt Caching, continued"
+   ],
+   [
+    315,
+    "Modular Prompts and Skills"
+   ],
+   [
+    360,
+    "Modular Prompts and Skills, continued"
+   ],
+   [
+    388,
+    "Token Optimization Levers"
+   ],
+   [
+    497,
+    "Practice Question 1"
+   ],
+   [
+    531,
+    "Practice Question 2"
+   ],
+   [
+    562,
+    "Practice Question 3"
+   ],
+   [
+    593,
+    "Practice Question 4"
+   ],
+   [
+    624,
+    "Practice Question 5"
+   ],
+   [
+    658,
+    "Practice Question 6"
+   ],
+   [
+    687,
+    "Practice Question 7"
+   ]
+  ]
+ },
+ "7yyEVIZsLZM": {
+  "course": "ccarp",
+  "key": "07-Tools-Capability-Bloat-and-Progressive-Discovery-part-1",
+  "title": "CCAR-P Exam Prep Module 7: Tool Bloat and Progressive Discovery | Claude Architect",
+  "seconds": 681,
+  "published": "2026-11-08T18:51:35Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Lumen Advisory Audits a Support Agent With 140 Tools"
+   ],
+   [
+    74,
+    "Capability Bloat"
+   ],
+   [
+    82,
+    "Capability Bloat, continued"
+   ],
+   [
+    94,
+    "Capability Bloat, continued"
+   ],
+   [
+    144,
+    "Capability Bloat, continued"
+   ],
+   [
+    173,
+    "Progressive Discovery"
+   ],
+   [
+    180,
+    "Progressive Discovery, continued"
+   ],
+   [
+    194,
+    "Progressive Discovery, continued"
+   ],
+   [
+    241,
+    "Progressive Discovery, continued"
+   ],
+   [
+    288,
+    "Progressive Discovery, continued"
+   ],
+   [
+    319,
+    "Monolithic versus progressive"
+   ],
+   [
+    356,
+    "Tool Design for the Agent-Computer Interface"
+   ],
+   [
+    445,
+    "Practice Question 1"
+   ],
+   [
+    482,
+    "Practice Question 2"
+   ],
+   [
+    514,
+    "Practice Question 3"
+   ],
+   [
+    544,
+    "Practice Question 4"
+   ],
+   [
+    575,
+    "Practice Question 5"
+   ],
+   [
+    607,
+    "Practice Question 6"
+   ],
+   [
+    635,
+    "Practice Question 7"
+   ]
+  ]
+ },
+ "gpWK8QgjNtc": {
+  "course": "ccarp",
+  "key": "08-Authentication-Authorization-and-Integration-Protocols-part-1",
+  "title": "CCAR-P Exam Prep Module 8: Auth, MCP, API and Agent-to-Agent | Claude Architect",
+  "seconds": 801,
+  "published": "2026-11-08T18:52:01Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Lumen Advisory Reviews a Healthcare Client's Records Assistant"
+   ],
+   [
+    67,
+    "Authentication and Authorization"
+   ],
+   [
+    82,
+    "Authentication and Authorization, continued"
+   ],
+   [
+    99,
+    "Authentication and Authorization, continued"
+   ],
+   [
+    161,
+    "Authentication and Authorization, continued"
+   ],
+   [
+    209,
+    "Authentication and Authorization, continued"
+   ],
+   [
+    232,
+    "OAuth 2.1 and MCP"
+   ],
+   [
+    245,
+    "OAuth 2.1 and MCP, continued"
+   ],
+   [
+    295,
+    "OAuth 2.1 and MCP, continued"
+   ],
+   [
+    345,
+    "OAuth 2.1 and MCP, continued"
+   ],
+   [
+    371,
+    "Choosing the Integration Mechanism"
+   ],
+   [
+    388,
+    "Choosing the Integration Mechanism, continued"
+   ],
+   [
+    427,
+    "Choosing the Integration Mechanism, continued"
+   ],
+   [
+    468,
+    "Choosing the Integration Mechanism, continued"
+   ],
+   [
+    548,
+    "Practice Question 1"
+   ],
+   [
+    581,
+    "Practice Question 2"
+   ],
+   [
+    612,
+    "Practice Question 3"
+   ],
+   [
+    645,
+    "Practice Question 4"
+   ],
+   [
+    678,
+    "Practice Question 5"
+   ],
+   [
+    713,
+    "Practice Question 6"
+   ],
+   [
+    749,
+    "Practice Question 7"
+   ]
+  ]
+ },
+ "_noFNxyCQP0": {
+  "course": "ccarp",
+  "key": "09-RAG-Pipelines-Chunking-and-Indexing-part-1",
+  "title": "CCAR-P Exam Prep Module 9: RAG Pipelines: Chunking and Indexing | Claude Architect",
+  "seconds": 858,
+  "published": "2026-11-08T18:52:31Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Lumen Advisory Builds a Knowledge Assistant for a Law-Adjacent Compliance Team"
+   ],
+   [
+    63,
+    "The Pipeline"
+   ],
+   [
+    77,
+    "The Pipeline, continued"
+   ],
+   [
+    155,
+    "The Pipeline, continued"
+   ],
+   [
+    185,
+    "Chunking"
+   ],
+   [
+    197,
+    "Chunking, continued"
+   ],
+   [
+    268,
+    "Chunking, continued"
+   ],
+   [
+    294,
+    "Indexing"
+   ],
+   [
+    353,
+    "Indexing, continued"
+   ],
+   [
+    362,
+    "Contextual retrieval"
+   ],
+   [
+    391,
+    "Contextual retrieval, continued"
+   ],
+   [
+    428,
+    "Freshness, Security and Evaluation"
+   ],
+   [
+    480,
+    "When not to use RAG"
+   ],
+   [
+    570,
+    "Practice Question 1"
+   ],
+   [
+    611,
+    "Practice Question 2"
+   ],
+   [
+    643,
+    "Practice Question 3"
+   ],
+   [
+    679,
+    "Practice Question 4"
+   ],
+   [
+    711,
+    "Practice Question 5"
+   ],
+   [
+    744,
+    "Practice Question 6"
+   ],
+   [
+    777,
+    "Practice Question 7"
+   ],
+   [
+    808,
+    "Practice Question 8"
+   ]
+  ]
+ },
+ "cxBpJ-wPZpo": {
+  "course": "ccarp",
+  "key": "10-Retrieval-Strategies-Latency-Trade-offs-and-Observability-part-1",
+  "title": "CCAR-P Exam Prep Module 10: Retrieval, Latency and Observability | Claude Architect",
+  "seconds": 936,
+  "published": "2026-11-08T18:53:02Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Lumen Advisory Designs Search for a Retailer's Three Data Sets"
+   ],
+   [
+    60,
+    "Retrieval Matched to Data and Query"
+   ],
+   [
+    76,
+    "Retrieval Matched to Data and Query, continued"
+   ],
+   [
+    160,
+    "Retrieval Matched to Data and Query, continued"
+   ],
+   [
+    204,
+    "Retrieval Matched to Data and Query, continued"
+   ],
+   [
+    241,
+    "Accuracy-Latency-Cost Trade-offs"
+   ],
+   [
+    254,
+    "Accuracy-Latency-Cost Trade-offs, continued"
+   ],
+   [
+    353,
+    "Accuracy-Latency-Cost Trade-offs, continued"
+   ],
+   [
+    387,
+    "Observability at Scale"
+   ],
+   [
+    402,
+    "Observability at Scale, continued"
+   ],
+   [
+    414,
+    "Observability at Scale, continued"
+   ],
+   [
+    478,
+    "Observability at Scale, continued"
+   ],
+   [
+    532,
+    "Observability at Scale, continued"
+   ],
+   [
+    585,
+    "Observability at Scale, continued"
+   ],
+   [
+    651,
+    "Practice Question 1"
+   ],
+   [
+    684,
+    "Practice Question 2"
+   ],
+   [
+    718,
+    "Practice Question 3"
+   ],
+   [
+    750,
+    "Practice Question 4"
+   ],
+   [
+    786,
+    "Practice Question 5"
+   ],
+   [
+    820,
+    "Practice Question 6"
+   ],
+   [
+    856,
+    "Practice Question 7"
+   ],
+   [
+    886,
+    "Practice Question 8"
+   ]
+  ]
+ },
+ "lL9g36VO1_s": {
+  "course": "ccarp",
+  "key": "11-Evaluation-Metrics-Datasets-and-Frameworks-part-1",
+  "title": "CCAR-P Exam Prep Module 11: Evaluation Metrics and Datasets | Claude Architect",
+  "seconds": 915,
+  "published": "2026-11-08T18:53:32Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Lumen Advisory Defines \"Good\" for a Bank's Claims-Triage Assistant"
+   ],
+   [
+    56,
+    "Success Criteria and Metrics"
+   ],
+   [
+    68,
+    "Success Criteria and Metrics, continued"
+   ],
+   [
+    147,
+    "Success Criteria and Metrics, continued"
+   ],
+   [
+    171,
+    "Success Criteria and Metrics, continued"
+   ],
+   [
+    207,
+    "Success Criteria and Metrics, continued"
+   ],
+   [
+    228,
+    "Evaluation Datasets"
+   ],
+   [
+    243,
+    "Evaluation Datasets, continued"
+   ],
+   [
+    299,
+    "Evaluation Datasets, continued"
+   ],
+   [
+    319,
+    "Mixed Methodologies"
+   ],
+   [
+    399,
+    "Mixed Methodologies, continued"
+   ],
+   [
+    418,
+    "An Evaluation Framework"
+   ],
+   [
+    455,
+    "An Evaluation Framework, continued"
+   ],
+   [
+    545,
+    "Practice Question 1"
+   ],
+   [
+    575,
+    "Practice Question 2"
+   ],
+   [
+    603,
+    "Practice Question 3"
+   ],
+   [
+    634,
+    "Practice Question 4"
+   ],
+   [
+    665,
+    "Practice Question 5"
+   ],
+   [
+    700,
+    "Practice Question 6"
+   ],
+   [
+    732,
+    "Practice Question 7"
+   ],
+   [
+    765,
+    "Practice Question 8"
+   ],
+   [
+    793,
+    "Practice Question 9"
+   ],
+   [
+    825,
+    "Practice Question 10"
+   ],
+   [
+    856,
+    "Practice Question 11"
+   ]
+  ]
+ },
+ "hjJk7M-7DRA": {
+  "course": "ccarp",
+  "key": "12-A-B-Testing-Diagnosis-Optimization-and-Monitoring-part-1",
+  "title": "CCAR-P Exam Prep Module 12: A/B Testing, Diagnosis and Monitoring | Claude Architect",
+  "seconds": 924,
+  "published": "2026-11-08T18:53:49Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Lumen Advisory Tests a New Prompt for a Retailer's Returns Assistant"
+   ],
+   [
+    58,
+    "A/B Testing and Iteration"
+   ],
+   [
+    72,
+    "A/B Testing and Iteration, continued"
+   ],
+   [
+    125,
+    "A/B Testing and Iteration, continued"
+   ],
+   [
+    159,
+    "Diagnosing Problems"
+   ],
+   [
+    172,
+    "Diagnosing Problems, continued"
+   ],
+   [
+    243,
+    "Diagnosing Problems, continued"
+   ],
+   [
+    297,
+    "Optimizing Tokens, Latency and Cost"
+   ],
+   [
+    361,
+    "Optimizing Tokens, Latency and Cost, continued"
+   ],
+   [
+    385,
+    "Monitoring in Production"
+   ],
+   [
+    458,
+    "Monitoring in Production, continued"
+   ],
+   [
+    532,
+    "Practice Question 1"
+   ],
+   [
+    563,
+    "Practice Question 2"
+   ],
+   [
+    590,
+    "Practice Question 3"
+   ],
+   [
+    621,
+    "Practice Question 4"
+   ],
+   [
+    654,
+    "Practice Question 5"
+   ],
+   [
+    685,
+    "Practice Question 6"
+   ],
+   [
+    716,
+    "Practice Question 7"
+   ],
+   [
+    747,
+    "Practice Question 8"
+   ],
+   [
+    777,
+    "Practice Question 9"
+   ],
+   [
+    808,
+    "Practice Question 10"
+   ],
+   [
+    839,
+    "Practice Question 11"
+   ],
+   [
+    872,
+    "Practice Question 12"
+   ]
+  ]
+ },
+ "zh6fOkPFD3A": {
+  "course": "ccarp",
+  "key": "13-Guardrails-Failure-Modes-and-Human-in-the-Loop-part-1",
+  "title": "CCAR-P Exam Prep Module 13: Guardrails and Human-in-the-Loop | Claude Architect",
+  "seconds": 825,
+  "published": "2026-11-08T18:54:11Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Lumen Advisory Reviews a Government Agency's Benefits Assistant"
+   ],
+   [
+    57,
+    "Failure Modes and Limitations"
+   ],
+   [
+    129,
+    "Failure Modes and Limitations, continued"
+   ],
+   [
+    196,
+    "Guardrail Layers"
+   ],
+   [
+    209,
+    "Guardrail Layers, continued"
+   ],
+   [
+    281,
+    "Guardrail Layers, continued"
+   ],
+   [
+    318,
+    "Guardrail Layers, continued"
+   ],
+   [
+    327,
+    "Human-in-the-Loop Strategies"
+   ],
+   [
+    340,
+    "Human-in-the-Loop Strategies, continued"
+   ],
+   [
+    401,
+    "Human-in-the-Loop Strategies, continued"
+   ],
+   [
+    502,
+    "Practice Question 1"
+   ],
+   [
+    534,
+    "Practice Question 2"
+   ],
+   [
+    560,
+    "Practice Question 3"
+   ],
+   [
+    592,
+    "Practice Question 4"
+   ],
+   [
+    624,
+    "Practice Question 5"
+   ],
+   [
+    653,
+    "Practice Question 6"
+   ],
+   [
+    683,
+    "Practice Question 7"
+   ],
+   [
+    711,
+    "Practice Question 8"
+   ],
+   [
+    743,
+    "Practice Question 9"
+   ],
+   [
+    772,
+    "Practice Question 10"
+   ]
+  ]
+ },
+ "h50pekqd4sw": {
+  "course": "ccarp",
+  "key": "14-Compliance-and-Ethical-AI-part-1",
+  "title": "CCAR-P Exam Prep Module 14 Part 1 of 2: GDPR, HIPAA and FedRAMP | Claude Architect",
+  "seconds": 426,
+  "published": "2026-11-08T18:54:20Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Lumen Advisory Serves Three Regulated Clients"
+   ],
+   [
+    61,
+    "Compliance Is an Architecture Decision"
+   ],
+   [
+    77,
+    "Compliance Is an Architecture Decision, continued"
+   ],
+   [
+    95,
+    "Compliance Is an Architecture Decision, continued"
+   ],
+   [
+    136,
+    "Compliance Is an Architecture Decision, continued"
+   ],
+   [
+    177,
+    "Anthropic Data Handling Arrangements"
+   ],
+   [
+    215,
+    "Anthropic Data Handling Arrangements, continued"
+   ],
+   [
+    276,
+    "Anthropic Data Handling Arrangements, continued"
+   ],
+   [
+    311,
+    "Anthropic Data Handling Arrangements, continued"
+   ],
+   [
+    355,
+    "Ethical AI: Bias, Fairness and Transparency"
+   ],
+   [
+    370,
+    "Ethical AI: Bias, Fairness and Transparency, continued"
+   ]
+  ]
+ },
+ "4wRtEWtwBqg": {
+  "course": "ccarp",
+  "key": "14-Compliance-and-Ethical-AI-part-2",
+  "title": "CCAR-P Exam Prep Module 14 Part 2 of 2: Ethical AI and Compliance Practice | Claude Architect",
+  "seconds": 437,
+  "published": "2026-11-08T18:54:41Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Ethical AI: Bias, Fairness and Transparency, continued"
+   ],
+   [
+    99,
+    "Practice Question 1"
+   ],
+   [
+    131,
+    "Practice Question 2"
+   ],
+   [
+    163,
+    "Practice Question 3"
+   ],
+   [
+    200,
+    "Practice Question 4"
+   ],
+   [
+    230,
+    "Practice Question 5"
+   ],
+   [
+    259,
+    "Practice Question 6"
+   ],
+   [
+    289,
+    "Practice Question 7"
+   ],
+   [
+    322,
+    "Practice Question 8"
+   ],
+   [
+    352,
+    "Practice Question 9"
+   ],
+   [
+    383,
+    "Practice Question 10"
+   ]
+  ]
+ },
+ "xLCC1lb-n7c": {
+  "course": "ccarp",
+  "key": "15-Discovery-Communication-and-Expectations-part-1",
+  "title": "CCAR-P Exam Prep Module 15: Discovery, Communication and SLAs | Claude Architect",
+  "seconds": 879,
+  "published": "2026-11-08T18:55:16Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Lumen Advisory Runs Discovery for an Airline's Disruption Assistant"
+   ],
+   [
+    58,
+    "Structured Discovery"
+   ],
+   [
+    72,
+    "Structured Discovery, continued"
+   ],
+   [
+    137,
+    "Structured Discovery, continued"
+   ],
+   [
+    196,
+    "Structured Discovery, continued"
+   ],
+   [
+    215,
+    "Communicating Decisions and Trade-offs"
+   ],
+   [
+    231,
+    "Communicating Decisions and Trade-offs, continued"
+   ],
+   [
+    305,
+    "Communicating Decisions and Trade-offs, continued"
+   ],
+   [
+    340,
+    "SLAs, SLOs and Expectation Alignment"
+   ],
+   [
+    400,
+    "SLAs, SLOs and Expectation Alignment, continued"
+   ],
+   [
+    428,
+    "Feedback Loops"
+   ],
+   [
+    460,
+    "Feedback Loops, continued"
+   ],
+   [
+    536,
+    "Practice Question 1"
+   ],
+   [
+    566,
+    "Practice Question 2"
+   ],
+   [
+    595,
+    "Practice Question 3"
+   ],
+   [
+    626,
+    "Practice Question 4"
+   ],
+   [
+    657,
+    "Practice Question 5"
+   ],
+   [
+    695,
+    "Practice Question 6"
+   ],
+   [
+    726,
+    "Practice Question 7"
+   ],
+   [
+    756,
+    "Practice Question 8"
+   ],
+   [
+    787,
+    "Practice Question 9"
+   ],
+   [
+    822,
+    "Practice Question 10"
+   ]
+  ]
+ },
+ "S-YQbvtibGo": {
+  "course": "ccarp",
+  "key": "16-Documentation-and-Lifecycle-Management-part-1",
+  "title": "CCAR-P Exam Prep Module 16: Documentation and Lifecycle | Claude Architect",
+  "seconds": 797,
+  "published": "2026-11-08T18:55:36Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Lumen Advisory Hands Over a Claims Assistant to the Insurer's Team"
+   ],
+   [
+    55,
+    "Documenting an Architecture"
+   ],
+   [
+    70,
+    "Documenting an Architecture, continued"
+   ],
+   [
+    140,
+    "Documenting an Architecture, continued"
+   ],
+   [
+    189,
+    "Implementation Guidance"
+   ],
+   [
+    239,
+    "Lifecycle Phases"
+   ],
+   [
+    250,
+    "Lifecycle Phases, continued"
+   ],
+   [
+    325,
+    "Change Management for Models, Prompts and Data"
+   ],
+   [
+    387,
+    "Change Management for Models, Prompts and Data, continued"
+   ],
+   [
+    471,
+    "Practice Question 1"
+   ],
+   [
+    502,
+    "Practice Question 2"
+   ],
+   [
+    534,
+    "Practice Question 3"
+   ],
+   [
+    564,
+    "Practice Question 4"
+   ],
+   [
+    596,
+    "Practice Question 5"
+   ],
+   [
+    624,
+    "Practice Question 6"
+   ],
+   [
+    650,
+    "Practice Question 7"
+   ],
+   [
+    681,
+    "Practice Question 8"
+   ],
+   [
+    714,
+    "Practice Question 9"
+   ],
+   [
+    741,
+    "Practice Question 10"
+   ]
+  ]
+ },
+ "erkS9g3_gI0": {
+  "course": "ccarp",
+  "key": "17-Developer-Productivity-and-Operational-Enablement-part-1",
+  "title": "CCAR-P Exam Prep Module 17: Claude Code for Teams | Claude Architect",
+  "seconds": 914,
+  "published": "2026-11-08T18:56:08Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Lumen Advisory Rolls Out Claude Code to a Bank's 300 Engineers"
+   ],
+   [
+    66,
+    "Configuring Claude Code for Teams"
+   ],
+   [
+    128,
+    "Configuring Claude Code for Teams, continued"
+   ],
+   [
+    155,
+    "Configuring Claude Code for Teams, continued"
+   ],
+   [
+    203,
+    "Team Standards and Extensions"
+   ],
+   [
+    274,
+    "Team Standards and Extensions, continued"
+   ],
+   [
+    313,
+    "Team Standards and Extensions, continued"
+   ],
+   [
+    353,
+    "AI-Assisted Developer Workflows"
+   ],
+   [
+    367,
+    "AI-Assisted Developer Workflows, continued"
+   ],
+   [
+    437,
+    "AI-Assisted Developer Workflows, continued"
+   ],
+   [
+    464,
+    "Debugging and Operational Support"
+   ],
+   [
+    565,
+    "Practice Question 1"
+   ],
+   [
+    597,
+    "Practice Question 2"
+   ],
+   [
+    626,
+    "Practice Question 3"
+   ],
+   [
+    660,
+    "Practice Question 4"
+   ],
+   [
+    694,
+    "Practice Question 5"
+   ],
+   [
+    725,
+    "Practice Question 6"
+   ],
+   [
+    760,
+    "Practice Question 7"
+   ],
+   [
+    795,
+    "Practice Question 8"
+   ],
+   [
+    828,
+    "Practice Question 9"
+   ],
+   [
+    863,
+    "Practice Question 10"
+   ]
+  ]
+ },
+ "Tn71PWRQyZ0": {
+  "course": "ccarp",
+  "key": "18-Quick-Reference-Recap-and-Decision-Chooser-part-1",
+  "title": "CCAR-P Exam Prep Module 18: Quick Reference and Decision Chooser | Claude Architect",
+  "seconds": 739,
+  "published": "2026-11-08T18:56:34Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Lumen Advisory"
+   ],
+   [
+    45,
+    "Decision Chooser"
+   ],
+   [
+    56,
+    "D1 Solution Design (17%) and D2 Models, Prompting, Context (13%)"
+   ],
+   [
+    137,
+    "D3 Integration (19%)"
+   ],
+   [
+    204,
+    "D3 Integration (19%), continued"
+   ],
+   [
+    253,
+    "D4 Evaluation (16%), D5 Governance (14%), D6 Stakeholders (14%), D7 Productivity (7%)"
+   ],
+   [
+    315,
+    "D4 Evaluation (16%), D5 Governance (14%), D6 Stakeholders (14%), D7 Productivity (7%), continued"
+   ],
+   [
+    388,
+    "Names and Values to Know"
+   ],
+   [
+    447,
+    "Names and Values to Know, continued"
+   ],
+   [
+    509,
+    "Names and Values to Know, continued"
+   ],
+   [
+    542,
+    "Distractor Patterns"
+   ],
+   [
+    602,
+    "Distractor Patterns, continued"
+   ]
+  ]
+ },
+ "U40BfYLxiks": {
+  "course": "ccarp",
+  "key": "19-Exam-Technique-and-Final-Review-part-1",
+  "title": "CCAR-P Exam Prep Module 19: Exam Technique and Final Review | Claude Architect",
+  "seconds": 575,
+  "published": "2026-11-08T18:56:52Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Case Check-In: Lumen Advisory"
+   ],
+   [
+    53,
+    "Time Plan"
+   ],
+   [
+    85,
+    "Time Plan, continued"
+   ],
+   [
+    114,
+    "Reading an Item"
+   ],
+   [
+    142,
+    "Reading an Item, continued"
+   ],
+   [
+    206,
+    "Reading an Item, continued"
+   ],
+   [
+    251,
+    "Eliminating Distractors"
+   ],
+   [
+    303,
+    "Multiple-response items"
+   ],
+   [
+    318,
+    "Policies and Logistics"
+   ],
+   [
+    371,
+    "Policies and Logistics, continued"
+   ],
+   [
+    407,
+    "Final Review Checklist"
+   ],
+   [
+    449,
+    "Final Review Checklist, continued"
+   ],
+   [
+    492,
+    "The last week"
+   ]
+  ]
+ },
  "yTE9OtaIN9A": {
   "course": "cdmp",
   "key": "00-Course-Introduction",
