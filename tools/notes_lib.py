@@ -167,7 +167,7 @@ def read_header_bold(lines):
 
 def title_of(path):
     first = path.read_text(encoding="utf-8").splitlines()[0]
-    m = re.match(r"#\s*(Topic|Chapter|Week|Module)\s+(\d+):\s*(.+?)(?:\s+[—-]\s+(?:CSM|PMP|CDMP|KCNA|AIGP|CLF|AIF|SAA|DEA|CCAR-F|CCDV-F|CCAO-F|CCAR-P|CKA) Exam Summary)?\s*$", first)
+    m = re.match(r"#\s*(Topic|Chapter|Week|Module)\s+(\d+):\s*(.+?)(?:\s+[—-]\s+(?:CSM|PMP|CDMP|KCNA|AIGP|CLF|AIF|SAA|DEA|CCAR-F|CCDV-F|CCAO-F|CCAR-P|CKA|AZ-900|AI-901) Exam Summary)?\s*$", first)
     if m:
         return m.group(2).zfill(2), m.group(3)
     m = re.match(r"#\s*DMBOK2 Chapter\s+(\d+)\s*[—–-]\s*(.+?)\s*$", first)             # CDMP chapters 1 and 2 use this title line

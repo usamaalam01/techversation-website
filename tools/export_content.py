@@ -88,6 +88,14 @@ COURSES = {
                   desc="Solution design, multi-agent patterns, RAG, integration and authorization, evaluation, governance, compliance and stakeholder work, with the Lumen Advisory running case.",
                   audience="Solution architects, AI and ML engineers and technical leads who design and deliver production Claude solutions, and anyone preparing for the Claude Architect Professional exam.",
                   sources="The official Claude Architect Professional (CCAR-P) exam guide, Anthropic's documentation and engineering articles, and the Model Context Protocol specification."),
+    "az900": dict(folder="AZ-900", institute="microsoft", short="AZ-900", name="Microsoft Azure Fundamentals", title="AZ-900 Exam Prep Masterclass", accent="c-az900",
+                  desc="Cloud concepts, Azure architecture and services, and management and governance, with exam-style questions in every module.",
+                  audience="Students, career changers and IT staff starting with the cloud, and anyone preparing for the AZ-900 exam. No Azure account is needed.",
+                  sources="The official AZ-900 study guide and the Microsoft Learn documentation of each service."),
+    "ai901": dict(folder="AI-901", institute="microsoft", short="AI-901", name="Microsoft Azure AI Fundamentals", title="AI-901 Exam Prep Masterclass", accent="c-ai901",
+                  desc="AI concepts and building AI solutions with Microsoft Foundry: models, prompts, agents, text, speech, vision and information extraction.",
+                  audience="Students, career changers and developers starting with AI on Azure who read basic Python. The retired AI-900 is replaced by this exam.",
+                  sources="The official AI-901 study guide, the Microsoft Learn documentation of Microsoft Foundry and Foundry Tools, and Microsoft's responsible AI principles."),
     "aigov": dict(folder="AIGovernance", institute="training", kind="training", topic="AI", short="AI Governance", name="AI Governance Masterclass", title="AI Governance Masterclass", accent="c-aigov",
                   desc="From principles and risk to laws, frameworks and a working governance program, built around one running case.",
                   audience="Anyone who builds, buys or oversees AI: governance, risk, legal, product and engineering teams.",
@@ -102,6 +110,7 @@ INSTITUTES = [
     dict(id="the-open-group", name="The Open Group", full="The Open Group", mono="TOG", certs=["togaf"]),
     dict(id="aws", name="AWS", full="Amazon Web Services", mono="AWS", certs=["clf", "aif", "saa", "dea"]),
     dict(id="anthropic", name="Anthropic", full="Anthropic Partner Academy", mono="ANT", certs=["ccar", "ccdv", "ccao", "ccarp"]),
+    dict(id="microsoft", name="Microsoft", full="Microsoft", mono="MS", certs=["az900", "ai901"]),
     dict(id="training", name="Training", full="Techversation training courses", mono="TV", certs=[], hidden=True),
 ]
 SOON = []      # 'coming soon' cards (slug, institute, short, name, kind, desc); none at the moment
@@ -117,6 +126,8 @@ FACTS = dict(
     ccdv=dict(questions="53", time="120 min", passing="720 of 1,000", source="Anthropic Partner Academy", url="https://anthropic-partners.skilljar.com/"),
     ccar=dict(questions="60", time="120 min", passing="720 of 1,000", source="Anthropic Partner Academy", url="https://anthropic-partners.skilljar.com/claude-certified-architect-foundations-certification"),
     cka=dict(questions="15 to 20 tasks", time="120 min", passing="66%", source="training.linuxfoundation.org", url="https://training.linuxfoundation.org/certification/certified-kubernetes-administrator-cka/"),
+    ai901=dict(questions="See the exam page", time="See the exam page", passing="700 of 1,000", source="learn.microsoft.com", url="https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-901/"),
+    az900=dict(questions="See the exam page", time="45 min", passing="700 of 1,000", source="learn.microsoft.com", url="https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/"),
     kcna=dict(questions="60", time="90 min", passing="75%", source="training.linuxfoundation.org", url="https://training.linuxfoundation.org/certification/kubernetes-cloud-native-associate/"),
 )
 
@@ -270,6 +281,14 @@ NOTES = {
                 groups=[("Start here", {"00"}), ("Cluster Architecture, Installation and Configuration (25%)", {"01", "02", "03", "04"}), ("Workloads and Scheduling (15%)", {"05", "06"}),
                         ("Services and Networking (20%)", {"07", "08", "09"}), ("Storage (10%)", {"10"}), ("Troubleshooting (30%)", {"11", "12", "13"}),
                         ("Review and exam day", {"14", "15", "16"})]),
+    # AZ-900: the study notes of the course (OnlineCourses\AZ-900\study-notes, one note per module, with exam-style questions and recall questions); grouped by skill area
+    "az900": dict(root=OC / "AZ-900" / "study-notes", glob="Module_*.md", qa=True, header="bold", kind="Module", link_word="Module",
+                  groups=[("Start here", {"00"}), ("Cloud concepts (25-30%)", {"01", "02", "03"}), ("Azure architecture and services (35-40%)", {"04", "05", "06", "07", "08", "09", "10"}),
+                          ("Management and governance (30-35%)", {"11", "12", "13", "14"}), ("Review and exam day", {"15"})]),
+    # AI-901: the study notes of the course (OnlineCourses\AI-901\study-notes, one note per module, with exam-style questions and recall questions); grouped by skill area
+    "ai901": dict(root=OC / "AI-901" / "study-notes", glob="Module_*.md", qa=True, header="bold", kind="Module", link_word="Module",
+                  groups=[("Start here", {"00"}), ("Identify AI concepts and capabilities (40-45%)", {"01", "02", "03", "04", "05"}),
+                          ("Implement AI solutions by using Microsoft Foundry (55-60%)", {"06", "07", "08", "09", "10", "11", "12"}), ("Review and exam day", {"13"})]),
     # AIGP: generated from the verified course slides by OnlineCourses\AIGP\make_study_notes.py (one note per module); the group is the domain of the Body of Knowledge
     "aigp": dict(root=OC / "AIGP" / "study-notes", glob="Module_*.md", qa=True, kind="Module", link_word="Module", group_from="Domain",
                  group_default={"00": "Start here", "14": "Review and exam day", "15": "Review and exam day"}),
