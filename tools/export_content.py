@@ -370,6 +370,9 @@ def main():
     site = dict(institutes=INSTITUTES, soon=SOON, courses=[])
     allwarn = []
     for slug, c in COURSES.items():
+        if not (OC / c["folder"] / "upload_progress.json").exists():
+            print(f"{slug}: skipped (no uploaded videos yet)")
+            continue
         course, warns = build_course(slug, c)
         allwarn += warns
         notes = build_notes(NOTES[slug], slug, c["institute"], course["modules"], DATA, PUB) if slug in NOTES else None
@@ -381,6 +384,8 @@ def main():
         course["glossary"] = len(g) if g else 0
         site["courses"].append(course)
         print(f"{slug}: {len(course['modules'])} modules, {course['videos']} videos, {course['seconds'] // 60} min, notes {len(notes) if notes else 0}, glossary {course['glossary']}")
+    built = {c_["slug"] for c_ in site["courses"]}
+    site["institutes"] = [dict(i_, certs=[x for x in i_["certs"] if x in built]) for i_ in INSTITUTES if i_.get("hidden") or any(x in built for x in i_["certs"])]
     (DATA / "site.json").write_text(json.dumps(site, ensure_ascii=False, indent=1), encoding="utf-8")
     priv = ROOT / "tools" / "_private"
     priv.mkdir(exist_ok=True)
