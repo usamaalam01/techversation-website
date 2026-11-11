@@ -40,6 +40,10 @@ COURSES = {
                  desc="Kubernetes, containers, security, delivery and observability, with the Harbor Books running case.",
                  audience="Engineers, students and career changers preparing for the KCNA exam. No hands-on cluster is needed.",
                  sources="The official KCNA curriculum, the Kubernetes documentation and the CNCF landscape."),
+    "cka": dict(folder="CNCF-CKA", institute="linux-foundation", short="CKA", name="Kubernetes Administrator", title="CKA Exam Prep Masterclass", accent="c-cka",
+                desc="The hands-on Kubernetes Administrator exam: 113 lab tasks, each run on a real cluster, plus two timed mixed sets.",
+                audience="Engineers and administrators preparing for the performance-based CKA exam, who want to practice at a terminal.",
+                sources="The official CKA curriculum, the Kubernetes documentation and lab tasks run on a Kubernetes v1.37 test cluster."),
     "aigp": dict(folder="AIGP", institute="iapp", short="AIGP", name="AI Governance Professional", title="AIGP Exam Prep Masterclass", accent="c-aigp",
                  desc="AI governance from foundations and laws to design, release and monitoring of AI systems.",
                  audience="Privacy, legal, risk and technology professionals preparing for the AIGP exam.",
@@ -93,7 +97,7 @@ INSTITUTES = [
     dict(id="pmi", name="PMI", full="Project Management Institute", mono="PMI", certs=["pmp"]),
     dict(id="scrum-alliance", name="Scrum Alliance", full="Scrum Alliance", mono="SA", certs=["csm"]),
     dict(id="iapp", name="IAPP", full="International Association of Privacy Professionals", mono="IAPP", certs=["aigp"]),
-    dict(id="linux-foundation", name="Linux Foundation", full="The Linux Foundation and CNCF", mono="LF", certs=["kcna"]),
+    dict(id="linux-foundation", name="Linux Foundation", full="The Linux Foundation and CNCF", mono="LF", certs=["kcna", "cka"]),
     dict(id="dama", name="DAMA International", full="Data Management Association International", mono="DAMA", certs=["cdmp"]),
     dict(id="the-open-group", name="The Open Group", full="The Open Group", mono="TOG", certs=["togaf"]),
     dict(id="aws", name="AWS", full="Amazon Web Services", mono="AWS", certs=["clf", "aif", "saa", "dea"]),
@@ -112,6 +116,7 @@ FACTS = dict(
     ccao=dict(questions="60", time="120 min", passing="720 of 1,000", source="Anthropic Partner Academy", url="https://anthropic-partners.skilljar.com/claude-certified-associate-foundations-certification"),
     ccdv=dict(questions="53", time="120 min", passing="720 of 1,000", source="Anthropic Partner Academy", url="https://anthropic-partners.skilljar.com/"),
     ccar=dict(questions="60", time="120 min", passing="720 of 1,000", source="Anthropic Partner Academy", url="https://anthropic-partners.skilljar.com/claude-certified-architect-foundations-certification"),
+    cka=dict(questions="15 to 20 tasks", time="120 min", passing="66%", source="training.linuxfoundation.org", url="https://training.linuxfoundation.org/certification/certified-kubernetes-administrator-cka/"),
     kcna=dict(questions="60", time="90 min", passing="75%", source="training.linuxfoundation.org", url="https://training.linuxfoundation.org/certification/kubernetes-cloud-native-associate/"),
 )
 
@@ -260,6 +265,11 @@ NOTES = {
     # KCNA: generated from the verified course slides by OnlineCourses\KCNA\make_study_notes.py (one note per module); the group is the exam domain of the module
     "kcna": dict(root=OC / "KCNA" / "study-notes", glob="Module_*.md", qa=True, kind="Module", link_word="Module", group_from="Curriculum",
                  group_default={"00": "Start here", "15": "Review and exam day", "16": "Review and exam day"}),
+    # CKA: the study notes of the course (OnlineCourses\CNCF-CKA\study-notes, one note per module, with lab tasks and recall questions); grouped by exam domain
+    "cka": dict(root=OC / "CNCF-CKA" / "study-notes", glob="Module_*.md", qa=True, header="bold", kind="Module", link_word="Module",
+                groups=[("Start here", {"00"}), ("Cluster Architecture, Installation and Configuration (25%)", {"01", "02", "03", "04"}), ("Workloads and Scheduling (15%)", {"05", "06"}),
+                        ("Services and Networking (20%)", {"07", "08", "09"}), ("Storage (10%)", {"10"}), ("Troubleshooting (30%)", {"11", "12", "13"}),
+                        ("Review and exam day", {"14", "15", "16"})]),
     # AIGP: generated from the verified course slides by OnlineCourses\AIGP\make_study_notes.py (one note per module); the group is the domain of the Body of Knowledge
     "aigp": dict(root=OC / "AIGP" / "study-notes", glob="Module_*.md", qa=True, kind="Module", link_word="Module", group_from="Domain",
                  group_default={"00": "Start here", "14": "Review and exam day", "15": "Review and exam day"}),

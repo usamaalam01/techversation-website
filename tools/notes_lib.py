@@ -93,6 +93,7 @@ def convert_qa(text):
             n_s += 1
             continue
         m = re.match(r"\*\*(R\d+)\.\s*(.+?)\*\*\s*\nA:\s*(.+)$", b, flags=re.S)
+        m = m or re.match(r"\*\*(R\d+)\.\*\*\s*(.+?)\s*\n\*\*Answer:\*\*\s*(.+)$", b, flags=re.S)       # CKA: **R1.** question, then **Answer:** text
         if m:
             rid, q, a = m.groups()
             out.append(f'<div class="qa recall"><p class="q"><span class="qn">{rid}</span>{inline(q)}</p><details><summary>Show the answer</summary><p>{inline(a)}</p></details></div>')
@@ -166,7 +167,7 @@ def read_header_bold(lines):
 
 def title_of(path):
     first = path.read_text(encoding="utf-8").splitlines()[0]
-    m = re.match(r"#\s*(Topic|Chapter|Week|Module)\s+(\d+):\s*(.+?)(?:\s+[—-]\s+(?:CSM|PMP|CDMP|KCNA|AIGP|CLF|AIF|SAA|DEA|CCAR-F|CCDV-F|CCAO-F|CCAR-P) Exam Summary)?\s*$", first)
+    m = re.match(r"#\s*(Topic|Chapter|Week|Module)\s+(\d+):\s*(.+?)(?:\s+[—-]\s+(?:CSM|PMP|CDMP|KCNA|AIGP|CLF|AIF|SAA|DEA|CCAR-F|CCDV-F|CCAO-F|CCAR-P|CKA) Exam Summary)?\s*$", first)
     if m:
         return m.group(2).zfill(2), m.group(3)
     m = re.match(r"#\s*DMBOK2 Chapter\s+(\d+)\s*[—–-]\s*(.+?)\s*$", first)             # CDMP chapters 1 and 2 use this title line
@@ -240,7 +241,7 @@ def convert_note(cfg, slug, path, group, urls, pub, entry=None):
         used_ids.add(sid)
         toc.append(dict(id=sid, title=plain(stitle), n=n))
         counts["sections"] += 1
-        if cfg["qa"] and re.search(r"Exam Q&A", stitle):
+        if cfg["qa"] and re.search(r"Exam Q&A|Recall questions", stitle):
             inner, ns, nr = convert_qa(content)
             counts["scenario"] += ns
             counts["recall"] += nr
@@ -291,7 +292,7 @@ def convert_note(cfg, slug, path, group, urls, pub, entry=None):
     # completeness: the words of the source against the words of the page (the page adds only labels)
     src_words = len(re.findall(r"[A-Za-z0-9]+", re.sub(r"!\[([^\]]*)\]\([^)]*\)", r"\1", "\n".join(body_md))))
     page_words = len(re.findall(r"[A-Za-z0-9]+", re.sub(r"<[^>]+>", " ", re.sub(r'<img [^>]*alt="([^"]*)"[^>]*>', r" \1 ", re.sub(r"<figcaption>.*?</figcaption>", "", out))).replace("&quot;", '"').replace("&amp;", "&")))      # the alt text of a figure counts as page text
-    src_tables = sum(1 for tok in MD.parse("\n".join(body_md)) if tok.type == "table_open")      # counted by the parser, which also finds tables without a leading pipe
+    src_tables = sum(1 for tok in MD.parse("\n\n".join(body_md)) if tok.type == "table_open")      # counted by the parser, which also finds tables without a leading pipe
     src_images = len(re.findall(r"!\[[^\]]*\]\([^)]*\)", "\n".join(body_md)))
     return dict(num=num, slug=f"{num}-{slugify(title)}", title=title, group=group, tasks=out.count("data-task"), los=los, lo_text=meta.get("LO", ""), guide=meta.get("Scrum Guide", ""),
                 sequence=meta.get("Sequence", ""), header=head_html, minutes=max(3, round(words / 220)), toc=toc, html=out,

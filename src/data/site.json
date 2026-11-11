@@ -33,7 +33,8 @@
    "full": "The Linux Foundation and CNCF",
    "mono": "LF",
    "certs": [
-    "kcna"
+    "kcna",
+    "cka"
    ]
   },
   {
@@ -4857,6 +4858,1099 @@
     }
    ],
    "glossary": 106
+  },
+  {
+   "kind": "certification",
+   "topic": null,
+   "slug": "cka",
+   "institute": "linux-foundation",
+   "short": "CKA",
+   "name": "Kubernetes Administrator",
+   "title": "CKA Exam Prep Masterclass",
+   "accent": "c-cka",
+   "desc": "The hands-on Kubernetes Administrator exam: 113 lab tasks, each run on a real cluster, plus two timed mixed sets.",
+   "audience": "Engineers and administrators preparing for the performance-based CKA exam, who want to practice at a terminal.",
+   "sources": "The official CKA curriculum, the Kubernetes documentation and lab tasks run on a Kubernetes v1.37 test cluster.",
+   "playlist": "PLEsAIkidWNwY",
+   "cover": "img/covers/cka.jpg",
+   "modules": [
+    {
+     "num": "00",
+     "slug": "00-exam-orientation-and-the-command-line-toolkit",
+     "title": "Exam Orientation and the Command-Line Toolkit",
+     "desc": "What the exam is",
+     "parts": [
+      {
+       "part": 1,
+       "id": "2jvQjzt5BfU",
+       "title": "What the exam is",
+       "seconds": null,
+       "chapters": [],
+       "published": null,
+       "thumb": "img/modules/cka/00-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "0vjVwDPhMfc",
+       "title": "Lab 0.1: jsonpath nodes and Lab 0.2: dry run yaml, recall and recap",
+       "seconds": null,
+       "chapters": [],
+       "published": null,
+       "thumb": "img/modules/cka/00-2.jpg"
+      }
+     ],
+     "deck": "downloads/cka/00-exam-orientation-and-the-command-line-toolkit.pptx",
+     "deck_kb": 318,
+     "seconds": 0,
+     "words": 2569
+    },
+    {
+     "num": "01",
+     "slug": "01-cluster-architecture-and-extension-interfaces",
+     "title": "Cluster Architecture and Extension Interfaces",
+     "desc": "The map of a cluster",
+     "parts": [
+      {
+       "part": 1,
+       "id": "YQAdZr41U8s",
+       "title": "The map of a cluster",
+       "seconds": null,
+       "chapters": [],
+       "published": null,
+       "thumb": "img/modules/cka/01-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "0_iGx0ty1DQ",
+       "title": "Lab 1.2: static pod and Lab 1.3: crictl container, recall and recap",
+       "seconds": null,
+       "chapters": [],
+       "published": null,
+       "thumb": "img/modules/cka/01-2.jpg"
+      }
+     ],
+     "deck": "downloads/cka/01-cluster-architecture-and-extension-interfaces.pptx",
+     "deck_kb": 281,
+     "seconds": 0,
+     "words": 2980
+    },
+    {
+     "num": "02",
+     "slug": "02-rbac-service-accounts-and-kubeconfig",
+     "title": "RBAC, Service Accounts and Kubeconfig",
+     "desc": "How a request is checked",
+     "parts": [
+      {
+       "part": 1,
+       "id": "VsEL0-ZOx2s",
+       "title": "How a request is checked",
+       "seconds": null,
+       "chapters": [],
+       "published": null,
+       "thumb": "img/modules/cka/02-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "NyyKyW0594Q",
+       "title": "Lab 2.4: fix rolebinding and Lab 2.5: user certificate, recall and recap",
+       "seconds": null,
+       "chapters": [],
+       "published": null,
+       "thumb": "img/modules/cka/02-2.jpg"
+      }
+     ],
+     "deck": "downloads/cka/02-rbac-service-accounts-and-kubeconfig.pptx",
+     "deck_kb": 220,
+     "seconds": 0,
+     "words": 2738
+    },
+    {
+     "num": "03",
+     "slug": "03-cluster-lifecycle-with-kubeadm-etcd-and-high-availability",
+     "title": "Cluster Lifecycle with kubeadm, etcd and High Availability",
+     "desc": "What Was Executed and What Is Reference Only and Prepare the infrastructure (Reference only, plus two checks you can run)",
+     "parts": [
+      {
+       "part": 1,
+       "id": "ea3mrOELU4I",
+       "title": "What Was Executed and What Is Reference Only and Prepare the infrastructure (Reference only, plus two checks you can run)",
+       "seconds": null,
+       "chapters": [],
+       "published": null,
+       "thumb": "img/modules/cka/03-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "lp0dRHfczcc",
+       "title": "Lab 3.3: cert expiry and Lab 3.4: join command, recall and recap",
+       "seconds": null,
+       "chapters": [],
+       "published": null,
+       "thumb": "img/modules/cka/03-2.jpg"
+      }
+     ],
+     "deck": "downloads/cka/03-cluster-lifecycle-with-kubeadm-etcd-and-high-availability.pptx",
+     "deck_kb": 296,
+     "seconds": 0,
+     "words": 3548
+    },
+    {
+     "num": "04",
+     "slug": "04-helm-kustomize-crds-and-operators",
+     "title": "Helm, Kustomize, CRDs and Operators",
+     "desc": "Helm in one page",
+     "parts": [
+      {
+       "part": 1,
+       "id": "BnT5Bli5EPc",
+       "title": "Helm in one page",
+       "seconds": null,
+       "chapters": [],
+       "published": null,
+       "thumb": "img/modules/cka/04-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "rWrqJ5c8GaQ",
+       "title": "Lab 4.3: helm values uninstall and Lab 4.4: helm template, recall and recap",
+       "seconds": null,
+       "chapters": [],
+       "published": null,
+       "thumb": "img/modules/cka/04-2.jpg"
+      }
+     ],
+     "deck": "downloads/cka/04-helm-kustomize-crds-and-operators.pptx",
+     "deck_kb": 128,
+     "seconds": 0,
+     "words": 2331
+    },
+    {
+     "num": "05",
+     "slug": "05-deployments-configuration-and-self-healing-workloads",
+     "title": "Deployments, Configuration and Self-Healing Workloads",
+     "desc": "Which workload object for which job",
+     "parts": [
+      {
+       "part": 1,
+       "id": "fPhH_Wi37SA",
+       "title": "Which workload object for which job",
+       "seconds": null,
+       "chapters": [],
+       "published": null,
+       "thumb": "img/modules/cka/05-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "6P3_2AtDAS8",
+       "title": "Lab 5.4: secret env file and Lab 5.5: daemonset, recall and recap",
+       "seconds": null,
+       "chapters": [],
+       "published": null,
+       "thumb": "img/modules/cka/05-2.jpg"
+      }
+     ],
+     "deck": "downloads/cka/05-deployments-configuration-and-self-healing-workloads.pptx",
+     "deck_kb": 186,
+     "seconds": 0,
+     "words": 3439
+    },
+    {
+     "num": "06",
+     "slug": "06-scheduling-resources-and-autoscaling",
+     "title": "Scheduling, Resources and Autoscaling",
+     "desc": "How scheduling works",
+     "parts": [
+      {
+       "part": 1,
+       "id": "3u4QgSAVMC8",
+       "title": "How scheduling works",
+       "seconds": null,
+       "chapters": [],
+       "published": null,
+       "thumb": "img/modules/cka/06-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "xJXBBhDf6L4",
+       "title": "Lab 6.1: requests limits and Lab 6.2: limitrange defaults",
+       "seconds": null,
+       "chapters": [],
+       "published": null,
+       "thumb": "img/modules/cka/06-2.jpg"
+      },
+      {
+       "part": 3,
+       "id": "CB-fDtBYid8",
+       "title": "Lab 6.7: pod anti affinity and Lab 6.8: fix pending pod, recall and recap",
+       "seconds": null,
+       "chapters": [],
+       "published": null,
+       "thumb": "img/modules/cka/06-3.jpg"
+      }
+     ],
+     "deck": "downloads/cka/06-scheduling-resources-and-autoscaling.pptx",
+     "deck_kb": 243,
+     "seconds": 0,
+     "words": 3764
+    },
+    {
+     "num": "07",
+     "slug": "07-services-and-pod-connectivity",
+     "title": "Services and Pod Connectivity",
+     "desc": "The networking rules of Kubernetes and Service types",
+     "parts": [
+      {
+       "part": 1,
+       "id": "JVJeSTx3GBE",
+       "title": "The networking rules of Kubernetes and Service types",
+       "seconds": null,
+       "chapters": [],
+       "published": null,
+       "thumb": "img/modules/cka/07-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "3AURspFfCd4",
+       "title": "Lab 7.4: endpoint ips and Lab 7.5: loadbalancer service, recall and recap",
+       "seconds": null,
+       "chapters": [],
+       "published": null,
+       "thumb": "img/modules/cka/07-2.jpg"
+      }
+     ],
+     "deck": "downloads/cka/07-services-and-pod-connectivity.pptx",
+     "deck_kb": 147,
+     "seconds": 0,
+     "words": 2798
+    },
+    {
+     "num": "08",
+     "slug": "08-dns-ingress-and-gateway-api",
+     "title": "DNS, Ingress and Gateway API",
+     "desc": "CoreDNS",
+     "parts": [
+      {
+       "part": 1,
+       "id": "sWYbsFpdqSI",
+       "title": "CoreDNS",
+       "seconds": null,
+       "chapters": [],
+       "published": null,
+       "thumb": "img/modules/cka/08-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "wxUemK8IiHw",
+       "title": "Lab 8.2: coredns upstream and Lab 8.3: coredns custom host",
+       "seconds": null,
+       "chapters": [],
+       "published": null,
+       "thumb": "img/modules/cka/08-2.jpg"
+      },
+      {
+       "part": 3,
+       "id": "zfhT3Kszhnw",
+       "title": "Lab 8.8: fix ingress backend and Lab 8.9: gateway httproute, recall and recap",
+       "seconds": null,
+       "chapters": [],
+       "published": null,
+       "thumb": "img/modules/cka/08-3.jpg"
+      }
+     ],
+     "deck": "downloads/cka/08-dns-ingress-and-gateway-api.pptx",
+     "deck_kb": 248,
+     "seconds": 0,
+     "words": 3870
+    },
+    {
+     "num": "09",
+     "slug": "09-network-policies",
+     "title": "Network Policies",
+     "desc": "The model in six sentences and Anatomy",
+     "parts": [
+      {
+       "part": 1,
+       "id": "IiBm4sCbK3s",
+       "title": "The model in six sentences and Anatomy",
+       "seconds": null,
+       "chapters": [],
+       "published": null,
+       "thumb": "img/modules/cka/09-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "sKFYde-q_pw",
+       "title": "Lab 9.4: fix policy labels and Lab 9.5: and vs or selectors, recall and recap",
+       "seconds": null,
+       "chapters": [],
+       "published": null,
+       "thumb": "img/modules/cka/09-2.jpg"
+      }
+     ],
+     "deck": "downloads/cka/09-network-policies.pptx",
+     "deck_kb": 188,
+     "seconds": 0,
+     "words": 2043
+    },
+    {
+     "num": "10",
+     "slug": "10-storage",
+     "title": "Storage",
+     "desc": "The storage objects",
+     "parts": [
+      {
+       "part": 1,
+       "id": "lTO0rPxTt3k",
+       "title": "The storage objects",
+       "seconds": null,
+       "chapters": [],
+       "published": null,
+       "thumb": "img/modules/cka/10-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "LHQw3Eddbuc",
+       "title": "Lab 10.2: static pv pvc and Lab 10.3: storageclass default",
+       "seconds": null,
+       "chapters": [],
+       "published": null,
+       "thumb": "img/modules/cka/10-2.jpg"
+      },
+      {
+       "part": 3,
+       "id": "WPwnRZgap0o",
+       "title": "Lab 10.9: released pv reuse and Lab 10.10: hostpath volume, recall and recap",
+       "seconds": null,
+       "chapters": [],
+       "published": null,
+       "thumb": "img/modules/cka/10-3.jpg"
+      }
+     ],
+     "deck": "downloads/cka/10-storage.pptx",
+     "deck_kb": 260,
+     "seconds": 0,
+     "words": 4013
+    },
+    {
+     "num": "11",
+     "slug": "11-troubleshooting-applications-and-container-logs",
+     "title": "Troubleshooting Applications and Container Logs",
+     "desc": "The method: top-down, one command at a time",
+     "parts": [
+      {
+       "part": 1,
+       "id": "C40IMaCfvtE",
+       "title": "The method: top-down, one command at a time",
+       "seconds": null,
+       "chapters": [],
+       "published": null,
+       "thumb": "img/modules/cka/11-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "P-bQO25c5i0",
+       "title": "Lab 11.4: fix missing env and Lab 11.5: fix missing configmap, recall and recap",
+       "seconds": null,
+       "chapters": [],
+       "published": null,
+       "thumb": "img/modules/cka/11-2.jpg"
+      }
+     ],
+     "deck": "downloads/cka/11-troubleshooting-applications-and-container-logs.pptx",
+     "deck_kb": 194,
+     "seconds": 0,
+     "words": 3270
+    },
+    {
+     "num": "12",
+     "slug": "12-troubleshooting-clusters-nodes-and-components",
+     "title": "Troubleshooting Clusters, Nodes and Components",
+     "desc": "First look at the cluster",
+     "parts": [
+      {
+       "part": 1,
+       "id": "cPHC4PBLT_I",
+       "title": "First look at the cluster",
+       "seconds": null,
+       "chapters": [],
+       "published": null,
+       "thumb": "img/modules/cka/12-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "yUC0amm2S58",
+       "title": "A checklist for any \"cluster is broken\" task and Lab 12.1: kubelet stopped",
+       "seconds": null,
+       "chapters": [],
+       "published": null,
+       "thumb": "img/modules/cka/12-2.jpg"
+      },
+      {
+       "part": 3,
+       "id": "YrDGV4rfy9E",
+       "title": "Lab 12.6: controller manager broken and Lab 12.7: containerd stopped, recall and recap",
+       "seconds": null,
+       "chapters": [],
+       "published": null,
+       "thumb": "img/modules/cka/12-3.jpg"
+      }
+     ],
+     "deck": "downloads/cka/12-troubleshooting-clusters-nodes-and-components.pptx",
+     "deck_kb": 244,
+     "seconds": 0,
+     "words": 3856
+    },
+    {
+     "num": "13",
+     "slug": "13-troubleshooting-services-and-networking-monitoring-resource-usage",
+     "title": "Troubleshooting Services and Networking; Monitoring Resource Usage",
+     "desc": "Service troubleshooting: walk the path",
+     "parts": [
+      {
+       "part": 1,
+       "id": "dytmyAK-Mxg",
+       "title": "Service troubleshooting: walk the path",
+       "seconds": null,
+       "chapters": [],
+       "published": null,
+       "thumb": "img/modules/cka/13-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "syE1lHLULz4",
+       "title": "Lab 13.3: readiness no endpoints and Lab 13.4: wrong targetport, recall and recap",
+       "seconds": null,
+       "chapters": [],
+       "published": null,
+       "thumb": "img/modules/cka/13-2.jpg"
+      }
+     ],
+     "deck": "downloads/cka/13-troubleshooting-services-and-networking-monitoring-resource-usage.pptx",
+     "deck_kb": 190,
+     "seconds": 0,
+     "words": 2969
+    },
+    {
+     "num": "14",
+     "slug": "14-timed-mixed-lab-set-a",
+     "title": "Timed Mixed Lab Set A",
+     "desc": "How to use this set",
+     "parts": [
+      {
+       "part": 1,
+       "id": "GBdfCOxfy_U",
+       "title": "How to use this set",
+       "seconds": null,
+       "chapters": [],
+       "published": null,
+       "thumb": "img/modules/cka/14-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "rhVSptw1dM4",
+       "title": "Task 9: Troubleshooting and Task 10: Networking, recall and recap",
+       "seconds": null,
+       "chapters": [],
+       "published": null,
+       "thumb": "img/modules/cka/14-2.jpg"
+      }
+     ],
+     "deck": "downloads/cka/14-timed-mixed-lab-set-a.pptx",
+     "deck_kb": 176,
+     "seconds": 0,
+     "words": 3553
+    },
+    {
+     "num": "15",
+     "slug": "15-timed-mixed-lab-set-b",
+     "title": "Timed Mixed Lab Set B",
+     "desc": "How to use this set and Review after the set",
+     "parts": [
+      {
+       "part": 1,
+       "id": "riOlkeoiENI",
+       "title": "How to use this set and Review after the set",
+       "seconds": null,
+       "chapters": [],
+       "published": null,
+       "thumb": "img/modules/cka/15-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "a71sctIXQZE",
+       "title": "Task 9: Architecture and Task 10: Troubleshooting, recall and recap",
+       "seconds": null,
+       "chapters": [],
+       "published": null,
+       "thumb": "img/modules/cka/15-2.jpg"
+      }
+     ],
+     "deck": "downloads/cka/15-timed-mixed-lab-set-b.pptx",
+     "deck_kb": 173,
+     "seconds": 0,
+     "words": 3616
+    },
+    {
+     "num": "16",
+     "slug": "16-exam-technique-and-final-review",
+     "title": "Exam Technique and Final Review",
+     "desc": "The time budget, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "pQitxEww2v4",
+       "title": "The time budget, recall and recap",
+       "seconds": null,
+       "chapters": [],
+       "published": null,
+       "thumb": "img/modules/cka/16-1.jpg"
+      }
+     ],
+     "deck": "downloads/cka/16-exam-technique-and-final-review.pptx",
+     "deck_kb": 129,
+     "seconds": 0,
+     "words": 1581
+    }
+   ],
+   "facts": {
+    "questions": "15 to 20 tasks",
+    "time": "120 min",
+    "passing": "66%",
+    "source": "training.linuxfoundation.org",
+    "url": "https://training.linuxfoundation.org/certification/certified-kubernetes-administrator-cka/"
+   },
+   "videos": 37,
+   "seconds": 0,
+   "notes": [
+    {
+     "num": "00",
+     "slug": "00-exam-orientation-and-the-command-line-toolkit",
+     "title": "Exam Orientation and the Command-Line Toolkit",
+     "group": "Start here",
+     "tasks": 0,
+     "los": [],
+     "minutes": 9,
+     "check": {
+      "src_words": 1942,
+      "page_words": 1980,
+      "src_tables": 4,
+      "tables": 4,
+      "src_images": 3,
+      "images": 3,
+      "src_scenario": 0,
+      "scenario": 0,
+      "src_recall": 8,
+      "recall": 8,
+      "src_sections": 9,
+      "sections": 9
+     },
+     "modules": [
+      "00"
+     ],
+     "domain": "",
+     "ref": "Module 0",
+     "tn": "Module 00",
+     "of": 17,
+     "module": "00"
+    },
+    {
+     "num": "01",
+     "slug": "01-cluster-architecture-and-extension-interfaces",
+     "title": "Cluster Architecture and Extension Interfaces",
+     "group": "Cluster Architecture, Installation and Configuration (25%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 9,
+     "check": {
+      "src_words": 1949,
+      "page_words": 1999,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 0,
+      "scenario": 0,
+      "src_recall": 8,
+      "recall": 8,
+      "src_sections": 9,
+      "sections": 9
+     },
+     "modules": [
+      "01"
+     ],
+     "domain": "",
+     "ref": "Module 1",
+     "tn": "Module 01",
+     "of": 17,
+     "module": "01"
+    },
+    {
+     "num": "02",
+     "slug": "02-rbac-service-accounts-and-kubeconfig",
+     "title": "RBAC, Service Accounts and Kubeconfig",
+     "group": "Cluster Architecture, Installation and Configuration (25%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 9,
+     "check": {
+      "src_words": 1999,
+      "page_words": 2058,
+      "src_tables": 3,
+      "tables": 3,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 0,
+      "scenario": 0,
+      "src_recall": 8,
+      "recall": 8,
+      "src_sections": 10,
+      "sections": 10
+     },
+     "modules": [
+      "02"
+     ],
+     "domain": "",
+     "ref": "Module 2",
+     "tn": "Module 02",
+     "of": 17,
+     "module": "02"
+    },
+    {
+     "num": "03",
+     "slug": "03-cluster-lifecycle-with-kubeadm-etcd-and-high-availability",
+     "title": "Cluster Lifecycle with kubeadm, etcd and High Availability",
+     "group": "Cluster Architecture, Installation and Configuration (25%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 12,
+     "check": {
+      "src_words": 2433,
+      "page_words": 2492,
+      "src_tables": 4,
+      "tables": 4,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 0,
+      "scenario": 0,
+      "src_recall": 8,
+      "recall": 8,
+      "src_sections": 9,
+      "sections": 9
+     },
+     "modules": [
+      "03"
+     ],
+     "domain": "",
+     "ref": "Module 3",
+     "tn": "Module 03",
+     "of": 17,
+     "module": "03"
+    },
+    {
+     "num": "04",
+     "slug": "04-helm-kustomize-crds-and-operators",
+     "title": "Helm, Kustomize, CRDs and Operators",
+     "group": "Cluster Architecture, Installation and Configuration (25%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 8,
+     "check": {
+      "src_words": 1751,
+      "page_words": 1869,
+      "src_tables": 4,
+      "tables": 4,
+      "src_images": 0,
+      "images": 0,
+      "src_scenario": 0,
+      "scenario": 0,
+      "src_recall": 8,
+      "recall": 8,
+      "src_sections": 8,
+      "sections": 8
+     },
+     "modules": [
+      "04"
+     ],
+     "domain": "",
+     "ref": "Module 4",
+     "tn": "Module 04",
+     "of": 17,
+     "module": "04"
+    },
+    {
+     "num": "05",
+     "slug": "05-deployments-configuration-and-self-healing-workloads",
+     "title": "Deployments, Configuration and Self-Healing Workloads",
+     "group": "Workloads and Scheduling (15%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 12,
+     "check": {
+      "src_words": 2696,
+      "page_words": 2744,
+      "src_tables": 4,
+      "tables": 4,
+      "src_images": 0,
+      "images": 0,
+      "src_scenario": 0,
+      "scenario": 0,
+      "src_recall": 8,
+      "recall": 8,
+      "src_sections": 10,
+      "sections": 10
+     },
+     "modules": [
+      "05"
+     ],
+     "domain": "",
+     "ref": "Module 5",
+     "tn": "Module 05",
+     "of": 17,
+     "module": "05"
+    },
+    {
+     "num": "06",
+     "slug": "06-scheduling-resources-and-autoscaling",
+     "title": "Scheduling, Resources and Autoscaling",
+     "group": "Workloads and Scheduling (15%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 13,
+     "check": {
+      "src_words": 2892,
+      "page_words": 2942,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 0,
+      "scenario": 0,
+      "src_recall": 8,
+      "recall": 8,
+      "src_sections": 9,
+      "sections": 9
+     },
+     "modules": [
+      "06"
+     ],
+     "domain": "",
+     "ref": "Module 6",
+     "tn": "Module 06",
+     "of": 17,
+     "module": "06"
+    },
+    {
+     "num": "07",
+     "slug": "07-services-and-pod-connectivity",
+     "title": "Services and Pod Connectivity",
+     "group": "Services and Networking (20%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 9,
+     "check": {
+      "src_words": 2038,
+      "page_words": 2093,
+      "src_tables": 4,
+      "tables": 4,
+      "src_images": 0,
+      "images": 0,
+      "src_scenario": 0,
+      "scenario": 0,
+      "src_recall": 8,
+      "recall": 8,
+      "src_sections": 9,
+      "sections": 9
+     },
+     "modules": [
+      "07"
+     ],
+     "domain": "",
+     "ref": "Module 7",
+     "tn": "Module 07",
+     "of": 17,
+     "module": "07"
+    },
+    {
+     "num": "08",
+     "slug": "08-dns-ingress-and-gateway-api",
+     "title": "DNS, Ingress and Gateway API",
+     "group": "Services and Networking (20%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 13,
+     "check": {
+      "src_words": 2838,
+      "page_words": 2898,
+      "src_tables": 6,
+      "tables": 6,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 0,
+      "scenario": 0,
+      "src_recall": 8,
+      "recall": 8,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "08"
+     ],
+     "domain": "",
+     "ref": "Module 8",
+     "tn": "Module 08",
+     "of": 17,
+     "module": "08"
+    },
+    {
+     "num": "09",
+     "slug": "09-network-policies",
+     "title": "Network Policies",
+     "group": "Services and Networking (20%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 8,
+     "check": {
+      "src_words": 1703,
+      "page_words": 1736,
+      "src_tables": 2,
+      "tables": 2,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 0,
+      "scenario": 0,
+      "src_recall": 8,
+      "recall": 8,
+      "src_sections": 8,
+      "sections": 8
+     },
+     "modules": [
+      "09"
+     ],
+     "domain": "",
+     "ref": "Module 9",
+     "tn": "Module 09",
+     "of": 17,
+     "module": "09"
+    },
+    {
+     "num": "10",
+     "slug": "10-storage",
+     "title": "Storage",
+     "group": "Storage (10%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 14,
+     "check": {
+      "src_words": 3086,
+      "page_words": 3156,
+      "src_tables": 7,
+      "tables": 7,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 0,
+      "scenario": 0,
+      "src_recall": 8,
+      "recall": 8,
+      "src_sections": 10,
+      "sections": 10
+     },
+     "modules": [
+      "10"
+     ],
+     "domain": "",
+     "ref": "Module 10",
+     "tn": "Module 10",
+     "of": 17,
+     "module": "10"
+    },
+    {
+     "num": "11",
+     "slug": "11-troubleshooting-applications-and-container-logs",
+     "title": "Troubleshooting Applications and Container Logs",
+     "group": "Troubleshooting (30%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 11,
+     "check": {
+      "src_words": 2394,
+      "page_words": 2467,
+      "src_tables": 3,
+      "tables": 3,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 0,
+      "scenario": 0,
+      "src_recall": 8,
+      "recall": 8,
+      "src_sections": 8,
+      "sections": 8
+     },
+     "modules": [
+      "11"
+     ],
+     "domain": "",
+     "ref": "Module 11",
+     "tn": "Module 11",
+     "of": 17,
+     "module": "11"
+    },
+    {
+     "num": "12",
+     "slug": "12-troubleshooting-clusters-nodes-and-components",
+     "title": "Troubleshooting Clusters, Nodes and Components",
+     "group": "Troubleshooting (30%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 12,
+     "check": {
+      "src_words": 2661,
+      "page_words": 2719,
+      "src_tables": 4,
+      "tables": 4,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 0,
+      "scenario": 0,
+      "src_recall": 8,
+      "recall": 8,
+      "src_sections": 10,
+      "sections": 10
+     },
+     "modules": [
+      "12"
+     ],
+     "domain": "",
+     "ref": "Module 12",
+     "tn": "Module 12",
+     "of": 17,
+     "module": "12"
+    },
+    {
+     "num": "13",
+     "slug": "13-troubleshooting-services-and-networking-monitoring-resource-usage",
+     "title": "Troubleshooting Services and Networking; Monitoring Resource Usage",
+     "group": "Troubleshooting (30%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 10,
+     "check": {
+      "src_words": 2067,
+      "page_words": 2124,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 0,
+      "scenario": 0,
+      "src_recall": 8,
+      "recall": 8,
+      "src_sections": 8,
+      "sections": 8
+     },
+     "modules": [
+      "13"
+     ],
+     "domain": "",
+     "ref": "Module 13",
+     "tn": "Module 13",
+     "of": 17,
+     "module": "13"
+    },
+    {
+     "num": "14",
+     "slug": "14-timed-mixed-lab-set-a",
+     "title": "Timed Mixed Lab Set A",
+     "group": "Review and exam day",
+     "tasks": 0,
+     "los": [],
+     "minutes": 11,
+     "check": {
+      "src_words": 2454,
+      "page_words": 2470,
+      "src_tables": 1,
+      "tables": 1,
+      "src_images": 0,
+      "images": 0,
+      "src_scenario": 0,
+      "scenario": 0,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "14"
+     ],
+     "domain": "",
+     "ref": "Module 14",
+     "tn": "Module 14",
+     "of": 17,
+     "module": "14"
+    },
+    {
+     "num": "15",
+     "slug": "15-timed-mixed-lab-set-b",
+     "title": "Timed Mixed Lab Set B",
+     "group": "Review and exam day",
+     "tasks": 0,
+     "los": [],
+     "minutes": 12,
+     "check": {
+      "src_words": 2479,
+      "page_words": 2502,
+      "src_tables": 1,
+      "tables": 1,
+      "src_images": 0,
+      "images": 0,
+      "src_scenario": 0,
+      "scenario": 0,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "15"
+     ],
+     "domain": "",
+     "ref": "Module 15",
+     "tn": "Module 15",
+     "of": 17,
+     "module": "15"
+    },
+    {
+     "num": "16",
+     "slug": "16-exam-technique-and-final-review",
+     "title": "Exam Technique and Final Review",
+     "group": "Review and exam day",
+     "tasks": 0,
+     "los": [],
+     "minutes": 5,
+     "check": {
+      "src_words": 1108,
+      "page_words": 1127,
+      "src_tables": 3,
+      "tables": 3,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 0,
+      "scenario": 0,
+      "src_recall": 8,
+      "recall": 8,
+      "src_sections": 8,
+      "sections": 8
+     },
+     "modules": [
+      "16"
+     ],
+     "domain": "",
+     "ref": "Module 16",
+     "tn": "Module 16",
+     "of": 17,
+     "module": "16"
+    }
+   ],
+   "glossary": 0
   },
   {
    "kind": "certification",
