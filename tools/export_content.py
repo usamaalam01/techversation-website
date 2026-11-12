@@ -96,6 +96,10 @@ COURSES = {
                   desc="AI concepts and building AI solutions with Microsoft Foundry: models, prompts, agents, text, speech, vision and information extraction.",
                   audience="Students, career changers and developers starting with AI on Azure who read basic Python. The retired AI-900 is replaced by this exam.",
                   sources="The official AI-901 study guide, the Microsoft Learn documentation of Microsoft Foundry and Foundry Tools, and Microsoft's responsible AI principles."),
+    "sy0801": dict(folder="Security-SY0-801", institute="comptia", short="Security+", name="CompTIA Security+ V8", title="Security+ SY0-801 Exam Prep Masterclass", accent="c-sy0801",
+                   desc="All five domains and 27 objectives of the V8 exam: controls, threats, architecture, operations, governance and the new AI risks.",
+                   audience="Aspiring security administrators, IT staff and career changers preparing for the Security+ V8 exam (SY0-801).",
+                   sources="The official CompTIA Security+ SY0-801 V8 exam objectives, standard security references named in them, and original practice questions."),
     "aigov": dict(folder="AIGovernance", institute="training", kind="training", topic="AI", short="AI Governance", name="AI Governance Masterclass", title="AI Governance Masterclass", accent="c-aigov",
                   desc="From principles and risk to laws, frameworks and a working governance program, built around one running case.",
                   audience="Anyone who builds, buys or oversees AI: governance, risk, legal, product and engineering teams.",
@@ -110,6 +114,7 @@ INSTITUTES = [
     dict(id="the-open-group", name="The Open Group", full="The Open Group", mono="TOG", certs=["togaf"]),
     dict(id="aws", name="AWS", full="Amazon Web Services", mono="AWS", certs=["clf", "aif", "saa", "dea"]),
     dict(id="anthropic", name="Anthropic", full="Anthropic Partner Academy", mono="ANT", certs=["ccar", "ccdv", "ccao", "ccarp"]),
+    dict(id="comptia", name="CompTIA", full="CompTIA", mono="CT", certs=["sy0801"]),
     dict(id="microsoft", name="Microsoft", full="Microsoft", mono="MS", certs=["az900", "ai901"]),
     dict(id="training", name="Training", full="Techversation training courses", mono="TV", certs=[], hidden=True),
 ]
@@ -126,6 +131,7 @@ FACTS = dict(
     ccdv=dict(questions="53", time="120 min", passing="720 of 1,000", source="Anthropic Partner Academy", url="https://anthropic-partners.skilljar.com/"),
     ccar=dict(questions="60", time="120 min", passing="720 of 1,000", source="Anthropic Partner Academy", url="https://anthropic-partners.skilljar.com/claude-certified-architect-foundations-certification"),
     cka=dict(questions="15 to 20 tasks", time="120 min", passing="66%", source="training.linuxfoundation.org", url="https://training.linuxfoundation.org/certification/certified-kubernetes-administrator-cka/"),
+    sy0801=dict(questions="Up to 90", time="90 min", passing="750 of 900", source="comptia.org", url="https://www.comptia.org/en-us/certifications/security/v8/"),
     ai901=dict(questions="See the exam page", time="See the exam page", passing="700 of 1,000", source="learn.microsoft.com", url="https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-901/"),
     az900=dict(questions="See the exam page", time="45 min", passing="700 of 1,000", source="learn.microsoft.com", url="https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/"),
     kcna=dict(questions="60", time="90 min", passing="75%", source="training.linuxfoundation.org", url="https://training.linuxfoundation.org/certification/kubernetes-cloud-native-associate/"),
@@ -289,6 +295,11 @@ NOTES = {
     "ai901": dict(root=OC / "AI-901" / "study-notes", glob="Module_*.md", qa=True, header="bold", kind="Module", link_word="Module",
                   groups=[("Start here", {"00"}), ("Identify AI concepts and capabilities (40-45%)", {"01", "02", "03", "04", "05"}),
                           ("Implement AI solutions by using Microsoft Foundry (55-60%)", {"06", "07", "08", "09", "10", "11", "12"}), ("Review and exam day", {"13"})]),
+    # Security+ SY0-801: the study notes of the course (OnlineCourses\Security-SY0-801\study-notes); grouped by exam domain
+    "sy0801": dict(root=OC / "Security-SY0-801" / "study-notes", glob="Module_*.md", qa=True, header="bold", kind="Module", link_word="Module",
+                   groups=[("Start here", {"00"}), ("General Security Concepts (16%)", {"01", "02", "03"}), ("Threats, Vulnerabilities, and Attacks (24%)", {"04", "05", "06", "07", "08"}),
+                           ("Security Architecture (19%)", {"09", "10", "11"}), ("Security Operations (27%)", {"12", "13", "14", "15", "16", "17"}),
+                           ("Security Program Management and Oversight (14%)", {"18", "19", "20"}), ("Review and exam day", {"21"})]),
     # AIGP: generated from the verified course slides by OnlineCourses\AIGP\make_study_notes.py (one note per module); the group is the domain of the Body of Knowledge
     "aigp": dict(root=OC / "AIGP" / "study-notes", glob="Module_*.md", qa=True, kind="Module", link_word="Module", group_from="Domain",
                  group_default={"00": "Start here", "14": "Review and exam day", "15": "Review and exam day"}),
