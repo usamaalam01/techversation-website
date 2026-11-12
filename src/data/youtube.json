@@ -18586,6 +18586,4089 @@
    ]
   ]
  },
+ "2jvQjzt5BfU": {
+  "course": "cka",
+  "key": "00-Exam-Orientation-and-the-Command-Line-Toolkit-part-1",
+  "title": "CKA Exam Prep Introduction: Exam Format, Environment and the kubectl Speed Kit | CKA",
+  "seconds": 596,
+  "published": "2026-11-11T09:27:19Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "What the exam is"
+   ],
+   [
+    76,
+    "What the exam is, continued"
+   ],
+   [
+    133,
+    "What the exam is, continued"
+   ],
+   [
+    149,
+    "Domain weights"
+   ],
+   [
+    155,
+    "Domain weights, continued"
+   ],
+   [
+    208,
+    "The exam environment"
+   ],
+   [
+    261,
+    "The exam environment, continued"
+   ],
+   [
+    305,
+    "The speed kit"
+   ],
+   [
+    327,
+    "The speed kit, continued"
+   ],
+   [
+    382,
+    "The speed kit, continued"
+   ],
+   [
+    428,
+    "The speed kit, continued"
+   ],
+   [
+    453,
+    "Imperative first, declarative when needed"
+   ],
+   [
+    476,
+    "Labels and selectors (they connect everything)"
+   ],
+   [
+    494,
+    "Labels and selectors (they connect everything), continued"
+   ],
+   [
+    506,
+    "JSONPath and custom columns (a frequent time-saver)"
+   ],
+   [
+    522,
+    "JSONPath and custom columns (a frequent time-saver), continued"
+   ],
+   [
+    548,
+    "A repeatable way to work every task"
+   ],
+   [
+    563,
+    "A repeatable way to work every task, continued"
+   ]
+  ]
+ },
+ "0vjVwDPhMfc": {
+  "course": "cka",
+  "key": "00-Exam-Orientation-and-the-Command-Line-Toolkit-part-2",
+  "title": "CKA Exam Prep Introduction: JSONPath, Dry-Run YAML, explain and Labels Labs | CKA",
+  "seconds": 508,
+  "published": "2026-11-11T09:27:27Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Lab 0.1: jsonpath nodes"
+   ],
+   [
+    33,
+    "Lab 0.1: jsonpath nodes, Solution"
+   ],
+   [
+    53,
+    "Lab 0.2: dry run yaml"
+   ],
+   [
+    91,
+    "Lab 0.2: dry run yaml, Solution"
+   ],
+   [
+    126,
+    "Lab 0.3: explain field"
+   ],
+   [
+    162,
+    "Lab 0.3: explain field, Solution"
+   ],
+   [
+    180,
+    "Lab 0.4: default namespace"
+   ],
+   [
+    214,
+    "Lab 0.4: default namespace, Solution"
+   ],
+   [
+    230,
+    "Lab 0.5: labels selectors"
+   ],
+   [
+    277,
+    "Lab 0.5: labels selectors, Solution"
+   ]
+  ]
+ },
+ "YQAdZr41U8s": {
+  "course": "cka",
+  "key": "01-Cluster-Architecture-and-Extension-Interfaces-part-1",
+  "title": "CKA Exam Prep Module 1 Part 1 of 2: Control Plane, Static Pods, Runtime and CNI, CSI, CRI | CKA",
+  "seconds": 622,
+  "published": "2026-11-11T09:28:05Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "The map of a cluster"
+   ],
+   [
+    77,
+    "The map of a cluster, continued"
+   ],
+   [
+    91,
+    "The map of a cluster, continued"
+   ],
+   [
+    139,
+    "The map of a cluster, continued"
+   ],
+   [
+    192,
+    "Static Pods"
+   ],
+   [
+    247,
+    "Static Pods, continued"
+   ],
+   [
+    263,
+    "Static Pods, continued"
+   ],
+   [
+    271,
+    "Where things live (kubeadm layout)"
+   ],
+   [
+    337,
+    "Where things live (kubeadm layout), continued"
+   ],
+   [
+    346,
+    "Container runtime and crictl"
+   ],
+   [
+    400,
+    "Extension interfaces: CNI, CSI, CRI"
+   ],
+   [
+    462,
+    "Extension interfaces: CNI, CSI, CRI, continued"
+   ],
+   [
+    488,
+    "Extension interfaces: CNI, CSI, CRI, continued"
+   ],
+   [
+    500,
+    "How a Pod gets created (the story)"
+   ],
+   [
+    508,
+    "How a Pod gets created (the story), continued"
+   ],
+   [
+    555,
+    "Lab 1.1: service cidr"
+   ],
+   [
+    592,
+    "Lab 1.1: service cidr, Solution"
+   ]
+  ]
+ },
+ "0_iGx0ty1DQ": {
+  "course": "cka",
+  "key": "01-Cluster-Architecture-and-Extension-Interfaces-part-2",
+  "title": "CKA Exam Prep Module 1 Part 2 of 2: Static Pods and crictl Hands-On Labs | Kubernetes Administrator",
+  "seconds": 569,
+  "published": "2026-11-11T09:28:09Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Lab 1.2: static pod"
+   ],
+   [
+    37,
+    "Lab 1.2: static pod, Solution"
+   ],
+   [
+    66,
+    "Lab 1.3: crictl container"
+   ],
+   [
+    99,
+    "Lab 1.3: crictl container, Solution"
+   ],
+   [
+    118,
+    "Lab 1.4: cni config"
+   ],
+   [
+    157,
+    "Lab 1.4: cni config, Solution"
+   ],
+   [
+    173,
+    "Lab 1.5: runtimeclass"
+   ],
+   [
+    207,
+    "Lab 1.5: runtimeclass, Solution"
+   ],
+   [
+    221,
+    "Lab 1.5: runtimeclass, Solution, continued"
+   ],
+   [
+    242,
+    "Lab 1.6: node versions"
+   ],
+   [
+    278,
+    "Lab 1.6: node versions, Solution"
+   ],
+   [
+    301,
+    "Lab 1.7: etcd image"
+   ],
+   [
+    337,
+    "Lab 1.7: etcd image, Solution"
+   ]
+  ]
+ },
+ "VsEL0-ZOx2s": {
+  "course": "cka",
+  "key": "02-RBAC-Service-Accounts-and-Kubeconfig-part-1",
+  "title": "CKA Exam Prep Module 2 Part 1 of 2: RBAC, Roles, Bindings, Service Accounts and can-i | CKA",
+  "seconds": 571,
+  "published": "2026-11-11T09:29:05Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "How a request is checked"
+   ],
+   [
+    92,
+    "How a request is checked, continued"
+   ],
+   [
+    122,
+    "The four objects"
+   ],
+   [
+    134,
+    "The four objects, continued"
+   ],
+   [
+    194,
+    "Fast commands (no YAML)"
+   ],
+   [
+    201,
+    "Fast commands (no YAML), continued"
+   ],
+   [
+    226,
+    "Test it: kubectl auth can-i"
+   ],
+   [
+    241,
+    "Test it: kubectl auth can-i, continued"
+   ],
+   [
+    251,
+    "A bug you will see: roleRef is immutable"
+   ],
+   [
+    286,
+    "Service accounts and tokens"
+   ],
+   [
+    294,
+    "Service accounts and tokens, continued"
+   ],
+   [
+    316,
+    "Give a person a kubeconfig (CertificateSigningRequest flow)"
+   ],
+   [
+    365,
+    "Give a person a kubeconfig (CertificateSigningRequest flow), continued"
+   ],
+   [
+    375,
+    "Give a person a kubeconfig (CertificateSigningRequest flow), continued"
+   ],
+   [
+    405,
+    "Lab 2.1: role binding"
+   ],
+   [
+    443,
+    "Lab 2.1: role binding, Solution"
+   ],
+   [
+    465,
+    "Lab 2.2: sa clusterrole"
+   ],
+   [
+    503,
+    "Lab 2.2: sa clusterrole, Solution"
+   ],
+   [
+    536,
+    "Lab 2.3: cluster wide read"
+   ]
+  ]
+ },
+ "NyyKyW0594Q": {
+  "course": "cka",
+  "key": "02-RBAC-Service-Accounts-and-Kubeconfig-part-2",
+  "title": "CKA Exam Prep Module 2 Part 2 of 2: Fix a RoleBinding and Create a User Certificate Labs | CKA",
+  "seconds": 560,
+  "published": "2026-11-11T09:29:31Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Lab 2.3: cluster wide read, Solution"
+   ],
+   [
+    23,
+    "Lab 2.4: fix rolebinding"
+   ],
+   [
+    67,
+    "Lab 2.4: fix rolebinding, Solution"
+   ],
+   [
+    94,
+    "Lab 2.5: user certificate"
+   ],
+   [
+    128,
+    "Lab 2.5: user certificate, continued"
+   ],
+   [
+    162,
+    "Lab 2.5: user certificate, Solution"
+   ],
+   [
+    195,
+    "Lab 2.5: user certificate, Solution, continued"
+   ],
+   [
+    281,
+    "Lab 2.6: sa token"
+   ],
+   [
+    321,
+    "Lab 2.6: sa token, Solution"
+   ]
+  ]
+ },
+ "ea3mrOELU4I": {
+  "course": "cka",
+  "key": "03-Cluster-Lifecycle-with-kubeadm-etcd-and-High-Availability-part-1",
+  "title": "CKA Exam Prep Module 3 Part 1 of 2: kubeadm, etcd Backup and Restore, Certificates and HA | CKA",
+  "seconds": 702,
+  "published": "2026-11-11T09:30:26Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "What Was Executed and What Is Reference Only"
+   ],
+   [
+    103,
+    "Prepare the infrastructure (Reference only, plus two checks you can run)"
+   ],
+   [
+    147,
+    "Prepare the infrastructure (Reference only, plus two checks you can run), continued"
+   ],
+   [
+    208,
+    "Create a cluster with kubeadm (Reference only)"
+   ],
+   [
+    220,
+    "Create a cluster with kubeadm (Reference only), continued"
+   ],
+   [
+    253,
+    "etcd backup and restore (executed)"
+   ],
+   [
+    270,
+    "etcd backup and restore (executed), continued"
+   ],
+   [
+    303,
+    "etcd backup and restore (executed), continued"
+   ],
+   [
+    317,
+    "etcd backup and restore (executed), continued"
+   ],
+   [
+    370,
+    "etcd backup and restore (executed), continued"
+   ],
+   [
+    384,
+    "Certificates"
+   ],
+   [
+    413,
+    "Certificates, continued"
+   ],
+   [
+    426,
+    "Lifecycle: upgrade (Reference only) and node maintenance (executed)"
+   ],
+   [
+    441,
+    "Lifecycle: upgrade (Reference only) and node maintenance (executed), continued"
+   ],
+   [
+    480,
+    "Lifecycle: upgrade (Reference only) and node maintenance (executed), continued"
+   ],
+   [
+    521,
+    "High availability (concept; Reference only)"
+   ],
+   [
+    581,
+    "Lab 3.1: etcd backup"
+   ],
+   [
+    621,
+    "Lab 3.1: etcd backup, Solution"
+   ],
+   [
+    649,
+    "Lab 3.2: etcd restore"
+   ]
+  ]
+ },
+ "lp0dRHfczcc": {
+  "course": "cka",
+  "key": "03-Cluster-Lifecycle-with-kubeadm-etcd-and-High-Availability-part-2",
+  "title": "CKA Exam Prep Module 3 Part 2 of 2: etcd, Certificates, Join Tokens and Drain Labs | CKA",
+  "seconds": 663,
+  "published": "2026-11-11T09:30:59Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Lab 3.2: etcd restore, Solution"
+   ],
+   [
+    53,
+    "Lab 3.3: cert expiry"
+   ],
+   [
+    96,
+    "Lab 3.3: cert expiry, Solution"
+   ],
+   [
+    122,
+    "Lab 3.4: join command"
+   ],
+   [
+    159,
+    "Lab 3.4: join command, Solution"
+   ],
+   [
+    180,
+    "Lab 3.5: drain node"
+   ],
+   [
+    220,
+    "Lab 3.5: drain node, Solution"
+   ],
+   [
+    241,
+    "Lab 3.6: etcd members"
+   ],
+   [
+    274,
+    "Lab 3.6: etcd members, Solution"
+   ],
+   [
+    301,
+    "Lab 3.7: node prereqs"
+   ],
+   [
+    343,
+    "Lab 3.7: node prereqs, Solution"
+   ],
+   [
+    369,
+    "Lab 3.8: kubeadm config"
+   ],
+   [
+    408,
+    "Lab 3.8: kubeadm config, Solution"
+   ]
+  ]
+ },
+ "BnT5Bli5EPc": {
+  "course": "cka",
+  "key": "04-Helm-Kustomize-CRDs-and-Operators-part-1",
+  "title": "CKA Exam Prep Module 4 Part 1 of 2: Helm, Kustomize, CRDs and Operators | Kubernetes Administrator",
+  "seconds": 530,
+  "published": "2026-11-11T09:31:27Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Helm in one page"
+   ],
+   [
+    93,
+    "Helm in one page, continued"
+   ],
+   [
+    139,
+    "Helm in one page, continued"
+   ],
+   [
+    187,
+    "Helm in one page, continued"
+   ],
+   [
+    220,
+    "Kustomize in one page"
+   ],
+   [
+    253,
+    "Kustomize in one page, continued"
+   ],
+   [
+    305,
+    "Helm or Kustomize?"
+   ],
+   [
+    333,
+    "CRDs"
+   ],
+   [
+    360,
+    "CRDs, continued"
+   ],
+   [
+    395,
+    "Operators"
+   ],
+   [
+    428,
+    "Lab 4.1: helm install"
+   ],
+   [
+    466,
+    "Lab 4.1: helm install, Solution"
+   ],
+   [
+    486,
+    "Lab 4.2: helm upgrade rollback"
+   ]
+  ]
+ },
+ "rWrqJ5c8GaQ": {
+  "course": "cka",
+  "key": "04-Helm-Kustomize-CRDs-and-Operators-part-2",
+  "title": "CKA Exam Prep Module 4 Part 2 of 2: Helm Values, Uninstall and Template Labs | CKA",
+  "seconds": 499,
+  "published": "2026-11-11T09:31:58Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Lab 4.2: helm upgrade rollback, Solution"
+   ],
+   [
+    29,
+    "Lab 4.3: helm values uninstall"
+   ],
+   [
+    67,
+    "Lab 4.3: helm values uninstall, Solution"
+   ],
+   [
+    91,
+    "Lab 4.4: helm template"
+   ],
+   [
+    123,
+    "Lab 4.4: helm template, Solution"
+   ],
+   [
+    144,
+    "Lab 4.5: kustomize overlay"
+   ],
+   [
+    192,
+    "Lab 4.5: kustomize overlay, Solution"
+   ],
+   [
+    230,
+    "Lab 4.6: crd custom resource"
+   ],
+   [
+    281,
+    "Lab 4.6: crd custom resource, Solution"
+   ]
+  ]
+ },
+ "fPhH_Wi37SA": {
+  "course": "cka",
+  "key": "05-Deployments-Configuration-and-Self-Healing-Workloads-part-1",
+  "title": "CKA Exam Prep Module 5 Part 1 of 2: Deployments, Rollouts, ConfigMaps, Secrets and Probes | CKA",
+  "seconds": 754,
+  "published": "2026-11-11T09:32:41Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Which workload object for which job"
+   ],
+   [
+    141,
+    "Which workload object for which job, continued"
+   ],
+   [
+    168,
+    "Rolling updates and rollbacks"
+   ],
+   [
+    204,
+    "Rolling updates and rollbacks, continued"
+   ],
+   [
+    224,
+    "Rolling updates and rollbacks, continued"
+   ],
+   [
+    265,
+    "ConfigMaps"
+   ],
+   [
+    278,
+    "ConfigMaps, continued"
+   ],
+   [
+    287,
+    "ConfigMaps, continued"
+   ],
+   [
+    304,
+    "Secrets"
+   ],
+   [
+    327,
+    "Secrets, continued"
+   ],
+   [
+    345,
+    "Self-healing primitives"
+   ],
+   [
+    390,
+    "Self-healing primitives, continued"
+   ],
+   [
+    434,
+    "Self-healing primitives, continued"
+   ],
+   [
+    441,
+    "Self-healing primitives, continued"
+   ],
+   [
+    467,
+    "StatefulSets in short"
+   ],
+   [
+    494,
+    "Jobs and CronJobs in short"
+   ],
+   [
+    516,
+    "Lab 5.1: rollback stuck update"
+   ],
+   [
+    552,
+    "Lab 5.1: rollback stuck update, Solution"
+   ],
+   [
+    575,
+    "Lab 5.2: rolling update strategy"
+   ],
+   [
+    612,
+    "Lab 5.2: rolling update strategy, Solution"
+   ],
+   [
+    641,
+    "Lab 5.3: configmap env volume"
+   ],
+   [
+    691,
+    "Lab 5.3: configmap env volume, Solution"
+   ],
+   [
+    716,
+    "Lab 5.3: configmap env volume, Solution, continued"
+   ]
+  ]
+ },
+ "6P3_2AtDAS8": {
+  "course": "cka",
+  "key": "05-Deployments-Configuration-and-Self-Healing-Workloads-part-2",
+  "title": "CKA Exam Prep Module 5 Part 2 of 2: Secrets, DaemonSets and Self-Healing Labs | CKA",
+  "seconds": 725,
+  "published": "2026-11-11T09:33:15Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Lab 5.4: secret env file"
+   ],
+   [
+    43,
+    "Lab 5.4: secret env file, Solution"
+   ],
+   [
+    69,
+    "Lab 5.4: secret env file, Solution, continued"
+   ],
+   [
+    99,
+    "Lab 5.5: daemonset"
+   ],
+   [
+    133,
+    "Lab 5.5: daemonset, Solution"
+   ],
+   [
+    159,
+    "Lab 5.6: statefulset"
+   ],
+   [
+    202,
+    "Lab 5.6: statefulset, Solution"
+   ],
+   [
+    217,
+    "Lab 5.6: statefulset, Solution, continued"
+   ],
+   [
+    246,
+    "Lab 5.7: job cronjob"
+   ],
+   [
+    285,
+    "Lab 5.7: job cronjob, Solution"
+   ],
+   [
+    316,
+    "Lab 5.8: add probes"
+   ],
+   [
+    364,
+    "Lab 5.8: add probes, Solution"
+   ],
+   [
+    392,
+    "Lab 5.9: fix liveness"
+   ],
+   [
+    431,
+    "Lab 5.9: fix liveness, Solution"
+   ],
+   [
+    466,
+    "Lab 5.10: pod disruption budget"
+   ],
+   [
+    505,
+    "Lab 5.10: pod disruption budget, Solution"
+   ]
+  ]
+ },
+ "3u4QgSAVMC8": {
+  "course": "cka",
+  "key": "06-Scheduling-Resources-and-Autoscaling-part-1",
+  "title": "CKA Exam Prep Module 6 Part 1 of 3: Scheduler, Requests and Limits, LimitRange and Quotas | CKA",
+  "seconds": 520,
+  "published": "2026-11-11T09:34:11Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "How scheduling works"
+   ],
+   [
+    72,
+    "How scheduling works, continued"
+   ],
+   [
+    104,
+    "Requests, limits and QoS"
+   ],
+   [
+    129,
+    "Requests, limits and QoS, continued"
+   ],
+   [
+    138,
+    "Requests, limits and QoS, continued"
+   ],
+   [
+    185,
+    "Requests, limits and QoS, continued"
+   ],
+   [
+    205,
+    "Pod admission controls: LimitRange and ResourceQuota"
+   ],
+   [
+    223,
+    "Pod admission controls: LimitRange and ResourceQuota, continued"
+   ],
+   [
+    244,
+    "Pod admission controls: LimitRange and ResourceQuota, continued"
+   ],
+   [
+    270,
+    "Choosing nodes"
+   ],
+   [
+    308,
+    "Choosing nodes, continued"
+   ],
+   [
+    315,
+    "Choosing nodes, continued"
+   ],
+   [
+    325,
+    "Choosing nodes, continued"
+   ],
+   [
+    350,
+    "Choosing nodes, continued"
+   ],
+   [
+    388,
+    "Taints and tolerations"
+   ],
+   [
+    421,
+    "Taints and tolerations, continued"
+   ],
+   [
+    428,
+    "Taints and tolerations, continued"
+   ],
+   [
+    436,
+    "Taints and tolerations, continued"
+   ],
+   [
+    459,
+    "Workload autoscaling"
+   ],
+   [
+    481,
+    "Workload autoscaling, continued"
+   ]
+  ]
+ },
+ "xJXBBhDf6L4": {
+  "course": "cka",
+  "key": "06-Scheduling-Resources-and-Autoscaling-part-2",
+  "title": "CKA Exam Prep Module 6 Part 2 of 3: Requests, Limits, LimitRange and Node Affinity Labs | CKA",
+  "seconds": 486,
+  "published": "2026-11-11T09:34:14Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Lab 6.1: requests limits"
+   ],
+   [
+    36,
+    "Lab 6.1: requests limits, Solution"
+   ],
+   [
+    89,
+    "Lab 6.2: limitrange defaults"
+   ],
+   [
+    135,
+    "Lab 6.2: limitrange defaults, Solution"
+   ],
+   [
+    170,
+    "Lab 6.3: resourcequota"
+   ],
+   [
+    217,
+    "Lab 6.3: resourcequota, Solution"
+   ],
+   [
+    267,
+    "Lab 6.4: nodeselector"
+   ],
+   [
+    302,
+    "Lab 6.4: nodeselector, Solution"
+   ],
+   [
+    334,
+    "Lab 6.5: node affinity"
+   ],
+   [
+    374,
+    "Lab 6.5: node affinity, Solution"
+   ],
+   [
+    389,
+    "Lab 6.5: node affinity, Solution, continued"
+   ],
+   [
+    419,
+    "Lab 6.6: taint toleration"
+   ],
+   [
+    457,
+    "Lab 6.6: taint toleration, Solution"
+   ]
+  ]
+ },
+ "CB-fDtBYid8": {
+  "course": "cka",
+  "key": "06-Scheduling-Resources-and-Autoscaling-part-3",
+  "title": "CKA Exam Prep Module 6 Part 3 of 3: Pod Anti-Affinity, Taints and Pending Pod Labs | CKA",
+  "seconds": 550,
+  "published": "2026-11-11T09:34:48Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Lab 6.7: pod anti affinity"
+   ],
+   [
+    39,
+    "Lab 6.7: pod anti affinity, Solution"
+   ],
+   [
+    55,
+    "Lab 6.7: pod anti affinity, Solution, continued"
+   ],
+   [
+    85,
+    "Lab 6.8: fix pending pod"
+   ],
+   [
+    127,
+    "Lab 6.8: fix pending pod, Solution"
+   ],
+   [
+    161,
+    "Lab 6.9: hpa"
+   ],
+   [
+    208,
+    "Lab 6.9: hpa, Solution"
+   ],
+   [
+    254,
+    "Lab 6.10: topology spread"
+   ],
+   [
+    306,
+    "Lab 6.10: topology spread, Solution"
+   ],
+   [
+    321,
+    "Lab 6.10: topology spread, Solution, continued"
+   ]
+  ]
+ },
+ "JVJeSTx3GBE": {
+  "course": "cka",
+  "key": "07-Services-and-Pod-Connectivity-part-1",
+  "title": "CKA Exam Prep Module 7 Part 1 of 2: Services, Endpoints, DNS Names and Pod Networking | CKA",
+  "seconds": 595,
+  "published": "2026-11-11T09:35:25Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "The networking rules of Kubernetes"
+   ],
+   [
+    104,
+    "Service types"
+   ],
+   [
+    180,
+    "Service types, continued"
+   ],
+   [
+    202,
+    "Service types, continued"
+   ],
+   [
+    209,
+    "Service types, continued"
+   ],
+   [
+    242,
+    "Endpoints: what a Service actually points at"
+   ],
+   [
+    270,
+    "Endpoints: what a Service actually points at, continued"
+   ],
+   [
+    310,
+    "Service DNS names"
+   ],
+   [
+    335,
+    "Service DNS names, continued"
+   ],
+   [
+    366,
+    "How Services work on the node (short)"
+   ],
+   [
+    395,
+    "A fast way to test connectivity"
+   ],
+   [
+    409,
+    "A fast way to test connectivity, continued"
+   ],
+   [
+    424,
+    "Lab 7.1: clusterip service"
+   ],
+   [
+    461,
+    "Lab 7.1: clusterip service, Solution"
+   ],
+   [
+    481,
+    "Lab 7.2: nodeport service"
+   ],
+   [
+    515,
+    "Lab 7.2: nodeport service, Solution"
+   ],
+   [
+    550,
+    "Lab 7.3: fix service selector"
+   ]
+  ]
+ },
+ "3AURspFfCd4": {
+  "course": "cka",
+  "key": "07-Services-and-Pod-Connectivity-part-2",
+  "title": "CKA Exam Prep Module 7 Part 2 of 2: Endpoints and LoadBalancer Service Labs | CKA",
+  "seconds": 552,
+  "published": "2026-11-11T09:35:49Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Lab 7.3: fix service selector, Solution"
+   ],
+   [
+    33,
+    "Lab 7.4: endpoint ips"
+   ],
+   [
+    69,
+    "Lab 7.4: endpoint ips, Solution"
+   ],
+   [
+    96,
+    "Lab 7.5: loadbalancer service"
+   ],
+   [
+    135,
+    "Lab 7.5: loadbalancer service, Solution"
+   ],
+   [
+    157,
+    "Lab 7.6: externalname"
+   ],
+   [
+    191,
+    "Lab 7.6: externalname, Solution"
+   ],
+   [
+    210,
+    "Lab 7.7: cross namespace dns"
+   ],
+   [
+    257,
+    "Lab 7.7: cross namespace dns, Solution"
+   ],
+   [
+    285,
+    "Lab 7.8: multiport service"
+   ],
+   [
+    330,
+    "Lab 7.8: multiport service, Solution"
+   ]
+  ]
+ },
+ "sWYbsFpdqSI": {
+  "course": "cka",
+  "key": "08-DNS-Ingress-and-Gateway-API-part-1",
+  "title": "CKA Exam Prep Module 8 Part 1 of 3: CoreDNS, the Corefile and Cluster DNS | Kubernetes Administrator",
+  "seconds": 554,
+  "published": "2026-11-11T09:36:26Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "CoreDNS"
+   ],
+   [
+    109,
+    "CoreDNS, continued"
+   ],
+   [
+    153,
+    "CoreDNS, continued"
+   ],
+   [
+    160,
+    "CoreDNS, continued"
+   ],
+   [
+    216,
+    "Ingress: HTTP routing into the cluster"
+   ],
+   [
+    250,
+    "Ingress: HTTP routing into the cluster, continued"
+   ],
+   [
+    259,
+    "Ingress: HTTP routing into the cluster, continued"
+   ],
+   [
+    282,
+    "Ingress: HTTP routing into the cluster, continued"
+   ],
+   [
+    329,
+    "Ingress: HTTP routing into the cluster, continued"
+   ],
+   [
+    338,
+    "Ingress: HTTP routing into the cluster, continued"
+   ],
+   [
+    357,
+    "Gateway API: the successor to Ingress"
+   ],
+   [
+    371,
+    "Gateway API: the successor to Ingress, continued"
+   ],
+   [
+    419,
+    "Gateway API: the successor to Ingress, continued"
+   ],
+   [
+    428,
+    "Gateway API: the successor to Ingress, continued"
+   ],
+   [
+    437,
+    "Gateway API: the successor to Ingress, continued"
+   ],
+   [
+    467,
+    "Gateway API: the successor to Ingress, continued"
+   ],
+   [
+    510,
+    "Lab 8.1: dns server ip"
+   ]
+  ]
+ },
+ "wxUemK8IiHw": {
+  "course": "cka",
+  "key": "08-DNS-Ingress-and-Gateway-API-part-2",
+  "title": "CKA Exam Prep Module 8 Part 2 of 3: CoreDNS Upstream and Custom Host Labs | Kubernetes Administrator",
+  "seconds": 471,
+  "published": "2026-11-11T09:36:45Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Lab 8.1: dns server ip, Solution"
+   ],
+   [
+    32,
+    "Lab 8.2: coredns upstream"
+   ],
+   [
+    76,
+    "Lab 8.2: coredns upstream, Solution"
+   ],
+   [
+    102,
+    "Lab 8.3: coredns custom host"
+   ],
+   [
+    148,
+    "Lab 8.3: coredns custom host, Solution"
+   ],
+   [
+    211,
+    "Lab 8.4: fix dns down"
+   ],
+   [
+    247,
+    "Lab 8.4: fix dns down, Solution"
+   ],
+   [
+    281,
+    "Lab 8.5: ingress host routing"
+   ],
+   [
+    324,
+    "Lab 8.5: ingress host routing, Solution"
+   ],
+   [
+    352,
+    "Lab 8.6: ingress tls"
+   ],
+   [
+    397,
+    "Lab 8.6: ingress tls, Solution"
+   ],
+   [
+    432,
+    "Lab 8.7: fix ingress class"
+   ]
+  ]
+ },
+ "zfhT3Kszhnw": {
+  "course": "cka",
+  "key": "08-DNS-Ingress-and-Gateway-API-part-3",
+  "title": "CKA Exam Prep Module 8 Part 3 of 3: Ingress and Gateway API HTTPRoute Labs | CKA",
+  "seconds": 520,
+  "published": "2026-11-11T09:38:07Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Lab 8.7: fix ingress class, Solution"
+   ],
+   [
+    27,
+    "Lab 8.8: fix ingress backend"
+   ],
+   [
+    64,
+    "Lab 8.8: fix ingress backend, Solution"
+   ],
+   [
+    97,
+    "Lab 8.9: gateway httproute"
+   ],
+   [
+    142,
+    "Lab 8.9: gateway httproute, Solution"
+   ],
+   [
+    161,
+    "Lab 8.9: gateway httproute, Solution, continued"
+   ],
+   [
+    194,
+    "Lab 8.10: fix httproute"
+   ],
+   [
+    232,
+    "Lab 8.10: fix httproute, Solution"
+   ],
+   [
+    262,
+    "Lab 8.11: httproute weights"
+   ],
+   [
+    302,
+    "Lab 8.11: httproute weights, Solution"
+   ]
+  ]
+ },
+ "IiBm4sCbK3s": {
+  "course": "cka",
+  "key": "09-Network-Policies-part-1",
+  "title": "CKA Exam Prep Module 9 Part 1 of 2: Network Policies: Model, Selectors and AND vs OR | CKA",
+  "seconds": 456,
+  "published": "2026-11-11T09:37:35Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "The model in six sentences"
+   ],
+   [
+    103,
+    "Anatomy"
+   ],
+   [
+    110,
+    "Anatomy, continued"
+   ],
+   [
+    139,
+    "The AND versus OR trap (most tested detail)"
+   ],
+   [
+    151,
+    "The AND versus OR trap (most tested detail), continued"
+   ],
+   [
+    160,
+    "The AND versus OR trap (most tested detail), continued"
+   ],
+   [
+    168,
+    "The AND versus OR trap (most tested detail), continued"
+   ],
+   [
+    183,
+    "Common recipes"
+   ],
+   [
+    201,
+    "Common recipes, continued"
+   ],
+   [
+    246,
+    "Common recipes, continued"
+   ],
+   [
+    253,
+    "Reading and debugging"
+   ],
+   [
+    267,
+    "Reading and debugging, continued"
+   ],
+   [
+    295,
+    "Lab 9.1: default deny"
+   ],
+   [
+    334,
+    "Lab 9.1: default deny, Solution"
+   ],
+   [
+    351,
+    "Lab 9.2: allow from namespace"
+   ],
+   [
+    396,
+    "Lab 9.2: allow from namespace, Solution"
+   ],
+   [
+    413,
+    "Lab 9.3: egress policy"
+   ]
+  ]
+ },
+ "sKFYde-q_pw": {
+  "course": "cka",
+  "key": "09-Network-Policies-part-2",
+  "title": "CKA Exam Prep Module 9 Part 2 of 2: Fix Network Policy Labels and AND vs OR Labs | CKA",
+  "seconds": 436,
+  "published": "2026-11-11T09:38:06Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Lab 9.3: egress policy, Solution"
+   ],
+   [
+    17,
+    "Lab 9.4: fix policy labels"
+   ],
+   [
+    60,
+    "Lab 9.4: fix policy labels, Solution"
+   ],
+   [
+    93,
+    "Lab 9.5: and vs or selectors"
+   ],
+   [
+    136,
+    "Lab 9.5: and vs or selectors, Solution"
+   ],
+   [
+    154,
+    "Lab 9.6: deny all allow dns"
+   ],
+   [
+    205,
+    "Lab 9.6: deny all allow dns, Solution"
+   ],
+   [
+    220,
+    "Lab 9.6: deny all allow dns, Solution, continued"
+   ]
+  ]
+ },
+ "lTO0rPxTt3k": {
+  "course": "cka",
+  "key": "10-Storage-part-1",
+  "title": "CKA Exam Prep Module 10 Part 1 of 3: PersistentVolumes, PVCs, StorageClass and Reclaim Policy | CKA",
+  "seconds": 569,
+  "published": "2026-11-11T09:38:46Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "The storage objects"
+   ],
+   [
+    76,
+    "The storage objects, continued"
+   ],
+   [
+    131,
+    "Volume types you must know"
+   ],
+   [
+    170,
+    "Static provisioning (admin creates the PV)"
+   ],
+   [
+    179,
+    "Static provisioning (admin creates the PV), continued"
+   ],
+   [
+    216,
+    "Dynamic provisioning with a StorageClass"
+   ],
+   [
+    231,
+    "Dynamic provisioning with a StorageClass, continued"
+   ],
+   [
+    265,
+    "Dynamic provisioning with a StorageClass, continued"
+   ],
+   [
+    294,
+    "Access modes and reclaim policies"
+   ],
+   [
+    351,
+    "Access modes and reclaim policies, continued"
+   ],
+   [
+    375,
+    "Use a PVC in a Pod"
+   ],
+   [
+    383,
+    "Use a PVC in a Pod, continued"
+   ],
+   [
+    395,
+    "Troubleshooting storage (break-and-fix patterns)"
+   ],
+   [
+    465,
+    "Troubleshooting storage (break-and-fix patterns), continued"
+   ],
+   [
+    480,
+    "Lab 10.1: dynamic pvc"
+   ],
+   [
+    524,
+    "Lab 10.1: dynamic pvc, Solution"
+   ],
+   [
+    539,
+    "Lab 10.1: dynamic pvc, Solution, continued"
+   ]
+  ]
+ },
+ "LHQw3Eddbuc": {
+  "course": "cka",
+  "key": "10-Storage-part-2",
+  "title": "CKA Exam Prep Module 10 Part 2 of 3: Static PV, PVC and Default StorageClass Labs | CKA",
+  "seconds": 572,
+  "published": "2026-11-11T09:39:12Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Lab 10.2: static pv pvc"
+   ],
+   [
+    45,
+    "Lab 10.2: static pv pvc, Solution"
+   ],
+   [
+    59,
+    "Lab 10.2: static pv pvc, Solution, continued"
+   ],
+   [
+    78,
+    "Lab 10.3: storageclass default"
+   ],
+   [
+    119,
+    "Lab 10.3: storageclass default, Solution"
+   ],
+   [
+    144,
+    "Lab 10.4: reclaim retain"
+   ],
+   [
+    185,
+    "Lab 10.4: reclaim retain, Solution"
+   ],
+   [
+    212,
+    "Lab 10.5: emptydir shared"
+   ],
+   [
+    258,
+    "Lab 10.5: emptydir shared, Solution"
+   ],
+   [
+    273,
+    "Lab 10.5: emptydir shared, Solution, continued"
+   ],
+   [
+    301,
+    "Lab 10.6: fix pending pvc"
+   ],
+   [
+    344,
+    "Lab 10.6: fix pending pvc, Solution"
+   ],
+   [
+    385,
+    "Lab 10.6: fix pending pvc, Solution, continued"
+   ],
+   [
+    414,
+    "Lab 10.7: fix access mode"
+   ],
+   [
+    456,
+    "Lab 10.7: fix access mode, Solution"
+   ],
+   [
+    491,
+    "Lab 10.8: pvc persists"
+   ],
+   [
+    537,
+    "Lab 10.8: pvc persists, Solution"
+   ]
+  ]
+ },
+ "WPwnRZgap0o": {
+  "course": "cka",
+  "key": "10-Storage-part-3",
+  "title": "CKA Exam Prep Module 10 Part 3 of 3: Released PV Reuse and hostPath Volume Labs | CKA",
+  "seconds": 557,
+  "published": "2026-11-11T09:39:47Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Lab 10.9: released pv reuse"
+   ],
+   [
+    44,
+    "Lab 10.9: released pv reuse, Solution"
+   ],
+   [
+    74,
+    "Lab 10.10: hostpath volume"
+   ],
+   [
+    122,
+    "Lab 10.10: hostpath volume, Solution"
+   ],
+   [
+    159,
+    "Lab 10.11: pvc readonly"
+   ],
+   [
+    201,
+    "Lab 10.11: pvc readonly, Solution"
+   ],
+   [
+    230,
+    "Lab 10.12: statefulset claims"
+   ],
+   [
+    279,
+    "Lab 10.12: statefulset claims, Solution"
+   ],
+   [
+    295,
+    "Lab 10.12: statefulset claims, Solution, continued"
+   ],
+   [
+    324,
+    "Lab 10.12: statefulset claims, Solution, continued"
+   ]
+  ]
+ },
+ "C40IMaCfvtE": {
+  "course": "cka",
+  "key": "11-Troubleshooting-Applications-and-Container-Logs-part-1",
+  "title": "CKA Exam Prep Module 11 Part 1 of 2: Troubleshooting Pods: Status Words, describe and Logs | CKA",
+  "seconds": 700,
+  "published": "2026-11-11T09:40:53Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "The method: top-down, one command at a time"
+   ],
+   [
+    73,
+    "The method: top-down, one command at a time, continued"
+   ],
+   [
+    131,
+    "Pod status words and what they mean"
+   ],
+   [
+    204,
+    "Pod status words and what they mean, continued"
+   ],
+   [
+    265,
+    "Pod status words and what they mean, continued"
+   ],
+   [
+    293,
+    "Reading logs: every variant"
+   ],
+   [
+    307,
+    "Reading logs: every variant, continued"
+   ],
+   [
+    346,
+    "Reading logs: every variant, continued"
+   ],
+   [
+    379,
+    "Break-and-fix catalog (all executed in this module's labs)"
+   ],
+   [
+    456,
+    "Break-and-fix catalog (all executed in this module's labs), continued"
+   ],
+   [
+    520,
+    "Useful debugging tools"
+   ],
+   [
+    534,
+    "Lab 11.1: container logs"
+   ],
+   [
+    568,
+    "Lab 11.1: container logs, Solution"
+   ],
+   [
+    590,
+    "Lab 11.2: previous logs"
+   ],
+   [
+    626,
+    "Lab 11.2: previous logs, Solution"
+   ],
+   [
+    666,
+    "Lab 11.3: fix image pull"
+   ]
+  ]
+ },
+ "P-bQO25c5i0": {
+  "course": "cka",
+  "key": "11-Troubleshooting-Applications-and-Container-Logs-part-2",
+  "title": "CKA Exam Prep Module 11 Part 2 of 2: Missing Env, ConfigMap and Init Container Fix Labs | CKA",
+  "seconds": 661,
+  "published": "2026-11-11T09:40:51Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Lab 11.3: fix image pull, Solution"
+   ],
+   [
+    28,
+    "Lab 11.4: fix missing env"
+   ],
+   [
+    66,
+    "Lab 11.4: fix missing env, Solution"
+   ],
+   [
+    93,
+    "Lab 11.5: fix missing configmap"
+   ],
+   [
+    133,
+    "Lab 11.5: fix missing configmap, Solution"
+   ],
+   [
+    163,
+    "Lab 11.6: oomkilled"
+   ],
+   [
+    205,
+    "Lab 11.6: oomkilled, Solution"
+   ],
+   [
+    246,
+    "Lab 11.7: fix init container"
+   ],
+   [
+    289,
+    "Lab 11.7: fix init container, Solution"
+   ],
+   [
+    322,
+    "Lab 11.8: fix wrong command"
+   ],
+   [
+    363,
+    "Lab 11.8: fix wrong command, Solution"
+   ],
+   [
+    399,
+    "Lab 11.9: logs by label"
+   ],
+   [
+    440,
+    "Lab 11.9: logs by label, Solution"
+   ]
+  ]
+ },
+ "cPHC4PBLT_I": {
+  "course": "cka",
+  "key": "12-Troubleshooting-Clusters-Nodes-and-Components-part-1",
+  "title": "CKA Exam Prep Module 12 Part 1 of 3: Troubleshooting Nodes: kubelet, Runtime and Control Plane | CKA",
+  "seconds": 528,
+  "published": "2026-11-11T09:41:22Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "First look at the cluster"
+   ],
+   [
+    64,
+    "First look at the cluster, continued"
+   ],
+   [
+    71,
+    "First look at the cluster, continued"
+   ],
+   [
+    136,
+    "The node: kubelet and container runtime"
+   ],
+   [
+    160,
+    "The node: kubelet and container runtime, continued"
+   ],
+   [
+    218,
+    "The node: kubelet and container runtime, continued"
+   ],
+   [
+    256,
+    "The node: kubelet and container runtime, continued"
+   ],
+   [
+    289,
+    "The control plane: static Pods and crictl"
+   ],
+   [
+    325,
+    "The control plane: static Pods and crictl, continued"
+   ],
+   [
+    335,
+    "The control plane: static Pods and crictl, continued"
+   ],
+   [
+    356,
+    "The control plane: static Pods and crictl, continued"
+   ],
+   [
+    430,
+    "Your own access: kubeconfig problems"
+   ],
+   [
+    452,
+    "Your own access: kubeconfig problems, continued"
+   ],
+   [
+    475,
+    "Not broken, just switched off"
+   ],
+   [
+    507,
+    "Certificates (quick check)"
+   ]
+  ]
+ },
+ "yUC0amm2S58": {
+  "course": "cka",
+  "key": "12-Troubleshooting-Clusters-Nodes-and-Components-part-2",
+  "title": "CKA Exam Prep Module 12 Part 2 of 3: kubelet, API Server and Kubeconfig Failure Labs | CKA",
+  "seconds": 453,
+  "published": "2026-11-11T09:41:55Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "A checklist for any \"cluster is broken\" task"
+   ],
+   [
+    40,
+    "Lab 12.1: kubelet stopped"
+   ],
+   [
+    81,
+    "Lab 12.1: kubelet stopped, Solution"
+   ],
+   [
+    107,
+    "Lab 12.2: kubelet config"
+   ],
+   [
+    144,
+    "Lab 12.2: kubelet config, Solution"
+   ],
+   [
+    182,
+    "Lab 12.3: apiserver etcd flag"
+   ],
+   [
+    223,
+    "Lab 12.3: apiserver etcd flag, Solution"
+   ],
+   [
+    278,
+    "Lab 12.4: apiserver cert path"
+   ],
+   [
+    320,
+    "Lab 12.4: apiserver cert path, Solution"
+   ],
+   [
+    366,
+    "Lab 12.5: scheduler broken"
+   ],
+   [
+    405,
+    "Lab 12.5: scheduler broken, Solution"
+   ]
+  ]
+ },
+ "YrDGV4rfy9E": {
+  "course": "cka",
+  "key": "12-Troubleshooting-Clusters-Nodes-and-Components-part-3",
+  "title": "CKA Exam Prep Module 12 Part 3 of 3: Scheduler, Controller Manager and containerd Labs | CKA",
+  "seconds": 509,
+  "published": "2026-11-11T09:42:17Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Lab 12.6: controller manager broken"
+   ],
+   [
+    37,
+    "Lab 12.6: controller manager broken, Solution"
+   ],
+   [
+    85,
+    "Lab 12.7: containerd stopped"
+   ],
+   [
+    119,
+    "Lab 12.7: containerd stopped, Solution"
+   ],
+   [
+    153,
+    "Lab 12.8: kubeconfig wrong server"
+   ],
+   [
+    196,
+    "Lab 12.8: kubeconfig wrong server, Solution"
+   ],
+   [
+    233,
+    "Lab 12.9: cordoned nodes"
+   ],
+   [
+    269,
+    "Lab 12.9: cordoned nodes, Solution"
+   ]
+  ]
+ },
+ "dytmyAK-Mxg": {
+  "course": "cka",
+  "key": "13-Troubleshooting-Services-and-Networking-Monitoring-Resource-Usage-part-1",
+  "title": "CKA Exam Prep Module 13 Part 1 of 2: Troubleshooting Services, DNS and Resource Usage | CKA",
+  "seconds": 614,
+  "published": "2026-11-11T09:43:04Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Service troubleshooting: walk the path"
+   ],
+   [
+    70,
+    "Service troubleshooting: walk the path, continued"
+   ],
+   [
+    89,
+    "Service troubleshooting: walk the path, continued"
+   ],
+   [
+    146,
+    "Service troubleshooting: walk the path, continued"
+   ],
+   [
+    192,
+    "Service troubleshooting: walk the path, continued"
+   ],
+   [
+    233,
+    "Service troubleshooting: walk the path, continued"
+   ],
+   [
+    255,
+    "Readiness: Running is not Ready"
+   ],
+   [
+    287,
+    "DNS troubleshooting"
+   ],
+   [
+    295,
+    "DNS troubleshooting, continued"
+   ],
+   [
+    360,
+    "Other network faults to recognize"
+   ],
+   [
+    408,
+    "Monitoring resource usage"
+   ],
+   [
+    431,
+    "Monitoring resource usage, continued"
+   ],
+   [
+    474,
+    "Monitoring resource usage, continued"
+   ],
+   [
+    502,
+    "Lab 13.1: top pods"
+   ],
+   [
+    539,
+    "Lab 13.1: top pods, Solution"
+   ],
+   [
+    566,
+    "Lab 13.2: fix metrics server"
+   ]
+  ]
+ },
+ "syE1lHLULz4": {
+  "course": "cka",
+  "key": "13-Troubleshooting-Services-and-Networking-Monitoring-Resource-Usage-part-2",
+  "title": "CKA Exam Prep Module 13 Part 2 of 2: Readiness, targetPort and Monitoring Labs | CKA",
+  "seconds": 599,
+  "published": "2026-11-11T09:43:43Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Lab 13.2: fix metrics server, Solution"
+   ],
+   [
+    49,
+    "Lab 13.3: readiness no endpoints"
+   ],
+   [
+    92,
+    "Lab 13.3: readiness no endpoints, Solution"
+   ],
+   [
+    130,
+    "Lab 13.4: wrong targetport"
+   ],
+   [
+    172,
+    "Lab 13.4: wrong targetport, Solution"
+   ],
+   [
+    204,
+    "Lab 13.5: pod dns policy"
+   ],
+   [
+    248,
+    "Lab 13.5: pod dns policy, Solution"
+   ],
+   [
+    298,
+    "Lab 13.6: coredns bad corefile"
+   ],
+   [
+    343,
+    "Lab 13.6: coredns bad corefile, Solution"
+   ]
+  ]
+ },
+ "GBdfCOxfy_U": {
+  "course": "cka",
+  "key": "14-Timed-Mixed-Lab-Set-A-part-1",
+  "title": "CKA Exam Prep Module 14 Part 1 of 2: Timed Mixed Lab Set A, Tasks 1 to 8 | Kubernetes Administrator",
+  "seconds": 701,
+  "published": "2026-11-11T09:44:15Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "How to use this set"
+   ],
+   [
+    106,
+    "How to use this set, continued"
+   ],
+   [
+    129,
+    "Review after the set"
+   ],
+   [
+    155,
+    "Task 1: Troubleshooting"
+   ],
+   [
+    195,
+    "Task 1: Solution"
+   ],
+   [
+    222,
+    "Task 2: Troubleshooting"
+   ],
+   [
+    254,
+    "Task 2: Solution"
+   ],
+   [
+    283,
+    "Task 3: Troubleshooting"
+   ],
+   [
+    325,
+    "Task 3: Solution"
+   ],
+   [
+    363,
+    "Task 4: Troubleshooting"
+   ],
+   [
+    405,
+    "Task 4: Solution"
+   ],
+   [
+    446,
+    "Task 5: Troubleshooting"
+   ],
+   [
+    483,
+    "Task 5: Solution"
+   ],
+   [
+    531,
+    "Task 6: Architecture"
+   ],
+   [
+    568,
+    "Task 6: Solution"
+   ],
+   [
+    591,
+    "Task 7: Architecture"
+   ],
+   [
+    630,
+    "Task 7: Solution"
+   ],
+   [
+    657,
+    "Task 8: Architecture"
+   ]
+  ]
+ },
+ "rhVSptw1dM4": {
+  "course": "cka",
+  "key": "14-Timed-Mixed-Lab-Set-A-part-2",
+  "title": "CKA Exam Prep Module 14 Part 2 of 2: Timed Mixed Lab Set A, Tasks 9 to 16 | Kubernetes Administrator",
+  "seconds": 723,
+  "published": "2026-11-11T09:44:38Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Task 8: Solution"
+   ],
+   [
+    29,
+    "Task 9: Troubleshooting"
+   ],
+   [
+    73,
+    "Task 9: Solution"
+   ],
+   [
+    99,
+    "Task 10: Networking"
+   ],
+   [
+    132,
+    "Task 10: Solution"
+   ],
+   [
+    168,
+    "Task 11: Networking"
+   ],
+   [
+    211,
+    "Task 11: Solution"
+   ],
+   [
+    229,
+    "Task 12: Troubleshooting"
+   ],
+   [
+    264,
+    "Task 12: Solution"
+   ],
+   [
+    299,
+    "Task 13: Workloads"
+   ],
+   [
+    334,
+    "Task 13: Solution"
+   ],
+   [
+    357,
+    "Task 14: Workloads"
+   ],
+   [
+    397,
+    "Task 14: Solution"
+   ],
+   [
+    412,
+    "Task 14: Solution, continued"
+   ],
+   [
+    440,
+    "Task 15: Storage"
+   ],
+   [
+    483,
+    "Task 15: Solution"
+   ],
+   [
+    498,
+    "Task 15: Solution, continued"
+   ],
+   [
+    526,
+    "Task 16: Storage"
+   ],
+   [
+    568,
+    "Task 16: Solution"
+   ]
+  ]
+ },
+ "riOlkeoiENI": {
+  "course": "cka",
+  "key": "15-Timed-Mixed-Lab-Set-B-part-1",
+  "title": "CKA Exam Prep Module 15 Part 1 of 2: Timed Mixed Lab Set B, Rules and Tasks 1 to 8 | CKA",
+  "seconds": 706,
+  "published": "2026-11-11T09:45:17Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "How to use this set"
+   ],
+   [
+    96,
+    "Review after the set"
+   ],
+   [
+    119,
+    "Task 1: Troubleshooting"
+   ],
+   [
+    155,
+    "Task 1: Solution"
+   ],
+   [
+    193,
+    "Task 2: Troubleshooting"
+   ],
+   [
+    230,
+    "Task 2: Solution"
+   ],
+   [
+    257,
+    "Task 3: Troubleshooting"
+   ],
+   [
+    298,
+    "Task 3: Solution"
+   ],
+   [
+    330,
+    "Task 4: Troubleshooting"
+   ],
+   [
+    373,
+    "Task 4: Solution"
+   ],
+   [
+    406,
+    "Task 5: Troubleshooting"
+   ],
+   [
+    441,
+    "Task 5: Solution"
+   ],
+   [
+    490,
+    "Task 6: Architecture"
+   ],
+   [
+    527,
+    "Task 6: Solution"
+   ],
+   [
+    560,
+    "Task 7: Architecture"
+   ],
+   [
+    600,
+    "Task 7: Solution"
+   ],
+   [
+    621,
+    "Task 8: Architecture"
+   ],
+   [
+    667,
+    "Task 8: Solution"
+   ]
+  ]
+ },
+ "a71sctIXQZE": {
+  "course": "cka",
+  "key": "15-Timed-Mixed-Lab-Set-B-part-2",
+  "title": "CKA Exam Prep Module 15 Part 2 of 2: Timed Mixed Lab Set B, Tasks 9 to 16 and Review | CKA",
+  "seconds": 747,
+  "published": "2026-11-11T09:45:57Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Task 9: Architecture"
+   ],
+   [
+    37,
+    "Task 9: Solution"
+   ],
+   [
+    65,
+    "Task 10: Troubleshooting"
+   ],
+   [
+    108,
+    "Task 10: Solution"
+   ],
+   [
+    141,
+    "Task 11: Networking"
+   ],
+   [
+    182,
+    "Task 11: Solution"
+   ],
+   [
+    200,
+    "Task 12: Troubleshooting"
+   ],
+   [
+    242,
+    "Task 12: Solution"
+   ],
+   [
+    292,
+    "Task 13: Workloads"
+   ],
+   [
+    340,
+    "Task 13: Solution"
+   ],
+   [
+    368,
+    "Task 14: Workloads"
+   ],
+   [
+    406,
+    "Task 14: Solution"
+   ],
+   [
+    434,
+    "Task 15: Troubleshooting"
+   ],
+   [
+    476,
+    "Task 15: Solution"
+   ],
+   [
+    517,
+    "Task 15: Solution, continued"
+   ],
+   [
+    545,
+    "Task 16: Storage"
+   ],
+   [
+    589,
+    "Task 16: Solution"
+   ],
+   [
+    603,
+    "Task 16: Solution, continued"
+   ]
+  ]
+ },
+ "pQitxEww2v4": {
+  "course": "cka",
+  "key": "16-Exam-Technique-and-Final-Review-part-1",
+  "title": "CKA Exam Prep Module 16: Exam Technique: Time Budget, Routine, Docs and Common Traps | CKA",
+  "seconds": 691,
+  "published": "2026-11-11T09:46:27Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "The time budget"
+   ],
+   [
+    67,
+    "The time budget, continued"
+   ],
+   [
+    86,
+    "The time budget, continued"
+   ],
+   [
+    141,
+    "The routine for every task"
+   ],
+   [
+    191,
+    "Using the documentation well"
+   ],
+   [
+    248,
+    "Domain checklists"
+   ],
+   [
+    307,
+    "Domain checklists, continued"
+   ],
+   [
+    352,
+    "Common traps (each one cost a point in a lab)"
+   ],
+   [
+    422,
+    "Common traps (each one cost a point in a lab), continued"
+   ],
+   [
+    461,
+    "The final week"
+   ]
+  ]
+ },
+ "B21lhMCyw8M": {
+  "course": "az900",
+  "key": "00-Exam-Orientation-and-How-to-Study-part-1",
+  "title": "AZ-900 Exam Prep Introduction: Exam Format, Domains and How to Answer Questions | Azure Fundamentals",
+  "seconds": 678,
+  "published": "2026-11-12T08:06:51Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "What the exam is"
+   ],
+   [
+    74,
+    "What the exam is, continued"
+   ],
+   [
+    121,
+    "What the exam is, continued"
+   ],
+   [
+    130,
+    "The three domains and their weights"
+   ],
+   [
+    179,
+    "Where each domain lives in this course"
+   ],
+   [
+    227,
+    "How to read the exam wording"
+   ],
+   [
+    274,
+    "A repeatable way to answer a question"
+   ],
+   [
+    309,
+    "A study plan"
+   ],
+   [
+    368,
+    "What is not on the exam"
+   ]
+  ]
+ },
+ "Jmu-HARwQrk": {
+  "course": "az900",
+  "key": "01-Cloud-Computing-Concepts-part-1",
+  "title": "AZ-900 Exam Prep Module 1: Shared Responsibility, Cloud Models, CapEx vs OpEx, Serverless | AZ-900",
+  "seconds": 908,
+  "published": "2026-11-12T08:07:22Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "What cloud computing is"
+   ],
+   [
+    108,
+    "The shared responsibility model"
+   ],
+   [
+    188,
+    "The shared responsibility model, continued"
+   ],
+   [
+    255,
+    "The shared responsibility model, continued"
+   ],
+   [
+    266,
+    "Cloud models: public, private and hybrid"
+   ],
+   [
+    287,
+    "Cloud models: public, private and hybrid, continued"
+   ],
+   [
+    323,
+    "Cloud models: public, private and hybrid, continued"
+   ],
+   [
+    332,
+    "Identify the use case"
+   ],
+   [
+    379,
+    "The consumption-based model"
+   ],
+   [
+    408,
+    "Cloud pricing models"
+   ],
+   [
+    449,
+    "Cloud pricing models, continued"
+   ],
+   [
+    473,
+    "Serverless"
+   ],
+   [
+    505,
+    "Serverless, continued"
+   ]
+  ]
+ },
+ "4nl-aggPFx4": {
+  "course": "az900",
+  "key": "02-Benefits-of-Cloud-Services-part-1",
+  "title": "AZ-900 Exam Prep Module 2: High Availability, Scalability, Reliability, Predictability, Governance",
+  "seconds": 747,
+  "published": "2026-11-12T08:07:52Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "The benefits at a glance"
+   ],
+   [
+    98,
+    "The benefits at a glance, continued"
+   ],
+   [
+    142,
+    "The benefits at a glance, continued"
+   ],
+   [
+    150,
+    "High availability and scalability"
+   ],
+   [
+    179,
+    "High availability and scalability, continued"
+   ],
+   [
+    228,
+    "Reliability and predictability"
+   ],
+   [
+    258,
+    "Reliability and predictability, continued"
+   ],
+   [
+    296,
+    "Security and governance"
+   ],
+   [
+    354,
+    "Manageability"
+   ]
+  ]
+ },
+ "iuK83GjIr14": {
+  "course": "az900",
+  "key": "03-Cloud-Service-Types-part-1",
+  "title": "AZ-900 Exam Prep Module 3: IaaS, PaaS and SaaS Explained | Azure Fundamentals",
+  "seconds": 682,
+  "published": "2026-11-12T08:08:03Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "The three service types"
+   ],
+   [
+    105,
+    "The three service types, continued"
+   ],
+   [
+    126,
+    "The three service types, continued"
+   ],
+   [
+    135,
+    "The three service types, continued"
+   ],
+   [
+    145,
+    "IaaS: infrastructure as a service"
+   ],
+   [
+    201,
+    "PaaS: platform as a service"
+   ],
+   [
+    243,
+    "SaaS: software as a service"
+   ],
+   [
+    287,
+    "Choose the right type"
+   ],
+   [
+    326,
+    "Responsibility by type (links to Module 1)"
+   ]
+  ]
+ },
+ "4bjfO7tvNcM": {
+  "course": "az900",
+  "key": "04-Azure-Regions-Zones-and-Datacenters-part-1",
+  "title": "AZ-900 Exam Prep Module 4: Regions, Region Pairs, Availability Zones, Sovereign Regions | AZ-900",
+  "seconds": 677,
+  "published": "2026-11-12T08:08:29Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "The physical layers of Azure"
+   ],
+   [
+    92,
+    "The physical layers of Azure, continued"
+   ],
+   [
+    109,
+    "The physical layers of Azure, continued"
+   ],
+   [
+    118,
+    "Regions"
+   ],
+   [
+    161,
+    "Region pairs"
+   ],
+   [
+    203,
+    "Sovereign regions"
+   ],
+   [
+    239,
+    "Availability zones"
+   ],
+   [
+    260,
+    "Availability zones, continued"
+   ],
+   [
+    315,
+    "Azure datacenters"
+   ]
+  ]
+ },
+ "Yp1_vd0cdQo": {
+  "course": "az900",
+  "key": "05-Resources-Resource-Groups-Subscriptions-and-Management-Groups-part-1",
+  "title": "AZ-900 Exam Prep Module 5: Resource Groups, Subscriptions and Management Groups | Azure Fundamentals",
+  "seconds": 679,
+  "published": "2026-11-12T08:08:40Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "The four levels"
+   ],
+   [
+    99,
+    "The four levels, continued"
+   ],
+   [
+    112,
+    "The four levels, continued"
+   ],
+   [
+    122,
+    "Resources"
+   ],
+   [
+    146,
+    "Resource groups"
+   ],
+   [
+    186,
+    "Resource groups, continued"
+   ],
+   [
+    211,
+    "Subscriptions"
+   ],
+   [
+    240,
+    "Subscriptions, continued"
+   ],
+   [
+    275,
+    "Management groups"
+   ],
+   [
+    314,
+    "The hierarchy and inheritance"
+   ]
+  ]
+ },
+ "j8SZh7TdlLQ": {
+  "course": "az900",
+  "key": "06-Azure-Compute-part-1",
+  "title": "AZ-900 Exam Prep Module 6: Virtual Machines, Scale Sets, Containers, Functions and App Service",
+  "seconds": 748,
+  "published": "2026-11-12T08:09:55Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Compute types compared"
+   ],
+   [
+    103,
+    "Compute types compared, continued"
+   ],
+   [
+    132,
+    "Compute types compared, continued"
+   ],
+   [
+    142,
+    "Virtual machines (Azure Virtual Machines)"
+   ],
+   [
+    166,
+    "VM options"
+   ],
+   [
+    196,
+    "VM options, continued"
+   ],
+   [
+    235,
+    "Resources a VM needs"
+   ],
+   [
+    275,
+    "Containers"
+   ],
+   [
+    320,
+    "Azure Functions"
+   ],
+   [
+    344,
+    "Application hosting options"
+   ],
+   [
+    373,
+    "Application hosting options, continued"
+   ]
+  ]
+ },
+ "y19j7HXqPkQ": {
+  "course": "az900",
+  "key": "07-Azure-Networking-part-1",
+  "title": "AZ-900 Exam Prep Module 7: Virtual Networks, Peering, VPN Gateway, ExpressRoute and Endpoints",
+  "seconds": 719,
+  "published": "2026-11-12T08:09:42Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Azure virtual networks"
+   ],
+   [
+    124,
+    "Azure virtual networks, continued"
+   ],
+   [
+    133,
+    "Azure virtual networks, continued"
+   ],
+   [
+    158,
+    "Virtual network peering"
+   ],
+   [
+    190,
+    "Azure DNS"
+   ],
+   [
+    222,
+    "Connecting to on-premises: VPN Gateway and ExpressRoute"
+   ],
+   [
+    268,
+    "Connecting to on-premises: VPN Gateway and ExpressRoute, continued"
+   ],
+   [
+    295,
+    "Connecting to on-premises: VPN Gateway and ExpressRoute, continued"
+   ],
+   [
+    331,
+    "Public and private endpoints"
+   ]
+  ]
+ },
+ "JE-UWvl3eDs": {
+  "course": "az900",
+  "key": "08-Azure-Storage-part-1",
+  "title": "AZ-900 Exam Prep Module 8 Part 1 of 2: Storage Services, Access Tiers and Redundancy: LRS, ZRS, GRS",
+  "seconds": 479,
+  "published": "2026-11-12T08:09:45Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Storage accounts and the storage services"
+   ],
+   [
+    112,
+    "Storage accounts and the storage services, continued"
+   ],
+   [
+    161,
+    "Storage accounts and the storage services, continued"
+   ],
+   [
+    170,
+    "Storage access tiers (Blob Storage)"
+   ],
+   [
+    242,
+    "Storage access tiers (Blob Storage), continued"
+   ],
+   [
+    267,
+    "Redundancy options"
+   ],
+   [
+    319,
+    "Redundancy options, continued"
+   ],
+   [
+    352,
+    "Redundancy options, continued"
+   ],
+   [
+    362,
+    "Redundancy options, continued"
+   ],
+   [
+    393,
+    "Storage account options"
+   ],
+   [
+    433,
+    "Moving files to and within Azure"
+   ],
+   [
+    461,
+    "Moving files to and within Azure, continued"
+   ]
+  ]
+ },
+ "rc7WExrG5ak": {
+  "course": "az900",
+  "key": "08-Azure-Storage-part-2",
+  "title": "AZ-900 Exam Prep Module 8 Part 2 of 2: AzCopy, File Sync, Azure Migrate and Data Box | AZ-900",
+  "seconds": 434,
+  "published": "2026-11-12T08:10:09Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Practice questions"
+   ],
+   [
+    266,
+    "Recall check"
+   ],
+   [
+    382,
+    "Module recap"
+   ]
+  ]
+ },
+ "ApAM5UlPLGE": {
+  "course": "az900",
+  "key": "09-Identity-and-Access-part-1",
+  "title": "AZ-900 Exam Prep Module 9: Microsoft Entra ID, MFA, Conditional Access and RBAC | Azure Fundamentals",
+  "seconds": 860,
+  "published": "2026-11-12T08:10:56Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Authentication and authorization"
+   ],
+   [
+    107,
+    "Directory services"
+   ],
+   [
+    129,
+    "Directory services, continued"
+   ],
+   [
+    163,
+    "Directory services, continued"
+   ],
+   [
+    180,
+    "Directory services, continued"
+   ],
+   [
+    205,
+    "Single sign-on (SSO)"
+   ],
+   [
+    220,
+    "Multifactor authentication (MFA)"
+   ],
+   [
+    253,
+    "Passwordless authentication"
+   ],
+   [
+    289,
+    "Passwordless authentication, continued"
+   ],
+   [
+    298,
+    "External identities"
+   ],
+   [
+    339,
+    "Microsoft Entra Conditional Access"
+   ],
+   [
+    387,
+    "Azure role-based access control (RBAC)"
+   ],
+   [
+    418,
+    "Azure role-based access control (RBAC), continued"
+   ],
+   [
+    449,
+    "Azure role-based access control (RBAC), continued"
+   ]
+  ]
+ },
+ "07xKqpJdY5k": {
+  "course": "az900",
+  "key": "10-Security-Models-and-Microsoft-Defender-for-Cloud-part-1",
+  "title": "AZ-900 Exam Prep Module 10: Zero Trust, Defense in Depth and Defender for Cloud | Azure Fundamentals",
+  "seconds": 668,
+  "published": "2026-11-12T08:10:58Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Zero Trust"
+   ],
+   [
+    101,
+    "Zero Trust, continued"
+   ],
+   [
+    110,
+    "Zero Trust, continued"
+   ],
+   [
+    134,
+    "Defense in depth"
+   ],
+   [
+    179,
+    "Defense in depth, continued"
+   ],
+   [
+    243,
+    "Microsoft Defender for Cloud"
+   ],
+   [
+    262,
+    "Microsoft Defender for Cloud, continued"
+   ],
+   [
+    312,
+    "Microsoft Defender for Cloud, continued"
+   ]
+  ]
+ },
+ "n2itODq2XS4": {
+  "course": "az900",
+  "key": "11-Cost-Management-part-1",
+  "title": "AZ-900 Exam Prep Module 11: Pricing Calculator, Cost Management, Tags and Savings | AZ-900",
+  "seconds": 750,
+  "published": "2026-11-12T08:11:28Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Factors that affect costs"
+   ],
+   [
+    96,
+    "Factors that affect costs, continued"
+   ],
+   [
+    131,
+    "Factors that affect costs, continued"
+   ],
+   [
+    138,
+    "Factors that affect costs, continued"
+   ],
+   [
+    169,
+    "Factors that affect costs, continued"
+   ],
+   [
+    210,
+    "The pricing calculator"
+   ],
+   [
+    264,
+    "Microsoft Cost Management"
+   ],
+   [
+    326,
+    "Tags"
+   ],
+   [
+    367,
+    "Tags, continued"
+   ]
+  ]
+ },
+ "27TCsEE0c8A": {
+  "course": "az900",
+  "key": "12-Governance-and-Compliance-part-1",
+  "title": "AZ-900 Exam Prep Module 12: Microsoft Purview, Azure Policy and Resource Locks | Azure Fundamentals",
+  "seconds": 698,
+  "published": "2026-11-12T08:16:30Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "The governance tools at a glance"
+   ],
+   [
+    84,
+    "The governance tools at a glance, continued"
+   ],
+   [
+    112,
+    "The governance tools at a glance, continued"
+   ],
+   [
+    121,
+    "Microsoft Purview"
+   ],
+   [
+    159,
+    "Microsoft Purview, continued"
+   ],
+   [
+    196,
+    "Azure Policy"
+   ],
+   [
+    226,
+    "Azure Policy, continued"
+   ],
+   [
+    279,
+    "Azure Policy, continued"
+   ],
+   [
+    298,
+    "Resource locks"
+   ],
+   [
+    323,
+    "Resource locks, continued"
+   ]
+  ]
+ },
+ "AH2KSyAOuis": {
+  "course": "az900",
+  "key": "13-Managing-and-Deploying-Resources-part-1",
+  "title": "AZ-900 Exam Prep Module 13: Portal, Cloud Shell, CLI, PowerShell, Azure Arc and ARM Templates",
+  "seconds": 782,
+  "published": "2026-11-12T08:12:19Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Ways to manage Azure"
+   ],
+   [
+    101,
+    "Ways to manage Azure, continued"
+   ],
+   [
+    134,
+    "Ways to manage Azure, continued"
+   ],
+   [
+    144,
+    "The Azure portal"
+   ],
+   [
+    170,
+    "Cloud Shell, Azure CLI and Azure PowerShell"
+   ],
+   [
+    213,
+    "Cloud Shell, Azure CLI and Azure PowerShell, continued"
+   ],
+   [
+    229,
+    "Cloud Shell, Azure CLI and Azure PowerShell, continued"
+   ],
+   [
+    268,
+    "Azure Arc"
+   ],
+   [
+    306,
+    "Infrastructure as code (IaC)"
+   ],
+   [
+    359,
+    "Azure Resource Manager and ARM templates"
+   ],
+   [
+    400,
+    "Azure Resource Manager and ARM templates, continued"
+   ]
+  ]
+ },
+ "5IP2VjnTbtU": {
+  "course": "az900",
+  "key": "14-Monitoring-Tools-part-1",
+  "title": "AZ-900 Exam Prep Module 14: Azure Advisor, Service Health and Azure Monitor | Azure Fundamentals",
+  "seconds": 706,
+  "published": "2026-11-12T08:12:52Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Three tools, three questions"
+   ],
+   [
+    81,
+    "Three tools, three questions, continued"
+   ],
+   [
+    97,
+    "Three tools, three questions, continued"
+   ],
+   [
+    107,
+    "Azure Advisor"
+   ],
+   [
+    171,
+    "Azure Service Health"
+   ],
+   [
+    207,
+    "Azure Service Health, continued"
+   ],
+   [
+    235,
+    "Azure Monitor"
+   ],
+   [
+    271,
+    "Azure Monitor, continued"
+   ],
+   [
+    280,
+    "Log Analytics"
+   ],
+   [
+    298,
+    "Azure Monitor alerts"
+   ],
+   [
+    333,
+    "Application Insights"
+   ]
+  ]
+ },
+ "8tkmLPHXV7g": {
+  "course": "az900",
+  "key": "15-Exam-Technique-and-Final-Review-part-1",
+  "title": "AZ-900 Exam Prep Module 15 Part 1 of 2: Time Budget, Domain Checklists and Common Traps | AZ-900",
+  "seconds": 478,
+  "published": "2026-11-12T08:12:49Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "The time budget"
+   ],
+   [
+    81,
+    "The time budget, continued"
+   ],
+   [
+    90,
+    "The time budget, continued"
+   ],
+   [
+    102,
+    "The routine for every question"
+   ],
+   [
+    135,
+    "Cloud concepts (25–30%)"
+   ],
+   [
+    171,
+    "Azure architecture and services (35–40%)"
+   ],
+   [
+    235,
+    "Management and governance (30–35%)"
+   ],
+   [
+    262,
+    "Pairs the exam likes to confuse"
+   ],
+   [
+    312,
+    "Pairs the exam likes to confuse, continued"
+   ],
+   [
+    364,
+    "Common traps"
+   ],
+   [
+    418,
+    "The final week"
+   ]
+  ]
+ },
+ "u9wcgumx3Rk": {
+  "course": "az900",
+  "key": "15-Exam-Technique-and-Final-Review-part-2",
+  "title": "AZ-900 Exam Prep Module 15 Part 2 of 2: Final Review: Mixed Practice Questions and Recall | AZ-900",
+  "seconds": 461,
+  "published": "2026-11-12T08:13:14Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Practice questions"
+   ],
+   [
+    316,
+    "Recall check"
+   ],
+   [
+    418,
+    "Module recap"
+   ]
+  ]
+ },
+ "cg9eTDJtTnA": {
+  "course": "ai901",
+  "key": "00-Exam-Orientation-and-How-to-Study-part-1",
+  "title": "AI-901 Exam Prep Introduction: Exam Format, Skill Areas and Why AI-901 Replaced AI-900 | AI-901",
+  "seconds": 634,
+  "published": "2026-11-12T08:15:27Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "What the exam is"
+   ],
+   [
+    94,
+    "What the exam is, continued"
+   ],
+   [
+    147,
+    "What the exam is, continued"
+   ],
+   [
+    156,
+    "The two skill areas"
+   ],
+   [
+    201,
+    "Where each skill lives in this course"
+   ],
+   [
+    250,
+    "How to read the exam wording"
+   ],
+   [
+    279,
+    "A repeatable way to answer a question"
+   ],
+   [
+    308,
+    "A study plan"
+   ]
+  ]
+ },
+ "oTM7O0EwL-k": {
+  "course": "ai901",
+  "key": "01-Responsible-AI-part-1",
+  "title": "AI-901 Exam Prep Module 1: The Six Responsible AI Principles | Azure AI Fundamentals",
+  "seconds": 808,
+  "published": "2026-11-12T08:15:58Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "The six principles"
+   ],
+   [
+    122,
+    "The six principles, continued"
+   ],
+   [
+    175,
+    "The six principles, continued"
+   ],
+   [
+    184,
+    "Fairness"
+   ],
+   [
+    224,
+    "Reliability and safety"
+   ],
+   [
+    263,
+    "Privacy and security"
+   ],
+   [
+    294,
+    "Inclusiveness"
+   ],
+   [
+    337,
+    "Transparency"
+   ],
+   [
+    368,
+    "Accountability"
+   ],
+   [
+    395,
+    "Responsible AI for generative AI"
+   ]
+  ]
+ },
+ "JnIKR-3iZME": {
+  "course": "ai901",
+  "key": "02-How-Generative-AI-Models-Work-part-1",
+  "title": "AI-901 Exam Prep Module 2: Tokens, Transformers, Embeddings and the Context Window | AI-901",
+  "seconds": 663,
+  "published": "2026-11-12T08:16:22Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "What generative AI is"
+   ],
+   [
+    79,
+    "What generative AI is, continued"
+   ],
+   [
+    120,
+    "Tokens"
+   ],
+   [
+    161,
+    "Tokens, continued"
+   ],
+   [
+    169,
+    "The transformer and attention"
+   ],
+   [
+    210,
+    "The transformer and attention, continued"
+   ],
+   [
+    219,
+    "Embeddings"
+   ],
+   [
+    261,
+    "The context window"
+   ],
+   [
+    291,
+    "What generative models can and cannot do"
+   ]
+  ]
+ },
+ "vzoKkOLlNdg": {
+  "course": "ai901",
+  "key": "03-Choosing-Models-Deployments-and-Parameters-part-1",
+  "title": "AI-901 Exam Prep Module 3: Model Types, Deployment Options and Temperature | Azure AI Fundamentals",
+  "seconds": 733,
+  "published": "2026-11-12T08:16:56Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "The model catalog"
+   ],
+   [
+    99,
+    "Choose a model by capability"
+   ],
+   [
+    151,
+    "Choose a model by capability, continued"
+   ],
+   [
+    198,
+    "Choose a model by capability, continued"
+   ],
+   [
+    206,
+    "Deployment options"
+   ],
+   [
+    252,
+    "Deployment options, continued"
+   ],
+   [
+    299,
+    "Configuration parameters"
+   ],
+   [
+    344,
+    "Configuration parameters, continued"
+   ],
+   [
+    364,
+    "Configuration parameters, continued"
+   ],
+   [
+    395,
+    "Configuration parameters, continued"
+   ]
+  ]
+ },
+ "P6aL2A5wduo": {
+  "course": "ai901",
+  "key": "04-AI-Workloads-and-Scenarios-part-1",
+  "title": "AI-901 Exam Prep Module 4: Generative, Agentic, Text, Speech, Vision and Extraction Workloads",
+  "seconds": 731,
+  "published": "2026-11-12T08:17:18Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "The six workloads"
+   ],
+   [
+    72,
+    "The six workloads, continued"
+   ],
+   [
+    116,
+    "The six workloads, continued"
+   ],
+   [
+    161,
+    "The six workloads, continued"
+   ],
+   [
+    170,
+    "Generative AI"
+   ],
+   [
+    190,
+    "Agentic AI"
+   ],
+   [
+    218,
+    "Agentic AI, continued"
+   ],
+   [
+    246,
+    "Text analysis"
+   ],
+   [
+    291,
+    "Speech"
+   ],
+   [
+    319,
+    "Computer vision"
+   ],
+   [
+    338,
+    "Information extraction"
+   ],
+   [
+    358,
+    "Choose the workload"
+   ]
+  ]
+ },
+ "nFTvvPm0Pac": {
+  "course": "ai901",
+  "key": "05-Text-Speech-Vision-and-Extraction-Capabilities-part-1",
+  "title": "AI-901 Exam Prep Module 5: Language, Speech, Vision and Content Understanding Features | AI-901",
+  "seconds": 864,
+  "published": "2026-11-12T08:17:42Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Services at a glance"
+   ],
+   [
+    119,
+    "Services at a glance, continued"
+   ],
+   [
+    127,
+    "Text analysis techniques (Azure Language)"
+   ],
+   [
+    181,
+    "Text analysis techniques (Azure Language), continued"
+   ],
+   [
+    222,
+    "Text analysis techniques (Azure Language), continued"
+   ],
+   [
+    256,
+    "Speech recognition and speech synthesis (Azure Speech)"
+   ],
+   [
+    326,
+    "Analyze images (Azure Vision, image analysis)"
+   ],
+   [
+    384,
+    "Image-generation models"
+   ],
+   [
+    421,
+    "Techniques to extract information (Azure Content Understanding)"
+   ],
+   [
+    462,
+    "Techniques to extract information (Azure Content Understanding), continued"
+   ]
+  ]
+ },
+ "P3GHopJQe-c": {
+  "course": "ai901",
+  "key": "06-Writing-System-and-User-Prompts-part-1",
+  "title": "AI-901 Exam Prep Module 6: System Prompts, User Prompts and Few-Shot Examples | AI-901",
+  "seconds": 647,
+  "published": "2026-11-12T08:21:05Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Message roles"
+   ],
+   [
+    96,
+    "Message roles, continued"
+   ],
+   [
+    121,
+    "Message roles, continued"
+   ],
+   [
+    129,
+    "What goes in a system prompt"
+   ],
+   [
+    168,
+    "Writing an effective user prompt"
+   ],
+   [
+    210,
+    "Writing an effective user prompt, continued"
+   ],
+   [
+    259,
+    "Writing an effective user prompt, continued"
+   ],
+   [
+    267,
+    "The model has no memory"
+   ],
+   [
+    283,
+    "Safety and reliability in prompts"
+   ]
+  ]
+ },
+ "cNw5oavn2BU": {
+  "course": "ai901",
+  "key": "07-Microsoft-Foundry-Resources-Models-and-the-Portal-part-1",
+  "title": "AI-901 Exam Prep Module 7: Foundry Projects, Model Deployment and the Playground | AI-901",
+  "seconds": 608,
+  "published": "2026-11-12T08:19:56Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "What Microsoft Foundry is"
+   ],
+   [
+    80,
+    "What Microsoft Foundry is, continued"
+   ],
+   [
+    119,
+    "What Microsoft Foundry is, continued"
+   ],
+   [
+    129,
+    "What Microsoft Foundry is, continued"
+   ],
+   [
+    155,
+    "The Foundry portal"
+   ],
+   [
+    189,
+    "Deploy a model in the portal"
+   ],
+   [
+    213,
+    "Deploy a model in the portal, continued"
+   ],
+   [
+    221,
+    "Deploy a model in the portal, continued"
+   ],
+   [
+    249,
+    "Chat with the model: the playground"
+   ]
+  ]
+ },
+ "UpBi8e-uj9k": {
+  "course": "ai901",
+  "key": "08-Chat-Client-with-the-Foundry-SDK-part-1",
+  "title": "AI-901 Exam Prep Module 8: A Python Chat Client with the Foundry SDK | Azure AI Fundamentals",
+  "seconds": 620,
+  "published": "2026-11-12T08:20:23Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "The idea"
+   ],
+   [
+    75,
+    "The idea, continued"
+   ],
+   [
+    113,
+    "The idea, continued"
+   ],
+   [
+    122,
+    "Install and sign in"
+   ],
+   [
+    169,
+    "The program"
+   ],
+   [
+    182,
+    "The program, continued"
+   ],
+   [
+    235,
+    "The program, continued"
+   ],
+   [
+    271,
+    "Common mistakes"
+   ]
+  ]
+ },
+ "nN6SfMOqx4A": {
+  "course": "ai901",
+  "key": "09-Agents-in-Foundry-part-1",
+  "title": "AI-901 Exam Prep Module 9: Foundry Agents, Tools and Conversations | Azure AI Fundamentals",
+  "seconds": 636,
+  "published": "2026-11-12T08:20:41Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "What a Foundry agent is"
+   ],
+   [
+    87,
+    "What a Foundry agent is, continued"
+   ],
+   [
+    120,
+    "What a Foundry agent is, continued"
+   ],
+   [
+    128,
+    "Tools an agent can use"
+   ],
+   [
+    177,
+    "Tools an agent can use, continued"
+   ],
+   [
+    208,
+    "Create and test an agent in the portal"
+   ],
+   [
+    238,
+    "Create and test an agent in the portal, continued"
+   ],
+   [
+    248,
+    "Call the agent from a client application"
+   ],
+   [
+    267,
+    "Call the agent from a client application, continued"
+   ]
+  ]
+ },
+ "ydy-hQ1NrKA": {
+  "course": "ai901",
+  "key": "10-Text-Analysis-and-Speech-Applications-part-1",
+  "title": "AI-901 Exam Prep Module 10: Sentiment Analysis and Speech Recognition in Python | AI-901",
+  "seconds": 677,
+  "published": "2026-11-12T08:20:14Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "A text analysis application"
+   ],
+   [
+    113,
+    "A text analysis application, continued"
+   ],
+   [
+    138,
+    "A text analysis application, continued"
+   ],
+   [
+    190,
+    "Speech applications with Azure Speech"
+   ],
+   [
+    208,
+    "Speech applications with Azure Speech, continued"
+   ],
+   [
+    274,
+    "Speech applications with Azure Speech, continued"
+   ],
+   [
+    285,
+    "Responding to spoken prompts with a multimodal model"
+   ],
+   [
+    328,
+    "Responding to spoken prompts with a multimodal model, continued"
+   ]
+  ]
+ },
+ "9ccj3vRBju4": {
+  "course": "ai901",
+  "key": "11-Vision-and-Image-Generation-Applications-part-1",
+  "title": "AI-901 Exam Prep Module 11: Images in Prompts and Generating Images | Azure AI Fundamentals",
+  "seconds": 703,
+  "published": "2026-11-12T08:21:37Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Three vision tasks"
+   ],
+   [
+    96,
+    "Three vision tasks, continued"
+   ],
+   [
+    107,
+    "Interpret visual input in a prompt"
+   ],
+   [
+    140,
+    "Interpret visual input in a prompt, continued"
+   ],
+   [
+    163,
+    "Interpret visual input in a prompt, continued"
+   ],
+   [
+    210,
+    "Create new images with generative models"
+   ],
+   [
+    253,
+    "Create new images with generative models, continued"
+   ],
+   [
+    261,
+    "Create new images with generative models, continued"
+   ],
+   [
+    316,
+    "A vision application with Azure Vision"
+   ],
+   [
+    341,
+    "A vision application with Azure Vision, continued"
+   ],
+   [
+    369,
+    "Responsible use"
+   ]
+  ]
+ },
+ "RAc5g8nOpAc": {
+  "course": "ai901",
+  "key": "12-Information-Extraction-with-Content-Understanding-part-1",
+  "title": "AI-901 Exam Prep Module 12: Content Understanding for Documents, Images, Audio and Video | AI-901",
+  "seconds": 676,
+  "published": "2026-11-12T08:23:54Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "What Content Understanding does"
+   ],
+   [
+    118,
+    "What Content Understanding does, continued"
+   ],
+   [
+    127,
+    "Analyzers"
+   ],
+   [
+    162,
+    "Extracting from documents and forms"
+   ],
+   [
+    219,
+    "Extracting from documents and forms, continued"
+   ],
+   [
+    233,
+    "Extracting from images, audio and video"
+   ],
+   [
+    268,
+    "A lightweight extraction application"
+   ],
+   [
+    286,
+    "A lightweight extraction application, continued"
+   ]
+  ]
+ },
+ "JhJQxJSgM0w": {
+  "course": "ai901",
+  "key": "13-Exam-Technique-and-Final-Review-part-1",
+  "title": "AI-901 Exam Prep Module 13: Exam Technique, Checklists and Final Review | Azure AI Fundamentals",
+  "seconds": 857,
+  "published": "2026-11-12T08:22:29Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Time and format"
+   ],
+   [
+    77,
+    "Time and format, continued"
+   ],
+   [
+    86,
+    "Time and format, continued"
+   ],
+   [
+    99,
+    "The routine for every question"
+   ],
+   [
+    127,
+    "Identify AI concepts and capabilities (40–45%)"
+   ],
+   [
+    205,
+    "Implement AI solutions by using Microsoft Foundry (55–60%)"
+   ],
+   [
+    266,
+    "Pairs the exam likes to confuse"
+   ],
+   [
+    313,
+    "Pairs the exam likes to confuse, continued"
+   ],
+   [
+    361,
+    "Common traps"
+   ],
+   [
+    413,
+    "The final week"
+   ]
+  ]
+ },
  "yTE9OtaIN9A": {
   "course": "cdmp",
   "key": "00-Course-Introduction",
@@ -19005,2528 +23088,5 @@
   "privacy": "public",
   "embeddable": true,
   "chapters": []
- },
- "2jvQjzt5BfU": {
-  "course": "cka",
-  "key": "00-Exam-Orientation-and-the-Command-Line-Toolkit-part-1",
-  "title": "CKA Exam Prep Introduction: Exam Format, Environment and the kubectl Speed Kit | CKA",
-  "seconds": 595,
-  "published": "2026-11-11T09:27:19Z",
-  "privacy": "public",
-  "embeddable": true,
-  "chapters": [
-   [
-    0,
-    "What the exam is"
-   ],
-   [
-    76,
-    "What the exam is, continued"
-   ],
-   [
-    133,
-    "What the exam is, continued"
-   ],
-   [
-    149,
-    "Domain weights"
-   ],
-   [
-    155,
-    "Domain weights, continued"
-   ],
-   [
-    208,
-    "The exam environment"
-   ],
-   [
-    261,
-    "The exam environment, continued"
-   ],
-   [
-    305,
-    "The speed kit"
-   ],
-   [
-    327,
-    "The speed kit, continued"
-   ],
-   [
-    382,
-    "The speed kit, continued"
-   ],
-   [
-    428,
-    "The speed kit, continued"
-   ],
-   [
-    453,
-    "Imperative first, declarative when needed"
-   ],
-   [
-    476,
-    "Labels and selectors (they connect everything)"
-   ],
-   [
-    494,
-    "Labels and selectors (they connect everything), continued"
-   ],
-   [
-    506,
-    "JSONPath and custom columns (a frequent time-saver)"
-   ],
-   [
-    522,
-    "JSONPath and custom columns (a frequent time-saver), continued"
-   ],
-   [
-    548,
-    "A repeatable way to work every task"
-   ],
-   [
-    563,
-    "A repeatable way to work every task, continued"
-   ]
-  ]
- },
- "0vjVwDPhMfc": {
-  "course": "cka",
-  "key": "00-Exam-Orientation-and-the-Command-Line-Toolkit-part-2",
-  "title": "CKA Exam Prep Introduction: JSONPath, Dry-Run YAML, explain and Labels Labs | CKA",
-  "seconds": 508,
-  "published": "2026-11-11T09:27:27Z",
-  "privacy": "public",
-  "embeddable": true,
-  "chapters": [
-   [
-    0,
-    "Lab 0.1: jsonpath nodes"
-   ],
-   [
-    33,
-    "Lab 0.1: jsonpath nodes, Solution"
-   ],
-   [
-    53,
-    "Lab 0.2: dry run yaml"
-   ],
-   [
-    91,
-    "Lab 0.2: dry run yaml, Solution"
-   ],
-   [
-    126,
-    "Lab 0.3: explain field"
-   ],
-   [
-    162,
-    "Lab 0.3: explain field, Solution"
-   ],
-   [
-    180,
-    "Lab 0.4: default namespace"
-   ],
-   [
-    214,
-    "Lab 0.4: default namespace, Solution"
-   ],
-   [
-    230,
-    "Lab 0.5: labels selectors"
-   ],
-   [
-    277,
-    "Lab 0.5: labels selectors, Solution"
-   ]
-  ]
- },
- "YQAdZr41U8s": {
-  "course": "cka",
-  "key": "01-Cluster-Architecture-and-Extension-Interfaces-part-1",
-  "title": "CKA Exam Prep Module 1 Part 1 of 2: Control Plane, Static Pods, Runtime and CNI, CSI, CRI | CKA",
-  "seconds": 622,
-  "published": "2026-11-11T09:28:05Z",
-  "privacy": "public",
-  "embeddable": true,
-  "chapters": [
-   [
-    0,
-    "The map of a cluster"
-   ],
-   [
-    77,
-    "The map of a cluster, continued"
-   ],
-   [
-    91,
-    "The map of a cluster, continued"
-   ],
-   [
-    139,
-    "The map of a cluster, continued"
-   ],
-   [
-    192,
-    "Static Pods"
-   ],
-   [
-    247,
-    "Static Pods, continued"
-   ],
-   [
-    263,
-    "Static Pods, continued"
-   ],
-   [
-    271,
-    "Where things live (kubeadm layout)"
-   ],
-   [
-    337,
-    "Where things live (kubeadm layout), continued"
-   ],
-   [
-    346,
-    "Container runtime and crictl"
-   ],
-   [
-    400,
-    "Extension interfaces: CNI, CSI, CRI"
-   ],
-   [
-    462,
-    "Extension interfaces: CNI, CSI, CRI, continued"
-   ],
-   [
-    488,
-    "Extension interfaces: CNI, CSI, CRI, continued"
-   ],
-   [
-    500,
-    "How a Pod gets created (the story)"
-   ],
-   [
-    508,
-    "How a Pod gets created (the story), continued"
-   ],
-   [
-    555,
-    "Lab 1.1: service cidr"
-   ],
-   [
-    592,
-    "Lab 1.1: service cidr, Solution"
-   ]
-  ]
- },
- "0_iGx0ty1DQ": {
-  "course": "cka",
-  "key": "01-Cluster-Architecture-and-Extension-Interfaces-part-2",
-  "title": "CKA Exam Prep Module 1 Part 2 of 2: Static Pods and crictl Hands-On Labs | Kubernetes Administrator",
-  "seconds": 569,
-  "published": "2026-11-11T09:28:09Z",
-  "privacy": "public",
-  "embeddable": true,
-  "chapters": [
-   [
-    0,
-    "Lab 1.2: static pod"
-   ],
-   [
-    37,
-    "Lab 1.2: static pod, Solution"
-   ],
-   [
-    66,
-    "Lab 1.3: crictl container"
-   ],
-   [
-    99,
-    "Lab 1.3: crictl container, Solution"
-   ],
-   [
-    118,
-    "Lab 1.4: cni config"
-   ],
-   [
-    157,
-    "Lab 1.4: cni config, Solution"
-   ],
-   [
-    173,
-    "Lab 1.5: runtimeclass"
-   ],
-   [
-    207,
-    "Lab 1.5: runtimeclass, Solution"
-   ],
-   [
-    221,
-    "Lab 1.5: runtimeclass, Solution, continued"
-   ],
-   [
-    242,
-    "Lab 1.6: node versions"
-   ],
-   [
-    278,
-    "Lab 1.6: node versions, Solution"
-   ],
-   [
-    301,
-    "Lab 1.7: etcd image"
-   ],
-   [
-    337,
-    "Lab 1.7: etcd image, Solution"
-   ]
-  ]
- },
- "VsEL0-ZOx2s": {
-  "course": "cka",
-  "key": "02-RBAC-Service-Accounts-and-Kubeconfig-part-1",
-  "title": "CKA Exam Prep Module 2 Part 1 of 2: RBAC, Roles, Bindings, Service Accounts and can-i | CKA",
-  "seconds": 570,
-  "published": "2026-11-11T09:29:05Z",
-  "privacy": "public",
-  "embeddable": true,
-  "chapters": [
-   [
-    0,
-    "How a request is checked"
-   ],
-   [
-    92,
-    "How a request is checked, continued"
-   ],
-   [
-    122,
-    "The four objects"
-   ],
-   [
-    134,
-    "The four objects, continued"
-   ],
-   [
-    194,
-    "Fast commands (no YAML)"
-   ],
-   [
-    201,
-    "Fast commands (no YAML), continued"
-   ],
-   [
-    226,
-    "Test it: kubectl auth can-i"
-   ],
-   [
-    241,
-    "Test it: kubectl auth can-i, continued"
-   ],
-   [
-    251,
-    "A bug you will see: roleRef is immutable"
-   ],
-   [
-    286,
-    "Service accounts and tokens"
-   ],
-   [
-    294,
-    "Service accounts and tokens, continued"
-   ],
-   [
-    316,
-    "Give a person a kubeconfig (CertificateSigningRequest flow)"
-   ],
-   [
-    365,
-    "Give a person a kubeconfig (CertificateSigningRequest flow), continued"
-   ],
-   [
-    375,
-    "Give a person a kubeconfig (CertificateSigningRequest flow), continued"
-   ],
-   [
-    405,
-    "Lab 2.1: role binding"
-   ],
-   [
-    443,
-    "Lab 2.1: role binding, Solution"
-   ],
-   [
-    465,
-    "Lab 2.2: sa clusterrole"
-   ],
-   [
-    503,
-    "Lab 2.2: sa clusterrole, Solution"
-   ],
-   [
-    536,
-    "Lab 2.3: cluster wide read"
-   ]
-  ]
- },
- "NyyKyW0594Q": {
-  "course": "cka",
-  "key": "02-RBAC-Service-Accounts-and-Kubeconfig-part-2",
-  "title": "CKA Exam Prep Module 2 Part 2 of 2: Fix a RoleBinding and Create a User Certificate Labs | CKA",
-  "seconds": 559,
-  "published": "2026-11-11T09:29:31Z",
-  "privacy": "public",
-  "embeddable": true,
-  "chapters": [
-   [
-    0,
-    "Lab 2.3: cluster wide read, Solution"
-   ],
-   [
-    23,
-    "Lab 2.4: fix rolebinding"
-   ],
-   [
-    67,
-    "Lab 2.4: fix rolebinding, Solution"
-   ],
-   [
-    94,
-    "Lab 2.5: user certificate"
-   ],
-   [
-    128,
-    "Lab 2.5: user certificate, continued"
-   ],
-   [
-    162,
-    "Lab 2.5: user certificate, Solution"
-   ],
-   [
-    195,
-    "Lab 2.5: user certificate, Solution, continued"
-   ],
-   [
-    281,
-    "Lab 2.6: sa token"
-   ],
-   [
-    321,
-    "Lab 2.6: sa token, Solution"
-   ]
-  ]
- },
- "ea3mrOELU4I": {
-  "course": "cka",
-  "key": "03-Cluster-Lifecycle-with-kubeadm-etcd-and-High-Availability-part-1",
-  "title": "CKA Exam Prep Module 3 Part 1 of 2: kubeadm, etcd Backup and Restore, Certificates and HA | CKA",
-  "seconds": 702,
-  "published": "2026-11-11T09:30:26Z",
-  "privacy": "public",
-  "embeddable": true,
-  "chapters": [
-   [
-    0,
-    "What Was Executed and What Is Reference Only"
-   ],
-   [
-    103,
-    "Prepare the infrastructure (Reference only, plus two checks you can run)"
-   ],
-   [
-    147,
-    "Prepare the infrastructure (Reference only, plus two checks you can run), continued"
-   ],
-   [
-    208,
-    "Create a cluster with kubeadm (Reference only)"
-   ],
-   [
-    220,
-    "Create a cluster with kubeadm (Reference only), continued"
-   ],
-   [
-    253,
-    "etcd backup and restore (executed)"
-   ],
-   [
-    270,
-    "etcd backup and restore (executed), continued"
-   ],
-   [
-    303,
-    "etcd backup and restore (executed), continued"
-   ],
-   [
-    317,
-    "etcd backup and restore (executed), continued"
-   ],
-   [
-    370,
-    "etcd backup and restore (executed), continued"
-   ],
-   [
-    384,
-    "Certificates"
-   ],
-   [
-    413,
-    "Certificates, continued"
-   ],
-   [
-    426,
-    "Lifecycle: upgrade (Reference only) and node maintenance (executed)"
-   ],
-   [
-    441,
-    "Lifecycle: upgrade (Reference only) and node maintenance (executed), continued"
-   ],
-   [
-    480,
-    "Lifecycle: upgrade (Reference only) and node maintenance (executed), continued"
-   ],
-   [
-    521,
-    "High availability (concept; Reference only)"
-   ],
-   [
-    581,
-    "Lab 3.1: etcd backup"
-   ],
-   [
-    621,
-    "Lab 3.1: etcd backup, Solution"
-   ],
-   [
-    649,
-    "Lab 3.2: etcd restore"
-   ]
-  ]
- },
- "lp0dRHfczcc": {
-  "course": "cka",
-  "key": "03-Cluster-Lifecycle-with-kubeadm-etcd-and-High-Availability-part-2",
-  "title": "CKA Exam Prep Module 3 Part 2 of 2: etcd, Certificates, Join Tokens and Drain Labs | CKA",
-  "seconds": 662,
-  "published": "2026-11-11T09:30:59Z",
-  "privacy": "public",
-  "embeddable": true,
-  "chapters": [
-   [
-    0,
-    "Lab 3.2: etcd restore, Solution"
-   ],
-   [
-    53,
-    "Lab 3.3: cert expiry"
-   ],
-   [
-    96,
-    "Lab 3.3: cert expiry, Solution"
-   ],
-   [
-    122,
-    "Lab 3.4: join command"
-   ],
-   [
-    159,
-    "Lab 3.4: join command, Solution"
-   ],
-   [
-    180,
-    "Lab 3.5: drain node"
-   ],
-   [
-    220,
-    "Lab 3.5: drain node, Solution"
-   ],
-   [
-    241,
-    "Lab 3.6: etcd members"
-   ],
-   [
-    274,
-    "Lab 3.6: etcd members, Solution"
-   ],
-   [
-    301,
-    "Lab 3.7: node prereqs"
-   ],
-   [
-    343,
-    "Lab 3.7: node prereqs, Solution"
-   ],
-   [
-    369,
-    "Lab 3.8: kubeadm config"
-   ],
-   [
-    408,
-    "Lab 3.8: kubeadm config, Solution"
-   ]
-  ]
- },
- "BnT5Bli5EPc": {
-  "course": "cka",
-  "key": "04-Helm-Kustomize-CRDs-and-Operators-part-1",
-  "title": "CKA Exam Prep Module 4 Part 1 of 2: Helm, Kustomize, CRDs and Operators | Kubernetes Administrator",
-  "seconds": 530,
-  "published": "2026-11-11T09:31:27Z",
-  "privacy": "public",
-  "embeddable": true,
-  "chapters": [
-   [
-    0,
-    "Helm in one page"
-   ],
-   [
-    93,
-    "Helm in one page, continued"
-   ],
-   [
-    139,
-    "Helm in one page, continued"
-   ],
-   [
-    187,
-    "Helm in one page, continued"
-   ],
-   [
-    220,
-    "Kustomize in one page"
-   ],
-   [
-    253,
-    "Kustomize in one page, continued"
-   ],
-   [
-    305,
-    "Helm or Kustomize?"
-   ],
-   [
-    333,
-    "CRDs"
-   ],
-   [
-    360,
-    "CRDs, continued"
-   ],
-   [
-    395,
-    "Operators"
-   ],
-   [
-    428,
-    "Lab 4.1: helm install"
-   ],
-   [
-    466,
-    "Lab 4.1: helm install, Solution"
-   ],
-   [
-    486,
-    "Lab 4.2: helm upgrade rollback"
-   ]
-  ]
- },
- "rWrqJ5c8GaQ": {
-  "course": "cka",
-  "key": "04-Helm-Kustomize-CRDs-and-Operators-part-2",
-  "title": "CKA Exam Prep Module 4 Part 2 of 2: Helm Values, Uninstall and Template Labs | CKA",
-  "seconds": 499,
-  "published": "2026-11-11T09:31:58Z",
-  "privacy": "public",
-  "embeddable": true,
-  "chapters": [
-   [
-    0,
-    "Lab 4.2: helm upgrade rollback, Solution"
-   ],
-   [
-    29,
-    "Lab 4.3: helm values uninstall"
-   ],
-   [
-    67,
-    "Lab 4.3: helm values uninstall, Solution"
-   ],
-   [
-    91,
-    "Lab 4.4: helm template"
-   ],
-   [
-    123,
-    "Lab 4.4: helm template, Solution"
-   ],
-   [
-    144,
-    "Lab 4.5: kustomize overlay"
-   ],
-   [
-    192,
-    "Lab 4.5: kustomize overlay, Solution"
-   ],
-   [
-    230,
-    "Lab 4.6: crd custom resource"
-   ],
-   [
-    281,
-    "Lab 4.6: crd custom resource, Solution"
-   ]
-  ]
- },
- "fPhH_Wi37SA": {
-  "course": "cka",
-  "key": "05-Deployments-Configuration-and-Self-Healing-Workloads-part-1",
-  "title": "CKA Exam Prep Module 5 Part 1 of 2: Deployments, Rollouts, ConfigMaps, Secrets and Probes | CKA",
-  "seconds": 754,
-  "published": "2026-11-11T09:32:41Z",
-  "privacy": "public",
-  "embeddable": true,
-  "chapters": [
-   [
-    0,
-    "Which workload object for which job"
-   ],
-   [
-    141,
-    "Which workload object for which job, continued"
-   ],
-   [
-    168,
-    "Rolling updates and rollbacks"
-   ],
-   [
-    204,
-    "Rolling updates and rollbacks, continued"
-   ],
-   [
-    224,
-    "Rolling updates and rollbacks, continued"
-   ],
-   [
-    265,
-    "ConfigMaps"
-   ],
-   [
-    278,
-    "ConfigMaps, continued"
-   ],
-   [
-    287,
-    "ConfigMaps, continued"
-   ],
-   [
-    304,
-    "Secrets"
-   ],
-   [
-    327,
-    "Secrets, continued"
-   ],
-   [
-    345,
-    "Self-healing primitives"
-   ],
-   [
-    390,
-    "Self-healing primitives, continued"
-   ],
-   [
-    434,
-    "Self-healing primitives, continued"
-   ],
-   [
-    441,
-    "Self-healing primitives, continued"
-   ],
-   [
-    467,
-    "StatefulSets in short"
-   ],
-   [
-    494,
-    "Jobs and CronJobs in short"
-   ],
-   [
-    516,
-    "Lab 5.1: rollback stuck update"
-   ],
-   [
-    552,
-    "Lab 5.1: rollback stuck update, Solution"
-   ],
-   [
-    575,
-    "Lab 5.2: rolling update strategy"
-   ],
-   [
-    612,
-    "Lab 5.2: rolling update strategy, Solution"
-   ],
-   [
-    641,
-    "Lab 5.3: configmap env volume"
-   ],
-   [
-    691,
-    "Lab 5.3: configmap env volume, Solution"
-   ],
-   [
-    716,
-    "Lab 5.3: configmap env volume, Solution, continued"
-   ]
-  ]
- },
- "6P3_2AtDAS8": {
-  "course": "cka",
-  "key": "05-Deployments-Configuration-and-Self-Healing-Workloads-part-2",
-  "title": "CKA Exam Prep Module 5 Part 2 of 2: Secrets, DaemonSets and Self-Healing Labs | CKA",
-  "seconds": 724,
-  "published": "2026-11-11T09:33:15Z",
-  "privacy": "public",
-  "embeddable": true,
-  "chapters": [
-   [
-    0,
-    "Lab 5.4: secret env file"
-   ],
-   [
-    43,
-    "Lab 5.4: secret env file, Solution"
-   ],
-   [
-    69,
-    "Lab 5.4: secret env file, Solution, continued"
-   ],
-   [
-    99,
-    "Lab 5.5: daemonset"
-   ],
-   [
-    133,
-    "Lab 5.5: daemonset, Solution"
-   ],
-   [
-    159,
-    "Lab 5.6: statefulset"
-   ],
-   [
-    202,
-    "Lab 5.6: statefulset, Solution"
-   ],
-   [
-    217,
-    "Lab 5.6: statefulset, Solution, continued"
-   ],
-   [
-    246,
-    "Lab 5.7: job cronjob"
-   ],
-   [
-    285,
-    "Lab 5.7: job cronjob, Solution"
-   ],
-   [
-    316,
-    "Lab 5.8: add probes"
-   ],
-   [
-    364,
-    "Lab 5.8: add probes, Solution"
-   ],
-   [
-    392,
-    "Lab 5.9: fix liveness"
-   ],
-   [
-    431,
-    "Lab 5.9: fix liveness, Solution"
-   ],
-   [
-    466,
-    "Lab 5.10: pod disruption budget"
-   ],
-   [
-    505,
-    "Lab 5.10: pod disruption budget, Solution"
-   ]
-  ]
- },
- "3u4QgSAVMC8": {
-  "course": "cka",
-  "key": "06-Scheduling-Resources-and-Autoscaling-part-1",
-  "title": "CKA Exam Prep Module 6 Part 1 of 3: Scheduler, Requests and Limits, LimitRange and Quotas | CKA",
-  "seconds": 520,
-  "published": "2026-11-11T09:34:11Z",
-  "privacy": "public",
-  "embeddable": true,
-  "chapters": [
-   [
-    0,
-    "How scheduling works"
-   ],
-   [
-    72,
-    "How scheduling works, continued"
-   ],
-   [
-    104,
-    "Requests, limits and QoS"
-   ],
-   [
-    129,
-    "Requests, limits and QoS, continued"
-   ],
-   [
-    138,
-    "Requests, limits and QoS, continued"
-   ],
-   [
-    185,
-    "Requests, limits and QoS, continued"
-   ],
-   [
-    205,
-    "Pod admission controls: LimitRange and ResourceQuota"
-   ],
-   [
-    223,
-    "Pod admission controls: LimitRange and ResourceQuota, continued"
-   ],
-   [
-    244,
-    "Pod admission controls: LimitRange and ResourceQuota, continued"
-   ],
-   [
-    270,
-    "Choosing nodes"
-   ],
-   [
-    308,
-    "Choosing nodes, continued"
-   ],
-   [
-    315,
-    "Choosing nodes, continued"
-   ],
-   [
-    325,
-    "Choosing nodes, continued"
-   ],
-   [
-    350,
-    "Choosing nodes, continued"
-   ],
-   [
-    388,
-    "Taints and tolerations"
-   ],
-   [
-    421,
-    "Taints and tolerations, continued"
-   ],
-   [
-    428,
-    "Taints and tolerations, continued"
-   ],
-   [
-    436,
-    "Taints and tolerations, continued"
-   ],
-   [
-    459,
-    "Workload autoscaling"
-   ],
-   [
-    481,
-    "Workload autoscaling, continued"
-   ]
-  ]
- },
- "xJXBBhDf6L4": {
-  "course": "cka",
-  "key": "06-Scheduling-Resources-and-Autoscaling-part-2",
-  "title": "CKA Exam Prep Module 6 Part 2 of 3: Requests, Limits, LimitRange and Node Affinity Labs | CKA",
-  "seconds": 485,
-  "published": "2026-11-11T09:34:14Z",
-  "privacy": "public",
-  "embeddable": true,
-  "chapters": [
-   [
-    0,
-    "Lab 6.1: requests limits"
-   ],
-   [
-    36,
-    "Lab 6.1: requests limits, Solution"
-   ],
-   [
-    89,
-    "Lab 6.2: limitrange defaults"
-   ],
-   [
-    135,
-    "Lab 6.2: limitrange defaults, Solution"
-   ],
-   [
-    170,
-    "Lab 6.3: resourcequota"
-   ],
-   [
-    217,
-    "Lab 6.3: resourcequota, Solution"
-   ],
-   [
-    267,
-    "Lab 6.4: nodeselector"
-   ],
-   [
-    302,
-    "Lab 6.4: nodeselector, Solution"
-   ],
-   [
-    334,
-    "Lab 6.5: node affinity"
-   ],
-   [
-    374,
-    "Lab 6.5: node affinity, Solution"
-   ],
-   [
-    389,
-    "Lab 6.5: node affinity, Solution, continued"
-   ],
-   [
-    419,
-    "Lab 6.6: taint toleration"
-   ],
-   [
-    457,
-    "Lab 6.6: taint toleration, Solution"
-   ]
-  ]
- },
- "CB-fDtBYid8": {
-  "course": "cka",
-  "key": "06-Scheduling-Resources-and-Autoscaling-part-3",
-  "title": "CKA Exam Prep Module 6 Part 3 of 3: Pod Anti-Affinity, Taints and Pending Pod Labs | CKA",
-  "seconds": 550,
-  "published": "2026-11-11T09:34:48Z",
-  "privacy": "public",
-  "embeddable": true,
-  "chapters": [
-   [
-    0,
-    "Lab 6.7: pod anti affinity"
-   ],
-   [
-    39,
-    "Lab 6.7: pod anti affinity, Solution"
-   ],
-   [
-    55,
-    "Lab 6.7: pod anti affinity, Solution, continued"
-   ],
-   [
-    85,
-    "Lab 6.8: fix pending pod"
-   ],
-   [
-    127,
-    "Lab 6.8: fix pending pod, Solution"
-   ],
-   [
-    161,
-    "Lab 6.9: hpa"
-   ],
-   [
-    208,
-    "Lab 6.9: hpa, Solution"
-   ],
-   [
-    254,
-    "Lab 6.10: topology spread"
-   ],
-   [
-    306,
-    "Lab 6.10: topology spread, Solution"
-   ],
-   [
-    321,
-    "Lab 6.10: topology spread, Solution, continued"
-   ]
-  ]
- },
- "JVJeSTx3GBE": {
-  "course": "cka",
-  "key": "07-Services-and-Pod-Connectivity-part-1",
-  "title": "CKA Exam Prep Module 7 Part 1 of 2: Services, Endpoints, DNS Names and Pod Networking | CKA",
-  "seconds": 594,
-  "published": "2026-11-11T09:35:25Z",
-  "privacy": "public",
-  "embeddable": true,
-  "chapters": [
-   [
-    0,
-    "The networking rules of Kubernetes"
-   ],
-   [
-    104,
-    "Service types"
-   ],
-   [
-    180,
-    "Service types, continued"
-   ],
-   [
-    202,
-    "Service types, continued"
-   ],
-   [
-    209,
-    "Service types, continued"
-   ],
-   [
-    242,
-    "Endpoints: what a Service actually points at"
-   ],
-   [
-    270,
-    "Endpoints: what a Service actually points at, continued"
-   ],
-   [
-    310,
-    "Service DNS names"
-   ],
-   [
-    335,
-    "Service DNS names, continued"
-   ],
-   [
-    366,
-    "How Services work on the node (short)"
-   ],
-   [
-    395,
-    "A fast way to test connectivity"
-   ],
-   [
-    409,
-    "A fast way to test connectivity, continued"
-   ],
-   [
-    424,
-    "Lab 7.1: clusterip service"
-   ],
-   [
-    461,
-    "Lab 7.1: clusterip service, Solution"
-   ],
-   [
-    481,
-    "Lab 7.2: nodeport service"
-   ],
-   [
-    515,
-    "Lab 7.2: nodeport service, Solution"
-   ],
-   [
-    550,
-    "Lab 7.3: fix service selector"
-   ]
-  ]
- },
- "3AURspFfCd4": {
-  "course": "cka",
-  "key": "07-Services-and-Pod-Connectivity-part-2",
-  "title": "CKA Exam Prep Module 7 Part 2 of 2: Endpoints and LoadBalancer Service Labs | CKA",
-  "seconds": 551,
-  "published": "2026-11-11T09:35:49Z",
-  "privacy": "public",
-  "embeddable": true,
-  "chapters": [
-   [
-    0,
-    "Lab 7.3: fix service selector, Solution"
-   ],
-   [
-    33,
-    "Lab 7.4: endpoint ips"
-   ],
-   [
-    69,
-    "Lab 7.4: endpoint ips, Solution"
-   ],
-   [
-    96,
-    "Lab 7.5: loadbalancer service"
-   ],
-   [
-    135,
-    "Lab 7.5: loadbalancer service, Solution"
-   ],
-   [
-    157,
-    "Lab 7.6: externalname"
-   ],
-   [
-    191,
-    "Lab 7.6: externalname, Solution"
-   ],
-   [
-    210,
-    "Lab 7.7: cross namespace dns"
-   ],
-   [
-    257,
-    "Lab 7.7: cross namespace dns, Solution"
-   ],
-   [
-    285,
-    "Lab 7.8: multiport service"
-   ],
-   [
-    330,
-    "Lab 7.8: multiport service, Solution"
-   ]
-  ]
- },
- "sWYbsFpdqSI": {
-  "course": "cka",
-  "key": "08-DNS-Ingress-and-Gateway-API-part-1",
-  "title": "CKA Exam Prep Module 8 Part 1 of 3: CoreDNS, the Corefile and Cluster DNS | Kubernetes Administrator",
-  "seconds": 553,
-  "published": "2026-11-11T09:36:26Z",
-  "privacy": "public",
-  "embeddable": true,
-  "chapters": [
-   [
-    0,
-    "CoreDNS"
-   ],
-   [
-    109,
-    "CoreDNS, continued"
-   ],
-   [
-    153,
-    "CoreDNS, continued"
-   ],
-   [
-    160,
-    "CoreDNS, continued"
-   ],
-   [
-    216,
-    "Ingress: HTTP routing into the cluster"
-   ],
-   [
-    250,
-    "Ingress: HTTP routing into the cluster, continued"
-   ],
-   [
-    259,
-    "Ingress: HTTP routing into the cluster, continued"
-   ],
-   [
-    282,
-    "Ingress: HTTP routing into the cluster, continued"
-   ],
-   [
-    329,
-    "Ingress: HTTP routing into the cluster, continued"
-   ],
-   [
-    338,
-    "Ingress: HTTP routing into the cluster, continued"
-   ],
-   [
-    357,
-    "Gateway API: the successor to Ingress"
-   ],
-   [
-    371,
-    "Gateway API: the successor to Ingress, continued"
-   ],
-   [
-    419,
-    "Gateway API: the successor to Ingress, continued"
-   ],
-   [
-    428,
-    "Gateway API: the successor to Ingress, continued"
-   ],
-   [
-    437,
-    "Gateway API: the successor to Ingress, continued"
-   ],
-   [
-    467,
-    "Gateway API: the successor to Ingress, continued"
-   ],
-   [
-    510,
-    "Lab 8.1: dns server ip"
-   ]
-  ]
- },
- "wxUemK8IiHw": {
-  "course": "cka",
-  "key": "08-DNS-Ingress-and-Gateway-API-part-2",
-  "title": "CKA Exam Prep Module 8 Part 2 of 3: CoreDNS Upstream and Custom Host Labs | Kubernetes Administrator",
-  "seconds": 470,
-  "published": "2026-11-11T09:36:45Z",
-  "privacy": "public",
-  "embeddable": true,
-  "chapters": [
-   [
-    0,
-    "Lab 8.1: dns server ip, Solution"
-   ],
-   [
-    32,
-    "Lab 8.2: coredns upstream"
-   ],
-   [
-    76,
-    "Lab 8.2: coredns upstream, Solution"
-   ],
-   [
-    102,
-    "Lab 8.3: coredns custom host"
-   ],
-   [
-    148,
-    "Lab 8.3: coredns custom host, Solution"
-   ],
-   [
-    211,
-    "Lab 8.4: fix dns down"
-   ],
-   [
-    247,
-    "Lab 8.4: fix dns down, Solution"
-   ],
-   [
-    281,
-    "Lab 8.5: ingress host routing"
-   ],
-   [
-    324,
-    "Lab 8.5: ingress host routing, Solution"
-   ],
-   [
-    352,
-    "Lab 8.6: ingress tls"
-   ],
-   [
-    397,
-    "Lab 8.6: ingress tls, Solution"
-   ],
-   [
-    432,
-    "Lab 8.7: fix ingress class"
-   ]
-  ]
- },
- "zfhT3Kszhnw": {
-  "course": "cka",
-  "key": "08-DNS-Ingress-and-Gateway-API-part-3",
-  "title": "CKA Exam Prep Module 8 Part 3 of 3: Ingress and Gateway API HTTPRoute Labs | CKA",
-  "seconds": 520,
-  "published": "2026-11-11T09:38:07Z",
-  "privacy": "public",
-  "embeddable": true,
-  "chapters": [
-   [
-    0,
-    "Lab 8.7: fix ingress class, Solution"
-   ],
-   [
-    27,
-    "Lab 8.8: fix ingress backend"
-   ],
-   [
-    64,
-    "Lab 8.8: fix ingress backend, Solution"
-   ],
-   [
-    97,
-    "Lab 8.9: gateway httproute"
-   ],
-   [
-    142,
-    "Lab 8.9: gateway httproute, Solution"
-   ],
-   [
-    161,
-    "Lab 8.9: gateway httproute, Solution, continued"
-   ],
-   [
-    194,
-    "Lab 8.10: fix httproute"
-   ],
-   [
-    232,
-    "Lab 8.10: fix httproute, Solution"
-   ],
-   [
-    262,
-    "Lab 8.11: httproute weights"
-   ],
-   [
-    302,
-    "Lab 8.11: httproute weights, Solution"
-   ]
-  ]
- },
- "IiBm4sCbK3s": {
-  "course": "cka",
-  "key": "09-Network-Policies-part-1",
-  "title": "CKA Exam Prep Module 9 Part 1 of 2: Network Policies: Model, Selectors and AND vs OR | CKA",
-  "seconds": 455,
-  "published": "2026-11-11T09:37:35Z",
-  "privacy": "public",
-  "embeddable": true,
-  "chapters": [
-   [
-    0,
-    "The model in six sentences"
-   ],
-   [
-    103,
-    "Anatomy"
-   ],
-   [
-    110,
-    "Anatomy, continued"
-   ],
-   [
-    139,
-    "The AND versus OR trap (most tested detail)"
-   ],
-   [
-    151,
-    "The AND versus OR trap (most tested detail), continued"
-   ],
-   [
-    160,
-    "The AND versus OR trap (most tested detail), continued"
-   ],
-   [
-    168,
-    "The AND versus OR trap (most tested detail), continued"
-   ],
-   [
-    183,
-    "Common recipes"
-   ],
-   [
-    201,
-    "Common recipes, continued"
-   ],
-   [
-    246,
-    "Common recipes, continued"
-   ],
-   [
-    253,
-    "Reading and debugging"
-   ],
-   [
-    267,
-    "Reading and debugging, continued"
-   ],
-   [
-    295,
-    "Lab 9.1: default deny"
-   ],
-   [
-    334,
-    "Lab 9.1: default deny, Solution"
-   ],
-   [
-    351,
-    "Lab 9.2: allow from namespace"
-   ],
-   [
-    396,
-    "Lab 9.2: allow from namespace, Solution"
-   ],
-   [
-    413,
-    "Lab 9.3: egress policy"
-   ]
-  ]
- },
- "sKFYde-q_pw": {
-  "course": "cka",
-  "key": "09-Network-Policies-part-2",
-  "title": "CKA Exam Prep Module 9 Part 2 of 2: Fix Network Policy Labels and AND vs OR Labs | CKA",
-  "seconds": 436,
-  "published": "2026-11-11T09:38:06Z",
-  "privacy": "public",
-  "embeddable": true,
-  "chapters": [
-   [
-    0,
-    "Lab 9.3: egress policy, Solution"
-   ],
-   [
-    17,
-    "Lab 9.4: fix policy labels"
-   ],
-   [
-    60,
-    "Lab 9.4: fix policy labels, Solution"
-   ],
-   [
-    93,
-    "Lab 9.5: and vs or selectors"
-   ],
-   [
-    136,
-    "Lab 9.5: and vs or selectors, Solution"
-   ],
-   [
-    154,
-    "Lab 9.6: deny all allow dns"
-   ],
-   [
-    205,
-    "Lab 9.6: deny all allow dns, Solution"
-   ],
-   [
-    220,
-    "Lab 9.6: deny all allow dns, Solution, continued"
-   ]
-  ]
- },
- "lTO0rPxTt3k": {
-  "course": "cka",
-  "key": "10-Storage-part-1",
-  "title": "CKA Exam Prep Module 10 Part 1 of 3: PersistentVolumes, PVCs, StorageClass and Reclaim Policy | CKA",
-  "seconds": 568,
-  "published": "2026-11-11T09:38:46Z",
-  "privacy": "public",
-  "embeddable": true,
-  "chapters": [
-   [
-    0,
-    "The storage objects"
-   ],
-   [
-    76,
-    "The storage objects, continued"
-   ],
-   [
-    131,
-    "Volume types you must know"
-   ],
-   [
-    170,
-    "Static provisioning (admin creates the PV)"
-   ],
-   [
-    179,
-    "Static provisioning (admin creates the PV), continued"
-   ],
-   [
-    216,
-    "Dynamic provisioning with a StorageClass"
-   ],
-   [
-    231,
-    "Dynamic provisioning with a StorageClass, continued"
-   ],
-   [
-    265,
-    "Dynamic provisioning with a StorageClass, continued"
-   ],
-   [
-    294,
-    "Access modes and reclaim policies"
-   ],
-   [
-    351,
-    "Access modes and reclaim policies, continued"
-   ],
-   [
-    375,
-    "Use a PVC in a Pod"
-   ],
-   [
-    383,
-    "Use a PVC in a Pod, continued"
-   ],
-   [
-    395,
-    "Troubleshooting storage (break-and-fix patterns)"
-   ],
-   [
-    465,
-    "Troubleshooting storage (break-and-fix patterns), continued"
-   ],
-   [
-    480,
-    "Lab 10.1: dynamic pvc"
-   ],
-   [
-    524,
-    "Lab 10.1: dynamic pvc, Solution"
-   ],
-   [
-    539,
-    "Lab 10.1: dynamic pvc, Solution, continued"
-   ]
-  ]
- },
- "LHQw3Eddbuc": {
-  "course": "cka",
-  "key": "10-Storage-part-2",
-  "title": "CKA Exam Prep Module 10 Part 2 of 3: Static PV, PVC and Default StorageClass Labs | CKA",
-  "seconds": 572,
-  "published": "2026-11-11T09:39:12Z",
-  "privacy": "public",
-  "embeddable": true,
-  "chapters": [
-   [
-    0,
-    "Lab 10.2: static pv pvc"
-   ],
-   [
-    45,
-    "Lab 10.2: static pv pvc, Solution"
-   ],
-   [
-    59,
-    "Lab 10.2: static pv pvc, Solution, continued"
-   ],
-   [
-    78,
-    "Lab 10.3: storageclass default"
-   ],
-   [
-    119,
-    "Lab 10.3: storageclass default, Solution"
-   ],
-   [
-    144,
-    "Lab 10.4: reclaim retain"
-   ],
-   [
-    185,
-    "Lab 10.4: reclaim retain, Solution"
-   ],
-   [
-    212,
-    "Lab 10.5: emptydir shared"
-   ],
-   [
-    258,
-    "Lab 10.5: emptydir shared, Solution"
-   ],
-   [
-    273,
-    "Lab 10.5: emptydir shared, Solution, continued"
-   ],
-   [
-    301,
-    "Lab 10.6: fix pending pvc"
-   ],
-   [
-    344,
-    "Lab 10.6: fix pending pvc, Solution"
-   ],
-   [
-    385,
-    "Lab 10.6: fix pending pvc, Solution, continued"
-   ],
-   [
-    414,
-    "Lab 10.7: fix access mode"
-   ],
-   [
-    456,
-    "Lab 10.7: fix access mode, Solution"
-   ],
-   [
-    491,
-    "Lab 10.8: pvc persists"
-   ],
-   [
-    537,
-    "Lab 10.8: pvc persists, Solution"
-   ]
-  ]
- },
- "WPwnRZgap0o": {
-  "course": "cka",
-  "key": "10-Storage-part-3",
-  "title": "CKA Exam Prep Module 10 Part 3 of 3: Released PV Reuse and hostPath Volume Labs | CKA",
-  "seconds": 556,
-  "published": "2026-11-11T09:39:47Z",
-  "privacy": "public",
-  "embeddable": true,
-  "chapters": [
-   [
-    0,
-    "Lab 10.9: released pv reuse"
-   ],
-   [
-    44,
-    "Lab 10.9: released pv reuse, Solution"
-   ],
-   [
-    74,
-    "Lab 10.10: hostpath volume"
-   ],
-   [
-    122,
-    "Lab 10.10: hostpath volume, Solution"
-   ],
-   [
-    159,
-    "Lab 10.11: pvc readonly"
-   ],
-   [
-    201,
-    "Lab 10.11: pvc readonly, Solution"
-   ],
-   [
-    230,
-    "Lab 10.12: statefulset claims"
-   ],
-   [
-    279,
-    "Lab 10.12: statefulset claims, Solution"
-   ],
-   [
-    295,
-    "Lab 10.12: statefulset claims, Solution, continued"
-   ],
-   [
-    324,
-    "Lab 10.12: statefulset claims, Solution, continued"
-   ]
-  ]
- },
- "C40IMaCfvtE": {
-  "course": "cka",
-  "key": "11-Troubleshooting-Applications-and-Container-Logs-part-1",
-  "title": "CKA Exam Prep Module 11 Part 1 of 2: Troubleshooting Pods: Status Words, describe and Logs | CKA",
-  "seconds": 700,
-  "published": "2026-11-11T09:40:53Z",
-  "privacy": "public",
-  "embeddable": true,
-  "chapters": [
-   [
-    0,
-    "The method: top-down, one command at a time"
-   ],
-   [
-    73,
-    "The method: top-down, one command at a time, continued"
-   ],
-   [
-    131,
-    "Pod status words and what they mean"
-   ],
-   [
-    204,
-    "Pod status words and what they mean, continued"
-   ],
-   [
-    265,
-    "Pod status words and what they mean, continued"
-   ],
-   [
-    293,
-    "Reading logs: every variant"
-   ],
-   [
-    307,
-    "Reading logs: every variant, continued"
-   ],
-   [
-    346,
-    "Reading logs: every variant, continued"
-   ],
-   [
-    379,
-    "Break-and-fix catalog (all executed in this module's labs)"
-   ],
-   [
-    456,
-    "Break-and-fix catalog (all executed in this module's labs), continued"
-   ],
-   [
-    520,
-    "Useful debugging tools"
-   ],
-   [
-    534,
-    "Lab 11.1: container logs"
-   ],
-   [
-    568,
-    "Lab 11.1: container logs, Solution"
-   ],
-   [
-    590,
-    "Lab 11.2: previous logs"
-   ],
-   [
-    626,
-    "Lab 11.2: previous logs, Solution"
-   ],
-   [
-    666,
-    "Lab 11.3: fix image pull"
-   ]
-  ]
- },
- "P-bQO25c5i0": {
-  "course": "cka",
-  "key": "11-Troubleshooting-Applications-and-Container-Logs-part-2",
-  "title": "CKA Exam Prep Module 11 Part 2 of 2: Missing Env, ConfigMap and Init Container Fix Labs | CKA",
-  "seconds": 660,
-  "published": "2026-11-11T09:40:51Z",
-  "privacy": "public",
-  "embeddable": true,
-  "chapters": [
-   [
-    0,
-    "Lab 11.3: fix image pull, Solution"
-   ],
-   [
-    28,
-    "Lab 11.4: fix missing env"
-   ],
-   [
-    66,
-    "Lab 11.4: fix missing env, Solution"
-   ],
-   [
-    93,
-    "Lab 11.5: fix missing configmap"
-   ],
-   [
-    133,
-    "Lab 11.5: fix missing configmap, Solution"
-   ],
-   [
-    163,
-    "Lab 11.6: oomkilled"
-   ],
-   [
-    205,
-    "Lab 11.6: oomkilled, Solution"
-   ],
-   [
-    246,
-    "Lab 11.7: fix init container"
-   ],
-   [
-    289,
-    "Lab 11.7: fix init container, Solution"
-   ],
-   [
-    322,
-    "Lab 11.8: fix wrong command"
-   ],
-   [
-    363,
-    "Lab 11.8: fix wrong command, Solution"
-   ],
-   [
-    399,
-    "Lab 11.9: logs by label"
-   ],
-   [
-    440,
-    "Lab 11.9: logs by label, Solution"
-   ]
-  ]
- },
- "cPHC4PBLT_I": {
-  "course": "cka",
-  "key": "12-Troubleshooting-Clusters-Nodes-and-Components-part-1",
-  "title": "CKA Exam Prep Module 12 Part 1 of 3: Troubleshooting Nodes: kubelet, Runtime and Control Plane | CKA",
-  "seconds": 528,
-  "published": "2026-11-11T09:41:22Z",
-  "privacy": "public",
-  "embeddable": true,
-  "chapters": [
-   [
-    0,
-    "First look at the cluster"
-   ],
-   [
-    64,
-    "First look at the cluster, continued"
-   ],
-   [
-    71,
-    "First look at the cluster, continued"
-   ],
-   [
-    136,
-    "The node: kubelet and container runtime"
-   ],
-   [
-    160,
-    "The node: kubelet and container runtime, continued"
-   ],
-   [
-    218,
-    "The node: kubelet and container runtime, continued"
-   ],
-   [
-    256,
-    "The node: kubelet and container runtime, continued"
-   ],
-   [
-    289,
-    "The control plane: static Pods and crictl"
-   ],
-   [
-    325,
-    "The control plane: static Pods and crictl, continued"
-   ],
-   [
-    335,
-    "The control plane: static Pods and crictl, continued"
-   ],
-   [
-    356,
-    "The control plane: static Pods and crictl, continued"
-   ],
-   [
-    430,
-    "Your own access: kubeconfig problems"
-   ],
-   [
-    452,
-    "Your own access: kubeconfig problems, continued"
-   ],
-   [
-    475,
-    "Not broken, just switched off"
-   ],
-   [
-    507,
-    "Certificates (quick check)"
-   ]
-  ]
- },
- "yUC0amm2S58": {
-  "course": "cka",
-  "key": "12-Troubleshooting-Clusters-Nodes-and-Components-part-2",
-  "title": "CKA Exam Prep Module 12 Part 2 of 3: kubelet, API Server and Kubeconfig Failure Labs | CKA",
-  "seconds": 452,
-  "published": "2026-11-11T09:41:55Z",
-  "privacy": "public",
-  "embeddable": true,
-  "chapters": [
-   [
-    0,
-    "A checklist for any \"cluster is broken\" task"
-   ],
-   [
-    40,
-    "Lab 12.1: kubelet stopped"
-   ],
-   [
-    81,
-    "Lab 12.1: kubelet stopped, Solution"
-   ],
-   [
-    107,
-    "Lab 12.2: kubelet config"
-   ],
-   [
-    144,
-    "Lab 12.2: kubelet config, Solution"
-   ],
-   [
-    182,
-    "Lab 12.3: apiserver etcd flag"
-   ],
-   [
-    223,
-    "Lab 12.3: apiserver etcd flag, Solution"
-   ],
-   [
-    278,
-    "Lab 12.4: apiserver cert path"
-   ],
-   [
-    320,
-    "Lab 12.4: apiserver cert path, Solution"
-   ],
-   [
-    366,
-    "Lab 12.5: scheduler broken"
-   ],
-   [
-    405,
-    "Lab 12.5: scheduler broken, Solution"
-   ]
-  ]
- },
- "YrDGV4rfy9E": {
-  "course": "cka",
-  "key": "12-Troubleshooting-Clusters-Nodes-and-Components-part-3",
-  "title": "CKA Exam Prep Module 12 Part 3 of 3: Scheduler, Controller Manager and containerd Labs | CKA",
-  "seconds": 508,
-  "published": "2026-11-11T09:42:17Z",
-  "privacy": "public",
-  "embeddable": true,
-  "chapters": [
-   [
-    0,
-    "Lab 12.6: controller manager broken"
-   ],
-   [
-    37,
-    "Lab 12.6: controller manager broken, Solution"
-   ],
-   [
-    85,
-    "Lab 12.7: containerd stopped"
-   ],
-   [
-    119,
-    "Lab 12.7: containerd stopped, Solution"
-   ],
-   [
-    153,
-    "Lab 12.8: kubeconfig wrong server"
-   ],
-   [
-    196,
-    "Lab 12.8: kubeconfig wrong server, Solution"
-   ],
-   [
-    233,
-    "Lab 12.9: cordoned nodes"
-   ],
-   [
-    269,
-    "Lab 12.9: cordoned nodes, Solution"
-   ]
-  ]
- },
- "dytmyAK-Mxg": {
-  "course": "cka",
-  "key": "13-Troubleshooting-Services-and-Networking-Monitoring-Resource-Usage-part-1",
-  "title": "CKA Exam Prep Module 13 Part 1 of 2: Troubleshooting Services, DNS and Resource Usage | CKA",
-  "seconds": 613,
-  "published": "2026-11-11T09:43:04Z",
-  "privacy": "public",
-  "embeddable": true,
-  "chapters": [
-   [
-    0,
-    "Service troubleshooting: walk the path"
-   ],
-   [
-    70,
-    "Service troubleshooting: walk the path, continued"
-   ],
-   [
-    89,
-    "Service troubleshooting: walk the path, continued"
-   ],
-   [
-    146,
-    "Service troubleshooting: walk the path, continued"
-   ],
-   [
-    192,
-    "Service troubleshooting: walk the path, continued"
-   ],
-   [
-    233,
-    "Service troubleshooting: walk the path, continued"
-   ],
-   [
-    255,
-    "Readiness: Running is not Ready"
-   ],
-   [
-    287,
-    "DNS troubleshooting"
-   ],
-   [
-    295,
-    "DNS troubleshooting, continued"
-   ],
-   [
-    360,
-    "Other network faults to recognize"
-   ],
-   [
-    408,
-    "Monitoring resource usage"
-   ],
-   [
-    431,
-    "Monitoring resource usage, continued"
-   ],
-   [
-    474,
-    "Monitoring resource usage, continued"
-   ],
-   [
-    502,
-    "Lab 13.1: top pods"
-   ],
-   [
-    539,
-    "Lab 13.1: top pods, Solution"
-   ],
-   [
-    566,
-    "Lab 13.2: fix metrics server"
-   ]
-  ]
- },
- "syE1lHLULz4": {
-  "course": "cka",
-  "key": "13-Troubleshooting-Services-and-Networking-Monitoring-Resource-Usage-part-2",
-  "title": "CKA Exam Prep Module 13 Part 2 of 2: Readiness, targetPort and Monitoring Labs | CKA",
-  "seconds": 599,
-  "published": "2026-11-11T09:43:43Z",
-  "privacy": "public",
-  "embeddable": true,
-  "chapters": [
-   [
-    0,
-    "Lab 13.2: fix metrics server, Solution"
-   ],
-   [
-    49,
-    "Lab 13.3: readiness no endpoints"
-   ],
-   [
-    92,
-    "Lab 13.3: readiness no endpoints, Solution"
-   ],
-   [
-    130,
-    "Lab 13.4: wrong targetport"
-   ],
-   [
-    172,
-    "Lab 13.4: wrong targetport, Solution"
-   ],
-   [
-    204,
-    "Lab 13.5: pod dns policy"
-   ],
-   [
-    248,
-    "Lab 13.5: pod dns policy, Solution"
-   ],
-   [
-    298,
-    "Lab 13.6: coredns bad corefile"
-   ],
-   [
-    343,
-    "Lab 13.6: coredns bad corefile, Solution"
-   ]
-  ]
- },
- "GBdfCOxfy_U": {
-  "course": "cka",
-  "key": "14-Timed-Mixed-Lab-Set-A-part-1",
-  "title": "CKA Exam Prep Module 14 Part 1 of 2: Timed Mixed Lab Set A, Tasks 1 to 8 | Kubernetes Administrator",
-  "seconds": 700,
-  "published": "2026-11-11T09:44:15Z",
-  "privacy": "public",
-  "embeddable": true,
-  "chapters": [
-   [
-    0,
-    "How to use this set"
-   ],
-   [
-    106,
-    "How to use this set, continued"
-   ],
-   [
-    129,
-    "Review after the set"
-   ],
-   [
-    155,
-    "Task 1: Troubleshooting"
-   ],
-   [
-    195,
-    "Task 1: Solution"
-   ],
-   [
-    222,
-    "Task 2: Troubleshooting"
-   ],
-   [
-    254,
-    "Task 2: Solution"
-   ],
-   [
-    283,
-    "Task 3: Troubleshooting"
-   ],
-   [
-    325,
-    "Task 3: Solution"
-   ],
-   [
-    363,
-    "Task 4: Troubleshooting"
-   ],
-   [
-    405,
-    "Task 4: Solution"
-   ],
-   [
-    446,
-    "Task 5: Troubleshooting"
-   ],
-   [
-    483,
-    "Task 5: Solution"
-   ],
-   [
-    531,
-    "Task 6: Architecture"
-   ],
-   [
-    568,
-    "Task 6: Solution"
-   ],
-   [
-    591,
-    "Task 7: Architecture"
-   ],
-   [
-    630,
-    "Task 7: Solution"
-   ],
-   [
-    657,
-    "Task 8: Architecture"
-   ]
-  ]
- },
- "rhVSptw1dM4": {
-  "course": "cka",
-  "key": "14-Timed-Mixed-Lab-Set-A-part-2",
-  "title": "CKA Exam Prep Module 14 Part 2 of 2: Timed Mixed Lab Set A, Tasks 9 to 16 | Kubernetes Administrator",
-  "seconds": 722,
-  "published": "2026-11-11T09:44:38Z",
-  "privacy": "public",
-  "embeddable": true,
-  "chapters": [
-   [
-    0,
-    "Task 8: Solution"
-   ],
-   [
-    29,
-    "Task 9: Troubleshooting"
-   ],
-   [
-    73,
-    "Task 9: Solution"
-   ],
-   [
-    99,
-    "Task 10: Networking"
-   ],
-   [
-    132,
-    "Task 10: Solution"
-   ],
-   [
-    168,
-    "Task 11: Networking"
-   ],
-   [
-    211,
-    "Task 11: Solution"
-   ],
-   [
-    229,
-    "Task 12: Troubleshooting"
-   ],
-   [
-    264,
-    "Task 12: Solution"
-   ],
-   [
-    299,
-    "Task 13: Workloads"
-   ],
-   [
-    334,
-    "Task 13: Solution"
-   ],
-   [
-    357,
-    "Task 14: Workloads"
-   ],
-   [
-    397,
-    "Task 14: Solution"
-   ],
-   [
-    412,
-    "Task 14: Solution, continued"
-   ],
-   [
-    440,
-    "Task 15: Storage"
-   ],
-   [
-    483,
-    "Task 15: Solution"
-   ],
-   [
-    498,
-    "Task 15: Solution, continued"
-   ],
-   [
-    526,
-    "Task 16: Storage"
-   ],
-   [
-    568,
-    "Task 16: Solution"
-   ]
-  ]
- },
- "riOlkeoiENI": {
-  "course": "cka",
-  "key": "15-Timed-Mixed-Lab-Set-B-part-1",
-  "title": "CKA Exam Prep Module 15 Part 1 of 2: Timed Mixed Lab Set B, Rules and Tasks 1 to 8 | CKA",
-  "seconds": 705,
-  "published": "2026-11-11T09:45:17Z",
-  "privacy": "public",
-  "embeddable": true,
-  "chapters": [
-   [
-    0,
-    "How to use this set"
-   ],
-   [
-    96,
-    "Review after the set"
-   ],
-   [
-    119,
-    "Task 1: Troubleshooting"
-   ],
-   [
-    155,
-    "Task 1: Solution"
-   ],
-   [
-    193,
-    "Task 2: Troubleshooting"
-   ],
-   [
-    230,
-    "Task 2: Solution"
-   ],
-   [
-    257,
-    "Task 3: Troubleshooting"
-   ],
-   [
-    298,
-    "Task 3: Solution"
-   ],
-   [
-    330,
-    "Task 4: Troubleshooting"
-   ],
-   [
-    373,
-    "Task 4: Solution"
-   ],
-   [
-    406,
-    "Task 5: Troubleshooting"
-   ],
-   [
-    441,
-    "Task 5: Solution"
-   ],
-   [
-    490,
-    "Task 6: Architecture"
-   ],
-   [
-    527,
-    "Task 6: Solution"
-   ],
-   [
-    560,
-    "Task 7: Architecture"
-   ],
-   [
-    600,
-    "Task 7: Solution"
-   ],
-   [
-    621,
-    "Task 8: Architecture"
-   ],
-   [
-    667,
-    "Task 8: Solution"
-   ]
-  ]
- },
- "a71sctIXQZE": {
-  "course": "cka",
-  "key": "15-Timed-Mixed-Lab-Set-B-part-2",
-  "title": "CKA Exam Prep Module 15 Part 2 of 2: Timed Mixed Lab Set B, Tasks 9 to 16 and Review | CKA",
-  "seconds": 747,
-  "published": "2026-11-11T09:45:57Z",
-  "privacy": "public",
-  "embeddable": true,
-  "chapters": [
-   [
-    0,
-    "Task 9: Architecture"
-   ],
-   [
-    37,
-    "Task 9: Solution"
-   ],
-   [
-    65,
-    "Task 10: Troubleshooting"
-   ],
-   [
-    108,
-    "Task 10: Solution"
-   ],
-   [
-    141,
-    "Task 11: Networking"
-   ],
-   [
-    182,
-    "Task 11: Solution"
-   ],
-   [
-    200,
-    "Task 12: Troubleshooting"
-   ],
-   [
-    242,
-    "Task 12: Solution"
-   ],
-   [
-    292,
-    "Task 13: Workloads"
-   ],
-   [
-    340,
-    "Task 13: Solution"
-   ],
-   [
-    368,
-    "Task 14: Workloads"
-   ],
-   [
-    406,
-    "Task 14: Solution"
-   ],
-   [
-    434,
-    "Task 15: Troubleshooting"
-   ],
-   [
-    476,
-    "Task 15: Solution"
-   ],
-   [
-    517,
-    "Task 15: Solution, continued"
-   ],
-   [
-    545,
-    "Task 16: Storage"
-   ],
-   [
-    589,
-    "Task 16: Solution"
-   ],
-   [
-    603,
-    "Task 16: Solution, continued"
-   ]
-  ]
- },
- "pQitxEww2v4": {
-  "course": "cka",
-  "key": "16-Exam-Technique-and-Final-Review-part-1",
-  "title": "CKA Exam Prep Module 16: Exam Technique: Time Budget, Routine, Docs and Common Traps | CKA",
-  "seconds": 691,
-  "published": "2026-11-11T09:46:27Z",
-  "privacy": "public",
-  "embeddable": true,
-  "chapters": [
-   [
-    0,
-    "The time budget"
-   ],
-   [
-    67,
-    "The time budget, continued"
-   ],
-   [
-    86,
-    "The time budget, continued"
-   ],
-   [
-    141,
-    "The routine for every task"
-   ],
-   [
-    191,
-    "Using the documentation well"
-   ],
-   [
-    248,
-    "Domain checklists"
-   ],
-   [
-    307,
-    "Domain checklists, continued"
-   ],
-   [
-    352,
-    "Common traps (each one cost a point in a lab)"
-   ],
-   [
-    422,
-    "Common traps (each one cost a point in a lab), continued"
-   ],
-   [
-    461,
-    "The final week"
-   ]
-  ]
  }
 }

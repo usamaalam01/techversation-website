@@ -80,6 +80,16 @@
    ]
   },
   {
+   "id": "microsoft",
+   "name": "Microsoft",
+   "full": "Microsoft",
+   "mono": "MS",
+   "certs": [
+    "az900",
+    "ai901"
+   ]
+  },
+  {
    "id": "training",
    "name": "Training",
    "full": "Techversation training courses",
@@ -4884,7 +4894,7 @@
        "part": 1,
        "id": "2jvQjzt5BfU",
        "title": "What the exam is",
-       "seconds": 595,
+       "seconds": 596,
        "chapters": [
         [
          0,
@@ -5015,7 +5025,7 @@
      ],
      "deck": "downloads/cka/00-exam-orientation-and-the-command-line-toolkit.pptx",
      "deck_kb": 318,
-     "seconds": 1103,
+     "seconds": 1104,
      "words": 2569
     },
     {
@@ -5180,7 +5190,7 @@
        "part": 1,
        "id": "VsEL0-ZOx2s",
        "title": "How a request is checked",
-       "seconds": 570,
+       "seconds": 571,
        "chapters": [
         [
          0,
@@ -5266,7 +5276,7 @@
        "part": 2,
        "id": "NyyKyW0594Q",
        "title": "Lab 2.4: fix rolebinding and Lab 2.5: user certificate, recall and recap",
-       "seconds": 559,
+       "seconds": 560,
        "chapters": [
         [
          0,
@@ -5311,7 +5321,7 @@
      ],
      "deck": "downloads/cka/02-rbac-service-accounts-and-kubeconfig.pptx",
      "deck_kb": 220,
-     "seconds": 1129,
+     "seconds": 1131,
      "words": 2738
     },
     {
@@ -5410,7 +5420,7 @@
        "part": 2,
        "id": "lp0dRHfczcc",
        "title": "Lab 3.3: cert expiry and Lab 3.4: join command, recall and recap",
-       "seconds": 662,
+       "seconds": 663,
        "chapters": [
         [
          0,
@@ -5471,7 +5481,7 @@
      ],
      "deck": "downloads/cka/03-cluster-lifecycle-with-kubeadm-etcd-and-high-availability.pptx",
      "deck_kb": 296,
-     "seconds": 1364,
+     "seconds": 1365,
      "words": 3548
     },
     {
@@ -5706,7 +5716,7 @@
        "part": 2,
        "id": "6P3_2AtDAS8",
        "title": "Lab 5.4: secret env file and Lab 5.5: daemonset, recall and recap",
-       "seconds": 724,
+       "seconds": 725,
        "chapters": [
         [
          0,
@@ -5779,7 +5789,7 @@
      ],
      "deck": "downloads/cka/05-deployments-configuration-and-self-healing-workloads.pptx",
      "deck_kb": 186,
-     "seconds": 1478,
+     "seconds": 1479,
      "words": 3439
     },
     {
@@ -5882,7 +5892,7 @@
        "part": 2,
        "id": "xJXBBhDf6L4",
        "title": "Lab 6.1: requests limits and Lab 6.2: limitrange defaults",
-       "seconds": 485,
+       "seconds": 486,
        "chapters": [
         [
          0,
@@ -5993,7 +6003,7 @@
      ],
      "deck": "downloads/cka/06-scheduling-resources-and-autoscaling.pptx",
      "deck_kb": 243,
-     "seconds": 1555,
+     "seconds": 1556,
      "words": 3764
     },
     {
@@ -6006,7 +6016,7 @@
        "part": 1,
        "id": "JVJeSTx3GBE",
        "title": "The networking rules of Kubernetes and Service types",
-       "seconds": 594,
+       "seconds": 595,
        "chapters": [
         [
          0,
@@ -6084,7 +6094,7 @@
        "part": 2,
        "id": "3AURspFfCd4",
        "title": "Lab 7.4: endpoint ips and Lab 7.5: loadbalancer service, recall and recap",
-       "seconds": 551,
+       "seconds": 552,
        "chapters": [
         [
          0,
@@ -6137,7 +6147,7 @@
      ],
      "deck": "downloads/cka/07-services-and-pod-connectivity.pptx",
      "deck_kb": 147,
-     "seconds": 1145,
+     "seconds": 1147,
      "words": 2798
     },
     {
@@ -6150,7 +6160,7 @@
        "part": 1,
        "id": "sWYbsFpdqSI",
        "title": "CoreDNS",
-       "seconds": 553,
+       "seconds": 554,
        "chapters": [
         [
          0,
@@ -6228,7 +6238,7 @@
        "part": 2,
        "id": "wxUemK8IiHw",
        "title": "Lab 8.2: coredns upstream and Lab 8.3: coredns custom host",
-       "seconds": 470,
+       "seconds": 471,
        "chapters": [
         [
          0,
@@ -6335,7 +6345,7 @@
      ],
      "deck": "downloads/cka/08-dns-ingress-and-gateway-api.pptx",
      "deck_kb": 248,
-     "seconds": 1543,
+     "seconds": 1545,
      "words": 3870
     },
     {
@@ -6348,7 +6358,7 @@
        "part": 1,
        "id": "IiBm4sCbK3s",
        "title": "The model in six sentences and Anatomy",
-       "seconds": 455,
+       "seconds": 456,
        "chapters": [
         [
          0,
@@ -6467,7 +6477,7 @@
      ],
      "deck": "downloads/cka/09-network-policies.pptx",
      "deck_kb": 188,
-     "seconds": 891,
+     "seconds": 892,
      "words": 2043
     },
     {
@@ -6480,7 +6490,7 @@
        "part": 1,
        "id": "lTO0rPxTt3k",
        "title": "The storage objects",
-       "seconds": 568,
+       "seconds": 569,
        "chapters": [
         [
          0,
@@ -6636,7 +6646,7 @@
        "part": 3,
        "id": "WPwnRZgap0o",
        "title": "Lab 10.9: released pv reuse and Lab 10.10: hostpath volume, recall and recap",
-       "seconds": 556,
+       "seconds": 557,
        "chapters": [
         [
          0,
@@ -6685,7 +6695,7 @@
      ],
      "deck": "downloads/cka/10-storage.pptx",
      "deck_kb": 260,
-     "seconds": 1696,
+     "seconds": 1698,
      "words": 4013
     },
     {
@@ -6772,7 +6782,7 @@
        "part": 2,
        "id": "P-bQO25c5i0",
        "title": "Lab 11.4: fix missing env and Lab 11.5: fix missing configmap, recall and recap",
-       "seconds": 660,
+       "seconds": 661,
        "chapters": [
         [
          0,
@@ -6833,7 +6843,7 @@
      ],
      "deck": "downloads/cka/11-troubleshooting-applications-and-container-logs.pptx",
      "deck_kb": 194,
-     "seconds": 1360,
+     "seconds": 1361,
      "words": 3270
     },
     {
@@ -6916,7 +6926,7 @@
        "part": 2,
        "id": "yUC0amm2S58",
        "title": "A checklist for any \"cluster is broken\" task and Lab 12.1: kubelet stopped",
-       "seconds": 452,
+       "seconds": 453,
        "chapters": [
         [
          0,
@@ -6970,7 +6980,7 @@
        "part": 3,
        "id": "YrDGV4rfy9E",
        "title": "Lab 12.6: controller manager broken and Lab 12.7: containerd stopped, recall and recap",
-       "seconds": 508,
+       "seconds": 509,
        "chapters": [
         [
          0,
@@ -7011,7 +7021,7 @@
      ],
      "deck": "downloads/cka/12-troubleshooting-clusters-nodes-and-components.pptx",
      "deck_kb": 244,
-     "seconds": 1488,
+     "seconds": 1490,
      "words": 3856
     },
     {
@@ -7024,7 +7034,7 @@
        "part": 1,
        "id": "dytmyAK-Mxg",
        "title": "Service troubleshooting: walk the path",
-       "seconds": 613,
+       "seconds": 614,
        "chapters": [
         [
          0,
@@ -7143,7 +7153,7 @@
      ],
      "deck": "downloads/cka/13-troubleshooting-services-and-networking-monitoring-resource-usage.pptx",
      "deck_kb": 190,
-     "seconds": 1212,
+     "seconds": 1213,
      "words": 2969
     },
     {
@@ -7156,7 +7166,7 @@
        "part": 1,
        "id": "GBdfCOxfy_U",
        "title": "How to use this set",
-       "seconds": 700,
+       "seconds": 701,
        "chapters": [
         [
          0,
@@ -7238,7 +7248,7 @@
        "part": 2,
        "id": "rhVSptw1dM4",
        "title": "Task 9: Troubleshooting and Task 10: Networking, recall and recap",
-       "seconds": 722,
+       "seconds": 723,
        "chapters": [
         [
          0,
@@ -7323,7 +7333,7 @@
      ],
      "deck": "downloads/cka/14-timed-mixed-lab-set-a.pptx",
      "deck_kb": 176,
-     "seconds": 1422,
+     "seconds": 1424,
      "words": 3553
     },
     {
@@ -7336,7 +7346,7 @@
        "part": 1,
        "id": "riOlkeoiENI",
        "title": "How to use this set and Review after the set",
-       "seconds": 705,
+       "seconds": 706,
        "chapters": [
         [
          0,
@@ -7499,7 +7509,7 @@
      ],
      "deck": "downloads/cka/15-timed-mixed-lab-set-b.pptx",
      "deck_kb": 173,
-     "seconds": 1452,
+     "seconds": 1453,
      "words": 3616
     },
     {
@@ -7573,7 +7583,7 @@
     "url": "https://training.linuxfoundation.org/certification/certified-kubernetes-administrator-cka/"
    },
    "videos": 37,
-   "seconds": 21749,
+   "seconds": 21769,
    "notes": [
     {
      "num": "00",
@@ -33135,6 +33145,2882 @@
      "tn": "Module 19",
      "of": 20,
      "module": "19"
+    }
+   ],
+   "glossary": 0
+  },
+  {
+   "kind": "certification",
+   "topic": null,
+   "slug": "az900",
+   "institute": "microsoft",
+   "short": "AZ-900",
+   "name": "Microsoft Azure Fundamentals",
+   "title": "AZ-900 Exam Prep Masterclass",
+   "accent": "c-az900",
+   "desc": "Cloud concepts, Azure architecture and services, and management and governance, with exam-style questions in every module.",
+   "audience": "Students, career changers and IT staff starting with the cloud, and anyone preparing for the AZ-900 exam. No Azure account is needed.",
+   "sources": "The official AZ-900 study guide and the Microsoft Learn documentation of each service.",
+   "playlist": "PLe9u-TUNXkxo",
+   "cover": "img/covers/az900.jpg",
+   "modules": [
+    {
+     "num": "00",
+     "slug": "00-exam-orientation-and-how-to-study",
+     "title": "Exam Orientation and How to Study",
+     "desc": "What the exam is, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "B21lhMCyw8M",
+       "title": "What the exam is, recall and recap",
+       "seconds": 678,
+       "chapters": [
+        [
+         0,
+         "What the exam is"
+        ],
+        [
+         74,
+         "What the exam is, continued"
+        ],
+        [
+         121,
+         "What the exam is, continued"
+        ],
+        [
+         130,
+         "The three domains and their weights"
+        ],
+        [
+         179,
+         "Where each domain lives in this course"
+        ],
+        [
+         227,
+         "How to read the exam wording"
+        ],
+        [
+         274,
+         "A repeatable way to answer a question"
+        ],
+        [
+         309,
+         "A study plan"
+        ],
+        [
+         368,
+         "What is not on the exam"
+        ]
+       ],
+       "published": "2026-11-12T08:06:51Z",
+       "thumb": "img/modules/az900/00-1.jpg"
+      }
+     ],
+     "deck": "downloads/az900/00-exam-orientation-and-how-to-study.pptx",
+     "deck_kb": 168,
+     "seconds": 678,
+     "words": 1347
+    },
+    {
+     "num": "01",
+     "slug": "01-cloud-computing-concepts",
+     "title": "Cloud Computing Concepts",
+     "desc": "What cloud computing is and The shared responsibility model, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "Jmu-HARwQrk",
+       "title": "What cloud computing is and The shared responsibility model, recall and recap",
+       "seconds": 908,
+       "chapters": [
+        [
+         0,
+         "What cloud computing is"
+        ],
+        [
+         108,
+         "The shared responsibility model"
+        ],
+        [
+         188,
+         "The shared responsibility model, continued"
+        ],
+        [
+         255,
+         "The shared responsibility model, continued"
+        ],
+        [
+         266,
+         "Cloud models: public, private and hybrid"
+        ],
+        [
+         287,
+         "Cloud models: public, private and hybrid, continued"
+        ],
+        [
+         323,
+         "Cloud models: public, private and hybrid, continued"
+        ],
+        [
+         332,
+         "Identify the use case"
+        ],
+        [
+         379,
+         "The consumption-based model"
+        ],
+        [
+         408,
+         "Cloud pricing models"
+        ],
+        [
+         449,
+         "Cloud pricing models, continued"
+        ],
+        [
+         473,
+         "Serverless"
+        ],
+        [
+         505,
+         "Serverless, continued"
+        ]
+       ],
+       "published": "2026-11-12T08:07:22Z",
+       "thumb": "img/modules/az900/01-1.jpg"
+      }
+     ],
+     "deck": "downloads/az900/01-cloud-computing-concepts.pptx",
+     "deck_kb": 248,
+     "seconds": 908,
+     "words": 1627
+    },
+    {
+     "num": "02",
+     "slug": "02-benefits-of-cloud-services",
+     "title": "Benefits of Cloud Services",
+     "desc": "The benefits at a glance, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "4nl-aggPFx4",
+       "title": "The benefits at a glance, recall and recap",
+       "seconds": 747,
+       "chapters": [
+        [
+         0,
+         "The benefits at a glance"
+        ],
+        [
+         98,
+         "The benefits at a glance, continued"
+        ],
+        [
+         142,
+         "The benefits at a glance, continued"
+        ],
+        [
+         150,
+         "High availability and scalability"
+        ],
+        [
+         179,
+         "High availability and scalability, continued"
+        ],
+        [
+         228,
+         "Reliability and predictability"
+        ],
+        [
+         258,
+         "Reliability and predictability, continued"
+        ],
+        [
+         296,
+         "Security and governance"
+        ],
+        [
+         354,
+         "Manageability"
+        ]
+       ],
+       "published": "2026-11-12T08:07:52Z",
+       "thumb": "img/modules/az900/02-1.jpg"
+      }
+     ],
+     "deck": "downloads/az900/02-benefits-of-cloud-services.pptx",
+     "deck_kb": 172,
+     "seconds": 747,
+     "words": 1351
+    },
+    {
+     "num": "03",
+     "slug": "03-cloud-service-types",
+     "title": "Cloud Service Types",
+     "desc": "The three service types, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "iuK83GjIr14",
+       "title": "The three service types, recall and recap",
+       "seconds": 682,
+       "chapters": [
+        [
+         0,
+         "The three service types"
+        ],
+        [
+         105,
+         "The three service types, continued"
+        ],
+        [
+         126,
+         "The three service types, continued"
+        ],
+        [
+         135,
+         "The three service types, continued"
+        ],
+        [
+         145,
+         "IaaS: infrastructure as a service"
+        ],
+        [
+         201,
+         "PaaS: platform as a service"
+        ],
+        [
+         243,
+         "SaaS: software as a service"
+        ],
+        [
+         287,
+         "Choose the right type"
+        ],
+        [
+         326,
+         "Responsibility by type (links to Module 1)"
+        ]
+       ],
+       "published": "2026-11-12T08:08:03Z",
+       "thumb": "img/modules/az900/03-1.jpg"
+      }
+     ],
+     "deck": "downloads/az900/03-cloud-service-types.pptx",
+     "deck_kb": 209,
+     "seconds": 682,
+     "words": 1246
+    },
+    {
+     "num": "04",
+     "slug": "04-azure-regions-zones-and-datacenters",
+     "title": "Azure Regions, Zones and Datacenters",
+     "desc": "The physical layers of Azure, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "4bjfO7tvNcM",
+       "title": "The physical layers of Azure, recall and recap",
+       "seconds": 677,
+       "chapters": [
+        [
+         0,
+         "The physical layers of Azure"
+        ],
+        [
+         92,
+         "The physical layers of Azure, continued"
+        ],
+        [
+         109,
+         "The physical layers of Azure, continued"
+        ],
+        [
+         118,
+         "Regions"
+        ],
+        [
+         161,
+         "Region pairs"
+        ],
+        [
+         203,
+         "Sovereign regions"
+        ],
+        [
+         239,
+         "Availability zones"
+        ],
+        [
+         260,
+         "Availability zones, continued"
+        ],
+        [
+         315,
+         "Azure datacenters"
+        ]
+       ],
+       "published": "2026-11-12T08:08:29Z",
+       "thumb": "img/modules/az900/04-1.jpg"
+      }
+     ],
+     "deck": "downloads/az900/04-azure-regions-zones-and-datacenters.pptx",
+     "deck_kb": 178,
+     "seconds": 677,
+     "words": 1232
+    },
+    {
+     "num": "05",
+     "slug": "05-resources-resource-groups-subscriptions-and-management-groups",
+     "title": "Resources, Resource Groups, Subscriptions and Management Groups",
+     "desc": "The four levels, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "Yp1_vd0cdQo",
+       "title": "The four levels, recall and recap",
+       "seconds": 679,
+       "chapters": [
+        [
+         0,
+         "The four levels"
+        ],
+        [
+         99,
+         "The four levels, continued"
+        ],
+        [
+         112,
+         "The four levels, continued"
+        ],
+        [
+         122,
+         "Resources"
+        ],
+        [
+         146,
+         "Resource groups"
+        ],
+        [
+         186,
+         "Resource groups, continued"
+        ],
+        [
+         211,
+         "Subscriptions"
+        ],
+        [
+         240,
+         "Subscriptions, continued"
+        ],
+        [
+         275,
+         "Management groups"
+        ],
+        [
+         314,
+         "The hierarchy and inheritance"
+        ]
+       ],
+       "published": "2026-11-12T08:08:40Z",
+       "thumb": "img/modules/az900/05-1.jpg"
+      }
+     ],
+     "deck": "downloads/az900/05-resources-resource-groups-subscriptions-and-management-groups.pptx",
+     "deck_kb": 195,
+     "seconds": 679,
+     "words": 1242
+    },
+    {
+     "num": "06",
+     "slug": "06-azure-compute",
+     "title": "Azure Compute",
+     "desc": "Compute types compared, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "j8SZh7TdlLQ",
+       "title": "Compute types compared, recall and recap",
+       "seconds": 748,
+       "chapters": [
+        [
+         0,
+         "Compute types compared"
+        ],
+        [
+         103,
+         "Compute types compared, continued"
+        ],
+        [
+         132,
+         "Compute types compared, continued"
+        ],
+        [
+         142,
+         "Virtual machines (Azure Virtual Machines)"
+        ],
+        [
+         166,
+         "VM options"
+        ],
+        [
+         196,
+         "VM options, continued"
+        ],
+        [
+         235,
+         "Resources a VM needs"
+        ],
+        [
+         275,
+         "Containers"
+        ],
+        [
+         320,
+         "Azure Functions"
+        ],
+        [
+         344,
+         "Application hosting options"
+        ],
+        [
+         373,
+         "Application hosting options, continued"
+        ]
+       ],
+       "published": "2026-11-12T08:09:55Z",
+       "thumb": "img/modules/az900/06-1.jpg"
+      }
+     ],
+     "deck": "downloads/az900/06-azure-compute.pptx",
+     "deck_kb": 166,
+     "seconds": 748,
+     "words": 1433
+    },
+    {
+     "num": "07",
+     "slug": "07-azure-networking",
+     "title": "Azure Networking",
+     "desc": "Azure virtual networks, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "y19j7HXqPkQ",
+       "title": "Azure virtual networks, recall and recap",
+       "seconds": 719,
+       "chapters": [
+        [
+         0,
+         "Azure virtual networks"
+        ],
+        [
+         124,
+         "Azure virtual networks, continued"
+        ],
+        [
+         133,
+         "Azure virtual networks, continued"
+        ],
+        [
+         158,
+         "Virtual network peering"
+        ],
+        [
+         190,
+         "Azure DNS"
+        ],
+        [
+         222,
+         "Connecting to on-premises: VPN Gateway and ExpressRoute"
+        ],
+        [
+         268,
+         "Connecting to on-premises: VPN Gateway and ExpressRoute, continued"
+        ],
+        [
+         295,
+         "Connecting to on-premises: VPN Gateway and ExpressRoute, continued"
+        ],
+        [
+         331,
+         "Public and private endpoints"
+        ]
+       ],
+       "published": "2026-11-12T08:09:42Z",
+       "thumb": "img/modules/az900/07-1.jpg"
+      }
+     ],
+     "deck": "downloads/az900/07-azure-networking.pptx",
+     "deck_kb": 175,
+     "seconds": 719,
+     "words": 1407
+    },
+    {
+     "num": "08",
+     "slug": "08-azure-storage",
+     "title": "Azure Storage",
+     "desc": "Storage accounts and the storage services",
+     "parts": [
+      {
+       "part": 1,
+       "id": "JE-UWvl3eDs",
+       "title": "Storage accounts and the storage services",
+       "seconds": 479,
+       "chapters": [
+        [
+         0,
+         "Storage accounts and the storage services"
+        ],
+        [
+         112,
+         "Storage accounts and the storage services, continued"
+        ],
+        [
+         161,
+         "Storage accounts and the storage services, continued"
+        ],
+        [
+         170,
+         "Storage access tiers (Blob Storage)"
+        ],
+        [
+         242,
+         "Storage access tiers (Blob Storage), continued"
+        ],
+        [
+         267,
+         "Redundancy options"
+        ],
+        [
+         319,
+         "Redundancy options, continued"
+        ],
+        [
+         352,
+         "Redundancy options, continued"
+        ],
+        [
+         362,
+         "Redundancy options, continued"
+        ],
+        [
+         393,
+         "Storage account options"
+        ],
+        [
+         433,
+         "Moving files to and within Azure"
+        ],
+        [
+         461,
+         "Moving files to and within Azure, continued"
+        ]
+       ],
+       "published": "2026-11-12T08:09:45Z",
+       "thumb": "img/modules/az900/08-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "rc7WExrG5ak",
+       "title": "Migration options, recall and recap",
+       "seconds": 434,
+       "chapters": [
+        [
+         0,
+         "Practice questions"
+        ],
+        [
+         266,
+         "Recall check"
+        ],
+        [
+         382,
+         "Module recap"
+        ]
+       ],
+       "published": "2026-11-12T08:10:09Z",
+       "thumb": "img/modules/az900/08-2.jpg"
+      }
+     ],
+     "deck": "downloads/az900/08-azure-storage.pptx",
+     "deck_kb": 274,
+     "seconds": 913,
+     "words": 1726
+    },
+    {
+     "num": "09",
+     "slug": "09-identity-and-access",
+     "title": "Identity and Access",
+     "desc": "Authentication and authorization and Directory services, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "ApAM5UlPLGE",
+       "title": "Authentication and authorization and Directory services, recall and recap",
+       "seconds": 860,
+       "chapters": [
+        [
+         0,
+         "Authentication and authorization"
+        ],
+        [
+         107,
+         "Directory services"
+        ],
+        [
+         129,
+         "Directory services, continued"
+        ],
+        [
+         163,
+         "Directory services, continued"
+        ],
+        [
+         180,
+         "Directory services, continued"
+        ],
+        [
+         205,
+         "Single sign-on (SSO)"
+        ],
+        [
+         220,
+         "Multifactor authentication (MFA)"
+        ],
+        [
+         253,
+         "Passwordless authentication"
+        ],
+        [
+         289,
+         "Passwordless authentication, continued"
+        ],
+        [
+         298,
+         "External identities"
+        ],
+        [
+         339,
+         "Microsoft Entra Conditional Access"
+        ],
+        [
+         387,
+         "Azure role-based access control (RBAC)"
+        ],
+        [
+         418,
+         "Azure role-based access control (RBAC), continued"
+        ],
+        [
+         449,
+         "Azure role-based access control (RBAC), continued"
+        ]
+       ],
+       "published": "2026-11-12T08:10:56Z",
+       "thumb": "img/modules/az900/09-1.jpg"
+      }
+     ],
+     "deck": "downloads/az900/09-identity-and-access.pptx",
+     "deck_kb": 169,
+     "seconds": 860,
+     "words": 1614
+    },
+    {
+     "num": "10",
+     "slug": "10-security-models-and-microsoft-defender-for-cloud",
+     "title": "Security Models and Microsoft Defender for Cloud",
+     "desc": "Zero Trust, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "07xKqpJdY5k",
+       "title": "Zero Trust, recall and recap",
+       "seconds": 668,
+       "chapters": [
+        [
+         0,
+         "Zero Trust"
+        ],
+        [
+         101,
+         "Zero Trust, continued"
+        ],
+        [
+         110,
+         "Zero Trust, continued"
+        ],
+        [
+         134,
+         "Defense in depth"
+        ],
+        [
+         179,
+         "Defense in depth, continued"
+        ],
+        [
+         243,
+         "Microsoft Defender for Cloud"
+        ],
+        [
+         262,
+         "Microsoft Defender for Cloud, continued"
+        ],
+        [
+         312,
+         "Microsoft Defender for Cloud, continued"
+        ]
+       ],
+       "published": "2026-11-12T08:10:58Z",
+       "thumb": "img/modules/az900/10-1.jpg"
+      }
+     ],
+     "deck": "downloads/az900/10-security-models-and-microsoft-defender-for-cloud.pptx",
+     "deck_kb": 143,
+     "seconds": 668,
+     "words": 1189
+    },
+    {
+     "num": "11",
+     "slug": "11-cost-management",
+     "title": "Cost Management",
+     "desc": "Factors that affect costs, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "n2itODq2XS4",
+       "title": "Factors that affect costs, recall and recap",
+       "seconds": 750,
+       "chapters": [
+        [
+         0,
+         "Factors that affect costs"
+        ],
+        [
+         96,
+         "Factors that affect costs, continued"
+        ],
+        [
+         131,
+         "Factors that affect costs, continued"
+        ],
+        [
+         138,
+         "Factors that affect costs, continued"
+        ],
+        [
+         169,
+         "Factors that affect costs, continued"
+        ],
+        [
+         210,
+         "The pricing calculator"
+        ],
+        [
+         264,
+         "Microsoft Cost Management"
+        ],
+        [
+         326,
+         "Tags"
+        ],
+        [
+         367,
+         "Tags, continued"
+        ]
+       ],
+       "published": "2026-11-12T08:11:28Z",
+       "thumb": "img/modules/az900/11-1.jpg"
+      }
+     ],
+     "deck": "downloads/az900/11-cost-management.pptx",
+     "deck_kb": 181,
+     "seconds": 750,
+     "words": 1390
+    },
+    {
+     "num": "12",
+     "slug": "12-governance-and-compliance",
+     "title": "Governance and Compliance",
+     "desc": "The governance tools at a glance, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "27TCsEE0c8A",
+       "title": "The governance tools at a glance, recall and recap",
+       "seconds": 698,
+       "chapters": [
+        [
+         0,
+         "The governance tools at a glance"
+        ],
+        [
+         84,
+         "The governance tools at a glance, continued"
+        ],
+        [
+         112,
+         "The governance tools at a glance, continued"
+        ],
+        [
+         121,
+         "Microsoft Purview"
+        ],
+        [
+         159,
+         "Microsoft Purview, continued"
+        ],
+        [
+         196,
+         "Azure Policy"
+        ],
+        [
+         226,
+         "Azure Policy, continued"
+        ],
+        [
+         279,
+         "Azure Policy, continued"
+        ],
+        [
+         298,
+         "Resource locks"
+        ],
+        [
+         323,
+         "Resource locks, continued"
+        ]
+       ],
+       "published": "2026-11-12T08:16:30Z",
+       "thumb": "img/modules/az900/12-1.jpg"
+      }
+     ],
+     "deck": "downloads/az900/12-governance-and-compliance.pptx",
+     "deck_kb": 164,
+     "seconds": 698,
+     "words": 1280
+    },
+    {
+     "num": "13",
+     "slug": "13-managing-and-deploying-resources",
+     "title": "Managing and Deploying Resources",
+     "desc": "Ways to manage Azure, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "AH2KSyAOuis",
+       "title": "Ways to manage Azure, recall and recap",
+       "seconds": 782,
+       "chapters": [
+        [
+         0,
+         "Ways to manage Azure"
+        ],
+        [
+         101,
+         "Ways to manage Azure, continued"
+        ],
+        [
+         134,
+         "Ways to manage Azure, continued"
+        ],
+        [
+         144,
+         "The Azure portal"
+        ],
+        [
+         170,
+         "Cloud Shell, Azure CLI and Azure PowerShell"
+        ],
+        [
+         213,
+         "Cloud Shell, Azure CLI and Azure PowerShell, continued"
+        ],
+        [
+         229,
+         "Cloud Shell, Azure CLI and Azure PowerShell, continued"
+        ],
+        [
+         268,
+         "Azure Arc"
+        ],
+        [
+         306,
+         "Infrastructure as code (IaC)"
+        ],
+        [
+         359,
+         "Azure Resource Manager and ARM templates"
+        ],
+        [
+         400,
+         "Azure Resource Manager and ARM templates, continued"
+        ]
+       ],
+       "published": "2026-11-12T08:12:19Z",
+       "thumb": "img/modules/az900/13-1.jpg"
+      }
+     ],
+     "deck": "downloads/az900/13-managing-and-deploying-resources.pptx",
+     "deck_kb": 188,
+     "seconds": 782,
+     "words": 1522
+    },
+    {
+     "num": "14",
+     "slug": "14-monitoring-tools",
+     "title": "Monitoring Tools",
+     "desc": "Three tools, three questions, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "5IP2VjnTbtU",
+       "title": "Three tools, three questions, recall and recap",
+       "seconds": 706,
+       "chapters": [
+        [
+         0,
+         "Three tools, three questions"
+        ],
+        [
+         81,
+         "Three tools, three questions, continued"
+        ],
+        [
+         97,
+         "Three tools, three questions, continued"
+        ],
+        [
+         107,
+         "Azure Advisor"
+        ],
+        [
+         171,
+         "Azure Service Health"
+        ],
+        [
+         207,
+         "Azure Service Health, continued"
+        ],
+        [
+         235,
+         "Azure Monitor"
+        ],
+        [
+         271,
+         "Azure Monitor, continued"
+        ],
+        [
+         280,
+         "Log Analytics"
+        ],
+        [
+         298,
+         "Azure Monitor alerts"
+        ],
+        [
+         333,
+         "Application Insights"
+        ]
+       ],
+       "published": "2026-11-12T08:12:52Z",
+       "thumb": "img/modules/az900/14-1.jpg"
+      }
+     ],
+     "deck": "downloads/az900/14-monitoring-tools.pptx",
+     "deck_kb": 209,
+     "seconds": 706,
+     "words": 1276
+    },
+    {
+     "num": "15",
+     "slug": "15-exam-technique-and-final-review",
+     "title": "Exam Technique and Final Review",
+     "desc": "The time budget",
+     "parts": [
+      {
+       "part": 1,
+       "id": "8tkmLPHXV7g",
+       "title": "The time budget",
+       "seconds": 478,
+       "chapters": [
+        [
+         0,
+         "The time budget"
+        ],
+        [
+         81,
+         "The time budget, continued"
+        ],
+        [
+         90,
+         "The time budget, continued"
+        ],
+        [
+         102,
+         "The routine for every question"
+        ],
+        [
+         135,
+         "Cloud concepts (25–30%)"
+        ],
+        [
+         171,
+         "Azure architecture and services (35–40%)"
+        ],
+        [
+         235,
+         "Management and governance (30–35%)"
+        ],
+        [
+         262,
+         "Pairs the exam likes to confuse"
+        ],
+        [
+         312,
+         "Pairs the exam likes to confuse, continued"
+        ],
+        [
+         364,
+         "Common traps"
+        ],
+        [
+         418,
+         "The final week"
+        ]
+       ],
+       "published": "2026-11-12T08:12:49Z",
+       "thumb": "img/modules/az900/15-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "u9wcgumx3Rk",
+       "title": "Practice Question 2, recall and recap",
+       "seconds": 461,
+       "chapters": [
+        [
+         0,
+         "Practice questions"
+        ],
+        [
+         316,
+         "Recall check"
+        ],
+        [
+         418,
+         "Module recap"
+        ]
+       ],
+       "published": "2026-11-12T08:13:14Z",
+       "thumb": "img/modules/az900/15-2.jpg"
+      }
+     ],
+     "deck": "downloads/az900/15-exam-technique-and-final-review.pptx",
+     "deck_kb": 160,
+     "seconds": 939,
+     "words": 1628
+    }
+   ],
+   "facts": {
+    "questions": "See the exam page",
+    "time": "45 min",
+    "passing": "700 of 1,000",
+    "source": "learn.microsoft.com",
+    "url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/"
+   },
+   "videos": 18,
+   "seconds": 12154,
+   "notes": [
+    {
+     "num": "00",
+     "slug": "00-exam-orientation-and-how-to-study",
+     "title": "Exam Orientation and How to Study",
+     "group": "Start here",
+     "tasks": 0,
+     "los": [],
+     "minutes": 6,
+     "check": {
+      "src_words": 1211,
+      "page_words": 1239,
+      "src_tables": 6,
+      "tables": 6,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 4,
+      "scenario": 4,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 9,
+      "sections": 9
+     },
+     "modules": [
+      "00"
+     ],
+     "domain": "",
+     "ref": "Module 0",
+     "tn": "Module 00",
+     "of": 16,
+     "module": "00"
+    },
+    {
+     "num": "01",
+     "slug": "01-cloud-computing-concepts",
+     "title": "Cloud Computing Concepts",
+     "group": "Cloud concepts (25-30%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 7,
+     "check": {
+      "src_words": 1418,
+      "page_words": 1458,
+      "src_tables": 7,
+      "tables": 7,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 7,
+      "recall": 7,
+      "src_sections": 8,
+      "sections": 8
+     },
+     "modules": [
+      "01"
+     ],
+     "domain": "",
+     "ref": "Module 1",
+     "tn": "Module 01",
+     "of": 16,
+     "module": "01"
+    },
+    {
+     "num": "02",
+     "slug": "02-benefits-of-cloud-services",
+     "title": "Benefits of Cloud Services",
+     "group": "Cloud concepts (25-30%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 5,
+     "check": {
+      "src_words": 1053,
+      "page_words": 1090,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "02"
+     ],
+     "domain": "",
+     "ref": "Module 2",
+     "tn": "Module 02",
+     "of": 16,
+     "module": "02"
+    },
+    {
+     "num": "03",
+     "slug": "03-cloud-service-types",
+     "title": "Cloud Service Types",
+     "group": "Cloud concepts (25-30%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 5,
+     "check": {
+      "src_words": 991,
+      "page_words": 1029,
+      "src_tables": 4,
+      "tables": 4,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 8,
+      "sections": 8
+     },
+     "modules": [
+      "03"
+     ],
+     "domain": "",
+     "ref": "Module 3",
+     "tn": "Module 03",
+     "of": 16,
+     "module": "03"
+    },
+    {
+     "num": "04",
+     "slug": "04-azure-regions-zones-and-datacenters",
+     "title": "Azure Regions, Zones and Datacenters",
+     "group": "Azure architecture and services (35-40%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 6,
+     "check": {
+      "src_words": 1153,
+      "page_words": 1191,
+      "src_tables": 4,
+      "tables": 4,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 8,
+      "sections": 8
+     },
+     "modules": [
+      "04"
+     ],
+     "domain": "",
+     "ref": "Module 4",
+     "tn": "Module 04",
+     "of": 16,
+     "module": "04"
+    },
+    {
+     "num": "05",
+     "slug": "05-resources-resource-groups-subscriptions-and-management-groups",
+     "title": "Resources, Resource Groups, Subscriptions and Management Groups",
+     "group": "Azure architecture and services (35-40%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 5,
+     "check": {
+      "src_words": 1111,
+      "page_words": 1149,
+      "src_tables": 4,
+      "tables": 4,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 8,
+      "sections": 8
+     },
+     "modules": [
+      "05"
+     ],
+     "domain": "",
+     "ref": "Module 5",
+     "tn": "Module 05",
+     "of": 16,
+     "module": "05"
+    },
+    {
+     "num": "06",
+     "slug": "06-azure-compute",
+     "title": "Azure Compute",
+     "group": "Azure architecture and services (35-40%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 6,
+     "check": {
+      "src_words": 1157,
+      "page_words": 1194,
+      "src_tables": 6,
+      "tables": 6,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "06"
+     ],
+     "domain": "",
+     "ref": "Module 6",
+     "tn": "Module 06",
+     "of": 16,
+     "module": "06"
+    },
+    {
+     "num": "07",
+     "slug": "07-azure-networking",
+     "title": "Azure Networking",
+     "group": "Azure architecture and services (35-40%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 5,
+     "check": {
+      "src_words": 1121,
+      "page_words": 1158,
+      "src_tables": 4,
+      "tables": 4,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "07"
+     ],
+     "domain": "",
+     "ref": "Module 7",
+     "tn": "Module 07",
+     "of": 16,
+     "module": "07"
+    },
+    {
+     "num": "08",
+     "slug": "08-azure-storage",
+     "title": "Azure Storage",
+     "group": "Azure architecture and services (35-40%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 6,
+     "check": {
+      "src_words": 1282,
+      "page_words": 1325,
+      "src_tables": 7,
+      "tables": 7,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 7,
+      "scenario": 7,
+      "src_recall": 7,
+      "recall": 7,
+      "src_sections": 8,
+      "sections": 8
+     },
+     "modules": [
+      "08"
+     ],
+     "domain": "",
+     "ref": "Module 8",
+     "tn": "Module 08",
+     "of": 16,
+     "module": "08"
+    },
+    {
+     "num": "09",
+     "slug": "09-identity-and-access",
+     "title": "Identity and Access",
+     "group": "Azure architecture and services (35-40%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 7,
+     "check": {
+      "src_words": 1363,
+      "page_words": 1404,
+      "src_tables": 8,
+      "tables": 8,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 7,
+      "scenario": 7,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 8,
+      "sections": 8
+     },
+     "modules": [
+      "09"
+     ],
+     "domain": "",
+     "ref": "Module 9",
+     "tn": "Module 09",
+     "of": 16,
+     "module": "09"
+    },
+    {
+     "num": "10",
+     "slug": "10-security-models-and-microsoft-defender-for-cloud",
+     "title": "Security Models and Microsoft Defender for Cloud",
+     "group": "Azure architecture and services (35-40%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 5,
+     "check": {
+      "src_words": 982,
+      "page_words": 1017,
+      "src_tables": 4,
+      "tables": 4,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 5,
+      "sections": 5
+     },
+     "modules": [
+      "10"
+     ],
+     "domain": "",
+     "ref": "Module 10",
+     "tn": "Module 10",
+     "of": 16,
+     "module": "10"
+    },
+    {
+     "num": "11",
+     "slug": "11-cost-management",
+     "title": "Cost Management",
+     "group": "Management and governance (30-35%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 6,
+     "check": {
+      "src_words": 1271,
+      "page_words": 1310,
+      "src_tables": 4,
+      "tables": 4,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 7,
+      "scenario": 7,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "11"
+     ],
+     "domain": "",
+     "ref": "Module 11",
+     "tn": "Module 11",
+     "of": 16,
+     "module": "11"
+    },
+    {
+     "num": "12",
+     "slug": "12-governance-and-compliance",
+     "title": "Governance and Compliance",
+     "group": "Management and governance (30-35%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 5,
+     "check": {
+      "src_words": 1104,
+      "page_words": 1140,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "12"
+     ],
+     "domain": "",
+     "ref": "Module 12",
+     "tn": "Module 12",
+     "of": 16,
+     "module": "12"
+    },
+    {
+     "num": "13",
+     "slug": "13-managing-and-deploying-resources",
+     "title": "Managing and Deploying Resources",
+     "group": "Management and governance (30-35%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 6,
+     "check": {
+      "src_words": 1210,
+      "page_words": 1248,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 8,
+      "sections": 8
+     },
+     "modules": [
+      "13"
+     ],
+     "domain": "",
+     "ref": "Module 13",
+     "tn": "Module 13",
+     "of": 16,
+     "module": "13"
+    },
+    {
+     "num": "14",
+     "slug": "14-monitoring-tools",
+     "title": "Monitoring Tools",
+     "group": "Management and governance (30-35%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 5,
+     "check": {
+      "src_words": 1098,
+      "page_words": 1134,
+      "src_tables": 6,
+      "tables": 6,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "14"
+     ],
+     "domain": "",
+     "ref": "Module 14",
+     "tn": "Module 14",
+     "of": 16,
+     "module": "14"
+    },
+    {
+     "num": "15",
+     "slug": "15-exam-technique-and-final-review",
+     "title": "Exam Technique and Final Review",
+     "group": "Review and exam day",
+     "tasks": 17,
+     "los": [],
+     "minutes": 6,
+     "check": {
+      "src_words": 1367,
+      "page_words": 1418,
+      "src_tables": 4,
+      "tables": 4,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 12,
+      "scenario": 12,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 8,
+      "sections": 8
+     },
+     "modules": [
+      "15"
+     ],
+     "domain": "",
+     "ref": "Module 15",
+     "tn": "Module 15",
+     "of": 16,
+     "module": "15"
+    }
+   ],
+   "glossary": 0
+  },
+  {
+   "kind": "certification",
+   "topic": null,
+   "slug": "ai901",
+   "institute": "microsoft",
+   "short": "AI-901",
+   "name": "Microsoft Azure AI Fundamentals",
+   "title": "AI-901 Exam Prep Masterclass",
+   "accent": "c-ai901",
+   "desc": "AI concepts and building AI solutions with Microsoft Foundry: models, prompts, agents, text, speech, vision and information extraction.",
+   "audience": "Students, career changers and developers starting with AI on Azure who read basic Python. The retired AI-900 is replaced by this exam.",
+   "sources": "The official AI-901 study guide, the Microsoft Learn documentation of Microsoft Foundry and Foundry Tools, and Microsoft's responsible AI principles.",
+   "playlist": "PLXA6aBpJsLJM",
+   "cover": "img/covers/ai901.jpg",
+   "modules": [
+    {
+     "num": "00",
+     "slug": "00-exam-orientation-and-how-to-study",
+     "title": "Exam Orientation and How to Study",
+     "desc": "What the exam is, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "cg9eTDJtTnA",
+       "title": "What the exam is, recall and recap",
+       "seconds": 634,
+       "chapters": [
+        [
+         0,
+         "What the exam is"
+        ],
+        [
+         94,
+         "What the exam is, continued"
+        ],
+        [
+         147,
+         "What the exam is, continued"
+        ],
+        [
+         156,
+         "The two skill areas"
+        ],
+        [
+         201,
+         "Where each skill lives in this course"
+        ],
+        [
+         250,
+         "How to read the exam wording"
+        ],
+        [
+         279,
+         "A repeatable way to answer a question"
+        ],
+        [
+         308,
+         "A study plan"
+        ]
+       ],
+       "published": "2026-11-12T08:15:27Z",
+       "thumb": "img/modules/ai901/00-1.jpg"
+      }
+     ],
+     "deck": "downloads/ai901/00-exam-orientation-and-how-to-study.pptx",
+     "deck_kb": 171,
+     "seconds": 634,
+     "words": 1296
+    },
+    {
+     "num": "01",
+     "slug": "01-responsible-ai",
+     "title": "Responsible AI",
+     "desc": "The six principles, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "oTM7O0EwL-k",
+       "title": "The six principles, recall and recap",
+       "seconds": 808,
+       "chapters": [
+        [
+         0,
+         "The six principles"
+        ],
+        [
+         122,
+         "The six principles, continued"
+        ],
+        [
+         175,
+         "The six principles, continued"
+        ],
+        [
+         184,
+         "Fairness"
+        ],
+        [
+         224,
+         "Reliability and safety"
+        ],
+        [
+         263,
+         "Privacy and security"
+        ],
+        [
+         294,
+         "Inclusiveness"
+        ],
+        [
+         337,
+         "Transparency"
+        ],
+        [
+         368,
+         "Accountability"
+        ],
+        [
+         395,
+         "Responsible AI for generative AI"
+        ]
+       ],
+       "published": "2026-11-12T08:15:58Z",
+       "thumb": "img/modules/ai901/01-1.jpg"
+      }
+     ],
+     "deck": "downloads/ai901/01-responsible-ai.pptx",
+     "deck_kb": 182,
+     "seconds": 808,
+     "words": 1541
+    },
+    {
+     "num": "02",
+     "slug": "02-how-generative-ai-models-work",
+     "title": "How Generative AI Models Work",
+     "desc": "What generative AI is, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "JnIKR-3iZME",
+       "title": "What generative AI is, recall and recap",
+       "seconds": 663,
+       "chapters": [
+        [
+         0,
+         "What generative AI is"
+        ],
+        [
+         79,
+         "What generative AI is, continued"
+        ],
+        [
+         120,
+         "Tokens"
+        ],
+        [
+         161,
+         "Tokens, continued"
+        ],
+        [
+         169,
+         "The transformer and attention"
+        ],
+        [
+         210,
+         "The transformer and attention, continued"
+        ],
+        [
+         219,
+         "Embeddings"
+        ],
+        [
+         261,
+         "The context window"
+        ],
+        [
+         291,
+         "What generative models can and cannot do"
+        ]
+       ],
+       "published": "2026-11-12T08:16:22Z",
+       "thumb": "img/modules/ai901/02-1.jpg"
+      }
+     ],
+     "deck": "downloads/ai901/02-how-generative-ai-models-work.pptx",
+     "deck_kb": 189,
+     "seconds": 663,
+     "words": 1326
+    },
+    {
+     "num": "03",
+     "slug": "03-choosing-models-deployments-and-parameters",
+     "title": "Choosing Models, Deployments and Parameters",
+     "desc": "The model catalog and Choose a model by capability, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "vzoKkOLlNdg",
+       "title": "The model catalog and Choose a model by capability, recall and recap",
+       "seconds": 733,
+       "chapters": [
+        [
+         0,
+         "The model catalog"
+        ],
+        [
+         99,
+         "Choose a model by capability"
+        ],
+        [
+         151,
+         "Choose a model by capability, continued"
+        ],
+        [
+         198,
+         "Choose a model by capability, continued"
+        ],
+        [
+         206,
+         "Deployment options"
+        ],
+        [
+         252,
+         "Deployment options, continued"
+        ],
+        [
+         299,
+         "Configuration parameters"
+        ],
+        [
+         344,
+         "Configuration parameters, continued"
+        ],
+        [
+         364,
+         "Configuration parameters, continued"
+        ],
+        [
+         395,
+         "Configuration parameters, continued"
+        ]
+       ],
+       "published": "2026-11-12T08:16:56Z",
+       "thumb": "img/modules/ai901/03-1.jpg"
+      }
+     ],
+     "deck": "downloads/ai901/03-choosing-models-deployments-and-parameters.pptx",
+     "deck_kb": 222,
+     "seconds": 733,
+     "words": 1386
+    },
+    {
+     "num": "04",
+     "slug": "04-ai-workloads-and-scenarios",
+     "title": "AI Workloads and Scenarios",
+     "desc": "The six workloads, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "P6aL2A5wduo",
+       "title": "The six workloads, recall and recap",
+       "seconds": 731,
+       "chapters": [
+        [
+         0,
+         "The six workloads"
+        ],
+        [
+         72,
+         "The six workloads, continued"
+        ],
+        [
+         116,
+         "The six workloads, continued"
+        ],
+        [
+         161,
+         "The six workloads, continued"
+        ],
+        [
+         170,
+         "Generative AI"
+        ],
+        [
+         190,
+         "Agentic AI"
+        ],
+        [
+         218,
+         "Agentic AI, continued"
+        ],
+        [
+         246,
+         "Text analysis"
+        ],
+        [
+         291,
+         "Speech"
+        ],
+        [
+         319,
+         "Computer vision"
+        ],
+        [
+         338,
+         "Information extraction"
+        ],
+        [
+         358,
+         "Choose the workload"
+        ]
+       ],
+       "published": "2026-11-12T08:17:18Z",
+       "thumb": "img/modules/ai901/04-1.jpg"
+      }
+     ],
+     "deck": "downloads/ai901/04-ai-workloads-and-scenarios.pptx",
+     "deck_kb": 175,
+     "seconds": 731,
+     "words": 1300
+    },
+    {
+     "num": "05",
+     "slug": "05-text-speech-vision-and-extraction-capabilities",
+     "title": "Text, Speech, Vision and Extraction Capabilities",
+     "desc": "Services at a glance, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "nFTvvPm0Pac",
+       "title": "Services at a glance, recall and recap",
+       "seconds": 864,
+       "chapters": [
+        [
+         0,
+         "Services at a glance"
+        ],
+        [
+         119,
+         "Services at a glance, continued"
+        ],
+        [
+         127,
+         "Text analysis techniques (Azure Language)"
+        ],
+        [
+         181,
+         "Text analysis techniques (Azure Language), continued"
+        ],
+        [
+         222,
+         "Text analysis techniques (Azure Language), continued"
+        ],
+        [
+         256,
+         "Speech recognition and speech synthesis (Azure Speech)"
+        ],
+        [
+         326,
+         "Analyze images (Azure Vision, image analysis)"
+        ],
+        [
+         384,
+         "Image-generation models"
+        ],
+        [
+         421,
+         "Techniques to extract information (Azure Content Understanding)"
+        ],
+        [
+         462,
+         "Techniques to extract information (Azure Content Understanding), continued"
+        ]
+       ],
+       "published": "2026-11-12T08:17:42Z",
+       "thumb": "img/modules/ai901/05-1.jpg"
+      }
+     ],
+     "deck": "downloads/ai901/05-text-speech-vision-and-extraction-capabilities.pptx",
+     "deck_kb": 173,
+     "seconds": 864,
+     "words": 1540
+    },
+    {
+     "num": "06",
+     "slug": "06-writing-system-and-user-prompts",
+     "title": "Writing System and User Prompts",
+     "desc": "Message roles, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "P3GHopJQe-c",
+       "title": "Message roles, recall and recap",
+       "seconds": 647,
+       "chapters": [
+        [
+         0,
+         "Message roles"
+        ],
+        [
+         96,
+         "Message roles, continued"
+        ],
+        [
+         121,
+         "Message roles, continued"
+        ],
+        [
+         129,
+         "What goes in a system prompt"
+        ],
+        [
+         168,
+         "Writing an effective user prompt"
+        ],
+        [
+         210,
+         "Writing an effective user prompt, continued"
+        ],
+        [
+         259,
+         "Writing an effective user prompt, continued"
+        ],
+        [
+         267,
+         "The model has no memory"
+        ],
+        [
+         283,
+         "Safety and reliability in prompts"
+        ]
+       ],
+       "published": "2026-11-12T08:21:05Z",
+       "thumb": "img/modules/ai901/06-1.jpg"
+      }
+     ],
+     "deck": "downloads/ai901/06-writing-system-and-user-prompts.pptx",
+     "deck_kb": 195,
+     "seconds": 647,
+     "words": 1222
+    },
+    {
+     "num": "07",
+     "slug": "07-microsoft-foundry-resources-models-and-the-portal",
+     "title": "Microsoft Foundry: Resources, Models and the Portal",
+     "desc": "What Microsoft Foundry is, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "cNw5oavn2BU",
+       "title": "What Microsoft Foundry is, recall and recap",
+       "seconds": 608,
+       "chapters": [
+        [
+         0,
+         "What Microsoft Foundry is"
+        ],
+        [
+         80,
+         "What Microsoft Foundry is, continued"
+        ],
+        [
+         119,
+         "What Microsoft Foundry is, continued"
+        ],
+        [
+         129,
+         "What Microsoft Foundry is, continued"
+        ],
+        [
+         155,
+         "The Foundry portal"
+        ],
+        [
+         189,
+         "Deploy a model in the portal"
+        ],
+        [
+         213,
+         "Deploy a model in the portal, continued"
+        ],
+        [
+         221,
+         "Deploy a model in the portal, continued"
+        ],
+        [
+         249,
+         "Chat with the model: the playground"
+        ]
+       ],
+       "published": "2026-11-12T08:19:56Z",
+       "thumb": "img/modules/ai901/07-1.jpg"
+      }
+     ],
+     "deck": "downloads/ai901/07-microsoft-foundry-resources-models-and-the-portal.pptx",
+     "deck_kb": 233,
+     "seconds": 608,
+     "words": 1136
+    },
+    {
+     "num": "08",
+     "slug": "08-chat-client-with-the-foundry-sdk",
+     "title": "Chat Client with the Foundry SDK",
+     "desc": "The idea, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "UpBi8e-uj9k",
+       "title": "The idea, recall and recap",
+       "seconds": 620,
+       "chapters": [
+        [
+         0,
+         "The idea"
+        ],
+        [
+         75,
+         "The idea, continued"
+        ],
+        [
+         113,
+         "The idea, continued"
+        ],
+        [
+         122,
+         "Install and sign in"
+        ],
+        [
+         169,
+         "The program"
+        ],
+        [
+         182,
+         "The program, continued"
+        ],
+        [
+         235,
+         "The program, continued"
+        ],
+        [
+         271,
+         "Common mistakes"
+        ]
+       ],
+       "published": "2026-11-12T08:20:23Z",
+       "thumb": "img/modules/ai901/08-1.jpg"
+      }
+     ],
+     "deck": "downloads/ai901/08-chat-client-with-the-foundry-sdk.pptx",
+     "deck_kb": 144,
+     "seconds": 620,
+     "words": 1174
+    },
+    {
+     "num": "09",
+     "slug": "09-agents-in-foundry",
+     "title": "Agents in Foundry",
+     "desc": "What a Foundry agent is, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "nN6SfMOqx4A",
+       "title": "What a Foundry agent is, recall and recap",
+       "seconds": 636,
+       "chapters": [
+        [
+         0,
+         "What a Foundry agent is"
+        ],
+        [
+         87,
+         "What a Foundry agent is, continued"
+        ],
+        [
+         120,
+         "What a Foundry agent is, continued"
+        ],
+        [
+         128,
+         "Tools an agent can use"
+        ],
+        [
+         177,
+         "Tools an agent can use, continued"
+        ],
+        [
+         208,
+         "Create and test an agent in the portal"
+        ],
+        [
+         238,
+         "Create and test an agent in the portal, continued"
+        ],
+        [
+         248,
+         "Call the agent from a client application"
+        ],
+        [
+         267,
+         "Call the agent from a client application, continued"
+        ]
+       ],
+       "published": "2026-11-12T08:20:41Z",
+       "thumb": "img/modules/ai901/09-1.jpg"
+      }
+     ],
+     "deck": "downloads/ai901/09-agents-in-foundry.pptx",
+     "deck_kb": 199,
+     "seconds": 636,
+     "words": 1187
+    },
+    {
+     "num": "10",
+     "slug": "10-text-analysis-and-speech-applications",
+     "title": "Text Analysis and Speech Applications",
+     "desc": "A text analysis application, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "ydy-hQ1NrKA",
+       "title": "A text analysis application, recall and recap",
+       "seconds": 677,
+       "chapters": [
+        [
+         0,
+         "A text analysis application"
+        ],
+        [
+         113,
+         "A text analysis application, continued"
+        ],
+        [
+         138,
+         "A text analysis application, continued"
+        ],
+        [
+         190,
+         "Speech applications with Azure Speech"
+        ],
+        [
+         208,
+         "Speech applications with Azure Speech, continued"
+        ],
+        [
+         274,
+         "Speech applications with Azure Speech, continued"
+        ],
+        [
+         285,
+         "Responding to spoken prompts with a multimodal model"
+        ],
+        [
+         328,
+         "Responding to spoken prompts with a multimodal model, continued"
+        ]
+       ],
+       "published": "2026-11-12T08:20:14Z",
+       "thumb": "img/modules/ai901/10-1.jpg"
+      }
+     ],
+     "deck": "downloads/ai901/10-text-analysis-and-speech-applications.pptx",
+     "deck_kb": 163,
+     "seconds": 677,
+     "words": 1288
+    },
+    {
+     "num": "11",
+     "slug": "11-vision-and-image-generation-applications",
+     "title": "Vision and Image Generation Applications",
+     "desc": "Three vision tasks, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "9ccj3vRBju4",
+       "title": "Three vision tasks, recall and recap",
+       "seconds": 703,
+       "chapters": [
+        [
+         0,
+         "Three vision tasks"
+        ],
+        [
+         96,
+         "Three vision tasks, continued"
+        ],
+        [
+         107,
+         "Interpret visual input in a prompt"
+        ],
+        [
+         140,
+         "Interpret visual input in a prompt, continued"
+        ],
+        [
+         163,
+         "Interpret visual input in a prompt, continued"
+        ],
+        [
+         210,
+         "Create new images with generative models"
+        ],
+        [
+         253,
+         "Create new images with generative models, continued"
+        ],
+        [
+         261,
+         "Create new images with generative models, continued"
+        ],
+        [
+         316,
+         "A vision application with Azure Vision"
+        ],
+        [
+         341,
+         "A vision application with Azure Vision, continued"
+        ],
+        [
+         369,
+         "Responsible use"
+        ]
+       ],
+       "published": "2026-11-12T08:21:37Z",
+       "thumb": "img/modules/ai901/11-1.jpg"
+      }
+     ],
+     "deck": "downloads/ai901/11-vision-and-image-generation-applications.pptx",
+     "deck_kb": 157,
+     "seconds": 703,
+     "words": 1357
+    },
+    {
+     "num": "12",
+     "slug": "12-information-extraction-with-content-understanding",
+     "title": "Information Extraction with Content Understanding",
+     "desc": "What Content Understanding does, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "RAc5g8nOpAc",
+       "title": "What Content Understanding does, recall and recap",
+       "seconds": 676,
+       "chapters": [
+        [
+         0,
+         "What Content Understanding does"
+        ],
+        [
+         118,
+         "What Content Understanding does, continued"
+        ],
+        [
+         127,
+         "Analyzers"
+        ],
+        [
+         162,
+         "Extracting from documents and forms"
+        ],
+        [
+         219,
+         "Extracting from documents and forms, continued"
+        ],
+        [
+         233,
+         "Extracting from images, audio and video"
+        ],
+        [
+         268,
+         "A lightweight extraction application"
+        ],
+        [
+         286,
+         "A lightweight extraction application, continued"
+        ]
+       ],
+       "published": "2026-11-12T08:23:54Z",
+       "thumb": "img/modules/ai901/12-1.jpg"
+      }
+     ],
+     "deck": "downloads/ai901/12-information-extraction-with-content-understanding.pptx",
+     "deck_kb": 169,
+     "seconds": 676,
+     "words": 1252
+    },
+    {
+     "num": "13",
+     "slug": "13-exam-technique-and-final-review",
+     "title": "Exam Technique and Final Review",
+     "desc": "Time and format, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "JhJQxJSgM0w",
+       "title": "Time and format, recall and recap",
+       "seconds": 857,
+       "chapters": [
+        [
+         0,
+         "Time and format"
+        ],
+        [
+         77,
+         "Time and format, continued"
+        ],
+        [
+         86,
+         "Time and format, continued"
+        ],
+        [
+         99,
+         "The routine for every question"
+        ],
+        [
+         127,
+         "Identify AI concepts and capabilities (40–45%)"
+        ],
+        [
+         205,
+         "Implement AI solutions by using Microsoft Foundry (55–60%)"
+        ],
+        [
+         266,
+         "Pairs the exam likes to confuse"
+        ],
+        [
+         313,
+         "Pairs the exam likes to confuse, continued"
+        ],
+        [
+         361,
+         "Common traps"
+        ],
+        [
+         413,
+         "The final week"
+        ]
+       ],
+       "published": "2026-11-12T08:22:29Z",
+       "thumb": "img/modules/ai901/13-1.jpg"
+      }
+     ],
+     "deck": "downloads/ai901/13-exam-technique-and-final-review.pptx",
+     "deck_kb": 157,
+     "seconds": 857,
+     "words": 1446
+    }
+   ],
+   "facts": {
+    "questions": "See the exam page",
+    "time": "See the exam page",
+    "passing": "700 of 1,000",
+    "source": "learn.microsoft.com",
+    "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-901/"
+   },
+   "videos": 14,
+   "seconds": 9857,
+   "notes": [
+    {
+     "num": "00",
+     "slug": "00-exam-orientation-and-how-to-study",
+     "title": "Exam Orientation and How to Study",
+     "group": "Start here",
+     "tasks": 0,
+     "los": [],
+     "minutes": 5,
+     "check": {
+      "src_words": 1096,
+      "page_words": 1122,
+      "src_tables": 6,
+      "tables": 6,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 4,
+      "scenario": 4,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 8,
+      "sections": 8
+     },
+     "modules": [
+      "00"
+     ],
+     "domain": "",
+     "ref": "Module 0",
+     "tn": "Module 00",
+     "of": 14,
+     "module": "00"
+    },
+    {
+     "num": "01",
+     "slug": "01-responsible-ai",
+     "title": "Responsible AI",
+     "group": "Identify AI concepts and capabilities (40-45%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 6,
+     "check": {
+      "src_words": 1262,
+      "page_words": 1302,
+      "src_tables": 3,
+      "tables": 3,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 10,
+      "sections": 10
+     },
+     "modules": [
+      "01"
+     ],
+     "domain": "",
+     "ref": "Module 1",
+     "tn": "Module 01",
+     "of": 14,
+     "module": "01"
+    },
+    {
+     "num": "02",
+     "slug": "02-how-generative-ai-models-work",
+     "title": "How Generative AI Models Work",
+     "group": "Identify AI concepts and capabilities (40-45%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 6,
+     "check": {
+      "src_words": 1195,
+      "page_words": 1233,
+      "src_tables": 3,
+      "tables": 3,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 8,
+      "sections": 8
+     },
+     "modules": [
+      "02"
+     ],
+     "domain": "",
+     "ref": "Module 2",
+     "tn": "Module 02",
+     "of": 14,
+     "module": "02"
+    },
+    {
+     "num": "03",
+     "slug": "03-choosing-models-deployments-and-parameters",
+     "title": "Choosing Models, Deployments and Parameters",
+     "group": "Identify AI concepts and capabilities (40-45%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 6,
+     "check": {
+      "src_words": 1166,
+      "page_words": 1202,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "03"
+     ],
+     "domain": "",
+     "ref": "Module 3",
+     "tn": "Module 03",
+     "of": 14,
+     "module": "03"
+    },
+    {
+     "num": "04",
+     "slug": "04-ai-workloads-and-scenarios",
+     "title": "AI Workloads and Scenarios",
+     "group": "Identify AI concepts and capabilities (40-45%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 5,
+     "check": {
+      "src_words": 1079,
+      "page_words": 1119,
+      "src_tables": 6,
+      "tables": 6,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 10,
+      "sections": 10
+     },
+     "modules": [
+      "04"
+     ],
+     "domain": "",
+     "ref": "Module 4",
+     "tn": "Module 04",
+     "of": 14,
+     "module": "04"
+    },
+    {
+     "num": "05",
+     "slug": "05-text-speech-vision-and-extraction-capabilities",
+     "title": "Text, Speech, Vision and Extraction Capabilities",
+     "group": "Identify AI concepts and capabilities (40-45%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 6,
+     "check": {
+      "src_words": 1294,
+      "page_words": 1334,
+      "src_tables": 6,
+      "tables": 6,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 7,
+      "scenario": 7,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "05"
+     ],
+     "domain": "",
+     "ref": "Module 5",
+     "tn": "Module 05",
+     "of": 14,
+     "module": "05"
+    },
+    {
+     "num": "06",
+     "slug": "06-writing-system-and-user-prompts",
+     "title": "Writing System and User Prompts",
+     "group": "Implement AI solutions by using Microsoft Foundry (55-60%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 5,
+     "check": {
+      "src_words": 1065,
+      "page_words": 1102,
+      "src_tables": 4,
+      "tables": 4,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "06"
+     ],
+     "domain": "",
+     "ref": "Module 6",
+     "tn": "Module 06",
+     "of": 14,
+     "module": "06"
+    },
+    {
+     "num": "07",
+     "slug": "07-microsoft-foundry-resources-models-and-the-portal",
+     "title": "Microsoft Foundry: Resources, Models and the Portal",
+     "group": "Implement AI solutions by using Microsoft Foundry (55-60%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 5,
+     "check": {
+      "src_words": 971,
+      "page_words": 1006,
+      "src_tables": 3,
+      "tables": 3,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "07"
+     ],
+     "domain": "",
+     "ref": "Module 7",
+     "tn": "Module 07",
+     "of": 14,
+     "module": "07"
+    },
+    {
+     "num": "08",
+     "slug": "08-chat-client-with-the-foundry-sdk",
+     "title": "Chat Client with the Foundry SDK",
+     "group": "Implement AI solutions by using Microsoft Foundry (55-60%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 5,
+     "check": {
+      "src_words": 1043,
+      "page_words": 1079,
+      "src_tables": 4,
+      "tables": 4,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "08"
+     ],
+     "domain": "",
+     "ref": "Module 8",
+     "tn": "Module 08",
+     "of": 14,
+     "module": "08"
+    },
+    {
+     "num": "09",
+     "slug": "09-agents-in-foundry",
+     "title": "Agents in Foundry",
+     "group": "Implement AI solutions by using Microsoft Foundry (55-60%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 5,
+     "check": {
+      "src_words": 1080,
+      "page_words": 1108,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "09"
+     ],
+     "domain": "",
+     "ref": "Module 9",
+     "tn": "Module 09",
+     "of": 14,
+     "module": "09"
+    },
+    {
+     "num": "10",
+     "slug": "10-text-analysis-and-speech-applications",
+     "title": "Text Analysis and Speech Applications",
+     "group": "Implement AI solutions by using Microsoft Foundry (55-60%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 6,
+     "check": {
+      "src_words": 1191,
+      "page_words": 1224,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 5,
+      "sections": 5
+     },
+     "modules": [
+      "10"
+     ],
+     "domain": "",
+     "ref": "Module 10",
+     "tn": "Module 10",
+     "of": 14,
+     "module": "10"
+    },
+    {
+     "num": "11",
+     "slug": "11-vision-and-image-generation-applications",
+     "title": "Vision and Image Generation Applications",
+     "group": "Implement AI solutions by using Microsoft Foundry (55-60%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 6,
+     "check": {
+      "src_words": 1264,
+      "page_words": 1301,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "11"
+     ],
+     "domain": "",
+     "ref": "Module 11",
+     "tn": "Module 11",
+     "of": 14,
+     "module": "11"
+    },
+    {
+     "num": "12",
+     "slug": "12-information-extraction-with-content-understanding",
+     "title": "Information Extraction with Content Understanding",
+     "group": "Implement AI solutions by using Microsoft Foundry (55-60%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 6,
+     "check": {
+      "src_words": 1130,
+      "page_words": 1166,
+      "src_tables": 6,
+      "tables": 6,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "12"
+     ],
+     "domain": "",
+     "ref": "Module 12",
+     "tn": "Module 12",
+     "of": 14,
+     "module": "12"
+    },
+    {
+     "num": "13",
+     "slug": "13-exam-technique-and-final-review",
+     "title": "Exam Technique and Final Review",
+     "group": "Review and exam day",
+     "tasks": 17,
+     "los": [],
+     "minutes": 6,
+     "check": {
+      "src_words": 1301,
+      "page_words": 1345,
+      "src_tables": 4,
+      "tables": 4,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 10,
+      "scenario": 10,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 8,
+      "sections": 8
+     },
+     "modules": [
+      "13"
+     ],
+     "domain": "",
+     "ref": "Module 13",
+     "tn": "Module 13",
+     "of": 14,
+     "module": "13"
     }
    ],
    "glossary": 0
