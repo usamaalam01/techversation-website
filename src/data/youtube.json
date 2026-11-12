@@ -22482,7 +22482,7 @@
   "key": "10-Text-Analysis-and-Speech-Applications-part-1",
   "title": "AI-901 Exam Prep Module 10: Sentiment Analysis and Speech Recognition in Python | AI-901",
   "seconds": 677,
-  "published": "2026-11-12T08:20:14Z",
+  "published": "2026-11-12T08:28:27Z",
   "privacy": "public",
   "embeddable": true,
   "chapters": [
@@ -22666,6 +22666,963 @@
    [
     413,
     "The final week"
+   ]
+  ]
+ },
+ "6kPsyCf9858": {
+  "course": "sy0801",
+  "key": "00-Exam-Orientation-and-How-to-Study-part-1",
+  "title": "SY0-801 Exam Prep Introduction: Exam Format, Domains and Performance-Based Questions | Security+",
+  "seconds": 704,
+  "published": "2026-11-12T10:50:11Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "What the exam is"
+   ],
+   [
+    81,
+    "What the exam is, continued"
+   ],
+   [
+    134,
+    "What the exam is, continued"
+   ],
+   [
+    146,
+    "The five domains"
+   ],
+   [
+    231,
+    "Question types"
+   ],
+   [
+    275,
+    "How the objectives are worded"
+   ],
+   [
+    313,
+    "A repeatable way to answer"
+   ],
+   [
+    354,
+    "A study plan"
+   ]
+  ]
+ },
+ "8m4wkuSCI84": {
+  "course": "sy0801",
+  "key": "01-Security-Concepts-and-Controls-part-1",
+  "title": "SY0-801 Exam Prep Module 1: CIA, AAA, Zero Trust and Control Types | Security+",
+  "seconds": 663,
+  "published": "2026-11-12T10:50:20Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "The core ideas"
+   ],
+   [
+    93,
+    "The core ideas, continued"
+   ],
+   [
+    103,
+    "Authentication, authorization and accounting (AAA)"
+   ],
+   [
+    149,
+    "Security principles"
+   ],
+   [
+    182,
+    "Control categories"
+   ],
+   [
+    231,
+    "Control types"
+   ],
+   [
+    272,
+    "Control types, continued"
+   ],
+   [
+    306,
+    "Control types, continued"
+   ]
+  ]
+ },
+ "eUCmX0lFQgc": {
+  "course": "sy0801",
+  "key": "02-Change-Management-and-Security-part-1",
+  "title": "SY0-801 Exam Prep Module 2: Change Management: CAB, Backout and Maintenance Windows | Security+",
+  "seconds": 594,
+  "published": "2026-11-12T10:50:43Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Why change management matters for security"
+   ],
+   [
+    82,
+    "Why change management matters for security, continued"
+   ],
+   [
+    93,
+    "Business processes that affect security operations"
+   ],
+   [
+    136,
+    "Business processes that affect security operations, continued"
+   ],
+   [
+    176,
+    "Technical implications"
+   ],
+   [
+    235,
+    "Documentation and version control"
+   ]
+  ]
+ },
+ "AnGII4Xs3Rg": {
+  "course": "sy0801",
+  "key": "03-Cryptographic-Solutions-part-1",
+  "title": "SY0-801 Exam Prep Module 3: Encryption, PKI, Hashing and Digital Signatures | Security+",
+  "seconds": 768,
+  "published": "2026-11-12T10:51:03Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Encryption: symmetric and asymmetric"
+   ],
+   [
+    111,
+    "Encryption: symmetric and asymmetric, continued"
+   ],
+   [
+    122,
+    "Encryption: symmetric and asymmetric, continued"
+   ],
+   [
+    170,
+    "Levels of encryption"
+   ],
+   [
+    230,
+    "Public key infrastructure (PKI) and certificates"
+   ],
+   [
+    279,
+    "Public key infrastructure (PKI) and certificates, continued"
+   ],
+   [
+    330,
+    "Other cryptographic tools"
+   ],
+   [
+    369,
+    "Other cryptographic tools, continued"
+   ],
+   [
+    413,
+    "Other cryptographic tools, continued"
+   ]
+  ]
+ },
+ "Tdu21dnwqmI": {
+  "course": "sy0801",
+  "key": "04-Threats-Actors-Motivations-and-Vulnerability-Scoring-part-1",
+  "title": "SY0-801 Exam Prep Module 4: Threat Actors, Motivations, CVE and CVSS | Security+",
+  "seconds": 720,
+  "published": "2026-11-12T10:51:25Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Threats and vulnerabilities"
+   ],
+   [
+    86,
+    "Characteristics of threats"
+   ],
+   [
+    123,
+    "Characteristics of vulnerabilities"
+   ],
+   [
+    184,
+    "Characteristics of vulnerabilities, continued"
+   ],
+   [
+    208,
+    "Threat actors"
+   ],
+   [
+    256,
+    "Threat actors, continued"
+   ],
+   [
+    295,
+    "Motivations"
+   ],
+   [
+    311,
+    "Attributes of actors"
+   ],
+   [
+    343,
+    "Attributes of actors, continued"
+   ]
+  ]
+ },
+ "mTM-_fIXlkE": {
+  "course": "sy0801",
+  "key": "05-Threat-Vectors-and-Sources-part-1",
+  "title": "SY0-801 Exam Prep Module 5: Threat Vectors: Email, Supply Chain, USB and More | Security+",
+  "seconds": 614,
+  "published": "2026-11-12T10:51:39Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Vectors and the attack surface"
+   ],
+   [
+    85,
+    "Vectors and the attack surface, continued"
+   ],
+   [
+    96,
+    "Message-based and content-based vectors"
+   ],
+   [
+    148,
+    "Network, remote and endpoint vectors"
+   ],
+   [
+    210,
+    "Supply chain, media and human vectors"
+   ],
+   [
+    256,
+    "Supply chain, media and human vectors, continued"
+   ]
+  ]
+ },
+ "XfAgLE4YgLI": {
+  "course": "sy0801",
+  "key": "06-Vulnerability-Types-and-Attack-Surfaces-part-1",
+  "title": "SY0-801 Exam Prep Module 6: Vulnerability Types and Attack Surfaces | Security+",
+  "seconds": 666,
+  "published": "2026-11-12T10:52:10Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Groups of vulnerabilities"
+   ],
+   [
+    73,
+    "Groups of vulnerabilities, continued"
+   ],
+   [
+    127,
+    "Product and system weaknesses"
+   ],
+   [
+    169,
+    "Product and system weaknesses, continued"
+   ],
+   [
+    219,
+    "Application and code vulnerabilities"
+   ],
+   [
+    277,
+    "Configuration, data and identity exposure"
+   ]
+  ]
+ },
+ "y7t1NLKEqg0": {
+  "course": "sy0801",
+  "key": "07-Indicators-of-Malicious-Activity-part-1",
+  "title": "SY0-801 Exam Prep Module 7: Malware, Phishing Types, Credential Attacks and IoCs | Security+",
+  "seconds": 705,
+  "published": "2026-11-12T10:52:29Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Malware attacks"
+   ],
+   [
+    107,
+    "Malware attacks, continued"
+   ],
+   [
+    164,
+    "Network, physical and social engineering attacks"
+   ],
+   [
+    206,
+    "Network, physical and social engineering attacks, continued"
+   ],
+   [
+    232,
+    "Indicators of compromise (IoCs)"
+   ],
+   [
+    298,
+    "Application and credential attacks"
+   ]
+  ]
+ },
+ "dFgL-BNkM5Q": {
+  "course": "sy0801",
+  "key": "08-AI-Threats-and-Vulnerabilities-part-1",
+  "title": "SY0-801 Exam Prep Module 8: AI Threats: Poisoning, Prompt Injection and Hallucinations | Security+",
+  "seconds": 624,
+  "published": "2026-11-12T10:52:51Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Why AI needs its own risk list"
+   ],
+   [
+    82,
+    "Why AI needs its own risk list, continued"
+   ],
+   [
+    92,
+    "Attacks on the model and its data"
+   ],
+   [
+    125,
+    "Attacks on the model and its data, continued"
+   ],
+   [
+    162,
+    "Attacks on the model and its data, continued"
+   ],
+   [
+    189,
+    "Data, privacy and trust risks"
+   ],
+   [
+    241,
+    "Data, privacy and trust risks, continued"
+   ],
+   [
+    278,
+    "Defending AI use"
+   ]
+  ]
+ },
+ "PAelIHITGLI": {
+  "course": "sy0801",
+  "key": "09-Architecture-Models-and-Securing-Infrastructure-part-1",
+  "title": "SY0-801 Exam Prep Module 9: Architecture Models, Zones, Zero Trust and SSE | Security+",
+  "seconds": 726,
+  "published": "2026-11-12T10:53:14Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Architecture and infrastructure models"
+   ],
+   [
+    97,
+    "Architecture and infrastructure models, continued"
+   ],
+   [
+    145,
+    "Architecture and infrastructure models, continued"
+   ],
+   [
+    182,
+    "Architecture and infrastructure models, continued"
+   ],
+   [
+    193,
+    "Considerations when choosing"
+   ],
+   [
+    229,
+    "Protecting the infrastructure"
+   ],
+   [
+    272,
+    "Zero Trust architecture"
+   ],
+   [
+    302,
+    "Secure communication and access"
+   ],
+   [
+    348,
+    "Identity management"
+   ]
+  ]
+ },
+ "TT6uJxiy3vQ": {
+  "course": "sy0801",
+  "key": "10-Protecting-Data-part-1",
+  "title": "SY0-801 Exam Prep Module 10: Data States, Classification, Masking and Tokenization | Security+",
+  "seconds": 673,
+  "published": "2026-11-12T10:53:43Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Data types and states"
+   ],
+   [
+    105,
+    "Data types and states, continued"
+   ],
+   [
+    127,
+    "Data classification"
+   ],
+   [
+    172,
+    "Methods used to secure data"
+   ],
+   [
+    217,
+    "Methods used to secure data, continued"
+   ],
+   [
+    245,
+    "Methods used to secure data, continued"
+   ],
+   [
+    269,
+    "Data protection roles"
+   ],
+   [
+    308,
+    "Data handling and life cycle"
+   ]
+  ]
+ },
+ "5RDnWRWBFpY": {
+  "course": "sy0801",
+  "key": "11-Resilience-and-Recovery-part-1",
+  "title": "SY0-801 Exam Prep Module 11: Recovery Sites, Backups, RTO and RPO | Security+",
+  "seconds": 645,
+  "published": "2026-11-12T10:54:01Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "The goal"
+   ],
+   [
+    71,
+    "Recovery sites"
+   ],
+   [
+    111,
+    "Recovery sites, continued"
+   ],
+   [
+    130,
+    "Platform diversity and redundancy"
+   ],
+   [
+    192,
+    "Backups"
+   ],
+   [
+    234,
+    "Testing, planning and metrics"
+   ],
+   [
+    265,
+    "Testing, planning and metrics, continued"
+   ],
+   [
+    296,
+    "Testing, planning and metrics, continued"
+   ]
+  ]
+ },
+ "EYkTNkWEx50": {
+  "course": "sy0801",
+  "key": "12-Mitigating-Controls-and-Techniques-part-1",
+  "title": "SY0-801 Exam Prep Module 12: IDS vs IPS, WAF, EDR, DLP and Email Security | Security+",
+  "seconds": 689,
+  "published": "2026-11-12T10:54:23Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Overview of the toolbox"
+   ],
+   [
+    75,
+    "Overview of the toolbox, continued"
+   ],
+   [
+    136,
+    "Deception and disruption technology"
+   ],
+   [
+    168,
+    "Detection and prevention systems and firewalls"
+   ],
+   [
+    237,
+    "Content, endpoint and network access controls"
+   ],
+   [
+    286,
+    "Applications, email and operating systems"
+   ],
+   [
+    325,
+    "Applications, email and operating systems, continued"
+   ]
+  ]
+ },
+ "CjsZg4P_pj0": {
+  "course": "sy0801",
+  "key": "13-Asset-and-Vulnerability-Management-part-1",
+  "title": "SY0-801 Exam Prep Module 13: Asset Life Cycle and Vulnerability Management | Security+",
+  "seconds": 594,
+  "published": "2026-11-12T10:54:46Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Asset management"
+   ],
+   [
+    100,
+    "Asset management, continued"
+   ],
+   [
+    124,
+    "Asset management, continued"
+   ],
+   [
+    147,
+    "Vulnerability management: identification"
+   ],
+   [
+    184,
+    "Prioritization, remediation, verification and reporting"
+   ],
+   [
+    220,
+    "External reporting"
+   ],
+   [
+    243,
+    "External reporting, continued"
+   ]
+  ]
+ },
+ "cDjQp3zHQrc": {
+  "course": "sy0801",
+  "key": "14-Security-Alerting-and-Monitoring-part-1",
+  "title": "SY0-801 Exam Prep Module 14: SIEM, NetFlow, Syslog and Alert Tuning | Security+",
+  "seconds": 587,
+  "published": "2026-11-12T10:54:54Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "What is monitored"
+   ],
+   [
+    77,
+    "Monitoring activities"
+   ],
+   [
+    113,
+    "Monitoring activities, continued"
+   ],
+   [
+    134,
+    "Tools"
+   ],
+   [
+    187,
+    "Protocols and data sources"
+   ],
+   [
+    260,
+    "Protocols and data sources, continued"
+   ]
+  ]
+ },
+ "1SlBxLhe6BA": {
+  "course": "sy0801",
+  "key": "15-Identity-and-Access-Management-part-1",
+  "title": "SY0-801 Exam Prep Module 15: IAM: SAML, OAuth, MFA and Access Control Models | Security+",
+  "seconds": 697,
+  "published": "2026-11-12T10:55:29Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "The identity life cycle"
+   ],
+   [
+    95,
+    "The identity life cycle, continued"
+   ],
+   [
+    105,
+    "Federation and single sign-on"
+   ],
+   [
+    165,
+    "Account types"
+   ],
+   [
+    204,
+    "Multifactor authentication (MFA)"
+   ],
+   [
+    241,
+    "Multifactor authentication (MFA), continued"
+   ],
+   [
+    259,
+    "Access control models"
+   ],
+   [
+    298,
+    "Access management"
+   ],
+   [
+    310,
+    "Password concepts"
+   ]
+  ]
+ },
+ "5juQOPd276Y": {
+  "course": "sy0801",
+  "key": "16-Automation-Orchestration-and-AI-in-Operations-part-1",
+  "title": "SY0-801 Exam Prep Module 16: Automation, Orchestration, SOAR and AI | Security+",
+  "seconds": 668,
+  "published": "2026-11-12T10:55:56Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Automation and orchestration"
+   ],
+   [
+    98,
+    "Automation and orchestration, continued"
+   ],
+   [
+    109,
+    "Use cases"
+   ],
+   [
+    142,
+    "Considerations (what can go wrong)"
+   ],
+   [
+    197,
+    "AI in security operations"
+   ],
+   [
+    237,
+    "Intended outcomes and SecOps"
+   ],
+   [
+    301,
+    "Intended outcomes and SecOps, continued"
+   ]
+  ]
+ },
+ "stGZF4uOj1I": {
+  "course": "sy0801",
+  "key": "17-Incident-Response-and-Investigations-part-1",
+  "title": "SY0-801 Exam Prep Module 17: Incident Response Phases and Digital Forensics | Security+",
+  "seconds": 669,
+  "published": "2026-11-12T10:56:13Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "The incident response process"
+   ],
+   [
+    69,
+    "The incident response process, continued"
+   ],
+   [
+    109,
+    "The incident response process, continued"
+   ],
+   [
+    144,
+    "The incident response process, continued"
+   ],
+   [
+    184,
+    "Preparation and exercises"
+   ],
+   [
+    210,
+    "Digital forensics concepts"
+   ],
+   [
+    249,
+    "Digital forensics concepts, continued"
+   ],
+   [
+    259,
+    "Data, artifacts and sources for investigations"
+   ],
+   [
+    327,
+    "Data, artifacts and sources for investigations, continued"
+   ]
+  ]
+ },
+ "CFJRunvzcOU": {
+  "course": "sy0801",
+  "key": "18-Governance-and-Risk-Management-part-1",
+  "title": "SY0-801 Exam Prep Module 18: Governance Documents, Risk Treatment and ALE | Security+",
+  "seconds": 709,
+  "published": "2026-11-12T10:56:40Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Governance documents"
+   ],
+   [
+    70,
+    "Governance documents, continued"
+   ],
+   [
+    103,
+    "Governance documents, continued"
+   ],
+   [
+    125,
+    "Common policies"
+   ],
+   [
+    161,
+    "Risk management process"
+   ],
+   [
+    210,
+    "Risk management process, continued"
+   ],
+   [
+    219,
+    "Risk management process, continued"
+   ],
+   [
+    269,
+    "Business-level considerations"
+   ],
+   [
+    303,
+    "Quantitative risk formulas"
+   ],
+   [
+    350,
+    "Quantitative risk formulas, continued"
+   ]
+  ]
+ },
+ "gHShLr5ouXg": {
+  "course": "sy0801",
+  "key": "19-Third-Party-Risk-and-Compliance-part-1",
+  "title": "SY0-801 Exam Prep Module 19: Vendor Risk, Agreements and Compliance | Security+",
+  "seconds": 669,
+  "published": "2026-11-12T10:56:57Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Why third parties matter"
+   ],
+   [
+    76,
+    "Why third parties matter, continued"
+   ],
+   [
+    86,
+    "Vendor selection"
+   ],
+   [
+    128,
+    "Agreement types"
+   ],
+   [
+    193,
+    "Vendor monitoring and limits"
+   ],
+   [
+    247,
+    "Security compliance"
+   ],
+   [
+    302,
+    "Security compliance, continued"
+   ]
+  ]
+ },
+ "yfzCHI-LTjk": {
+  "course": "sy0801",
+  "key": "20-Audits-Assessments-and-Security-Awareness-part-1",
+  "title": "SY0-801 Exam Prep Module 20: Audits, Penetration Testing and Security Awareness | Security+",
+  "seconds": 662,
+  "published": "2026-11-12T10:57:26Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Audits and assessments"
+   ],
+   [
+    87,
+    "Data gathering"
+   ],
+   [
+    119,
+    "Scoping and engagement types"
+   ],
+   [
+    145,
+    "Scoping and engagement types, continued"
+   ],
+   [
+    167,
+    "Penetration testing"
+   ],
+   [
+    232,
+    "Penetration testing, continued"
+   ],
+   [
+    256,
+    "Security awareness"
+   ],
+   [
+    312,
+    "Security awareness, continued"
+   ]
+  ]
+ },
+ "2hsmVwpEUWw": {
+  "course": "sy0801",
+  "key": "21-Exam-Technique-and-Final-Review-part-1",
+  "title": "SY0-801 Exam Prep Module 21 Part 1 of 2: Time Plan, Domain Checklists and Common Traps | Security+",
+  "seconds": 526,
+  "published": "2026-11-12T10:57:54Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Time plan"
+   ],
+   [
+    99,
+    "Time plan, continued"
+   ],
+   [
+    109,
+    "The routine for every question"
+   ],
+   [
+    153,
+    "1.0 General Security Concepts (16%)"
+   ],
+   [
+    193,
+    "2.0 Threats, Vulnerabilities, and Attacks (24%)"
+   ],
+   [
+    241,
+    "3.0 Security Architecture (19%)"
+   ],
+   [
+    277,
+    "4.0 Security Operations (27%)"
+   ],
+   [
+    327,
+    "5.0 Program Management and Oversight (14%)"
+   ],
+   [
+    368,
+    "Pairs the exam likes to confuse"
+   ],
+   [
+    413,
+    "Pairs the exam likes to confuse, continued"
+   ],
+   [
+    457,
+    "Common traps"
+   ],
+   [
+    497,
+    "The final week"
+   ]
+  ]
+ },
+ "9BH9bRmcx5I": {
+  "course": "sy0801",
+  "key": "21-Exam-Technique-and-Final-Review-part-2",
+  "title": "SY0-801 Exam Prep Module 21 Part 2 of 2: Final Review: Mixed Practice Questions and Recall | SY0-801",
+  "seconds": 518,
+  "published": "2026-11-12T10:58:13Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Practice questions"
+   ],
+   [
+    376,
+    "Recall check"
+   ],
+   [
+    474,
+    "Module recap"
    ]
   ]
  },

@@ -80,6 +80,15 @@
    ]
   },
   {
+   "id": "comptia",
+   "name": "CompTIA",
+   "full": "CompTIA",
+   "mono": "CT",
+   "certs": [
+    "sy0801"
+   ]
+  },
+  {
    "id": "microsoft",
    "name": "Microsoft",
    "full": "Microsoft",
@@ -35386,7 +35395,7 @@
          "Responding to spoken prompts with a multimodal model, continued"
         ]
        ],
-       "published": "2026-11-12T08:20:14Z",
+       "published": "2026-11-12T08:28:27Z",
        "thumb": "img/modules/ai901/10-1.jpg"
       }
      ],
@@ -36021,6 +36030,1915 @@
      "tn": "Module 13",
      "of": 14,
      "module": "13"
+    }
+   ],
+   "glossary": 0
+  },
+  {
+   "kind": "certification",
+   "topic": null,
+   "slug": "sy0801",
+   "institute": "comptia",
+   "short": "Security+",
+   "name": "CompTIA Security+ V8",
+   "title": "Security+ SY0-801 Exam Prep Masterclass",
+   "accent": "c-sy0801",
+   "desc": "All five domains and 27 objectives of the V8 exam: controls, threats, architecture, operations, governance and the new AI risks.",
+   "audience": "Aspiring security administrators, IT staff and career changers preparing for the Security+ V8 exam (SY0-801).",
+   "sources": "The official CompTIA Security+ SY0-801 V8 exam objectives, standard security references named in them, and original practice questions.",
+   "playlist": "PLSL_CEJFi2bY",
+   "cover": "img/covers/sy0801.jpg",
+   "modules": [
+    {
+     "num": "00",
+     "slug": "00-exam-orientation-and-how-to-study",
+     "title": "Exam Orientation and How to Study",
+     "desc": "What the exam is, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "6kPsyCf9858",
+       "title": "What the exam is, recall and recap",
+       "seconds": 704,
+       "chapters": [
+        [
+         0,
+         "What the exam is"
+        ],
+        [
+         81,
+         "What the exam is, continued"
+        ],
+        [
+         134,
+         "What the exam is, continued"
+        ],
+        [
+         146,
+         "The five domains"
+        ],
+        [
+         231,
+         "Question types"
+        ],
+        [
+         275,
+         "How the objectives are worded"
+        ],
+        [
+         313,
+         "A repeatable way to answer"
+        ],
+        [
+         354,
+         "A study plan"
+        ]
+       ],
+       "published": "2026-11-12T10:50:11Z",
+       "thumb": "img/modules/sy0801/00-1.jpg"
+      }
+     ],
+     "deck": "downloads/sy0801/00-exam-orientation-and-how-to-study.pptx",
+     "deck_kb": 166,
+     "seconds": 704,
+     "words": 1352
+    },
+    {
+     "num": "01",
+     "slug": "01-security-concepts-and-controls",
+     "title": "Security Concepts and Controls",
+     "desc": "The core ideas, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "8m4wkuSCI84",
+       "title": "The core ideas, recall and recap",
+       "seconds": 663,
+       "chapters": [
+        [
+         0,
+         "The core ideas"
+        ],
+        [
+         93,
+         "The core ideas, continued"
+        ],
+        [
+         103,
+         "Authentication, authorization and accounting (AAA)"
+        ],
+        [
+         149,
+         "Security principles"
+        ],
+        [
+         182,
+         "Control categories"
+        ],
+        [
+         231,
+         "Control types"
+        ],
+        [
+         272,
+         "Control types, continued"
+        ],
+        [
+         306,
+         "Control types, continued"
+        ]
+       ],
+       "published": "2026-11-12T10:50:20Z",
+       "thumb": "img/modules/sy0801/01-1.jpg"
+      }
+     ],
+     "deck": "downloads/sy0801/01-security-concepts-and-controls.pptx",
+     "deck_kb": 255,
+     "seconds": 663,
+     "words": 1087
+    },
+    {
+     "num": "02",
+     "slug": "02-change-management-and-security",
+     "title": "Change Management and Security",
+     "desc": "Why change management matters for security, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "eUCmX0lFQgc",
+       "title": "Why change management matters for security, recall and recap",
+       "seconds": 594,
+       "chapters": [
+        [
+         0,
+         "Why change management matters for security"
+        ],
+        [
+         82,
+         "Why change management matters for security, continued"
+        ],
+        [
+         93,
+         "Business processes that affect security operations"
+        ],
+        [
+         136,
+         "Business processes that affect security operations, continued"
+        ],
+        [
+         176,
+         "Technical implications"
+        ],
+        [
+         235,
+         "Documentation and version control"
+        ]
+       ],
+       "published": "2026-11-12T10:50:43Z",
+       "thumb": "img/modules/sy0801/02-1.jpg"
+      }
+     ],
+     "deck": "downloads/sy0801/02-change-management-and-security.pptx",
+     "deck_kb": 146,
+     "seconds": 594,
+     "words": 1039
+    },
+    {
+     "num": "03",
+     "slug": "03-cryptographic-solutions",
+     "title": "Cryptographic Solutions",
+     "desc": "Encryption: symmetric and asymmetric, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "AnGII4Xs3Rg",
+       "title": "Encryption: symmetric and asymmetric, recall and recap",
+       "seconds": 768,
+       "chapters": [
+        [
+         0,
+         "Encryption: symmetric and asymmetric"
+        ],
+        [
+         111,
+         "Encryption: symmetric and asymmetric, continued"
+        ],
+        [
+         122,
+         "Encryption: symmetric and asymmetric, continued"
+        ],
+        [
+         170,
+         "Levels of encryption"
+        ],
+        [
+         230,
+         "Public key infrastructure (PKI) and certificates"
+        ],
+        [
+         279,
+         "Public key infrastructure (PKI) and certificates, continued"
+        ],
+        [
+         330,
+         "Other cryptographic tools"
+        ],
+        [
+         369,
+         "Other cryptographic tools, continued"
+        ],
+        [
+         413,
+         "Other cryptographic tools, continued"
+        ]
+       ],
+       "published": "2026-11-12T10:51:03Z",
+       "thumb": "img/modules/sy0801/03-1.jpg"
+      }
+     ],
+     "deck": "downloads/sy0801/03-cryptographic-solutions.pptx",
+     "deck_kb": 201,
+     "seconds": 768,
+     "words": 1424
+    },
+    {
+     "num": "04",
+     "slug": "04-threats-actors-motivations-and-vulnerability-scoring",
+     "title": "Threats, Actors, Motivations and Vulnerability Scoring",
+     "desc": "Threats and vulnerabilities and Characteristics of threats, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "Tdu21dnwqmI",
+       "title": "Threats and vulnerabilities and Characteristics of threats, recall and recap",
+       "seconds": 720,
+       "chapters": [
+        [
+         0,
+         "Threats and vulnerabilities"
+        ],
+        [
+         86,
+         "Characteristics of threats"
+        ],
+        [
+         123,
+         "Characteristics of vulnerabilities"
+        ],
+        [
+         184,
+         "Characteristics of vulnerabilities, continued"
+        ],
+        [
+         208,
+         "Threat actors"
+        ],
+        [
+         256,
+         "Threat actors, continued"
+        ],
+        [
+         295,
+         "Motivations"
+        ],
+        [
+         311,
+         "Attributes of actors"
+        ],
+        [
+         343,
+         "Attributes of actors, continued"
+        ]
+       ],
+       "published": "2026-11-12T10:51:25Z",
+       "thumb": "img/modules/sy0801/04-1.jpg"
+      }
+     ],
+     "deck": "downloads/sy0801/04-threats-actors-motivations-and-vulnerability-scoring.pptx",
+     "deck_kb": 247,
+     "seconds": 720,
+     "words": 1228
+    },
+    {
+     "num": "05",
+     "slug": "05-threat-vectors-and-sources",
+     "title": "Threat Vectors and Sources",
+     "desc": "Vectors and the attack surface, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "mTM-_fIXlkE",
+       "title": "Vectors and the attack surface, recall and recap",
+       "seconds": 614,
+       "chapters": [
+        [
+         0,
+         "Vectors and the attack surface"
+        ],
+        [
+         85,
+         "Vectors and the attack surface, continued"
+        ],
+        [
+         96,
+         "Message-based and content-based vectors"
+        ],
+        [
+         148,
+         "Network, remote and endpoint vectors"
+        ],
+        [
+         210,
+         "Supply chain, media and human vectors"
+        ],
+        [
+         256,
+         "Supply chain, media and human vectors, continued"
+        ]
+       ],
+       "published": "2026-11-12T10:51:39Z",
+       "thumb": "img/modules/sy0801/05-1.jpg"
+      }
+     ],
+     "deck": "downloads/sy0801/05-threat-vectors-and-sources.pptx",
+     "deck_kb": 212,
+     "seconds": 614,
+     "words": 1105
+    },
+    {
+     "num": "06",
+     "slug": "06-vulnerability-types-and-attack-surfaces",
+     "title": "Vulnerability Types and Attack Surfaces",
+     "desc": "Groups of vulnerabilities, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "XfAgLE4YgLI",
+       "title": "Groups of vulnerabilities, recall and recap",
+       "seconds": 666,
+       "chapters": [
+        [
+         0,
+         "Groups of vulnerabilities"
+        ],
+        [
+         73,
+         "Groups of vulnerabilities, continued"
+        ],
+        [
+         127,
+         "Product and system weaknesses"
+        ],
+        [
+         169,
+         "Product and system weaknesses, continued"
+        ],
+        [
+         219,
+         "Application and code vulnerabilities"
+        ],
+        [
+         277,
+         "Configuration, data and identity exposure"
+        ]
+       ],
+       "published": "2026-11-12T10:52:10Z",
+       "thumb": "img/modules/sy0801/06-1.jpg"
+      }
+     ],
+     "deck": "downloads/sy0801/06-vulnerability-types-and-attack-surfaces.pptx",
+     "deck_kb": 172,
+     "seconds": 666,
+     "words": 1124
+    },
+    {
+     "num": "07",
+     "slug": "07-indicators-of-malicious-activity",
+     "title": "Indicators of Malicious Activity",
+     "desc": "Malware attacks, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "y7t1NLKEqg0",
+       "title": "Malware attacks, recall and recap",
+       "seconds": 705,
+       "chapters": [
+        [
+         0,
+         "Malware attacks"
+        ],
+        [
+         107,
+         "Malware attacks, continued"
+        ],
+        [
+         164,
+         "Network, physical and social engineering attacks"
+        ],
+        [
+         206,
+         "Network, physical and social engineering attacks, continued"
+        ],
+        [
+         232,
+         "Indicators of compromise (IoCs)"
+        ],
+        [
+         298,
+         "Application and credential attacks"
+        ]
+       ],
+       "published": "2026-11-12T10:52:29Z",
+       "thumb": "img/modules/sy0801/07-1.jpg"
+      }
+     ],
+     "deck": "downloads/sy0801/07-indicators-of-malicious-activity.pptx",
+     "deck_kb": 136,
+     "seconds": 705,
+     "words": 1177
+    },
+    {
+     "num": "08",
+     "slug": "08-ai-threats-and-vulnerabilities",
+     "title": "AI Threats and Vulnerabilities",
+     "desc": "Why AI needs its own risk list, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "dFgL-BNkM5Q",
+       "title": "Why AI needs its own risk list, recall and recap",
+       "seconds": 624,
+       "chapters": [
+        [
+         0,
+         "Why AI needs its own risk list"
+        ],
+        [
+         82,
+         "Why AI needs its own risk list, continued"
+        ],
+        [
+         92,
+         "Attacks on the model and its data"
+        ],
+        [
+         125,
+         "Attacks on the model and its data, continued"
+        ],
+        [
+         162,
+         "Attacks on the model and its data, continued"
+        ],
+        [
+         189,
+         "Data, privacy and trust risks"
+        ],
+        [
+         241,
+         "Data, privacy and trust risks, continued"
+        ],
+        [
+         278,
+         "Defending AI use"
+        ]
+       ],
+       "published": "2026-11-12T10:52:51Z",
+       "thumb": "img/modules/sy0801/08-1.jpg"
+      }
+     ],
+     "deck": "downloads/sy0801/08-ai-threats-and-vulnerabilities.pptx",
+     "deck_kb": 143,
+     "seconds": 624,
+     "words": 1125
+    },
+    {
+     "num": "09",
+     "slug": "09-architecture-models-and-securing-infrastructure",
+     "title": "Architecture Models and Securing Infrastructure",
+     "desc": "Architecture and infrastructure models, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "PAelIHITGLI",
+       "title": "Architecture and infrastructure models, recall and recap",
+       "seconds": 726,
+       "chapters": [
+        [
+         0,
+         "Architecture and infrastructure models"
+        ],
+        [
+         97,
+         "Architecture and infrastructure models, continued"
+        ],
+        [
+         145,
+         "Architecture and infrastructure models, continued"
+        ],
+        [
+         182,
+         "Architecture and infrastructure models, continued"
+        ],
+        [
+         193,
+         "Considerations when choosing"
+        ],
+        [
+         229,
+         "Protecting the infrastructure"
+        ],
+        [
+         272,
+         "Zero Trust architecture"
+        ],
+        [
+         302,
+         "Secure communication and access"
+        ],
+        [
+         348,
+         "Identity management"
+        ]
+       ],
+       "published": "2026-11-12T10:53:14Z",
+       "thumb": "img/modules/sy0801/09-1.jpg"
+      }
+     ],
+     "deck": "downloads/sy0801/09-architecture-models-and-securing-infrastructure.pptx",
+     "deck_kb": 163,
+     "seconds": 726,
+     "words": 1246
+    },
+    {
+     "num": "10",
+     "slug": "10-protecting-data",
+     "title": "Protecting Data",
+     "desc": "Data types and states, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "TT6uJxiy3vQ",
+       "title": "Data types and states, recall and recap",
+       "seconds": 673,
+       "chapters": [
+        [
+         0,
+         "Data types and states"
+        ],
+        [
+         105,
+         "Data types and states, continued"
+        ],
+        [
+         127,
+         "Data classification"
+        ],
+        [
+         172,
+         "Methods used to secure data"
+        ],
+        [
+         217,
+         "Methods used to secure data, continued"
+        ],
+        [
+         245,
+         "Methods used to secure data, continued"
+        ],
+        [
+         269,
+         "Data protection roles"
+        ],
+        [
+         308,
+         "Data handling and life cycle"
+        ]
+       ],
+       "published": "2026-11-12T10:53:43Z",
+       "thumb": "img/modules/sy0801/10-1.jpg"
+      }
+     ],
+     "deck": "downloads/sy0801/10-protecting-data.pptx",
+     "deck_kb": 178,
+     "seconds": 673,
+     "words": 1108
+    },
+    {
+     "num": "11",
+     "slug": "11-resilience-and-recovery",
+     "title": "Resilience and Recovery",
+     "desc": "The goal and Recovery sites, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "5RDnWRWBFpY",
+       "title": "The goal and Recovery sites, recall and recap",
+       "seconds": 645,
+       "chapters": [
+        [
+         0,
+         "The goal"
+        ],
+        [
+         71,
+         "Recovery sites"
+        ],
+        [
+         111,
+         "Recovery sites, continued"
+        ],
+        [
+         130,
+         "Platform diversity and redundancy"
+        ],
+        [
+         192,
+         "Backups"
+        ],
+        [
+         234,
+         "Testing, planning and metrics"
+        ],
+        [
+         265,
+         "Testing, planning and metrics, continued"
+        ],
+        [
+         296,
+         "Testing, planning and metrics, continued"
+        ]
+       ],
+       "published": "2026-11-12T10:54:01Z",
+       "thumb": "img/modules/sy0801/11-1.jpg"
+      }
+     ],
+     "deck": "downloads/sy0801/11-resilience-and-recovery.pptx",
+     "deck_kb": 188,
+     "seconds": 645,
+     "words": 1148
+    },
+    {
+     "num": "12",
+     "slug": "12-mitigating-controls-and-techniques",
+     "title": "Mitigating Controls and Techniques",
+     "desc": "Overview of the toolbox, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "EYkTNkWEx50",
+       "title": "Overview of the toolbox, recall and recap",
+       "seconds": 689,
+       "chapters": [
+        [
+         0,
+         "Overview of the toolbox"
+        ],
+        [
+         75,
+         "Overview of the toolbox, continued"
+        ],
+        [
+         136,
+         "Deception and disruption technology"
+        ],
+        [
+         168,
+         "Detection and prevention systems and firewalls"
+        ],
+        [
+         237,
+         "Content, endpoint and network access controls"
+        ],
+        [
+         286,
+         "Applications, email and operating systems"
+        ],
+        [
+         325,
+         "Applications, email and operating systems, continued"
+        ]
+       ],
+       "published": "2026-11-12T10:54:23Z",
+       "thumb": "img/modules/sy0801/12-1.jpg"
+      }
+     ],
+     "deck": "downloads/sy0801/12-mitigating-controls-and-techniques.pptx",
+     "deck_kb": 209,
+     "seconds": 689,
+     "words": 1286
+    },
+    {
+     "num": "13",
+     "slug": "13-asset-and-vulnerability-management",
+     "title": "Asset and Vulnerability Management",
+     "desc": "Asset management, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "CjsZg4P_pj0",
+       "title": "Asset management, recall and recap",
+       "seconds": 594,
+       "chapters": [
+        [
+         0,
+         "Asset management"
+        ],
+        [
+         100,
+         "Asset management, continued"
+        ],
+        [
+         124,
+         "Asset management, continued"
+        ],
+        [
+         147,
+         "Vulnerability management: identification"
+        ],
+        [
+         184,
+         "Prioritization, remediation, verification and reporting"
+        ],
+        [
+         220,
+         "External reporting"
+        ],
+        [
+         243,
+         "External reporting, continued"
+        ]
+       ],
+       "published": "2026-11-12T10:54:46Z",
+       "thumb": "img/modules/sy0801/13-1.jpg"
+      }
+     ],
+     "deck": "downloads/sy0801/13-asset-and-vulnerability-management.pptx",
+     "deck_kb": 186,
+     "seconds": 594,
+     "words": 998
+    },
+    {
+     "num": "14",
+     "slug": "14-security-alerting-and-monitoring",
+     "title": "Security Alerting and Monitoring",
+     "desc": "What is monitored and Monitoring activities, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "cDjQp3zHQrc",
+       "title": "What is monitored and Monitoring activities, recall and recap",
+       "seconds": 587,
+       "chapters": [
+        [
+         0,
+         "What is monitored"
+        ],
+        [
+         77,
+         "Monitoring activities"
+        ],
+        [
+         113,
+         "Monitoring activities, continued"
+        ],
+        [
+         134,
+         "Tools"
+        ],
+        [
+         187,
+         "Protocols and data sources"
+        ],
+        [
+         260,
+         "Protocols and data sources, continued"
+        ]
+       ],
+       "published": "2026-11-12T10:54:54Z",
+       "thumb": "img/modules/sy0801/14-1.jpg"
+      }
+     ],
+     "deck": "downloads/sy0801/14-security-alerting-and-monitoring.pptx",
+     "deck_kb": 136,
+     "seconds": 587,
+     "words": 957
+    },
+    {
+     "num": "15",
+     "slug": "15-identity-and-access-management",
+     "title": "Identity and Access Management",
+     "desc": "The identity life cycle, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "1SlBxLhe6BA",
+       "title": "The identity life cycle, recall and recap",
+       "seconds": 697,
+       "chapters": [
+        [
+         0,
+         "The identity life cycle"
+        ],
+        [
+         95,
+         "The identity life cycle, continued"
+        ],
+        [
+         105,
+         "Federation and single sign-on"
+        ],
+        [
+         165,
+         "Account types"
+        ],
+        [
+         204,
+         "Multifactor authentication (MFA)"
+        ],
+        [
+         241,
+         "Multifactor authentication (MFA), continued"
+        ],
+        [
+         259,
+         "Access control models"
+        ],
+        [
+         298,
+         "Access management"
+        ],
+        [
+         310,
+         "Password concepts"
+        ]
+       ],
+       "published": "2026-11-12T10:55:29Z",
+       "thumb": "img/modules/sy0801/15-1.jpg"
+      }
+     ],
+     "deck": "downloads/sy0801/15-identity-and-access-management.pptx",
+     "deck_kb": 186,
+     "seconds": 697,
+     "words": 1169
+    },
+    {
+     "num": "16",
+     "slug": "16-automation-orchestration-and-ai-in-operations",
+     "title": "Automation, Orchestration and AI in Operations",
+     "desc": "Automation and orchestration, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "5juQOPd276Y",
+       "title": "Automation and orchestration, recall and recap",
+       "seconds": 668,
+       "chapters": [
+        [
+         0,
+         "Automation and orchestration"
+        ],
+        [
+         98,
+         "Automation and orchestration, continued"
+        ],
+        [
+         109,
+         "Use cases"
+        ],
+        [
+         142,
+         "Considerations (what can go wrong)"
+        ],
+        [
+         197,
+         "AI in security operations"
+        ],
+        [
+         237,
+         "Intended outcomes and SecOps"
+        ],
+        [
+         301,
+         "Intended outcomes and SecOps, continued"
+        ]
+       ],
+       "published": "2026-11-12T10:55:56Z",
+       "thumb": "img/modules/sy0801/16-1.jpg"
+      }
+     ],
+     "deck": "downloads/sy0801/16-automation-orchestration-and-ai-in-operations.pptx",
+     "deck_kb": 184,
+     "seconds": 668,
+     "words": 1136
+    },
+    {
+     "num": "17",
+     "slug": "17-incident-response-and-investigations",
+     "title": "Incident Response and Investigations",
+     "desc": "The incident response process, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "stGZF4uOj1I",
+       "title": "The incident response process, recall and recap",
+       "seconds": 669,
+       "chapters": [
+        [
+         0,
+         "The incident response process"
+        ],
+        [
+         69,
+         "The incident response process, continued"
+        ],
+        [
+         109,
+         "The incident response process, continued"
+        ],
+        [
+         144,
+         "The incident response process, continued"
+        ],
+        [
+         184,
+         "Preparation and exercises"
+        ],
+        [
+         210,
+         "Digital forensics concepts"
+        ],
+        [
+         249,
+         "Digital forensics concepts, continued"
+        ],
+        [
+         259,
+         "Data, artifacts and sources for investigations"
+        ],
+        [
+         327,
+         "Data, artifacts and sources for investigations, continued"
+        ]
+       ],
+       "published": "2026-11-12T10:56:13Z",
+       "thumb": "img/modules/sy0801/17-1.jpg"
+      }
+     ],
+     "deck": "downloads/sy0801/17-incident-response-and-investigations.pptx",
+     "deck_kb": 225,
+     "seconds": 669,
+     "words": 1099
+    },
+    {
+     "num": "18",
+     "slug": "18-governance-and-risk-management",
+     "title": "Governance and Risk Management",
+     "desc": "Governance documents, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "CFJRunvzcOU",
+       "title": "Governance documents, recall and recap",
+       "seconds": 709,
+       "chapters": [
+        [
+         0,
+         "Governance documents"
+        ],
+        [
+         70,
+         "Governance documents, continued"
+        ],
+        [
+         103,
+         "Governance documents, continued"
+        ],
+        [
+         125,
+         "Common policies"
+        ],
+        [
+         161,
+         "Risk management process"
+        ],
+        [
+         210,
+         "Risk management process, continued"
+        ],
+        [
+         219,
+         "Risk management process, continued"
+        ],
+        [
+         269,
+         "Business-level considerations"
+        ],
+        [
+         303,
+         "Quantitative risk formulas"
+        ],
+        [
+         350,
+         "Quantitative risk formulas, continued"
+        ]
+       ],
+       "published": "2026-11-12T10:56:40Z",
+       "thumb": "img/modules/sy0801/18-1.jpg"
+      }
+     ],
+     "deck": "downloads/sy0801/18-governance-and-risk-management.pptx",
+     "deck_kb": 262,
+     "seconds": 709,
+     "words": 1214
+    },
+    {
+     "num": "19",
+     "slug": "19-third-party-risk-and-compliance",
+     "title": "Third-Party Risk and Compliance",
+     "desc": "Why third parties matter, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "gHShLr5ouXg",
+       "title": "Why third parties matter, recall and recap",
+       "seconds": 669,
+       "chapters": [
+        [
+         0,
+         "Why third parties matter"
+        ],
+        [
+         76,
+         "Why third parties matter, continued"
+        ],
+        [
+         86,
+         "Vendor selection"
+        ],
+        [
+         128,
+         "Agreement types"
+        ],
+        [
+         193,
+         "Vendor monitoring and limits"
+        ],
+        [
+         247,
+         "Security compliance"
+        ],
+        [
+         302,
+         "Security compliance, continued"
+        ]
+       ],
+       "published": "2026-11-12T10:56:57Z",
+       "thumb": "img/modules/sy0801/19-1.jpg"
+      }
+     ],
+     "deck": "downloads/sy0801/19-third-party-risk-and-compliance.pptx",
+     "deck_kb": 174,
+     "seconds": 669,
+     "words": 1184
+    },
+    {
+     "num": "20",
+     "slug": "20-audits-assessments-and-security-awareness",
+     "title": "Audits, Assessments and Security Awareness",
+     "desc": "Audits and assessments and Data gathering, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "yfzCHI-LTjk",
+       "title": "Audits and assessments and Data gathering, recall and recap",
+       "seconds": 662,
+       "chapters": [
+        [
+         0,
+         "Audits and assessments"
+        ],
+        [
+         87,
+         "Data gathering"
+        ],
+        [
+         119,
+         "Scoping and engagement types"
+        ],
+        [
+         145,
+         "Scoping and engagement types, continued"
+        ],
+        [
+         167,
+         "Penetration testing"
+        ],
+        [
+         232,
+         "Penetration testing, continued"
+        ],
+        [
+         256,
+         "Security awareness"
+        ],
+        [
+         312,
+         "Security awareness, continued"
+        ]
+       ],
+       "published": "2026-11-12T10:57:26Z",
+       "thumb": "img/modules/sy0801/20-1.jpg"
+      }
+     ],
+     "deck": "downloads/sy0801/20-audits-assessments-and-security-awareness.pptx",
+     "deck_kb": 236,
+     "seconds": 662,
+     "words": 1101
+    },
+    {
+     "num": "21",
+     "slug": "21-exam-technique-and-final-review",
+     "title": "Exam Technique and Final Review",
+     "desc": "Time plan",
+     "parts": [
+      {
+       "part": 1,
+       "id": "2hsmVwpEUWw",
+       "title": "Time plan",
+       "seconds": 526,
+       "chapters": [
+        [
+         0,
+         "Time plan"
+        ],
+        [
+         99,
+         "Time plan, continued"
+        ],
+        [
+         109,
+         "The routine for every question"
+        ],
+        [
+         153,
+         "1.0 General Security Concepts (16%)"
+        ],
+        [
+         193,
+         "2.0 Threats, Vulnerabilities, and Attacks (24%)"
+        ],
+        [
+         241,
+         "3.0 Security Architecture (19%)"
+        ],
+        [
+         277,
+         "4.0 Security Operations (27%)"
+        ],
+        [
+         327,
+         "5.0 Program Management and Oversight (14%)"
+        ],
+        [
+         368,
+         "Pairs the exam likes to confuse"
+        ],
+        [
+         413,
+         "Pairs the exam likes to confuse, continued"
+        ],
+        [
+         457,
+         "Common traps"
+        ],
+        [
+         497,
+         "The final week"
+        ]
+       ],
+       "published": "2026-11-12T10:57:54Z",
+       "thumb": "img/modules/sy0801/21-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "9BH9bRmcx5I",
+       "title": "Practice Question 1, recall and recap",
+       "seconds": 518,
+       "chapters": [
+        [
+         0,
+         "Practice questions"
+        ],
+        [
+         376,
+         "Recall check"
+        ],
+        [
+         474,
+         "Module recap"
+        ]
+       ],
+       "published": "2026-11-12T10:58:13Z",
+       "thumb": "img/modules/sy0801/21-2.jpg"
+      }
+     ],
+     "deck": "downloads/sy0801/21-exam-technique-and-final-review.pptx",
+     "deck_kb": 165,
+     "seconds": 1044,
+     "words": 1993
+    }
+   ],
+   "facts": {
+    "questions": "Up to 90",
+    "time": "90 min",
+    "passing": "750 of 900",
+    "source": "comptia.org",
+    "url": "https://www.comptia.org/en-us/certifications/security/v8/"
+   },
+   "videos": 23,
+   "seconds": 15090,
+   "notes": [
+    {
+     "num": "00",
+     "slug": "00-exam-orientation-and-how-to-study",
+     "title": "Exam Orientation and How to Study",
+     "group": "Start here",
+     "tasks": 0,
+     "los": [],
+     "minutes": 5,
+     "check": {
+      "src_words": 1097,
+      "page_words": 1124,
+      "src_tables": 6,
+      "tables": 6,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 4,
+      "scenario": 4,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 8,
+      "sections": 8
+     },
+     "modules": [
+      "00"
+     ],
+     "domain": "",
+     "ref": "Module 0",
+     "tn": "Module 00",
+     "of": 22,
+     "module": "00"
+    },
+    {
+     "num": "01",
+     "slug": "01-security-concepts-and-controls",
+     "title": "Security Concepts and Controls",
+     "group": "General Security Concepts (16%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 4,
+     "check": {
+      "src_words": 894,
+      "page_words": 930,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "01"
+     ],
+     "domain": "",
+     "ref": "Module 1",
+     "tn": "Module 01",
+     "of": 22,
+     "module": "01"
+    },
+    {
+     "num": "02",
+     "slug": "02-change-management-and-security",
+     "title": "Change Management and Security",
+     "group": "General Security Concepts (16%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 4,
+     "check": {
+      "src_words": 893,
+      "page_words": 929,
+      "src_tables": 4,
+      "tables": 4,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "02"
+     ],
+     "domain": "",
+     "ref": "Module 2",
+     "tn": "Module 02",
+     "of": 22,
+     "module": "02"
+    },
+    {
+     "num": "03",
+     "slug": "03-cryptographic-solutions",
+     "title": "Cryptographic Solutions",
+     "group": "General Security Concepts (16%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 5,
+     "check": {
+      "src_words": 1139,
+      "page_words": 1175,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "03"
+     ],
+     "domain": "",
+     "ref": "Module 3",
+     "tn": "Module 03",
+     "of": 22,
+     "module": "03"
+    },
+    {
+     "num": "04",
+     "slug": "04-threats-actors-motivations-and-vulnerability-scoring",
+     "title": "Threats, Actors, Motivations and Vulnerability Scoring",
+     "group": "Threats, Vulnerabilities, and Attacks (24%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 5,
+     "check": {
+      "src_words": 1000,
+      "page_words": 1034,
+      "src_tables": 7,
+      "tables": 7,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 4,
+      "sections": 4
+     },
+     "modules": [
+      "04"
+     ],
+     "domain": "",
+     "ref": "Module 4",
+     "tn": "Module 04",
+     "of": 22,
+     "module": "04"
+    },
+    {
+     "num": "05",
+     "slug": "05-threat-vectors-and-sources",
+     "title": "Threat Vectors and Sources",
+     "group": "Threats, Vulnerabilities, and Attacks (24%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 4,
+     "check": {
+      "src_words": 902,
+      "page_words": 938,
+      "src_tables": 4,
+      "tables": 4,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "05"
+     ],
+     "domain": "",
+     "ref": "Module 5",
+     "tn": "Module 05",
+     "of": 22,
+     "module": "05"
+    },
+    {
+     "num": "06",
+     "slug": "06-vulnerability-types-and-attack-surfaces",
+     "title": "Vulnerability Types and Attack Surfaces",
+     "group": "Threats, Vulnerabilities, and Attacks (24%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 4,
+     "check": {
+      "src_words": 928,
+      "page_words": 964,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "06"
+     ],
+     "domain": "",
+     "ref": "Module 6",
+     "tn": "Module 06",
+     "of": 22,
+     "module": "06"
+    },
+    {
+     "num": "07",
+     "slug": "07-indicators-of-malicious-activity",
+     "title": "Indicators of Malicious Activity",
+     "group": "Threats, Vulnerabilities, and Attacks (24%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 4,
+     "check": {
+      "src_words": 933,
+      "page_words": 969,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "07"
+     ],
+     "domain": "",
+     "ref": "Module 7",
+     "tn": "Module 07",
+     "of": 22,
+     "module": "07"
+    },
+    {
+     "num": "08",
+     "slug": "08-ai-threats-and-vulnerabilities",
+     "title": "AI Threats and Vulnerabilities",
+     "group": "Threats, Vulnerabilities, and Attacks (24%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 4,
+     "check": {
+      "src_words": 877,
+      "page_words": 913,
+      "src_tables": 3,
+      "tables": 3,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "08"
+     ],
+     "domain": "",
+     "ref": "Module 8",
+     "tn": "Module 08",
+     "of": 22,
+     "module": "08"
+    },
+    {
+     "num": "09",
+     "slug": "09-architecture-models-and-securing-infrastructure",
+     "title": "Architecture Models and Securing Infrastructure",
+     "group": "Security Architecture (19%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 5,
+     "check": {
+      "src_words": 1017,
+      "page_words": 1051,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 4,
+      "sections": 4
+     },
+     "modules": [
+      "09"
+     ],
+     "domain": "",
+     "ref": "Module 9",
+     "tn": "Module 09",
+     "of": 22,
+     "module": "09"
+    },
+    {
+     "num": "10",
+     "slug": "10-protecting-data",
+     "title": "Protecting Data",
+     "group": "Security Architecture (19%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 4,
+     "check": {
+      "src_words": 888,
+      "page_words": 925,
+      "src_tables": 6,
+      "tables": 6,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "10"
+     ],
+     "domain": "",
+     "ref": "Module 10",
+     "tn": "Module 10",
+     "of": 22,
+     "module": "10"
+    },
+    {
+     "num": "11",
+     "slug": "11-resilience-and-recovery",
+     "title": "Resilience and Recovery",
+     "group": "Security Architecture (19%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 4,
+     "check": {
+      "src_words": 917,
+      "page_words": 954,
+      "src_tables": 6,
+      "tables": 6,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "11"
+     ],
+     "domain": "",
+     "ref": "Module 11",
+     "tn": "Module 11",
+     "of": 22,
+     "module": "11"
+    },
+    {
+     "num": "12",
+     "slug": "12-mitigating-controls-and-techniques",
+     "title": "Mitigating Controls and Techniques",
+     "group": "Security Operations (27%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 5,
+     "check": {
+      "src_words": 993,
+      "page_words": 1030,
+      "src_tables": 6,
+      "tables": 6,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "12"
+     ],
+     "domain": "",
+     "ref": "Module 12",
+     "tn": "Module 12",
+     "of": 22,
+     "module": "12"
+    },
+    {
+     "num": "13",
+     "slug": "13-asset-and-vulnerability-management",
+     "title": "Asset and Vulnerability Management",
+     "group": "Security Operations (27%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 4,
+     "check": {
+      "src_words": 792,
+      "page_words": 827,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 5,
+      "sections": 5
+     },
+     "modules": [
+      "13"
+     ],
+     "domain": "",
+     "ref": "Module 13",
+     "tn": "Module 13",
+     "of": 22,
+     "module": "13"
+    },
+    {
+     "num": "14",
+     "slug": "14-security-alerting-and-monitoring",
+     "title": "Security Alerting and Monitoring",
+     "group": "Security Operations (27%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 4,
+     "check": {
+      "src_words": 777,
+      "page_words": 813,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "14"
+     ],
+     "domain": "",
+     "ref": "Module 14",
+     "tn": "Module 14",
+     "of": 22,
+     "module": "14"
+    },
+    {
+     "num": "15",
+     "slug": "15-identity-and-access-management",
+     "title": "Identity and Access Management",
+     "group": "Security Operations (27%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 5,
+     "check": {
+      "src_words": 1013,
+      "page_words": 1051,
+      "src_tables": 7,
+      "tables": 7,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 8,
+      "sections": 8
+     },
+     "modules": [
+      "15"
+     ],
+     "domain": "",
+     "ref": "Module 15",
+     "tn": "Module 15",
+     "of": 22,
+     "module": "15"
+    },
+    {
+     "num": "16",
+     "slug": "16-automation-orchestration-and-ai-in-operations",
+     "title": "Automation, Orchestration and AI in Operations",
+     "group": "Security Operations (27%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 5,
+     "check": {
+      "src_words": 939,
+      "page_words": 976,
+      "src_tables": 6,
+      "tables": 6,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "16"
+     ],
+     "domain": "",
+     "ref": "Module 16",
+     "tn": "Module 16",
+     "of": 22,
+     "module": "16"
+    },
+    {
+     "num": "17",
+     "slug": "17-incident-response-and-investigations",
+     "title": "Incident Response and Investigations",
+     "group": "Security Operations (27%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 4,
+     "check": {
+      "src_words": 896,
+      "page_words": 932,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "17"
+     ],
+     "domain": "",
+     "ref": "Module 17",
+     "tn": "Module 17",
+     "of": 22,
+     "module": "17"
+    },
+    {
+     "num": "18",
+     "slug": "18-governance-and-risk-management",
+     "title": "Governance and Risk Management",
+     "group": "Security Program Management and Oversight (14%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 4,
+     "check": {
+      "src_words": 878,
+      "page_words": 913,
+      "src_tables": 6,
+      "tables": 6,
+      "src_images": 3,
+      "images": 3,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 5,
+      "sections": 5
+     },
+     "modules": [
+      "18"
+     ],
+     "domain": "",
+     "ref": "Module 18",
+     "tn": "Module 18",
+     "of": 22,
+     "module": "18"
+    },
+    {
+     "num": "19",
+     "slug": "19-third-party-risk-and-compliance",
+     "title": "Third-Party Risk and Compliance",
+     "group": "Security Program Management and Oversight (14%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 5,
+     "check": {
+      "src_words": 936,
+      "page_words": 973,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "19"
+     ],
+     "domain": "",
+     "ref": "Module 19",
+     "tn": "Module 19",
+     "of": 22,
+     "module": "19"
+    },
+    {
+     "num": "20",
+     "slug": "20-audits-assessments-and-security-awareness",
+     "title": "Audits, Assessments and Security Awareness",
+     "group": "Security Program Management and Oversight (14%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 5,
+     "check": {
+      "src_words": 923,
+      "page_words": 958,
+      "src_tables": 6,
+      "tables": 6,
+      "src_images": 3,
+      "images": 3,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 5,
+      "sections": 5
+     },
+     "modules": [
+      "20"
+     ],
+     "domain": "",
+     "ref": "Module 20",
+     "tn": "Module 20",
+     "of": 22,
+     "module": "20"
+    },
+    {
+     "num": "21",
+     "slug": "21-exam-technique-and-final-review",
+     "title": "Exam Technique and Final Review",
+     "group": "Review and exam day",
+     "tasks": 26,
+     "los": [],
+     "minutes": 8,
+     "check": {
+      "src_words": 1607,
+      "page_words": 1657,
+      "src_tables": 4,
+      "tables": 4,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 12,
+      "scenario": 12,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 8,
+      "sections": 8
+     },
+     "modules": [
+      "21"
+     ],
+     "domain": "",
+     "ref": "Module 21",
+     "tn": "Module 21",
+     "of": 22,
+     "module": "21"
     }
    ],
    "glossary": 0
