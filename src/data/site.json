@@ -95,7 +95,8 @@
    "mono": "MS",
    "certs": [
     "az900",
-    "ai901"
+    "ai901",
+    "sc900"
    ]
   },
   {
@@ -34726,6 +34727,1431 @@
       "recall": 6,
       "src_sections": 8,
       "sections": 8
+     },
+     "modules": [
+      "15"
+     ],
+     "domain": "",
+     "ref": "Module 15",
+     "tn": "Module 15",
+     "of": 16,
+     "module": "15"
+    }
+   ],
+   "glossary": 0
+  },
+  {
+   "kind": "certification",
+   "topic": null,
+   "slug": "sc900",
+   "institute": "microsoft",
+   "short": "SC-900",
+   "name": "Microsoft Security, Compliance, and Identity Fundamentals",
+   "title": "SC-900 Exam Prep Masterclass",
+   "accent": "c-sc900",
+   "desc": "Security, compliance and identity concepts, Microsoft Entra, Microsoft security solutions and Microsoft compliance solutions, with exam-style questions in every module.",
+   "audience": "Students, career changers and IT staff starting with security, and anyone preparing for the SC-900 exam. No Azure account is needed.",
+   "sources": "The official SC-900 study guide and the Microsoft Learn documentation of each service.",
+   "playlist": "PLCDUhuJWrbVg",
+   "cover": "img/covers/sc900.jpg",
+   "modules": [
+    {
+     "num": "00",
+     "slug": "00-exam-orientation-and-how-to-study",
+     "title": "Exam Orientation and How to Study",
+     "desc": "What the exam is, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "ZucaQp1m3ic",
+       "title": "What the exam is, recall and recap",
+       "seconds": 641,
+       "chapters": [
+        [
+         0,
+         "What the exam is"
+        ],
+        [
+         85,
+         "What the exam is, continued"
+        ],
+        [
+         135,
+         "What the exam is, continued"
+        ],
+        [
+         143,
+         "The four skill areas"
+        ],
+        [
+         186,
+         "The four skill areas, continued"
+        ],
+        [
+         204,
+         "The four skill areas, continued"
+        ],
+        [
+         236,
+         "Where each area lives in this course"
+        ],
+        [
+         268,
+         "How to read the exam wording"
+        ],
+        [
+         285,
+         "A repeatable way to answer"
+        ],
+        [
+         326,
+         "A study plan"
+        ]
+       ],
+       "published": "2026-11-12T14:17:25Z",
+       "thumb": "img/modules/sc900/00-1.jpg"
+      }
+     ],
+     "deck": "downloads/sc900/00-exam-orientation-and-how-to-study.pptx",
+     "deck_kb": 160,
+     "seconds": 641,
+     "words": 1159
+    },
+    {
+     "num": "01",
+     "slug": "01-security-and-compliance-concepts",
+     "title": "Security and Compliance Concepts",
+     "desc": "The shared responsibility model, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "mpLAOpJfMfQ",
+       "title": "The shared responsibility model, recall and recap",
+       "seconds": 779,
+       "chapters": [
+        [
+         0,
+         "The shared responsibility model"
+        ],
+        [
+         168,
+         "The shared responsibility model, continued"
+        ],
+        [
+         196,
+         "Defense in depth"
+        ],
+        [
+         269,
+         "The Zero Trust model"
+        ],
+        [
+         316,
+         "The Zero Trust model, continued"
+        ],
+        [
+         338,
+         "Encryption and hashing"
+        ],
+        [
+         416,
+         "Governance, risk and compliance (GRC)"
+        ]
+       ],
+       "published": "2026-11-12T14:17:43Z",
+       "thumb": "img/modules/sc900/01-1.jpg"
+      }
+     ],
+     "deck": "downloads/sc900/01-security-and-compliance-concepts.pptx",
+     "deck_kb": 255,
+     "seconds": 779,
+     "words": 1256
+    },
+    {
+     "num": "02",
+     "slug": "02-identity-concepts",
+     "title": "Identity Concepts",
+     "desc": "Identity is the new perimeter, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "ne3AA9ok30U",
+       "title": "Identity is the new perimeter, recall and recap",
+       "seconds": 713,
+       "chapters": [
+        [
+         0,
+         "Identity is the new perimeter"
+        ],
+        [
+         93,
+         "Identity is the new perimeter, continued"
+        ],
+        [
+         102,
+         "Identity is the new perimeter, continued"
+        ],
+        [
+         127,
+         "Authentication and authorization"
+        ],
+        [
+         193,
+         "Identity providers"
+        ],
+        [
+         232,
+         "Directory services and Active Directory"
+        ],
+        [
+         295,
+         "Directory services and Active Directory, continued"
+        ],
+        [
+         324,
+         "Federation"
+        ],
+        [
+         361,
+         "Federation, continued"
+        ]
+       ],
+       "published": "2026-11-12T14:18:12Z",
+       "thumb": "img/modules/sc900/02-1.jpg"
+      }
+     ],
+     "deck": "downloads/sc900/02-identity-concepts.pptx",
+     "deck_kb": 195,
+     "seconds": 713,
+     "words": 1337
+    },
+    {
+     "num": "03",
+     "slug": "03-microsoft-entra-id-identities-and-hybrid-identity",
+     "title": "Microsoft Entra ID, Identities and Hybrid Identity",
+     "desc": "Microsoft Entra and Microsoft Entra ID, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "g_F2HEx2SMk",
+       "title": "Microsoft Entra and Microsoft Entra ID, recall and recap",
+       "seconds": 690,
+       "chapters": [
+        [
+         0,
+         "Microsoft Entra and Microsoft Entra ID"
+        ],
+        [
+         81,
+         "Microsoft Entra and Microsoft Entra ID, continued"
+        ],
+        [
+         120,
+         "Microsoft Entra and Microsoft Entra ID, continued"
+        ],
+        [
+         145,
+         "Types of identities"
+        ],
+        [
+         194,
+         "Workload identities"
+        ],
+        [
+         232,
+         "Device identities"
+        ],
+        [
+         254,
+         "Device identities, continued"
+        ],
+        [
+         280,
+         "Hybrid identity"
+        ],
+        [
+         308,
+         "Sign-in methods for hybrid identity"
+        ],
+        [
+         339,
+         "Sign-in methods for hybrid identity, continued"
+        ]
+       ],
+       "published": "2026-11-12T14:18:36Z",
+       "thumb": "img/modules/sc900/03-1.jpg"
+      }
+     ],
+     "deck": "downloads/sc900/03-microsoft-entra-id-identities-and-hybrid-identity.pptx",
+     "deck_kb": 263,
+     "seconds": 690,
+     "words": 1251
+    },
+    {
+     "num": "04",
+     "slug": "04-authentication-in-microsoft-entra-id",
+     "title": "Authentication in Microsoft Entra ID",
+     "desc": "Authentication methods, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "6_O7pxJ0avc",
+       "title": "Authentication methods, recall and recap",
+       "seconds": 677,
+       "chapters": [
+        [
+         0,
+         "Authentication methods"
+        ],
+        [
+         119,
+         "Authentication methods, continued"
+        ],
+        [
+         158,
+         "Authentication methods, continued"
+        ],
+        [
+         166,
+         "Authentication methods, continued"
+        ],
+        [
+         196,
+         "Multifactor authentication (MFA)"
+        ],
+        [
+         228,
+         "Ways to require MFA"
+        ],
+        [
+         254,
+         "Ways to require MFA, continued"
+        ],
+        [
+         281,
+         "Password protection and management"
+        ],
+        [
+         328,
+         "Password protection and management, continued"
+        ]
+       ],
+       "published": "2026-11-12T14:18:51Z",
+       "thumb": "img/modules/sc900/04-1.jpg"
+      }
+     ],
+     "deck": "downloads/sc900/04-authentication-in-microsoft-entra-id.pptx",
+     "deck_kb": 189,
+     "seconds": 677,
+     "words": 1246
+    },
+    {
+     "num": "05",
+     "slug": "05-access-management-conditional-access-and-roles",
+     "title": "Access Management: Conditional Access and Roles",
+     "desc": "Microsoft Entra Conditional Access, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "YccsoUUmrK8",
+       "title": "Microsoft Entra Conditional Access, recall and recap",
+       "seconds": 678,
+       "chapters": [
+        [
+         0,
+         "Microsoft Entra Conditional Access"
+        ],
+        [
+         108,
+         "Microsoft Entra Conditional Access, continued"
+        ],
+        [
+         120,
+         "Microsoft Entra Conditional Access, continued"
+        ],
+        [
+         156,
+         "Microsoft Entra Conditional Access, continued"
+        ],
+        [
+         196,
+         "Microsoft Entra roles"
+        ],
+        [
+         250,
+         "Role-based access control (RBAC)"
+        ],
+        [
+         280,
+         "Two role systems"
+        ],
+        [
+         329,
+         "Two role systems, continued"
+        ]
+       ],
+       "published": "2026-11-12T14:19:19Z",
+       "thumb": "img/modules/sc900/05-1.jpg"
+      }
+     ],
+     "deck": "downloads/sc900/05-access-management-conditional-access-and-roles.pptx",
+     "deck_kb": 213,
+     "seconds": 678,
+     "words": 1210
+    },
+    {
+     "num": "06",
+     "slug": "06-identity-protection-and-governance",
+     "title": "Identity Protection and Governance",
+     "desc": "Four tools, four jobs, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "rA7ymxni1OQ",
+       "title": "Four tools, four jobs, recall and recap",
+       "seconds": 708,
+       "chapters": [
+        [
+         0,
+         "Four tools, four jobs"
+        ],
+        [
+         88,
+         "Four tools, four jobs, continued"
+        ],
+        [
+         116,
+         "Four tools, four jobs, continued"
+        ],
+        [
+         128,
+         "Microsoft Entra ID Governance"
+        ],
+        [
+         186,
+         "Access reviews"
+        ],
+        [
+         227,
+         "Access reviews, continued"
+        ],
+        [
+         249,
+         "Privileged Identity Management (PIM)"
+        ],
+        [
+         302,
+         "Privileged Identity Management (PIM), continued"
+        ],
+        [
+         328,
+         "Microsoft Entra ID Protection"
+        ]
+       ],
+       "published": "2026-11-12T14:19:55Z",
+       "thumb": "img/modules/sc900/06-1.jpg"
+      }
+     ],
+     "deck": "downloads/sc900/06-identity-protection-and-governance.pptx",
+     "deck_kb": 179,
+     "seconds": 708,
+     "words": 1270
+    },
+    {
+     "num": "07",
+     "slug": "07-core-infrastructure-security-in-azure",
+     "title": "Core Infrastructure Security in Azure",
+     "desc": "Seven services at a glance, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "BUizedebems",
+       "title": "Seven services at a glance, recall and recap",
+       "seconds": 796,
+       "chapters": [
+        [
+         0,
+         "Seven services at a glance"
+        ],
+        [
+         119,
+         "Seven services at a glance, continued"
+        ],
+        [
+         154,
+         "Seven services at a glance, continued"
+        ],
+        [
+         166,
+         "Azure DDoS Protection"
+        ],
+        [
+         211,
+         "Azure Firewall"
+        ],
+        [
+         273,
+         "Azure Web Application Firewall (WAF)"
+        ],
+        [
+         296,
+         "Network segmentation and NSGs"
+        ],
+        [
+         328,
+         "How an NSG works"
+        ],
+        [
+         351,
+         "How an NSG works, continued"
+        ],
+        [
+         377,
+         "Azure Bastion"
+        ],
+        [
+         394,
+         "Azure Bastion, continued"
+        ],
+        [
+         412,
+         "Azure Key Vault"
+        ]
+       ],
+       "published": "2026-11-12T14:20:06Z",
+       "thumb": "img/modules/sc900/07-1.jpg"
+      }
+     ],
+     "deck": "downloads/sc900/07-core-infrastructure-security-in-azure.pptx",
+     "deck_kb": 220,
+     "seconds": 796,
+     "words": 1541
+    },
+    {
+     "num": "08",
+     "slug": "08-microsoft-defender-for-cloud",
+     "title": "Microsoft Defender for Cloud",
+     "desc": "What Defender for Cloud is, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "XD1VPJJqy_Y",
+       "title": "What Defender for Cloud is, recall and recap",
+       "seconds": 683,
+       "chapters": [
+        [
+         0,
+         "What Defender for Cloud is"
+        ],
+        [
+         107,
+         "What Defender for Cloud is, continued"
+        ],
+        [
+         135,
+         "Cloud security posture management (CSPM)"
+        ],
+        [
+         187,
+         "Security recommendations"
+        ],
+        [
+         218,
+         "Security policies and standards"
+        ],
+        [
+         259,
+         "Security policies and standards, continued"
+        ],
+        [
+         281,
+         "Cloud workload protection (Defender plans)"
+        ],
+        [
+         342,
+         "Cloud workload protection (Defender plans), continued"
+        ]
+       ],
+       "published": "2026-11-12T14:20:36Z",
+       "thumb": "img/modules/sc900/08-1.jpg"
+      }
+     ],
+     "deck": "downloads/sc900/08-microsoft-defender-for-cloud.pptx",
+     "deck_kb": 189,
+     "seconds": 683,
+     "words": 1178
+    },
+    {
+     "num": "09",
+     "slug": "09-microsoft-sentinel",
+     "title": "Microsoft Sentinel",
+     "desc": "SIEM and SOAR, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "2FGD9bM2Xmc",
+       "title": "SIEM and SOAR, recall and recap",
+       "seconds": 565,
+       "chapters": [
+        [
+         0,
+         "SIEM and SOAR"
+        ],
+        [
+         103,
+         "SIEM and SOAR, continued"
+        ],
+        [
+         127,
+         "Integrated threat protection: the four jobs"
+        ],
+        [
+         183,
+         "Threat detection and mitigation"
+        ],
+        [
+         247,
+         "Threat detection and mitigation, continued"
+        ]
+       ],
+       "published": "2026-11-12T14:20:49Z",
+       "thumb": "img/modules/sc900/09-1.jpg"
+      }
+     ],
+     "deck": "downloads/sc900/09-microsoft-sentinel.pptx",
+     "deck_kb": 177,
+     "seconds": 565,
+     "words": 894
+    },
+    {
+     "num": "10",
+     "slug": "10-threat-protection-with-microsoft-defender-xdr",
+     "title": "Threat Protection with Microsoft Defender XDR",
+     "desc": "Defender XDR: the idea, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "4_DSz4cOvBQ",
+       "title": "Defender XDR: the idea, recall and recap",
+       "seconds": 729,
+       "chapters": [
+        [
+         0,
+         "Defender XDR: the idea"
+        ],
+        [
+         129,
+         "Defender XDR: the idea, continued"
+        ],
+        [
+         140,
+         "Defender XDR: the idea, continued"
+        ],
+        [
+         171,
+         "Defender for Office 365"
+        ],
+        [
+         210,
+         "Defender for Endpoint"
+        ],
+        [
+         256,
+         "Defender for Cloud Apps"
+        ],
+        [
+         303,
+         "Defender for Identity"
+        ],
+        [
+         330,
+         "Defender Vulnerability Management"
+        ],
+        [
+         353,
+         "Microsoft Defender Threat Intelligence"
+        ],
+        [
+         374,
+         "The Microsoft Defender portal"
+        ],
+        [
+         397,
+         "The Microsoft Defender portal, continued"
+        ]
+       ],
+       "published": "2026-11-12T14:21:09Z",
+       "thumb": "img/modules/sc900/10-1.jpg"
+      }
+     ],
+     "deck": "downloads/sc900/10-threat-protection-with-microsoft-defender-xdr.pptx",
+     "deck_kb": 204,
+     "seconds": 729,
+     "words": 1213
+    },
+    {
+     "num": "11",
+     "slug": "11-service-trust-portal-and-privacy-principles",
+     "title": "Service Trust Portal and Privacy Principles",
+     "desc": "Service Trust Portal (STP), recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "d2HYj5szq_c",
+       "title": "Service Trust Portal (STP), recall and recap",
+       "seconds": 569,
+       "chapters": [
+        [
+         0,
+         "Service Trust Portal (STP)"
+        ],
+        [
+         113,
+         "Service Trust Portal (STP), continued"
+        ],
+        [
+         137,
+         "Microsoft privacy principles"
+        ],
+        [
+         181,
+         "Microsoft privacy principles, continued"
+        ],
+        [
+         209,
+         "Microsoft Priva"
+        ]
+       ],
+       "published": "2026-11-12T14:21:25Z",
+       "thumb": "img/modules/sc900/11-1.jpg"
+      }
+     ],
+     "deck": "downloads/sc900/11-service-trust-portal-and-privacy-principles.pptx",
+     "deck_kb": 185,
+     "seconds": 569,
+     "words": 953
+    },
+    {
+     "num": "12",
+     "slug": "12-compliance-management-with-microsoft-purview",
+     "title": "Compliance Management with Microsoft Purview",
+     "desc": "Microsoft Purview, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "vErr6HO_OPQ",
+       "title": "Microsoft Purview, recall and recap",
+       "seconds": 582,
+       "chapters": [
+        [
+         0,
+         "Microsoft Purview"
+        ],
+        [
+         93,
+         "Microsoft Purview, continued"
+        ],
+        [
+         103,
+         "The Microsoft Purview portal"
+        ],
+        [
+         156,
+         "Compliance Manager"
+        ],
+        [
+         213,
+         "Compliance Manager, continued"
+        ],
+        [
+         224,
+         "Compliance Manager, continued"
+        ],
+        [
+         234,
+         "Compliance score"
+        ]
+       ],
+       "published": "2026-11-12T14:23:21Z",
+       "thumb": "img/modules/sc900/12-1.jpg"
+      }
+     ],
+     "deck": "downloads/sc900/12-compliance-management-with-microsoft-purview.pptx",
+     "deck_kb": 196,
+     "seconds": 582,
+     "words": 924
+    },
+    {
+     "num": "13",
+     "slug": "13-information-protection-data-lifecycle-and-governance",
+     "title": "Information Protection, Data Lifecycle and Governance",
+     "desc": "The data protection journey, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "Iw7j4Sfl6Xc",
+       "title": "The data protection journey, recall and recap",
+       "seconds": 752,
+       "chapters": [
+        [
+         0,
+         "The data protection journey"
+        ],
+        [
+         107,
+         "The data protection journey, continued"
+        ],
+        [
+         117,
+         "Data classification"
+        ],
+        [
+         158,
+         "Content explorer and activity explorer"
+        ],
+        [
+         189,
+         "Content explorer and activity explorer, continued"
+        ],
+        [
+         212,
+         "Sensitivity labels and policies"
+        ],
+        [
+         245,
+         "Sensitivity labels and policies, continued"
+        ],
+        [
+         264,
+         "Sensitivity labels and policies, continued"
+        ],
+        [
+         275,
+         "Sensitivity labels and policies, continued"
+        ],
+        [
+         299,
+         "Data loss prevention (DLP)"
+        ],
+        [
+         357,
+         "Retention and records management"
+        ],
+        [
+         408,
+         "Retention and records management, continued"
+        ]
+       ],
+       "published": "2026-11-13T10:30:04Z",
+       "thumb": "img/modules/sc900/13-1.jpg"
+      }
+     ],
+     "deck": "downloads/sc900/13-information-protection-data-lifecycle-and-governance.pptx",
+     "deck_kb": 256,
+     "seconds": 752,
+     "words": 1334
+    },
+    {
+     "num": "14",
+     "slug": "14-insider-risk-ediscovery-and-audit",
+     "title": "Insider Risk, eDiscovery and Audit",
+     "desc": "Four jobs, four tools, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "FYgmr3dx8Eg",
+       "title": "Four jobs, four tools, recall and recap",
+       "seconds": 691,
+       "chapters": [
+        [
+         0,
+         "Four jobs, four tools"
+        ],
+        [
+         103,
+         "Four jobs, four tools, continued"
+        ],
+        [
+         126,
+         "Four jobs, four tools, continued"
+        ],
+        [
+         137,
+         "Insider Risk Management"
+        ],
+        [
+         193,
+         "Communication Compliance"
+        ],
+        [
+         216,
+         "Information barriers"
+        ],
+        [
+         248,
+         "eDiscovery"
+        ],
+        [
+         281,
+         "eDiscovery, continued"
+        ],
+        [
+         307,
+         "eDiscovery, continued"
+        ],
+        [
+         328,
+         "Audit"
+        ]
+       ],
+       "published": "2026-11-13T10:30:14Z",
+       "thumb": "img/modules/sc900/14-1.jpg"
+      }
+     ],
+     "deck": "downloads/sc900/14-insider-risk-ediscovery-and-audit.pptx",
+     "deck_kb": 177,
+     "seconds": 691,
+     "words": 1171
+    },
+    {
+     "num": "15",
+     "slug": "15-exam-technique-and-final-review",
+     "title": "Exam Technique and Final Review",
+     "desc": "Exam technique and Product-to-job map, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "gxPQ7zKX-p8",
+       "title": "Exam technique and Product-to-job map, recall and recap",
+       "seconds": 747,
+       "chapters": [
+        [
+         0,
+         "Exam technique"
+        ],
+        [
+         92,
+         "Product-to-job map"
+        ],
+        [
+         103,
+         "Product-to-job map, continued"
+        ],
+        [
+         167,
+         "Product-to-job map, continued"
+        ],
+        [
+         220,
+         "Easily confused pairs"
+        ]
+       ],
+       "published": "2026-11-13T10:30:36Z",
+       "thumb": "img/modules/sc900/15-1.jpg"
+      }
+     ],
+     "deck": "downloads/sc900/15-exam-technique-and-final-review.pptx",
+     "deck_kb": 180,
+     "seconds": 747,
+     "words": 1140
+    }
+   ],
+   "facts": {
+    "questions": "See the exam page",
+    "time": "45 min",
+    "passing": "700 of 1,000",
+    "source": "learn.microsoft.com",
+    "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/sc-900/"
+   },
+   "videos": 16,
+   "seconds": 11000,
+   "notes": [
+    {
+     "num": "00",
+     "slug": "00-exam-orientation-and-how-to-study",
+     "title": "Exam Orientation and How to Study",
+     "group": "Start here",
+     "tasks": 0,
+     "los": [],
+     "minutes": 5,
+     "check": {
+      "src_words": 949,
+      "page_words": 976,
+      "src_tables": 6,
+      "tables": 6,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 4,
+      "scenario": 4,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 8,
+      "sections": 8
+     },
+     "modules": [
+      "00"
+     ],
+     "domain": "",
+     "ref": "Module 0",
+     "tn": "Module 00",
+     "of": 16,
+     "module": "00"
+    },
+    {
+     "num": "01",
+     "slug": "01-security-and-compliance-concepts",
+     "title": "Security and Compliance Concepts",
+     "group": "Security, compliance and identity concepts (10-15%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 5,
+     "check": {
+      "src_words": 1010,
+      "page_words": 1047,
+      "src_tables": 7,
+      "tables": 7,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "01"
+     ],
+     "domain": "",
+     "ref": "Module 1",
+     "tn": "Module 01",
+     "of": 16,
+     "module": "01"
+    },
+    {
+     "num": "02",
+     "slug": "02-identity-concepts",
+     "title": "Identity Concepts",
+     "group": "Security, compliance and identity concepts (10-15%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 5,
+     "check": {
+      "src_words": 1109,
+      "page_words": 1146,
+      "src_tables": 6,
+      "tables": 6,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "02"
+     ],
+     "domain": "",
+     "ref": "Module 2",
+     "tn": "Module 02",
+     "of": 16,
+     "module": "02"
+    },
+    {
+     "num": "03",
+     "slug": "03-microsoft-entra-id-identities-and-hybrid-identity",
+     "title": "Microsoft Entra ID, Identities and Hybrid Identity",
+     "group": "Microsoft Entra (25-30%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 5,
+     "check": {
+      "src_words": 1059,
+      "page_words": 1094,
+      "src_tables": 7,
+      "tables": 7,
+      "src_images": 3,
+      "images": 3,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 5,
+      "sections": 5
+     },
+     "modules": [
+      "03"
+     ],
+     "domain": "",
+     "ref": "Module 3",
+     "tn": "Module 03",
+     "of": 16,
+     "module": "03"
+    },
+    {
+     "num": "04",
+     "slug": "04-authentication-in-microsoft-entra-id",
+     "title": "Authentication in Microsoft Entra ID",
+     "group": "Microsoft Entra (25-30%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 5,
+     "check": {
+      "src_words": 1007,
+      "page_words": 1042,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 5,
+      "sections": 5
+     },
+     "modules": [
+      "04"
+     ],
+     "domain": "",
+     "ref": "Module 4",
+     "tn": "Module 04",
+     "of": 16,
+     "module": "04"
+    },
+    {
+     "num": "05",
+     "slug": "05-access-management-conditional-access-and-roles",
+     "title": "Access Management: Conditional Access and Roles",
+     "group": "Microsoft Entra (25-30%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 5,
+     "check": {
+      "src_words": 1027,
+      "page_words": 1062,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 5,
+      "sections": 5
+     },
+     "modules": [
+      "05"
+     ],
+     "domain": "",
+     "ref": "Module 5",
+     "tn": "Module 05",
+     "of": 16,
+     "module": "05"
+    },
+    {
+     "num": "06",
+     "slug": "06-identity-protection-and-governance",
+     "title": "Identity Protection and Governance",
+     "group": "Microsoft Entra (25-30%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 5,
+     "check": {
+      "src_words": 1097,
+      "page_words": 1134,
+      "src_tables": 6,
+      "tables": 6,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "06"
+     ],
+     "domain": "",
+     "ref": "Module 6",
+     "tn": "Module 06",
+     "of": 16,
+     "module": "06"
+    },
+    {
+     "num": "07",
+     "slug": "07-core-infrastructure-security-in-azure",
+     "title": "Core Infrastructure Security in Azure",
+     "group": "Microsoft security solutions (35-40%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 6,
+     "check": {
+      "src_words": 1214,
+      "page_words": 1253,
+      "src_tables": 7,
+      "tables": 7,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 9,
+      "sections": 9
+     },
+     "modules": [
+      "07"
+     ],
+     "domain": "",
+     "ref": "Module 7",
+     "tn": "Module 07",
+     "of": 16,
+     "module": "07"
+    },
+    {
+     "num": "08",
+     "slug": "08-microsoft-defender-for-cloud",
+     "title": "Microsoft Defender for Cloud",
+     "group": "Microsoft security solutions (35-40%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 5,
+     "check": {
+      "src_words": 973,
+      "page_words": 1010,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "08"
+     ],
+     "domain": "",
+     "ref": "Module 8",
+     "tn": "Module 08",
+     "of": 16,
+     "module": "08"
+    },
+    {
+     "num": "09",
+     "slug": "09-microsoft-sentinel",
+     "title": "Microsoft Sentinel",
+     "group": "Microsoft security solutions (35-40%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 4,
+     "check": {
+      "src_words": 712,
+      "page_words": 747,
+      "src_tables": 4,
+      "tables": 4,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 5,
+      "sections": 5
+     },
+     "modules": [
+      "09"
+     ],
+     "domain": "",
+     "ref": "Module 9",
+     "tn": "Module 09",
+     "of": 16,
+     "module": "09"
+    },
+    {
+     "num": "10",
+     "slug": "10-threat-protection-with-microsoft-defender-xdr",
+     "title": "Threat Protection with Microsoft Defender XDR",
+     "group": "Microsoft security solutions (35-40%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 5,
+     "check": {
+      "src_words": 1022,
+      "page_words": 1062,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 10,
+      "sections": 10
+     },
+     "modules": [
+      "10"
+     ],
+     "domain": "",
+     "ref": "Module 10",
+     "tn": "Module 10",
+     "of": 16,
+     "module": "10"
+    },
+    {
+     "num": "11",
+     "slug": "11-service-trust-portal-and-privacy-principles",
+     "title": "Service Trust Portal and Privacy Principles",
+     "group": "Microsoft compliance solutions (20-25%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 4,
+     "check": {
+      "src_words": 782,
+      "page_words": 817,
+      "src_tables": 4,
+      "tables": 4,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 5,
+      "sections": 5
+     },
+     "modules": [
+      "11"
+     ],
+     "domain": "",
+     "ref": "Module 11",
+     "tn": "Module 11",
+     "of": 16,
+     "module": "11"
+    },
+    {
+     "num": "12",
+     "slug": "12-compliance-management-with-microsoft-purview",
+     "title": "Compliance Management with Microsoft Purview",
+     "group": "Microsoft compliance solutions (20-25%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 4,
+     "check": {
+      "src_words": 805,
+      "page_words": 841,
+      "src_tables": 4,
+      "tables": 4,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "12"
+     ],
+     "domain": "",
+     "ref": "Module 12",
+     "tn": "Module 12",
+     "of": 16,
+     "module": "12"
+    },
+    {
+     "num": "13",
+     "slug": "13-information-protection-data-lifecycle-and-governance",
+     "title": "Information Protection, Data Lifecycle and Governance",
+     "group": "Microsoft compliance solutions (20-25%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 6,
+     "check": {
+      "src_words": 1133,
+      "page_words": 1171,
+      "src_tables": 8,
+      "tables": 8,
+      "src_images": 4,
+      "images": 4,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 8,
+      "sections": 8
+     },
+     "modules": [
+      "13"
+     ],
+     "domain": "",
+     "ref": "Module 13",
+     "tn": "Module 13",
+     "of": 16,
+     "module": "13"
+    },
+    {
+     "num": "14",
+     "slug": "14-insider-risk-ediscovery-and-audit",
+     "title": "Insider Risk, eDiscovery and Audit",
+     "group": "Microsoft compliance solutions (20-25%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 5,
+     "check": {
+      "src_words": 964,
+      "page_words": 1002,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 8,
+      "sections": 8
+     },
+     "modules": [
+      "14"
+     ],
+     "domain": "",
+     "ref": "Module 14",
+     "tn": "Module 14",
+     "of": 16,
+     "module": "14"
+    },
+    {
+     "num": "15",
+     "slug": "15-exam-technique-and-final-review",
+     "title": "Exam Technique and Final Review",
+     "group": "Review and exam day",
+     "tasks": 0,
+     "los": [],
+     "minutes": 5,
+     "check": {
+      "src_words": 990,
+      "page_words": 1043,
+      "src_tables": 3,
+      "tables": 3,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 12,
+      "scenario": 12,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 5,
+      "sections": 5
      },
      "modules": [
       "15"

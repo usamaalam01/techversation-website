@@ -23626,6 +23626,730 @@
    ]
   ]
  },
+ "ZucaQp1m3ic": {
+  "course": "sc900",
+  "key": "00-Exam-Orientation-and-How-to-Study-part-1",
+  "title": "SC-900 Exam Prep Introduction: Exam Format, Skill Areas and How to Answer | SC-900",
+  "seconds": 641,
+  "published": "2026-11-12T14:17:25Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "What the exam is"
+   ],
+   [
+    85,
+    "What the exam is, continued"
+   ],
+   [
+    135,
+    "What the exam is, continued"
+   ],
+   [
+    143,
+    "The four skill areas"
+   ],
+   [
+    186,
+    "The four skill areas, continued"
+   ],
+   [
+    204,
+    "The four skill areas, continued"
+   ],
+   [
+    236,
+    "Where each area lives in this course"
+   ],
+   [
+    268,
+    "How to read the exam wording"
+   ],
+   [
+    285,
+    "A repeatable way to answer"
+   ],
+   [
+    326,
+    "A study plan"
+   ]
+  ]
+ },
+ "mpLAOpJfMfQ": {
+  "course": "sc900",
+  "key": "01-Security-and-Compliance-Concepts-part-1",
+  "title": "SC-900 Exam Prep Module 1: Shared Responsibility, Zero Trust and Defense in Depth | SC-900",
+  "seconds": 779,
+  "published": "2026-11-12T14:17:43Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "The shared responsibility model"
+   ],
+   [
+    168,
+    "The shared responsibility model, continued"
+   ],
+   [
+    196,
+    "Defense in depth"
+   ],
+   [
+    269,
+    "The Zero Trust model"
+   ],
+   [
+    316,
+    "The Zero Trust model, continued"
+   ],
+   [
+    338,
+    "Encryption and hashing"
+   ],
+   [
+    416,
+    "Governance, risk and compliance (GRC)"
+   ]
+  ]
+ },
+ "ne3AA9ok30U": {
+  "course": "sc900",
+  "key": "02-Identity-Concepts-part-1",
+  "title": "SC-900 Exam Prep Module 2: Authentication, Authorization, Identity Providers and Federation | SC-900",
+  "seconds": 713,
+  "published": "2026-11-12T14:18:12Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Identity is the new perimeter"
+   ],
+   [
+    93,
+    "Identity is the new perimeter, continued"
+   ],
+   [
+    102,
+    "Identity is the new perimeter, continued"
+   ],
+   [
+    127,
+    "Authentication and authorization"
+   ],
+   [
+    193,
+    "Identity providers"
+   ],
+   [
+    232,
+    "Directory services and Active Directory"
+   ],
+   [
+    295,
+    "Directory services and Active Directory, continued"
+   ],
+   [
+    324,
+    "Federation"
+   ],
+   [
+    361,
+    "Federation, continued"
+   ]
+  ]
+ },
+ "g_F2HEx2SMk": {
+  "course": "sc900",
+  "key": "03-Microsoft-Entra-ID-Identities-and-Hybrid-Identity-part-1",
+  "title": "SC-900 Exam Prep Module 3: Entra ID, Identity Types and Hybrid Identity | SC-900",
+  "seconds": 690,
+  "published": "2026-11-12T14:18:36Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Microsoft Entra and Microsoft Entra ID"
+   ],
+   [
+    81,
+    "Microsoft Entra and Microsoft Entra ID, continued"
+   ],
+   [
+    120,
+    "Microsoft Entra and Microsoft Entra ID, continued"
+   ],
+   [
+    145,
+    "Types of identities"
+   ],
+   [
+    194,
+    "Workload identities"
+   ],
+   [
+    232,
+    "Device identities"
+   ],
+   [
+    254,
+    "Device identities, continued"
+   ],
+   [
+    280,
+    "Hybrid identity"
+   ],
+   [
+    308,
+    "Sign-in methods for hybrid identity"
+   ],
+   [
+    339,
+    "Sign-in methods for hybrid identity, continued"
+   ]
+  ]
+ },
+ "6_O7pxJ0avc": {
+  "course": "sc900",
+  "key": "04-Authentication-in-Microsoft-Entra-ID-part-1",
+  "title": "SC-900 Exam Prep Module 4: Authentication Methods, MFA and Password Protection | SC-900",
+  "seconds": 677,
+  "published": "2026-11-12T14:18:51Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Authentication methods"
+   ],
+   [
+    119,
+    "Authentication methods, continued"
+   ],
+   [
+    158,
+    "Authentication methods, continued"
+   ],
+   [
+    166,
+    "Authentication methods, continued"
+   ],
+   [
+    196,
+    "Multifactor authentication (MFA)"
+   ],
+   [
+    228,
+    "Ways to require MFA"
+   ],
+   [
+    254,
+    "Ways to require MFA, continued"
+   ],
+   [
+    281,
+    "Password protection and management"
+   ],
+   [
+    328,
+    "Password protection and management, continued"
+   ]
+  ]
+ },
+ "YccsoUUmrK8": {
+  "course": "sc900",
+  "key": "05-Access-Management-Conditional-Access-and-Roles-part-1",
+  "title": "SC-900 Exam Prep Module 5: Conditional Access, Entra Roles and Azure RBAC | SC-900",
+  "seconds": 678,
+  "published": "2026-11-12T14:19:19Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Microsoft Entra Conditional Access"
+   ],
+   [
+    108,
+    "Microsoft Entra Conditional Access, continued"
+   ],
+   [
+    120,
+    "Microsoft Entra Conditional Access, continued"
+   ],
+   [
+    156,
+    "Microsoft Entra Conditional Access, continued"
+   ],
+   [
+    196,
+    "Microsoft Entra roles"
+   ],
+   [
+    250,
+    "Role-based access control (RBAC)"
+   ],
+   [
+    280,
+    "Two role systems"
+   ],
+   [
+    329,
+    "Two role systems, continued"
+   ]
+  ]
+ },
+ "rA7ymxni1OQ": {
+  "course": "sc900",
+  "key": "06-Identity-Protection-and-Governance-part-1",
+  "title": "SC-900 Exam Prep Module 6: ID Governance, Access Reviews, PIM and ID Protection | SC-900",
+  "seconds": 708,
+  "published": "2026-11-12T14:19:55Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Four tools, four jobs"
+   ],
+   [
+    88,
+    "Four tools, four jobs, continued"
+   ],
+   [
+    116,
+    "Four tools, four jobs, continued"
+   ],
+   [
+    128,
+    "Microsoft Entra ID Governance"
+   ],
+   [
+    186,
+    "Access reviews"
+   ],
+   [
+    227,
+    "Access reviews, continued"
+   ],
+   [
+    249,
+    "Privileged Identity Management (PIM)"
+   ],
+   [
+    302,
+    "Privileged Identity Management (PIM), continued"
+   ],
+   [
+    328,
+    "Microsoft Entra ID Protection"
+   ]
+  ]
+ },
+ "BUizedebems": {
+  "course": "sc900",
+  "key": "07-Core-Infrastructure-Security-in-Azure-part-1",
+  "title": "SC-900 Exam Prep Module 7: DDoS Protection, Firewall, WAF, NSG, Bastion and Key Vault | SC-900",
+  "seconds": 796,
+  "published": "2026-11-12T14:20:06Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Seven services at a glance"
+   ],
+   [
+    119,
+    "Seven services at a glance, continued"
+   ],
+   [
+    154,
+    "Seven services at a glance, continued"
+   ],
+   [
+    166,
+    "Azure DDoS Protection"
+   ],
+   [
+    211,
+    "Azure Firewall"
+   ],
+   [
+    273,
+    "Azure Web Application Firewall (WAF)"
+   ],
+   [
+    296,
+    "Network segmentation and NSGs"
+   ],
+   [
+    328,
+    "How an NSG works"
+   ],
+   [
+    351,
+    "How an NSG works, continued"
+   ],
+   [
+    377,
+    "Azure Bastion"
+   ],
+   [
+    394,
+    "Azure Bastion, continued"
+   ],
+   [
+    412,
+    "Azure Key Vault"
+   ]
+  ]
+ },
+ "XD1VPJJqy_Y": {
+  "course": "sc900",
+  "key": "08-Microsoft-Defender-for-Cloud-part-1",
+  "title": "SC-900 Exam Prep Module 8: Defender for Cloud: CSPM, Secure Score and Workload Protection | SC-900",
+  "seconds": 683,
+  "published": "2026-11-12T14:20:36Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "What Defender for Cloud is"
+   ],
+   [
+    107,
+    "What Defender for Cloud is, continued"
+   ],
+   [
+    135,
+    "Cloud security posture management (CSPM)"
+   ],
+   [
+    187,
+    "Security recommendations"
+   ],
+   [
+    218,
+    "Security policies and standards"
+   ],
+   [
+    259,
+    "Security policies and standards, continued"
+   ],
+   [
+    281,
+    "Cloud workload protection (Defender plans)"
+   ],
+   [
+    342,
+    "Cloud workload protection (Defender plans), continued"
+   ]
+  ]
+ },
+ "2FGD9bM2Xmc": {
+  "course": "sc900",
+  "key": "09-Microsoft-Sentinel-part-1",
+  "title": "SC-900 Exam Prep Module 9: Microsoft Sentinel: SIEM, SOAR and Threat Detection | SC-900",
+  "seconds": 565,
+  "published": "2026-11-12T14:20:49Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "SIEM and SOAR"
+   ],
+   [
+    103,
+    "SIEM and SOAR, continued"
+   ],
+   [
+    127,
+    "Integrated threat protection: the four jobs"
+   ],
+   [
+    183,
+    "Threat detection and mitigation"
+   ],
+   [
+    247,
+    "Threat detection and mitigation, continued"
+   ]
+  ]
+ },
+ "4_DSz4cOvBQ": {
+  "course": "sc900",
+  "key": "10-Threat-Protection-with-Microsoft-Defender-XDR-part-1",
+  "title": "SC-900 Exam Prep Module 10: Defender XDR, Endpoint, Office 365, Cloud Apps and Identity | SC-900",
+  "seconds": 729,
+  "published": "2026-11-12T14:21:09Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Defender XDR: the idea"
+   ],
+   [
+    129,
+    "Defender XDR: the idea, continued"
+   ],
+   [
+    140,
+    "Defender XDR: the idea, continued"
+   ],
+   [
+    171,
+    "Defender for Office 365"
+   ],
+   [
+    210,
+    "Defender for Endpoint"
+   ],
+   [
+    256,
+    "Defender for Cloud Apps"
+   ],
+   [
+    303,
+    "Defender for Identity"
+   ],
+   [
+    330,
+    "Defender Vulnerability Management"
+   ],
+   [
+    353,
+    "Microsoft Defender Threat Intelligence"
+   ],
+   [
+    374,
+    "The Microsoft Defender portal"
+   ],
+   [
+    397,
+    "The Microsoft Defender portal, continued"
+   ]
+  ]
+ },
+ "d2HYj5szq_c": {
+  "course": "sc900",
+  "key": "11-Service-Trust-Portal-and-Privacy-Principles-part-1",
+  "title": "SC-900 Exam Prep Module 11: Service Trust Portal, Privacy Principles and Priva | SC-900",
+  "seconds": 569,
+  "published": "2026-11-12T14:21:25Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Service Trust Portal (STP)"
+   ],
+   [
+    113,
+    "Service Trust Portal (STP), continued"
+   ],
+   [
+    137,
+    "Microsoft privacy principles"
+   ],
+   [
+    181,
+    "Microsoft privacy principles, continued"
+   ],
+   [
+    209,
+    "Microsoft Priva"
+   ]
+  ]
+ },
+ "vErr6HO_OPQ": {
+  "course": "sc900",
+  "key": "12-Compliance-Management-with-Microsoft-Purview-part-1",
+  "title": "SC-900 Exam Prep Module 12: Purview Portal, Compliance Manager and Compliance Score | SC-900",
+  "seconds": 582,
+  "published": "2026-11-12T14:23:21Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Microsoft Purview"
+   ],
+   [
+    93,
+    "Microsoft Purview, continued"
+   ],
+   [
+    103,
+    "The Microsoft Purview portal"
+   ],
+   [
+    156,
+    "Compliance Manager"
+   ],
+   [
+    213,
+    "Compliance Manager, continued"
+   ],
+   [
+    224,
+    "Compliance Manager, continued"
+   ],
+   [
+    234,
+    "Compliance score"
+   ]
+  ]
+ },
+ "Iw7j4Sfl6Xc": {
+  "course": "sc900",
+  "key": "13-Information-Protection-Data-Lifecycle-and-Governance-part-1",
+  "title": "SC-900 Exam Prep Module 13: Labels, DLP, Retention and Records Management | SC-900",
+  "seconds": 752,
+  "published": "2026-11-13T10:30:04Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "The data protection journey"
+   ],
+   [
+    107,
+    "The data protection journey, continued"
+   ],
+   [
+    117,
+    "Data classification"
+   ],
+   [
+    158,
+    "Content explorer and activity explorer"
+   ],
+   [
+    189,
+    "Content explorer and activity explorer, continued"
+   ],
+   [
+    212,
+    "Sensitivity labels and policies"
+   ],
+   [
+    245,
+    "Sensitivity labels and policies, continued"
+   ],
+   [
+    264,
+    "Sensitivity labels and policies, continued"
+   ],
+   [
+    275,
+    "Sensitivity labels and policies, continued"
+   ],
+   [
+    299,
+    "Data loss prevention (DLP)"
+   ],
+   [
+    357,
+    "Retention and records management"
+   ],
+   [
+    408,
+    "Retention and records management, continued"
+   ]
+  ]
+ },
+ "FYgmr3dx8Eg": {
+  "course": "sc900",
+  "key": "14-Insider-Risk-eDiscovery-and-Audit-part-1",
+  "title": "SC-900 Exam Prep Module 14: Insider Risk, Information Barriers, eDiscovery and Audit | SC-900",
+  "seconds": 691,
+  "published": "2026-11-13T10:30:14Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Four jobs, four tools"
+   ],
+   [
+    103,
+    "Four jobs, four tools, continued"
+   ],
+   [
+    126,
+    "Four jobs, four tools, continued"
+   ],
+   [
+    137,
+    "Insider Risk Management"
+   ],
+   [
+    193,
+    "Communication Compliance"
+   ],
+   [
+    216,
+    "Information barriers"
+   ],
+   [
+    248,
+    "eDiscovery"
+   ],
+   [
+    281,
+    "eDiscovery, continued"
+   ],
+   [
+    307,
+    "eDiscovery, continued"
+   ],
+   [
+    328,
+    "Audit"
+   ]
+  ]
+ },
+ "gxPQ7zKX-p8": {
+  "course": "sc900",
+  "key": "15-Exam-Technique-and-Final-Review-part-1",
+  "title": "SC-900 Exam Prep Module 15: Exam Technique, Product Map and Mixed Practice | SC-900",
+  "seconds": 747,
+  "published": "2026-11-13T10:30:36Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Exam technique"
+   ],
+   [
+    92,
+    "Product-to-job map"
+   ],
+   [
+    103,
+    "Product-to-job map, continued"
+   ],
+   [
+    167,
+    "Product-to-job map, continued"
+   ],
+   [
+    220,
+    "Easily confused pairs"
+   ]
+  ]
+ },
  "yTE9OtaIN9A": {
   "course": "cdmp",
   "key": "00-Course-Introduction",

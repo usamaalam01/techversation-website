@@ -92,6 +92,10 @@ COURSES = {
                   desc="Cloud concepts, Azure architecture and services, and management and governance, with exam-style questions in every module.",
                   audience="Students, career changers and IT staff starting with the cloud, and anyone preparing for the AZ-900 exam. No Azure account is needed.",
                   sources="The official AZ-900 study guide and the Microsoft Learn documentation of each service."),
+    "sc900": dict(folder="SC-900", institute="microsoft", short="SC-900", name="Microsoft Security, Compliance, and Identity Fundamentals", title="SC-900 Exam Prep Masterclass", accent="c-sc900",
+                  desc="Security, compliance and identity concepts, Microsoft Entra, Microsoft security solutions and Microsoft compliance solutions, with exam-style questions in every module.",
+                  audience="Students, career changers and IT staff starting with security, and anyone preparing for the SC-900 exam. No Azure account is needed.",
+                  sources="The official SC-900 study guide and the Microsoft Learn documentation of each service."),
     "ai901": dict(folder="AI-901", institute="microsoft", short="AI-901", name="Microsoft Azure AI Fundamentals", title="AI-901 Exam Prep Masterclass", accent="c-ai901",
                   desc="AI concepts and building AI solutions with Microsoft Foundry: models, prompts, agents, text, speech, vision and information extraction.",
                   audience="Students, career changers and developers starting with AI on Azure who read basic Python. The retired AI-900 is replaced by this exam.",
@@ -115,7 +119,7 @@ INSTITUTES = [
     dict(id="aws", name="AWS", full="Amazon Web Services", mono="AWS", certs=["clf", "aif", "saa", "dea"]),
     dict(id="anthropic", name="Anthropic", full="Anthropic Partner Academy", mono="ANT", certs=["ccar", "ccdv", "ccao", "ccarp"]),
     dict(id="comptia", name="CompTIA", full="CompTIA", mono="CT", certs=["sy0801"]),
-    dict(id="microsoft", name="Microsoft", full="Microsoft", mono="MS", certs=["az900", "ai901"]),
+    dict(id="microsoft", name="Microsoft", full="Microsoft", mono="MS", certs=["az900", "ai901", "sc900"]),
     dict(id="training", name="Training", full="Techversation training courses", mono="TV", certs=[], hidden=True),
 ]
 SOON = []      # 'coming soon' cards (slug, institute, short, name, kind, desc); none at the moment
@@ -132,6 +136,7 @@ FACTS = dict(
     ccar=dict(questions="60", time="120 min", passing="720 of 1,000", source="Anthropic Partner Academy", url="https://anthropic-partners.skilljar.com/claude-certified-architect-foundations-certification"),
     cka=dict(questions="15 to 20 tasks", time="120 min", passing="66%", source="training.linuxfoundation.org", url="https://training.linuxfoundation.org/certification/certified-kubernetes-administrator-cka/"),
     sy0801=dict(questions="Up to 90", time="90 min", passing="750 of 900", source="comptia.org", url="https://www.comptia.org/en-us/certifications/security/v8/"),
+    sc900=dict(questions="See the exam page", time="45 min", passing="700 of 1,000", source="learn.microsoft.com", url="https://learn.microsoft.com/en-us/credentials/certifications/exams/sc-900/"),
     ai901=dict(questions="See the exam page", time="See the exam page", passing="700 of 1,000", source="learn.microsoft.com", url="https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-901/"),
     az900=dict(questions="See the exam page", time="45 min", passing="700 of 1,000", source="learn.microsoft.com", url="https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/"),
     kcna=dict(questions="60", time="90 min", passing="75%", source="training.linuxfoundation.org", url="https://training.linuxfoundation.org/certification/kubernetes-cloud-native-associate/"),
@@ -291,6 +296,10 @@ NOTES = {
     "az900": dict(root=OC / "AZ-900" / "study-notes", glob="Module_*.md", qa=True, header="bold", kind="Module", link_word="Module",
                   groups=[("Start here", {"00"}), ("Cloud concepts (25-30%)", {"01", "02", "03"}), ("Azure architecture and services (35-40%)", {"04", "05", "06", "07", "08", "09", "10"}),
                           ("Management and governance (30-35%)", {"11", "12", "13", "14"}), ("Review and exam day", {"15"})]),
+    # SC-900: the study notes of the course (OnlineCourses\SC-900\study-notes); grouped by skill area
+    "sc900": dict(root=OC / "SC-900" / "study-notes", glob="Module_*.md", qa=True, header="bold", kind="Module", link_word="Module",
+                  groups=[("Start here", {"00"}), ("Security, compliance and identity concepts (10-15%)", {"01", "02"}), ("Microsoft Entra (25-30%)", {"03", "04", "05", "06"}),
+                          ("Microsoft security solutions (35-40%)", {"07", "08", "09", "10"}), ("Microsoft compliance solutions (20-25%)", {"11", "12", "13", "14"}), ("Review and exam day", {"15"})]),
     # AI-901: the study notes of the course (OnlineCourses\AI-901\study-notes, one note per module, with exam-style questions and recall questions); grouped by skill area
     "ai901": dict(root=OC / "AI-901" / "study-notes", glob="Module_*.md", qa=True, header="bold", kind="Module", link_word="Module",
                   groups=[("Start here", {"00"}), ("Identify AI concepts and capabilities (40-45%)", {"01", "02", "03", "04", "05"}),
