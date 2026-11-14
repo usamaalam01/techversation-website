@@ -97,7 +97,8 @@
    "certs": [
     "az900",
     "ai901",
-    "sc900"
+    "sc900",
+    "az104"
    ]
   },
   {
@@ -40088,6 +40089,1513 @@
      "tn": "Module 16",
      "of": 17,
      "module": "16"
+    }
+   ],
+   "glossary": 0
+  },
+  {
+   "kind": "certification",
+   "topic": null,
+   "slug": "az104",
+   "institute": "microsoft",
+   "short": "AZ-104",
+   "name": "Microsoft Azure Administrator",
+   "title": "AZ-104 Exam Prep Masterclass",
+   "accent": "c-az104",
+   "desc": "Managing Azure identities and governance, storage, compute, virtual networking, monitoring and backup, with exam-style questions in every module.",
+   "audience": "Azure administrators and IT professionals with some Azure experience, and anyone preparing for the AZ-104 exam.",
+   "sources": "The official AZ-104 study guide and the Azure documentation of each service.",
+   "playlist": "PLGeylRnX2tGE",
+   "cover": "img/covers/az104.jpg",
+   "modules": [
+    {
+     "num": "00",
+     "slug": "00-exam-orientation-and-how-to-study",
+     "title": "Exam Orientation and How to Study",
+     "desc": "The exam at a glance, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "AFZb5N3_s_I",
+       "title": "The exam at a glance, recall and recap",
+       "seconds": 496,
+       "chapters": [
+        [
+         0,
+         "The exam at a glance"
+        ],
+        [
+         100,
+         "The exam at a glance, continued"
+        ],
+        [
+         124,
+         "The five domains"
+        ],
+        [
+         132,
+         "The five domains, continued"
+        ],
+        [
+         182,
+         "How to answer every question"
+        ],
+        [
+         217,
+         "A four-week study plan"
+        ]
+       ],
+       "published": "2026-11-14T19:46:31Z",
+       "thumb": "img/modules/az104/00-1.jpg"
+      }
+     ],
+     "deck": "downloads/az104/00-exam-orientation-and-how-to-study.pptx",
+     "deck_kb": 170,
+     "seconds": 496,
+     "words": 872
+    },
+    {
+     "num": "01",
+     "slug": "01-microsoft-entra-users-groups-and-licenses",
+     "title": "Microsoft Entra Users, Groups and Licenses",
+     "desc": "Users and groups, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "gsDE6pS0kG0",
+       "title": "Users and groups, recall and recap",
+       "seconds": 591,
+       "chapters": [
+        [
+         0,
+         "Users and groups"
+        ],
+        [
+         112,
+         "Users and groups, continued"
+        ],
+        [
+         121,
+         "Users and groups, continued"
+        ],
+        [
+         152,
+         "Licenses"
+        ],
+        [
+         190,
+         "External users"
+        ],
+        [
+         212,
+         "Self-service password reset (SSPR)"
+        ],
+        [
+         252,
+         "Self-service password reset (SSPR), continued"
+        ]
+       ],
+       "published": "2026-11-14T19:46:53Z",
+       "thumb": "img/modules/az104/01-1.jpg"
+      }
+     ],
+     "deck": "downloads/az104/01-microsoft-entra-users-groups-and-licenses.pptx",
+     "deck_kb": 200,
+     "seconds": 591,
+     "words": 1074
+    },
+    {
+     "num": "02",
+     "slug": "02-azure-rbac-roles-scopes-and-access",
+     "title": "Azure RBAC: Roles, Scopes and Access",
+     "desc": "What Azure RBAC is, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "8-xWbGVZbVQ",
+       "title": "What Azure RBAC is, recall and recap",
+       "seconds": 577,
+       "chapters": [
+        [
+         0,
+         "What Azure RBAC is"
+        ],
+        [
+         87,
+         "What Azure RBAC is, continued"
+        ],
+        [
+         96,
+         "What Azure RBAC is, continued"
+        ],
+        [
+         111,
+         "Scope and inheritance"
+        ],
+        [
+         120,
+         "Scope and inheritance, continued"
+        ],
+        [
+         131,
+         "Scope and inheritance, continued"
+        ],
+        [
+         154,
+         "Built-in roles"
+        ],
+        [
+         212,
+         "Assigning and interpreting access"
+        ]
+       ],
+       "published": "2026-11-14T19:47:02Z",
+       "thumb": "img/modules/az104/02-1.jpg"
+      }
+     ],
+     "deck": "downloads/az104/02-azure-rbac-roles-scopes-and-access.pptx",
+     "deck_kb": 184,
+     "seconds": 577,
+     "words": 1018
+    },
+    {
+     "num": "03",
+     "slug": "03-subscriptions-management-groups-policy-locks-tags-and-costs",
+     "title": "Subscriptions, Management Groups, Policy, Locks, Tags and Costs",
+     "desc": "The organization structure, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "rC8w-r99jws",
+       "title": "The organization structure, recall and recap",
+       "seconds": 620,
+       "chapters": [
+        [
+         0,
+         "The organization structure"
+        ],
+        [
+         77,
+         "The organization structure, continued"
+        ],
+        [
+         129,
+         "Azure Policy"
+        ],
+        [
+         197,
+         "Resource locks"
+        ],
+        [
+         225,
+         "Tags"
+        ],
+        [
+         259,
+         "Costs"
+        ]
+       ],
+       "published": "2026-11-14T19:47:36Z",
+       "thumb": "img/modules/az104/03-1.jpg"
+      }
+     ],
+     "deck": "downloads/az104/03-subscriptions-management-groups-policy-locks-tags-and-costs.pptx",
+     "deck_kb": 129,
+     "seconds": 620,
+     "words": 1088
+    },
+    {
+     "num": "04",
+     "slug": "04-storage-accounts-redundancy-replication-and-encryption",
+     "title": "Storage Accounts: Redundancy, Replication and Encryption",
+     "desc": "The storage account, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "qyrJ9dVmIDc",
+       "title": "The storage account, recall and recap",
+       "seconds": 651,
+       "chapters": [
+        [
+         0,
+         "The storage account"
+        ],
+        [
+         96,
+         "The storage account, continued"
+        ],
+        [
+         130,
+         "Redundancy"
+        ],
+        [
+         146,
+         "Redundancy, continued"
+        ],
+        [
+         184,
+         "Redundancy, continued"
+        ],
+        [
+         231,
+         "Object replication"
+        ],
+        [
+         263,
+         "Encryption"
+        ],
+        [
+         303,
+         "Storage Explorer and AzCopy"
+        ]
+       ],
+       "published": "2026-11-14T19:47:49Z",
+       "thumb": "img/modules/az104/04-1.jpg"
+      }
+     ],
+     "deck": "downloads/az104/04-storage-accounts-redundancy-replication-and-encryption.pptx",
+     "deck_kb": 142,
+     "seconds": 651,
+     "words": 1198
+    },
+    {
+     "num": "05",
+     "slug": "05-securing-access-to-storage",
+     "title": "Securing Access to Storage",
+     "desc": "Firewalls and virtual networks, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "7AxGbO33iJI",
+       "title": "Firewalls and virtual networks, recall and recap",
+       "seconds": 627,
+       "chapters": [
+        [
+         0,
+         "Firewalls and virtual networks"
+        ],
+        [
+         111,
+         "Firewalls and virtual networks, continued"
+        ],
+        [
+         131,
+         "Shared access signatures (SAS)"
+        ],
+        [
+         183,
+         "Stored access policies"
+        ],
+        [
+         213,
+         "Access keys"
+        ],
+        [
+         244,
+         "Identity-based access for Azure Files"
+        ],
+        [
+         273,
+         "Identity-based access for Azure Files, continued"
+        ]
+       ],
+       "published": "2026-11-14T19:48:10Z",
+       "thumb": "img/modules/az104/05-1.jpg"
+      }
+     ],
+     "deck": "downloads/az104/05-securing-access-to-storage.pptx",
+     "deck_kb": 150,
+     "seconds": 627,
+     "words": 1220
+    },
+    {
+     "num": "06",
+     "slug": "06-azure-files-and-blob-storage",
+     "title": "Azure Files and Blob Storage",
+     "desc": "Azure Files, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "tao-2AVyRi4",
+       "title": "Azure Files, recall and recap",
+       "seconds": 588,
+       "chapters": [
+        [
+         0,
+         "Azure Files"
+        ],
+        [
+         117,
+         "Azure Files, continued"
+        ],
+        [
+         136,
+         "Blob Storage"
+        ],
+        [
+         156,
+         "Blob Storage, continued"
+        ],
+        [
+         174,
+         "Access tiers"
+        ],
+        [
+         183,
+         "Access tiers, continued"
+        ],
+        [
+         238,
+         "Lifecycle management, versioning and soft delete"
+        ]
+       ],
+       "published": "2026-11-14T19:48:27Z",
+       "thumb": "img/modules/az104/06-1.jpg"
+      }
+     ],
+     "deck": "downloads/az104/06-azure-files-and-blob-storage.pptx",
+     "deck_kb": 164,
+     "seconds": 588,
+     "words": 1008
+    },
+    {
+     "num": "07",
+     "slug": "07-arm-templates-and-bicep",
+     "title": "ARM Templates and Bicep",
+     "desc": "Infrastructure as code with Azure Resource Manager, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "PF9C7eVPsLc",
+       "title": "Infrastructure as code with Azure Resource Manager, recall and recap",
+       "seconds": 606,
+       "chapters": [
+        [
+         0,
+         "Infrastructure as code with Azure Resource Manager"
+        ],
+        [
+         92,
+         "Infrastructure as code with Azure Resource Manager, continued"
+        ],
+        [
+         115,
+         "Infrastructure as code with Azure Resource Manager, continued"
+        ],
+        [
+         126,
+         "Template structure"
+        ],
+        [
+         166,
+         "Bicep"
+        ],
+        [
+         219,
+         "Deploying"
+        ],
+        [
+         267,
+         "Exporting and modifying"
+        ]
+       ],
+       "published": "2026-11-14T19:48:52Z",
+       "thumb": "img/modules/az104/07-1.jpg"
+      }
+     ],
+     "deck": "downloads/az104/07-arm-templates-and-bicep.pptx",
+     "deck_kb": 145,
+     "seconds": 606,
+     "words": 1066
+    },
+    {
+     "num": "08",
+     "slug": "08-virtual-machines",
+     "title": "Virtual Machines",
+     "desc": "Creating a virtual machine, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "5p839_JBmfA",
+       "title": "Creating a virtual machine, recall and recap",
+       "seconds": 610,
+       "chapters": [
+        [
+         0,
+         "Creating a virtual machine"
+        ],
+        [
+         115,
+         "Creating a virtual machine, continued"
+        ],
+        [
+         126,
+         "Creating a virtual machine, continued"
+        ],
+        [
+         151,
+         "Sizes"
+        ],
+        [
+         190,
+         "Disks"
+        ],
+        [
+         237,
+         "Disk encryption"
+        ],
+        [
+         272,
+         "Moving a VM"
+        ]
+       ],
+       "published": "2026-11-14T19:48:58Z",
+       "thumb": "img/modules/az104/08-1.jpg"
+      }
+     ],
+     "deck": "downloads/az104/08-virtual-machines.pptx",
+     "deck_kb": 158,
+     "seconds": 610,
+     "words": 1111
+    },
+    {
+     "num": "09",
+     "slug": "09-availability-zones-availability-sets-and-scale-sets",
+     "title": "Availability Zones, Availability Sets and Scale Sets",
+     "desc": "Why availability options, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "M8po5PfJRxU",
+       "title": "Why availability options, recall and recap",
+       "seconds": 594,
+       "chapters": [
+        [
+         0,
+         "Why availability options"
+        ],
+        [
+         71,
+         "Why availability options, continued"
+        ],
+        [
+         80,
+         "Why availability options, continued"
+        ],
+        [
+         118,
+         "Availability zones"
+        ],
+        [
+         153,
+         "Availability sets"
+        ],
+        [
+         176,
+         "Availability sets, continued"
+        ],
+        [
+         202,
+         "Virtual Machine Scale Sets"
+        ],
+        [
+         243,
+         "Virtual Machine Scale Sets, continued"
+        ],
+        [
+         276,
+         "Virtual Machine Scale Sets, continued"
+        ]
+       ],
+       "published": "2026-11-14T19:49:30Z",
+       "thumb": "img/modules/az104/09-1.jpg"
+      }
+     ],
+     "deck": "downloads/az104/09-availability-zones-availability-sets-and-scale-sets.pptx",
+     "deck_kb": 187,
+     "seconds": 594,
+     "words": 1074
+    },
+    {
+     "num": "10",
+     "slug": "10-containers-registry-instances-and-container-apps",
+     "title": "Containers: Registry, Instances and Container Apps",
+     "desc": "Containers in one page, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "KnJdzSnE10M",
+       "title": "Containers in one page, recall and recap",
+       "seconds": 596,
+       "chapters": [
+        [
+         0,
+         "Containers in one page"
+        ],
+        [
+         84,
+         "Containers in one page, continued"
+        ],
+        [
+         94,
+         "Azure Container Registry (ACR)"
+        ],
+        [
+         151,
+         "Azure Container Instances (ACI)"
+        ],
+        [
+         208,
+         "Azure Container Apps"
+        ],
+        [
+         268,
+         "Sizing and scaling"
+        ]
+       ],
+       "published": "2026-11-14T19:49:49Z",
+       "thumb": "img/modules/az104/10-1.jpg"
+      }
+     ],
+     "deck": "downloads/az104/10-containers-registry-instances-and-container-apps.pptx",
+     "deck_kb": 130,
+     "seconds": 596,
+     "words": 1094
+    },
+    {
+     "num": "11",
+     "slug": "11-azure-app-service",
+     "title": "Azure App Service",
+     "desc": "App Service and the plan, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "kTDcIjT8120",
+       "title": "App Service and the plan, recall and recap",
+       "seconds": 665,
+       "chapters": [
+        [
+         0,
+         "App Service and the plan"
+        ],
+        [
+         96,
+         "App Service and the plan, continued"
+        ],
+        [
+         137,
+         "Scaling"
+        ],
+        [
+         145,
+         "Scaling, continued"
+        ],
+        [
+         174,
+         "Certificates, TLS and custom domains"
+        ],
+        [
+         216,
+         "Certificates, TLS and custom domains, continued"
+        ],
+        [
+         228,
+         "Backup"
+        ],
+        [
+         256,
+         "Networking"
+        ],
+        [
+         296,
+         "Deployment slots"
+        ],
+        [
+         337,
+         "Deployment slots, continued"
+        ]
+       ],
+       "published": "2026-11-14T19:50:11Z",
+       "thumb": "img/modules/az104/11-1.jpg"
+      }
+     ],
+     "deck": "downloads/az104/11-azure-app-service.pptx",
+     "deck_kb": 192,
+     "seconds": 665,
+     "words": 1253
+    },
+    {
+     "num": "12",
+     "slug": "12-virtual-networks-peering-routes-and-public-ips",
+     "title": "Virtual Networks, Peering, Routes and Public IPs",
+     "desc": "Virtual networks and subnets, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "1e8KHYLA488",
+       "title": "Virtual networks and subnets, recall and recap",
+       "seconds": 638,
+       "chapters": [
+        [
+         0,
+         "Virtual networks and subnets"
+        ],
+        [
+         119,
+         "Virtual networks and subnets, continued"
+        ],
+        [
+         136,
+         "Virtual network peering"
+        ],
+        [
+         174,
+         "Virtual network peering, continued"
+        ],
+        [
+         195,
+         "Public IP addresses"
+        ],
+        [
+         229,
+         "Routes"
+        ],
+        [
+         274,
+         "Routes, continued"
+        ],
+        [
+         282,
+         "Troubleshooting connectivity"
+        ]
+       ],
+       "published": "2026-11-14T19:50:27Z",
+       "thumb": "img/modules/az104/12-1.jpg"
+      }
+     ],
+     "deck": "downloads/az104/12-virtual-networks-peering-routes-and-public-ips.pptx",
+     "deck_kb": 191,
+     "seconds": 638,
+     "words": 1242
+    },
+    {
+     "num": "13",
+     "slug": "13-secure-access-to-virtual-networks",
+     "title": "Secure Access to Virtual Networks",
+     "desc": "Network security groups (NSGs), recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "nHQJ7xup5D0",
+       "title": "Network security groups (NSGs), recall and recap",
+       "seconds": 666,
+       "chapters": [
+        [
+         0,
+         "Network security groups (NSGs)"
+        ],
+        [
+         127,
+         "Network security groups (NSGs), continued"
+        ],
+        [
+         139,
+         "Network security groups (NSGs), continued"
+        ],
+        [
+         153,
+         "Application security groups (ASGs)"
+        ],
+        [
+         178,
+         "Effective security rules"
+        ],
+        [
+         209,
+         "Azure Bastion"
+        ],
+        [
+         248,
+         "Service endpoints and private endpoints"
+        ],
+        [
+         258,
+         "Service endpoints and private endpoints, continued"
+        ],
+        [
+         293,
+         "Service endpoints and private endpoints, continued"
+        ]
+       ],
+       "published": "2026-11-14T19:50:44Z",
+       "thumb": "img/modules/az104/13-1.jpg"
+      }
+     ],
+     "deck": "downloads/az104/13-secure-access-to-virtual-networks.pptx",
+     "deck_kb": 193,
+     "seconds": 666,
+     "words": 1371
+    },
+    {
+     "num": "14",
+     "slug": "14-azure-dns-and-load-balancing",
+     "title": "Azure DNS and Load Balancing",
+     "desc": "Azure DNS, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "yuFgkRy9lKI",
+       "title": "Azure DNS, recall and recap",
+       "seconds": 611,
+       "chapters": [
+        [
+         0,
+         "Azure DNS"
+        ],
+        [
+         88,
+         "Azure DNS, continued"
+        ],
+        [
+         121,
+         "Azure DNS, continued"
+        ],
+        [
+         145,
+         "Azure Load Balancer"
+        ],
+        [
+         168,
+         "Azure Load Balancer, continued"
+        ],
+        [
+         229,
+         "Azure Load Balancer, continued"
+        ],
+        [
+         238,
+         "Troubleshooting load balancing"
+        ]
+       ],
+       "published": "2026-11-14T19:51:09Z",
+       "thumb": "img/modules/az104/14-1.jpg"
+      }
+     ],
+     "deck": "downloads/az104/14-azure-dns-and-load-balancing.pptx",
+     "deck_kb": 196,
+     "seconds": 611,
+     "words": 1228
+    },
+    {
+     "num": "15",
+     "slug": "15-monitoring-with-azure-monitor",
+     "title": "Monitoring with Azure Monitor",
+     "desc": "Azure Monitor at a glance, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "d3a6j4FUYqY",
+       "title": "Azure Monitor at a glance, recall and recap",
+       "seconds": 608,
+       "chapters": [
+        [
+         0,
+         "Azure Monitor at a glance"
+        ],
+        [
+         83,
+         "Azure Monitor at a glance, continued"
+        ],
+        [
+         93,
+         "Azure Monitor at a glance, continued"
+        ],
+        [
+         129,
+         "Metrics"
+        ],
+        [
+         146,
+         "Logs and diagnostic settings"
+        ],
+        [
+         194,
+         "Alerts"
+        ],
+        [
+         234,
+         "Alerts, continued"
+        ],
+        [
+         251,
+         "Insights and Network Watcher"
+        ]
+       ],
+       "published": "2026-11-14T19:51:31Z",
+       "thumb": "img/modules/az104/15-1.jpg"
+      }
+     ],
+     "deck": "downloads/az104/15-monitoring-with-azure-monitor.pptx",
+     "deck_kb": 212,
+     "seconds": 608,
+     "words": 1040
+    },
+    {
+     "num": "16",
+     "slug": "16-backup-and-recovery",
+     "title": "Backup and Recovery",
+     "desc": "Two vaults, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "yJ5HJ-Uw3aQ",
+       "title": "Two vaults, recall and recap",
+       "seconds": 604,
+       "chapters": [
+        [
+         0,
+         "Two vaults"
+        ],
+        [
+         79,
+         "Two vaults, continued"
+        ],
+        [
+         124,
+         "Backup policies"
+        ],
+        [
+         156,
+         "Backup and restore operations"
+        ],
+        [
+         189,
+         "Azure Site Recovery (ASR)"
+        ],
+        [
+         241,
+         "Azure Site Recovery (ASR), continued"
+        ],
+        [
+         264,
+         "Reports and alerts"
+        ]
+       ],
+       "published": "2026-11-14T19:51:49Z",
+       "thumb": "img/modules/az104/16-1.jpg"
+      }
+     ],
+     "deck": "downloads/az104/16-backup-and-recovery.pptx",
+     "deck_kb": 194,
+     "seconds": 604,
+     "words": 1087
+    },
+    {
+     "num": "17",
+     "slug": "17-exam-technique-and-final-review",
+     "title": "Exam Technique and Final Review",
+     "desc": "The pairs the exam likes to confuse, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "TTB-FKPaJyc",
+       "title": "The pairs the exam likes to confuse, recall and recap",
+       "seconds": 601,
+       "chapters": [
+        [
+         0,
+         "The pairs the exam likes to confuse"
+        ],
+        [
+         108,
+         "The pairs the exam likes to confuse, continued"
+        ],
+        [
+         157,
+         "The pairs the exam likes to confuse, continued"
+        ],
+        [
+         166,
+         "Habits that score points"
+        ]
+       ],
+       "published": "2026-11-14T19:52:11Z",
+       "thumb": "img/modules/az104/17-1.jpg"
+      }
+     ],
+     "deck": "downloads/az104/17-exam-technique-and-final-review.pptx",
+     "deck_kb": 179,
+     "seconds": 601,
+     "words": 1045
+    }
+   ],
+   "facts": {
+    "questions": "See the exam page",
+    "time": "100 min",
+    "passing": "700 of 1,000",
+    "source": "learn.microsoft.com",
+    "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/az-104/"
+   },
+   "videos": 18,
+   "seconds": 10949,
+   "notes": [
+    {
+     "num": "00",
+     "slug": "00-exam-orientation-and-how-to-study",
+     "title": "Exam Orientation and How to Study",
+     "group": "Start here",
+     "tasks": 0,
+     "los": [],
+     "minutes": 3,
+     "check": {
+      "src_words": 680,
+      "page_words": 705,
+      "src_tables": 4,
+      "tables": 4,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 4,
+      "scenario": 4,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "00"
+     ],
+     "domain": "",
+     "ref": "Module 0",
+     "tn": "Module 00",
+     "of": 18,
+     "module": "00"
+    },
+    {
+     "num": "01",
+     "slug": "01-microsoft-entra-users-groups-and-licenses",
+     "title": "Microsoft Entra Users, Groups and Licenses",
+     "group": "Manage Azure identities and governance (20-25%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 4,
+     "check": {
+      "src_words": 876,
+      "page_words": 912,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "01"
+     ],
+     "domain": "",
+     "ref": "Module 1",
+     "tn": "Module 01",
+     "of": 18,
+     "module": "01"
+    },
+    {
+     "num": "02",
+     "slug": "02-azure-rbac-roles-scopes-and-access",
+     "title": "Azure RBAC: Roles, Scopes and Access",
+     "group": "Manage Azure identities and governance (20-25%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 4,
+     "check": {
+      "src_words": 841,
+      "page_words": 878,
+      "src_tables": 4,
+      "tables": 4,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "02"
+     ],
+     "domain": "",
+     "ref": "Module 2",
+     "tn": "Module 02",
+     "of": 18,
+     "module": "02"
+    },
+    {
+     "num": "03",
+     "slug": "03-subscriptions-management-groups-policy-locks-tags-and-costs",
+     "title": "Subscriptions, Management Groups, Policy, Locks, Tags and Costs",
+     "group": "Manage Azure identities and governance (20-25%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 5,
+     "check": {
+      "src_words": 923,
+      "page_words": 963,
+      "src_tables": 6,
+      "tables": 6,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "03"
+     ],
+     "domain": "",
+     "ref": "Module 3",
+     "tn": "Module 03",
+     "of": 18,
+     "module": "03"
+    },
+    {
+     "num": "04",
+     "slug": "04-storage-accounts-redundancy-replication-and-encryption",
+     "title": "Storage Accounts: Redundancy, Replication and Encryption",
+     "group": "Implement and manage storage (15-20%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 4,
+     "check": {
+      "src_words": 905,
+      "page_words": 944,
+      "src_tables": 7,
+      "tables": 7,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "04"
+     ],
+     "domain": "",
+     "ref": "Module 4",
+     "tn": "Module 04",
+     "of": 18,
+     "module": "04"
+    },
+    {
+     "num": "05",
+     "slug": "05-securing-access-to-storage",
+     "title": "Securing Access to Storage",
+     "group": "Implement and manage storage (15-20%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 5,
+     "check": {
+      "src_words": 1035,
+      "page_words": 1072,
+      "src_tables": 6,
+      "tables": 6,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "05"
+     ],
+     "domain": "",
+     "ref": "Module 5",
+     "tn": "Module 05",
+     "of": 18,
+     "module": "05"
+    },
+    {
+     "num": "06",
+     "slug": "06-azure-files-and-blob-storage",
+     "title": "Azure Files and Blob Storage",
+     "group": "Implement and manage storage (15-20%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 4,
+     "check": {
+      "src_words": 748,
+      "page_words": 784,
+      "src_tables": 6,
+      "tables": 6,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "06"
+     ],
+     "domain": "",
+     "ref": "Module 6",
+     "tn": "Module 06",
+     "of": 18,
+     "module": "06"
+    },
+    {
+     "num": "07",
+     "slug": "07-arm-templates-and-bicep",
+     "title": "ARM Templates and Bicep",
+     "group": "Deploy and manage compute resources (20-25%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 4,
+     "check": {
+      "src_words": 846,
+      "page_words": 884,
+      "src_tables": 6,
+      "tables": 6,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "07"
+     ],
+     "domain": "",
+     "ref": "Module 7",
+     "tn": "Module 07",
+     "of": 18,
+     "module": "07"
+    },
+    {
+     "num": "08",
+     "slug": "08-virtual-machines",
+     "title": "Virtual Machines",
+     "group": "Deploy and manage compute resources (20-25%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 4,
+     "check": {
+      "src_words": 905,
+      "page_words": 942,
+      "src_tables": 6,
+      "tables": 6,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "08"
+     ],
+     "domain": "",
+     "ref": "Module 8",
+     "tn": "Module 08",
+     "of": 18,
+     "module": "08"
+    },
+    {
+     "num": "09",
+     "slug": "09-availability-zones-availability-sets-and-scale-sets",
+     "title": "Availability Zones, Availability Sets and Scale Sets",
+     "group": "Deploy and manage compute resources (20-25%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 4,
+     "check": {
+      "src_words": 871,
+      "page_words": 907,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "09"
+     ],
+     "domain": "",
+     "ref": "Module 9",
+     "tn": "Module 09",
+     "of": 18,
+     "module": "09"
+    },
+    {
+     "num": "10",
+     "slug": "10-containers-registry-instances-and-container-apps",
+     "title": "Containers: Registry, Instances and Container Apps",
+     "group": "Deploy and manage compute resources (20-25%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 4,
+     "check": {
+      "src_words": 817,
+      "page_words": 856,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "10"
+     ],
+     "domain": "",
+     "ref": "Module 10",
+     "tn": "Module 10",
+     "of": 18,
+     "module": "10"
+    },
+    {
+     "num": "11",
+     "slug": "11-azure-app-service",
+     "title": "Azure App Service",
+     "group": "Deploy and manage compute resources (20-25%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 5,
+     "check": {
+      "src_words": 937,
+      "page_words": 975,
+      "src_tables": 7,
+      "tables": 7,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 8,
+      "sections": 8
+     },
+     "modules": [
+      "11"
+     ],
+     "domain": "",
+     "ref": "Module 11",
+     "tn": "Module 11",
+     "of": 18,
+     "module": "11"
+    },
+    {
+     "num": "12",
+     "slug": "12-virtual-networks-peering-routes-and-public-ips",
+     "title": "Virtual Networks, Peering, Routes and Public IPs",
+     "group": "Implement and manage virtual networking (15-20%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 5,
+     "check": {
+      "src_words": 993,
+      "page_words": 1030,
+      "src_tables": 6,
+      "tables": 6,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "12"
+     ],
+     "domain": "",
+     "ref": "Module 12",
+     "tn": "Module 12",
+     "of": 18,
+     "module": "12"
+    },
+    {
+     "num": "13",
+     "slug": "13-secure-access-to-virtual-networks",
+     "title": "Secure Access to Virtual Networks",
+     "group": "Implement and manage virtual networking (15-20%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 5,
+     "check": {
+      "src_words": 972,
+      "page_words": 1009,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "13"
+     ],
+     "domain": "",
+     "ref": "Module 13",
+     "tn": "Module 13",
+     "of": 18,
+     "module": "13"
+    },
+    {
+     "num": "14",
+     "slug": "14-azure-dns-and-load-balancing",
+     "title": "Azure DNS and Load Balancing",
+     "group": "Implement and manage virtual networking (15-20%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 5,
+     "check": {
+      "src_words": 940,
+      "page_words": 975,
+      "src_tables": 6,
+      "tables": 6,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 5,
+      "sections": 5
+     },
+     "modules": [
+      "14"
+     ],
+     "domain": "",
+     "ref": "Module 14",
+     "tn": "Module 14",
+     "of": 18,
+     "module": "14"
+    },
+    {
+     "num": "15",
+     "slug": "15-monitoring-with-azure-monitor",
+     "title": "Monitoring with Azure Monitor",
+     "group": "Monitor and maintain Azure resources (10-15%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 4,
+     "check": {
+      "src_words": 832,
+      "page_words": 869,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "15"
+     ],
+     "domain": "",
+     "ref": "Module 15",
+     "tn": "Module 15",
+     "of": 18,
+     "module": "15"
+    },
+    {
+     "num": "16",
+     "slug": "16-backup-and-recovery",
+     "title": "Backup and Recovery",
+     "group": "Monitor and maintain Azure resources (10-15%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 4,
+     "check": {
+      "src_words": 883,
+      "page_words": 920,
+      "src_tables": 6,
+      "tables": 6,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "16"
+     ],
+     "domain": "",
+     "ref": "Module 16",
+     "tn": "Module 16",
+     "of": 18,
+     "module": "16"
+    },
+    {
+     "num": "17",
+     "slug": "17-exam-technique-and-final-review",
+     "title": "Exam Technique and Final Review",
+     "group": "Review and exam day",
+     "tasks": 0,
+     "los": [],
+     "minutes": 4,
+     "check": {
+      "src_words": 846,
+      "page_words": 889,
+      "src_tables": 3,
+      "tables": 3,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 9,
+      "scenario": 9,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 4,
+      "sections": 4
+     },
+     "modules": [
+      "17"
+     ],
+     "domain": "",
+     "ref": "Module 17",
+     "tn": "Module 17",
+     "of": 18,
+     "module": "17"
     }
    ],
    "glossary": 0

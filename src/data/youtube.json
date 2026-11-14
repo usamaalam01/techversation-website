@@ -4000,6 +4000,728 @@
    ]
   ]
  },
+ "AFZb5N3_s_I": {
+  "course": "az104",
+  "key": "00-Exam-Orientation-and-How-to-Study-part-1",
+  "title": "AZ-104 Exam Prep Introduction: Exam Format, Domains and How to Answer | AZ-104",
+  "seconds": 496,
+  "published": "2026-11-14T19:46:31Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "The exam at a glance"
+   ],
+   [
+    100,
+    "The exam at a glance, continued"
+   ],
+   [
+    124,
+    "The five domains"
+   ],
+   [
+    132,
+    "The five domains, continued"
+   ],
+   [
+    182,
+    "How to answer every question"
+   ],
+   [
+    217,
+    "A four-week study plan"
+   ]
+  ]
+ },
+ "gsDE6pS0kG0": {
+  "course": "az104",
+  "key": "01-Microsoft-Entra-Users-Groups-and-Licenses-part-1",
+  "title": "AZ-104 Exam Prep Module 1: Microsoft Entra Users, Groups, Licenses and SSPR | AZ-104",
+  "seconds": 591,
+  "published": "2026-11-14T19:46:53Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Users and groups"
+   ],
+   [
+    112,
+    "Users and groups, continued"
+   ],
+   [
+    121,
+    "Users and groups, continued"
+   ],
+   [
+    152,
+    "Licenses"
+   ],
+   [
+    190,
+    "External users"
+   ],
+   [
+    212,
+    "Self-service password reset (SSPR)"
+   ],
+   [
+    252,
+    "Self-service password reset (SSPR), continued"
+   ]
+  ]
+ },
+ "8-xWbGVZbVQ": {
+  "course": "az104",
+  "key": "02-Azure-RBAC-Roles-Scopes-and-Access-part-1",
+  "title": "AZ-104 Exam Prep Module 2: Azure RBAC: Roles, Scopes and Access | AZ-104",
+  "seconds": 577,
+  "published": "2026-11-14T19:47:02Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "What Azure RBAC is"
+   ],
+   [
+    87,
+    "What Azure RBAC is, continued"
+   ],
+   [
+    96,
+    "What Azure RBAC is, continued"
+   ],
+   [
+    111,
+    "Scope and inheritance"
+   ],
+   [
+    120,
+    "Scope and inheritance, continued"
+   ],
+   [
+    131,
+    "Scope and inheritance, continued"
+   ],
+   [
+    154,
+    "Built-in roles"
+   ],
+   [
+    212,
+    "Assigning and interpreting access"
+   ]
+  ]
+ },
+ "rC8w-r99jws": {
+  "course": "az104",
+  "key": "03-Subscriptions-Management-Groups-Policy-Locks-Tags-and-Costs-part-1",
+  "title": "AZ-104 Exam Prep Module 3: Management Groups, Policy, Locks, Tags and Costs | AZ-104",
+  "seconds": 620,
+  "published": "2026-11-14T19:47:36Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "The organization structure"
+   ],
+   [
+    77,
+    "The organization structure, continued"
+   ],
+   [
+    129,
+    "Azure Policy"
+   ],
+   [
+    197,
+    "Resource locks"
+   ],
+   [
+    225,
+    "Tags"
+   ],
+   [
+    259,
+    "Costs"
+   ]
+  ]
+ },
+ "qyrJ9dVmIDc": {
+  "course": "az104",
+  "key": "04-Storage-Accounts-Redundancy-Replication-and-Encryption-part-1",
+  "title": "AZ-104 Exam Prep Module 4: Storage Accounts: Redundancy, Replication, Encryption | AZ-104",
+  "seconds": 651,
+  "published": "2026-11-14T19:47:49Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "The storage account"
+   ],
+   [
+    96,
+    "The storage account, continued"
+   ],
+   [
+    130,
+    "Redundancy"
+   ],
+   [
+    146,
+    "Redundancy, continued"
+   ],
+   [
+    184,
+    "Redundancy, continued"
+   ],
+   [
+    231,
+    "Object replication"
+   ],
+   [
+    263,
+    "Encryption"
+   ],
+   [
+    303,
+    "Storage Explorer and AzCopy"
+   ]
+  ]
+ },
+ "7AxGbO33iJI": {
+  "course": "az104",
+  "key": "05-Securing-Access-to-Storage-part-1",
+  "title": "AZ-104 Exam Prep Module 5: Securing Storage: Firewalls, SAS and Keys | AZ-104",
+  "seconds": 627,
+  "published": "2026-11-14T19:48:10Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Firewalls and virtual networks"
+   ],
+   [
+    111,
+    "Firewalls and virtual networks, continued"
+   ],
+   [
+    131,
+    "Shared access signatures (SAS)"
+   ],
+   [
+    183,
+    "Stored access policies"
+   ],
+   [
+    213,
+    "Access keys"
+   ],
+   [
+    244,
+    "Identity-based access for Azure Files"
+   ],
+   [
+    273,
+    "Identity-based access for Azure Files, continued"
+   ]
+  ]
+ },
+ "tao-2AVyRi4": {
+  "course": "az104",
+  "key": "06-Azure-Files-and-Blob-Storage-part-1",
+  "title": "AZ-104 Exam Prep Module 6: Azure Files and Blob Storage Tiers | AZ-104",
+  "seconds": 588,
+  "published": "2026-11-14T19:48:27Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Azure Files"
+   ],
+   [
+    117,
+    "Azure Files, continued"
+   ],
+   [
+    136,
+    "Blob Storage"
+   ],
+   [
+    156,
+    "Blob Storage, continued"
+   ],
+   [
+    174,
+    "Access tiers"
+   ],
+   [
+    183,
+    "Access tiers, continued"
+   ],
+   [
+    238,
+    "Lifecycle management, versioning and soft delete"
+   ]
+  ]
+ },
+ "PF9C7eVPsLc": {
+  "course": "az104",
+  "key": "07-ARM-Templates-and-Bicep-part-1",
+  "title": "AZ-104 Exam Prep Module 7: ARM Templates and Bicep | AZ-104",
+  "seconds": 606,
+  "published": "2026-11-14T19:48:52Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Infrastructure as code with Azure Resource Manager"
+   ],
+   [
+    92,
+    "Infrastructure as code with Azure Resource Manager, continued"
+   ],
+   [
+    115,
+    "Infrastructure as code with Azure Resource Manager, continued"
+   ],
+   [
+    126,
+    "Template structure"
+   ],
+   [
+    166,
+    "Bicep"
+   ],
+   [
+    219,
+    "Deploying"
+   ],
+   [
+    267,
+    "Exporting and modifying"
+   ]
+  ]
+ },
+ "5p839_JBmfA": {
+  "course": "az104",
+  "key": "08-Virtual-Machines-part-1",
+  "title": "AZ-104 Exam Prep Module 8: Virtual Machines, Disks and Encryption | AZ-104",
+  "seconds": 610,
+  "published": "2026-11-14T19:48:58Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Creating a virtual machine"
+   ],
+   [
+    115,
+    "Creating a virtual machine, continued"
+   ],
+   [
+    126,
+    "Creating a virtual machine, continued"
+   ],
+   [
+    151,
+    "Sizes"
+   ],
+   [
+    190,
+    "Disks"
+   ],
+   [
+    237,
+    "Disk encryption"
+   ],
+   [
+    272,
+    "Moving a VM"
+   ]
+  ]
+ },
+ "M8po5PfJRxU": {
+  "course": "az104",
+  "key": "09-Availability-Zones-Availability-Sets-and-Scale-Sets-part-1",
+  "title": "AZ-104 Exam Prep Module 9: Availability Zones, Sets and Scale Sets | AZ-104",
+  "seconds": 594,
+  "published": "2026-11-14T19:49:30Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Why availability options"
+   ],
+   [
+    71,
+    "Why availability options, continued"
+   ],
+   [
+    80,
+    "Why availability options, continued"
+   ],
+   [
+    118,
+    "Availability zones"
+   ],
+   [
+    153,
+    "Availability sets"
+   ],
+   [
+    176,
+    "Availability sets, continued"
+   ],
+   [
+    202,
+    "Virtual Machine Scale Sets"
+   ],
+   [
+    243,
+    "Virtual Machine Scale Sets, continued"
+   ],
+   [
+    276,
+    "Virtual Machine Scale Sets, continued"
+   ]
+  ]
+ },
+ "KnJdzSnE10M": {
+  "course": "az104",
+  "key": "10-Containers-Registry-Instances-and-Container-Apps-part-1",
+  "title": "AZ-104 Exam Prep Module 10: Containers: Registry, Instances and Container Apps | AZ-104",
+  "seconds": 596,
+  "published": "2026-11-14T19:49:49Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Containers in one page"
+   ],
+   [
+    84,
+    "Containers in one page, continued"
+   ],
+   [
+    94,
+    "Azure Container Registry (ACR)"
+   ],
+   [
+    151,
+    "Azure Container Instances (ACI)"
+   ],
+   [
+    208,
+    "Azure Container Apps"
+   ],
+   [
+    268,
+    "Sizing and scaling"
+   ]
+  ]
+ },
+ "kTDcIjT8120": {
+  "course": "az104",
+  "key": "11-Azure-App-Service-part-1",
+  "title": "AZ-104 Exam Prep Module 11: Azure App Service: Plans, Slots, TLS and Backup | AZ-104",
+  "seconds": 665,
+  "published": "2026-11-14T19:50:11Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "App Service and the plan"
+   ],
+   [
+    96,
+    "App Service and the plan, continued"
+   ],
+   [
+    137,
+    "Scaling"
+   ],
+   [
+    145,
+    "Scaling, continued"
+   ],
+   [
+    174,
+    "Certificates, TLS and custom domains"
+   ],
+   [
+    216,
+    "Certificates, TLS and custom domains, continued"
+   ],
+   [
+    228,
+    "Backup"
+   ],
+   [
+    256,
+    "Networking"
+   ],
+   [
+    296,
+    "Deployment slots"
+   ],
+   [
+    337,
+    "Deployment slots, continued"
+   ]
+  ]
+ },
+ "1e8KHYLA488": {
+  "course": "az104",
+  "key": "12-Virtual-Networks-Peering-Routes-and-Public-IPs-part-1",
+  "title": "AZ-104 Exam Prep Module 12: Virtual Networks, Peering, Routes and Public IPs | AZ-104",
+  "seconds": 638,
+  "published": "2026-11-14T19:50:27Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Virtual networks and subnets"
+   ],
+   [
+    119,
+    "Virtual networks and subnets, continued"
+   ],
+   [
+    136,
+    "Virtual network peering"
+   ],
+   [
+    174,
+    "Virtual network peering, continued"
+   ],
+   [
+    195,
+    "Public IP addresses"
+   ],
+   [
+    229,
+    "Routes"
+   ],
+   [
+    274,
+    "Routes, continued"
+   ],
+   [
+    282,
+    "Troubleshooting connectivity"
+   ]
+  ]
+ },
+ "nHQJ7xup5D0": {
+  "course": "az104",
+  "key": "13-Secure-Access-to-Virtual-Networks-part-1",
+  "title": "AZ-104 Exam Prep Module 13: NSGs, Bastion, Service and Private Endpoints | AZ-104",
+  "seconds": 666,
+  "published": "2026-11-14T19:50:44Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Network security groups (NSGs)"
+   ],
+   [
+    127,
+    "Network security groups (NSGs), continued"
+   ],
+   [
+    139,
+    "Network security groups (NSGs), continued"
+   ],
+   [
+    153,
+    "Application security groups (ASGs)"
+   ],
+   [
+    178,
+    "Effective security rules"
+   ],
+   [
+    209,
+    "Azure Bastion"
+   ],
+   [
+    248,
+    "Service endpoints and private endpoints"
+   ],
+   [
+    258,
+    "Service endpoints and private endpoints, continued"
+   ],
+   [
+    293,
+    "Service endpoints and private endpoints, continued"
+   ]
+  ]
+ },
+ "yuFgkRy9lKI": {
+  "course": "az104",
+  "key": "14-Azure-DNS-and-Load-Balancing-part-1",
+  "title": "AZ-104 Exam Prep Module 14: Azure DNS and Load Balancer | AZ-104",
+  "seconds": 611,
+  "published": "2026-11-14T19:51:09Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Azure DNS"
+   ],
+   [
+    88,
+    "Azure DNS, continued"
+   ],
+   [
+    121,
+    "Azure DNS, continued"
+   ],
+   [
+    145,
+    "Azure Load Balancer"
+   ],
+   [
+    168,
+    "Azure Load Balancer, continued"
+   ],
+   [
+    229,
+    "Azure Load Balancer, continued"
+   ],
+   [
+    238,
+    "Troubleshooting load balancing"
+   ]
+  ]
+ },
+ "d3a6j4FUYqY": {
+  "course": "az104",
+  "key": "15-Monitoring-with-Azure-Monitor-part-1",
+  "title": "AZ-104 Exam Prep Module 15: Azure Monitor: Metrics, Logs, Alerts and Insights | AZ-104",
+  "seconds": 608,
+  "published": "2026-11-14T19:51:31Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Azure Monitor at a glance"
+   ],
+   [
+    83,
+    "Azure Monitor at a glance, continued"
+   ],
+   [
+    93,
+    "Azure Monitor at a glance, continued"
+   ],
+   [
+    129,
+    "Metrics"
+   ],
+   [
+    146,
+    "Logs and diagnostic settings"
+   ],
+   [
+    194,
+    "Alerts"
+   ],
+   [
+    234,
+    "Alerts, continued"
+   ],
+   [
+    251,
+    "Insights and Network Watcher"
+   ]
+  ]
+ },
+ "yJ5HJ-Uw3aQ": {
+  "course": "az104",
+  "key": "16-Backup-and-Recovery-part-1",
+  "title": "AZ-104 Exam Prep Module 16: Azure Backup and Site Recovery | AZ-104",
+  "seconds": 604,
+  "published": "2026-11-14T19:51:49Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Two vaults"
+   ],
+   [
+    79,
+    "Two vaults, continued"
+   ],
+   [
+    124,
+    "Backup policies"
+   ],
+   [
+    156,
+    "Backup and restore operations"
+   ],
+   [
+    189,
+    "Azure Site Recovery (ASR)"
+   ],
+   [
+    241,
+    "Azure Site Recovery (ASR), continued"
+   ],
+   [
+    264,
+    "Reports and alerts"
+   ]
+  ]
+ },
+ "TTB-FKPaJyc": {
+  "course": "az104",
+  "key": "17-Exam-Technique-and-Final-Review-part-1",
+  "title": "AZ-104 Exam Prep Module 17: Exam Technique, Look-Alike Services and Mixed Practice | AZ-104",
+  "seconds": 601,
+  "published": "2026-11-14T19:52:11Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "The pairs the exam likes to confuse"
+   ],
+   [
+    108,
+    "The pairs the exam likes to confuse, continued"
+   ],
+   [
+    157,
+    "The pairs the exam likes to confuse, continued"
+   ],
+   [
+    166,
+    "Habits that score points"
+   ]
+  ]
+ },
  "wZRTzxWly78": {
   "course": "dva",
   "key": "00-Exam-Orientation-and-How-to-Study-part-1",
