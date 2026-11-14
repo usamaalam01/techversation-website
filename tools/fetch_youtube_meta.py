@@ -19,7 +19,7 @@ def ids():
         d = json.loads((OC / c / "upload_progress.json").read_text(encoding="utf-8"))
         for k, v in d["videos"].items():
             out[v["id"]] = (c.lower(), k)
-    for c, slug in (("AWS-CLF", "clf"), ("AWS-AIF", "aif"), ("AWS-SAA", "saa"), ("AWS-DEA", "dea"), ("Anthropic-CCAR-F", "ccar"), ("Anthropic-CCDV-F", "ccdv"), ("Anthropic-CCAO-F", "ccao"), ("Anthropic-CCAR-P", "ccarp"), ("CNCF-CKA", "cka"), ("AZ-900", "az900"), ("AI-901", "ai901"), ("Security-SY0-801", "sy0801"), ("SC-900", "sc900")):          # progress files like the first loop, but the site slug differs from the folder
+    for c, slug in (("ITIL-Foundation", "itil"), ("AWS-CLF", "clf"), ("AWS-AIF", "aif"), ("AWS-SAA", "saa"), ("AWS-DEA", "dea"), ("Anthropic-CCAR-F", "ccar"), ("Anthropic-CCDV-F", "ccdv"), ("Anthropic-CCAO-F", "ccao"), ("Anthropic-CCAR-P", "ccarp"), ("CNCF-CKA", "cka"), ("AZ-900", "az900"), ("AI-901", "ai901"), ("Security-SY0-801", "sy0801"), ("SC-900", "sc900")):          # progress files like the first loop, but the site slug differs from the folder
         if not (OC / c / "upload_progress.json").exists():
             continue
         d = json.loads((OC / c / "upload_progress.json").read_text(encoding="utf-8"))

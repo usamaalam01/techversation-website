@@ -4000,6 +4000,566 @@
    ]
   ]
  },
+ "yf1i5aKQzgY": {
+  "course": "itil",
+  "key": "00-Exam-Orientation-and-How-to-Study-part-1",
+  "title": "ITIL Foundation Exam Prep Introduction: Exam Format, Question Styles and How to Answer",
+  "seconds": 598,
+  "published": "2026-11-14T11:28:03Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "The exam at a glance"
+   ],
+   [
+    122,
+    "The four question styles"
+   ],
+   [
+    151,
+    "The four question styles, continued"
+   ],
+   [
+    169,
+    "The seven categories and their weight"
+   ],
+   [
+    244,
+    "The seven categories and their weight, continued"
+   ],
+   [
+    263,
+    "How to answer every question"
+   ],
+   [
+    297,
+    "A four-week study plan"
+   ]
+  ]
+ },
+ "U9PmBOAjrVI": {
+  "course": "itil",
+  "key": "01-Digital-Product-and-Service-Management-Key-Concepts-part-1",
+  "title": "ITIL Foundation Exam Prep Module 1: Product, Service, Utility, Warranty and Service Offerings",
+  "seconds": 669,
+  "published": "2026-11-14T11:28:26Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "The big idea"
+   ],
+   [
+    97,
+    "The big idea, continued"
+   ],
+   [
+    106,
+    "Product, service and good"
+   ],
+   [
+    166,
+    "Product, service and good, continued"
+   ],
+   [
+    190,
+    "Service offerings"
+   ],
+   [
+    228,
+    "Service offerings, continued"
+   ],
+   [
+    257,
+    "Utility, warranty, user experience, sustainability"
+   ],
+   [
+    295,
+    "Benefits of ITIL"
+   ]
+  ]
+ },
+ "qfjrMRAsdcw": {
+  "course": "itil",
+  "key": "02-Value-Co-Creation-and-Service-Relationships-part-1",
+  "title": "ITIL Foundation Exam Prep Module 2: Value Co-Creation, Output vs Outcome, Roles and SLAs",
+  "seconds": 657,
+  "published": "2026-11-14T11:28:54Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Value and co-creation"
+   ],
+   [
+    133,
+    "What contributes to value"
+   ],
+   [
+    145,
+    "What contributes to value, continued"
+   ],
+   [
+    188,
+    "Who is who"
+   ],
+   [
+    230,
+    "Roles of the consumer"
+   ],
+   [
+    259,
+    "Relationship types and the service journey"
+   ],
+   [
+    295,
+    "Service quality, service level and SLA"
+   ]
+  ]
+ },
+ "w6pS_sDyQT8": {
+  "course": "itil",
+  "key": "03-Experience-Strategy-and-Transformation-Terms-part-1",
+  "title": "ITIL Foundation Exam Prep Module 3: Experience, Strategy and Transformation Terms | ITIL Foundation",
+  "seconds": 573,
+  "published": "2026-11-14T11:29:07Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Experience terms"
+   ],
+   [
+    126,
+    "Strategy terms"
+   ],
+   [
+    178,
+    "Strategy terms, continued"
+   ],
+   [
+    201,
+    "Transformation terms"
+   ]
+  ]
+ },
+ "7yDoKai17YQ": {
+  "course": "itil",
+  "key": "04-The-Four-Dimensions-and-External-Factors-part-1",
+  "title": "ITIL Foundation Exam Prep Module 4: The Four Dimensions and PESTLE | ITIL Foundation",
+  "seconds": 610,
+  "published": "2026-11-14T11:29:27Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Why four dimensions"
+   ],
+   [
+    105,
+    "Why four dimensions, continued"
+   ],
+   [
+    114,
+    "Why four dimensions, continued"
+   ],
+   [
+    124,
+    "Each dimension in a little more detail"
+   ],
+   [
+    170,
+    "Each dimension in a little more detail, continued"
+   ],
+   [
+    202,
+    "External factors: PESTLE"
+   ],
+   [
+    267,
+    "External factors: PESTLE, continued"
+   ]
+  ]
+ },
+ "PeeFyYNJDIU": {
+  "course": "itil",
+  "key": "05-The-Product-and-Service-Lifecycle-and-the-Value-Chain-part-1",
+  "title": "ITIL Foundation Exam Prep Module 5: The Eight Lifecycle Activities and the Value Chain",
+  "seconds": 576,
+  "published": "2026-11-14T11:30:08Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "The eight activities"
+   ],
+   [
+    78,
+    "The eight activities, continued"
+   ],
+   [
+    87,
+    "The eight activities, continued"
+   ],
+   [
+    140,
+    "Not sequential, not linear"
+   ],
+   [
+    168,
+    "Not sequential, not linear, continued"
+   ],
+   [
+    192,
+    "The value chain"
+   ],
+   [
+    237,
+    "The value chain, continued"
+   ]
+  ]
+ },
+ "I5Lken2HOFg": {
+  "course": "itil",
+  "key": "06-Discover-Design-Acquire-and-Build-part-1",
+  "title": "ITIL Foundation Exam Prep Module 6: Discover, Design, Acquire and Build | ITIL Foundation",
+  "seconds": 531,
+  "published": "2026-11-14T11:30:09Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Discover"
+   ],
+   [
+    96,
+    "Design"
+   ],
+   [
+    136,
+    "Acquire"
+   ],
+   [
+    158,
+    "Build"
+   ],
+   [
+    195,
+    "Build, continued"
+   ]
+  ]
+ },
+ "jXY5_DdsjAg": {
+  "course": "itil",
+  "key": "07-Transition-Operate-Deliver-and-Support-part-1",
+  "title": "ITIL Foundation Exam Prep Module 7: Transition, Operate, Deliver, Support, Incident and Problem",
+  "seconds": 625,
+  "published": "2026-11-14T11:30:27Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Transition"
+   ],
+   [
+    113,
+    "Operate"
+   ],
+   [
+    164,
+    "Deliver"
+   ],
+   [
+    184,
+    "Support"
+   ],
+   [
+    226,
+    "Support, continued"
+   ],
+   [
+    248,
+    "All eight at a glance"
+   ]
+  ]
+ },
+ "Ji9k4XPazVc": {
+  "course": "itil",
+  "key": "08-The-ITIL-Value-System-and-Governance-part-1",
+  "title": "ITIL Foundation Exam Prep Module 8: The ITIL Value System, Governance and the Operating Model",
+  "seconds": 583,
+  "published": "2026-11-14T11:30:40Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "The ITIL Value System"
+   ],
+   [
+    128,
+    "The ITIL Value System, continued"
+   ],
+   [
+    138,
+    "The ITIL Value System, continued"
+   ],
+   [
+    175,
+    "Governance"
+   ],
+   [
+    215,
+    "Operating model"
+   ]
+  ]
+ },
+ "V9Kg43he8Hk": {
+  "course": "itil",
+  "key": "09-The-Seven-Guiding-Principles-part-1",
+  "title": "ITIL Foundation Exam Prep Module 9: The Seven Guiding Principles | ITIL Foundation",
+  "seconds": 635,
+  "published": "2026-11-14T11:31:00Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "What the principles are"
+   ],
+   [
+    75,
+    "What the principles are, continued"
+   ],
+   [
+    82,
+    "What the principles are, continued"
+   ],
+   [
+    120,
+    "What the principles are, continued"
+   ],
+   [
+    158,
+    "How to use each principle"
+   ],
+   [
+    193,
+    "How to use each principle, continued"
+   ],
+   [
+    220,
+    "How the principles work together"
+   ]
+  ]
+ },
+ "e0hmPA1fy0Q": {
+  "course": "itil",
+  "key": "10-Management-Practices-and-Practice-Guides-part-1",
+  "title": "ITIL Foundation Exam Prep Module 10: Management Practices, Practice Guides, Metrics and CSFs",
+  "seconds": 573,
+  "published": "2026-11-14T11:31:21Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "What a management practice is"
+   ],
+   [
+    118,
+    "What a management practice is, continued"
+   ],
+   [
+    127,
+    "What a management practice is, continued"
+   ],
+   [
+    148,
+    "Role of the practices in the Value System"
+   ],
+   [
+    166,
+    "The ITIL Practice Guides"
+   ],
+   [
+    215,
+    "Metric and critical success factor"
+   ]
+  ]
+ },
+ "bza3LwzNYJs": {
+  "course": "itil",
+  "key": "11-The-Continual-Improvement-Model-part-1",
+  "title": "ITIL Foundation Exam Prep Module 11: The Continual Improvement Model | ITIL Foundation",
+  "seconds": 567,
+  "published": "2026-11-14T11:31:39Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Why a model"
+   ],
+   [
+    85,
+    "The seven steps"
+   ],
+   [
+    136,
+    "The seven steps, continued"
+   ],
+   [
+    145,
+    "The seven steps, continued"
+   ],
+   [
+    170,
+    "Key points on each step"
+   ],
+   [
+    211,
+    "Role in the ITIL Value System"
+   ]
+  ]
+ },
+ "n05axdEE3XM": {
+  "course": "itil",
+  "key": "12-Value-Stream-Mapping-and-Management-part-1",
+  "title": "ITIL Foundation Exam Prep Module 12: Value Stream Mapping and Management | ITIL Foundation",
+  "seconds": 580,
+  "published": "2026-11-14T11:32:28Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Value streams"
+   ],
+   [
+    113,
+    "Value stream mapping and management"
+   ],
+   [
+    148,
+    "Elements of a value stream map"
+   ],
+   [
+    157,
+    "Elements of a value stream map, continued"
+   ],
+   [
+    197,
+    "Complexity thinking"
+   ]
+  ]
+ },
+ "vGrKOELGBto": {
+  "course": "itil",
+  "key": "13-ITIL-and-AI-part-1",
+  "title": "ITIL Foundation Exam Prep Module 13: ITIL and AI: GenAI, Agentic AI and the AI Capability Model",
+  "seconds": 572,
+  "published": "2026-11-14T11:32:22Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Key AI terms"
+   ],
+   [
+    102,
+    "Key AI terms, continued"
+   ],
+   [
+    132,
+    "How AI helps"
+   ],
+   [
+    175,
+    "The ITIL AI Capability Model"
+   ],
+   [
+    232,
+    "The ITIL AI Capability Model, continued"
+   ]
+  ]
+ },
+ "OXRExhHr_UQ": {
+  "course": "itil",
+  "key": "14-ITIL-with-DevOps-and-PRINCE2-part-1",
+  "title": "ITIL Foundation Exam Prep Module 14: ITIL with DevOps and PRINCE2 | ITIL Foundation",
+  "seconds": 513,
+  "published": "2026-11-14T11:32:37Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "ITIL and DevOps"
+   ],
+   [
+    109,
+    "ITIL and DevOps, continued"
+   ],
+   [
+    127,
+    "ITIL and PRINCE2"
+   ],
+   [
+    162,
+    "ITIL and PRINCE2, continued"
+   ]
+  ]
+ },
+ "-Zoazk2_u3s": {
+  "course": "itil",
+  "key": "15-Exam-Technique-and-Final-Review-part-1",
+  "title": "ITIL Foundation Exam Prep Module 15: Exam Technique, Look-Alike Terms and Mixed Practice",
+  "seconds": 695,
+  "published": "2026-11-14T11:32:59Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "The pairs the exam likes to confuse"
+   ],
+   [
+    97,
+    "The pairs the exam likes to confuse, continued"
+   ],
+   [
+    130,
+    "The pairs the exam likes to confuse, continued"
+   ],
+   [
+    140,
+    "The lists to know by heart"
+   ],
+   [
+    183,
+    "The lists to know by heart, continued"
+   ],
+   [
+    215,
+    "Technique for each question style"
+   ],
+   [
+    265,
+    "Technique for each question style, continued"
+   ]
+  ]
+ },
  "xPzjsPW5oVQ": {
   "course": "clf",
   "key": "00-Course-Introduction-part-1",

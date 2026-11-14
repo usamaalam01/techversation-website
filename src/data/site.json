@@ -100,6 +100,15 @@
    ]
   },
   {
+   "id": "peoplecert",
+   "name": "PeopleCert",
+   "full": "PeopleCert (ITIL and PRINCE2)",
+   "mono": "PC",
+   "certs": [
+    "itil"
+   ]
+  },
+  {
    "id": "training",
    "name": "Training",
    "full": "Techversation training courses",
@@ -36148,6 +36157,1267 @@
       "images": 1,
       "src_scenario": 12,
       "scenario": 12,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 5,
+      "sections": 5
+     },
+     "modules": [
+      "15"
+     ],
+     "domain": "",
+     "ref": "Module 15",
+     "tn": "Module 15",
+     "of": 16,
+     "module": "15"
+    }
+   ],
+   "glossary": 0
+  },
+  {
+   "kind": "certification",
+   "topic": null,
+   "slug": "itil",
+   "institute": "peoplecert",
+   "short": "ITIL Foundation",
+   "name": "ITIL Foundation (Version 5)",
+   "title": "ITIL Foundation Exam Prep Masterclass",
+   "accent": "c-itil",
+   "desc": "Digital product and service management: key terms, value co-creation, the four dimensions, the eight lifecycle activities, the ITIL Value System, guiding principles, practices, continual improvement, value streams, AI, DevOps and PRINCE2, with exam-style questions in every module.",
+   "audience": "Students, career changers and IT or service staff new to ITIL, and anyone preparing for the ITIL Foundation (Version 5) exam. No prior ITIL knowledge is needed.",
+   "sources": "The official ITIL Foundation (Version 5) syllabus (PeopleCert) and public ITIL guidance.",
+   "playlist": "PLIkDOx_SufeI",
+   "cover": "img/covers/itil.jpg",
+   "modules": [
+    {
+     "num": "00",
+     "slug": "00-exam-orientation-and-how-to-study",
+     "title": "Exam Orientation and How to Study",
+     "desc": "The exam at a glance and The four question styles, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "yf1i5aKQzgY",
+       "title": "The exam at a glance and The four question styles, recall and recap",
+       "seconds": 598,
+       "chapters": [
+        [
+         0,
+         "The exam at a glance"
+        ],
+        [
+         122,
+         "The four question styles"
+        ],
+        [
+         151,
+         "The four question styles, continued"
+        ],
+        [
+         169,
+         "The seven categories and their weight"
+        ],
+        [
+         244,
+         "The seven categories and their weight, continued"
+        ],
+        [
+         263,
+         "How to answer every question"
+        ],
+        [
+         297,
+         "A four-week study plan"
+        ]
+       ],
+       "published": "2026-11-14T11:28:03Z",
+       "thumb": "img/modules/itil/00-1.jpg"
+      }
+     ],
+     "deck": "downloads/itil/00-exam-orientation-and-how-to-study.pptx",
+     "deck_kb": 166,
+     "seconds": 598,
+     "words": 1090
+    },
+    {
+     "num": "01",
+     "slug": "01-digital-product-and-service-management-key-concepts",
+     "title": "Digital Product and Service Management: Key Concepts",
+     "desc": "The big idea, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "U9PmBOAjrVI",
+       "title": "The big idea, recall and recap",
+       "seconds": 669,
+       "chapters": [
+        [
+         0,
+         "The big idea"
+        ],
+        [
+         97,
+         "The big idea, continued"
+        ],
+        [
+         106,
+         "Product, service and good"
+        ],
+        [
+         166,
+         "Product, service and good, continued"
+        ],
+        [
+         190,
+         "Service offerings"
+        ],
+        [
+         228,
+         "Service offerings, continued"
+        ],
+        [
+         257,
+         "Utility, warranty, user experience, sustainability"
+        ],
+        [
+         295,
+         "Benefits of ITIL"
+        ]
+       ],
+       "published": "2026-11-14T11:28:26Z",
+       "thumb": "img/modules/itil/01-1.jpg"
+      }
+     ],
+     "deck": "downloads/itil/01-digital-product-and-service-management-key-concepts.pptx",
+     "deck_kb": 180,
+     "seconds": 669,
+     "words": 1233
+    },
+    {
+     "num": "02",
+     "slug": "02-value-co-creation-and-service-relationships",
+     "title": "Value Co-Creation and Service Relationships",
+     "desc": "Value and co-creation and What contributes to value, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "qfjrMRAsdcw",
+       "title": "Value and co-creation and What contributes to value, recall and recap",
+       "seconds": 657,
+       "chapters": [
+        [
+         0,
+         "Value and co-creation"
+        ],
+        [
+         133,
+         "What contributes to value"
+        ],
+        [
+         145,
+         "What contributes to value, continued"
+        ],
+        [
+         188,
+         "Who is who"
+        ],
+        [
+         230,
+         "Roles of the consumer"
+        ],
+        [
+         259,
+         "Relationship types and the service journey"
+        ],
+        [
+         295,
+         "Service quality, service level and SLA"
+        ]
+       ],
+       "published": "2026-11-14T11:28:54Z",
+       "thumb": "img/modules/itil/02-1.jpg"
+      }
+     ],
+     "deck": "downloads/itil/02-value-co-creation-and-service-relationships.pptx",
+     "deck_kb": 166,
+     "seconds": 657,
+     "words": 1144
+    },
+    {
+     "num": "03",
+     "slug": "03-experience-strategy-and-transformation-terms",
+     "title": "Experience, Strategy and Transformation Terms",
+     "desc": "Experience terms and Strategy terms, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "w6pS_sDyQT8",
+       "title": "Experience terms and Strategy terms, recall and recap",
+       "seconds": 573,
+       "chapters": [
+        [
+         0,
+         "Experience terms"
+        ],
+        [
+         126,
+         "Strategy terms"
+        ],
+        [
+         178,
+         "Strategy terms, continued"
+        ],
+        [
+         201,
+         "Transformation terms"
+        ]
+       ],
+       "published": "2026-11-14T11:29:07Z",
+       "thumb": "img/modules/itil/03-1.jpg"
+      }
+     ],
+     "deck": "downloads/itil/03-experience-strategy-and-transformation-terms.pptx",
+     "deck_kb": 115,
+     "seconds": 573,
+     "words": 990
+    },
+    {
+     "num": "04",
+     "slug": "04-the-four-dimensions-and-external-factors",
+     "title": "The Four Dimensions and External Factors",
+     "desc": "Why four dimensions, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "7yDoKai17YQ",
+       "title": "Why four dimensions, recall and recap",
+       "seconds": 610,
+       "chapters": [
+        [
+         0,
+         "Why four dimensions"
+        ],
+        [
+         105,
+         "Why four dimensions, continued"
+        ],
+        [
+         114,
+         "Why four dimensions, continued"
+        ],
+        [
+         124,
+         "Each dimension in a little more detail"
+        ],
+        [
+         170,
+         "Each dimension in a little more detail, continued"
+        ],
+        [
+         202,
+         "External factors: PESTLE"
+        ],
+        [
+         267,
+         "External factors: PESTLE, continued"
+        ]
+       ],
+       "published": "2026-11-14T11:29:27Z",
+       "thumb": "img/modules/itil/04-1.jpg"
+      }
+     ],
+     "deck": "downloads/itil/04-the-four-dimensions-and-external-factors.pptx",
+     "deck_kb": 161,
+     "seconds": 610,
+     "words": 1005
+    },
+    {
+     "num": "05",
+     "slug": "05-the-product-and-service-lifecycle-and-the-value-chain",
+     "title": "The Product and Service Lifecycle and the Value Chain",
+     "desc": "The eight activities, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "PeeFyYNJDIU",
+       "title": "The eight activities, recall and recap",
+       "seconds": 576,
+       "chapters": [
+        [
+         0,
+         "The eight activities"
+        ],
+        [
+         78,
+         "The eight activities, continued"
+        ],
+        [
+         87,
+         "The eight activities, continued"
+        ],
+        [
+         140,
+         "Not sequential, not linear"
+        ],
+        [
+         168,
+         "Not sequential, not linear, continued"
+        ],
+        [
+         192,
+         "The value chain"
+        ],
+        [
+         237,
+         "The value chain, continued"
+        ]
+       ],
+       "published": "2026-11-14T11:30:08Z",
+       "thumb": "img/modules/itil/05-1.jpg"
+      }
+     ],
+     "deck": "downloads/itil/05-the-product-and-service-lifecycle-and-the-value-chain.pptx",
+     "deck_kb": 143,
+     "seconds": 576,
+     "words": 1032
+    },
+    {
+     "num": "06",
+     "slug": "06-discover-design-acquire-and-build",
+     "title": "Discover, Design, Acquire and Build",
+     "desc": "Discover and Design, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "I5Lken2HOFg",
+       "title": "Discover and Design, recall and recap",
+       "seconds": 531,
+       "chapters": [
+        [
+         0,
+         "Discover"
+        ],
+        [
+         96,
+         "Design"
+        ],
+        [
+         136,
+         "Acquire"
+        ],
+        [
+         158,
+         "Build"
+        ],
+        [
+         195,
+         "Build, continued"
+        ]
+       ],
+       "published": "2026-11-14T11:30:09Z",
+       "thumb": "img/modules/itil/06-1.jpg"
+      }
+     ],
+     "deck": "downloads/itil/06-discover-design-acquire-and-build.pptx",
+     "deck_kb": 119,
+     "seconds": 531,
+     "words": 885
+    },
+    {
+     "num": "07",
+     "slug": "07-transition-operate-deliver-and-support",
+     "title": "Transition, Operate, Deliver and Support",
+     "desc": "Transition and Operate, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "jXY5_DdsjAg",
+       "title": "Transition and Operate, recall and recap",
+       "seconds": 625,
+       "chapters": [
+        [
+         0,
+         "Transition"
+        ],
+        [
+         113,
+         "Operate"
+        ],
+        [
+         164,
+         "Deliver"
+        ],
+        [
+         184,
+         "Support"
+        ],
+        [
+         226,
+         "Support, continued"
+        ],
+        [
+         248,
+         "All eight at a glance"
+        ]
+       ],
+       "published": "2026-11-14T11:30:27Z",
+       "thumb": "img/modules/itil/07-1.jpg"
+      }
+     ],
+     "deck": "downloads/itil/07-transition-operate-deliver-and-support.pptx",
+     "deck_kb": 133,
+     "seconds": 625,
+     "words": 1085
+    },
+    {
+     "num": "08",
+     "slug": "08-the-itil-value-system-and-governance",
+     "title": "The ITIL Value System and Governance",
+     "desc": "The ITIL Value System, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "Ji9k4XPazVc",
+       "title": "The ITIL Value System, recall and recap",
+       "seconds": 583,
+       "chapters": [
+        [
+         0,
+         "The ITIL Value System"
+        ],
+        [
+         128,
+         "The ITIL Value System, continued"
+        ],
+        [
+         138,
+         "The ITIL Value System, continued"
+        ],
+        [
+         175,
+         "Governance"
+        ],
+        [
+         215,
+         "Operating model"
+        ]
+       ],
+       "published": "2026-11-14T11:30:40Z",
+       "thumb": "img/modules/itil/08-1.jpg"
+      }
+     ],
+     "deck": "downloads/itil/08-the-itil-value-system-and-governance.pptx",
+     "deck_kb": 139,
+     "seconds": 583,
+     "words": 1020
+    },
+    {
+     "num": "09",
+     "slug": "09-the-seven-guiding-principles",
+     "title": "The Seven Guiding Principles",
+     "desc": "What the principles are, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "V9Kg43he8Hk",
+       "title": "What the principles are, recall and recap",
+       "seconds": 635,
+       "chapters": [
+        [
+         0,
+         "What the principles are"
+        ],
+        [
+         75,
+         "What the principles are, continued"
+        ],
+        [
+         82,
+         "What the principles are, continued"
+        ],
+        [
+         120,
+         "What the principles are, continued"
+        ],
+        [
+         158,
+         "How to use each principle"
+        ],
+        [
+         193,
+         "How to use each principle, continued"
+        ],
+        [
+         220,
+         "How the principles work together"
+        ]
+       ],
+       "published": "2026-11-14T11:31:00Z",
+       "thumb": "img/modules/itil/09-1.jpg"
+      }
+     ],
+     "deck": "downloads/itil/09-the-seven-guiding-principles.pptx",
+     "deck_kb": 161,
+     "seconds": 635,
+     "words": 1109
+    },
+    {
+     "num": "10",
+     "slug": "10-management-practices-and-practice-guides",
+     "title": "Management Practices and Practice Guides",
+     "desc": "What a management practice is, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "e0hmPA1fy0Q",
+       "title": "What a management practice is, recall and recap",
+       "seconds": 573,
+       "chapters": [
+        [
+         0,
+         "What a management practice is"
+        ],
+        [
+         118,
+         "What a management practice is, continued"
+        ],
+        [
+         127,
+         "What a management practice is, continued"
+        ],
+        [
+         148,
+         "Role of the practices in the Value System"
+        ],
+        [
+         166,
+         "The ITIL Practice Guides"
+        ],
+        [
+         215,
+         "Metric and critical success factor"
+        ]
+       ],
+       "published": "2026-11-14T11:31:21Z",
+       "thumb": "img/modules/itil/10-1.jpg"
+      }
+     ],
+     "deck": "downloads/itil/10-management-practices-and-practice-guides.pptx",
+     "deck_kb": 156,
+     "seconds": 573,
+     "words": 1013
+    },
+    {
+     "num": "11",
+     "slug": "11-the-continual-improvement-model",
+     "title": "The Continual Improvement Model",
+     "desc": "Why a model and The seven steps, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "bza3LwzNYJs",
+       "title": "Why a model and The seven steps, recall and recap",
+       "seconds": 567,
+       "chapters": [
+        [
+         0,
+         "Why a model"
+        ],
+        [
+         85,
+         "The seven steps"
+        ],
+        [
+         136,
+         "The seven steps, continued"
+        ],
+        [
+         145,
+         "The seven steps, continued"
+        ],
+        [
+         170,
+         "Key points on each step"
+        ],
+        [
+         211,
+         "Role in the ITIL Value System"
+        ]
+       ],
+       "published": "2026-11-14T11:31:39Z",
+       "thumb": "img/modules/itil/11-1.jpg"
+      }
+     ],
+     "deck": "downloads/itil/11-the-continual-improvement-model.pptx",
+     "deck_kb": 168,
+     "seconds": 567,
+     "words": 1021
+    },
+    {
+     "num": "12",
+     "slug": "12-value-stream-mapping-and-management",
+     "title": "Value Stream Mapping and Management",
+     "desc": "Value streams and Value stream mapping and management, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "n05axdEE3XM",
+       "title": "Value streams and Value stream mapping and management, recall and recap",
+       "seconds": 580,
+       "chapters": [
+        [
+         0,
+         "Value streams"
+        ],
+        [
+         113,
+         "Value stream mapping and management"
+        ],
+        [
+         148,
+         "Elements of a value stream map"
+        ],
+        [
+         157,
+         "Elements of a value stream map, continued"
+        ],
+        [
+         197,
+         "Complexity thinking"
+        ]
+       ],
+       "published": "2026-11-14T11:32:28Z",
+       "thumb": "img/modules/itil/12-1.jpg"
+      }
+     ],
+     "deck": "downloads/itil/12-value-stream-mapping-and-management.pptx",
+     "deck_kb": 142,
+     "seconds": 580,
+     "words": 1019
+    },
+    {
+     "num": "13",
+     "slug": "13-itil-and-ai",
+     "title": "ITIL and AI",
+     "desc": "Key AI terms, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "vGrKOELGBto",
+       "title": "Key AI terms, recall and recap",
+       "seconds": 572,
+       "chapters": [
+        [
+         0,
+         "Key AI terms"
+        ],
+        [
+         102,
+         "Key AI terms, continued"
+        ],
+        [
+         132,
+         "How AI helps"
+        ],
+        [
+         175,
+         "The ITIL AI Capability Model"
+        ],
+        [
+         232,
+         "The ITIL AI Capability Model, continued"
+        ]
+       ],
+       "published": "2026-11-14T11:32:22Z",
+       "thumb": "img/modules/itil/13-1.jpg"
+      }
+     ],
+     "deck": "downloads/itil/13-itil-and-ai.pptx",
+     "deck_kb": 142,
+     "seconds": 572,
+     "words": 1046
+    },
+    {
+     "num": "14",
+     "slug": "14-itil-with-devops-and-prince2",
+     "title": "ITIL with DevOps and PRINCE2",
+     "desc": "ITIL and DevOps, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "OXRExhHr_UQ",
+       "title": "ITIL and DevOps, recall and recap",
+       "seconds": 513,
+       "chapters": [
+        [
+         0,
+         "ITIL and DevOps"
+        ],
+        [
+         109,
+         "ITIL and DevOps, continued"
+        ],
+        [
+         127,
+         "ITIL and PRINCE2"
+        ],
+        [
+         162,
+         "ITIL and PRINCE2, continued"
+        ]
+       ],
+       "published": "2026-11-14T11:32:37Z",
+       "thumb": "img/modules/itil/14-1.jpg"
+      }
+     ],
+     "deck": "downloads/itil/14-itil-with-devops-and-prince2.pptx",
+     "deck_kb": 141,
+     "seconds": 513,
+     "words": 924
+    },
+    {
+     "num": "15",
+     "slug": "15-exam-technique-and-final-review",
+     "title": "Exam Technique and Final Review",
+     "desc": "The pairs the exam likes to confuse, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "-Zoazk2_u3s",
+       "title": "The pairs the exam likes to confuse, recall and recap",
+       "seconds": 695,
+       "chapters": [
+        [
+         0,
+         "The pairs the exam likes to confuse"
+        ],
+        [
+         97,
+         "The pairs the exam likes to confuse, continued"
+        ],
+        [
+         130,
+         "The pairs the exam likes to confuse, continued"
+        ],
+        [
+         140,
+         "The lists to know by heart"
+        ],
+        [
+         183,
+         "The lists to know by heart, continued"
+        ],
+        [
+         215,
+         "Technique for each question style"
+        ],
+        [
+         265,
+         "Technique for each question style, continued"
+        ]
+       ],
+       "published": "2026-11-14T11:32:59Z",
+       "thumb": "img/modules/itil/15-1.jpg"
+      }
+     ],
+     "deck": "downloads/itil/15-exam-technique-and-final-review.pptx",
+     "deck_kb": 182,
+     "seconds": 695,
+     "words": 1176
+    }
+   ],
+   "facts": {
+    "questions": "40",
+    "time": "60 min",
+    "passing": "26 of 40 (65%)",
+    "source": "peoplecert.org",
+    "url": "https://www.peoplecert.org/browse-certifications/it-governance-and-service-management/ITIL-1/itil-5-foundation-version-50-4154"
+   },
+   "videos": 16,
+   "seconds": 9557,
+   "notes": [
+    {
+     "num": "00",
+     "slug": "00-exam-orientation-and-how-to-study",
+     "title": "Exam Orientation and How to Study",
+     "group": "Start here",
+     "tasks": 0,
+     "los": [],
+     "minutes": 4,
+     "check": {
+      "src_words": 887,
+      "page_words": 913,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 4,
+      "scenario": 4,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "00"
+     ],
+     "domain": "",
+     "ref": "Module 0",
+     "tn": "Module 00",
+     "of": 16,
+     "module": "00"
+    },
+    {
+     "num": "01",
+     "slug": "01-digital-product-and-service-management-key-concepts",
+     "title": "Digital Product and Service Management: Key Concepts",
+     "group": "Key ITIL terms and definitions (30%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 5,
+     "check": {
+      "src_words": 1042,
+      "page_words": 1079,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "01"
+     ],
+     "domain": "",
+     "ref": "Module 1",
+     "tn": "Module 01",
+     "of": 16,
+     "module": "01"
+    },
+    {
+     "num": "02",
+     "slug": "02-value-co-creation-and-service-relationships",
+     "title": "Value Co-Creation and Service Relationships",
+     "group": "Key ITIL terms and definitions (30%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 5,
+     "check": {
+      "src_words": 943,
+      "page_words": 980,
+      "src_tables": 7,
+      "tables": 7,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "02"
+     ],
+     "domain": "",
+     "ref": "Module 2",
+     "tn": "Module 02",
+     "of": 16,
+     "module": "02"
+    },
+    {
+     "num": "03",
+     "slug": "03-experience-strategy-and-transformation-terms",
+     "title": "Experience, Strategy and Transformation Terms",
+     "group": "Key ITIL terms and definitions (30%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 4,
+     "check": {
+      "src_words": 769,
+      "page_words": 804,
+      "src_tables": 4,
+      "tables": 4,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 5,
+      "sections": 5
+     },
+     "modules": [
+      "03"
+     ],
+     "domain": "",
+     "ref": "Module 3",
+     "tn": "Module 03",
+     "of": 16,
+     "module": "03"
+    },
+    {
+     "num": "04",
+     "slug": "04-the-four-dimensions-and-external-factors",
+     "title": "The Four Dimensions and External Factors",
+     "group": "The four dimensions (10%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 4,
+     "check": {
+      "src_words": 789,
+      "page_words": 824,
+      "src_tables": 4,
+      "tables": 4,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 5,
+      "sections": 5
+     },
+     "modules": [
+      "04"
+     ],
+     "domain": "",
+     "ref": "Module 4",
+     "tn": "Module 04",
+     "of": 16,
+     "module": "04"
+    },
+    {
+     "num": "05",
+     "slug": "05-the-product-and-service-lifecycle-and-the-value-chain",
+     "title": "The Product and Service Lifecycle and the Value Chain",
+     "group": "The Product and Service Lifecycle (10%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 4,
+     "check": {
+      "src_words": 859,
+      "page_words": 894,
+      "src_tables": 3,
+      "tables": 3,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 5,
+      "sections": 5
+     },
+     "modules": [
+      "05"
+     ],
+     "domain": "",
+     "ref": "Module 5",
+     "tn": "Module 05",
+     "of": 16,
+     "module": "05"
+    },
+    {
+     "num": "06",
+     "slug": "06-discover-design-acquire-and-build",
+     "title": "Discover, Design, Acquire and Build",
+     "group": "The Product and Service Lifecycle (10%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 4,
+     "check": {
+      "src_words": 691,
+      "page_words": 727,
+      "src_tables": 4,
+      "tables": 4,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "06"
+     ],
+     "domain": "",
+     "ref": "Module 6",
+     "tn": "Module 06",
+     "of": 16,
+     "module": "06"
+    },
+    {
+     "num": "07",
+     "slug": "07-transition-operate-deliver-and-support",
+     "title": "Transition, Operate, Deliver and Support",
+     "group": "The Product and Service Lifecycle (10%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 4,
+     "check": {
+      "src_words": 859,
+      "page_words": 899,
+      "src_tables": 6,
+      "tables": 6,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 7,
+      "scenario": 7,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "07"
+     ],
+     "domain": "",
+     "ref": "Module 7",
+     "tn": "Module 07",
+     "of": 16,
+     "module": "07"
+    },
+    {
+     "num": "08",
+     "slug": "08-the-itil-value-system-and-governance",
+     "title": "The ITIL Value System and Governance",
+     "group": "The ITIL Value System (40%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 4,
+     "check": {
+      "src_words": 809,
+      "page_words": 844,
+      "src_tables": 3,
+      "tables": 3,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 5,
+      "sections": 5
+     },
+     "modules": [
+      "08"
+     ],
+     "domain": "",
+     "ref": "Module 8",
+     "tn": "Module 08",
+     "of": 16,
+     "module": "08"
+    },
+    {
+     "num": "09",
+     "slug": "09-the-seven-guiding-principles",
+     "title": "The Seven Guiding Principles",
+     "group": "The ITIL Value System (40%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 4,
+     "check": {
+      "src_words": 915,
+      "page_words": 953,
+      "src_tables": 3,
+      "tables": 3,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 7,
+      "scenario": 7,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 5,
+      "sections": 5
+     },
+     "modules": [
+      "09"
+     ],
+     "domain": "",
+     "ref": "Module 9",
+     "tn": "Module 09",
+     "of": 16,
+     "module": "09"
+    },
+    {
+     "num": "10",
+     "slug": "10-management-practices-and-practice-guides",
+     "title": "Management Practices and Practice Guides",
+     "group": "The ITIL Value System (40%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 4,
+     "check": {
+      "src_words": 787,
+      "page_words": 823,
+      "src_tables": 4,
+      "tables": 4,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "10"
+     ],
+     "domain": "",
+     "ref": "Module 10",
+     "tn": "Module 10",
+     "of": 16,
+     "module": "10"
+    },
+    {
+     "num": "11",
+     "slug": "11-the-continual-improvement-model",
+     "title": "The Continual Improvement Model",
+     "group": "The ITIL Value System (40%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 4,
+     "check": {
+      "src_words": 827,
+      "page_words": 863,
+      "src_tables": 3,
+      "tables": 3,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "11"
+     ],
+     "domain": "",
+     "ref": "Module 11",
+     "tn": "Module 11",
+     "of": 16,
+     "module": "11"
+    },
+    {
+     "num": "12",
+     "slug": "12-value-stream-mapping-and-management",
+     "title": "Value Stream Mapping and Management",
+     "group": "Value streams, AI and other frameworks (10%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 4,
+     "check": {
+      "src_words": 804,
+      "page_words": 840,
+      "src_tables": 4,
+      "tables": 4,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "12"
+     ],
+     "domain": "",
+     "ref": "Module 12",
+     "tn": "Module 12",
+     "of": 16,
+     "module": "12"
+    },
+    {
+     "num": "13",
+     "slug": "13-itil-and-ai",
+     "title": "ITIL and AI",
+     "group": "Value streams, AI and other frameworks (10%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 4,
+     "check": {
+      "src_words": 764,
+      "page_words": 799,
+      "src_tables": 4,
+      "tables": 4,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 5,
+      "sections": 5
+     },
+     "modules": [
+      "13"
+     ],
+     "domain": "",
+     "ref": "Module 13",
+     "tn": "Module 13",
+     "of": 16,
+     "module": "13"
+    },
+    {
+     "num": "14",
+     "slug": "14-itil-with-devops-and-prince2",
+     "title": "ITIL with DevOps and PRINCE2",
+     "group": "Value streams, AI and other frameworks (10%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 4,
+     "check": {
+      "src_words": 697,
+      "page_words": 731,
+      "src_tables": 3,
+      "tables": 3,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 4,
+      "sections": 4
+     },
+     "modules": [
+      "14"
+     ],
+     "domain": "",
+     "ref": "Module 14",
+     "tn": "Module 14",
+     "of": 16,
+     "module": "14"
+    },
+    {
+     "num": "15",
+     "slug": "15-exam-technique-and-final-review",
+     "title": "Exam Technique and Final Review",
+     "group": "Review and exam day",
+     "tasks": 0,
+     "los": [],
+     "minutes": 5,
+     "check": {
+      "src_words": 970,
+      "page_words": 1014,
+      "src_tables": 4,
+      "tables": 4,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 9,
+      "scenario": 9,
       "src_recall": 6,
       "recall": 6,
       "src_sections": 5,

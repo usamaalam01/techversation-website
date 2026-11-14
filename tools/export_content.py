@@ -96,6 +96,10 @@ COURSES = {
                   desc="Security, compliance and identity concepts, Microsoft Entra, Microsoft security solutions and Microsoft compliance solutions, with exam-style questions in every module.",
                   audience="Students, career changers and IT staff starting with security, and anyone preparing for the SC-900 exam. No Azure account is needed.",
                   sources="The official SC-900 study guide and the Microsoft Learn documentation of each service."),
+    "itil": dict(folder="ITIL-Foundation", institute="peoplecert", short="ITIL Foundation", name="ITIL Foundation (Version 5)", title="ITIL Foundation Exam Prep Masterclass", accent="c-itil",
+                 desc="Digital product and service management: key terms, value co-creation, the four dimensions, the eight lifecycle activities, the ITIL Value System, guiding principles, practices, continual improvement, value streams, AI, DevOps and PRINCE2, with exam-style questions in every module.",
+                 audience="Students, career changers and IT or service staff new to ITIL, and anyone preparing for the ITIL Foundation (Version 5) exam. No prior ITIL knowledge is needed.",
+                 sources="The official ITIL Foundation (Version 5) syllabus (PeopleCert) and public ITIL guidance."),
     "ai901": dict(folder="AI-901", institute="microsoft", short="AI-901", name="Microsoft Azure AI Fundamentals", title="AI-901 Exam Prep Masterclass", accent="c-ai901",
                   desc="AI concepts and building AI solutions with Microsoft Foundry: models, prompts, agents, text, speech, vision and information extraction.",
                   audience="Students, career changers and developers starting with AI on Azure who read basic Python. The retired AI-900 is replaced by this exam.",
@@ -120,6 +124,7 @@ INSTITUTES = [
     dict(id="anthropic", name="Anthropic", full="Anthropic Partner Academy", mono="ANT", certs=["ccar", "ccdv", "ccao", "ccarp"]),
     dict(id="comptia", name="CompTIA", full="CompTIA", mono="CT", certs=["sy0801"]),
     dict(id="microsoft", name="Microsoft", full="Microsoft", mono="MS", certs=["az900", "ai901", "sc900"]),
+    dict(id="peoplecert", name="PeopleCert", full="PeopleCert (ITIL and PRINCE2)", mono="PC", certs=["itil"]),
     dict(id="training", name="Training", full="Techversation training courses", mono="TV", certs=[], hidden=True),
 ]
 SOON = []      # 'coming soon' cards (slug, institute, short, name, kind, desc); none at the moment
@@ -136,6 +141,7 @@ FACTS = dict(
     ccar=dict(questions="60", time="120 min", passing="720 of 1,000", source="Anthropic Partner Academy", url="https://anthropic-partners.skilljar.com/claude-certified-architect-foundations-certification"),
     cka=dict(questions="15 to 20 tasks", time="120 min", passing="66%", source="training.linuxfoundation.org", url="https://training.linuxfoundation.org/certification/certified-kubernetes-administrator-cka/"),
     sy0801=dict(questions="Up to 90", time="90 min", passing="750 of 900", source="comptia.org", url="https://www.comptia.org/en-us/certifications/security/v8/"),
+    itil=dict(questions="40", time="60 min", passing="26 of 40 (65%)", source="peoplecert.org", url="https://www.peoplecert.org/browse-certifications/it-governance-and-service-management/ITIL-1/itil-5-foundation-version-50-4154"),
     sc900=dict(questions="See the exam page", time="45 min", passing="700 of 1,000", source="learn.microsoft.com", url="https://learn.microsoft.com/en-us/credentials/certifications/exams/sc-900/"),
     ai901=dict(questions="See the exam page", time="See the exam page", passing="700 of 1,000", source="learn.microsoft.com", url="https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-901/"),
     az900=dict(questions="See the exam page", time="45 min", passing="700 of 1,000", source="learn.microsoft.com", url="https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/"),
@@ -296,6 +302,11 @@ NOTES = {
     "az900": dict(root=OC / "AZ-900" / "study-notes", glob="Module_*.md", qa=True, header="bold", kind="Module", link_word="Module",
                   groups=[("Start here", {"00"}), ("Cloud concepts (25-30%)", {"01", "02", "03"}), ("Azure architecture and services (35-40%)", {"04", "05", "06", "07", "08", "09", "10"}),
                           ("Management and governance (30-35%)", {"11", "12", "13", "14"}), ("Review and exam day", {"15"})]),
+    # ITIL Foundation (Version 5): the study notes of the course (OnlineCourses\ITIL-Foundation\study-notes); grouped by syllabus category
+    "itil": dict(root=OC / "ITIL-Foundation" / "study-notes", glob="Module_*.md", qa=True, header="bold", kind="Module", link_word="Module",
+                 groups=[("Start here", {"00"}), ("Key ITIL terms and definitions (30%)", {"01", "02", "03"}), ("The four dimensions (10%)", {"04"}),
+                         ("The Product and Service Lifecycle (10%)", {"05", "06", "07"}), ("The ITIL Value System (40%)", {"08", "09", "10", "11"}),
+                         ("Value streams, AI and other frameworks (10%)", {"12", "13", "14"}), ("Review and exam day", {"15"})]),
     # SC-900: the study notes of the course (OnlineCourses\SC-900\study-notes); grouped by skill area
     "sc900": dict(root=OC / "SC-900" / "study-notes", glob="Module_*.md", qa=True, header="bold", kind="Module", link_word="Module",
                   groups=[("Start here", {"00"}), ("Security, compliance and identity concepts (10-15%)", {"01", "02"}), ("Microsoft Entra (25-30%)", {"03", "04", "05", "06"}),
