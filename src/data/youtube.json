@@ -4000,6 +4000,590 @@
    ]
   ]
  },
+ "z-rj4UB6Bs0": {
+  "course": "prince2",
+  "key": "00-Exam-Orientation-and-How-to-Study-part-1",
+  "title": "PRINCE2 Foundation Exam Prep Introduction: Exam Format, Question Styles and How to Answer",
+  "seconds": 545,
+  "published": "2026-11-14T12:51:53Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "The exam at a glance"
+   ],
+   [
+    123,
+    "The four question styles"
+   ],
+   [
+    165,
+    "The five learning outcomes and their weight"
+   ],
+   [
+    209,
+    "The five learning outcomes and their weight, continued"
+   ],
+   [
+    229,
+    "How to answer every question"
+   ],
+   [
+    261,
+    "A four-week study plan"
+   ]
+  ]
+ },
+ "ZTlsC6vI9RU": {
+  "course": "prince2",
+  "key": "01-Projects-Project-Management-and-the-Five-Integrated-Elements-part-1",
+  "title": "PRINCE2 Foundation Exam Prep Module 1: Projects, Project Management and the Five Integrated Elements",
+  "seconds": 599,
+  "published": "2026-11-14T12:52:21Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "What PRINCE2 is"
+   ],
+   [
+    115,
+    "What PRINCE2 is, continued"
+   ],
+   [
+    122,
+    "What PRINCE2 is, continued"
+   ],
+   [
+    147,
+    "Project and project management"
+   ],
+   [
+    177,
+    "Aspects of project performance (managed throughout)"
+   ],
+   [
+    200,
+    "Why projects need management, and what PRINCE2 offers"
+   ],
+   [
+    231,
+    "Delivery approaches and project context"
+   ]
+  ]
+ },
+ "COEaDyUul0M": {
+  "course": "prince2",
+  "key": "02-The-Seven-Principles-and-Tailoring-part-1",
+  "title": "PRINCE2 Foundation Exam Prep Module 2: The Seven Principles and Tailoring | PRINCE2 Foundation",
+  "seconds": 649,
+  "published": "2026-11-14T12:52:35Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "The seven principles"
+   ],
+   [
+    73,
+    "The seven principles, continued"
+   ],
+   [
+    80,
+    "The seven principles, continued"
+   ],
+   [
+    122,
+    "The seven principles, continued"
+   ],
+   [
+    162,
+    "What each principle means in practice"
+   ],
+   [
+    202,
+    "What each principle means in practice, continued"
+   ],
+   [
+    227,
+    "Tailoring"
+   ],
+   [
+    266,
+    "Tailoring, continued"
+   ]
+  ]
+ },
+ "ASfv5ZV4yFk": {
+  "course": "prince2",
+  "key": "03-The-People-Element-Ecosystems-Change-Stakeholders-and-Culture-part-1",
+  "title": "PRINCE2 Foundation Exam Prep Module 3: People: Ecosystems, Change, Stakeholders and Culture",
+  "seconds": 574,
+  "published": "2026-11-14T12:53:01Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Why a people element"
+   ],
+   [
+    79,
+    "Ecosystems"
+   ],
+   [
+    101,
+    "Ecosystems, continued"
+   ],
+   [
+    110,
+    "People within the project and people affected by it"
+   ],
+   [
+    142,
+    "Change, stakeholders and culture"
+   ],
+   [
+    180,
+    "Stakeholder engagement"
+   ],
+   [
+    198,
+    "Collaboration, co-creation, leadership and management"
+   ]
+  ]
+ },
+ "oI8PCBw9kZg": {
+  "course": "prince2",
+  "key": "04-The-People-Element-Leadership-Teams-Communication-and-Integration-part-1",
+  "title": "PRINCE2 Foundation Exam Prep Module 4: People: Leadership, Teams and Communication",
+  "seconds": 545,
+  "published": "2026-11-14T12:53:25Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Effective teams"
+   ],
+   [
+    114,
+    "Communication"
+   ],
+   [
+    137,
+    "Communication, continued"
+   ],
+   [
+    157,
+    "How people aspects fit with the other elements"
+   ],
+   [
+    168,
+    "How people aspects fit with the other elements, continued"
+   ]
+  ]
+ },
+ "IJGejrfDiJk": {
+  "course": "prince2",
+  "key": "05-The-Business-Case-Practice-part-1",
+  "title": "PRINCE2 Foundation Exam Prep Module 5: The Business Case Practice | PRINCE2 Foundation",
+  "seconds": 588,
+  "published": "2026-11-14T12:53:31Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Purpose"
+   ],
+   [
+    111,
+    "Key concepts"
+   ],
+   [
+    159,
+    "Key concepts, continued"
+   ],
+   [
+    167,
+    "Management products"
+   ],
+   [
+    203,
+    "The lifecycle"
+   ],
+   [
+    232,
+    "Alignment and justification"
+   ]
+  ]
+ },
+ "20j3bW_k4p0": {
+  "course": "prince2",
+  "key": "06-The-Organizing-Practice-part-1",
+  "title": "PRINCE2 Foundation Exam Prep Module 6: The Organizing Practice: Roles and the Project Board",
+  "seconds": 575,
+  "published": "2026-11-14T12:53:50Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Purpose"
+   ],
+   [
+    81,
+    "The three project interests"
+   ],
+   [
+    105,
+    "The project board and the project team"
+   ],
+   [
+    126,
+    "The project board and the project team, continued"
+   ],
+   [
+    136,
+    "The PRINCE2 roles"
+   ],
+   [
+    201,
+    "The work breakdown structure"
+   ],
+   [
+    219,
+    "Management products"
+   ]
+  ]
+ },
+ "kyCHcOg1S0Y": {
+  "course": "prince2",
+  "key": "07-The-Plans-Practice-part-1",
+  "title": "PRINCE2 Foundation Exam Prep Module 7: The Plans Practice and Product-Based Planning",
+  "seconds": 573,
+  "published": "2026-11-14T12:54:15Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Purpose"
+   ],
+   [
+    84,
+    "Plan levels"
+   ],
+   [
+    115,
+    "Plan levels, continued"
+   ],
+   [
+    123,
+    "Plan levels, continued"
+   ],
+   [
+    142,
+    "Planning guidance"
+   ],
+   [
+    184,
+    "Product-based planning (the technique)"
+   ],
+   [
+    219,
+    "Management products"
+   ]
+  ]
+ },
+ "KFSnsfFjwfM": {
+  "course": "prince2",
+  "key": "08-The-Quality-Practice-part-1",
+  "title": "PRINCE2 Foundation Exam Prep Module 8: The Quality Practice | PRINCE2 Foundation",
+  "seconds": 550,
+  "published": "2026-11-14T12:54:40Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Purpose"
+   ],
+   [
+    82,
+    "Key concepts"
+   ],
+   [
+    122,
+    "Quality planning, control and assurance"
+   ],
+   [
+    132,
+    "Quality planning, control and assurance, continued"
+   ],
+   [
+    160,
+    "Quality planning, control and assurance, continued"
+   ],
+   [
+    187,
+    "Management products"
+   ]
+  ]
+ },
+ "8O2bk2ixqeo": {
+  "course": "prince2",
+  "key": "09-The-Risk-Practice-part-1",
+  "title": "PRINCE2 Foundation Exam Prep Module 9: The Risk Practice | PRINCE2 Foundation",
+  "seconds": 604,
+  "published": "2026-11-14T12:54:47Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Purpose"
+   ],
+   [
+    84,
+    "Key concepts"
+   ],
+   [
+    115,
+    "Key concepts, continued"
+   ],
+   [
+    138,
+    "Cause, event and effect"
+   ],
+   [
+    164,
+    "Risk guidance"
+   ],
+   [
+    174,
+    "Risk guidance, continued"
+   ],
+   [
+    223,
+    "Recommended response types"
+   ],
+   [
+    241,
+    "Management products"
+   ]
+  ]
+ },
+ "LaBlGGQFS5I": {
+  "course": "prince2",
+  "key": "10-The-Issues-Practice-part-1",
+  "title": "PRINCE2 Foundation Exam Prep Module 10: The Issues Practice and Change Control | PRINCE2 Foundation",
+  "seconds": 560,
+  "published": "2026-11-14T12:55:08Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Purpose"
+   ],
+   [
+    80,
+    "Key concepts"
+   ],
+   [
+    104,
+    "Types of issue"
+   ],
+   [
+    133,
+    "Types of issue, continued"
+   ],
+   [
+    141,
+    "Types of issue, continued"
+   ],
+   [
+    158,
+    "Guidance"
+   ],
+   [
+    202,
+    "Management products"
+   ]
+  ]
+ },
+ "xy1cLsEDy1o": {
+  "course": "prince2",
+  "key": "11-The-Progress-Practice-part-1",
+  "title": "PRINCE2 Foundation Exam Prep Module 11: The Progress Practice: Tolerances and Reports",
+  "seconds": 667,
+  "published": "2026-11-14T12:55:53Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Purpose"
+   ],
+   [
+    88,
+    "Key concepts"
+   ],
+   [
+    123,
+    "Tolerance levels and escalation"
+   ],
+   [
+    133,
+    "Tolerance levels and escalation, continued"
+   ],
+   [
+    174,
+    "Reports and records"
+   ],
+   [
+    231,
+    "Reports and records, continued"
+   ],
+   [
+    293,
+    "Progress guidance"
+   ]
+  ]
+ },
+ "G8M87rdc7Jo": {
+  "course": "prince2",
+  "key": "12-The-Processes-Starting-Up-Directing-and-Initiating-a-Project-part-1",
+  "title": "PRINCE2 Foundation Exam Prep Module 12: Starting Up, Directing and Initiating a Project",
+  "seconds": 562,
+  "published": "2026-11-14T12:55:45Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "The seven processes"
+   ],
+   [
+    124,
+    "The seven processes, continued"
+   ],
+   [
+    136,
+    "Starting up a project"
+   ],
+   [
+    165,
+    "Directing a project"
+   ],
+   [
+    209,
+    "Initiating a project"
+   ]
+  ]
+ },
+ "ARCAwl8jv-A": {
+  "course": "prince2",
+  "key": "13-The-Processes-Controlling-Delivery-Stage-Boundaries-and-Closing-part-1",
+  "title": "PRINCE2 Foundation Exam Prep Module 13: Controlling, Delivering, Stage Boundaries and Closing",
+  "seconds": 538,
+  "published": "2026-11-14T12:56:08Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Controlling a stage"
+   ],
+   [
+    85,
+    "Managing product delivery"
+   ],
+   [
+    113,
+    "Managing a stage boundary"
+   ],
+   [
+    156,
+    "Closing a project"
+   ],
+   [
+    196,
+    "Closing a project, continued"
+   ]
+  ]
+ },
+ "HbDTC95-xhk": {
+  "course": "prince2",
+  "key": "14-Management-Products-Roles-and-the-Project-Log-at-a-Glance-part-1",
+  "title": "PRINCE2 Foundation Exam Prep Module 14: Management Products, the PID and the Project Log",
+  "seconds": 576,
+  "published": "2026-11-14T12:56:25Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "The PID and the project log"
+   ],
+   [
+    84,
+    "The PID and the project log, continued"
+   ],
+   [
+    94,
+    "The approaches inside the PID"
+   ],
+   [
+    138,
+    "The registers in the project log"
+   ],
+   [
+    177,
+    "Products by practice"
+   ],
+   [
+    225,
+    "Who sends which report"
+   ]
+  ]
+ },
+ "lFseR1V8ttY": {
+  "course": "prince2",
+  "key": "15-Exam-Technique-and-Final-Review-part-1",
+  "title": "PRINCE2 Foundation Exam Prep Module 15: Exam Technique, Look-Alike Terms and Mixed Practice",
+  "seconds": 672,
+  "published": "2026-11-14T12:56:46Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "The pairs the exam likes to confuse"
+   ],
+   [
+    103,
+    "The pairs the exam likes to confuse, continued"
+   ],
+   [
+    135,
+    "The pairs the exam likes to confuse, continued"
+   ],
+   [
+    146,
+    "The lists to know by heart"
+   ],
+   [
+    215,
+    "Technique for each question style"
+   ]
+  ]
+ },
  "yf1i5aKQzgY": {
   "course": "itil",
   "key": "00-Exam-Orientation-and-How-to-Study-part-1",

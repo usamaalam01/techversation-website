@@ -105,7 +105,8 @@
    "full": "PeopleCert (ITIL and PRINCE2)",
    "mono": "PC",
    "certs": [
-    "itil"
+    "itil",
+    "prince2"
    ]
   },
   {
@@ -37412,6 +37413,1291 @@
      "check": {
       "src_words": 970,
       "page_words": 1014,
+      "src_tables": 4,
+      "tables": 4,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 9,
+      "scenario": 9,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 5,
+      "sections": 5
+     },
+     "modules": [
+      "15"
+     ],
+     "domain": "",
+     "ref": "Module 15",
+     "tn": "Module 15",
+     "of": 16,
+     "module": "15"
+    }
+   ],
+   "glossary": 0
+  },
+  {
+   "kind": "certification",
+   "topic": null,
+   "slug": "prince2",
+   "institute": "peoplecert",
+   "short": "PRINCE2 Foundation",
+   "name": "PRINCE2 7 Foundation",
+   "title": "PRINCE2 Foundation Exam Prep Masterclass",
+   "accent": "c-prince2",
+   "desc": "The PRINCE2 project management method: elements, principles, the people element, the seven practices, the seven processes and the management products, with exam-style questions in every module.",
+   "audience": "Students, career changers, project team members and aspiring project managers, and anyone preparing for the PRINCE2 7 Foundation exam. No prior project experience is needed.",
+   "sources": "The official PRINCE2 7 Foundation syllabus (PeopleCert) and public PRINCE2 guidance.",
+   "playlist": "PLBkesGsr6lLI",
+   "cover": "img/covers/prince2.jpg",
+   "modules": [
+    {
+     "num": "00",
+     "slug": "00-exam-orientation-and-how-to-study",
+     "title": "Exam Orientation and How to Study",
+     "desc": "The exam at a glance and The four question styles, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "z-rj4UB6Bs0",
+       "title": "The exam at a glance and The four question styles, recall and recap",
+       "seconds": 545,
+       "chapters": [
+        [
+         0,
+         "The exam at a glance"
+        ],
+        [
+         123,
+         "The four question styles"
+        ],
+        [
+         165,
+         "The five learning outcomes and their weight"
+        ],
+        [
+         209,
+         "The five learning outcomes and their weight, continued"
+        ],
+        [
+         229,
+         "How to answer every question"
+        ],
+        [
+         261,
+         "A four-week study plan"
+        ]
+       ],
+       "published": "2026-11-14T12:51:53Z",
+       "thumb": "img/modules/prince2/00-1.jpg"
+      }
+     ],
+     "deck": "downloads/prince2/00-exam-orientation-and-how-to-study.pptx",
+     "deck_kb": 145,
+     "seconds": 545,
+     "words": 948
+    },
+    {
+     "num": "01",
+     "slug": "01-projects-project-management-and-the-five-integrated-elements",
+     "title": "Projects, Project Management and the Five Integrated Elements",
+     "desc": "What PRINCE2 is, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "ZTlsC6vI9RU",
+       "title": "What PRINCE2 is, recall and recap",
+       "seconds": 599,
+       "chapters": [
+        [
+         0,
+         "What PRINCE2 is"
+        ],
+        [
+         115,
+         "What PRINCE2 is, continued"
+        ],
+        [
+         122,
+         "What PRINCE2 is, continued"
+        ],
+        [
+         147,
+         "Project and project management"
+        ],
+        [
+         177,
+         "Aspects of project performance (managed throughout)"
+        ],
+        [
+         200,
+         "Why projects need management, and what PRINCE2 offers"
+        ],
+        [
+         231,
+         "Delivery approaches and project context"
+        ]
+       ],
+       "published": "2026-11-14T12:52:21Z",
+       "thumb": "img/modules/prince2/01-1.jpg"
+      }
+     ],
+     "deck": "downloads/prince2/01-projects-project-management-and-the-five-integrated-elements.pptx",
+     "deck_kb": 158,
+     "seconds": 599,
+     "words": 1033
+    },
+    {
+     "num": "02",
+     "slug": "02-the-seven-principles-and-tailoring",
+     "title": "The Seven Principles and Tailoring",
+     "desc": "The seven principles, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "COEaDyUul0M",
+       "title": "The seven principles, recall and recap",
+       "seconds": 649,
+       "chapters": [
+        [
+         0,
+         "The seven principles"
+        ],
+        [
+         73,
+         "The seven principles, continued"
+        ],
+        [
+         80,
+         "The seven principles, continued"
+        ],
+        [
+         122,
+         "The seven principles, continued"
+        ],
+        [
+         162,
+         "What each principle means in practice"
+        ],
+        [
+         202,
+         "What each principle means in practice, continued"
+        ],
+        [
+         227,
+         "Tailoring"
+        ],
+        [
+         266,
+         "Tailoring, continued"
+        ]
+       ],
+       "published": "2026-11-14T12:52:35Z",
+       "thumb": "img/modules/prince2/02-1.jpg"
+      }
+     ],
+     "deck": "downloads/prince2/02-the-seven-principles-and-tailoring.pptx",
+     "deck_kb": 162,
+     "seconds": 649,
+     "words": 1199
+    },
+    {
+     "num": "03",
+     "slug": "03-the-people-element-ecosystems-change-stakeholders-and-culture",
+     "title": "The People Element: Ecosystems, Change, Stakeholders and Culture",
+     "desc": "Why a people element and Ecosystems, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "ASfv5ZV4yFk",
+       "title": "Why a people element and Ecosystems, recall and recap",
+       "seconds": 574,
+       "chapters": [
+        [
+         0,
+         "Why a people element"
+        ],
+        [
+         79,
+         "Ecosystems"
+        ],
+        [
+         101,
+         "Ecosystems, continued"
+        ],
+        [
+         110,
+         "People within the project and people affected by it"
+        ],
+        [
+         142,
+         "Change, stakeholders and culture"
+        ],
+        [
+         180,
+         "Stakeholder engagement"
+        ],
+        [
+         198,
+         "Collaboration, co-creation, leadership and management"
+        ]
+       ],
+       "published": "2026-11-14T12:53:01Z",
+       "thumb": "img/modules/prince2/03-1.jpg"
+      }
+     ],
+     "deck": "downloads/prince2/03-the-people-element-ecosystems-change-stakeholders-and-culture.pptx",
+     "deck_kb": 153,
+     "seconds": 574,
+     "words": 1024
+    },
+    {
+     "num": "04",
+     "slug": "04-the-people-element-leadership-teams-communication-and-integration",
+     "title": "The People Element: Leadership, Teams, Communication and Integration",
+     "desc": "Effective teams and Communication, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "oI8PCBw9kZg",
+       "title": "Effective teams and Communication, recall and recap",
+       "seconds": 545,
+       "chapters": [
+        [
+         0,
+         "Effective teams"
+        ],
+        [
+         114,
+         "Communication"
+        ],
+        [
+         137,
+         "Communication, continued"
+        ],
+        [
+         157,
+         "How people aspects fit with the other elements"
+        ],
+        [
+         168,
+         "How people aspects fit with the other elements, continued"
+        ]
+       ],
+       "published": "2026-11-14T12:53:25Z",
+       "thumb": "img/modules/prince2/04-1.jpg"
+      }
+     ],
+     "deck": "downloads/prince2/04-the-people-element-leadership-teams-communication-and-integration.pptx",
+     "deck_kb": 129,
+     "seconds": 545,
+     "words": 976
+    },
+    {
+     "num": "05",
+     "slug": "05-the-business-case-practice",
+     "title": "The Business Case Practice",
+     "desc": "Purpose and Key concepts, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "IJGejrfDiJk",
+       "title": "Purpose and Key concepts, recall and recap",
+       "seconds": 588,
+       "chapters": [
+        [
+         0,
+         "Purpose"
+        ],
+        [
+         111,
+         "Key concepts"
+        ],
+        [
+         159,
+         "Key concepts, continued"
+        ],
+        [
+         167,
+         "Management products"
+        ],
+        [
+         203,
+         "The lifecycle"
+        ],
+        [
+         232,
+         "Alignment and justification"
+        ]
+       ],
+       "published": "2026-11-14T12:53:31Z",
+       "thumb": "img/modules/prince2/05-1.jpg"
+      }
+     ],
+     "deck": "downloads/prince2/05-the-business-case-practice.pptx",
+     "deck_kb": 124,
+     "seconds": 588,
+     "words": 1002
+    },
+    {
+     "num": "06",
+     "slug": "06-the-organizing-practice",
+     "title": "The Organizing Practice",
+     "desc": "Purpose and The three project interests, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "20j3bW_k4p0",
+       "title": "Purpose and The three project interests, recall and recap",
+       "seconds": 575,
+       "chapters": [
+        [
+         0,
+         "Purpose"
+        ],
+        [
+         81,
+         "The three project interests"
+        ],
+        [
+         105,
+         "The project board and the project team"
+        ],
+        [
+         126,
+         "The project board and the project team, continued"
+        ],
+        [
+         136,
+         "The PRINCE2 roles"
+        ],
+        [
+         201,
+         "The work breakdown structure"
+        ],
+        [
+         219,
+         "Management products"
+        ]
+       ],
+       "published": "2026-11-14T12:53:50Z",
+       "thumb": "img/modules/prince2/06-1.jpg"
+      }
+     ],
+     "deck": "downloads/prince2/06-the-organizing-practice.pptx",
+     "deck_kb": 173,
+     "seconds": 575,
+     "words": 987
+    },
+    {
+     "num": "07",
+     "slug": "07-the-plans-practice",
+     "title": "The Plans Practice",
+     "desc": "Purpose and Plan levels, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "kyCHcOg1S0Y",
+       "title": "Purpose and Plan levels, recall and recap",
+       "seconds": 573,
+       "chapters": [
+        [
+         0,
+         "Purpose"
+        ],
+        [
+         84,
+         "Plan levels"
+        ],
+        [
+         115,
+         "Plan levels, continued"
+        ],
+        [
+         123,
+         "Plan levels, continued"
+        ],
+        [
+         142,
+         "Planning guidance"
+        ],
+        [
+         184,
+         "Product-based planning (the technique)"
+        ],
+        [
+         219,
+         "Management products"
+        ]
+       ],
+       "published": "2026-11-14T12:54:15Z",
+       "thumb": "img/modules/prince2/07-1.jpg"
+      }
+     ],
+     "deck": "downloads/prince2/07-the-plans-practice.pptx",
+     "deck_kb": 133,
+     "seconds": 573,
+     "words": 1004
+    },
+    {
+     "num": "08",
+     "slug": "08-the-quality-practice",
+     "title": "The Quality Practice",
+     "desc": "Purpose and Key concepts, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "KFSnsfFjwfM",
+       "title": "Purpose and Key concepts, recall and recap",
+       "seconds": 550,
+       "chapters": [
+        [
+         0,
+         "Purpose"
+        ],
+        [
+         82,
+         "Key concepts"
+        ],
+        [
+         122,
+         "Quality planning, control and assurance"
+        ],
+        [
+         132,
+         "Quality planning, control and assurance, continued"
+        ],
+        [
+         160,
+         "Quality planning, control and assurance, continued"
+        ],
+        [
+         187,
+         "Management products"
+        ]
+       ],
+       "published": "2026-11-14T12:54:40Z",
+       "thumb": "img/modules/prince2/08-1.jpg"
+      }
+     ],
+     "deck": "downloads/prince2/08-the-quality-practice.pptx",
+     "deck_kb": 123,
+     "seconds": 550,
+     "words": 906
+    },
+    {
+     "num": "09",
+     "slug": "09-the-risk-practice",
+     "title": "The Risk Practice",
+     "desc": "Purpose and Key concepts, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "8O2bk2ixqeo",
+       "title": "Purpose and Key concepts, recall and recap",
+       "seconds": 604,
+       "chapters": [
+        [
+         0,
+         "Purpose"
+        ],
+        [
+         84,
+         "Key concepts"
+        ],
+        [
+         115,
+         "Key concepts, continued"
+        ],
+        [
+         138,
+         "Cause, event and effect"
+        ],
+        [
+         164,
+         "Risk guidance"
+        ],
+        [
+         174,
+         "Risk guidance, continued"
+        ],
+        [
+         223,
+         "Recommended response types"
+        ],
+        [
+         241,
+         "Management products"
+        ]
+       ],
+       "published": "2026-11-14T12:54:47Z",
+       "thumb": "img/modules/prince2/09-1.jpg"
+      }
+     ],
+     "deck": "downloads/prince2/09-the-risk-practice.pptx",
+     "deck_kb": 144,
+     "seconds": 604,
+     "words": 1023
+    },
+    {
+     "num": "10",
+     "slug": "10-the-issues-practice",
+     "title": "The Issues Practice",
+     "desc": "Purpose and Key concepts, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "LaBlGGQFS5I",
+       "title": "Purpose and Key concepts, recall and recap",
+       "seconds": 560,
+       "chapters": [
+        [
+         0,
+         "Purpose"
+        ],
+        [
+         80,
+         "Key concepts"
+        ],
+        [
+         104,
+         "Types of issue"
+        ],
+        [
+         133,
+         "Types of issue, continued"
+        ],
+        [
+         141,
+         "Types of issue, continued"
+        ],
+        [
+         158,
+         "Guidance"
+        ],
+        [
+         202,
+         "Management products"
+        ]
+       ],
+       "published": "2026-11-14T12:55:08Z",
+       "thumb": "img/modules/prince2/10-1.jpg"
+      }
+     ],
+     "deck": "downloads/prince2/10-the-issues-practice.pptx",
+     "deck_kb": 145,
+     "seconds": 560,
+     "words": 980
+    },
+    {
+     "num": "11",
+     "slug": "11-the-progress-practice",
+     "title": "The Progress Practice",
+     "desc": "Purpose and Key concepts, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "xy1cLsEDy1o",
+       "title": "Purpose and Key concepts, recall and recap",
+       "seconds": 667,
+       "chapters": [
+        [
+         0,
+         "Purpose"
+        ],
+        [
+         88,
+         "Key concepts"
+        ],
+        [
+         123,
+         "Tolerance levels and escalation"
+        ],
+        [
+         133,
+         "Tolerance levels and escalation, continued"
+        ],
+        [
+         174,
+         "Reports and records"
+        ],
+        [
+         231,
+         "Reports and records, continued"
+        ],
+        [
+         293,
+         "Progress guidance"
+        ]
+       ],
+       "published": "2026-11-14T12:55:53Z",
+       "thumb": "img/modules/prince2/11-1.jpg"
+      }
+     ],
+     "deck": "downloads/prince2/11-the-progress-practice.pptx",
+     "deck_kb": 161,
+     "seconds": 667,
+     "words": 1140
+    },
+    {
+     "num": "12",
+     "slug": "12-the-processes-starting-up-directing-and-initiating-a-project",
+     "title": "The Processes: Starting Up, Directing and Initiating a Project",
+     "desc": "The seven processes, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "G8M87rdc7Jo",
+       "title": "The seven processes, recall and recap",
+       "seconds": 562,
+       "chapters": [
+        [
+         0,
+         "The seven processes"
+        ],
+        [
+         124,
+         "The seven processes, continued"
+        ],
+        [
+         136,
+         "Starting up a project"
+        ],
+        [
+         165,
+         "Directing a project"
+        ],
+        [
+         209,
+         "Initiating a project"
+        ]
+       ],
+       "published": "2026-11-14T12:55:45Z",
+       "thumb": "img/modules/prince2/12-1.jpg"
+      }
+     ],
+     "deck": "downloads/prince2/12-the-processes-starting-up-directing-and-initiating-a-project.pptx",
+     "deck_kb": 153,
+     "seconds": 562,
+     "words": 994
+    },
+    {
+     "num": "13",
+     "slug": "13-the-processes-controlling-delivery-stage-boundaries-and-closing",
+     "title": "The Processes: Controlling, Delivery, Stage Boundaries and Closing",
+     "desc": "Controlling a stage and Managing product delivery, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "ARCAwl8jv-A",
+       "title": "Controlling a stage and Managing product delivery, recall and recap",
+       "seconds": 538,
+       "chapters": [
+        [
+         0,
+         "Controlling a stage"
+        ],
+        [
+         85,
+         "Managing product delivery"
+        ],
+        [
+         113,
+         "Managing a stage boundary"
+        ],
+        [
+         156,
+         "Closing a project"
+        ],
+        [
+         196,
+         "Closing a project, continued"
+        ]
+       ],
+       "published": "2026-11-14T12:56:08Z",
+       "thumb": "img/modules/prince2/13-1.jpg"
+      }
+     ],
+     "deck": "downloads/prince2/13-the-processes-controlling-delivery-stage-boundaries-and-closing.pptx",
+     "deck_kb": 139,
+     "seconds": 538,
+     "words": 997
+    },
+    {
+     "num": "14",
+     "slug": "14-management-products-roles-and-the-project-log-at-a-glance",
+     "title": "Management Products, Roles and the Project Log at a Glance",
+     "desc": "The PID and the project log, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "HbDTC95-xhk",
+       "title": "The PID and the project log, recall and recap",
+       "seconds": 576,
+       "chapters": [
+        [
+         0,
+         "The PID and the project log"
+        ],
+        [
+         84,
+         "The PID and the project log, continued"
+        ],
+        [
+         94,
+         "The approaches inside the PID"
+        ],
+        [
+         138,
+         "The registers in the project log"
+        ],
+        [
+         177,
+         "Products by practice"
+        ],
+        [
+         225,
+         "Who sends which report"
+        ]
+       ],
+       "published": "2026-11-14T12:56:25Z",
+       "thumb": "img/modules/prince2/14-1.jpg"
+      }
+     ],
+     "deck": "downloads/prince2/14-management-products-roles-and-the-project-log-at-a-glance.pptx",
+     "deck_kb": 162,
+     "seconds": 576,
+     "words": 962
+    },
+    {
+     "num": "15",
+     "slug": "15-exam-technique-and-final-review",
+     "title": "Exam Technique and Final Review",
+     "desc": "The pairs the exam likes to confuse, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "lFseR1V8ttY",
+       "title": "The pairs the exam likes to confuse, recall and recap",
+       "seconds": 672,
+       "chapters": [
+        [
+         0,
+         "The pairs the exam likes to confuse"
+        ],
+        [
+         103,
+         "The pairs the exam likes to confuse, continued"
+        ],
+        [
+         135,
+         "The pairs the exam likes to confuse, continued"
+        ],
+        [
+         146,
+         "The lists to know by heart"
+        ],
+        [
+         215,
+         "Technique for each question style"
+        ]
+       ],
+       "published": "2026-11-14T12:56:46Z",
+       "thumb": "img/modules/prince2/15-1.jpg"
+      }
+     ],
+     "deck": "downloads/prince2/15-exam-technique-and-final-review.pptx",
+     "deck_kb": 179,
+     "seconds": 672,
+     "words": 1093
+    }
+   ],
+   "facts": {
+    "questions": "60",
+    "time": "60 min",
+    "passing": "36 of 60 (60%)",
+    "source": "peoplecert.org",
+    "url": "https://www.peoplecert.org/browse-certifications/project-programme-and-portfolio-management"
+   },
+   "videos": 16,
+   "seconds": 9377,
+   "notes": [
+    {
+     "num": "00",
+     "slug": "00-exam-orientation-and-how-to-study",
+     "title": "Exam Orientation and How to Study",
+     "group": "Start here",
+     "tasks": 0,
+     "los": [],
+     "minutes": 4,
+     "check": {
+      "src_words": 751,
+      "page_words": 777,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 4,
+      "scenario": 4,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "00"
+     ],
+     "domain": "",
+     "ref": "Module 0",
+     "tn": "Module 00",
+     "of": 16,
+     "module": "00"
+    },
+    {
+     "num": "01",
+     "slug": "01-projects-project-management-and-the-five-integrated-elements",
+     "title": "Projects, Project Management and the Five Integrated Elements",
+     "group": "Key concepts and the principles (11%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 4,
+     "check": {
+      "src_words": 813,
+      "page_words": 849,
+      "src_tables": 4,
+      "tables": 4,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "01"
+     ],
+     "domain": "",
+     "ref": "Module 1",
+     "tn": "Module 01",
+     "of": 16,
+     "module": "01"
+    },
+    {
+     "num": "02",
+     "slug": "02-the-seven-principles-and-tailoring",
+     "title": "The Seven Principles and Tailoring",
+     "group": "Key concepts and the principles (11%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 5,
+     "check": {
+      "src_words": 982,
+      "page_words": 1017,
+      "src_tables": 4,
+      "tables": 4,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 5,
+      "sections": 5
+     },
+     "modules": [
+      "02"
+     ],
+     "domain": "",
+     "ref": "Module 2",
+     "tn": "Module 02",
+     "of": 16,
+     "module": "02"
+    },
+    {
+     "num": "03",
+     "slug": "03-the-people-element-ecosystems-change-stakeholders-and-culture",
+     "title": "The People Element: Ecosystems, Change, Stakeholders and Culture",
+     "group": "The people element (14%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 4,
+     "check": {
+      "src_words": 840,
+      "page_words": 876,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "03"
+     ],
+     "domain": "",
+     "ref": "Module 3",
+     "tn": "Module 03",
+     "of": 16,
+     "module": "03"
+    },
+    {
+     "num": "04",
+     "slug": "04-the-people-element-leadership-teams-communication-and-integration",
+     "title": "The People Element: Leadership, Teams, Communication and Integration",
+     "group": "The people element (14%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 4,
+     "check": {
+      "src_words": 760,
+      "page_words": 795,
+      "src_tables": 4,
+      "tables": 4,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 5,
+      "sections": 5
+     },
+     "modules": [
+      "04"
+     ],
+     "domain": "",
+     "ref": "Module 4",
+     "tn": "Module 04",
+     "of": 16,
+     "module": "04"
+    },
+    {
+     "num": "05",
+     "slug": "05-the-business-case-practice",
+     "title": "The Business Case Practice",
+     "group": "The practices (60%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 4,
+     "check": {
+      "src_words": 795,
+      "page_words": 831,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "05"
+     ],
+     "domain": "",
+     "ref": "Module 5",
+     "tn": "Module 05",
+     "of": 16,
+     "module": "05"
+    },
+    {
+     "num": "06",
+     "slug": "06-the-organizing-practice",
+     "title": "The Organizing Practice",
+     "group": "The practices (60%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 4,
+     "check": {
+      "src_words": 788,
+      "page_words": 826,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 8,
+      "sections": 8
+     },
+     "modules": [
+      "06"
+     ],
+     "domain": "",
+     "ref": "Module 6",
+     "tn": "Module 06",
+     "of": 16,
+     "module": "06"
+    },
+    {
+     "num": "07",
+     "slug": "07-the-plans-practice",
+     "title": "The Plans Practice",
+     "group": "The practices (60%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 4,
+     "check": {
+      "src_words": 829,
+      "page_words": 861,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "07"
+     ],
+     "domain": "",
+     "ref": "Module 7",
+     "tn": "Module 07",
+     "of": 16,
+     "module": "07"
+    },
+    {
+     "num": "08",
+     "slug": "08-the-quality-practice",
+     "title": "The Quality Practice",
+     "group": "The practices (60%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 4,
+     "check": {
+      "src_words": 689,
+      "page_words": 725,
+      "src_tables": 4,
+      "tables": 4,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "08"
+     ],
+     "domain": "",
+     "ref": "Module 8",
+     "tn": "Module 08",
+     "of": 16,
+     "module": "08"
+    },
+    {
+     "num": "09",
+     "slug": "09-the-risk-practice",
+     "title": "The Risk Practice",
+     "group": "The practices (60%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 4,
+     "check": {
+      "src_words": 807,
+      "page_words": 843,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "09"
+     ],
+     "domain": "",
+     "ref": "Module 9",
+     "tn": "Module 09",
+     "of": 16,
+     "module": "09"
+    },
+    {
+     "num": "10",
+     "slug": "10-the-issues-practice",
+     "title": "The Issues Practice",
+     "group": "The practices (60%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 4,
+     "check": {
+      "src_words": 776,
+      "page_words": 812,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "10"
+     ],
+     "domain": "",
+     "ref": "Module 10",
+     "tn": "Module 10",
+     "of": 16,
+     "module": "10"
+    },
+    {
+     "num": "11",
+     "slug": "11-the-progress-practice",
+     "title": "The Progress Practice",
+     "group": "The practices (60%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 5,
+     "check": {
+      "src_words": 892,
+      "page_words": 928,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "11"
+     ],
+     "domain": "",
+     "ref": "Module 11",
+     "tn": "Module 11",
+     "of": 16,
+     "module": "11"
+    },
+    {
+     "num": "12",
+     "slug": "12-the-processes-starting-up-directing-and-initiating-a-project",
+     "title": "The Processes: Starting Up, Directing and Initiating a Project",
+     "group": "The processes (15%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 4,
+     "check": {
+      "src_words": 792,
+      "page_words": 828,
+      "src_tables": 2,
+      "tables": 2,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "12"
+     ],
+     "domain": "",
+     "ref": "Module 12",
+     "tn": "Module 12",
+     "of": 16,
+     "module": "12"
+    },
+    {
+     "num": "13",
+     "slug": "13-the-processes-controlling-delivery-stage-boundaries-and-closing",
+     "title": "The Processes: Controlling, Delivery, Stage Boundaries and Closing",
+     "group": "The processes (15%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 4,
+     "check": {
+      "src_words": 833,
+      "page_words": 869,
+      "src_tables": 1,
+      "tables": 1,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "13"
+     ],
+     "domain": "",
+     "ref": "Module 13",
+     "tn": "Module 13",
+     "of": 16,
+     "module": "13"
+    },
+    {
+     "num": "14",
+     "slug": "14-management-products-roles-and-the-project-log-at-a-glance",
+     "title": "Management Products, Roles and the Project Log at a Glance",
+     "group": "The practices (60%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 4,
+     "check": {
+      "src_words": 747,
+      "page_words": 782,
+      "src_tables": 6,
+      "tables": 6,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 5,
+      "sections": 5
+     },
+     "modules": [
+      "14"
+     ],
+     "domain": "",
+     "ref": "Module 14",
+     "tn": "Module 14",
+     "of": 16,
+     "module": "14"
+    },
+    {
+     "num": "15",
+     "slug": "15-exam-technique-and-final-review",
+     "title": "Exam Technique and Final Review",
+     "group": "Review and exam day",
+     "tasks": 0,
+     "los": [],
+     "minutes": 4,
+     "check": {
+      "src_words": 899,
+      "page_words": 943,
       "src_tables": 4,
       "tables": 4,
       "src_images": 1,
