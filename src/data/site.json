@@ -64,7 +64,8 @@
     "clf",
     "aif",
     "saa",
-    "dea"
+    "dea",
+    "dva"
    ]
   },
   {
@@ -38717,6 +38718,1376 @@
      "tn": "Module 15",
      "of": 16,
      "module": "15"
+    }
+   ],
+   "glossary": 0
+  },
+  {
+   "kind": "certification",
+   "topic": null,
+   "slug": "dva",
+   "institute": "aws",
+   "short": "DVA-C03",
+   "name": "AWS Developer Associate",
+   "title": "AWS Developer Associate (DVA-C03) Exam Prep Masterclass",
+   "accent": "c-dva",
+   "desc": "Developing, securing, deploying, troubleshooting and optimizing applications on AWS: SQS, SNS, EventBridge, Lambda, DynamoDB, IAM, KMS, CI/CD, observability, and the new AI-assisted development and AI security topics, with exam-style questions in every module.",
+   "audience": "Developers with some AWS experience and anyone preparing for the AWS Developer Associate (DVA-C03) exam. Basic programming knowledge is assumed.",
+   "sources": "The official AWS Developer Associate (DVA-C03) exam guide and the AWS documentation of each service.",
+   "playlist": "PLITvu0hMHQJo",
+   "cover": "img/covers/dva.jpg",
+   "modules": [
+    {
+     "num": "00",
+     "slug": "00-exam-orientation-and-how-to-study",
+     "title": "Exam Orientation and How to Study",
+     "desc": "The exam at a glance, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "wZRTzxWly78",
+       "title": "The exam at a glance, recall and recap",
+       "seconds": 574,
+       "chapters": [
+        [
+         0,
+         "The exam at a glance"
+        ],
+        [
+         105,
+         "The exam at a glance, continued"
+        ],
+        [
+         136,
+         "The four domains"
+        ],
+        [
+         145,
+         "The four domains, continued"
+        ],
+        [
+         208,
+         "What the exam does not test"
+        ],
+        [
+         234,
+         "How to answer every question"
+        ],
+        [
+         273,
+         "A four-week study plan"
+        ]
+       ],
+       "published": "2026-11-14T17:57:04Z",
+       "thumb": "img/modules/dva/00-1.jpg"
+      }
+     ],
+     "deck": "downloads/dva/00-exam-orientation-and-how-to-study.pptx",
+     "deck_kb": 164,
+     "seconds": 574,
+     "words": 1087
+    },
+    {
+     "num": "01",
+     "slug": "01-decoupling-and-event-driven-integration",
+     "title": "Decoupling and Event-Driven Integration",
+     "desc": "Tight and loose coupling and Synchronous or asynchronous, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "hgcxpniRkzA",
+       "title": "Tight and loose coupling and Synchronous or asynchronous, recall and recap",
+       "seconds": 632,
+       "chapters": [
+        [
+         0,
+         "Tight and loose coupling"
+        ],
+        [
+         113,
+         "Synchronous or asynchronous"
+        ],
+        [
+         122,
+         "Synchronous or asynchronous, continued"
+        ],
+        [
+         167,
+         "Amazon SQS"
+        ],
+        [
+         222,
+         "Amazon SNS"
+        ],
+        [
+         243,
+         "Amazon EventBridge and S3 events"
+        ]
+       ],
+       "published": "2026-11-14T17:57:20Z",
+       "thumb": "img/modules/dva/01-1.jpg"
+      }
+     ],
+     "deck": "downloads/dva/01-decoupling-and-event-driven-integration.pptx",
+     "deck_kb": 145,
+     "seconds": 632,
+     "words": 1255
+    },
+    {
+     "num": "02",
+     "slug": "02-resilient-applications-and-apis",
+     "title": "Resilient Applications and APIs",
+     "desc": "Resilience techniques, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "Rgmkg3GKzBE",
+       "title": "Resilience techniques, recall and recap",
+       "seconds": 589,
+       "chapters": [
+        [
+         0,
+         "Resilience techniques"
+        ],
+        [
+         98,
+         "Resilience techniques, continued"
+        ],
+        [
+         122,
+         "Resilience techniques, continued"
+        ],
+        [
+         142,
+         "Resilience techniques, continued"
+        ],
+        [
+         153,
+         "Amazon API Gateway"
+        ],
+        [
+         178,
+         "Integration types (REST API)"
+        ],
+        [
+         209,
+         "Shaping and protecting requests"
+        ]
+       ],
+       "published": "2026-11-14T17:57:38Z",
+       "thumb": "img/modules/dva/02-1.jpg"
+      }
+     ],
+     "deck": "downloads/dva/02-resilient-applications-and-apis.pptx",
+     "deck_kb": 131,
+     "seconds": 589,
+     "words": 1110
+    },
+    {
+     "num": "03",
+     "slug": "03-sdks-serialization-and-streaming-data",
+     "title": "SDKs, Serialization and Streaming Data",
+     "desc": "APIs, the CLI and the SDKs, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "3gY5FU9YE2M",
+       "title": "APIs, the CLI and the SDKs, recall and recap",
+       "seconds": 639,
+       "chapters": [
+        [
+         0,
+         "APIs, the CLI and the SDKs"
+        ],
+        [
+         94,
+         "APIs, the CLI and the SDKs, continued"
+        ],
+        [
+         126,
+         "APIs, the CLI and the SDKs, continued"
+        ],
+        [
+         149,
+         "APIs, the CLI and the SDKs, continued"
+        ],
+        [
+         169,
+         "Serialization and deserialization"
+        ],
+        [
+         218,
+         "Streaming data"
+        ],
+        [
+         226,
+         "Streaming data, continued"
+        ],
+        [
+         255,
+         "Kinesis Data Streams essentials"
+        ]
+       ],
+       "published": "2026-11-14T17:58:09Z",
+       "thumb": "img/modules/dva/03-1.jpg"
+      }
+     ],
+     "deck": "downloads/dva/03-sdks-serialization-and-streaming-data.pptx",
+     "deck_kb": 182,
+     "seconds": 639,
+     "words": 1246
+    },
+    {
+     "num": "04",
+     "slug": "04-ai-assisted-development-and-managed-ai-services",
+     "title": "AI-Assisted Development and Managed AI Services",
+     "desc": "AI-assisted development, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "m_EfAh2tPg0",
+       "title": "AI-assisted development, recall and recap",
+       "seconds": 584,
+       "chapters": [
+        [
+         0,
+         "AI-assisted development"
+        ],
+        [
+         106,
+         "AI-assisted development, continued"
+        ],
+        [
+         116,
+         "Kiro and spec-driven development"
+        ],
+        [
+         168,
+         "Managed AI services in applications"
+        ],
+        [
+         201,
+         "Calling Bedrock from code"
+        ],
+        [
+         248,
+         "Calling Bedrock from code, continued"
+        ]
+       ],
+       "published": "2026-11-14T17:58:25Z",
+       "thumb": "img/modules/dva/04-1.jpg"
+      }
+     ],
+     "deck": "downloads/dva/04-ai-assisted-development-and-managed-ai-services.pptx",
+     "deck_kb": 181,
+     "seconds": 584,
+     "words": 1065
+    },
+    {
+     "num": "05",
+     "slug": "05-developing-with-aws-lambda",
+     "title": "Developing with AWS Lambda",
+     "desc": "The Lambda model and Configuration, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "X4s_QWB614A",
+       "title": "The Lambda model and Configuration, recall and recap",
+       "seconds": 629,
+       "chapters": [
+        [
+         0,
+         "The Lambda model"
+        ],
+        [
+         93,
+         "Configuration"
+        ],
+        [
+         158,
+         "Configuration, continued"
+        ],
+        [
+         166,
+         "Lambda in a VPC"
+        ],
+        [
+         210,
+         "Invocation types, errors and destinations"
+        ],
+        [
+         248,
+         "Invocation types, errors and destinations, continued"
+        ]
+       ],
+       "published": "2026-11-14T17:58:50Z",
+       "thumb": "img/modules/dva/05-1.jpg"
+      }
+     ],
+     "deck": "downloads/dva/05-developing-with-aws-lambda.pptx",
+     "deck_kb": 145,
+     "seconds": 629,
+     "words": 1183
+    },
+    {
+     "num": "06",
+     "slug": "06-amazon-dynamodb-for-applications",
+     "title": "Amazon DynamoDB for Applications",
+     "desc": "The data model, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "yUNr9O9dX9w",
+       "title": "The data model, recall and recap",
+       "seconds": 624,
+       "chapters": [
+        [
+         0,
+         "The data model"
+        ],
+        [
+         102,
+         "The data model, continued"
+        ],
+        [
+         110,
+         "Choosing keys"
+        ],
+        [
+         134,
+         "Reading data"
+        ],
+        [
+         170,
+         "Read consistency"
+        ],
+        [
+         194,
+         "Capacity"
+        ],
+        [
+         229,
+         "Indexes and other features"
+        ],
+        [
+         289,
+         "Indexes and other features, continued"
+        ]
+       ],
+       "published": "2026-11-14T17:59:14Z",
+       "thumb": "img/modules/dva/06-1.jpg"
+      }
+     ],
+     "deck": "downloads/dva/06-amazon-dynamodb-for-applications.pptx",
+     "deck_kb": 173,
+     "seconds": 624,
+     "words": 1125
+    },
+    {
+     "num": "07",
+     "slug": "07-choosing-data-stores-caching-and-data-lifecycles",
+     "title": "Choosing Data Stores, Caching and Data Lifecycles",
+     "desc": "Choosing a data store, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "fQBKCkmlkSA",
+       "title": "Choosing a data store, recall and recap",
+       "seconds": 574,
+       "chapters": [
+        [
+         0,
+         "Choosing a data store"
+        ],
+        [
+         115,
+         "Choosing a data store, continued"
+        ],
+        [
+         130,
+         "Caching"
+        ],
+        [
+         176,
+         "Caching strategies"
+        ],
+        [
+         221,
+         "Data lifecycles"
+        ]
+       ],
+       "published": "2026-11-14T17:59:26Z",
+       "thumb": "img/modules/dva/07-1.jpg"
+      }
+     ],
+     "deck": "downloads/dva/07-choosing-data-stores-caching-and-data-lifecycles.pptx",
+     "deck_kb": 128,
+     "seconds": 574,
+     "words": 1020
+    },
+    {
+     "num": "08",
+     "slug": "08-authentication-and-authorization",
+     "title": "Authentication and Authorization",
+     "desc": "IAM in one page, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "ZlkFPN7LAIU",
+       "title": "IAM in one page, recall and recap",
+       "seconds": 640,
+       "chapters": [
+        [
+         0,
+         "IAM in one page"
+        ],
+        [
+         120,
+         "IAM in one page, continued"
+        ],
+        [
+         142,
+         "AWS STS and assuming roles"
+        ],
+        [
+         183,
+         "Amazon Cognito and federation"
+        ],
+        [
+         210,
+         "Amazon Cognito and federation, continued"
+        ],
+        [
+         237,
+         "Amazon Cognito and federation, continued"
+        ],
+        [
+         253,
+         "Programmatic access and presigned URLs"
+        ]
+       ],
+       "published": "2026-11-14T17:59:43Z",
+       "thumb": "img/modules/dva/08-1.jpg"
+      }
+     ],
+     "deck": "downloads/dva/08-authentication-and-authorization.pptx",
+     "deck_kb": 189,
+     "seconds": 640,
+     "words": 1224
+    },
+    {
+     "num": "09",
+     "slug": "09-encryption-certificates-and-secrets",
+     "title": "Encryption, Certificates and Secrets",
+     "desc": "Encryption at rest and in transit and AWS KMS, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "4qyjRh5QjVg",
+       "title": "Encryption at rest and in transit and AWS KMS, recall and recap",
+       "seconds": 643,
+       "chapters": [
+        [
+         0,
+         "Encryption at rest and in transit"
+        ],
+        [
+         100,
+         "AWS KMS"
+        ],
+        [
+         138,
+         "AWS KMS, continued"
+        ],
+        [
+         162,
+         "AWS KMS, continued"
+        ],
+        [
+         183,
+         "Server-side or client-side"
+        ],
+        [
+         228,
+         "Certificates and SSH keys"
+        ],
+        [
+         257,
+         "Sensitive data and secrets"
+        ],
+        [
+         317,
+         "Sensitive data and secrets, continued"
+        ]
+       ],
+       "published": "2026-11-14T18:00:21Z",
+       "thumb": "img/modules/dva/09-1.jpg"
+      }
+     ],
+     "deck": "downloads/dva/09-encryption-certificates-and-secrets.pptx",
+     "deck_kb": 142,
+     "seconds": 643,
+     "words": 1268
+    },
+    {
+     "num": "10",
+     "slug": "10-securing-ai-services-in-applications",
+     "title": "Securing AI Services in Applications",
+     "desc": "Request and manage access and Data privacy in transit and use, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "K5xDz78Kdtc",
+       "title": "Request and manage access and Data privacy in transit and use, recall and recap",
+       "seconds": 637,
+       "chapters": [
+        [
+         0,
+         "Request and manage access"
+        ],
+        [
+         106,
+         "Data privacy in transit and use"
+        ],
+        [
+         117,
+         "Data privacy in transit and use, continued"
+        ],
+        [
+         157,
+         "Filtering inputs and outputs: Amazon Bedrock Guardrails"
+        ],
+        [
+         201,
+         "Filtering inputs and outputs: Amazon Bedrock Guardrails, continued"
+        ],
+        [
+         227,
+         "Securing AI agent interactions"
+        ],
+        [
+         265,
+         "Protect sensitive content in logs"
+        ]
+       ],
+       "published": "2026-11-14T18:00:30Z",
+       "thumb": "img/modules/dva/10-1.jpg"
+      }
+     ],
+     "deck": "downloads/dva/10-securing-ai-services-in-applications.pptx",
+     "deck_kb": 139,
+     "seconds": 637,
+     "words": 1167
+    },
+    {
+     "num": "11",
+     "slug": "11-preparing-artifacts-and-configuration",
+     "title": "Preparing Artifacts and Configuration",
+     "desc": "Packaging code and Container images and Amazon ECR, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "6sO7zY77ZcE",
+       "title": "Packaging code and Container images and Amazon ECR, recall and recap",
+       "seconds": 590,
+       "chapters": [
+        [
+         0,
+         "Packaging code"
+        ],
+        [
+         108,
+         "Container images and Amazon ECR"
+        ],
+        [
+         119,
+         "Container images and Amazon ECR, continued"
+        ],
+        [
+         167,
+         "Code repositories"
+        ],
+        [
+         184,
+         "Environment-specific configuration"
+        ],
+        [
+         235,
+         "API Gateway stages and endpoints"
+        ]
+       ],
+       "published": "2026-11-14T18:00:45Z",
+       "thumb": "img/modules/dva/11-1.jpg"
+      }
+     ],
+     "deck": "downloads/dva/11-preparing-artifacts-and-configuration.pptx",
+     "deck_kb": 129,
+     "seconds": 590,
+     "words": 1056
+    },
+    {
+     "num": "12",
+     "slug": "12-testing-applications",
+     "title": "Testing Applications",
+     "desc": "Tests you write and run, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "HRV9X9jIWKk",
+       "title": "Tests you write and run, recall and recap",
+       "seconds": 582,
+       "chapters": [
+        [
+         0,
+         "Tests you write and run"
+        ],
+        [
+         105,
+         "Tests you write and run, continued"
+        ],
+        [
+         116,
+         "AWS SAM, CDK and CloudFormation for testing"
+        ],
+        [
+         152,
+         "Test events and mock dependencies"
+        ],
+        [
+         192,
+         "Environments"
+        ],
+        [
+         230,
+         "AI tools for testing"
+        ]
+       ],
+       "published": "2026-11-14T18:01:12Z",
+       "thumb": "img/modules/dva/12-1.jpg"
+      }
+     ],
+     "deck": "downloads/dva/12-testing-applications.pptx",
+     "deck_kb": 128,
+     "seconds": 582,
+     "words": 1129
+    },
+    {
+     "num": "13",
+     "slug": "13-deploying-with-ci-cd-iac-and-containers",
+     "title": "Deploying with CI/CD, IaC and Containers",
+     "desc": "The CI/CD services, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "GLjxUqt5jhA",
+       "title": "The CI/CD services, recall and recap",
+       "seconds": 679,
+       "chapters": [
+        [
+         0,
+         "The CI/CD services"
+        ],
+        [
+         90,
+         "The CI/CD services, continued"
+        ],
+        [
+         137,
+         "CodeDeploy"
+        ],
+        [
+         178,
+         "Deployment strategies"
+        ],
+        [
+         215,
+         "Deployment strategies, continued"
+        ],
+        [
+         244,
+         "Infrastructure as code"
+        ],
+        [
+         281,
+         "Containers and source control"
+        ]
+       ],
+       "published": "2026-11-14T18:02:07Z",
+       "thumb": "img/modules/dva/13-1.jpg"
+      }
+     ],
+     "deck": "downloads/dva/13-deploying-with-ci-cd-iac-and-containers.pptx",
+     "deck_kb": 140,
+     "seconds": 679,
+     "words": 1203
+    },
+    {
+     "num": "14",
+     "slug": "14-troubleshooting-and-observability",
+     "title": "Troubleshooting and Observability",
+     "desc": "The three pillars, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "43VpO17LSS8",
+       "title": "The three pillars, recall and recap",
+       "seconds": 628,
+       "chapters": [
+        [
+         0,
+         "The three pillars"
+        ],
+        [
+         91,
+         "The three pillars, continued"
+        ],
+        [
+         122,
+         "CloudWatch Logs"
+        ],
+        [
+         166,
+         "Metrics, alarms and notifications"
+        ],
+        [
+         200,
+         "Tracing with AWS X-Ray"
+        ],
+        [
+         247,
+         "Root cause analysis"
+        ]
+       ],
+       "published": "2026-11-14T18:02:01Z",
+       "thumb": "img/modules/dva/14-1.jpg"
+      }
+     ],
+     "deck": "downloads/dva/14-troubleshooting-and-observability.pptx",
+     "deck_kb": 128,
+     "seconds": 628,
+     "words": 1132
+    },
+    {
+     "num": "15",
+     "slug": "15-optimizing-applications",
+     "title": "Optimizing Applications",
+     "desc": "Concurrency, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "JNJe1uHrgSA",
+       "title": "Concurrency, recall and recap",
+       "seconds": 566,
+       "chapters": [
+        [
+         0,
+         "Concurrency"
+        ],
+        [
+         86,
+         "Concurrency, continued"
+        ],
+        [
+         133,
+         "Memory and compute"
+        ],
+        [
+         161,
+         "Messaging optimization"
+        ],
+        [
+         191,
+         "Caching"
+        ],
+        [
+         213,
+         "Bottlenecks and AI tools"
+        ]
+       ],
+       "published": "2026-11-14T18:02:19Z",
+       "thumb": "img/modules/dva/15-1.jpg"
+      }
+     ],
+     "deck": "downloads/dva/15-optimizing-applications.pptx",
+     "deck_kb": 132,
+     "seconds": 566,
+     "words": 975
+    },
+    {
+     "num": "16",
+     "slug": "16-exam-technique-and-final-review",
+     "title": "Exam Technique and Final Review",
+     "desc": "The pairs the exam likes to confuse, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "0bIamEXtCMU",
+       "title": "The pairs the exam likes to confuse, recall and recap",
+       "seconds": 597,
+       "chapters": [
+        [
+         0,
+         "The pairs the exam likes to confuse"
+        ],
+        [
+         100,
+         "The pairs the exam likes to confuse, continued"
+        ],
+        [
+         141,
+         "The pairs the exam likes to confuse, continued"
+        ],
+        [
+         150,
+         "Habits that score points"
+        ]
+       ],
+       "published": "2026-11-14T18:02:37Z",
+       "thumb": "img/modules/dva/16-1.jpg"
+      }
+     ],
+     "deck": "downloads/dva/16-exam-technique-and-final-review.pptx",
+     "deck_kb": 188,
+     "seconds": 597,
+     "words": 1027
+    }
+   ],
+   "facts": {
+    "questions": "50 scored + 15 unscored",
+    "time": "",
+    "passing": "720 of 1,000",
+    "source": "aws.amazon.com/certification",
+    "url": "https://aws.amazon.com/certification/certified-developer-associate/"
+   },
+   "videos": 17,
+   "seconds": 10407,
+   "notes": [
+    {
+     "num": "00",
+     "slug": "00-exam-orientation-and-how-to-study",
+     "title": "Exam Orientation and How to Study",
+     "group": "Start here",
+     "tasks": 0,
+     "los": [],
+     "minutes": 4,
+     "check": {
+      "src_words": 834,
+      "page_words": 860,
+      "src_tables": 4,
+      "tables": 4,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 4,
+      "scenario": 4,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "00"
+     ],
+     "domain": "",
+     "ref": "Module 0",
+     "tn": "Module 00",
+     "of": 17,
+     "module": "00"
+    },
+    {
+     "num": "01",
+     "slug": "01-decoupling-and-event-driven-integration",
+     "title": "Decoupling and Event-Driven Integration",
+     "group": "Development with AWS Services (30%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 5,
+     "check": {
+      "src_words": 1042,
+      "page_words": 1079,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "01"
+     ],
+     "domain": "",
+     "ref": "Module 1",
+     "tn": "Module 01",
+     "of": 17,
+     "module": "01"
+    },
+    {
+     "num": "02",
+     "slug": "02-resilient-applications-and-apis",
+     "title": "Resilient Applications and APIs",
+     "group": "Development with AWS Services (30%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 4,
+     "check": {
+      "src_words": 848,
+      "page_words": 882,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 4,
+      "sections": 4
+     },
+     "modules": [
+      "02"
+     ],
+     "domain": "",
+     "ref": "Module 2",
+     "tn": "Module 02",
+     "of": 17,
+     "module": "02"
+    },
+    {
+     "num": "03",
+     "slug": "03-sdks-serialization-and-streaming-data",
+     "title": "SDKs, Serialization and Streaming Data",
+     "group": "Development with AWS Services (30%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 5,
+     "check": {
+      "src_words": 969,
+      "page_words": 1004,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 5,
+      "sections": 5
+     },
+     "modules": [
+      "03"
+     ],
+     "domain": "",
+     "ref": "Module 3",
+     "tn": "Module 03",
+     "of": 17,
+     "module": "03"
+    },
+    {
+     "num": "04",
+     "slug": "04-ai-assisted-development-and-managed-ai-services",
+     "title": "AI-Assisted Development and Managed AI Services",
+     "group": "Development with AWS Services (30%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 4,
+     "check": {
+      "src_words": 887,
+      "page_words": 921,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 4,
+      "sections": 4
+     },
+     "modules": [
+      "04"
+     ],
+     "domain": "",
+     "ref": "Module 4",
+     "tn": "Module 04",
+     "of": 17,
+     "module": "04"
+    },
+    {
+     "num": "05",
+     "slug": "05-developing-with-aws-lambda",
+     "title": "Developing with AWS Lambda",
+     "group": "Development with AWS Services (30%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 5,
+     "check": {
+      "src_words": 949,
+      "page_words": 985,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "05"
+     ],
+     "domain": "",
+     "ref": "Module 5",
+     "tn": "Module 05",
+     "of": 17,
+     "module": "05"
+    },
+    {
+     "num": "06",
+     "slug": "06-amazon-dynamodb-for-applications",
+     "title": "Amazon DynamoDB for Applications",
+     "group": "Development with AWS Services (30%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 5,
+     "check": {
+      "src_words": 969,
+      "page_words": 1005,
+      "src_tables": 6,
+      "tables": 6,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "06"
+     ],
+     "domain": "",
+     "ref": "Module 6",
+     "tn": "Module 06",
+     "of": 17,
+     "module": "06"
+    },
+    {
+     "num": "07",
+     "slug": "07-choosing-data-stores-caching-and-data-lifecycles",
+     "title": "Choosing Data Stores, Caching and Data Lifecycles",
+     "group": "Development with AWS Services (30%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 4,
+     "check": {
+      "src_words": 752,
+      "page_words": 787,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 5,
+      "sections": 5
+     },
+     "modules": [
+      "07"
+     ],
+     "domain": "",
+     "ref": "Module 7",
+     "tn": "Module 07",
+     "of": 17,
+     "module": "07"
+    },
+    {
+     "num": "08",
+     "slug": "08-authentication-and-authorization",
+     "title": "Authentication and Authorization",
+     "group": "Security (26%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 5,
+     "check": {
+      "src_words": 918,
+      "page_words": 954,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 2,
+      "images": 2,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "08"
+     ],
+     "domain": "",
+     "ref": "Module 8",
+     "tn": "Module 08",
+     "of": 17,
+     "module": "08"
+    },
+    {
+     "num": "09",
+     "slug": "09-encryption-certificates-and-secrets",
+     "title": "Encryption, Certificates and Secrets",
+     "group": "Security (26%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 5,
+     "check": {
+      "src_words": 888,
+      "page_words": 925,
+      "src_tables": 6,
+      "tables": 6,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "09"
+     ],
+     "domain": "",
+     "ref": "Module 9",
+     "tn": "Module 09",
+     "of": 17,
+     "module": "09"
+    },
+    {
+     "num": "10",
+     "slug": "10-securing-ai-services-in-applications",
+     "title": "Securing AI Services in Applications",
+     "group": "Security (26%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 5,
+     "check": {
+      "src_words": 913,
+      "page_words": 950,
+      "src_tables": 6,
+      "tables": 6,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "10"
+     ],
+     "domain": "",
+     "ref": "Module 10",
+     "tn": "Module 10",
+     "of": 17,
+     "module": "10"
+    },
+    {
+     "num": "11",
+     "slug": "11-preparing-artifacts-and-configuration",
+     "title": "Preparing Artifacts and Configuration",
+     "group": "Testing and Deployment (22%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 4,
+     "check": {
+      "src_words": 771,
+      "page_words": 808,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "11"
+     ],
+     "domain": "",
+     "ref": "Module 11",
+     "tn": "Module 11",
+     "of": 17,
+     "module": "11"
+    },
+    {
+     "num": "12",
+     "slug": "12-testing-applications",
+     "title": "Testing Applications",
+     "group": "Testing and Deployment (22%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 4,
+     "check": {
+      "src_words": 829,
+      "page_words": 865,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "12"
+     ],
+     "domain": "",
+     "ref": "Module 12",
+     "tn": "Module 12",
+     "of": 17,
+     "module": "12"
+    },
+    {
+     "num": "13",
+     "slug": "13-deploying-with-ci-cd-iac-and-containers",
+     "title": "Deploying with CI/CD, IaC and Containers",
+     "group": "Testing and Deployment (22%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 4,
+     "check": {
+      "src_words": 858,
+      "page_words": 898,
+      "src_tables": 6,
+      "tables": 6,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 7,
+      "scenario": 7,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "13"
+     ],
+     "domain": "",
+     "ref": "Module 13",
+     "tn": "Module 13",
+     "of": 17,
+     "module": "13"
+    },
+    {
+     "num": "14",
+     "slug": "14-troubleshooting-and-observability",
+     "title": "Troubleshooting and Observability",
+     "group": "Troubleshooting and Optimization (22%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 4,
+     "check": {
+      "src_words": 822,
+      "page_words": 859,
+      "src_tables": 6,
+      "tables": 6,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "14"
+     ],
+     "domain": "",
+     "ref": "Module 14",
+     "tn": "Module 14",
+     "of": 17,
+     "module": "14"
+    },
+    {
+     "num": "15",
+     "slug": "15-optimizing-applications",
+     "title": "Optimizing Applications",
+     "group": "Troubleshooting and Optimization (22%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 4,
+     "check": {
+      "src_words": 684,
+      "page_words": 721,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "15"
+     ],
+     "domain": "",
+     "ref": "Module 15",
+     "tn": "Module 15",
+     "of": 17,
+     "module": "15"
+    },
+    {
+     "num": "16",
+     "slug": "16-exam-technique-and-final-review",
+     "title": "Exam Technique and Final Review",
+     "group": "Review and exam day",
+     "tasks": 0,
+     "los": [],
+     "minutes": 4,
+     "check": {
+      "src_words": 773,
+      "page_words": 816,
+      "src_tables": 3,
+      "tables": 3,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 9,
+      "scenario": 9,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 4,
+      "sections": 4
+     },
+     "modules": [
+      "16"
+     ],
+     "domain": "",
+     "ref": "Module 16",
+     "tn": "Module 16",
+     "of": 17,
+     "module": "16"
     }
    ],
    "glossary": 0

@@ -62,7 +62,7 @@ const modData = c.modules.map((m) => ({ num: m.num, url: moduleUrl(c, m) }));
           <>
             <dl class="ticket-rows">
               <div><dt>Questions</dt><dd class="mono">{c.facts.questions}</dd></div>
-              <div><dt>Time</dt><dd class="mono">{c.facts.time}</dd></div>
+              {c.facts.time && <div><dt>Time</dt><dd class="mono">{c.facts.time}</dd></div>}
               <div><dt>Passing score</dt><dd class="mono">{c.facts.passing}</dd></div>
             </dl>
             <div class="ticket-foot">Source: <a href={c.facts.url} target="_blank" rel="noopener">{c.facts.source}</a>. Exam details change, so confirm them, with the fee and the requirements, on the official site before you book.</div>

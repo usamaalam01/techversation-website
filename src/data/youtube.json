@@ -4000,6 +4000,633 @@
    ]
   ]
  },
+ "wZRTzxWly78": {
+  "course": "dva",
+  "key": "00-Exam-Orientation-and-How-to-Study-part-1",
+  "title": "DVA-C03 Exam Prep Introduction: Exam Format, Response Types and How to Answer | DVA-C03",
+  "seconds": 574,
+  "published": "2026-11-14T17:57:04Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "The exam at a glance"
+   ],
+   [
+    105,
+    "The exam at a glance, continued"
+   ],
+   [
+    136,
+    "The four domains"
+   ],
+   [
+    145,
+    "The four domains, continued"
+   ],
+   [
+    208,
+    "What the exam does not test"
+   ],
+   [
+    234,
+    "How to answer every question"
+   ],
+   [
+    273,
+    "A four-week study plan"
+   ]
+  ]
+ },
+ "hgcxpniRkzA": {
+  "course": "dva",
+  "key": "01-Decoupling-and-Event-Driven-Integration-part-1",
+  "title": "DVA-C03 Exam Prep Module 1: Decoupling with SQS, SNS and EventBridge | DVA-C03",
+  "seconds": 632,
+  "published": "2026-11-14T17:57:20Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Tight and loose coupling"
+   ],
+   [
+    113,
+    "Synchronous or asynchronous"
+   ],
+   [
+    122,
+    "Synchronous or asynchronous, continued"
+   ],
+   [
+    167,
+    "Amazon SQS"
+   ],
+   [
+    222,
+    "Amazon SNS"
+   ],
+   [
+    243,
+    "Amazon EventBridge and S3 events"
+   ]
+  ]
+ },
+ "Rgmkg3GKzBE": {
+  "course": "dva",
+  "key": "02-Resilient-Applications-and-APIs-part-1",
+  "title": "DVA-C03 Exam Prep Module 2: Retries, Resilience and API Gateway | DVA-C03",
+  "seconds": 589,
+  "published": "2026-11-14T17:57:38Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Resilience techniques"
+   ],
+   [
+    98,
+    "Resilience techniques, continued"
+   ],
+   [
+    122,
+    "Resilience techniques, continued"
+   ],
+   [
+    142,
+    "Resilience techniques, continued"
+   ],
+   [
+    153,
+    "Amazon API Gateway"
+   ],
+   [
+    178,
+    "Integration types (REST API)"
+   ],
+   [
+    209,
+    "Shaping and protecting requests"
+   ]
+  ]
+ },
+ "3gY5FU9YE2M": {
+  "course": "dva",
+  "key": "03-SDKs-Serialization-and-Streaming-Data-part-1",
+  "title": "DVA-C03 Exam Prep Module 3: SDKs, Serialization and Kinesis Streams | DVA-C03",
+  "seconds": 639,
+  "published": "2026-11-14T17:58:09Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "APIs, the CLI and the SDKs"
+   ],
+   [
+    94,
+    "APIs, the CLI and the SDKs, continued"
+   ],
+   [
+    126,
+    "APIs, the CLI and the SDKs, continued"
+   ],
+   [
+    149,
+    "APIs, the CLI and the SDKs, continued"
+   ],
+   [
+    169,
+    "Serialization and deserialization"
+   ],
+   [
+    218,
+    "Streaming data"
+   ],
+   [
+    226,
+    "Streaming data, continued"
+   ],
+   [
+    255,
+    "Kinesis Data Streams essentials"
+   ]
+  ]
+ },
+ "m_EfAh2tPg0": {
+  "course": "dva",
+  "key": "04-AI-Assisted-Development-and-Managed-AI-Services-part-1",
+  "title": "DVA-C03 Exam Prep Module 4: AI-Assisted Development and Amazon Bedrock | DVA-C03",
+  "seconds": 584,
+  "published": "2026-11-14T17:58:25Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "AI-assisted development"
+   ],
+   [
+    106,
+    "AI-assisted development, continued"
+   ],
+   [
+    116,
+    "Kiro and spec-driven development"
+   ],
+   [
+    168,
+    "Managed AI services in applications"
+   ],
+   [
+    201,
+    "Calling Bedrock from code"
+   ],
+   [
+    248,
+    "Calling Bedrock from code, continued"
+   ]
+  ]
+ },
+ "X4s_QWB614A": {
+  "course": "dva",
+  "key": "05-Developing-with-AWS-Lambda-part-1",
+  "title": "DVA-C03 Exam Prep Module 5: AWS Lambda: Configuration, VPC and Errors | DVA-C03",
+  "seconds": 629,
+  "published": "2026-11-14T17:58:50Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "The Lambda model"
+   ],
+   [
+    93,
+    "Configuration"
+   ],
+   [
+    158,
+    "Configuration, continued"
+   ],
+   [
+    166,
+    "Lambda in a VPC"
+   ],
+   [
+    210,
+    "Invocation types, errors and destinations"
+   ],
+   [
+    248,
+    "Invocation types, errors and destinations, continued"
+   ]
+  ]
+ },
+ "yUNr9O9dX9w": {
+  "course": "dva",
+  "key": "06-Amazon-DynamoDB-for-Applications-part-1",
+  "title": "DVA-C03 Exam Prep Module 6: Amazon DynamoDB: Keys, Queries and Indexes | DVA-C03",
+  "seconds": 624,
+  "published": "2026-11-14T17:59:14Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "The data model"
+   ],
+   [
+    102,
+    "The data model, continued"
+   ],
+   [
+    110,
+    "Choosing keys"
+   ],
+   [
+    134,
+    "Reading data"
+   ],
+   [
+    170,
+    "Read consistency"
+   ],
+   [
+    194,
+    "Capacity"
+   ],
+   [
+    229,
+    "Indexes and other features"
+   ],
+   [
+    289,
+    "Indexes and other features, continued"
+   ]
+  ]
+ },
+ "fQBKCkmlkSA": {
+  "course": "dva",
+  "key": "07-Choosing-Data-Stores-Caching-and-Data-Lifecycles-part-1",
+  "title": "DVA-C03 Exam Prep Module 7: Choosing Data Stores, Caching and Lifecycles | DVA-C03",
+  "seconds": 574,
+  "published": "2026-11-14T17:59:26Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Choosing a data store"
+   ],
+   [
+    115,
+    "Choosing a data store, continued"
+   ],
+   [
+    130,
+    "Caching"
+   ],
+   [
+    176,
+    "Caching strategies"
+   ],
+   [
+    221,
+    "Data lifecycles"
+   ]
+  ]
+ },
+ "ZlkFPN7LAIU": {
+  "course": "dva",
+  "key": "08-Authentication-and-Authorization-part-1",
+  "title": "DVA-C03 Exam Prep Module 8: IAM, STS, Cognito and Presigned URLs | DVA-C03",
+  "seconds": 640,
+  "published": "2026-11-14T17:59:43Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "IAM in one page"
+   ],
+   [
+    120,
+    "IAM in one page, continued"
+   ],
+   [
+    142,
+    "AWS STS and assuming roles"
+   ],
+   [
+    183,
+    "Amazon Cognito and federation"
+   ],
+   [
+    210,
+    "Amazon Cognito and federation, continued"
+   ],
+   [
+    237,
+    "Amazon Cognito and federation, continued"
+   ],
+   [
+    253,
+    "Programmatic access and presigned URLs"
+   ]
+  ]
+ },
+ "4qyjRh5QjVg": {
+  "course": "dva",
+  "key": "09-Encryption-Certificates-and-Secrets-part-1",
+  "title": "DVA-C03 Exam Prep Module 9: KMS, Certificates and Secrets | DVA-C03",
+  "seconds": 643,
+  "published": "2026-11-14T18:00:21Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Encryption at rest and in transit"
+   ],
+   [
+    100,
+    "AWS KMS"
+   ],
+   [
+    138,
+    "AWS KMS, continued"
+   ],
+   [
+    162,
+    "AWS KMS, continued"
+   ],
+   [
+    183,
+    "Server-side or client-side"
+   ],
+   [
+    228,
+    "Certificates and SSH keys"
+   ],
+   [
+    257,
+    "Sensitive data and secrets"
+   ],
+   [
+    317,
+    "Sensitive data and secrets, continued"
+   ]
+  ]
+ },
+ "K5xDz78Kdtc": {
+  "course": "dva",
+  "key": "10-Securing-AI-Services-in-Applications-part-1",
+  "title": "DVA-C03 Exam Prep Module 10: Securing AI Services and Agents | DVA-C03",
+  "seconds": 637,
+  "published": "2026-11-14T18:00:30Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Request and manage access"
+   ],
+   [
+    106,
+    "Data privacy in transit and use"
+   ],
+   [
+    117,
+    "Data privacy in transit and use, continued"
+   ],
+   [
+    157,
+    "Filtering inputs and outputs: Amazon Bedrock Guardrails"
+   ],
+   [
+    201,
+    "Filtering inputs and outputs: Amazon Bedrock Guardrails, continued"
+   ],
+   [
+    227,
+    "Securing AI agent interactions"
+   ],
+   [
+    265,
+    "Protect sensitive content in logs"
+   ]
+  ]
+ },
+ "6sO7zY77ZcE": {
+  "course": "dva",
+  "key": "11-Preparing-Artifacts-and-Configuration-part-1",
+  "title": "DVA-C03 Exam Prep Module 11: Container Images, AppConfig and API Stages | DVA-C03",
+  "seconds": 590,
+  "published": "2026-11-14T18:00:45Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Packaging code"
+   ],
+   [
+    108,
+    "Container images and Amazon ECR"
+   ],
+   [
+    119,
+    "Container images and Amazon ECR, continued"
+   ],
+   [
+    167,
+    "Code repositories"
+   ],
+   [
+    184,
+    "Environment-specific configuration"
+   ],
+   [
+    235,
+    "API Gateway stages and endpoints"
+   ]
+  ]
+ },
+ "HRV9X9jIWKk": {
+  "course": "dva",
+  "key": "12-Testing-Applications-part-1",
+  "title": "DVA-C03 Exam Prep Module 12: Testing with SAM, Mocks and Test Events | DVA-C03",
+  "seconds": 582,
+  "published": "2026-11-14T18:01:12Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Tests you write and run"
+   ],
+   [
+    105,
+    "Tests you write and run, continued"
+   ],
+   [
+    116,
+    "AWS SAM, CDK and CloudFormation for testing"
+   ],
+   [
+    152,
+    "Test events and mock dependencies"
+   ],
+   [
+    192,
+    "Environments"
+   ],
+   [
+    230,
+    "AI tools for testing"
+   ]
+  ]
+ },
+ "GLjxUqt5jhA": {
+  "course": "dva",
+  "key": "13-Deploying-with-CI-CD-IaC-and-Containers-part-1",
+  "title": "DVA-C03 Exam Prep Module 13: CI/CD, Deployment Strategies and IaC | DVA-C03",
+  "seconds": 679,
+  "published": "2026-11-14T18:02:07Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "The CI/CD services"
+   ],
+   [
+    90,
+    "The CI/CD services, continued"
+   ],
+   [
+    137,
+    "CodeDeploy"
+   ],
+   [
+    178,
+    "Deployment strategies"
+   ],
+   [
+    215,
+    "Deployment strategies, continued"
+   ],
+   [
+    244,
+    "Infrastructure as code"
+   ],
+   [
+    281,
+    "Containers and source control"
+   ]
+  ]
+ },
+ "43VpO17LSS8": {
+  "course": "dva",
+  "key": "14-Troubleshooting-and-Observability-part-1",
+  "title": "DVA-C03 Exam Prep Module 14: Logs, Metrics, Traces and Troubleshooting | DVA-C03",
+  "seconds": 628,
+  "published": "2026-11-14T18:02:01Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "The three pillars"
+   ],
+   [
+    91,
+    "The three pillars, continued"
+   ],
+   [
+    122,
+    "CloudWatch Logs"
+   ],
+   [
+    166,
+    "Metrics, alarms and notifications"
+   ],
+   [
+    200,
+    "Tracing with AWS X-Ray"
+   ],
+   [
+    247,
+    "Root cause analysis"
+   ]
+  ]
+ },
+ "JNJe1uHrgSA": {
+  "course": "dva",
+  "key": "15-Optimizing-Applications-part-1",
+  "title": "DVA-C03 Exam Prep Module 15: Concurrency, Memory, Messaging and Caching | DVA-C03",
+  "seconds": 566,
+  "published": "2026-11-14T18:02:19Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Concurrency"
+   ],
+   [
+    86,
+    "Concurrency, continued"
+   ],
+   [
+    133,
+    "Memory and compute"
+   ],
+   [
+    161,
+    "Messaging optimization"
+   ],
+   [
+    191,
+    "Caching"
+   ],
+   [
+    213,
+    "Bottlenecks and AI tools"
+   ]
+  ]
+ },
+ "0bIamEXtCMU": {
+  "course": "dva",
+  "key": "16-Exam-Technique-and-Final-Review-part-1",
+  "title": "DVA-C03 Exam Prep Module 16: Exam Technique, Look-Alike Services and Mixed Practice | DVA-C03",
+  "seconds": 597,
+  "published": "2026-11-14T18:02:37Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "The pairs the exam likes to confuse"
+   ],
+   [
+    100,
+    "The pairs the exam likes to confuse, continued"
+   ],
+   [
+    141,
+    "The pairs the exam likes to confuse, continued"
+   ],
+   [
+    150,
+    "Habits that score points"
+   ]
+  ]
+ },
  "z-rj4UB6Bs0": {
   "course": "prince2",
   "key": "00-Exam-Orientation-and-How-to-Study-part-1",
