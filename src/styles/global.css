@@ -66,8 +66,14 @@
 .c-prince2 { --accent: #d98a00; --accent-ink: #9a6200; --on-accent: #fff; }
 .c-dva { --accent: #c2570a; --accent-ink: #944006; --on-accent: #fff; }
 .c-az104 { --accent: #0a7fa3; --accent-ink: #075f7a; --on-accent: #fff; }
+.c-sc200 { --accent: #c4245f; --accent-ink: #9a1a49; --on-accent: #fff; }
+.c-netplus { --accent: #d4531c; --accent-ink: #a53d12; --on-accent: #fff; }
+.c-cc { --accent: #4f5bd5; --accent-ink: #3a44ad; --on-accent: #fff; }
+.c-cdl { --accent: #1f6fd6; --accent-ink: #1553a8; --on-accent: #fff; }
+.c-tf { --accent: #8a3ffc; --accent-ink: #6a28d0; --on-accent: #fff; }
 .c-az900 { --accent: #0078d4; --accent-ink: #005a9e; --on-accent: #fff; }
 .c-cka { --accent: #2f6fe4; --accent-ink: #1f55b8; --on-accent: #fff; }
+.c-ckad { --accent: #5a8f1f; --accent-ink: #3f6a12; --on-accent: #fff; }
 .c-aigp { --accent: #0b86b8; --accent-ink: #076891; --on-accent: #fff; }
 .c-cdmp { --accent: #8a35d1; --accent-ink: #6a1fa8; --on-accent: #fff; }
 .c-togaf { --accent: #0e9f95; --accent-ink: #0a756d; --on-accent: #fff; }
@@ -91,8 +97,14 @@
 :root[data-theme="dark"] .c-prince2 { --accent: #ffc247; --accent-ink: #ffd88a; --on-accent: #2a1a00; }
 :root[data-theme="dark"] .c-dva { --accent: #ff9a4d; --accent-ink: #ffbe8a; --on-accent: #2a1200; }
 :root[data-theme="dark"] .c-az104 { --accent: #4fd6f2; --accent-ink: #8fe6f7; --on-accent: #02161c; }
+:root[data-theme="dark"] .c-sc200 { --accent: #ff7aa8; --accent-ink: #ffa6c4; --on-accent: #2a0412; }
+:root[data-theme="dark"] .c-netplus { --accent: #ff8a55; --accent-ink: #ffb08a; --on-accent: #2a0e02; }
+:root[data-theme="dark"] .c-cc { --accent: #9aa4ff; --accent-ink: #bcc3ff; --on-accent: #0b0d33; }
+:root[data-theme="dark"] .c-cdl { --accent: #7ab4ff; --accent-ink: #a8cdff; --on-accent: #04152e; }
+:root[data-theme="dark"] .c-tf { --accent: #c09bff; --accent-ink: #d8c0ff; --on-accent: #1a0a33; }
 :root[data-theme="dark"] .c-az900 { --accent: #50b0ff; --accent-ink: #8cc9ff; --on-accent: #031528; }
 :root[data-theme="dark"] .c-cka { --accent: #7aa7ff; --accent-ink: #a4c2ff; --on-accent: #050f26; }
+:root[data-theme="dark"] .c-ckad { --accent: #a6d85a; --accent-ink: #c4e68a; --on-accent: #101f04; }
 :root[data-theme="dark"] .c-aigp { --accent: #46c8f5; --accent-ink: #7bd9f8; --on-accent: #03141c; }
 :root[data-theme="dark"] .c-cdmp { --accent: #c06bff; --accent-ink: #d49cff; --on-accent: #12031c; }
 :root[data-theme="dark"] .c-togaf { --accent: #3bd4c8; --accent-ink: #6fe3d9; --on-accent: #021615; }
