@@ -4769,6 +4769,579 @@
    ]
   ]
  },
+ "qCHY4q4XzIE": {
+  "course": "cdl",
+  "key": "00-Exam-Orientation-and-How-to-Study-part-1",
+  "title": "Cloud Digital Leader Exam Prep Introduction: Exam Format, Six Sections and How to Answer",
+  "seconds": 708,
+  "published": "2026-11-16T08:20:37Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "The exam at a glance"
+   ],
+   [
+    121,
+    "The six sections"
+   ],
+   [
+    130,
+    "The six sections, continued"
+   ],
+   [
+    182,
+    "The six sections, continued"
+   ],
+   [
+    221,
+    "What is new in the exam guide launched in August"
+   ],
+   [
+    263,
+    "What is new in the exam guide launched in August, continued"
+   ],
+   [
+    288,
+    "How to answer every question"
+   ],
+   [
+    326,
+    "A study plan"
+   ]
+  ]
+ },
+ "toos_uPQMcI": {
+  "course": "cdl",
+  "key": "01-Why-the-Cloud-Transforms-Business-part-1",
+  "title": "Cloud Digital Leader Exam Prep Module 1: Why the Cloud Transforms Business | Google Cloud",
+  "seconds": 616,
+  "published": "2026-11-16T08:21:08Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Key terms"
+   ],
+   [
+    121,
+    "Benefits of cloud technology"
+   ],
+   [
+    129,
+    "Benefits of cloud technology, continued"
+   ],
+   [
+    180,
+    "Drivers and challenges of digital transformation"
+   ],
+   [
+    236,
+    "What makes Google Cloud different"
+   ]
+  ]
+ },
+ "9UTx43KZtuk": {
+  "course": "cdl",
+  "key": "02-Cloud-Concepts-Google-Cloud-Infrastructure-and-Service-Models-part-1",
+  "title": "Cloud Digital Leader Exam Prep Module 2: Cloud Architectures, Regions, Zones and Service Models",
+  "seconds": 666,
+  "published": "2026-11-16T08:21:53Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Cloud architectures"
+   ],
+   [
+    77,
+    "Cloud architectures, continued"
+   ],
+   [
+    122,
+    "Cloud architectures, continued"
+   ],
+   [
+    148,
+    "Networking basics"
+   ],
+   [
+    179,
+    "Google Cloud's global infrastructure"
+   ],
+   [
+    240,
+    "Service models: IaaS, PaaS and SaaS"
+   ]
+  ]
+ },
+ "jdLwFzF4G4o": {
+  "course": "cdl",
+  "key": "03-The-Value-of-Data-part-1",
+  "title": "Cloud Digital Leader Exam Prep Module 3: The Value of Data: Warehouses, Lakes and Governance",
+  "seconds": 620,
+  "published": "2026-11-16T08:21:45Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Why data is valuable"
+   ],
+   [
+    112,
+    "Databases, data warehouses and data lakes"
+   ],
+   [
+    121,
+    "Databases, data warehouses and data lakes, continued"
+   ],
+   [
+    159,
+    "Types of data"
+   ],
+   [
+    205,
+    "The data supply chain"
+   ],
+   [
+    248,
+    "Data governance and openness"
+   ]
+  ]
+ },
+ "7qRQHZur5NQ": {
+  "course": "cdl",
+  "key": "04-Google-Cloud-Data-Management-Products-part-1",
+  "title": "Cloud Digital Leader Exam Prep Module 4: Cloud Storage, Spanner, Bigtable, BigQuery and More",
+  "seconds": 692,
+  "published": "2026-11-16T08:22:06Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Key concepts"
+   ],
+   [
+    99,
+    "Choosing the product"
+   ],
+   [
+    107,
+    "Choosing the product, continued"
+   ],
+   [
+    146,
+    "Choosing the product, continued"
+   ],
+   [
+    175,
+    "Choosing the product, continued"
+   ],
+   [
+    218,
+    "BigQuery in a few lines"
+   ],
+   [
+    249,
+    "Cloud Storage classes"
+   ],
+   [
+    309,
+    "Migrating and modernizing databases"
+   ]
+  ]
+ },
+ "cTPSoqSell4": {
+  "course": "cdl",
+  "key": "05-Smart-Analytics-Business-Intelligence-and-Streaming-part-1",
+  "title": "Cloud Digital Leader Exam Prep Module 5: Looker, Pub/Sub, Dataflow and Streaming Analytics",
+  "seconds": 586,
+  "published": "2026-11-16T08:22:42Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Business intelligence with Looker"
+   ],
+   [
+    111,
+    "Business intelligence with Looker, continued"
+   ],
+   [
+    130,
+    "Streaming analytics"
+   ],
+   [
+    160,
+    "Products for data pipelines"
+   ],
+   [
+    186,
+    "Products for data pipelines, continued"
+   ],
+   [
+    230,
+    "Putting it together"
+   ]
+  ]
+ },
+ "hR5owdvHdes": {
+  "course": "cdl",
+  "key": "06-AI-Machine-Learning-and-Agentic-AI-Fundamentals-part-1",
+  "title": "Cloud Digital Leader Exam Prep Module 6: AI, ML, Generative AI and Agentic AI Basics | Google Cloud",
+  "seconds": 635,
+  "published": "2026-11-16T08:23:25Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "The vocabulary"
+   ],
+   [
+    83,
+    "The vocabulary, continued"
+   ],
+   [
+    148,
+    "How agentic AI reshapes work"
+   ],
+   [
+    199,
+    "Problems ML solves and its value"
+   ],
+   [
+    235,
+    "Data quality"
+   ],
+   [
+    268,
+    "Explainable and responsible AI"
+   ]
+  ]
+ },
+ "HoJpiBpf7LY": {
+  "course": "cdl",
+  "key": "07-Google-Cloud-AI-Solutions-part-1",
+  "title": "Cloud Digital Leader Exam Prep Module 7: Agent Platform, AutoML and AI Hypercomputer | Google Cloud",
+  "seconds": 678,
+  "published": "2026-11-16T08:23:51Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Choosing an AI solution"
+   ],
+   [
+    82,
+    "Choosing an AI solution, continued"
+   ],
+   [
+    122,
+    "Choosing an AI solution, continued"
+   ],
+   [
+    155,
+    "Gemini Enterprise Agent Platform"
+   ],
+   [
+    176,
+    "Gemini Enterprise Agent Platform, continued"
+   ],
+   [
+    234,
+    "Pre-trained APIs and foundation models"
+   ],
+   [
+    285,
+    "AI Hypercomputer"
+   ],
+   [
+    320,
+    "BigQuery ML"
+   ]
+  ]
+ },
+ "ia_B3ck2tk8": {
+  "course": "cdl",
+  "key": "08-Cloud-Migration-and-Compute-Terms-part-1",
+  "title": "Cloud Digital Leader Exam Prep Module 8: Migration Paths and Compute Terms | Google Cloud",
+  "seconds": 594,
+  "published": "2026-11-16T08:24:07Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Migration terms"
+   ],
+   [
+    62,
+    "Migration terms, continued"
+   ],
+   [
+    72,
+    "Migration terms, continued"
+   ],
+   [
+    113,
+    "Migration terms, continued"
+   ],
+   [
+    162,
+    "Compute terms"
+   ],
+   [
+    200,
+    "Compute terms, continued"
+   ],
+   [
+    237,
+    "How compute options compare"
+   ]
+  ]
+ },
+ "grySW4NrTkk": {
+  "course": "cdl",
+  "key": "09-Google-Cloud-Infrastructure-Offerings-and-APIs-part-1",
+  "title": "Cloud Digital Leader Exam Prep Module 9: Compute Engine, GKE, Cloud Run, Omni Products and Apigee",
+  "seconds": 637,
+  "published": "2026-11-16T08:24:52Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Compute Engine"
+   ],
+   [
+    109,
+    "Modern application development"
+   ],
+   [
+    143,
+    "Containers and serverless"
+   ],
+   [
+    153,
+    "Containers and serverless, continued"
+   ],
+   [
+    183,
+    "Containers and serverless, continued"
+   ],
+   [
+    209,
+    "Hybrid and multicloud products"
+   ],
+   [
+    258,
+    "APIs and Apigee"
+   ]
+  ]
+ },
+ "BaQZa2zVmXw": {
+  "course": "cdl",
+  "key": "10-Cloud-Security-Fundamentals-part-1",
+  "title": "Cloud Digital Leader Exam Prep Module 10: Cloud Security Fundamentals: Threats and Encryption",
+  "seconds": 714,
+  "published": "2026-11-16T08:25:32Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Threats and their business impact"
+   ],
+   [
+    81,
+    "Threats and their business impact, continued"
+   ],
+   [
+    132,
+    "Threats and their business impact, continued"
+   ],
+   [
+    182,
+    "Cloud security versus on-premises security"
+   ],
+   [
+    209,
+    "Core security ideas"
+   ],
+   [
+    236,
+    "Core security ideas, continued"
+   ],
+   [
+    292,
+    "Encryption states and the three As"
+   ],
+   [
+    346,
+    "Security operations (SecOps) terms"
+   ]
+  ]
+ },
+ "zyK3YVvQto4": {
+  "course": "cdl",
+  "key": "11-Google-Cloud-Security-Products-AI-Security-and-Trust-part-1",
+  "title": "Cloud Digital Leader Exam Prep Module 11: Google Security Products, Model Armor and Trust",
+  "seconds": 748,
+  "published": "2026-11-16T08:26:03Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Secure by design"
+   ],
+   [
+    85,
+    "Secure by design, continued"
+   ],
+   [
+    147,
+    "Google Threat Intelligence"
+   ],
+   [
+    175,
+    "Security Command Center (SCC)"
+   ],
+   [
+    222,
+    "Google Security Operations and AI security"
+   ],
+   [
+    273,
+    "Other security offerings"
+   ],
+   [
+    313,
+    "Other security offerings, continued"
+   ],
+   [
+    347,
+    "Trust, residency and compliance"
+   ]
+  ]
+ },
+ "D8r_K-gvs-A": {
+  "course": "cdl",
+  "key": "12-Controlling-Cloud-Costs-part-1",
+  "title": "Cloud Digital Leader Exam Prep Module 12: Controlling Cloud Costs and the Resource Hierarchy",
+  "seconds": 599,
+  "published": "2026-11-16T08:26:23Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "CapEx, OpEx and TCO"
+   ],
+   [
+    124,
+    "Cloud financial governance"
+   ],
+   [
+    155,
+    "Cloud financial governance, continued"
+   ],
+   [
+    165,
+    "The resource hierarchy"
+   ],
+   [
+    215,
+    "Controlling consumption"
+   ]
+  ]
+ },
+ "EkvBk12QAFg": {
+  "course": "cdl",
+  "key": "13-Modern-Operations-Reliability-and-Resilience-part-1",
+  "title": "Cloud Digital Leader Exam Prep Module 13: Observability, Resilience and SRE Terms | Google Cloud",
+  "seconds": 641,
+  "published": "2026-11-16T08:26:53Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Operations terms"
+   ],
+   [
+    115,
+    "Google Cloud Observability"
+   ],
+   [
+    124,
+    "Google Cloud Observability, continued"
+   ],
+   [
+    135,
+    "Google Cloud Observability, continued"
+   ],
+   [
+    185,
+    "Designing resilient infrastructure"
+   ],
+   [
+    217,
+    "Measuring performance and reliability: the golden signals"
+   ],
+   [
+    241,
+    "DevOps and Site Reliability Engineering (SRE)"
+   ],
+   [
+    291,
+    "DevOps and Site Reliability Engineering (SRE), continued"
+   ]
+  ]
+ },
+ "-sDelE62ipU": {
+  "course": "cdl",
+  "key": "14-Exam-Technique-and-Final-Review-part-1",
+  "title": "Cloud Digital Leader Exam Prep Module 14: Exam Technique, Product Chooser and Look-Alikes",
+  "seconds": 653,
+  "published": "2026-11-16T08:27:24Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Technique"
+   ],
+   [
+    95,
+    "The product chooser"
+   ],
+   [
+    161,
+    "The product chooser, continued"
+   ],
+   [
+    217,
+    "Look-alike pairs"
+   ],
+   [
+    261,
+    "Look-alike pairs, continued"
+   ],
+   [
+    289,
+    "Five questions to ask in every scenario"
+   ]
+  ]
+ },
  "pAuwTXJi5n4": {
   "course": "ckad",
   "key": "00-Exam-Orientation-and-the-Command-Line-Toolkit-part-1",

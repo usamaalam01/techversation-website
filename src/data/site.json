@@ -124,6 +124,15 @@
    ]
   },
   {
+   "id": "google-cloud",
+   "name": "Google Cloud",
+   "full": "Google Cloud",
+   "mono": "GC",
+   "certs": [
+    "cdl"
+   ]
+  },
+  {
    "id": "training",
    "name": "Training",
    "full": "Techversation training courses",
@@ -9741,6 +9750,1238 @@
      "tn": "Module 18",
      "of": 19,
      "module": "18"
+    }
+   ],
+   "glossary": 0
+  },
+  {
+   "kind": "certification",
+   "topic": null,
+   "slug": "cdl",
+   "institute": "google-cloud",
+   "short": "CDL",
+   "name": "Google Cloud Digital Leader",
+   "title": "Cloud Digital Leader Exam Prep Masterclass",
+   "accent": "c-cdl",
+   "desc": "The business-level Google Cloud exam: digital transformation, data, generative and agentic AI, modernization, security and operations, with exam-style questions in every module.",
+   "audience": "Managers, sales and business staff, and anyone who needs to match Google Cloud ideas and products to a company's goals.",
+   "sources": "The official Cloud Digital Leader exam guide and the public Google Cloud documentation, rewritten in our own words.",
+   "playlist": "PLKhvBItMDkWM",
+   "cover": "img/covers/cdl.jpg",
+   "modules": [
+    {
+     "num": "00",
+     "slug": "00-exam-orientation-and-how-to-study",
+     "title": "Exam Orientation and How to Study",
+     "desc": "The exam at a glance and The six sections, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "qCHY4q4XzIE",
+       "title": "The exam at a glance and The six sections, recall and recap",
+       "seconds": 708,
+       "chapters": [
+        [
+         0,
+         "The exam at a glance"
+        ],
+        [
+         121,
+         "The six sections"
+        ],
+        [
+         130,
+         "The six sections, continued"
+        ],
+        [
+         182,
+         "The six sections, continued"
+        ],
+        [
+         221,
+         "What is new in the exam guide launched in August"
+        ],
+        [
+         263,
+         "What is new in the exam guide launched in August, continued"
+        ],
+        [
+         288,
+         "How to answer every question"
+        ],
+        [
+         326,
+         "A study plan"
+        ]
+       ],
+       "published": "2026-11-16T08:20:37Z",
+       "thumb": "img/modules/cdl/00-1.jpg"
+      }
+     ],
+     "deck": "downloads/cdl/00-exam-orientation-and-how-to-study.pptx",
+     "deck_kb": 184,
+     "seconds": 708,
+     "words": 1278
+    },
+    {
+     "num": "01",
+     "slug": "01-why-the-cloud-transforms-business",
+     "title": "Why the Cloud Transforms Business",
+     "desc": "Key terms and Benefits of cloud technology, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "toos_uPQMcI",
+       "title": "Key terms and Benefits of cloud technology, recall and recap",
+       "seconds": 616,
+       "chapters": [
+        [
+         0,
+         "Key terms"
+        ],
+        [
+         121,
+         "Benefits of cloud technology"
+        ],
+        [
+         129,
+         "Benefits of cloud technology, continued"
+        ],
+        [
+         180,
+         "Drivers and challenges of digital transformation"
+        ],
+        [
+         236,
+         "What makes Google Cloud different"
+        ]
+       ],
+       "published": "2026-11-16T08:21:08Z",
+       "thumb": "img/modules/cdl/01-1.jpg"
+      }
+     ],
+     "deck": "downloads/cdl/01-why-the-cloud-transforms-business.pptx",
+     "deck_kb": 164,
+     "seconds": 616,
+     "words": 1068
+    },
+    {
+     "num": "02",
+     "slug": "02-cloud-concepts-google-cloud-infrastructure-and-service-models",
+     "title": "Cloud Concepts, Google Cloud Infrastructure and Service Models",
+     "desc": "Cloud architectures, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "9UTx43KZtuk",
+       "title": "Cloud architectures, recall and recap",
+       "seconds": 666,
+       "chapters": [
+        [
+         0,
+         "Cloud architectures"
+        ],
+        [
+         77,
+         "Cloud architectures, continued"
+        ],
+        [
+         122,
+         "Cloud architectures, continued"
+        ],
+        [
+         148,
+         "Networking basics"
+        ],
+        [
+         179,
+         "Google Cloud's global infrastructure"
+        ],
+        [
+         240,
+         "Service models: IaaS, PaaS and SaaS"
+        ]
+       ],
+       "published": "2026-11-16T08:21:53Z",
+       "thumb": "img/modules/cdl/02-1.jpg"
+      }
+     ],
+     "deck": "downloads/cdl/02-cloud-concepts-google-cloud-infrastructure-and-service-models.pptx",
+     "deck_kb": 142,
+     "seconds": 666,
+     "words": 1177
+    },
+    {
+     "num": "03",
+     "slug": "03-the-value-of-data",
+     "title": "The Value of Data",
+     "desc": "Why data is valuable and Databases, data warehouses and data lakes, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "jdLwFzF4G4o",
+       "title": "Why data is valuable and Databases, data warehouses and data lakes, recall and recap",
+       "seconds": 620,
+       "chapters": [
+        [
+         0,
+         "Why data is valuable"
+        ],
+        [
+         112,
+         "Databases, data warehouses and data lakes"
+        ],
+        [
+         121,
+         "Databases, data warehouses and data lakes, continued"
+        ],
+        [
+         159,
+         "Types of data"
+        ],
+        [
+         205,
+         "The data supply chain"
+        ],
+        [
+         248,
+         "Data governance and openness"
+        ]
+       ],
+       "published": "2026-11-16T08:21:45Z",
+       "thumb": "img/modules/cdl/03-1.jpg"
+      }
+     ],
+     "deck": "downloads/cdl/03-the-value-of-data.pptx",
+     "deck_kb": 132,
+     "seconds": 620,
+     "words": 1052
+    },
+    {
+     "num": "04",
+     "slug": "04-google-cloud-data-management-products",
+     "title": "Google Cloud Data Management Products",
+     "desc": "Key concepts and Choosing the product, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "7qRQHZur5NQ",
+       "title": "Key concepts and Choosing the product, recall and recap",
+       "seconds": 692,
+       "chapters": [
+        [
+         0,
+         "Key concepts"
+        ],
+        [
+         99,
+         "Choosing the product"
+        ],
+        [
+         107,
+         "Choosing the product, continued"
+        ],
+        [
+         146,
+         "Choosing the product, continued"
+        ],
+        [
+         175,
+         "Choosing the product, continued"
+        ],
+        [
+         218,
+         "BigQuery in a few lines"
+        ],
+        [
+         249,
+         "Cloud Storage classes"
+        ],
+        [
+         309,
+         "Migrating and modernizing databases"
+        ]
+       ],
+       "published": "2026-11-16T08:22:06Z",
+       "thumb": "img/modules/cdl/04-1.jpg"
+      }
+     ],
+     "deck": "downloads/cdl/04-google-cloud-data-management-products.pptx",
+     "deck_kb": 170,
+     "seconds": 692,
+     "words": 1179
+    },
+    {
+     "num": "05",
+     "slug": "05-smart-analytics-business-intelligence-and-streaming",
+     "title": "Smart Analytics, Business Intelligence and Streaming",
+     "desc": "Business intelligence with Looker, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "cTPSoqSell4",
+       "title": "Business intelligence with Looker, recall and recap",
+       "seconds": 586,
+       "chapters": [
+        [
+         0,
+         "Business intelligence with Looker"
+        ],
+        [
+         111,
+         "Business intelligence with Looker, continued"
+        ],
+        [
+         130,
+         "Streaming analytics"
+        ],
+        [
+         160,
+         "Products for data pipelines"
+        ],
+        [
+         186,
+         "Products for data pipelines, continued"
+        ],
+        [
+         230,
+         "Putting it together"
+        ]
+       ],
+       "published": "2026-11-16T08:22:42Z",
+       "thumb": "img/modules/cdl/05-1.jpg"
+      }
+     ],
+     "deck": "downloads/cdl/05-smart-analytics-business-intelligence-and-streaming.pptx",
+     "deck_kb": 147,
+     "seconds": 586,
+     "words": 1024
+    },
+    {
+     "num": "06",
+     "slug": "06-ai-machine-learning-and-agentic-ai-fundamentals",
+     "title": "AI, Machine Learning and Agentic AI Fundamentals",
+     "desc": "The vocabulary, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "hR5owdvHdes",
+       "title": "The vocabulary, recall and recap",
+       "seconds": 635,
+       "chapters": [
+        [
+         0,
+         "The vocabulary"
+        ],
+        [
+         83,
+         "The vocabulary, continued"
+        ],
+        [
+         148,
+         "How agentic AI reshapes work"
+        ],
+        [
+         199,
+         "Problems ML solves and its value"
+        ],
+        [
+         235,
+         "Data quality"
+        ],
+        [
+         268,
+         "Explainable and responsible AI"
+        ]
+       ],
+       "published": "2026-11-16T08:23:25Z",
+       "thumb": "img/modules/cdl/06-1.jpg"
+      }
+     ],
+     "deck": "downloads/cdl/06-ai-machine-learning-and-agentic-ai-fundamentals.pptx",
+     "deck_kb": 148,
+     "seconds": 635,
+     "words": 1139
+    },
+    {
+     "num": "07",
+     "slug": "07-google-cloud-ai-solutions",
+     "title": "Google Cloud AI Solutions",
+     "desc": "Choosing an AI solution, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "HoJpiBpf7LY",
+       "title": "Choosing an AI solution, recall and recap",
+       "seconds": 678,
+       "chapters": [
+        [
+         0,
+         "Choosing an AI solution"
+        ],
+        [
+         82,
+         "Choosing an AI solution, continued"
+        ],
+        [
+         122,
+         "Choosing an AI solution, continued"
+        ],
+        [
+         155,
+         "Gemini Enterprise Agent Platform"
+        ],
+        [
+         176,
+         "Gemini Enterprise Agent Platform, continued"
+        ],
+        [
+         234,
+         "Pre-trained APIs and foundation models"
+        ],
+        [
+         285,
+         "AI Hypercomputer"
+        ],
+        [
+         320,
+         "BigQuery ML"
+        ]
+       ],
+       "published": "2026-11-16T08:23:51Z",
+       "thumb": "img/modules/cdl/07-1.jpg"
+      }
+     ],
+     "deck": "downloads/cdl/07-google-cloud-ai-solutions.pptx",
+     "deck_kb": 140,
+     "seconds": 678,
+     "words": 1279
+    },
+    {
+     "num": "08",
+     "slug": "08-cloud-migration-and-compute-terms",
+     "title": "Cloud Migration and Compute Terms",
+     "desc": "Migration terms, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "ia_B3ck2tk8",
+       "title": "Migration terms, recall and recap",
+       "seconds": 594,
+       "chapters": [
+        [
+         0,
+         "Migration terms"
+        ],
+        [
+         62,
+         "Migration terms, continued"
+        ],
+        [
+         72,
+         "Migration terms, continued"
+        ],
+        [
+         113,
+         "Migration terms, continued"
+        ],
+        [
+         162,
+         "Compute terms"
+        ],
+        [
+         200,
+         "Compute terms, continued"
+        ],
+        [
+         237,
+         "How compute options compare"
+        ]
+       ],
+       "published": "2026-11-16T08:24:07Z",
+       "thumb": "img/modules/cdl/08-1.jpg"
+      }
+     ],
+     "deck": "downloads/cdl/08-cloud-migration-and-compute-terms.pptx",
+     "deck_kb": 146,
+     "seconds": 594,
+     "words": 1004
+    },
+    {
+     "num": "09",
+     "slug": "09-google-cloud-infrastructure-offerings-and-apis",
+     "title": "Google Cloud Infrastructure Offerings and APIs",
+     "desc": "Compute Engine and Modern application development, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "grySW4NrTkk",
+       "title": "Compute Engine and Modern application development, recall and recap",
+       "seconds": 637,
+       "chapters": [
+        [
+         0,
+         "Compute Engine"
+        ],
+        [
+         109,
+         "Modern application development"
+        ],
+        [
+         143,
+         "Containers and serverless"
+        ],
+        [
+         153,
+         "Containers and serverless, continued"
+        ],
+        [
+         183,
+         "Containers and serverless, continued"
+        ],
+        [
+         209,
+         "Hybrid and multicloud products"
+        ],
+        [
+         258,
+         "APIs and Apigee"
+        ]
+       ],
+       "published": "2026-11-16T08:24:52Z",
+       "thumb": "img/modules/cdl/09-1.jpg"
+      }
+     ],
+     "deck": "downloads/cdl/09-google-cloud-infrastructure-offerings-and-apis.pptx",
+     "deck_kb": 139,
+     "seconds": 637,
+     "words": 1156
+    },
+    {
+     "num": "10",
+     "slug": "10-cloud-security-fundamentals",
+     "title": "Cloud Security Fundamentals",
+     "desc": "Threats and their business impact, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "BaQZa2zVmXw",
+       "title": "Threats and their business impact, recall and recap",
+       "seconds": 714,
+       "chapters": [
+        [
+         0,
+         "Threats and their business impact"
+        ],
+        [
+         81,
+         "Threats and their business impact, continued"
+        ],
+        [
+         132,
+         "Threats and their business impact, continued"
+        ],
+        [
+         182,
+         "Cloud security versus on-premises security"
+        ],
+        [
+         209,
+         "Core security ideas"
+        ],
+        [
+         236,
+         "Core security ideas, continued"
+        ],
+        [
+         292,
+         "Encryption states and the three As"
+        ],
+        [
+         346,
+         "Security operations (SecOps) terms"
+        ]
+       ],
+       "published": "2026-11-16T08:25:32Z",
+       "thumb": "img/modules/cdl/10-1.jpg"
+      }
+     ],
+     "deck": "downloads/cdl/10-cloud-security-fundamentals.pptx",
+     "deck_kb": 152,
+     "seconds": 714,
+     "words": 1153
+    },
+    {
+     "num": "11",
+     "slug": "11-google-cloud-security-products-ai-security-and-trust",
+     "title": "Google Cloud Security Products, AI Security and Trust",
+     "desc": "Secure by design, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "zyK3YVvQto4",
+       "title": "Secure by design, recall and recap",
+       "seconds": 748,
+       "chapters": [
+        [
+         0,
+         "Secure by design"
+        ],
+        [
+         85,
+         "Secure by design, continued"
+        ],
+        [
+         147,
+         "Google Threat Intelligence"
+        ],
+        [
+         175,
+         "Security Command Center (SCC)"
+        ],
+        [
+         222,
+         "Google Security Operations and AI security"
+        ],
+        [
+         273,
+         "Other security offerings"
+        ],
+        [
+         313,
+         "Other security offerings, continued"
+        ],
+        [
+         347,
+         "Trust, residency and compliance"
+        ]
+       ],
+       "published": "2026-11-16T08:26:03Z",
+       "thumb": "img/modules/cdl/11-1.jpg"
+      }
+     ],
+     "deck": "downloads/cdl/11-google-cloud-security-products-ai-security-and-trust.pptx",
+     "deck_kb": 171,
+     "seconds": 748,
+     "words": 1277
+    },
+    {
+     "num": "12",
+     "slug": "12-controlling-cloud-costs",
+     "title": "Controlling Cloud Costs",
+     "desc": "CapEx, OpEx and TCO and Cloud financial governance, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "D8r_K-gvs-A",
+       "title": "CapEx, OpEx and TCO and Cloud financial governance, recall and recap",
+       "seconds": 599,
+       "chapters": [
+        [
+         0,
+         "CapEx, OpEx and TCO"
+        ],
+        [
+         124,
+         "Cloud financial governance"
+        ],
+        [
+         155,
+         "Cloud financial governance, continued"
+        ],
+        [
+         165,
+         "The resource hierarchy"
+        ],
+        [
+         215,
+         "Controlling consumption"
+        ]
+       ],
+       "published": "2026-11-16T08:26:23Z",
+       "thumb": "img/modules/cdl/12-1.jpg"
+      }
+     ],
+     "deck": "downloads/cdl/12-controlling-cloud-costs.pptx",
+     "deck_kb": 140,
+     "seconds": 599,
+     "words": 1073
+    },
+    {
+     "num": "13",
+     "slug": "13-modern-operations-reliability-and-resilience",
+     "title": "Modern Operations, Reliability and Resilience",
+     "desc": "Operations terms and Google Cloud Observability, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "EkvBk12QAFg",
+       "title": "Operations terms and Google Cloud Observability, recall and recap",
+       "seconds": 641,
+       "chapters": [
+        [
+         0,
+         "Operations terms"
+        ],
+        [
+         115,
+         "Google Cloud Observability"
+        ],
+        [
+         124,
+         "Google Cloud Observability, continued"
+        ],
+        [
+         135,
+         "Google Cloud Observability, continued"
+        ],
+        [
+         185,
+         "Designing resilient infrastructure"
+        ],
+        [
+         217,
+         "Measuring performance and reliability: the golden signals"
+        ],
+        [
+         241,
+         "DevOps and Site Reliability Engineering (SRE)"
+        ],
+        [
+         291,
+         "DevOps and Site Reliability Engineering (SRE), continued"
+        ]
+       ],
+       "published": "2026-11-16T08:26:53Z",
+       "thumb": "img/modules/cdl/13-1.jpg"
+      }
+     ],
+     "deck": "downloads/cdl/13-modern-operations-reliability-and-resilience.pptx",
+     "deck_kb": 147,
+     "seconds": 641,
+     "words": 1109
+    },
+    {
+     "num": "14",
+     "slug": "14-exam-technique-and-final-review",
+     "title": "Exam Technique and Final Review",
+     "desc": "Technique and The product chooser, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "-sDelE62ipU",
+       "title": "Technique and The product chooser, recall and recap",
+       "seconds": 653,
+       "chapters": [
+        [
+         0,
+         "Technique"
+        ],
+        [
+         95,
+         "The product chooser"
+        ],
+        [
+         161,
+         "The product chooser, continued"
+        ],
+        [
+         217,
+         "Look-alike pairs"
+        ],
+        [
+         261,
+         "Look-alike pairs, continued"
+        ],
+        [
+         289,
+         "Five questions to ask in every scenario"
+        ]
+       ],
+       "published": "2026-11-16T08:27:24Z",
+       "thumb": "img/modules/cdl/14-1.jpg"
+      }
+     ],
+     "deck": "downloads/cdl/14-exam-technique-and-final-review.pptx",
+     "deck_kb": 90,
+     "seconds": 653,
+     "words": 1106
+    }
+   ],
+   "facts": {
+    "questions": "50 to 60",
+    "time": "90 min",
+    "passing": "Not published",
+    "source": "cloud.google.com",
+    "url": "https://cloud.google.com/learn/certification/cloud-digital-leader"
+   },
+   "videos": 15,
+   "seconds": 9787,
+   "notes": [
+    {
+     "num": "00",
+     "slug": "00-exam-orientation-and-how-to-study",
+     "title": "Exam Orientation and How to Study",
+     "group": "Start here",
+     "tasks": 0,
+     "los": [],
+     "minutes": 5,
+     "check": {
+      "src_words": 1094,
+      "page_words": 1126,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "00"
+     ],
+     "domain": "",
+     "ref": "Module 0",
+     "tn": "Module 00",
+     "of": 15,
+     "module": "00"
+    },
+    {
+     "num": "01",
+     "slug": "01-why-the-cloud-transforms-business",
+     "title": "Why the Cloud Transforms Business",
+     "group": "Digital transformation (about 18%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 5,
+     "check": {
+      "src_words": 963,
+      "page_words": 999,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "01"
+     ],
+     "domain": "",
+     "ref": "Module 1",
+     "tn": "Module 01",
+     "of": 15,
+     "module": "01"
+    },
+    {
+     "num": "02",
+     "slug": "02-cloud-concepts-google-cloud-infrastructure-and-service-models",
+     "title": "Cloud Concepts, Google Cloud Infrastructure and Service Models",
+     "group": "Digital transformation (about 18%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 5,
+     "check": {
+      "src_words": 975,
+      "page_words": 1011,
+      "src_tables": 6,
+      "tables": 6,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "02"
+     ],
+     "domain": "",
+     "ref": "Module 2",
+     "tn": "Module 02",
+     "of": 15,
+     "module": "02"
+    },
+    {
+     "num": "03",
+     "slug": "03-the-value-of-data",
+     "title": "The Value of Data",
+     "group": "Exploring data transformation (about 18%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 5,
+     "check": {
+      "src_words": 948,
+      "page_words": 985,
+      "src_tables": 6,
+      "tables": 6,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "03"
+     ],
+     "domain": "",
+     "ref": "Module 3",
+     "tn": "Module 03",
+     "of": 15,
+     "module": "03"
+    },
+    {
+     "num": "04",
+     "slug": "04-google-cloud-data-management-products",
+     "title": "Google Cloud Data Management Products",
+     "group": "Exploring data transformation (about 18%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 5,
+     "check": {
+      "src_words": 948,
+      "page_words": 985,
+      "src_tables": 6,
+      "tables": 6,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "04"
+     ],
+     "domain": "",
+     "ref": "Module 4",
+     "tn": "Module 04",
+     "of": 15,
+     "module": "04"
+    },
+    {
+     "num": "05",
+     "slug": "05-smart-analytics-business-intelligence-and-streaming",
+     "title": "Smart Analytics, Business Intelligence and Streaming",
+     "group": "Exploring data transformation (about 18%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 4,
+     "check": {
+      "src_words": 843,
+      "page_words": 879,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "05"
+     ],
+     "domain": "",
+     "ref": "Module 5",
+     "tn": "Module 05",
+     "of": 15,
+     "module": "05"
+    },
+    {
+     "num": "06",
+     "slug": "06-ai-machine-learning-and-agentic-ai-fundamentals",
+     "title": "AI, Machine Learning and Agentic AI Fundamentals",
+     "group": "Innovating with AI (about 18%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 5,
+     "check": {
+      "src_words": 952,
+      "page_words": 989,
+      "src_tables": 6,
+      "tables": 6,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "06"
+     ],
+     "domain": "",
+     "ref": "Module 6",
+     "tn": "Module 06",
+     "of": 15,
+     "module": "06"
+    },
+    {
+     "num": "07",
+     "slug": "07-google-cloud-ai-solutions",
+     "title": "Google Cloud AI Solutions",
+     "group": "Innovating with AI (about 18%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 5,
+     "check": {
+      "src_words": 1048,
+      "page_words": 1085,
+      "src_tables": 6,
+      "tables": 6,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "07"
+     ],
+     "domain": "",
+     "ref": "Module 7",
+     "tn": "Module 07",
+     "of": 15,
+     "module": "07"
+    },
+    {
+     "num": "08",
+     "slug": "08-cloud-migration-and-compute-terms",
+     "title": "Cloud Migration and Compute Terms",
+     "group": "Modernize infrastructure and applications (about 18%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 4,
+     "check": {
+      "src_words": 863,
+      "page_words": 898,
+      "src_tables": 4,
+      "tables": 4,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 5,
+      "sections": 5
+     },
+     "modules": [
+      "08"
+     ],
+     "domain": "",
+     "ref": "Module 8",
+     "tn": "Module 08",
+     "of": 15,
+     "module": "08"
+    },
+    {
+     "num": "09",
+     "slug": "09-google-cloud-infrastructure-offerings-and-apis",
+     "title": "Google Cloud Infrastructure Offerings and APIs",
+     "group": "Modernize infrastructure and applications (about 18%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 5,
+     "check": {
+      "src_words": 903,
+      "page_words": 940,
+      "src_tables": 6,
+      "tables": 6,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "09"
+     ],
+     "domain": "",
+     "ref": "Module 9",
+     "tn": "Module 09",
+     "of": 15,
+     "module": "09"
+    },
+    {
+     "num": "10",
+     "slug": "10-cloud-security-fundamentals",
+     "title": "Cloud Security Fundamentals",
+     "group": "Trust and security (about 18%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 5,
+     "check": {
+      "src_words": 961,
+      "page_words": 998,
+      "src_tables": 8,
+      "tables": 8,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "10"
+     ],
+     "domain": "",
+     "ref": "Module 10",
+     "tn": "Module 10",
+     "of": 15,
+     "module": "10"
+    },
+    {
+     "num": "11",
+     "slug": "11-google-cloud-security-products-ai-security-and-trust",
+     "title": "Google Cloud Security Products, AI Security and Trust",
+     "group": "Trust and security (about 18%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 5,
+     "check": {
+      "src_words": 1085,
+      "page_words": 1123,
+      "src_tables": 7,
+      "tables": 7,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 8,
+      "sections": 8
+     },
+     "modules": [
+      "11"
+     ],
+     "domain": "",
+     "ref": "Module 11",
+     "tn": "Module 11",
+     "of": 15,
+     "module": "11"
+    },
+    {
+     "num": "12",
+     "slug": "12-controlling-cloud-costs",
+     "title": "Controlling Cloud Costs",
+     "group": "Scaling with operations (about 10%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 5,
+     "check": {
+      "src_words": 900,
+      "page_words": 936,
+      "src_tables": 6,
+      "tables": 6,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "12"
+     ],
+     "domain": "",
+     "ref": "Module 12",
+     "tn": "Module 12",
+     "of": 15,
+     "module": "12"
+    },
+    {
+     "num": "13",
+     "slug": "13-modern-operations-reliability-and-resilience",
+     "title": "Modern Operations, Reliability and Resilience",
+     "group": "Scaling with operations (about 10%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 4,
+     "check": {
+      "src_words": 862,
+      "page_words": 899,
+      "src_tables": 6,
+      "tables": 6,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "13"
+     ],
+     "domain": "",
+     "ref": "Module 13",
+     "tn": "Module 13",
+     "of": 15,
+     "module": "13"
+    },
+    {
+     "num": "14",
+     "slug": "14-exam-technique-and-final-review",
+     "title": "Exam Technique and Final Review",
+     "group": "Review and exam day",
+     "tasks": 0,
+     "los": [],
+     "minutes": 5,
+     "check": {
+      "src_words": 946,
+      "page_words": 982,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 0,
+      "images": 0,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "14"
+     ],
+     "domain": "",
+     "ref": "Module 14",
+     "tn": "Module 14",
+     "of": 15,
+     "module": "14"
     }
    ],
    "glossary": 0
