@@ -511,6 +511,17 @@ def main():
         if not (OC / c["folder"] / "upload_progress.json").exists():
             print(f"{slug}: skipped (no uploaded videos yet)")
             continue
+        try:    # a course whose upload is still running is not published: every part needs its video id and its place in the playlist
+            prog = json.loads((OC / c["folder"] / "upload_progress.json").read_text(encoding="utf-8"))
+            if "videos" in prog:
+                expected = sum(len(re.findall(r"<!--\s*PART\s+\d+", (d / "slides.md").read_text(encoding="utf-8")))
+                               for d in (OC / c["folder"]).iterdir() if d.is_dir() and re.match(r"\d\d-", d.name) and (d / "slides.md").exists())
+                done = sum(1 for v in prog["videos"].values() if v.get("id") and v.get("in_playlist"))
+                if expected and done < expected:
+                    print(f"{slug}: skipped (upload incomplete: {done} of {expected} videos)")
+                    continue
+        except (OSError, ValueError):
+            pass
         course, warns = build_course(slug, c)
         allwarn += warns
         notes = build_notes(NOTES[slug], slug, c["institute"], course["modules"], DATA, PUB) if slug in NOTES else None

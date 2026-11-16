@@ -5342,6 +5342,824 @@
    ]
   ]
  },
+ "LGj7Jcg_WyI": {
+  "course": "tf",
+  "key": "00-Exam-Orientation-and-How-to-Study-part-1",
+  "title": "Terraform Associate Exam Prep Introduction: Exam Format, Eight Objectives and How to Answer",
+  "seconds": 632,
+  "published": "2026-11-16T08:50:10Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "The exam at a glance"
+   ],
+   [
+    122,
+    "The eight objective groups"
+   ],
+   [
+    129,
+    "The eight objective groups, continued"
+   ],
+   [
+    168,
+    "The eight objective groups, continued"
+   ],
+   [
+    209,
+    "What is new in version 004"
+   ],
+   [
+    236,
+    "How to answer every question"
+   ],
+   [
+    276,
+    "A study plan"
+   ]
+  ]
+ },
+ "dL-o5NZfKP0": {
+  "course": "tf",
+  "key": "01-Infrastructure-as-Code-and-What-Terraform-Does-part-1",
+  "title": "Terraform Associate Exam Prep Module 1: Infrastructure as Code and What Terraform Does",
+  "seconds": 611,
+  "published": "2026-11-16T08:51:10Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "What infrastructure as code is"
+   ],
+   [
+    72,
+    "What infrastructure as code is, continued"
+   ],
+   [
+    82,
+    "What infrastructure as code is, continued"
+   ],
+   [
+    135,
+    "Advantages of IaC patterns"
+   ],
+   [
+    184,
+    "Terraform workflow in one line"
+   ],
+   [
+    196,
+    "Multi-cloud, hybrid cloud and service-agnostic"
+   ],
+   [
+    248,
+    "Where Terraform fits"
+   ]
+  ]
+ },
+ "e7FJsK86A5Q": {
+  "course": "tf",
+  "key": "02-Providers-Installing-Versioning-and-Using-Several-part-1",
+  "title": "Terraform Associate Exam Prep Module 2: Providers: Installing, Versioning and Using Several",
+  "seconds": 635,
+  "published": "2026-11-16T08:52:15Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "What a provider is"
+   ],
+   [
+    76,
+    "What a provider is, continued"
+   ],
+   [
+    85,
+    "What a provider is, continued"
+   ],
+   [
+    127,
+    "Installing and versioning providers"
+   ],
+   [
+    143,
+    "Installing and versioning providers, continued"
+   ],
+   [
+    203,
+    "The dependency lock file"
+   ],
+   [
+    235,
+    "Using several providers"
+   ],
+   [
+    256,
+    "Using several providers, continued"
+   ],
+   [
+    264,
+    "Using several providers, continued"
+   ],
+   [
+    284,
+    "How Terraform uses providers at run time"
+   ]
+  ]
+ },
+ "Dbfrjbs6wqM": {
+  "course": "tf",
+  "key": "03-State-What-It-Is-and-How-Terraform-Uses-It-part-1",
+  "title": "Terraform Associate Exam Prep Module 3: State: What It Is and How Terraform Uses It",
+  "seconds": 551,
+  "published": "2026-11-16T08:52:47Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "What state is"
+   ],
+   [
+    73,
+    "What state is, continued"
+   ],
+   [
+    83,
+    "What state is, continued"
+   ],
+   [
+    117,
+    "How Terraform uses state in the workflow"
+   ],
+   [
+    145,
+    "Handling state safely"
+   ],
+   [
+    181,
+    "Handling state safely, continued"
+   ],
+   [
+    206,
+    "What happens if the state is lost or wrong"
+   ]
+  ]
+ },
+ "17RUdxWlFpc": {
+  "course": "tf",
+  "key": "04-The-Core-Workflow-init-validate-plan-apply-destroy-and-fmt-part-1",
+  "title": "Terraform Associate Exam Prep Module 4: The Core Workflow: init, plan, apply, destroy, fmt",
+  "seconds": 651,
+  "published": "2026-11-16T08:53:20Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "The workflow"
+   ],
+   [
+    78,
+    "The workflow, continued"
+   ],
+   [
+    145,
+    "terraform init"
+   ],
+   [
+    188,
+    "terraform validate and terraform fmt"
+   ],
+   [
+    232,
+    "terraform plan"
+   ],
+   [
+    296,
+    "terraform apply and terraform destroy"
+   ]
+  ]
+ },
+ "_7NdieSe-tQ": {
+  "course": "tf",
+  "key": "05-Resources-Data-Sources-and-References-part-1",
+  "title": "Terraform Associate Exam Prep Module 5: Resources, Data Sources and References | HashiCorp Terraform",
+  "seconds": 609,
+  "published": "2026-11-16T08:53:37Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Resource blocks"
+   ],
+   [
+    69,
+    "Resource blocks, continued"
+   ],
+   [
+    101,
+    "Data sources"
+   ],
+   [
+    113,
+    "Data sources, continued"
+   ],
+   [
+    121,
+    "Data sources, continued"
+   ],
+   [
+    128,
+    "Data sources, continued"
+   ],
+   [
+    179,
+    "References and implicit dependencies"
+   ],
+   [
+    227,
+    "References and implicit dependencies, continued"
+   ],
+   [
+    235,
+    "References and implicit dependencies, continued"
+   ],
+   [
+    260,
+    "Meta-arguments you may meet"
+   ]
+  ]
+ },
+ "Sq0XPwjcoGU": {
+  "course": "tf",
+  "key": "06-Variables-Outputs-Locals-and-Complex-Types-part-1",
+  "title": "Terraform Associate Exam Prep Module 6: Variables, Outputs, Locals and Complex Types",
+  "seconds": 611,
+  "published": "2026-11-16T08:54:02Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Input variables"
+   ],
+   [
+    68,
+    "Input variables, continued"
+   ],
+   [
+    106,
+    "Input variables, continued"
+   ],
+   [
+    155,
+    "Output values"
+   ],
+   [
+    170,
+    "Output values, continued"
+   ],
+   [
+    195,
+    "Local values"
+   ],
+   [
+    210,
+    "Local values, continued"
+   ],
+   [
+    226,
+    "Types and complex types"
+   ],
+   [
+    282,
+    "Types and complex types, continued"
+   ]
+  ]
+ },
+ "KMVG0Urxqlc": {
+  "course": "tf",
+  "key": "07-Expressions-Functions-count-for-each-and-Dynamic-Blocks-part-1",
+  "title": "Terraform Associate Exam Prep Module 7: Expressions, Functions, count, for_each, Dynamic Blocks",
+  "seconds": 628,
+  "published": "2026-11-16T08:54:23Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Expressions"
+   ],
+   [
+    94,
+    "Expressions, continued"
+   ],
+   [
+    114,
+    "Expressions, continued"
+   ],
+   [
+    131,
+    "Functions"
+   ],
+   [
+    200,
+    "count and for_each"
+   ],
+   [
+    249,
+    "count and for_each, continued"
+   ],
+   [
+    256,
+    "count and for_each, continued"
+   ],
+   [
+    273,
+    "Dynamic blocks"
+   ],
+   [
+    286,
+    "Dynamic blocks, continued"
+   ]
+  ]
+ },
+ "ZKAJuSh1MQ8": {
+  "course": "tf",
+  "key": "08-Dependencies-and-Lifecycle-Rules-part-1",
+  "title": "Terraform Associate Exam Prep Module 8: Dependencies and Lifecycle Rules | HashiCorp Terraform",
+  "seconds": 594,
+  "published": "2026-11-16T08:54:44Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "The dependency graph"
+   ],
+   [
+    66,
+    "The dependency graph, continued"
+   ],
+   [
+    76,
+    "The dependency graph, continued"
+   ],
+   [
+    102,
+    "Implicit and explicit dependencies"
+   ],
+   [
+    125,
+    "Implicit and explicit dependencies, continued"
+   ],
+   [
+    133,
+    "Implicit and explicit dependencies, continued"
+   ],
+   [
+    159,
+    "The lifecycle block"
+   ],
+   [
+    172,
+    "The lifecycle block, continued"
+   ],
+   [
+    215,
+    "The lifecycle block, continued"
+   ],
+   [
+    251,
+    "Forcing replacement"
+   ]
+  ]
+ },
+ "bjxQOhFbFEY": {
+  "course": "tf",
+  "key": "09-Custom-Conditions-Validation-Preconditions-Postconditions-and-Checks-part-1",
+  "title": "Terraform Associate Exam Prep Module 9: Custom Conditions: Validation, Pre and Postconditions",
+  "seconds": 574,
+  "published": "2026-11-16T08:55:01Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Why custom conditions"
+   ],
+   [
+    70,
+    "Why custom conditions, continued"
+   ],
+   [
+    80,
+    "Why custom conditions, continued"
+   ],
+   [
+    123,
+    "Why custom conditions, continued"
+   ],
+   [
+    139,
+    "Variable validation"
+   ],
+   [
+    146,
+    "Variable validation, continued"
+   ],
+   [
+    169,
+    "Preconditions and postconditions"
+   ],
+   [
+    177,
+    "Preconditions and postconditions, continued"
+   ],
+   [
+    212,
+    "Check blocks"
+   ],
+   [
+    226,
+    "Check blocks, continued"
+   ]
+  ]
+ },
+ "9ndMe4DMSbc": {
+  "course": "tf",
+  "key": "10-Sensitive-Data-Secrets-Ephemeral-Values-and-Write-Only-Arguments-part-1",
+  "title": "Terraform Associate Exam Prep Module 10: Sensitive Data, Ephemeral Values, Write-Only Arguments",
+  "seconds": 643,
+  "published": "2026-11-16T08:55:26Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Sensitive values"
+   ],
+   [
+    74,
+    "Sensitive values, continued"
+   ],
+   [
+    110,
+    "Best practices for secrets"
+   ],
+   [
+    154,
+    "HashiCorp Vault with Terraform"
+   ],
+   [
+    169,
+    "HashiCorp Vault with Terraform, continued"
+   ],
+   [
+    205,
+    "Ephemeral values (new in 004)"
+   ],
+   [
+    215,
+    "Ephemeral values (new in 004), continued"
+   ],
+   [
+    224,
+    "Ephemeral values (new in 004), continued"
+   ],
+   [
+    249,
+    "Ephemeral values (new in 004), continued"
+   ],
+   [
+    257,
+    "Ephemeral values (new in 004), continued"
+   ],
+   [
+    275,
+    "Write-only arguments (new in 004)"
+   ],
+   [
+    296,
+    "Write-only arguments (new in 004), continued"
+   ]
+  ]
+ },
+ "TCGA74nExTc": {
+  "course": "tf",
+  "key": "11-Modules-Sources-Versions-and-the-Registry-part-1",
+  "title": "Terraform Associate Exam Prep Module 11: Modules: Sources, Versions and the Registry",
+  "seconds": 599,
+  "published": "2026-11-16T08:55:50Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "What a module is"
+   ],
+   [
+    66,
+    "What a module is, continued"
+   ],
+   [
+    75,
+    "What a module is, continued"
+   ],
+   [
+    94,
+    "What a module is, continued"
+   ],
+   [
+    107,
+    "Module sources"
+   ],
+   [
+    170,
+    "Module sources, continued"
+   ],
+   [
+    197,
+    "Module versions"
+   ],
+   [
+    255,
+    "Why use modules"
+   ]
+  ]
+ },
+ "Gi2XvCpfikQ": {
+  "course": "tf",
+  "key": "12-Modules-Scope-Inputs-Outputs-and-Composition-part-1",
+  "title": "Terraform Associate Exam Prep Module 12: Modules: Scope, Inputs, Outputs and Composition",
+  "seconds": 564,
+  "published": "2026-11-16T09:58:07Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Scope: modules are isolated"
+   ],
+   [
+    67,
+    "Scope: modules are isolated, continued"
+   ],
+   [
+    77,
+    "Scope: modules are isolated, continued"
+   ],
+   [
+    100,
+    "Scope: modules are isolated, continued"
+   ],
+   [
+    121,
+    "Using a module in configuration"
+   ],
+   [
+    154,
+    "Using a module in configuration, continued"
+   ],
+   [
+    162,
+    "Providers and modules"
+   ],
+   [
+    189,
+    "Providers and modules, continued"
+   ],
+   [
+    197,
+    "Module composition and structure"
+   ]
+  ]
+ },
+ "76uQ6JSgHZM": {
+  "course": "tf",
+  "key": "13-Backends-Remote-State-and-State-Locking-part-1",
+  "title": "Terraform Associate Exam Prep Module 13: Backends, Remote State and State Locking",
+  "seconds": 589,
+  "published": "2026-11-16T09:58:24Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "What a backend is"
+   ],
+   [
+    64,
+    "What a backend is, continued"
+   ],
+   [
+    74,
+    "What a backend is, continued"
+   ],
+   [
+    101,
+    "The local backend"
+   ],
+   [
+    141,
+    "Configuring remote state with the backend block"
+   ],
+   [
+    157,
+    "Configuring remote state with the backend block, continued"
+   ],
+   [
+    202,
+    "Configuring remote state with the backend block, continued"
+   ],
+   [
+    220,
+    "State locking"
+   ]
+  ]
+ },
+ "x-tx9b7vwhE": {
+  "course": "tf",
+  "key": "14-Resource-Drift-Refresh-Only-moved-and-removed-Blocks-part-1",
+  "title": "Terraform Associate Exam Prep Module 14: Drift, Refresh-Only, moved and removed Blocks",
+  "seconds": 607,
+  "published": "2026-11-16T09:58:51Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "What drift is"
+   ],
+   [
+    78,
+    "What drift is, continued"
+   ],
+   [
+    87,
+    "What drift is, continued"
+   ],
+   [
+    124,
+    "Refresh-only mode"
+   ],
+   [
+    176,
+    "Refactoring without destroying: the moved block"
+   ],
+   [
+    197,
+    "Refactoring without destroying: the moved block, continued"
+   ],
+   [
+    220,
+    "Removing from state without destroying: the removed block"
+   ],
+   [
+    234,
+    "Removing from state without destroying: the removed block, continued"
+   ],
+   [
+    265,
+    "Other state tools in this objective"
+   ]
+  ]
+ },
+ "DThx3sIhcDw": {
+  "course": "tf",
+  "key": "15-Import-the-State-CLI-and-Logging-part-1",
+  "title": "Terraform Associate Exam Prep Module 15: Import, the State CLI and Logging | HashiCorp Terraform",
+  "seconds": 595,
+  "published": "2026-11-16T09:59:16Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Importing existing infrastructure"
+   ],
+   [
+    73,
+    "Importing existing infrastructure, continued"
+   ],
+   [
+    83,
+    "Importing existing infrastructure, continued"
+   ],
+   [
+    105,
+    "Importing existing infrastructure, continued"
+   ],
+   [
+    113,
+    "Importing existing infrastructure, continued"
+   ],
+   [
+    161,
+    "Inspecting state with the CLI"
+   ],
+   [
+    222,
+    "Verbose logging"
+   ],
+   [
+    250,
+    "Verbose logging, continued"
+   ],
+   [
+    257,
+    "Verbose logging, continued"
+   ]
+  ]
+ },
+ "23OASv5y5l0": {
+  "course": "tf",
+  "key": "16-HCP-Terraform-part-1",
+  "title": "Terraform Associate Exam Prep Module 16: HCP Terraform: Workspaces, Projects and Governance",
+  "seconds": 685,
+  "published": "2026-11-16T09:59:57Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "What HCP Terraform is"
+   ],
+   [
+    84,
+    "What HCP Terraform is, continued"
+   ],
+   [
+    95,
+    "What HCP Terraform is, continued"
+   ],
+   [
+    130,
+    "Organizations, projects and workspaces"
+   ],
+   [
+    185,
+    "Workflows to create infrastructure"
+   ],
+   [
+    226,
+    "Integration: the cloud block and login"
+   ],
+   [
+    234,
+    "Integration: the cloud block and login, continued"
+   ],
+   [
+    283,
+    "Collaboration and governance features"
+   ],
+   [
+    324,
+    "Collaboration and governance features, continued"
+   ]
+  ]
+ },
+ "PRRwjfRSx20": {
+  "course": "tf",
+  "key": "17-Exam-Technique-and-Final-Review-part-1",
+  "title": "Terraform Associate Exam Prep Module 17: Exam Technique and Final Review | HashiCorp Terraform",
+  "seconds": 620,
+  "published": "2026-11-16T10:00:02Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Technique"
+   ],
+   [
+    95,
+    "The command chooser"
+   ],
+   [
+    146,
+    "The command chooser, continued"
+   ],
+   [
+    182,
+    "Look-alike pairs"
+   ],
+   [
+    228,
+    "Look-alike pairs, continued"
+   ],
+   [
+    261,
+    "Five questions to ask in every scenario"
+   ]
+  ]
+ },
  "pAuwTXJi5n4": {
   "course": "ckad",
   "key": "00-Exam-Orientation-and-the-Command-Line-Toolkit-part-1",
@@ -8134,6 +8952,933 @@
    [
     502,
     "The final week, continued"
+   ]
+  ]
+ },
+ "kJqqW_LqEfo": {
+  "course": "pl300",
+  "key": "00-Exam-Orientation-and-How-to-Study-part-1",
+  "title": "Power BI PL-300 Exam Prep Introduction: Exam Format, Four Domains and Answer Method | Power BI",
+  "seconds": 485,
+  "published": "2026-11-16T10:01:44Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "The exam at a glance"
+   ],
+   [
+    73,
+    "The exam at a glance, continued"
+   ],
+   [
+    83,
+    "The exam at a glance, continued"
+   ],
+   [
+    130,
+    "The exam at a glance, continued"
+   ],
+   [
+    161,
+    "The four domains and the 11 objective groups"
+   ],
+   [
+    181,
+    "The four domains and the 11 objective groups, continued"
+   ],
+   [
+    225,
+    "The four domains and the 11 objective groups, continued"
+   ],
+   [
+    243,
+    "The four domains and the 11 objective groups, continued"
+   ],
+   [
+    271,
+    "What is new and where each layer fits"
+   ],
+   [
+    330,
+    "What is new and where each layer fits, continued"
+   ],
+   [
+    394,
+    "A four-step method for scenario questions"
+   ],
+   [
+    435,
+    "A four-step method for scenario questions, continued"
+   ]
+  ]
+ },
+ "paEQLCO89ug": {
+  "course": "pl300",
+  "key": "00-Exam-Orientation-and-How-to-Study-part-2",
+  "title": "Power BI PL-300 Exam Prep Introduction: Study Plan, Practice Questions and Recall | Power BI",
+  "seconds": 430,
+  "published": "2026-11-16T10:02:00Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Practice questions"
+   ],
+   [
+    264,
+    "Recall check"
+   ],
+   [
+    365,
+    "Module recap"
+   ]
+  ]
+ },
+ "xgadCaFAnSc": {
+  "course": "pl300",
+  "key": "01-Get-Data-Sources-Storage-Modes-and-Parameters-part-1",
+  "title": "Power BI PL-300 Exam Prep Module 1 Part 1 of 2: Data Sources, Privacy Levels and Storage Modes",
+  "seconds": 492,
+  "published": "2026-11-16T10:02:24Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Connect to data sources and shared semantic models"
+   ],
+   [
+    83,
+    "Connect to data sources and shared semantic models, continued"
+   ],
+   [
+    98,
+    "Connect to data sources and shared semantic models, continued"
+   ],
+   [
+    141,
+    "Connect to data sources and shared semantic models, continued"
+   ],
+   [
+    183,
+    "Data source settings, credentials and privacy levels"
+   ],
+   [
+    202,
+    "Data source settings, credentials and privacy levels, continued"
+   ],
+   [
+    243,
+    "Data source settings, credentials and privacy levels, continued"
+   ],
+   [
+    278,
+    "Data source settings, credentials and privacy levels, continued"
+   ],
+   [
+    317,
+    "Choose between Direct Lake, DirectQuery and Import"
+   ],
+   [
+    369,
+    "Choose between Direct Lake, DirectQuery and Import, continued"
+   ],
+   [
+    406,
+    "Choose between Direct Lake, DirectQuery and Import, continued"
+   ],
+   [
+    448,
+    "Choose between Direct Lake, DirectQuery and Import, continued"
+   ]
+  ]
+ },
+ "_E5vCD3pQ4g": {
+  "course": "pl300",
+  "key": "01-Get-Data-Sources-Storage-Modes-and-Parameters-part-2",
+  "title": "Power BI PL-300 Exam Prep Module 1 Part 2 of 2: Parameters, Practice Questions and Recall | Power BI",
+  "seconds": 492,
+  "published": "2026-11-16T10:02:44Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Create and modify parameters"
+   ],
+   [
+    20,
+    "Create and modify parameters, continued"
+   ],
+   [
+    57,
+    "Create and modify parameters, continued"
+   ],
+   [
+    98,
+    "Create and modify parameters, continued"
+   ]
+  ]
+ },
+ "o_LBnCwx22w": {
+  "course": "pl300",
+  "key": "02-Profile-and-Clean-the-Data-part-1",
+  "title": "Power BI PL-300 Exam Prep Module 2 Part 1 of 2: Profile, Clean and Fix Import Errors | Power BI",
+  "seconds": 442,
+  "published": "2026-11-16T10:03:07Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Profile the data"
+   ],
+   [
+    70,
+    "Profile the data, continued"
+   ],
+   [
+    83,
+    "Profile the data, continued"
+   ],
+   [
+    132,
+    "Statistics and column properties"
+   ],
+   [
+    163,
+    "Statistics and column properties, continued"
+   ],
+   [
+    203,
+    "Statistics and column properties, continued"
+   ],
+   [
+    225,
+    "Resolve inconsistencies, nulls and quality issues"
+   ],
+   [
+    264,
+    "Resolve inconsistencies, nulls and quality issues, continued"
+   ],
+   [
+    289,
+    "Resolve inconsistencies, nulls and quality issues, continued"
+   ],
+   [
+    340,
+    "Resolve inconsistencies, nulls and quality issues, continued"
+   ],
+   [
+    358,
+    "Resolve data import errors"
+   ],
+   [
+    376,
+    "Resolve data import errors, continued"
+   ],
+   [
+    405,
+    "Resolve data import errors, continued"
+   ]
+  ]
+ },
+ "WL0wVYQo3yc": {
+  "course": "pl300",
+  "key": "02-Profile-and-Clean-the-Data-part-2",
+  "title": "Power BI PL-300 Exam Prep Module 2 Part 2 of 2: Import Errors, Practice Questions and Recall",
+  "seconds": 417,
+  "published": "2026-11-16T10:03:24Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Practice questions"
+   ],
+   [
+    259,
+    "Recall check"
+   ],
+   [
+    357,
+    "Module recap"
+   ]
+  ]
+ },
+ "ulRQYf61Th8": {
+  "course": "pl300",
+  "key": "03-Transform-Columns-and-Rows-part-1",
+  "title": "Power BI PL-300 Exam Prep Module 3 Part 1 of 2: Data Types, Columns, Group By, Pivot, Unpivot",
+  "seconds": 435,
+  "published": "2026-11-16T10:03:38Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Select appropriate column data types"
+   ],
+   [
+    75,
+    "Select appropriate column data types, continued"
+   ],
+   [
+    88,
+    "Select appropriate column data types, continued"
+   ],
+   [
+    140,
+    "Select appropriate column data types, continued"
+   ],
+   [
+    175,
+    "Create and transform columns"
+   ],
+   [
+    216,
+    "Create and transform columns, continued"
+   ],
+   [
+    234,
+    "Create and transform columns, continued"
+   ],
+   [
+    263,
+    "Group and aggregate rows"
+   ],
+   [
+    283,
+    "Group and aggregate rows, continued"
+   ],
+   [
+    337,
+    "Pivot, unpivot and transpose"
+   ],
+   [
+    372,
+    "Pivot, unpivot and transpose, continued"
+   ],
+   [
+    389,
+    "Pivot, unpivot and transpose, continued"
+   ]
+  ]
+ },
+ "MTV9tV9QzMA": {
+  "course": "pl300",
+  "key": "03-Transform-Columns-and-Rows-part-2",
+  "title": "Power BI PL-300 Exam Prep Module 3 Part 2 of 2: Semi-Structured Data, Practice and Recall | Power BI",
+  "seconds": 452,
+  "published": "2026-11-16T10:03:58Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Practice questions"
+   ],
+   [
+    291,
+    "Recall check"
+   ],
+   [
+    388,
+    "Module recap"
+   ]
+  ]
+ },
+ "fD1bf6B3Rwo": {
+  "course": "pl300",
+  "key": "04-Fact-and-Dimension-Tables-Merge-Append-and-Load-part-1",
+  "title": "Power BI PL-300 Exam Prep Module 4 Part 1 of 2: Fact and Dimension Tables, Merge and Append",
+  "seconds": 443,
+  "published": "2026-11-16T10:04:19Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Create fact tables and dimension tables"
+   ],
+   [
+    76,
+    "Create fact tables and dimension tables, continued"
+   ],
+   [
+    88,
+    "Create fact tables and dimension tables, continued"
+   ],
+   [
+    135,
+    "Create fact tables and dimension tables, continued"
+   ],
+   [
+    178,
+    "Reference or Duplicate queries"
+   ],
+   [
+    210,
+    "Reference or Duplicate queries, continued"
+   ],
+   [
+    233,
+    "Reference or Duplicate queries, continued"
+   ],
+   [
+    274,
+    "Merge and append queries"
+   ],
+   [
+    299,
+    "Merge and append queries, continued"
+   ],
+   [
+    333,
+    "Merge and append queries, continued"
+   ],
+   [
+    370,
+    "Merge and append queries, continued"
+   ],
+   [
+    388,
+    "Create appropriate keys for relationships"
+   ],
+   [
+    405,
+    "Create appropriate keys for relationships, continued"
+   ]
+  ]
+ },
+ "wFBe63RNZfA": {
+  "course": "pl300",
+  "key": "04-Fact-and-Dimension-Tables-Merge-Append-and-Load-part-2",
+  "title": "Power BI PL-300 Exam Prep Module 4 Part 2 of 2: Keys, Data Loading, Practice and Recall | Power BI",
+  "seconds": 464,
+  "published": "2026-11-16T10:04:32Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Create appropriate keys for relationships, continued"
+   ],
+   [
+    20,
+    "Configure data loading for queries"
+   ],
+   [
+    53,
+    "Configure data loading for queries, continued"
+   ]
+  ]
+ },
+ "k8sxSxGOXEw": {
+  "course": "pl300",
+  "key": "05-Design-the-Data-Model-part-1",
+  "title": "Power BI PL-300 Exam Prep Module 5 Part 1 of 2: Properties, Role-Playing, Relationships, Dates",
+  "seconds": 506,
+  "published": "2026-11-16T10:05:01Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Table and column properties"
+   ],
+   [
+    80,
+    "Table and column properties, continued"
+   ],
+   [
+    91,
+    "Table and column properties, continued"
+   ],
+   [
+    129,
+    "Table and column properties, continued"
+   ],
+   [
+    169,
+    "Table and column properties, continued"
+   ],
+   [
+    191,
+    "Table and column properties, continued"
+   ],
+   [
+    233,
+    "Role-playing dimensions"
+   ],
+   [
+    254,
+    "Role-playing dimensions, continued"
+   ],
+   [
+    272,
+    "Role-playing dimensions, continued"
+   ],
+   [
+    293,
+    "Role-playing dimensions, continued"
+   ],
+   [
+    314,
+    "Cardinality and cross-filter direction"
+   ],
+   [
+    359,
+    "Cardinality and cross-filter direction, continued"
+   ],
+   [
+    382,
+    "Cardinality and cross-filter direction, continued"
+   ],
+   [
+    437,
+    "Create a common date table"
+   ],
+   [
+    476,
+    "Create a common date table, continued"
+   ],
+   [
+    498,
+    "Create a common date table, continued"
+   ]
+  ]
+ },
+ "52YZXIMKdx4": {
+  "course": "pl300",
+  "key": "05-Design-the-Data-Model-part-2",
+  "title": "Power BI PL-300 Exam Prep Module 5 Part 2 of 2: Calculated Columns and Tables, Practice, Recall",
+  "seconds": 512,
+  "published": "2026-11-16T10:05:15Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Create a common date table, continued"
+   ],
+   [
+    36,
+    "Calculated columns and calculated tables"
+   ],
+   [
+    76,
+    "Calculated columns and calculated tables, continued"
+   ],
+   [
+    90,
+    "Calculated columns and calculated tables, continued"
+   ]
+  ]
+ },
+ "nHoT-cClDXw": {
+  "course": "pl300",
+  "key": "06-DAX-Basics-Measures-Filter-Context-and-CALCULATE-part-1",
+  "title": "Power BI PL-300 Exam Prep Module 6 Part 1 of 2: Measures, Filter Context, CALCULATE, Variables",
+  "seconds": 464,
+  "published": "2026-11-16T10:05:41Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Measures and aggregation functions"
+   ],
+   [
+    71,
+    "Measures and aggregation functions, continued"
+   ],
+   [
+    82,
+    "Measures and aggregation functions, continued"
+   ],
+   [
+    130,
+    "Measures and aggregation functions, continued"
+   ],
+   [
+    157,
+    "Measures and aggregation functions, continued"
+   ],
+   [
+    165,
+    "Measures and aggregation functions, continued"
+   ],
+   [
+    200,
+    "Filter context and row context"
+   ],
+   [
+    237,
+    "Filter context and row context, continued"
+   ],
+   [
+    289,
+    "CALCULATE and variables"
+   ],
+   [
+    311,
+    "CALCULATE and variables, continued"
+   ],
+   [
+    342,
+    "CALCULATE and variables, continued"
+   ],
+   [
+    376,
+    "CALCULATE and variables, continued"
+   ],
+   [
+    412,
+    "Quick measures"
+   ]
+  ]
+ },
+ "2vr18hgRPY4": {
+  "course": "pl300",
+  "key": "06-DAX-Basics-Measures-Filter-Context-and-CALCULATE-part-2",
+  "title": "Power BI PL-300 Exam Prep Module 6 Part 2 of 2: Quick Measures, Calculated Columns, Recall",
+  "seconds": 493,
+  "published": "2026-11-16T10:06:01Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Quick measures, continued"
+   ],
+   [
+    27,
+    "Calculated columns and calculated tables"
+   ],
+   [
+    60,
+    "Calculated columns and calculated tables, continued"
+   ]
+  ]
+ },
+ "8TkC85apLV4": {
+  "course": "pl300",
+  "key": "07-Time-Intelligence-Statistics-Semi-Additive-Measures-and-Calculation-Groups-part-1",
+  "title": "Power BI PL-300 Exam Prep Module 7 Part 1 of 2: Time Intelligence, Statistics, Semi-Additive",
+  "seconds": 460,
+  "published": "2026-11-16T10:06:17Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Time intelligence measures"
+   ],
+   [
+    83,
+    "Time intelligence measures, continued"
+   ],
+   [
+    93,
+    "Time intelligence measures, continued"
+   ],
+   [
+    125,
+    "Time intelligence measures, continued"
+   ],
+   [
+    155,
+    "Time intelligence measures, continued"
+   ],
+   [
+    184,
+    "Basic statistical functions"
+   ],
+   [
+    219,
+    "Basic statistical functions, continued"
+   ],
+   [
+    242,
+    "Basic statistical functions, continued"
+   ],
+   [
+    284,
+    "Semi-additive measures"
+   ],
+   [
+    320,
+    "Semi-additive measures, continued"
+   ],
+   [
+    365,
+    "Semi-additive measures, continued"
+   ],
+   [
+    389,
+    "Calculation groups"
+   ],
+   [
+    408,
+    "Calculation groups, continued"
+   ]
+  ]
+ },
+ "grO9LFWlAUU": {
+  "course": "pl300",
+  "key": "07-Time-Intelligence-Statistics-Semi-Additive-Measures-and-Calculation-Groups-part-2",
+  "title": "Power BI PL-300 Exam Prep Module 7 Part 2 of 2: Calculation Groups, Practice Questions, Recall",
+  "seconds": 424,
+  "published": "2026-11-16T10:06:42Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Practice questions"
+   ],
+   [
+    265,
+    "Recall check"
+   ],
+   [
+    360,
+    "Module recap"
+   ]
+  ]
+ },
+ "t0XdRGwKYi0": {
+  "course": "pl300",
+  "key": "08-Optimize-Model-Performance-part-1",
+  "title": "Power BI PL-300 Exam Prep Module 8 Part 1 of 2: Performance Analyzer, DAX Query View, Reduction",
+  "seconds": 446,
+  "published": "2026-11-16T10:06:56Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Remove unnecessary rows and columns"
+   ],
+   [
+    83,
+    "Remove unnecessary rows and columns, continued"
+   ],
+   [
+    95,
+    "Remove unnecessary rows and columns, continued"
+   ],
+   [
+    132,
+    "Remove unnecessary rows and columns, continued"
+   ],
+   [
+    157,
+    "Remove unnecessary rows and columns, continued"
+   ],
+   [
+    202,
+    "Performance Analyzer"
+   ],
+   [
+    245,
+    "Performance Analyzer, continued"
+   ],
+   [
+    277,
+    "Performance Analyzer, continued"
+   ],
+   [
+    290,
+    "Performance Analyzer, continued"
+   ],
+   [
+    321,
+    "DAX query view"
+   ],
+   [
+    336,
+    "DAX query view, continued"
+   ],
+   [
+    378,
+    "DAX query view, continued"
+   ],
+   [
+    406,
+    "Reduce granularity and design for speed"
+   ]
+  ]
+ },
+ "xa_UcXvynhY": {
+  "course": "pl300",
+  "key": "08-Optimize-Model-Performance-part-2",
+  "title": "Power BI PL-300 Exam Prep Module 8 Part 2 of 2: Reduce Granularity, Practice Questions, Recall",
+  "seconds": 456,
+  "published": "2026-11-16T10:07:15Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Practice questions"
+   ],
+   [
+    293,
+    "Recall check"
+   ],
+   [
+    389,
+    "Module recap"
+   ]
+  ]
+ },
+ "_C6NyWtcA0w": {
+  "course": "pl300",
+  "key": "09-Build-Reports-Visuals-Formatting-Filtering-and-Pages-part-1",
+  "title": "Power BI PL-300 Exam Prep Module 9 Part 1 of 2: Visuals, Themes, Conditional Formatting, Slicers",
+  "seconds": 499,
+  "published": "2026-11-16T10:07:50Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Choose the right visual"
+   ],
+   [
+    72,
+    "Choose the right visual, continued"
+   ],
+   [
+    87,
+    "Choose the right visual, continued"
+   ],
+   [
+    137,
+    "Choose the right visual, continued"
+   ],
+   [
+    167,
+    "Format visuals and apply a theme"
+   ],
+   [
+    190,
+    "Format visuals and apply a theme, continued"
+   ],
+   [
+    246,
+    "Format visuals and apply a theme, continued"
+   ],
+   [
+    286,
+    "Conditional formatting"
+   ],
+   [
+    308,
+    "Conditional formatting, continued"
+   ],
+   [
+    333,
+    "Conditional formatting, continued"
+   ],
+   [
+    372,
+    "Slicing and filtering"
+   ],
+   [
+    410,
+    "Slicing and filtering, continued"
+   ],
+   [
+    451,
+    "Slicing and filtering, continued"
+   ]
+  ]
+ },
+ "KDWoH8fVRW4": {
+  "course": "pl300",
+  "key": "09-Build-Reports-Visuals-Formatting-Filtering-and-Pages-part-2",
+  "title": "Power BI PL-300 Exam Prep Module 9 Part 2 of 2: Report Page, Paginated Reports, Practice, Recall",
+  "seconds": 494,
+  "published": "2026-11-16T10:07:54Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "The report page and paginated reports"
+   ],
+   [
+    41,
+    "The report page and paginated reports, continued"
+   ],
+   [
+    69,
+    "The report page and paginated reports, continued"
+   ]
+  ]
+ },
+ "KchwAEj_eLw": {
+  "course": "pl300",
+  "key": "10-Copilot-and-Visual-Calculations-part-1",
+  "title": "Power BI PL-300 Exam Prep Module 10 Part 1 of 2: Copilot Needs, Narrative, Visual Calculations",
+  "seconds": 428,
+  "published": "2026-11-16T10:07:29Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "What Copilot needs"
+   ],
+   [
+    74,
+    "What Copilot needs, continued"
+   ],
+   [
+    87,
+    "What Copilot needs, continued"
+   ],
+   [
+    128,
+    "What Copilot needs, continued"
+   ],
+   [
+    157,
+    "Narrative visual with Copilot"
+   ],
+   [
+    200,
+    "Narrative visual with Copilot, continued"
+   ],
+   [
+    223,
+    "Create report pages and suggest content"
+   ],
+   [
+    255,
+    "Create report pages and suggest content, continued"
+   ],
+   [
+    292,
+    "Visual calculations"
+   ],
+   [
+    340,
+    "Visual calculations, continued"
+   ],
+   [
+    360,
+    "Visual calculations, continued"
+   ],
+   [
+    385,
+    "Measure, column, visual calculation or calculation group"
    ]
   ]
  },

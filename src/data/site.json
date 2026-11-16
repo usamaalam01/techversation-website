@@ -34,7 +34,6 @@
    "mono": "LF",
    "certs": [
     "kcna",
-    "cka",
     "ckad"
    ]
   },
@@ -130,6 +129,15 @@
    "mono": "GC",
    "certs": [
     "cdl"
+   ]
+  },
+  {
+   "id": "hashicorp",
+   "name": "HashiCorp",
+   "full": "HashiCorp, an IBM company",
+   "mono": "HC",
+   "certs": [
+    "tf"
    ]
   },
   {
@@ -4915,3252 +4923,6 @@
   {
    "kind": "certification",
    "topic": null,
-   "slug": "cka",
-   "institute": "linux-foundation",
-   "short": "CKA",
-   "name": "Kubernetes Administrator",
-   "title": "CKA Exam Prep Masterclass",
-   "accent": "c-cka",
-   "desc": "The hands-on Kubernetes Administrator exam: 113 lab tasks, each run on a real cluster, plus two timed mixed sets.",
-   "audience": "Engineers and administrators preparing for the performance-based CKA exam, who want to practice at a terminal.",
-   "sources": "The official CKA curriculum, the Kubernetes documentation and lab tasks run on a Kubernetes v1.37 test cluster.",
-   "playlist": "PLEsAIkidWNwY",
-   "cover": "img/covers/cka.jpg",
-   "modules": [
-    {
-     "num": "00",
-     "slug": "00-exam-orientation-and-the-command-line-toolkit",
-     "title": "Exam Orientation and the Command-Line Toolkit",
-     "desc": "What the exam is",
-     "parts": [
-      {
-       "part": 1,
-       "id": "2jvQjzt5BfU",
-       "title": "What the exam is",
-       "seconds": 596,
-       "chapters": [
-        [
-         0,
-         "What the exam is"
-        ],
-        [
-         76,
-         "What the exam is, continued"
-        ],
-        [
-         133,
-         "What the exam is, continued"
-        ],
-        [
-         149,
-         "Domain weights"
-        ],
-        [
-         155,
-         "Domain weights, continued"
-        ],
-        [
-         208,
-         "The exam environment"
-        ],
-        [
-         261,
-         "The exam environment, continued"
-        ],
-        [
-         305,
-         "The speed kit"
-        ],
-        [
-         327,
-         "The speed kit, continued"
-        ],
-        [
-         382,
-         "The speed kit, continued"
-        ],
-        [
-         428,
-         "The speed kit, continued"
-        ],
-        [
-         453,
-         "Imperative first, declarative when needed"
-        ],
-        [
-         476,
-         "Labels and selectors (they connect everything)"
-        ],
-        [
-         494,
-         "Labels and selectors (they connect everything), continued"
-        ],
-        [
-         506,
-         "JSONPath and custom columns (a frequent time-saver)"
-        ],
-        [
-         522,
-         "JSONPath and custom columns (a frequent time-saver), continued"
-        ],
-        [
-         548,
-         "A repeatable way to work every task"
-        ],
-        [
-         563,
-         "A repeatable way to work every task, continued"
-        ]
-       ],
-       "published": "2026-11-11T09:27:19Z",
-       "thumb": "img/modules/cka/00-1.jpg"
-      },
-      {
-       "part": 2,
-       "id": "0vjVwDPhMfc",
-       "title": "Lab 0.1: jsonpath nodes and Lab 0.2: dry run yaml, recall and recap",
-       "seconds": 508,
-       "chapters": [
-        [
-         0,
-         "Lab 0.1: jsonpath nodes"
-        ],
-        [
-         33,
-         "Lab 0.1: jsonpath nodes, Solution"
-        ],
-        [
-         53,
-         "Lab 0.2: dry run yaml"
-        ],
-        [
-         91,
-         "Lab 0.2: dry run yaml, Solution"
-        ],
-        [
-         126,
-         "Lab 0.3: explain field"
-        ],
-        [
-         162,
-         "Lab 0.3: explain field, Solution"
-        ],
-        [
-         180,
-         "Lab 0.4: default namespace"
-        ],
-        [
-         214,
-         "Lab 0.4: default namespace, Solution"
-        ],
-        [
-         230,
-         "Lab 0.5: labels selectors"
-        ],
-        [
-         277,
-         "Lab 0.5: labels selectors, Solution"
-        ]
-       ],
-       "published": "2026-11-11T09:27:27Z",
-       "thumb": "img/modules/cka/00-2.jpg"
-      }
-     ],
-     "deck": "downloads/cka/00-exam-orientation-and-the-command-line-toolkit.pptx",
-     "deck_kb": 318,
-     "seconds": 1104,
-     "words": 2569
-    },
-    {
-     "num": "01",
-     "slug": "01-cluster-architecture-and-extension-interfaces",
-     "title": "Cluster Architecture and Extension Interfaces",
-     "desc": "The map of a cluster",
-     "parts": [
-      {
-       "part": 1,
-       "id": "YQAdZr41U8s",
-       "title": "The map of a cluster",
-       "seconds": 622,
-       "chapters": [
-        [
-         0,
-         "The map of a cluster"
-        ],
-        [
-         77,
-         "The map of a cluster, continued"
-        ],
-        [
-         91,
-         "The map of a cluster, continued"
-        ],
-        [
-         139,
-         "The map of a cluster, continued"
-        ],
-        [
-         192,
-         "Static Pods"
-        ],
-        [
-         247,
-         "Static Pods, continued"
-        ],
-        [
-         263,
-         "Static Pods, continued"
-        ],
-        [
-         271,
-         "Where things live (kubeadm layout)"
-        ],
-        [
-         337,
-         "Where things live (kubeadm layout), continued"
-        ],
-        [
-         346,
-         "Container runtime and crictl"
-        ],
-        [
-         400,
-         "Extension interfaces: CNI, CSI, CRI"
-        ],
-        [
-         462,
-         "Extension interfaces: CNI, CSI, CRI, continued"
-        ],
-        [
-         488,
-         "Extension interfaces: CNI, CSI, CRI, continued"
-        ],
-        [
-         500,
-         "How a Pod gets created (the story)"
-        ],
-        [
-         508,
-         "How a Pod gets created (the story), continued"
-        ],
-        [
-         555,
-         "Lab 1.1: service cidr"
-        ],
-        [
-         592,
-         "Lab 1.1: service cidr, Solution"
-        ]
-       ],
-       "published": "2026-11-11T09:28:05Z",
-       "thumb": "img/modules/cka/01-1.jpg"
-      },
-      {
-       "part": 2,
-       "id": "0_iGx0ty1DQ",
-       "title": "Lab 1.2: static pod and Lab 1.3: crictl container, recall and recap",
-       "seconds": 569,
-       "chapters": [
-        [
-         0,
-         "Lab 1.2: static pod"
-        ],
-        [
-         37,
-         "Lab 1.2: static pod, Solution"
-        ],
-        [
-         66,
-         "Lab 1.3: crictl container"
-        ],
-        [
-         99,
-         "Lab 1.3: crictl container, Solution"
-        ],
-        [
-         118,
-         "Lab 1.4: cni config"
-        ],
-        [
-         157,
-         "Lab 1.4: cni config, Solution"
-        ],
-        [
-         173,
-         "Lab 1.5: runtimeclass"
-        ],
-        [
-         207,
-         "Lab 1.5: runtimeclass, Solution"
-        ],
-        [
-         221,
-         "Lab 1.5: runtimeclass, Solution, continued"
-        ],
-        [
-         242,
-         "Lab 1.6: node versions"
-        ],
-        [
-         278,
-         "Lab 1.6: node versions, Solution"
-        ],
-        [
-         301,
-         "Lab 1.7: etcd image"
-        ],
-        [
-         337,
-         "Lab 1.7: etcd image, Solution"
-        ]
-       ],
-       "published": "2026-11-11T09:28:09Z",
-       "thumb": "img/modules/cka/01-2.jpg"
-      }
-     ],
-     "deck": "downloads/cka/01-cluster-architecture-and-extension-interfaces.pptx",
-     "deck_kb": 281,
-     "seconds": 1191,
-     "words": 2980
-    },
-    {
-     "num": "02",
-     "slug": "02-rbac-service-accounts-and-kubeconfig",
-     "title": "RBAC, Service Accounts and Kubeconfig",
-     "desc": "How a request is checked",
-     "parts": [
-      {
-       "part": 1,
-       "id": "VsEL0-ZOx2s",
-       "title": "How a request is checked",
-       "seconds": 571,
-       "chapters": [
-        [
-         0,
-         "How a request is checked"
-        ],
-        [
-         92,
-         "How a request is checked, continued"
-        ],
-        [
-         122,
-         "The four objects"
-        ],
-        [
-         134,
-         "The four objects, continued"
-        ],
-        [
-         194,
-         "Fast commands (no YAML)"
-        ],
-        [
-         201,
-         "Fast commands (no YAML), continued"
-        ],
-        [
-         226,
-         "Test it: kubectl auth can-i"
-        ],
-        [
-         241,
-         "Test it: kubectl auth can-i, continued"
-        ],
-        [
-         251,
-         "A bug you will see: roleRef is immutable"
-        ],
-        [
-         286,
-         "Service accounts and tokens"
-        ],
-        [
-         294,
-         "Service accounts and tokens, continued"
-        ],
-        [
-         316,
-         "Give a person a kubeconfig (CertificateSigningRequest flow)"
-        ],
-        [
-         365,
-         "Give a person a kubeconfig (CertificateSigningRequest flow), continued"
-        ],
-        [
-         375,
-         "Give a person a kubeconfig (CertificateSigningRequest flow), continued"
-        ],
-        [
-         405,
-         "Lab 2.1: role binding"
-        ],
-        [
-         443,
-         "Lab 2.1: role binding, Solution"
-        ],
-        [
-         465,
-         "Lab 2.2: sa clusterrole"
-        ],
-        [
-         503,
-         "Lab 2.2: sa clusterrole, Solution"
-        ],
-        [
-         536,
-         "Lab 2.3: cluster wide read"
-        ]
-       ],
-       "published": "2026-11-11T09:29:05Z",
-       "thumb": "img/modules/cka/02-1.jpg"
-      },
-      {
-       "part": 2,
-       "id": "NyyKyW0594Q",
-       "title": "Lab 2.4: fix rolebinding and Lab 2.5: user certificate, recall and recap",
-       "seconds": 560,
-       "chapters": [
-        [
-         0,
-         "Lab 2.3: cluster wide read, Solution"
-        ],
-        [
-         23,
-         "Lab 2.4: fix rolebinding"
-        ],
-        [
-         67,
-         "Lab 2.4: fix rolebinding, Solution"
-        ],
-        [
-         94,
-         "Lab 2.5: user certificate"
-        ],
-        [
-         128,
-         "Lab 2.5: user certificate, continued"
-        ],
-        [
-         162,
-         "Lab 2.5: user certificate, Solution"
-        ],
-        [
-         195,
-         "Lab 2.5: user certificate, Solution, continued"
-        ],
-        [
-         281,
-         "Lab 2.6: sa token"
-        ],
-        [
-         321,
-         "Lab 2.6: sa token, Solution"
-        ]
-       ],
-       "published": "2026-11-11T09:29:31Z",
-       "thumb": "img/modules/cka/02-2.jpg"
-      }
-     ],
-     "deck": "downloads/cka/02-rbac-service-accounts-and-kubeconfig.pptx",
-     "deck_kb": 220,
-     "seconds": 1131,
-     "words": 2738
-    },
-    {
-     "num": "03",
-     "slug": "03-cluster-lifecycle-with-kubeadm-etcd-and-high-availability",
-     "title": "Cluster Lifecycle with kubeadm, etcd and High Availability",
-     "desc": "What Was Executed and What Is Reference Only and Prepare the infrastructure (Reference only, plus two checks you can run)",
-     "parts": [
-      {
-       "part": 1,
-       "id": "ea3mrOELU4I",
-       "title": "What Was Executed and What Is Reference Only and Prepare the infrastructure (Reference only, plus two checks you can run)",
-       "seconds": 702,
-       "chapters": [
-        [
-         0,
-         "What Was Executed and What Is Reference Only"
-        ],
-        [
-         103,
-         "Prepare the infrastructure (Reference only, plus two checks you can run)"
-        ],
-        [
-         147,
-         "Prepare the infrastructure (Reference only, plus two checks you can run), continued"
-        ],
-        [
-         208,
-         "Create a cluster with kubeadm (Reference only)"
-        ],
-        [
-         220,
-         "Create a cluster with kubeadm (Reference only), continued"
-        ],
-        [
-         253,
-         "etcd backup and restore (executed)"
-        ],
-        [
-         270,
-         "etcd backup and restore (executed), continued"
-        ],
-        [
-         303,
-         "etcd backup and restore (executed), continued"
-        ],
-        [
-         317,
-         "etcd backup and restore (executed), continued"
-        ],
-        [
-         370,
-         "etcd backup and restore (executed), continued"
-        ],
-        [
-         384,
-         "Certificates"
-        ],
-        [
-         413,
-         "Certificates, continued"
-        ],
-        [
-         426,
-         "Lifecycle: upgrade (Reference only) and node maintenance (executed)"
-        ],
-        [
-         441,
-         "Lifecycle: upgrade (Reference only) and node maintenance (executed), continued"
-        ],
-        [
-         480,
-         "Lifecycle: upgrade (Reference only) and node maintenance (executed), continued"
-        ],
-        [
-         521,
-         "High availability (concept; Reference only)"
-        ],
-        [
-         581,
-         "Lab 3.1: etcd backup"
-        ],
-        [
-         621,
-         "Lab 3.1: etcd backup, Solution"
-        ],
-        [
-         649,
-         "Lab 3.2: etcd restore"
-        ]
-       ],
-       "published": "2026-11-11T09:30:26Z",
-       "thumb": "img/modules/cka/03-1.jpg"
-      },
-      {
-       "part": 2,
-       "id": "lp0dRHfczcc",
-       "title": "Lab 3.3: cert expiry and Lab 3.4: join command, recall and recap",
-       "seconds": 663,
-       "chapters": [
-        [
-         0,
-         "Lab 3.2: etcd restore, Solution"
-        ],
-        [
-         53,
-         "Lab 3.3: cert expiry"
-        ],
-        [
-         96,
-         "Lab 3.3: cert expiry, Solution"
-        ],
-        [
-         122,
-         "Lab 3.4: join command"
-        ],
-        [
-         159,
-         "Lab 3.4: join command, Solution"
-        ],
-        [
-         180,
-         "Lab 3.5: drain node"
-        ],
-        [
-         220,
-         "Lab 3.5: drain node, Solution"
-        ],
-        [
-         241,
-         "Lab 3.6: etcd members"
-        ],
-        [
-         274,
-         "Lab 3.6: etcd members, Solution"
-        ],
-        [
-         301,
-         "Lab 3.7: node prereqs"
-        ],
-        [
-         343,
-         "Lab 3.7: node prereqs, Solution"
-        ],
-        [
-         369,
-         "Lab 3.8: kubeadm config"
-        ],
-        [
-         408,
-         "Lab 3.8: kubeadm config, Solution"
-        ]
-       ],
-       "published": "2026-11-11T09:30:59Z",
-       "thumb": "img/modules/cka/03-2.jpg"
-      }
-     ],
-     "deck": "downloads/cka/03-cluster-lifecycle-with-kubeadm-etcd-and-high-availability.pptx",
-     "deck_kb": 296,
-     "seconds": 1365,
-     "words": 3548
-    },
-    {
-     "num": "04",
-     "slug": "04-helm-kustomize-crds-and-operators",
-     "title": "Helm, Kustomize, CRDs and Operators",
-     "desc": "Helm in one page",
-     "parts": [
-      {
-       "part": 1,
-       "id": "BnT5Bli5EPc",
-       "title": "Helm in one page",
-       "seconds": 530,
-       "chapters": [
-        [
-         0,
-         "Helm in one page"
-        ],
-        [
-         93,
-         "Helm in one page, continued"
-        ],
-        [
-         139,
-         "Helm in one page, continued"
-        ],
-        [
-         187,
-         "Helm in one page, continued"
-        ],
-        [
-         220,
-         "Kustomize in one page"
-        ],
-        [
-         253,
-         "Kustomize in one page, continued"
-        ],
-        [
-         305,
-         "Helm or Kustomize?"
-        ],
-        [
-         333,
-         "CRDs"
-        ],
-        [
-         360,
-         "CRDs, continued"
-        ],
-        [
-         395,
-         "Operators"
-        ],
-        [
-         428,
-         "Lab 4.1: helm install"
-        ],
-        [
-         466,
-         "Lab 4.1: helm install, Solution"
-        ],
-        [
-         486,
-         "Lab 4.2: helm upgrade rollback"
-        ]
-       ],
-       "published": "2026-11-11T09:31:27Z",
-       "thumb": "img/modules/cka/04-1.jpg"
-      },
-      {
-       "part": 2,
-       "id": "rWrqJ5c8GaQ",
-       "title": "Lab 4.3: helm values uninstall and Lab 4.4: helm template, recall and recap",
-       "seconds": 499,
-       "chapters": [
-        [
-         0,
-         "Lab 4.2: helm upgrade rollback, Solution"
-        ],
-        [
-         29,
-         "Lab 4.3: helm values uninstall"
-        ],
-        [
-         67,
-         "Lab 4.3: helm values uninstall, Solution"
-        ],
-        [
-         91,
-         "Lab 4.4: helm template"
-        ],
-        [
-         123,
-         "Lab 4.4: helm template, Solution"
-        ],
-        [
-         144,
-         "Lab 4.5: kustomize overlay"
-        ],
-        [
-         192,
-         "Lab 4.5: kustomize overlay, Solution"
-        ],
-        [
-         230,
-         "Lab 4.6: crd custom resource"
-        ],
-        [
-         281,
-         "Lab 4.6: crd custom resource, Solution"
-        ]
-       ],
-       "published": "2026-11-11T09:31:58Z",
-       "thumb": "img/modules/cka/04-2.jpg"
-      }
-     ],
-     "deck": "downloads/cka/04-helm-kustomize-crds-and-operators.pptx",
-     "deck_kb": 128,
-     "seconds": 1029,
-     "words": 2331
-    },
-    {
-     "num": "05",
-     "slug": "05-deployments-configuration-and-self-healing-workloads",
-     "title": "Deployments, Configuration and Self-Healing Workloads",
-     "desc": "Which workload object for which job",
-     "parts": [
-      {
-       "part": 1,
-       "id": "fPhH_Wi37SA",
-       "title": "Which workload object for which job",
-       "seconds": 754,
-       "chapters": [
-        [
-         0,
-         "Which workload object for which job"
-        ],
-        [
-         141,
-         "Which workload object for which job, continued"
-        ],
-        [
-         168,
-         "Rolling updates and rollbacks"
-        ],
-        [
-         204,
-         "Rolling updates and rollbacks, continued"
-        ],
-        [
-         224,
-         "Rolling updates and rollbacks, continued"
-        ],
-        [
-         265,
-         "ConfigMaps"
-        ],
-        [
-         278,
-         "ConfigMaps, continued"
-        ],
-        [
-         287,
-         "ConfigMaps, continued"
-        ],
-        [
-         304,
-         "Secrets"
-        ],
-        [
-         327,
-         "Secrets, continued"
-        ],
-        [
-         345,
-         "Self-healing primitives"
-        ],
-        [
-         390,
-         "Self-healing primitives, continued"
-        ],
-        [
-         434,
-         "Self-healing primitives, continued"
-        ],
-        [
-         441,
-         "Self-healing primitives, continued"
-        ],
-        [
-         467,
-         "StatefulSets in short"
-        ],
-        [
-         494,
-         "Jobs and CronJobs in short"
-        ],
-        [
-         516,
-         "Lab 5.1: rollback stuck update"
-        ],
-        [
-         552,
-         "Lab 5.1: rollback stuck update, Solution"
-        ],
-        [
-         575,
-         "Lab 5.2: rolling update strategy"
-        ],
-        [
-         612,
-         "Lab 5.2: rolling update strategy, Solution"
-        ],
-        [
-         641,
-         "Lab 5.3: configmap env volume"
-        ],
-        [
-         691,
-         "Lab 5.3: configmap env volume, Solution"
-        ],
-        [
-         716,
-         "Lab 5.3: configmap env volume, Solution, continued"
-        ]
-       ],
-       "published": "2026-11-11T09:32:41Z",
-       "thumb": "img/modules/cka/05-1.jpg"
-      },
-      {
-       "part": 2,
-       "id": "6P3_2AtDAS8",
-       "title": "Lab 5.4: secret env file and Lab 5.5: daemonset, recall and recap",
-       "seconds": 725,
-       "chapters": [
-        [
-         0,
-         "Lab 5.4: secret env file"
-        ],
-        [
-         43,
-         "Lab 5.4: secret env file, Solution"
-        ],
-        [
-         69,
-         "Lab 5.4: secret env file, Solution, continued"
-        ],
-        [
-         99,
-         "Lab 5.5: daemonset"
-        ],
-        [
-         133,
-         "Lab 5.5: daemonset, Solution"
-        ],
-        [
-         159,
-         "Lab 5.6: statefulset"
-        ],
-        [
-         202,
-         "Lab 5.6: statefulset, Solution"
-        ],
-        [
-         217,
-         "Lab 5.6: statefulset, Solution, continued"
-        ],
-        [
-         246,
-         "Lab 5.7: job cronjob"
-        ],
-        [
-         285,
-         "Lab 5.7: job cronjob, Solution"
-        ],
-        [
-         316,
-         "Lab 5.8: add probes"
-        ],
-        [
-         364,
-         "Lab 5.8: add probes, Solution"
-        ],
-        [
-         392,
-         "Lab 5.9: fix liveness"
-        ],
-        [
-         431,
-         "Lab 5.9: fix liveness, Solution"
-        ],
-        [
-         466,
-         "Lab 5.10: pod disruption budget"
-        ],
-        [
-         505,
-         "Lab 5.10: pod disruption budget, Solution"
-        ]
-       ],
-       "published": "2026-11-11T09:33:15Z",
-       "thumb": "img/modules/cka/05-2.jpg"
-      }
-     ],
-     "deck": "downloads/cka/05-deployments-configuration-and-self-healing-workloads.pptx",
-     "deck_kb": 186,
-     "seconds": 1479,
-     "words": 3439
-    },
-    {
-     "num": "06",
-     "slug": "06-scheduling-resources-and-autoscaling",
-     "title": "Scheduling, Resources and Autoscaling",
-     "desc": "How scheduling works",
-     "parts": [
-      {
-       "part": 1,
-       "id": "3u4QgSAVMC8",
-       "title": "How scheduling works",
-       "seconds": 520,
-       "chapters": [
-        [
-         0,
-         "How scheduling works"
-        ],
-        [
-         72,
-         "How scheduling works, continued"
-        ],
-        [
-         104,
-         "Requests, limits and QoS"
-        ],
-        [
-         129,
-         "Requests, limits and QoS, continued"
-        ],
-        [
-         138,
-         "Requests, limits and QoS, continued"
-        ],
-        [
-         185,
-         "Requests, limits and QoS, continued"
-        ],
-        [
-         205,
-         "Pod admission controls: LimitRange and ResourceQuota"
-        ],
-        [
-         223,
-         "Pod admission controls: LimitRange and ResourceQuota, continued"
-        ],
-        [
-         244,
-         "Pod admission controls: LimitRange and ResourceQuota, continued"
-        ],
-        [
-         270,
-         "Choosing nodes"
-        ],
-        [
-         308,
-         "Choosing nodes, continued"
-        ],
-        [
-         315,
-         "Choosing nodes, continued"
-        ],
-        [
-         325,
-         "Choosing nodes, continued"
-        ],
-        [
-         350,
-         "Choosing nodes, continued"
-        ],
-        [
-         388,
-         "Taints and tolerations"
-        ],
-        [
-         421,
-         "Taints and tolerations, continued"
-        ],
-        [
-         428,
-         "Taints and tolerations, continued"
-        ],
-        [
-         436,
-         "Taints and tolerations, continued"
-        ],
-        [
-         459,
-         "Workload autoscaling"
-        ],
-        [
-         481,
-         "Workload autoscaling, continued"
-        ]
-       ],
-       "published": "2026-11-11T09:34:11Z",
-       "thumb": "img/modules/cka/06-1.jpg"
-      },
-      {
-       "part": 2,
-       "id": "xJXBBhDf6L4",
-       "title": "Lab 6.1: requests limits and Lab 6.2: limitrange defaults",
-       "seconds": 486,
-       "chapters": [
-        [
-         0,
-         "Lab 6.1: requests limits"
-        ],
-        [
-         36,
-         "Lab 6.1: requests limits, Solution"
-        ],
-        [
-         89,
-         "Lab 6.2: limitrange defaults"
-        ],
-        [
-         135,
-         "Lab 6.2: limitrange defaults, Solution"
-        ],
-        [
-         170,
-         "Lab 6.3: resourcequota"
-        ],
-        [
-         217,
-         "Lab 6.3: resourcequota, Solution"
-        ],
-        [
-         267,
-         "Lab 6.4: nodeselector"
-        ],
-        [
-         302,
-         "Lab 6.4: nodeselector, Solution"
-        ],
-        [
-         334,
-         "Lab 6.5: node affinity"
-        ],
-        [
-         374,
-         "Lab 6.5: node affinity, Solution"
-        ],
-        [
-         389,
-         "Lab 6.5: node affinity, Solution, continued"
-        ],
-        [
-         419,
-         "Lab 6.6: taint toleration"
-        ],
-        [
-         457,
-         "Lab 6.6: taint toleration, Solution"
-        ]
-       ],
-       "published": "2026-11-11T09:34:14Z",
-       "thumb": "img/modules/cka/06-2.jpg"
-      },
-      {
-       "part": 3,
-       "id": "CB-fDtBYid8",
-       "title": "Lab 6.7: pod anti affinity and Lab 6.8: fix pending pod, recall and recap",
-       "seconds": 550,
-       "chapters": [
-        [
-         0,
-         "Lab 6.7: pod anti affinity"
-        ],
-        [
-         39,
-         "Lab 6.7: pod anti affinity, Solution"
-        ],
-        [
-         55,
-         "Lab 6.7: pod anti affinity, Solution, continued"
-        ],
-        [
-         85,
-         "Lab 6.8: fix pending pod"
-        ],
-        [
-         127,
-         "Lab 6.8: fix pending pod, Solution"
-        ],
-        [
-         161,
-         "Lab 6.9: hpa"
-        ],
-        [
-         208,
-         "Lab 6.9: hpa, Solution"
-        ],
-        [
-         254,
-         "Lab 6.10: topology spread"
-        ],
-        [
-         306,
-         "Lab 6.10: topology spread, Solution"
-        ],
-        [
-         321,
-         "Lab 6.10: topology spread, Solution, continued"
-        ]
-       ],
-       "published": "2026-11-11T09:34:48Z",
-       "thumb": "img/modules/cka/06-3.jpg"
-      }
-     ],
-     "deck": "downloads/cka/06-scheduling-resources-and-autoscaling.pptx",
-     "deck_kb": 243,
-     "seconds": 1556,
-     "words": 3764
-    },
-    {
-     "num": "07",
-     "slug": "07-services-and-pod-connectivity",
-     "title": "Services and Pod Connectivity",
-     "desc": "The networking rules of Kubernetes and Service types",
-     "parts": [
-      {
-       "part": 1,
-       "id": "JVJeSTx3GBE",
-       "title": "The networking rules of Kubernetes and Service types",
-       "seconds": 595,
-       "chapters": [
-        [
-         0,
-         "The networking rules of Kubernetes"
-        ],
-        [
-         104,
-         "Service types"
-        ],
-        [
-         180,
-         "Service types, continued"
-        ],
-        [
-         202,
-         "Service types, continued"
-        ],
-        [
-         209,
-         "Service types, continued"
-        ],
-        [
-         242,
-         "Endpoints: what a Service actually points at"
-        ],
-        [
-         270,
-         "Endpoints: what a Service actually points at, continued"
-        ],
-        [
-         310,
-         "Service DNS names"
-        ],
-        [
-         335,
-         "Service DNS names, continued"
-        ],
-        [
-         366,
-         "How Services work on the node (short)"
-        ],
-        [
-         395,
-         "A fast way to test connectivity"
-        ],
-        [
-         409,
-         "A fast way to test connectivity, continued"
-        ],
-        [
-         424,
-         "Lab 7.1: clusterip service"
-        ],
-        [
-         461,
-         "Lab 7.1: clusterip service, Solution"
-        ],
-        [
-         481,
-         "Lab 7.2: nodeport service"
-        ],
-        [
-         515,
-         "Lab 7.2: nodeport service, Solution"
-        ],
-        [
-         550,
-         "Lab 7.3: fix service selector"
-        ]
-       ],
-       "published": "2026-11-11T09:35:25Z",
-       "thumb": "img/modules/cka/07-1.jpg"
-      },
-      {
-       "part": 2,
-       "id": "3AURspFfCd4",
-       "title": "Lab 7.4: endpoint ips and Lab 7.5: loadbalancer service, recall and recap",
-       "seconds": 552,
-       "chapters": [
-        [
-         0,
-         "Lab 7.3: fix service selector, Solution"
-        ],
-        [
-         33,
-         "Lab 7.4: endpoint ips"
-        ],
-        [
-         69,
-         "Lab 7.4: endpoint ips, Solution"
-        ],
-        [
-         96,
-         "Lab 7.5: loadbalancer service"
-        ],
-        [
-         135,
-         "Lab 7.5: loadbalancer service, Solution"
-        ],
-        [
-         157,
-         "Lab 7.6: externalname"
-        ],
-        [
-         191,
-         "Lab 7.6: externalname, Solution"
-        ],
-        [
-         210,
-         "Lab 7.7: cross namespace dns"
-        ],
-        [
-         257,
-         "Lab 7.7: cross namespace dns, Solution"
-        ],
-        [
-         285,
-         "Lab 7.8: multiport service"
-        ],
-        [
-         330,
-         "Lab 7.8: multiport service, Solution"
-        ]
-       ],
-       "published": "2026-11-11T09:35:49Z",
-       "thumb": "img/modules/cka/07-2.jpg"
-      }
-     ],
-     "deck": "downloads/cka/07-services-and-pod-connectivity.pptx",
-     "deck_kb": 147,
-     "seconds": 1147,
-     "words": 2798
-    },
-    {
-     "num": "08",
-     "slug": "08-dns-ingress-and-gateway-api",
-     "title": "DNS, Ingress and Gateway API",
-     "desc": "CoreDNS",
-     "parts": [
-      {
-       "part": 1,
-       "id": "sWYbsFpdqSI",
-       "title": "CoreDNS",
-       "seconds": 554,
-       "chapters": [
-        [
-         0,
-         "CoreDNS"
-        ],
-        [
-         109,
-         "CoreDNS, continued"
-        ],
-        [
-         153,
-         "CoreDNS, continued"
-        ],
-        [
-         160,
-         "CoreDNS, continued"
-        ],
-        [
-         216,
-         "Ingress: HTTP routing into the cluster"
-        ],
-        [
-         250,
-         "Ingress: HTTP routing into the cluster, continued"
-        ],
-        [
-         259,
-         "Ingress: HTTP routing into the cluster, continued"
-        ],
-        [
-         282,
-         "Ingress: HTTP routing into the cluster, continued"
-        ],
-        [
-         329,
-         "Ingress: HTTP routing into the cluster, continued"
-        ],
-        [
-         338,
-         "Ingress: HTTP routing into the cluster, continued"
-        ],
-        [
-         357,
-         "Gateway API: the successor to Ingress"
-        ],
-        [
-         371,
-         "Gateway API: the successor to Ingress, continued"
-        ],
-        [
-         419,
-         "Gateway API: the successor to Ingress, continued"
-        ],
-        [
-         428,
-         "Gateway API: the successor to Ingress, continued"
-        ],
-        [
-         437,
-         "Gateway API: the successor to Ingress, continued"
-        ],
-        [
-         467,
-         "Gateway API: the successor to Ingress, continued"
-        ],
-        [
-         510,
-         "Lab 8.1: dns server ip"
-        ]
-       ],
-       "published": "2026-11-11T09:36:26Z",
-       "thumb": "img/modules/cka/08-1.jpg"
-      },
-      {
-       "part": 2,
-       "id": "wxUemK8IiHw",
-       "title": "Lab 8.2: coredns upstream and Lab 8.3: coredns custom host",
-       "seconds": 471,
-       "chapters": [
-        [
-         0,
-         "Lab 8.1: dns server ip, Solution"
-        ],
-        [
-         32,
-         "Lab 8.2: coredns upstream"
-        ],
-        [
-         76,
-         "Lab 8.2: coredns upstream, Solution"
-        ],
-        [
-         102,
-         "Lab 8.3: coredns custom host"
-        ],
-        [
-         148,
-         "Lab 8.3: coredns custom host, Solution"
-        ],
-        [
-         211,
-         "Lab 8.4: fix dns down"
-        ],
-        [
-         247,
-         "Lab 8.4: fix dns down, Solution"
-        ],
-        [
-         281,
-         "Lab 8.5: ingress host routing"
-        ],
-        [
-         324,
-         "Lab 8.5: ingress host routing, Solution"
-        ],
-        [
-         352,
-         "Lab 8.6: ingress tls"
-        ],
-        [
-         397,
-         "Lab 8.6: ingress tls, Solution"
-        ],
-        [
-         432,
-         "Lab 8.7: fix ingress class"
-        ]
-       ],
-       "published": "2026-11-11T09:36:45Z",
-       "thumb": "img/modules/cka/08-2.jpg"
-      },
-      {
-       "part": 3,
-       "id": "zfhT3Kszhnw",
-       "title": "Lab 8.8: fix ingress backend and Lab 8.9: gateway httproute, recall and recap",
-       "seconds": 520,
-       "chapters": [
-        [
-         0,
-         "Lab 8.7: fix ingress class, Solution"
-        ],
-        [
-         27,
-         "Lab 8.8: fix ingress backend"
-        ],
-        [
-         64,
-         "Lab 8.8: fix ingress backend, Solution"
-        ],
-        [
-         97,
-         "Lab 8.9: gateway httproute"
-        ],
-        [
-         142,
-         "Lab 8.9: gateway httproute, Solution"
-        ],
-        [
-         161,
-         "Lab 8.9: gateway httproute, Solution, continued"
-        ],
-        [
-         194,
-         "Lab 8.10: fix httproute"
-        ],
-        [
-         232,
-         "Lab 8.10: fix httproute, Solution"
-        ],
-        [
-         262,
-         "Lab 8.11: httproute weights"
-        ],
-        [
-         302,
-         "Lab 8.11: httproute weights, Solution"
-        ]
-       ],
-       "published": "2026-11-11T09:38:07Z",
-       "thumb": "img/modules/cka/08-3.jpg"
-      }
-     ],
-     "deck": "downloads/cka/08-dns-ingress-and-gateway-api.pptx",
-     "deck_kb": 248,
-     "seconds": 1545,
-     "words": 3870
-    },
-    {
-     "num": "09",
-     "slug": "09-network-policies",
-     "title": "Network Policies",
-     "desc": "The model in six sentences and Anatomy",
-     "parts": [
-      {
-       "part": 1,
-       "id": "IiBm4sCbK3s",
-       "title": "The model in six sentences and Anatomy",
-       "seconds": 456,
-       "chapters": [
-        [
-         0,
-         "The model in six sentences"
-        ],
-        [
-         103,
-         "Anatomy"
-        ],
-        [
-         110,
-         "Anatomy, continued"
-        ],
-        [
-         139,
-         "The AND versus OR trap (most tested detail)"
-        ],
-        [
-         151,
-         "The AND versus OR trap (most tested detail), continued"
-        ],
-        [
-         160,
-         "The AND versus OR trap (most tested detail), continued"
-        ],
-        [
-         168,
-         "The AND versus OR trap (most tested detail), continued"
-        ],
-        [
-         183,
-         "Common recipes"
-        ],
-        [
-         201,
-         "Common recipes, continued"
-        ],
-        [
-         246,
-         "Common recipes, continued"
-        ],
-        [
-         253,
-         "Reading and debugging"
-        ],
-        [
-         267,
-         "Reading and debugging, continued"
-        ],
-        [
-         295,
-         "Lab 9.1: default deny"
-        ],
-        [
-         334,
-         "Lab 9.1: default deny, Solution"
-        ],
-        [
-         351,
-         "Lab 9.2: allow from namespace"
-        ],
-        [
-         396,
-         "Lab 9.2: allow from namespace, Solution"
-        ],
-        [
-         413,
-         "Lab 9.3: egress policy"
-        ]
-       ],
-       "published": "2026-11-11T09:37:35Z",
-       "thumb": "img/modules/cka/09-1.jpg"
-      },
-      {
-       "part": 2,
-       "id": "sKFYde-q_pw",
-       "title": "Lab 9.4: fix policy labels and Lab 9.5: and vs or selectors, recall and recap",
-       "seconds": 436,
-       "chapters": [
-        [
-         0,
-         "Lab 9.3: egress policy, Solution"
-        ],
-        [
-         17,
-         "Lab 9.4: fix policy labels"
-        ],
-        [
-         60,
-         "Lab 9.4: fix policy labels, Solution"
-        ],
-        [
-         93,
-         "Lab 9.5: and vs or selectors"
-        ],
-        [
-         136,
-         "Lab 9.5: and vs or selectors, Solution"
-        ],
-        [
-         154,
-         "Lab 9.6: deny all allow dns"
-        ],
-        [
-         205,
-         "Lab 9.6: deny all allow dns, Solution"
-        ],
-        [
-         220,
-         "Lab 9.6: deny all allow dns, Solution, continued"
-        ]
-       ],
-       "published": "2026-11-11T09:38:06Z",
-       "thumb": "img/modules/cka/09-2.jpg"
-      }
-     ],
-     "deck": "downloads/cka/09-network-policies.pptx",
-     "deck_kb": 188,
-     "seconds": 892,
-     "words": 2043
-    },
-    {
-     "num": "10",
-     "slug": "10-storage",
-     "title": "Storage",
-     "desc": "The storage objects",
-     "parts": [
-      {
-       "part": 1,
-       "id": "lTO0rPxTt3k",
-       "title": "The storage objects",
-       "seconds": 569,
-       "chapters": [
-        [
-         0,
-         "The storage objects"
-        ],
-        [
-         76,
-         "The storage objects, continued"
-        ],
-        [
-         131,
-         "Volume types you must know"
-        ],
-        [
-         170,
-         "Static provisioning (admin creates the PV)"
-        ],
-        [
-         179,
-         "Static provisioning (admin creates the PV), continued"
-        ],
-        [
-         216,
-         "Dynamic provisioning with a StorageClass"
-        ],
-        [
-         231,
-         "Dynamic provisioning with a StorageClass, continued"
-        ],
-        [
-         265,
-         "Dynamic provisioning with a StorageClass, continued"
-        ],
-        [
-         294,
-         "Access modes and reclaim policies"
-        ],
-        [
-         351,
-         "Access modes and reclaim policies, continued"
-        ],
-        [
-         375,
-         "Use a PVC in a Pod"
-        ],
-        [
-         383,
-         "Use a PVC in a Pod, continued"
-        ],
-        [
-         395,
-         "Troubleshooting storage (break-and-fix patterns)"
-        ],
-        [
-         465,
-         "Troubleshooting storage (break-and-fix patterns), continued"
-        ],
-        [
-         480,
-         "Lab 10.1: dynamic pvc"
-        ],
-        [
-         524,
-         "Lab 10.1: dynamic pvc, Solution"
-        ],
-        [
-         539,
-         "Lab 10.1: dynamic pvc, Solution, continued"
-        ]
-       ],
-       "published": "2026-11-11T09:38:46Z",
-       "thumb": "img/modules/cka/10-1.jpg"
-      },
-      {
-       "part": 2,
-       "id": "LHQw3Eddbuc",
-       "title": "Lab 10.2: static pv pvc and Lab 10.3: storageclass default",
-       "seconds": 572,
-       "chapters": [
-        [
-         0,
-         "Lab 10.2: static pv pvc"
-        ],
-        [
-         45,
-         "Lab 10.2: static pv pvc, Solution"
-        ],
-        [
-         59,
-         "Lab 10.2: static pv pvc, Solution, continued"
-        ],
-        [
-         78,
-         "Lab 10.3: storageclass default"
-        ],
-        [
-         119,
-         "Lab 10.3: storageclass default, Solution"
-        ],
-        [
-         144,
-         "Lab 10.4: reclaim retain"
-        ],
-        [
-         185,
-         "Lab 10.4: reclaim retain, Solution"
-        ],
-        [
-         212,
-         "Lab 10.5: emptydir shared"
-        ],
-        [
-         258,
-         "Lab 10.5: emptydir shared, Solution"
-        ],
-        [
-         273,
-         "Lab 10.5: emptydir shared, Solution, continued"
-        ],
-        [
-         301,
-         "Lab 10.6: fix pending pvc"
-        ],
-        [
-         344,
-         "Lab 10.6: fix pending pvc, Solution"
-        ],
-        [
-         385,
-         "Lab 10.6: fix pending pvc, Solution, continued"
-        ],
-        [
-         414,
-         "Lab 10.7: fix access mode"
-        ],
-        [
-         456,
-         "Lab 10.7: fix access mode, Solution"
-        ],
-        [
-         491,
-         "Lab 10.8: pvc persists"
-        ],
-        [
-         537,
-         "Lab 10.8: pvc persists, Solution"
-        ]
-       ],
-       "published": "2026-11-11T09:39:12Z",
-       "thumb": "img/modules/cka/10-2.jpg"
-      },
-      {
-       "part": 3,
-       "id": "WPwnRZgap0o",
-       "title": "Lab 10.9: released pv reuse and Lab 10.10: hostpath volume, recall and recap",
-       "seconds": 557,
-       "chapters": [
-        [
-         0,
-         "Lab 10.9: released pv reuse"
-        ],
-        [
-         44,
-         "Lab 10.9: released pv reuse, Solution"
-        ],
-        [
-         74,
-         "Lab 10.10: hostpath volume"
-        ],
-        [
-         122,
-         "Lab 10.10: hostpath volume, Solution"
-        ],
-        [
-         159,
-         "Lab 10.11: pvc readonly"
-        ],
-        [
-         201,
-         "Lab 10.11: pvc readonly, Solution"
-        ],
-        [
-         230,
-         "Lab 10.12: statefulset claims"
-        ],
-        [
-         279,
-         "Lab 10.12: statefulset claims, Solution"
-        ],
-        [
-         295,
-         "Lab 10.12: statefulset claims, Solution, continued"
-        ],
-        [
-         324,
-         "Lab 10.12: statefulset claims, Solution, continued"
-        ]
-       ],
-       "published": "2026-11-11T09:39:47Z",
-       "thumb": "img/modules/cka/10-3.jpg"
-      }
-     ],
-     "deck": "downloads/cka/10-storage.pptx",
-     "deck_kb": 260,
-     "seconds": 1698,
-     "words": 4013
-    },
-    {
-     "num": "11",
-     "slug": "11-troubleshooting-applications-and-container-logs",
-     "title": "Troubleshooting Applications and Container Logs",
-     "desc": "The method: top-down, one command at a time",
-     "parts": [
-      {
-       "part": 1,
-       "id": "C40IMaCfvtE",
-       "title": "The method: top-down, one command at a time",
-       "seconds": 700,
-       "chapters": [
-        [
-         0,
-         "The method: top-down, one command at a time"
-        ],
-        [
-         73,
-         "The method: top-down, one command at a time, continued"
-        ],
-        [
-         131,
-         "Pod status words and what they mean"
-        ],
-        [
-         204,
-         "Pod status words and what they mean, continued"
-        ],
-        [
-         265,
-         "Pod status words and what they mean, continued"
-        ],
-        [
-         293,
-         "Reading logs: every variant"
-        ],
-        [
-         307,
-         "Reading logs: every variant, continued"
-        ],
-        [
-         346,
-         "Reading logs: every variant, continued"
-        ],
-        [
-         379,
-         "Break-and-fix catalog (all executed in this module's labs)"
-        ],
-        [
-         456,
-         "Break-and-fix catalog (all executed in this module's labs), continued"
-        ],
-        [
-         520,
-         "Useful debugging tools"
-        ],
-        [
-         534,
-         "Lab 11.1: container logs"
-        ],
-        [
-         568,
-         "Lab 11.1: container logs, Solution"
-        ],
-        [
-         590,
-         "Lab 11.2: previous logs"
-        ],
-        [
-         626,
-         "Lab 11.2: previous logs, Solution"
-        ],
-        [
-         666,
-         "Lab 11.3: fix image pull"
-        ]
-       ],
-       "published": "2026-11-11T09:40:53Z",
-       "thumb": "img/modules/cka/11-1.jpg"
-      },
-      {
-       "part": 2,
-       "id": "P-bQO25c5i0",
-       "title": "Lab 11.4: fix missing env and Lab 11.5: fix missing configmap, recall and recap",
-       "seconds": 661,
-       "chapters": [
-        [
-         0,
-         "Lab 11.3: fix image pull, Solution"
-        ],
-        [
-         28,
-         "Lab 11.4: fix missing env"
-        ],
-        [
-         66,
-         "Lab 11.4: fix missing env, Solution"
-        ],
-        [
-         93,
-         "Lab 11.5: fix missing configmap"
-        ],
-        [
-         133,
-         "Lab 11.5: fix missing configmap, Solution"
-        ],
-        [
-         163,
-         "Lab 11.6: oomkilled"
-        ],
-        [
-         205,
-         "Lab 11.6: oomkilled, Solution"
-        ],
-        [
-         246,
-         "Lab 11.7: fix init container"
-        ],
-        [
-         289,
-         "Lab 11.7: fix init container, Solution"
-        ],
-        [
-         322,
-         "Lab 11.8: fix wrong command"
-        ],
-        [
-         363,
-         "Lab 11.8: fix wrong command, Solution"
-        ],
-        [
-         399,
-         "Lab 11.9: logs by label"
-        ],
-        [
-         440,
-         "Lab 11.9: logs by label, Solution"
-        ]
-       ],
-       "published": "2026-11-11T09:40:51Z",
-       "thumb": "img/modules/cka/11-2.jpg"
-      }
-     ],
-     "deck": "downloads/cka/11-troubleshooting-applications-and-container-logs.pptx",
-     "deck_kb": 194,
-     "seconds": 1361,
-     "words": 3270
-    },
-    {
-     "num": "12",
-     "slug": "12-troubleshooting-clusters-nodes-and-components",
-     "title": "Troubleshooting Clusters, Nodes and Components",
-     "desc": "First look at the cluster",
-     "parts": [
-      {
-       "part": 1,
-       "id": "cPHC4PBLT_I",
-       "title": "First look at the cluster",
-       "seconds": 528,
-       "chapters": [
-        [
-         0,
-         "First look at the cluster"
-        ],
-        [
-         64,
-         "First look at the cluster, continued"
-        ],
-        [
-         71,
-         "First look at the cluster, continued"
-        ],
-        [
-         136,
-         "The node: kubelet and container runtime"
-        ],
-        [
-         160,
-         "The node: kubelet and container runtime, continued"
-        ],
-        [
-         218,
-         "The node: kubelet and container runtime, continued"
-        ],
-        [
-         256,
-         "The node: kubelet and container runtime, continued"
-        ],
-        [
-         289,
-         "The control plane: static Pods and crictl"
-        ],
-        [
-         325,
-         "The control plane: static Pods and crictl, continued"
-        ],
-        [
-         335,
-         "The control plane: static Pods and crictl, continued"
-        ],
-        [
-         356,
-         "The control plane: static Pods and crictl, continued"
-        ],
-        [
-         430,
-         "Your own access: kubeconfig problems"
-        ],
-        [
-         452,
-         "Your own access: kubeconfig problems, continued"
-        ],
-        [
-         475,
-         "Not broken, just switched off"
-        ],
-        [
-         507,
-         "Certificates (quick check)"
-        ]
-       ],
-       "published": "2026-11-11T09:41:22Z",
-       "thumb": "img/modules/cka/12-1.jpg"
-      },
-      {
-       "part": 2,
-       "id": "yUC0amm2S58",
-       "title": "A checklist for any \"cluster is broken\" task and Lab 12.1: kubelet stopped",
-       "seconds": 453,
-       "chapters": [
-        [
-         0,
-         "A checklist for any \"cluster is broken\" task"
-        ],
-        [
-         40,
-         "Lab 12.1: kubelet stopped"
-        ],
-        [
-         81,
-         "Lab 12.1: kubelet stopped, Solution"
-        ],
-        [
-         107,
-         "Lab 12.2: kubelet config"
-        ],
-        [
-         144,
-         "Lab 12.2: kubelet config, Solution"
-        ],
-        [
-         182,
-         "Lab 12.3: apiserver etcd flag"
-        ],
-        [
-         223,
-         "Lab 12.3: apiserver etcd flag, Solution"
-        ],
-        [
-         278,
-         "Lab 12.4: apiserver cert path"
-        ],
-        [
-         320,
-         "Lab 12.4: apiserver cert path, Solution"
-        ],
-        [
-         366,
-         "Lab 12.5: scheduler broken"
-        ],
-        [
-         405,
-         "Lab 12.5: scheduler broken, Solution"
-        ]
-       ],
-       "published": "2026-11-11T09:41:55Z",
-       "thumb": "img/modules/cka/12-2.jpg"
-      },
-      {
-       "part": 3,
-       "id": "YrDGV4rfy9E",
-       "title": "Lab 12.6: controller manager broken and Lab 12.7: containerd stopped, recall and recap",
-       "seconds": 509,
-       "chapters": [
-        [
-         0,
-         "Lab 12.6: controller manager broken"
-        ],
-        [
-         37,
-         "Lab 12.6: controller manager broken, Solution"
-        ],
-        [
-         85,
-         "Lab 12.7: containerd stopped"
-        ],
-        [
-         119,
-         "Lab 12.7: containerd stopped, Solution"
-        ],
-        [
-         153,
-         "Lab 12.8: kubeconfig wrong server"
-        ],
-        [
-         196,
-         "Lab 12.8: kubeconfig wrong server, Solution"
-        ],
-        [
-         233,
-         "Lab 12.9: cordoned nodes"
-        ],
-        [
-         269,
-         "Lab 12.9: cordoned nodes, Solution"
-        ]
-       ],
-       "published": "2026-11-11T09:42:17Z",
-       "thumb": "img/modules/cka/12-3.jpg"
-      }
-     ],
-     "deck": "downloads/cka/12-troubleshooting-clusters-nodes-and-components.pptx",
-     "deck_kb": 244,
-     "seconds": 1490,
-     "words": 3856
-    },
-    {
-     "num": "13",
-     "slug": "13-troubleshooting-services-and-networking-monitoring-resource-usage",
-     "title": "Troubleshooting Services and Networking; Monitoring Resource Usage",
-     "desc": "Service troubleshooting: walk the path",
-     "parts": [
-      {
-       "part": 1,
-       "id": "dytmyAK-Mxg",
-       "title": "Service troubleshooting: walk the path",
-       "seconds": 614,
-       "chapters": [
-        [
-         0,
-         "Service troubleshooting: walk the path"
-        ],
-        [
-         70,
-         "Service troubleshooting: walk the path, continued"
-        ],
-        [
-         89,
-         "Service troubleshooting: walk the path, continued"
-        ],
-        [
-         146,
-         "Service troubleshooting: walk the path, continued"
-        ],
-        [
-         192,
-         "Service troubleshooting: walk the path, continued"
-        ],
-        [
-         233,
-         "Service troubleshooting: walk the path, continued"
-        ],
-        [
-         255,
-         "Readiness: Running is not Ready"
-        ],
-        [
-         287,
-         "DNS troubleshooting"
-        ],
-        [
-         295,
-         "DNS troubleshooting, continued"
-        ],
-        [
-         360,
-         "Other network faults to recognize"
-        ],
-        [
-         408,
-         "Monitoring resource usage"
-        ],
-        [
-         431,
-         "Monitoring resource usage, continued"
-        ],
-        [
-         474,
-         "Monitoring resource usage, continued"
-        ],
-        [
-         502,
-         "Lab 13.1: top pods"
-        ],
-        [
-         539,
-         "Lab 13.1: top pods, Solution"
-        ],
-        [
-         566,
-         "Lab 13.2: fix metrics server"
-        ]
-       ],
-       "published": "2026-11-11T09:43:04Z",
-       "thumb": "img/modules/cka/13-1.jpg"
-      },
-      {
-       "part": 2,
-       "id": "syE1lHLULz4",
-       "title": "Lab 13.3: readiness no endpoints and Lab 13.4: wrong targetport, recall and recap",
-       "seconds": 599,
-       "chapters": [
-        [
-         0,
-         "Lab 13.2: fix metrics server, Solution"
-        ],
-        [
-         49,
-         "Lab 13.3: readiness no endpoints"
-        ],
-        [
-         92,
-         "Lab 13.3: readiness no endpoints, Solution"
-        ],
-        [
-         130,
-         "Lab 13.4: wrong targetport"
-        ],
-        [
-         172,
-         "Lab 13.4: wrong targetport, Solution"
-        ],
-        [
-         204,
-         "Lab 13.5: pod dns policy"
-        ],
-        [
-         248,
-         "Lab 13.5: pod dns policy, Solution"
-        ],
-        [
-         298,
-         "Lab 13.6: coredns bad corefile"
-        ],
-        [
-         343,
-         "Lab 13.6: coredns bad corefile, Solution"
-        ]
-       ],
-       "published": "2026-11-11T09:43:43Z",
-       "thumb": "img/modules/cka/13-2.jpg"
-      }
-     ],
-     "deck": "downloads/cka/13-troubleshooting-services-and-networking-monitoring-resource-usage.pptx",
-     "deck_kb": 190,
-     "seconds": 1213,
-     "words": 2969
-    },
-    {
-     "num": "14",
-     "slug": "14-timed-mixed-lab-set-a",
-     "title": "Timed Mixed Lab Set A",
-     "desc": "How to use this set",
-     "parts": [
-      {
-       "part": 1,
-       "id": "GBdfCOxfy_U",
-       "title": "How to use this set",
-       "seconds": 701,
-       "chapters": [
-        [
-         0,
-         "How to use this set"
-        ],
-        [
-         106,
-         "How to use this set, continued"
-        ],
-        [
-         129,
-         "Review after the set"
-        ],
-        [
-         155,
-         "Task 1: Troubleshooting"
-        ],
-        [
-         195,
-         "Task 1: Solution"
-        ],
-        [
-         222,
-         "Task 2: Troubleshooting"
-        ],
-        [
-         254,
-         "Task 2: Solution"
-        ],
-        [
-         283,
-         "Task 3: Troubleshooting"
-        ],
-        [
-         325,
-         "Task 3: Solution"
-        ],
-        [
-         363,
-         "Task 4: Troubleshooting"
-        ],
-        [
-         405,
-         "Task 4: Solution"
-        ],
-        [
-         446,
-         "Task 5: Troubleshooting"
-        ],
-        [
-         483,
-         "Task 5: Solution"
-        ],
-        [
-         531,
-         "Task 6: Architecture"
-        ],
-        [
-         568,
-         "Task 6: Solution"
-        ],
-        [
-         591,
-         "Task 7: Architecture"
-        ],
-        [
-         630,
-         "Task 7: Solution"
-        ],
-        [
-         657,
-         "Task 8: Architecture"
-        ]
-       ],
-       "published": "2026-11-11T09:44:15Z",
-       "thumb": "img/modules/cka/14-1.jpg"
-      },
-      {
-       "part": 2,
-       "id": "rhVSptw1dM4",
-       "title": "Task 9: Troubleshooting and Task 10: Networking, recall and recap",
-       "seconds": 723,
-       "chapters": [
-        [
-         0,
-         "Task 8: Solution"
-        ],
-        [
-         29,
-         "Task 9: Troubleshooting"
-        ],
-        [
-         73,
-         "Task 9: Solution"
-        ],
-        [
-         99,
-         "Task 10: Networking"
-        ],
-        [
-         132,
-         "Task 10: Solution"
-        ],
-        [
-         168,
-         "Task 11: Networking"
-        ],
-        [
-         211,
-         "Task 11: Solution"
-        ],
-        [
-         229,
-         "Task 12: Troubleshooting"
-        ],
-        [
-         264,
-         "Task 12: Solution"
-        ],
-        [
-         299,
-         "Task 13: Workloads"
-        ],
-        [
-         334,
-         "Task 13: Solution"
-        ],
-        [
-         357,
-         "Task 14: Workloads"
-        ],
-        [
-         397,
-         "Task 14: Solution"
-        ],
-        [
-         412,
-         "Task 14: Solution, continued"
-        ],
-        [
-         440,
-         "Task 15: Storage"
-        ],
-        [
-         483,
-         "Task 15: Solution"
-        ],
-        [
-         498,
-         "Task 15: Solution, continued"
-        ],
-        [
-         526,
-         "Task 16: Storage"
-        ],
-        [
-         568,
-         "Task 16: Solution"
-        ]
-       ],
-       "published": "2026-11-11T09:44:38Z",
-       "thumb": "img/modules/cka/14-2.jpg"
-      }
-     ],
-     "deck": "downloads/cka/14-timed-mixed-lab-set-a.pptx",
-     "deck_kb": 176,
-     "seconds": 1424,
-     "words": 3553
-    },
-    {
-     "num": "15",
-     "slug": "15-timed-mixed-lab-set-b",
-     "title": "Timed Mixed Lab Set B",
-     "desc": "How to use this set and Review after the set",
-     "parts": [
-      {
-       "part": 1,
-       "id": "riOlkeoiENI",
-       "title": "How to use this set and Review after the set",
-       "seconds": 706,
-       "chapters": [
-        [
-         0,
-         "How to use this set"
-        ],
-        [
-         96,
-         "Review after the set"
-        ],
-        [
-         119,
-         "Task 1: Troubleshooting"
-        ],
-        [
-         155,
-         "Task 1: Solution"
-        ],
-        [
-         193,
-         "Task 2: Troubleshooting"
-        ],
-        [
-         230,
-         "Task 2: Solution"
-        ],
-        [
-         257,
-         "Task 3: Troubleshooting"
-        ],
-        [
-         298,
-         "Task 3: Solution"
-        ],
-        [
-         330,
-         "Task 4: Troubleshooting"
-        ],
-        [
-         373,
-         "Task 4: Solution"
-        ],
-        [
-         406,
-         "Task 5: Troubleshooting"
-        ],
-        [
-         441,
-         "Task 5: Solution"
-        ],
-        [
-         490,
-         "Task 6: Architecture"
-        ],
-        [
-         527,
-         "Task 6: Solution"
-        ],
-        [
-         560,
-         "Task 7: Architecture"
-        ],
-        [
-         600,
-         "Task 7: Solution"
-        ],
-        [
-         621,
-         "Task 8: Architecture"
-        ],
-        [
-         667,
-         "Task 8: Solution"
-        ]
-       ],
-       "published": "2026-11-11T09:45:17Z",
-       "thumb": "img/modules/cka/15-1.jpg"
-      },
-      {
-       "part": 2,
-       "id": "a71sctIXQZE",
-       "title": "Task 9: Architecture and Task 10: Troubleshooting, recall and recap",
-       "seconds": 747,
-       "chapters": [
-        [
-         0,
-         "Task 9: Architecture"
-        ],
-        [
-         37,
-         "Task 9: Solution"
-        ],
-        [
-         65,
-         "Task 10: Troubleshooting"
-        ],
-        [
-         108,
-         "Task 10: Solution"
-        ],
-        [
-         141,
-         "Task 11: Networking"
-        ],
-        [
-         182,
-         "Task 11: Solution"
-        ],
-        [
-         200,
-         "Task 12: Troubleshooting"
-        ],
-        [
-         242,
-         "Task 12: Solution"
-        ],
-        [
-         292,
-         "Task 13: Workloads"
-        ],
-        [
-         340,
-         "Task 13: Solution"
-        ],
-        [
-         368,
-         "Task 14: Workloads"
-        ],
-        [
-         406,
-         "Task 14: Solution"
-        ],
-        [
-         434,
-         "Task 15: Troubleshooting"
-        ],
-        [
-         476,
-         "Task 15: Solution"
-        ],
-        [
-         517,
-         "Task 15: Solution, continued"
-        ],
-        [
-         545,
-         "Task 16: Storage"
-        ],
-        [
-         589,
-         "Task 16: Solution"
-        ],
-        [
-         603,
-         "Task 16: Solution, continued"
-        ]
-       ],
-       "published": "2026-11-11T09:45:57Z",
-       "thumb": "img/modules/cka/15-2.jpg"
-      }
-     ],
-     "deck": "downloads/cka/15-timed-mixed-lab-set-b.pptx",
-     "deck_kb": 173,
-     "seconds": 1453,
-     "words": 3616
-    },
-    {
-     "num": "16",
-     "slug": "16-exam-technique-and-final-review",
-     "title": "Exam Technique and Final Review",
-     "desc": "The time budget, recall and recap",
-     "parts": [
-      {
-       "part": 1,
-       "id": "pQitxEww2v4",
-       "title": "The time budget, recall and recap",
-       "seconds": 691,
-       "chapters": [
-        [
-         0,
-         "The time budget"
-        ],
-        [
-         67,
-         "The time budget, continued"
-        ],
-        [
-         86,
-         "The time budget, continued"
-        ],
-        [
-         141,
-         "The routine for every task"
-        ],
-        [
-         191,
-         "Using the documentation well"
-        ],
-        [
-         248,
-         "Domain checklists"
-        ],
-        [
-         307,
-         "Domain checklists, continued"
-        ],
-        [
-         352,
-         "Common traps (each one cost a point in a lab)"
-        ],
-        [
-         422,
-         "Common traps (each one cost a point in a lab), continued"
-        ],
-        [
-         461,
-         "The final week"
-        ]
-       ],
-       "published": "2026-11-11T09:46:27Z",
-       "thumb": "img/modules/cka/16-1.jpg"
-      }
-     ],
-     "deck": "downloads/cka/16-exam-technique-and-final-review.pptx",
-     "deck_kb": 129,
-     "seconds": 691,
-     "words": 1581
-    }
-   ],
-   "facts": {
-    "questions": "15 to 20 tasks",
-    "time": "120 min",
-    "passing": "66%",
-    "source": "training.linuxfoundation.org",
-    "url": "https://training.linuxfoundation.org/certification/certified-kubernetes-administrator-cka/"
-   },
-   "videos": 37,
-   "seconds": 21769,
-   "notes": [
-    {
-     "num": "00",
-     "slug": "00-exam-orientation-and-the-command-line-toolkit",
-     "title": "Exam Orientation and the Command-Line Toolkit",
-     "group": "Start here",
-     "tasks": 0,
-     "los": [],
-     "minutes": 9,
-     "check": {
-      "src_words": 1942,
-      "page_words": 1980,
-      "src_tables": 4,
-      "tables": 4,
-      "src_images": 3,
-      "images": 3,
-      "src_scenario": 0,
-      "scenario": 0,
-      "src_recall": 8,
-      "recall": 8,
-      "src_sections": 9,
-      "sections": 9
-     },
-     "modules": [
-      "00"
-     ],
-     "domain": "",
-     "ref": "Module 0",
-     "tn": "Module 00",
-     "of": 17,
-     "module": "00"
-    },
-    {
-     "num": "01",
-     "slug": "01-cluster-architecture-and-extension-interfaces",
-     "title": "Cluster Architecture and Extension Interfaces",
-     "group": "Cluster Architecture, Installation and Configuration (25%)",
-     "tasks": 0,
-     "los": [],
-     "minutes": 9,
-     "check": {
-      "src_words": 1949,
-      "page_words": 1999,
-      "src_tables": 5,
-      "tables": 5,
-      "src_images": 2,
-      "images": 2,
-      "src_scenario": 0,
-      "scenario": 0,
-      "src_recall": 8,
-      "recall": 8,
-      "src_sections": 9,
-      "sections": 9
-     },
-     "modules": [
-      "01"
-     ],
-     "domain": "",
-     "ref": "Module 1",
-     "tn": "Module 01",
-     "of": 17,
-     "module": "01"
-    },
-    {
-     "num": "02",
-     "slug": "02-rbac-service-accounts-and-kubeconfig",
-     "title": "RBAC, Service Accounts and Kubeconfig",
-     "group": "Cluster Architecture, Installation and Configuration (25%)",
-     "tasks": 0,
-     "los": [],
-     "minutes": 9,
-     "check": {
-      "src_words": 1999,
-      "page_words": 2058,
-      "src_tables": 3,
-      "tables": 3,
-      "src_images": 1,
-      "images": 1,
-      "src_scenario": 0,
-      "scenario": 0,
-      "src_recall": 8,
-      "recall": 8,
-      "src_sections": 10,
-      "sections": 10
-     },
-     "modules": [
-      "02"
-     ],
-     "domain": "",
-     "ref": "Module 2",
-     "tn": "Module 02",
-     "of": 17,
-     "module": "02"
-    },
-    {
-     "num": "03",
-     "slug": "03-cluster-lifecycle-with-kubeadm-etcd-and-high-availability",
-     "title": "Cluster Lifecycle with kubeadm, etcd and High Availability",
-     "group": "Cluster Architecture, Installation and Configuration (25%)",
-     "tasks": 0,
-     "los": [],
-     "minutes": 12,
-     "check": {
-      "src_words": 2433,
-      "page_words": 2492,
-      "src_tables": 4,
-      "tables": 4,
-      "src_images": 2,
-      "images": 2,
-      "src_scenario": 0,
-      "scenario": 0,
-      "src_recall": 8,
-      "recall": 8,
-      "src_sections": 9,
-      "sections": 9
-     },
-     "modules": [
-      "03"
-     ],
-     "domain": "",
-     "ref": "Module 3",
-     "tn": "Module 03",
-     "of": 17,
-     "module": "03"
-    },
-    {
-     "num": "04",
-     "slug": "04-helm-kustomize-crds-and-operators",
-     "title": "Helm, Kustomize, CRDs and Operators",
-     "group": "Cluster Architecture, Installation and Configuration (25%)",
-     "tasks": 0,
-     "los": [],
-     "minutes": 8,
-     "check": {
-      "src_words": 1751,
-      "page_words": 1869,
-      "src_tables": 4,
-      "tables": 4,
-      "src_images": 0,
-      "images": 0,
-      "src_scenario": 0,
-      "scenario": 0,
-      "src_recall": 8,
-      "recall": 8,
-      "src_sections": 8,
-      "sections": 8
-     },
-     "modules": [
-      "04"
-     ],
-     "domain": "",
-     "ref": "Module 4",
-     "tn": "Module 04",
-     "of": 17,
-     "module": "04"
-    },
-    {
-     "num": "05",
-     "slug": "05-deployments-configuration-and-self-healing-workloads",
-     "title": "Deployments, Configuration and Self-Healing Workloads",
-     "group": "Workloads and Scheduling (15%)",
-     "tasks": 0,
-     "los": [],
-     "minutes": 12,
-     "check": {
-      "src_words": 2696,
-      "page_words": 2744,
-      "src_tables": 4,
-      "tables": 4,
-      "src_images": 0,
-      "images": 0,
-      "src_scenario": 0,
-      "scenario": 0,
-      "src_recall": 8,
-      "recall": 8,
-      "src_sections": 10,
-      "sections": 10
-     },
-     "modules": [
-      "05"
-     ],
-     "domain": "",
-     "ref": "Module 5",
-     "tn": "Module 05",
-     "of": 17,
-     "module": "05"
-    },
-    {
-     "num": "06",
-     "slug": "06-scheduling-resources-and-autoscaling",
-     "title": "Scheduling, Resources and Autoscaling",
-     "group": "Workloads and Scheduling (15%)",
-     "tasks": 0,
-     "los": [],
-     "minutes": 13,
-     "check": {
-      "src_words": 2892,
-      "page_words": 2942,
-      "src_tables": 5,
-      "tables": 5,
-      "src_images": 1,
-      "images": 1,
-      "src_scenario": 0,
-      "scenario": 0,
-      "src_recall": 8,
-      "recall": 8,
-      "src_sections": 9,
-      "sections": 9
-     },
-     "modules": [
-      "06"
-     ],
-     "domain": "",
-     "ref": "Module 6",
-     "tn": "Module 06",
-     "of": 17,
-     "module": "06"
-    },
-    {
-     "num": "07",
-     "slug": "07-services-and-pod-connectivity",
-     "title": "Services and Pod Connectivity",
-     "group": "Services and Networking (20%)",
-     "tasks": 0,
-     "los": [],
-     "minutes": 9,
-     "check": {
-      "src_words": 2038,
-      "page_words": 2093,
-      "src_tables": 4,
-      "tables": 4,
-      "src_images": 0,
-      "images": 0,
-      "src_scenario": 0,
-      "scenario": 0,
-      "src_recall": 8,
-      "recall": 8,
-      "src_sections": 9,
-      "sections": 9
-     },
-     "modules": [
-      "07"
-     ],
-     "domain": "",
-     "ref": "Module 7",
-     "tn": "Module 07",
-     "of": 17,
-     "module": "07"
-    },
-    {
-     "num": "08",
-     "slug": "08-dns-ingress-and-gateway-api",
-     "title": "DNS, Ingress and Gateway API",
-     "group": "Services and Networking (20%)",
-     "tasks": 0,
-     "los": [],
-     "minutes": 13,
-     "check": {
-      "src_words": 2838,
-      "page_words": 2898,
-      "src_tables": 6,
-      "tables": 6,
-      "src_images": 1,
-      "images": 1,
-      "src_scenario": 0,
-      "scenario": 0,
-      "src_recall": 8,
-      "recall": 8,
-      "src_sections": 6,
-      "sections": 6
-     },
-     "modules": [
-      "08"
-     ],
-     "domain": "",
-     "ref": "Module 8",
-     "tn": "Module 08",
-     "of": 17,
-     "module": "08"
-    },
-    {
-     "num": "09",
-     "slug": "09-network-policies",
-     "title": "Network Policies",
-     "group": "Services and Networking (20%)",
-     "tasks": 0,
-     "los": [],
-     "minutes": 8,
-     "check": {
-      "src_words": 1703,
-      "page_words": 1736,
-      "src_tables": 2,
-      "tables": 2,
-      "src_images": 1,
-      "images": 1,
-      "src_scenario": 0,
-      "scenario": 0,
-      "src_recall": 8,
-      "recall": 8,
-      "src_sections": 8,
-      "sections": 8
-     },
-     "modules": [
-      "09"
-     ],
-     "domain": "",
-     "ref": "Module 9",
-     "tn": "Module 09",
-     "of": 17,
-     "module": "09"
-    },
-    {
-     "num": "10",
-     "slug": "10-storage",
-     "title": "Storage",
-     "group": "Storage (10%)",
-     "tasks": 0,
-     "los": [],
-     "minutes": 14,
-     "check": {
-      "src_words": 3086,
-      "page_words": 3156,
-      "src_tables": 7,
-      "tables": 7,
-      "src_images": 1,
-      "images": 1,
-      "src_scenario": 0,
-      "scenario": 0,
-      "src_recall": 8,
-      "recall": 8,
-      "src_sections": 10,
-      "sections": 10
-     },
-     "modules": [
-      "10"
-     ],
-     "domain": "",
-     "ref": "Module 10",
-     "tn": "Module 10",
-     "of": 17,
-     "module": "10"
-    },
-    {
-     "num": "11",
-     "slug": "11-troubleshooting-applications-and-container-logs",
-     "title": "Troubleshooting Applications and Container Logs",
-     "group": "Troubleshooting (30%)",
-     "tasks": 0,
-     "los": [],
-     "minutes": 11,
-     "check": {
-      "src_words": 2394,
-      "page_words": 2467,
-      "src_tables": 3,
-      "tables": 3,
-      "src_images": 1,
-      "images": 1,
-      "src_scenario": 0,
-      "scenario": 0,
-      "src_recall": 8,
-      "recall": 8,
-      "src_sections": 8,
-      "sections": 8
-     },
-     "modules": [
-      "11"
-     ],
-     "domain": "",
-     "ref": "Module 11",
-     "tn": "Module 11",
-     "of": 17,
-     "module": "11"
-    },
-    {
-     "num": "12",
-     "slug": "12-troubleshooting-clusters-nodes-and-components",
-     "title": "Troubleshooting Clusters, Nodes and Components",
-     "group": "Troubleshooting (30%)",
-     "tasks": 0,
-     "los": [],
-     "minutes": 12,
-     "check": {
-      "src_words": 2661,
-      "page_words": 2719,
-      "src_tables": 4,
-      "tables": 4,
-      "src_images": 1,
-      "images": 1,
-      "src_scenario": 0,
-      "scenario": 0,
-      "src_recall": 8,
-      "recall": 8,
-      "src_sections": 10,
-      "sections": 10
-     },
-     "modules": [
-      "12"
-     ],
-     "domain": "",
-     "ref": "Module 12",
-     "tn": "Module 12",
-     "of": 17,
-     "module": "12"
-    },
-    {
-     "num": "13",
-     "slug": "13-troubleshooting-services-and-networking-monitoring-resource-usage",
-     "title": "Troubleshooting Services and Networking; Monitoring Resource Usage",
-     "group": "Troubleshooting (30%)",
-     "tasks": 0,
-     "los": [],
-     "minutes": 10,
-     "check": {
-      "src_words": 2067,
-      "page_words": 2124,
-      "src_tables": 5,
-      "tables": 5,
-      "src_images": 1,
-      "images": 1,
-      "src_scenario": 0,
-      "scenario": 0,
-      "src_recall": 8,
-      "recall": 8,
-      "src_sections": 8,
-      "sections": 8
-     },
-     "modules": [
-      "13"
-     ],
-     "domain": "",
-     "ref": "Module 13",
-     "tn": "Module 13",
-     "of": 17,
-     "module": "13"
-    },
-    {
-     "num": "14",
-     "slug": "14-timed-mixed-lab-set-a",
-     "title": "Timed Mixed Lab Set A",
-     "group": "Review and exam day",
-     "tasks": 0,
-     "los": [],
-     "minutes": 11,
-     "check": {
-      "src_words": 2454,
-      "page_words": 2470,
-      "src_tables": 1,
-      "tables": 1,
-      "src_images": 0,
-      "images": 0,
-      "src_scenario": 0,
-      "scenario": 0,
-      "src_recall": 6,
-      "recall": 6,
-      "src_sections": 6,
-      "sections": 6
-     },
-     "modules": [
-      "14"
-     ],
-     "domain": "",
-     "ref": "Module 14",
-     "tn": "Module 14",
-     "of": 17,
-     "module": "14"
-    },
-    {
-     "num": "15",
-     "slug": "15-timed-mixed-lab-set-b",
-     "title": "Timed Mixed Lab Set B",
-     "group": "Review and exam day",
-     "tasks": 0,
-     "los": [],
-     "minutes": 12,
-     "check": {
-      "src_words": 2479,
-      "page_words": 2502,
-      "src_tables": 1,
-      "tables": 1,
-      "src_images": 0,
-      "images": 0,
-      "src_scenario": 0,
-      "scenario": 0,
-      "src_recall": 6,
-      "recall": 6,
-      "src_sections": 6,
-      "sections": 6
-     },
-     "modules": [
-      "15"
-     ],
-     "domain": "",
-     "ref": "Module 15",
-     "tn": "Module 15",
-     "of": 17,
-     "module": "15"
-    },
-    {
-     "num": "16",
-     "slug": "16-exam-technique-and-final-review",
-     "title": "Exam Technique and Final Review",
-     "group": "Review and exam day",
-     "tasks": 0,
-     "los": [],
-     "minutes": 5,
-     "check": {
-      "src_words": 1108,
-      "page_words": 1127,
-      "src_tables": 3,
-      "tables": 3,
-      "src_images": 1,
-      "images": 1,
-      "src_scenario": 0,
-      "scenario": 0,
-      "src_recall": 8,
-      "recall": 8,
-      "src_sections": 8,
-      "sections": 8
-     },
-     "modules": [
-      "16"
-     ],
-     "domain": "",
-     "ref": "Module 16",
-     "tn": "Module 16",
-     "of": 17,
-     "module": "16"
-    }
-   ],
-   "glossary": 0
-  },
-  {
-   "kind": "certification",
-   "topic": null,
    "slug": "cc",
    "institute": "isc2",
    "short": "CC",
@@ -10982,6 +7744,1609 @@
      "tn": "Module 14",
      "of": 15,
      "module": "14"
+    }
+   ],
+   "glossary": 0
+  },
+  {
+   "kind": "certification",
+   "topic": null,
+   "slug": "tf",
+   "institute": "hashicorp",
+   "short": "TF-004",
+   "name": "HashiCorp Terraform Associate",
+   "title": "Terraform Associate Exam Prep Masterclass",
+   "accent": "c-tf",
+   "desc": "The Terraform Associate (004) exam: infrastructure as code, providers, state, the core workflow, configuration, modules, drift and import, and HCP Terraform, with configuration examples and exam-style questions in every module.",
+   "audience": "Engineers, operators and students preparing for the Terraform Associate exam who want every objective explained in plain words.",
+   "sources": "The official Terraform Associate (004) exam content list and the Terraform documentation. The configuration examples are checked by hand, not run.",
+   "playlist": "PLT3v01JziHok",
+   "cover": "img/covers/tf.jpg",
+   "modules": [
+    {
+     "num": "00",
+     "slug": "00-exam-orientation-and-how-to-study",
+     "title": "Exam Orientation and How to Study",
+     "desc": "The exam at a glance and The eight objective groups, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "LGj7Jcg_WyI",
+       "title": "The exam at a glance and The eight objective groups, recall and recap",
+       "seconds": 632,
+       "chapters": [
+        [
+         0,
+         "The exam at a glance"
+        ],
+        [
+         122,
+         "The eight objective groups"
+        ],
+        [
+         129,
+         "The eight objective groups, continued"
+        ],
+        [
+         168,
+         "The eight objective groups, continued"
+        ],
+        [
+         209,
+         "What is new in version 004"
+        ],
+        [
+         236,
+         "How to answer every question"
+        ],
+        [
+         276,
+         "A study plan"
+        ]
+       ],
+       "published": "2026-11-16T08:50:10Z",
+       "thumb": "img/modules/tf/00-1.jpg"
+      }
+     ],
+     "deck": "downloads/tf/00-exam-orientation-and-how-to-study.pptx",
+     "deck_kb": 172,
+     "seconds": 632,
+     "words": 1088
+    },
+    {
+     "num": "01",
+     "slug": "01-infrastructure-as-code-and-what-terraform-does",
+     "title": "Infrastructure as Code and What Terraform Does",
+     "desc": "What infrastructure as code is, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "dL-o5NZfKP0",
+       "title": "What infrastructure as code is, recall and recap",
+       "seconds": 611,
+       "chapters": [
+        [
+         0,
+         "What infrastructure as code is"
+        ],
+        [
+         72,
+         "What infrastructure as code is, continued"
+        ],
+        [
+         82,
+         "What infrastructure as code is, continued"
+        ],
+        [
+         135,
+         "Advantages of IaC patterns"
+        ],
+        [
+         184,
+         "Terraform workflow in one line"
+        ],
+        [
+         196,
+         "Multi-cloud, hybrid cloud and service-agnostic"
+        ],
+        [
+         248,
+         "Where Terraform fits"
+        ]
+       ],
+       "published": "2026-11-16T08:51:10Z",
+       "thumb": "img/modules/tf/01-1.jpg"
+      }
+     ],
+     "deck": "downloads/tf/01-infrastructure-as-code-and-what-terraform-does.pptx",
+     "deck_kb": 139,
+     "seconds": 611,
+     "words": 1060
+    },
+    {
+     "num": "02",
+     "slug": "02-providers-installing-versioning-and-using-several",
+     "title": "Providers: Installing, Versioning and Using Several",
+     "desc": "What a provider is, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "e7FJsK86A5Q",
+       "title": "What a provider is, recall and recap",
+       "seconds": 635,
+       "chapters": [
+        [
+         0,
+         "What a provider is"
+        ],
+        [
+         76,
+         "What a provider is, continued"
+        ],
+        [
+         85,
+         "What a provider is, continued"
+        ],
+        [
+         127,
+         "Installing and versioning providers"
+        ],
+        [
+         143,
+         "Installing and versioning providers, continued"
+        ],
+        [
+         203,
+         "The dependency lock file"
+        ],
+        [
+         235,
+         "Using several providers"
+        ],
+        [
+         256,
+         "Using several providers, continued"
+        ],
+        [
+         264,
+         "Using several providers, continued"
+        ],
+        [
+         284,
+         "How Terraform uses providers at run time"
+        ]
+       ],
+       "published": "2026-11-16T08:52:15Z",
+       "thumb": "img/modules/tf/02-1.jpg"
+      }
+     ],
+     "deck": "downloads/tf/02-providers-installing-versioning-and-using-several.pptx",
+     "deck_kb": 143,
+     "seconds": 635,
+     "words": 1122
+    },
+    {
+     "num": "03",
+     "slug": "03-state-what-it-is-and-how-terraform-uses-it",
+     "title": "State: What It Is and How Terraform Uses It",
+     "desc": "What state is, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "Dbfrjbs6wqM",
+       "title": "What state is, recall and recap",
+       "seconds": 551,
+       "chapters": [
+        [
+         0,
+         "What state is"
+        ],
+        [
+         73,
+         "What state is, continued"
+        ],
+        [
+         83,
+         "What state is, continued"
+        ],
+        [
+         117,
+         "How Terraform uses state in the workflow"
+        ],
+        [
+         145,
+         "Handling state safely"
+        ],
+        [
+         181,
+         "Handling state safely, continued"
+        ],
+        [
+         206,
+         "What happens if the state is lost or wrong"
+        ]
+       ],
+       "published": "2026-11-16T08:52:47Z",
+       "thumb": "img/modules/tf/03-1.jpg"
+      }
+     ],
+     "deck": "downloads/tf/03-state-what-it-is-and-how-terraform-uses-it.pptx",
+     "deck_kb": 133,
+     "seconds": 551,
+     "words": 968
+    },
+    {
+     "num": "04",
+     "slug": "04-the-core-workflow-init-validate-plan-apply-destroy-and-fmt",
+     "title": "The Core Workflow: init, validate, plan, apply, destroy and fmt",
+     "desc": "The workflow, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "17RUdxWlFpc",
+       "title": "The workflow, recall and recap",
+       "seconds": 651,
+       "chapters": [
+        [
+         0,
+         "The workflow"
+        ],
+        [
+         78,
+         "The workflow, continued"
+        ],
+        [
+         145,
+         "terraform init"
+        ],
+        [
+         188,
+         "terraform validate and terraform fmt"
+        ],
+        [
+         232,
+         "terraform plan"
+        ],
+        [
+         296,
+         "terraform apply and terraform destroy"
+        ]
+       ],
+       "published": "2026-11-16T08:53:20Z",
+       "thumb": "img/modules/tf/04-1.jpg"
+      }
+     ],
+     "deck": "downloads/tf/04-the-core-workflow-init-validate-plan-apply-destroy-and-fmt.pptx",
+     "deck_kb": 133,
+     "seconds": 651,
+     "words": 1091
+    },
+    {
+     "num": "05",
+     "slug": "05-resources-data-sources-and-references",
+     "title": "Resources, Data Sources and References",
+     "desc": "Resource blocks, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "_7NdieSe-tQ",
+       "title": "Resource blocks, recall and recap",
+       "seconds": 609,
+       "chapters": [
+        [
+         0,
+         "Resource blocks"
+        ],
+        [
+         69,
+         "Resource blocks, continued"
+        ],
+        [
+         101,
+         "Data sources"
+        ],
+        [
+         113,
+         "Data sources, continued"
+        ],
+        [
+         121,
+         "Data sources, continued"
+        ],
+        [
+         128,
+         "Data sources, continued"
+        ],
+        [
+         179,
+         "References and implicit dependencies"
+        ],
+        [
+         227,
+         "References and implicit dependencies, continued"
+        ],
+        [
+         235,
+         "References and implicit dependencies, continued"
+        ],
+        [
+         260,
+         "Meta-arguments you may meet"
+        ]
+       ],
+       "published": "2026-11-16T08:53:37Z",
+       "thumb": "img/modules/tf/05-1.jpg"
+      }
+     ],
+     "deck": "downloads/tf/05-resources-data-sources-and-references.pptx",
+     "deck_kb": 147,
+     "seconds": 609,
+     "words": 1016
+    },
+    {
+     "num": "06",
+     "slug": "06-variables-outputs-locals-and-complex-types",
+     "title": "Variables, Outputs, Locals and Complex Types",
+     "desc": "Input variables, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "Sq0XPwjcoGU",
+       "title": "Input variables, recall and recap",
+       "seconds": 611,
+       "chapters": [
+        [
+         0,
+         "Input variables"
+        ],
+        [
+         68,
+         "Input variables, continued"
+        ],
+        [
+         106,
+         "Input variables, continued"
+        ],
+        [
+         155,
+         "Output values"
+        ],
+        [
+         170,
+         "Output values, continued"
+        ],
+        [
+         195,
+         "Local values"
+        ],
+        [
+         210,
+         "Local values, continued"
+        ],
+        [
+         226,
+         "Types and complex types"
+        ],
+        [
+         282,
+         "Types and complex types, continued"
+        ]
+       ],
+       "published": "2026-11-16T08:54:02Z",
+       "thumb": "img/modules/tf/06-1.jpg"
+      }
+     ],
+     "deck": "downloads/tf/06-variables-outputs-locals-and-complex-types.pptx",
+     "deck_kb": 99,
+     "seconds": 611,
+     "words": 1049
+    },
+    {
+     "num": "07",
+     "slug": "07-expressions-functions-count-for-each-and-dynamic-blocks",
+     "title": "Expressions, Functions, count, for_each and Dynamic Blocks",
+     "desc": "Expressions, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "KMVG0Urxqlc",
+       "title": "Expressions, recall and recap",
+       "seconds": 628,
+       "chapters": [
+        [
+         0,
+         "Expressions"
+        ],
+        [
+         94,
+         "Expressions, continued"
+        ],
+        [
+         114,
+         "Expressions, continued"
+        ],
+        [
+         131,
+         "Functions"
+        ],
+        [
+         200,
+         "count and for_each"
+        ],
+        [
+         249,
+         "count and for_each, continued"
+        ],
+        [
+         256,
+         "count and for_each, continued"
+        ],
+        [
+         273,
+         "Dynamic blocks"
+        ],
+        [
+         286,
+         "Dynamic blocks, continued"
+        ]
+       ],
+       "published": "2026-11-16T08:54:23Z",
+       "thumb": "img/modules/tf/07-1.jpg"
+      }
+     ],
+     "deck": "downloads/tf/07-expressions-functions-count-for-each-and-dynamic-blocks.pptx",
+     "deck_kb": 98,
+     "seconds": 628,
+     "words": 1068
+    },
+    {
+     "num": "08",
+     "slug": "08-dependencies-and-lifecycle-rules",
+     "title": "Dependencies and Lifecycle Rules",
+     "desc": "The dependency graph, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "ZKAJuSh1MQ8",
+       "title": "The dependency graph, recall and recap",
+       "seconds": 594,
+       "chapters": [
+        [
+         0,
+         "The dependency graph"
+        ],
+        [
+         66,
+         "The dependency graph, continued"
+        ],
+        [
+         76,
+         "The dependency graph, continued"
+        ],
+        [
+         102,
+         "Implicit and explicit dependencies"
+        ],
+        [
+         125,
+         "Implicit and explicit dependencies, continued"
+        ],
+        [
+         133,
+         "Implicit and explicit dependencies, continued"
+        ],
+        [
+         159,
+         "The lifecycle block"
+        ],
+        [
+         172,
+         "The lifecycle block, continued"
+        ],
+        [
+         215,
+         "The lifecycle block, continued"
+        ],
+        [
+         251,
+         "Forcing replacement"
+        ]
+       ],
+       "published": "2026-11-16T08:54:44Z",
+       "thumb": "img/modules/tf/08-1.jpg"
+      }
+     ],
+     "deck": "downloads/tf/08-dependencies-and-lifecycle-rules.pptx",
+     "deck_kb": 166,
+     "seconds": 594,
+     "words": 1038
+    },
+    {
+     "num": "09",
+     "slug": "09-custom-conditions-validation-preconditions-postconditions-and-checks",
+     "title": "Custom Conditions: Validation, Preconditions, Postconditions and Checks",
+     "desc": "Why custom conditions, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "bjxQOhFbFEY",
+       "title": "Why custom conditions, recall and recap",
+       "seconds": 574,
+       "chapters": [
+        [
+         0,
+         "Why custom conditions"
+        ],
+        [
+         70,
+         "Why custom conditions, continued"
+        ],
+        [
+         80,
+         "Why custom conditions, continued"
+        ],
+        [
+         123,
+         "Why custom conditions, continued"
+        ],
+        [
+         139,
+         "Variable validation"
+        ],
+        [
+         146,
+         "Variable validation, continued"
+        ],
+        [
+         169,
+         "Preconditions and postconditions"
+        ],
+        [
+         177,
+         "Preconditions and postconditions, continued"
+        ],
+        [
+         212,
+         "Check blocks"
+        ],
+        [
+         226,
+         "Check blocks, continued"
+        ]
+       ],
+       "published": "2026-11-16T08:55:01Z",
+       "thumb": "img/modules/tf/09-1.jpg"
+      }
+     ],
+     "deck": "downloads/tf/09-custom-conditions-validation-preconditions-postconditions-and-checks.pptx",
+     "deck_kb": 145,
+     "seconds": 574,
+     "words": 1018
+    },
+    {
+     "num": "10",
+     "slug": "10-sensitive-data-secrets-ephemeral-values-and-write-only-arguments",
+     "title": "Sensitive Data, Secrets, Ephemeral Values and Write-Only Arguments",
+     "desc": "Sensitive values, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "9ndMe4DMSbc",
+       "title": "Sensitive values, recall and recap",
+       "seconds": 643,
+       "chapters": [
+        [
+         0,
+         "Sensitive values"
+        ],
+        [
+         74,
+         "Sensitive values, continued"
+        ],
+        [
+         110,
+         "Best practices for secrets"
+        ],
+        [
+         154,
+         "HashiCorp Vault with Terraform"
+        ],
+        [
+         169,
+         "HashiCorp Vault with Terraform, continued"
+        ],
+        [
+         205,
+         "Ephemeral values (new in 004)"
+        ],
+        [
+         215,
+         "Ephemeral values (new in 004), continued"
+        ],
+        [
+         224,
+         "Ephemeral values (new in 004), continued"
+        ],
+        [
+         249,
+         "Ephemeral values (new in 004), continued"
+        ],
+        [
+         257,
+         "Ephemeral values (new in 004), continued"
+        ],
+        [
+         275,
+         "Write-only arguments (new in 004)"
+        ],
+        [
+         296,
+         "Write-only arguments (new in 004), continued"
+        ]
+       ],
+       "published": "2026-11-16T08:55:26Z",
+       "thumb": "img/modules/tf/10-1.jpg"
+      }
+     ],
+     "deck": "downloads/tf/10-sensitive-data-secrets-ephemeral-values-and-write-only-arguments.pptx",
+     "deck_kb": 159,
+     "seconds": 643,
+     "words": 1230
+    },
+    {
+     "num": "11",
+     "slug": "11-modules-sources-versions-and-the-registry",
+     "title": "Modules: Sources, Versions and the Registry",
+     "desc": "What a module is, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "TCGA74nExTc",
+       "title": "What a module is, recall and recap",
+       "seconds": 599,
+       "chapters": [
+        [
+         0,
+         "What a module is"
+        ],
+        [
+         66,
+         "What a module is, continued"
+        ],
+        [
+         75,
+         "What a module is, continued"
+        ],
+        [
+         94,
+         "What a module is, continued"
+        ],
+        [
+         107,
+         "Module sources"
+        ],
+        [
+         170,
+         "Module sources, continued"
+        ],
+        [
+         197,
+         "Module versions"
+        ],
+        [
+         255,
+         "Why use modules"
+        ]
+       ],
+       "published": "2026-11-16T08:55:50Z",
+       "thumb": "img/modules/tf/11-1.jpg"
+      }
+     ],
+     "deck": "downloads/tf/11-modules-sources-versions-and-the-registry.pptx",
+     "deck_kb": 165,
+     "seconds": 599,
+     "words": 1040
+    },
+    {
+     "num": "12",
+     "slug": "12-modules-scope-inputs-outputs-and-composition",
+     "title": "Modules: Scope, Inputs, Outputs and Composition",
+     "desc": "Scope: modules are isolated, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "Gi2XvCpfikQ",
+       "title": "Scope: modules are isolated, recall and recap",
+       "seconds": 564,
+       "chapters": [
+        [
+         0,
+         "Scope: modules are isolated"
+        ],
+        [
+         67,
+         "Scope: modules are isolated, continued"
+        ],
+        [
+         77,
+         "Scope: modules are isolated, continued"
+        ],
+        [
+         100,
+         "Scope: modules are isolated, continued"
+        ],
+        [
+         121,
+         "Using a module in configuration"
+        ],
+        [
+         154,
+         "Using a module in configuration, continued"
+        ],
+        [
+         162,
+         "Providers and modules"
+        ],
+        [
+         189,
+         "Providers and modules, continued"
+        ],
+        [
+         197,
+         "Module composition and structure"
+        ]
+       ],
+       "published": "2026-11-16T09:58:07Z",
+       "thumb": "img/modules/tf/12-1.jpg"
+      }
+     ],
+     "deck": "downloads/tf/12-modules-scope-inputs-outputs-and-composition.pptx",
+     "deck_kb": 154,
+     "seconds": 564,
+     "words": 1011
+    },
+    {
+     "num": "13",
+     "slug": "13-backends-remote-state-and-state-locking",
+     "title": "Backends, Remote State and State Locking",
+     "desc": "What a backend is, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "76uQ6JSgHZM",
+       "title": "What a backend is, recall and recap",
+       "seconds": 589,
+       "chapters": [
+        [
+         0,
+         "What a backend is"
+        ],
+        [
+         64,
+         "What a backend is, continued"
+        ],
+        [
+         74,
+         "What a backend is, continued"
+        ],
+        [
+         101,
+         "The local backend"
+        ],
+        [
+         141,
+         "Configuring remote state with the backend block"
+        ],
+        [
+         157,
+         "Configuring remote state with the backend block, continued"
+        ],
+        [
+         202,
+         "Configuring remote state with the backend block, continued"
+        ],
+        [
+         220,
+         "State locking"
+        ]
+       ],
+       "published": "2026-11-16T09:58:24Z",
+       "thumb": "img/modules/tf/13-1.jpg"
+      }
+     ],
+     "deck": "downloads/tf/13-backends-remote-state-and-state-locking.pptx",
+     "deck_kb": 143,
+     "seconds": 589,
+     "words": 1053
+    },
+    {
+     "num": "14",
+     "slug": "14-resource-drift-refresh-only-moved-and-removed-blocks",
+     "title": "Resource Drift, Refresh-Only, moved and removed Blocks",
+     "desc": "What drift is, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "x-tx9b7vwhE",
+       "title": "What drift is, recall and recap",
+       "seconds": 607,
+       "chapters": [
+        [
+         0,
+         "What drift is"
+        ],
+        [
+         78,
+         "What drift is, continued"
+        ],
+        [
+         87,
+         "What drift is, continued"
+        ],
+        [
+         124,
+         "Refresh-only mode"
+        ],
+        [
+         176,
+         "Refactoring without destroying: the moved block"
+        ],
+        [
+         197,
+         "Refactoring without destroying: the moved block, continued"
+        ],
+        [
+         220,
+         "Removing from state without destroying: the removed block"
+        ],
+        [
+         234,
+         "Removing from state without destroying: the removed block, continued"
+        ],
+        [
+         265,
+         "Other state tools in this objective"
+        ]
+       ],
+       "published": "2026-11-16T09:58:51Z",
+       "thumb": "img/modules/tf/14-1.jpg"
+      }
+     ],
+     "deck": "downloads/tf/14-resource-drift-refresh-only-moved-and-removed-blocks.pptx",
+     "deck_kb": 149,
+     "seconds": 607,
+     "words": 1129
+    },
+    {
+     "num": "15",
+     "slug": "15-import-the-state-cli-and-logging",
+     "title": "Import, the State CLI and Logging",
+     "desc": "Importing existing infrastructure, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "DThx3sIhcDw",
+       "title": "Importing existing infrastructure, recall and recap",
+       "seconds": 595,
+       "chapters": [
+        [
+         0,
+         "Importing existing infrastructure"
+        ],
+        [
+         73,
+         "Importing existing infrastructure, continued"
+        ],
+        [
+         83,
+         "Importing existing infrastructure, continued"
+        ],
+        [
+         105,
+         "Importing existing infrastructure, continued"
+        ],
+        [
+         113,
+         "Importing existing infrastructure, continued"
+        ],
+        [
+         161,
+         "Inspecting state with the CLI"
+        ],
+        [
+         222,
+         "Verbose logging"
+        ],
+        [
+         250,
+         "Verbose logging, continued"
+        ],
+        [
+         257,
+         "Verbose logging, continued"
+        ]
+       ],
+       "published": "2026-11-16T09:59:16Z",
+       "thumb": "img/modules/tf/15-1.jpg"
+      }
+     ],
+     "deck": "downloads/tf/15-import-the-state-cli-and-logging.pptx",
+     "deck_kb": 140,
+     "seconds": 595,
+     "words": 1183
+    },
+    {
+     "num": "16",
+     "slug": "16-hcp-terraform",
+     "title": "HCP Terraform",
+     "desc": "What HCP Terraform is, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "23OASv5y5l0",
+       "title": "What HCP Terraform is, recall and recap",
+       "seconds": 685,
+       "chapters": [
+        [
+         0,
+         "What HCP Terraform is"
+        ],
+        [
+         84,
+         "What HCP Terraform is, continued"
+        ],
+        [
+         95,
+         "What HCP Terraform is, continued"
+        ],
+        [
+         130,
+         "Organizations, projects and workspaces"
+        ],
+        [
+         185,
+         "Workflows to create infrastructure"
+        ],
+        [
+         226,
+         "Integration: the cloud block and login"
+        ],
+        [
+         234,
+         "Integration: the cloud block and login, continued"
+        ],
+        [
+         283,
+         "Collaboration and governance features"
+        ],
+        [
+         324,
+         "Collaboration and governance features, continued"
+        ]
+       ],
+       "published": "2026-11-16T09:59:57Z",
+       "thumb": "img/modules/tf/16-1.jpg"
+      }
+     ],
+     "deck": "downloads/tf/16-hcp-terraform.pptx",
+     "deck_kb": 138,
+     "seconds": 685,
+     "words": 1230
+    },
+    {
+     "num": "17",
+     "slug": "17-exam-technique-and-final-review",
+     "title": "Exam Technique and Final Review",
+     "desc": "Technique and The command chooser, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "PRRwjfRSx20",
+       "title": "Technique and The command chooser, recall and recap",
+       "seconds": 620,
+       "chapters": [
+        [
+         0,
+         "Technique"
+        ],
+        [
+         95,
+         "The command chooser"
+        ],
+        [
+         146,
+         "The command chooser, continued"
+        ],
+        [
+         182,
+         "Look-alike pairs"
+        ],
+        [
+         228,
+         "Look-alike pairs, continued"
+        ],
+        [
+         261,
+         "Five questions to ask in every scenario"
+        ]
+       ],
+       "published": "2026-11-16T10:00:02Z",
+       "thumb": "img/modules/tf/17-1.jpg"
+      }
+     ],
+     "deck": "downloads/tf/17-exam-technique-and-final-review.pptx",
+     "deck_kb": 89,
+     "seconds": 620,
+     "words": 1029
+    }
+   ],
+   "facts": {
+    "questions": "Not published",
+    "time": "60 min",
+    "passing": "Not published",
+    "source": "developer.hashicorp.com",
+    "url": "https://developer.hashicorp.com/certifications/terraform-associate"
+   },
+   "videos": 18,
+   "seconds": 10998,
+   "notes": [
+    {
+     "num": "00",
+     "slug": "00-exam-orientation-and-how-to-study",
+     "title": "Exam Orientation and How to Study",
+     "group": "Start here",
+     "tasks": 0,
+     "los": [],
+     "minutes": 4,
+     "check": {
+      "src_words": 905,
+      "page_words": 937,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "00"
+     ],
+     "domain": "",
+     "ref": "Module 0",
+     "tn": "Module 00",
+     "of": 18,
+     "module": "00"
+    },
+    {
+     "num": "01",
+     "slug": "01-infrastructure-as-code-and-what-terraform-does",
+     "title": "Infrastructure as Code and What Terraform Does",
+     "group": "1. Infrastructure as Code",
+     "tasks": 0,
+     "los": [],
+     "minutes": 4,
+     "check": {
+      "src_words": 895,
+      "page_words": 932,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "01"
+     ],
+     "domain": "",
+     "ref": "Module 1",
+     "tn": "Module 01",
+     "of": 18,
+     "module": "01"
+    },
+    {
+     "num": "02",
+     "slug": "02-providers-installing-versioning-and-using-several",
+     "title": "Providers: Installing, Versioning and Using Several",
+     "group": "2. Terraform fundamentals",
+     "tasks": 0,
+     "los": [],
+     "minutes": 5,
+     "check": {
+      "src_words": 958,
+      "page_words": 1006,
+      "src_tables": 7,
+      "tables": 7,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "02"
+     ],
+     "domain": "",
+     "ref": "Module 2",
+     "tn": "Module 02",
+     "of": 18,
+     "module": "02"
+    },
+    {
+     "num": "03",
+     "slug": "03-state-what-it-is-and-how-terraform-uses-it",
+     "title": "State: What It Is and How Terraform Uses It",
+     "group": "2. Terraform fundamentals",
+     "tasks": 0,
+     "los": [],
+     "minutes": 4,
+     "check": {
+      "src_words": 848,
+      "page_words": 884,
+      "src_tables": 6,
+      "tables": 6,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "03"
+     ],
+     "domain": "",
+     "ref": "Module 3",
+     "tn": "Module 03",
+     "of": 18,
+     "module": "03"
+    },
+    {
+     "num": "04",
+     "slug": "04-the-core-workflow-init-validate-plan-apply-destroy-and-fmt",
+     "title": "The Core Workflow: init, validate, plan, apply, destroy and fmt",
+     "group": "3. Core workflow",
+     "tasks": 0,
+     "los": [],
+     "minutes": 4,
+     "check": {
+      "src_words": 884,
+      "page_words": 923,
+      "src_tables": 7,
+      "tables": 7,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "04"
+     ],
+     "domain": "",
+     "ref": "Module 4",
+     "tn": "Module 04",
+     "of": 18,
+     "module": "04"
+    },
+    {
+     "num": "05",
+     "slug": "05-resources-data-sources-and-references",
+     "title": "Resources, Data Sources and References",
+     "group": "4. Configuration",
+     "tasks": 0,
+     "los": [],
+     "minutes": 4,
+     "check": {
+      "src_words": 851,
+      "page_words": 885,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "05"
+     ],
+     "domain": "",
+     "ref": "Module 5",
+     "tn": "Module 05",
+     "of": 18,
+     "module": "05"
+    },
+    {
+     "num": "06",
+     "slug": "06-variables-outputs-locals-and-complex-types",
+     "title": "Variables, Outputs, Locals and Complex Types",
+     "group": "4. Configuration",
+     "tasks": 0,
+     "los": [],
+     "minutes": 4,
+     "check": {
+      "src_words": 901,
+      "page_words": 933,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 0,
+      "images": 0,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "06"
+     ],
+     "domain": "",
+     "ref": "Module 6",
+     "tn": "Module 06",
+     "of": 18,
+     "module": "06"
+    },
+    {
+     "num": "07",
+     "slug": "07-expressions-functions-count-for-each-and-dynamic-blocks",
+     "title": "Expressions, Functions, count, for_each and Dynamic Blocks",
+     "group": "4. Configuration",
+     "tasks": 0,
+     "los": [],
+     "minutes": 4,
+     "check": {
+      "src_words": 960,
+      "page_words": 994,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 0,
+      "images": 0,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "07"
+     ],
+     "domain": "",
+     "ref": "Module 7",
+     "tn": "Module 07",
+     "of": 18,
+     "module": "07"
+    },
+    {
+     "num": "08",
+     "slug": "08-dependencies-and-lifecycle-rules",
+     "title": "Dependencies and Lifecycle Rules",
+     "group": "4. Configuration",
+     "tasks": 0,
+     "los": [],
+     "minutes": 4,
+     "check": {
+      "src_words": 916,
+      "page_words": 950,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "08"
+     ],
+     "domain": "",
+     "ref": "Module 8",
+     "tn": "Module 08",
+     "of": 18,
+     "module": "08"
+    },
+    {
+     "num": "09",
+     "slug": "09-custom-conditions-validation-preconditions-postconditions-and-checks",
+     "title": "Custom Conditions: Validation, Preconditions, Postconditions and Checks",
+     "group": "4. Configuration",
+     "tasks": 0,
+     "los": [],
+     "minutes": 4,
+     "check": {
+      "src_words": 925,
+      "page_words": 958,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "09"
+     ],
+     "domain": "",
+     "ref": "Module 9",
+     "tn": "Module 09",
+     "of": 18,
+     "module": "09"
+    },
+    {
+     "num": "10",
+     "slug": "10-sensitive-data-secrets-ephemeral-values-and-write-only-arguments",
+     "title": "Sensitive Data, Secrets, Ephemeral Values and Write-Only Arguments",
+     "group": "4. Configuration",
+     "tasks": 0,
+     "los": [],
+     "minutes": 5,
+     "check": {
+      "src_words": 1166,
+      "page_words": 1199,
+      "src_tables": 6,
+      "tables": 6,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "10"
+     ],
+     "domain": "",
+     "ref": "Module 10",
+     "tn": "Module 10",
+     "of": 18,
+     "module": "10"
+    },
+    {
+     "num": "11",
+     "slug": "11-modules-sources-versions-and-the-registry",
+     "title": "Modules: Sources, Versions and the Registry",
+     "group": "5. Modules",
+     "tasks": 0,
+     "los": [],
+     "minutes": 4,
+     "check": {
+      "src_words": 837,
+      "page_words": 882,
+      "src_tables": 7,
+      "tables": 7,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "11"
+     ],
+     "domain": "",
+     "ref": "Module 11",
+     "tn": "Module 11",
+     "of": 18,
+     "module": "11"
+    },
+    {
+     "num": "12",
+     "slug": "12-modules-scope-inputs-outputs-and-composition",
+     "title": "Modules: Scope, Inputs, Outputs and Composition",
+     "group": "5. Modules",
+     "tasks": 0,
+     "los": [],
+     "minutes": 4,
+     "check": {
+      "src_words": 884,
+      "page_words": 917,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "12"
+     ],
+     "domain": "",
+     "ref": "Module 12",
+     "tn": "Module 12",
+     "of": 18,
+     "module": "12"
+    },
+    {
+     "num": "13",
+     "slug": "13-backends-remote-state-and-state-locking",
+     "title": "Backends, Remote State and State Locking",
+     "group": "6. State management",
+     "tasks": 0,
+     "los": [],
+     "minutes": 4,
+     "check": {
+      "src_words": 912,
+      "page_words": 946,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "13"
+     ],
+     "domain": "",
+     "ref": "Module 13",
+     "tn": "Module 13",
+     "of": 18,
+     "module": "13"
+    },
+    {
+     "num": "14",
+     "slug": "14-resource-drift-refresh-only-moved-and-removed-blocks",
+     "title": "Resource Drift, Refresh-Only, moved and removed Blocks",
+     "group": "6. State management",
+     "tasks": 0,
+     "los": [],
+     "minutes": 5,
+     "check": {
+      "src_words": 972,
+      "page_words": 1007,
+      "src_tables": 6,
+      "tables": 6,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "14"
+     ],
+     "domain": "",
+     "ref": "Module 14",
+     "tn": "Module 14",
+     "of": 18,
+     "module": "14"
+    },
+    {
+     "num": "15",
+     "slug": "15-import-the-state-cli-and-logging",
+     "title": "Import, the State CLI and Logging",
+     "group": "7. Maintain infrastructure",
+     "tasks": 0,
+     "los": [],
+     "minutes": 4,
+     "check": {
+      "src_words": 899,
+      "page_words": 932,
+      "src_tables": 6,
+      "tables": 6,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 5,
+      "sections": 5
+     },
+     "modules": [
+      "15"
+     ],
+     "domain": "",
+     "ref": "Module 15",
+     "tn": "Module 15",
+     "of": 18,
+     "module": "15"
+    },
+    {
+     "num": "16",
+     "slug": "16-hcp-terraform",
+     "title": "HCP Terraform",
+     "group": "8. HCP Terraform",
+     "tasks": 0,
+     "los": [],
+     "minutes": 5,
+     "check": {
+      "src_words": 1001,
+      "page_words": 1037,
+      "src_tables": 6,
+      "tables": 6,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "16"
+     ],
+     "domain": "",
+     "ref": "Module 16",
+     "tn": "Module 16",
+     "of": 18,
+     "module": "16"
+    },
+    {
+     "num": "17",
+     "slug": "17-exam-technique-and-final-review",
+     "title": "Exam Technique and Final Review",
+     "group": "Review and exam day",
+     "tasks": 0,
+     "los": [],
+     "minutes": 4,
+     "check": {
+      "src_words": 851,
+      "page_words": 887,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 0,
+      "images": 0,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "17"
+     ],
+     "domain": "",
+     "ref": "Module 17",
+     "tn": "Module 17",
+     "of": 18,
+     "module": "17"
     }
    ],
    "glossary": 0
