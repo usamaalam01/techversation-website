@@ -100,7 +100,8 @@
     "ai901",
     "sc900",
     "az104",
-    "sc200"
+    "sc200",
+    "pl300"
    ]
   },
   {
@@ -44937,6 +44938,2156 @@
       "recall": 6,
       "src_sections": 4,
       "sections": 4
+     },
+     "modules": [
+      "16"
+     ],
+     "domain": "",
+     "ref": "Module 16",
+     "tn": "Module 16",
+     "of": 17,
+     "module": "16"
+    }
+   ],
+   "glossary": 0
+  },
+  {
+   "kind": "certification",
+   "topic": null,
+   "slug": "pl300",
+   "institute": "microsoft",
+   "short": "PL-300",
+   "name": "Microsoft Power BI Data Analyst",
+   "title": "PL-300 Exam Prep Masterclass",
+   "accent": "c-pl300",
+   "desc": "Preparing data, modeling with DAX, building and securing reports in Power BI: Power Query, star schemas, time intelligence, Copilot, bookmarks and drillthrough, workspaces, gateways and row-level security, with exam-style questions in every module.",
+   "audience": "Data analysts, report builders and business users preparing for the PL-300 exam, and anyone who works with Power BI.",
+   "sources": "The official PL-300 study guide (skills measured as of April 20, 2026) and the Microsoft Learn documentation of Power BI and Microsoft Fabric.",
+   "playlist": "PLWZdh8ps0WhA",
+   "cover": "img/covers/pl300.jpg",
+   "modules": [
+    {
+     "num": "00",
+     "slug": "00-exam-orientation-and-how-to-study",
+     "title": "Exam Orientation and How to Study",
+     "desc": "The exam at a glance",
+     "parts": [
+      {
+       "part": 1,
+       "id": "kJqqW_LqEfo",
+       "title": "The exam at a glance",
+       "seconds": 485,
+       "chapters": [
+        [
+         0,
+         "The exam at a glance"
+        ],
+        [
+         73,
+         "The exam at a glance, continued"
+        ],
+        [
+         83,
+         "The exam at a glance, continued"
+        ],
+        [
+         130,
+         "The exam at a glance, continued"
+        ],
+        [
+         161,
+         "The four domains and the 11 objective groups"
+        ],
+        [
+         181,
+         "The four domains and the 11 objective groups, continued"
+        ],
+        [
+         225,
+         "The four domains and the 11 objective groups, continued"
+        ],
+        [
+         243,
+         "The four domains and the 11 objective groups, continued"
+        ],
+        [
+         271,
+         "What is new and where each layer fits"
+        ],
+        [
+         330,
+         "What is new and where each layer fits, continued"
+        ],
+        [
+         394,
+         "A four-step method for scenario questions"
+        ],
+        [
+         435,
+         "A four-step method for scenario questions, continued"
+        ]
+       ],
+       "published": "2026-11-16T10:01:44Z",
+       "thumb": "img/modules/pl300/00-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "paEQLCO89ug",
+       "title": "A study plan, recall and recap",
+       "seconds": 430,
+       "chapters": [
+        [
+         0,
+         "Practice questions"
+        ],
+        [
+         264,
+         "Recall check"
+        ],
+        [
+         365,
+         "Module recap"
+        ]
+       ],
+       "published": "2026-11-16T10:02:00Z",
+       "thumb": "img/modules/pl300/00-2.jpg"
+      }
+     ],
+     "deck": "downloads/pl300/00-exam-orientation-and-how-to-study.pptx",
+     "deck_kb": 183,
+     "seconds": 915,
+     "words": 1771
+    },
+    {
+     "num": "01",
+     "slug": "01-get-data-sources-storage-modes-and-parameters",
+     "title": "Get Data: Sources, Storage Modes and Parameters",
+     "desc": "Connect to data sources and shared semantic models",
+     "parts": [
+      {
+       "part": 1,
+       "id": "xgadCaFAnSc",
+       "title": "Connect to data sources and shared semantic models",
+       "seconds": 492,
+       "chapters": [
+        [
+         0,
+         "Connect to data sources and shared semantic models"
+        ],
+        [
+         83,
+         "Connect to data sources and shared semantic models, continued"
+        ],
+        [
+         98,
+         "Connect to data sources and shared semantic models, continued"
+        ],
+        [
+         141,
+         "Connect to data sources and shared semantic models, continued"
+        ],
+        [
+         183,
+         "Data source settings, credentials and privacy levels"
+        ],
+        [
+         202,
+         "Data source settings, credentials and privacy levels, continued"
+        ],
+        [
+         243,
+         "Data source settings, credentials and privacy levels, continued"
+        ],
+        [
+         278,
+         "Data source settings, credentials and privacy levels, continued"
+        ],
+        [
+         317,
+         "Choose between Direct Lake, DirectQuery and Import"
+        ],
+        [
+         369,
+         "Choose between Direct Lake, DirectQuery and Import, continued"
+        ],
+        [
+         406,
+         "Choose between Direct Lake, DirectQuery and Import, continued"
+        ],
+        [
+         448,
+         "Choose between Direct Lake, DirectQuery and Import, continued"
+        ]
+       ],
+       "published": "2026-11-16T10:02:24Z",
+       "thumb": "img/modules/pl300/01-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "_E5vCD3pQ4g",
+       "title": "Create and modify parameters, recall and recap",
+       "seconds": 492,
+       "chapters": [
+        [
+         0,
+         "Create and modify parameters"
+        ],
+        [
+         20,
+         "Create and modify parameters, continued"
+        ],
+        [
+         57,
+         "Create and modify parameters, continued"
+        ],
+        [
+         98,
+         "Create and modify parameters, continued"
+        ]
+       ],
+       "published": "2026-11-16T10:02:44Z",
+       "thumb": "img/modules/pl300/01-2.jpg"
+      }
+     ],
+     "deck": "downloads/pl300/01-get-data-sources-storage-modes-and-parameters.pptx",
+     "deck_kb": 187,
+     "seconds": 984,
+     "words": 2088
+    },
+    {
+     "num": "02",
+     "slug": "02-profile-and-clean-the-data",
+     "title": "Profile and Clean the Data",
+     "desc": "Profile the data",
+     "parts": [
+      {
+       "part": 1,
+       "id": "o_LBnCwx22w",
+       "title": "Profile the data",
+       "seconds": 442,
+       "chapters": [
+        [
+         0,
+         "Profile the data"
+        ],
+        [
+         70,
+         "Profile the data, continued"
+        ],
+        [
+         83,
+         "Profile the data, continued"
+        ],
+        [
+         132,
+         "Statistics and column properties"
+        ],
+        [
+         163,
+         "Statistics and column properties, continued"
+        ],
+        [
+         203,
+         "Statistics and column properties, continued"
+        ],
+        [
+         225,
+         "Resolve inconsistencies, nulls and quality issues"
+        ],
+        [
+         264,
+         "Resolve inconsistencies, nulls and quality issues, continued"
+        ],
+        [
+         289,
+         "Resolve inconsistencies, nulls and quality issues, continued"
+        ],
+        [
+         340,
+         "Resolve inconsistencies, nulls and quality issues, continued"
+        ],
+        [
+         358,
+         "Resolve data import errors"
+        ],
+        [
+         376,
+         "Resolve data import errors, continued"
+        ],
+        [
+         405,
+         "Resolve data import errors, continued"
+        ]
+       ],
+       "published": "2026-11-16T10:03:07Z",
+       "thumb": "img/modules/pl300/02-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "WL0wVYQo3yc",
+       "title": "Resolve data import errors, recall and recap",
+       "seconds": 417,
+       "chapters": [
+        [
+         0,
+         "Practice questions"
+        ],
+        [
+         259,
+         "Recall check"
+        ],
+        [
+         357,
+         "Module recap"
+        ]
+       ],
+       "published": "2026-11-16T10:03:24Z",
+       "thumb": "img/modules/pl300/02-2.jpg"
+      }
+     ],
+     "deck": "downloads/pl300/02-profile-and-clean-the-data.pptx",
+     "deck_kb": 174,
+     "seconds": 859,
+     "words": 1797
+    },
+    {
+     "num": "03",
+     "slug": "03-transform-columns-and-rows",
+     "title": "Transform Columns and Rows",
+     "desc": "Select appropriate column data types",
+     "parts": [
+      {
+       "part": 1,
+       "id": "ulRQYf61Th8",
+       "title": "Select appropriate column data types",
+       "seconds": 435,
+       "chapters": [
+        [
+         0,
+         "Select appropriate column data types"
+        ],
+        [
+         75,
+         "Select appropriate column data types, continued"
+        ],
+        [
+         88,
+         "Select appropriate column data types, continued"
+        ],
+        [
+         140,
+         "Select appropriate column data types, continued"
+        ],
+        [
+         175,
+         "Create and transform columns"
+        ],
+        [
+         216,
+         "Create and transform columns, continued"
+        ],
+        [
+         234,
+         "Create and transform columns, continued"
+        ],
+        [
+         263,
+         "Group and aggregate rows"
+        ],
+        [
+         283,
+         "Group and aggregate rows, continued"
+        ],
+        [
+         337,
+         "Pivot, unpivot and transpose"
+        ],
+        [
+         372,
+         "Pivot, unpivot and transpose, continued"
+        ],
+        [
+         389,
+         "Pivot, unpivot and transpose, continued"
+        ]
+       ],
+       "published": "2026-11-16T10:03:38Z",
+       "thumb": "img/modules/pl300/03-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "MTV9tV9QzMA",
+       "title": "Convert semi-structured data to a table, recall and recap",
+       "seconds": 452,
+       "chapters": [
+        [
+         0,
+         "Practice questions"
+        ],
+        [
+         291,
+         "Recall check"
+        ],
+        [
+         388,
+         "Module recap"
+        ]
+       ],
+       "published": "2026-11-16T10:03:58Z",
+       "thumb": "img/modules/pl300/03-2.jpg"
+      }
+     ],
+     "deck": "downloads/pl300/03-transform-columns-and-rows.pptx",
+     "deck_kb": 172,
+     "seconds": 887,
+     "words": 1859
+    },
+    {
+     "num": "04",
+     "slug": "04-fact-and-dimension-tables-merge-append-and-load",
+     "title": "Fact and Dimension Tables, Merge, Append and Load",
+     "desc": "Create fact tables and dimension tables",
+     "parts": [
+      {
+       "part": 1,
+       "id": "fD1bf6B3Rwo",
+       "title": "Create fact tables and dimension tables",
+       "seconds": 443,
+       "chapters": [
+        [
+         0,
+         "Create fact tables and dimension tables"
+        ],
+        [
+         76,
+         "Create fact tables and dimension tables, continued"
+        ],
+        [
+         88,
+         "Create fact tables and dimension tables, continued"
+        ],
+        [
+         135,
+         "Create fact tables and dimension tables, continued"
+        ],
+        [
+         178,
+         "Reference or Duplicate queries"
+        ],
+        [
+         210,
+         "Reference or Duplicate queries, continued"
+        ],
+        [
+         233,
+         "Reference or Duplicate queries, continued"
+        ],
+        [
+         274,
+         "Merge and append queries"
+        ],
+        [
+         299,
+         "Merge and append queries, continued"
+        ],
+        [
+         333,
+         "Merge and append queries, continued"
+        ],
+        [
+         370,
+         "Merge and append queries, continued"
+        ],
+        [
+         388,
+         "Create appropriate keys for relationships"
+        ],
+        [
+         405,
+         "Create appropriate keys for relationships, continued"
+        ]
+       ],
+       "published": "2026-11-16T10:04:19Z",
+       "thumb": "img/modules/pl300/04-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "wFBe63RNZfA",
+       "title": "Create appropriate keys for relationships and Configure data loading for queries, recall and recap",
+       "seconds": 464,
+       "chapters": [
+        [
+         0,
+         "Create appropriate keys for relationships, continued"
+        ],
+        [
+         20,
+         "Configure data loading for queries"
+        ],
+        [
+         53,
+         "Configure data loading for queries, continued"
+        ]
+       ],
+       "published": "2026-11-16T10:04:32Z",
+       "thumb": "img/modules/pl300/04-2.jpg"
+      }
+     ],
+     "deck": "downloads/pl300/04-fact-and-dimension-tables-merge-append-and-load.pptx",
+     "deck_kb": 178,
+     "seconds": 907,
+     "words": 1965
+    },
+    {
+     "num": "05",
+     "slug": "05-design-the-data-model",
+     "title": "Design the Data Model",
+     "desc": "Table and column properties",
+     "parts": [
+      {
+       "part": 1,
+       "id": "k8sxSxGOXEw",
+       "title": "Table and column properties",
+       "seconds": 506,
+       "chapters": [
+        [
+         0,
+         "Table and column properties"
+        ],
+        [
+         80,
+         "Table and column properties, continued"
+        ],
+        [
+         91,
+         "Table and column properties, continued"
+        ],
+        [
+         129,
+         "Table and column properties, continued"
+        ],
+        [
+         169,
+         "Table and column properties, continued"
+        ],
+        [
+         191,
+         "Table and column properties, continued"
+        ],
+        [
+         233,
+         "Role-playing dimensions"
+        ],
+        [
+         254,
+         "Role-playing dimensions, continued"
+        ],
+        [
+         272,
+         "Role-playing dimensions, continued"
+        ],
+        [
+         293,
+         "Role-playing dimensions, continued"
+        ],
+        [
+         314,
+         "Cardinality and cross-filter direction"
+        ],
+        [
+         359,
+         "Cardinality and cross-filter direction, continued"
+        ],
+        [
+         382,
+         "Cardinality and cross-filter direction, continued"
+        ],
+        [
+         437,
+         "Create a common date table"
+        ],
+        [
+         476,
+         "Create a common date table, continued"
+        ],
+        [
+         498,
+         "Create a common date table, continued"
+        ]
+       ],
+       "published": "2026-11-16T10:05:01Z",
+       "thumb": "img/modules/pl300/05-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "52YZXIMKdx4",
+       "title": "Create a common date table and Calculated columns and calculated tables, recall and recap",
+       "seconds": 512,
+       "chapters": [
+        [
+         0,
+         "Create a common date table, continued"
+        ],
+        [
+         36,
+         "Calculated columns and calculated tables"
+        ],
+        [
+         76,
+         "Calculated columns and calculated tables, continued"
+        ],
+        [
+         90,
+         "Calculated columns and calculated tables, continued"
+        ]
+       ],
+       "published": "2026-11-16T10:05:15Z",
+       "thumb": "img/modules/pl300/05-2.jpg"
+      }
+     ],
+     "deck": "downloads/pl300/05-design-the-data-model.pptx",
+     "deck_kb": 178,
+     "seconds": 1018,
+     "words": 2167
+    },
+    {
+     "num": "06",
+     "slug": "06-dax-basics-measures-filter-context-and-calculate",
+     "title": "DAX Basics: Measures, Filter Context and CALCULATE",
+     "desc": "Measures and aggregation functions",
+     "parts": [
+      {
+       "part": 1,
+       "id": "nHoT-cClDXw",
+       "title": "Measures and aggregation functions",
+       "seconds": 464,
+       "chapters": [
+        [
+         0,
+         "Measures and aggregation functions"
+        ],
+        [
+         71,
+         "Measures and aggregation functions, continued"
+        ],
+        [
+         82,
+         "Measures and aggregation functions, continued"
+        ],
+        [
+         130,
+         "Measures and aggregation functions, continued"
+        ],
+        [
+         157,
+         "Measures and aggregation functions, continued"
+        ],
+        [
+         165,
+         "Measures and aggregation functions, continued"
+        ],
+        [
+         200,
+         "Filter context and row context"
+        ],
+        [
+         237,
+         "Filter context and row context, continued"
+        ],
+        [
+         289,
+         "CALCULATE and variables"
+        ],
+        [
+         311,
+         "CALCULATE and variables, continued"
+        ],
+        [
+         342,
+         "CALCULATE and variables, continued"
+        ],
+        [
+         376,
+         "CALCULATE and variables, continued"
+        ],
+        [
+         412,
+         "Quick measures"
+        ]
+       ],
+       "published": "2026-11-16T10:05:41Z",
+       "thumb": "img/modules/pl300/06-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "2vr18hgRPY4",
+       "title": "Quick measures and Calculated columns and calculated tables, recall and recap",
+       "seconds": 493,
+       "chapters": [
+        [
+         0,
+         "Quick measures, continued"
+        ],
+        [
+         27,
+         "Calculated columns and calculated tables"
+        ],
+        [
+         60,
+         "Calculated columns and calculated tables, continued"
+        ]
+       ],
+       "published": "2026-11-16T10:06:01Z",
+       "thumb": "img/modules/pl300/06-2.jpg"
+      }
+     ],
+     "deck": "downloads/pl300/06-dax-basics-measures-filter-context-and-calculate.pptx",
+     "deck_kb": 176,
+     "seconds": 957,
+     "words": 2013
+    },
+    {
+     "num": "07",
+     "slug": "07-time-intelligence-statistics-semi-additive-measures-and-calculation-groups",
+     "title": "Time Intelligence, Statistics, Semi-Additive Measures and Calculation Groups",
+     "desc": "Time intelligence measures",
+     "parts": [
+      {
+       "part": 1,
+       "id": "8TkC85apLV4",
+       "title": "Time intelligence measures",
+       "seconds": 460,
+       "chapters": [
+        [
+         0,
+         "Time intelligence measures"
+        ],
+        [
+         83,
+         "Time intelligence measures, continued"
+        ],
+        [
+         93,
+         "Time intelligence measures, continued"
+        ],
+        [
+         125,
+         "Time intelligence measures, continued"
+        ],
+        [
+         155,
+         "Time intelligence measures, continued"
+        ],
+        [
+         184,
+         "Basic statistical functions"
+        ],
+        [
+         219,
+         "Basic statistical functions, continued"
+        ],
+        [
+         242,
+         "Basic statistical functions, continued"
+        ],
+        [
+         284,
+         "Semi-additive measures"
+        ],
+        [
+         320,
+         "Semi-additive measures, continued"
+        ],
+        [
+         365,
+         "Semi-additive measures, continued"
+        ],
+        [
+         389,
+         "Calculation groups"
+        ],
+        [
+         408,
+         "Calculation groups, continued"
+        ]
+       ],
+       "published": "2026-11-16T10:06:17Z",
+       "thumb": "img/modules/pl300/07-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "grO9LFWlAUU",
+       "title": "Calculation groups, recall and recap",
+       "seconds": 424,
+       "chapters": [
+        [
+         0,
+         "Practice questions"
+        ],
+        [
+         265,
+         "Recall check"
+        ],
+        [
+         360,
+         "Module recap"
+        ]
+       ],
+       "published": "2026-11-16T10:06:42Z",
+       "thumb": "img/modules/pl300/07-2.jpg"
+      }
+     ],
+     "deck": "downloads/pl300/07-time-intelligence-statistics-semi-additive-measures-and-calculation-groups.pptx",
+     "deck_kb": 156,
+     "seconds": 884,
+     "words": 1898
+    },
+    {
+     "num": "08",
+     "slug": "08-optimize-model-performance",
+     "title": "Optimize Model Performance",
+     "desc": "Remove unnecessary rows and columns",
+     "parts": [
+      {
+       "part": 1,
+       "id": "t0XdRGwKYi0",
+       "title": "Remove unnecessary rows and columns",
+       "seconds": 446,
+       "chapters": [
+        [
+         0,
+         "Remove unnecessary rows and columns"
+        ],
+        [
+         83,
+         "Remove unnecessary rows and columns, continued"
+        ],
+        [
+         95,
+         "Remove unnecessary rows and columns, continued"
+        ],
+        [
+         132,
+         "Remove unnecessary rows and columns, continued"
+        ],
+        [
+         157,
+         "Remove unnecessary rows and columns, continued"
+        ],
+        [
+         202,
+         "Performance Analyzer"
+        ],
+        [
+         245,
+         "Performance Analyzer, continued"
+        ],
+        [
+         277,
+         "Performance Analyzer, continued"
+        ],
+        [
+         290,
+         "Performance Analyzer, continued"
+        ],
+        [
+         321,
+         "DAX query view"
+        ],
+        [
+         336,
+         "DAX query view, continued"
+        ],
+        [
+         378,
+         "DAX query view, continued"
+        ],
+        [
+         406,
+         "Reduce granularity and design for speed"
+        ]
+       ],
+       "published": "2026-11-16T10:06:56Z",
+       "thumb": "img/modules/pl300/08-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "xa_UcXvynhY",
+       "title": "Reduce granularity and design for speed, recall and recap",
+       "seconds": 456,
+       "chapters": [
+        [
+         0,
+         "Practice questions"
+        ],
+        [
+         293,
+         "Recall check"
+        ],
+        [
+         389,
+         "Module recap"
+        ]
+       ],
+       "published": "2026-11-16T10:07:15Z",
+       "thumb": "img/modules/pl300/08-2.jpg"
+      }
+     ],
+     "deck": "downloads/pl300/08-optimize-model-performance.pptx",
+     "deck_kb": 167,
+     "seconds": 902,
+     "words": 1873
+    },
+    {
+     "num": "09",
+     "slug": "09-build-reports-visuals-formatting-filtering-and-pages",
+     "title": "Build Reports: Visuals, Formatting, Filtering and Pages",
+     "desc": "Choose the right visual",
+     "parts": [
+      {
+       "part": 1,
+       "id": "_C6NyWtcA0w",
+       "title": "Choose the right visual",
+       "seconds": 499,
+       "chapters": [
+        [
+         0,
+         "Choose the right visual"
+        ],
+        [
+         72,
+         "Choose the right visual, continued"
+        ],
+        [
+         87,
+         "Choose the right visual, continued"
+        ],
+        [
+         137,
+         "Choose the right visual, continued"
+        ],
+        [
+         167,
+         "Format visuals and apply a theme"
+        ],
+        [
+         190,
+         "Format visuals and apply a theme, continued"
+        ],
+        [
+         246,
+         "Format visuals and apply a theme, continued"
+        ],
+        [
+         286,
+         "Conditional formatting"
+        ],
+        [
+         308,
+         "Conditional formatting, continued"
+        ],
+        [
+         333,
+         "Conditional formatting, continued"
+        ],
+        [
+         372,
+         "Slicing and filtering"
+        ],
+        [
+         410,
+         "Slicing and filtering, continued"
+        ],
+        [
+         451,
+         "Slicing and filtering, continued"
+        ]
+       ],
+       "published": "2026-11-16T10:07:50Z",
+       "thumb": "img/modules/pl300/09-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "KDWoH8fVRW4",
+       "title": "The report page and paginated reports, recall and recap",
+       "seconds": 494,
+       "chapters": [
+        [
+         0,
+         "The report page and paginated reports"
+        ],
+        [
+         41,
+         "The report page and paginated reports, continued"
+        ],
+        [
+         69,
+         "The report page and paginated reports, continued"
+        ]
+       ],
+       "published": "2026-11-16T10:07:54Z",
+       "thumb": "img/modules/pl300/09-2.jpg"
+      }
+     ],
+     "deck": "downloads/pl300/09-build-reports-visuals-formatting-filtering-and-pages.pptx",
+     "deck_kb": 173,
+     "seconds": 993,
+     "words": 1991
+    },
+    {
+     "num": "10",
+     "slug": "10-copilot-and-visual-calculations",
+     "title": "Copilot and Visual Calculations",
+     "desc": "What Copilot needs",
+     "parts": [
+      {
+       "part": 1,
+       "id": "KchwAEj_eLw",
+       "title": "What Copilot needs",
+       "seconds": 428,
+       "chapters": [
+        [
+         0,
+         "What Copilot needs"
+        ],
+        [
+         74,
+         "What Copilot needs, continued"
+        ],
+        [
+         87,
+         "What Copilot needs, continued"
+        ],
+        [
+         128,
+         "What Copilot needs, continued"
+        ],
+        [
+         157,
+         "Narrative visual with Copilot"
+        ],
+        [
+         200,
+         "Narrative visual with Copilot, continued"
+        ],
+        [
+         223,
+         "Create report pages and suggest content"
+        ],
+        [
+         255,
+         "Create report pages and suggest content, continued"
+        ],
+        [
+         292,
+         "Visual calculations"
+        ],
+        [
+         340,
+         "Visual calculations, continued"
+        ],
+        [
+         360,
+         "Visual calculations, continued"
+        ],
+        [
+         385,
+         "Measure, column, visual calculation or calculation group"
+        ]
+       ],
+       "published": "2026-11-16T10:08:18Z",
+       "thumb": "img/modules/pl300/10-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "4AgMqKVjkH4",
+       "title": "Measure, column, visual calculation or calculation group, recall and recap",
+       "seconds": 426,
+       "chapters": [
+        [
+         0,
+         "Practice questions"
+        ],
+        [
+         256,
+         "Recall check"
+        ],
+        [
+         359,
+         "Module recap"
+        ]
+       ],
+       "published": "2026-11-16T10:08:38Z",
+       "thumb": "img/modules/pl300/10-2.jpg"
+      }
+     ],
+     "deck": "downloads/pl300/10-copilot-and-visual-calculations.pptx",
+     "deck_kb": 165,
+     "seconds": 854,
+     "words": 1751
+    },
+    {
+     "num": "11",
+     "slug": "11-usability-and-storytelling-bookmarks-tooltips-navigation-drillthrough",
+     "title": "Usability and Storytelling: Bookmarks, Tooltips, Navigation, Drillthrough",
+     "desc": "Drillthrough and its look-alikes",
+     "parts": [
+      {
+       "part": 1,
+       "id": "EjwkdW3ZKBM",
+       "title": "Drillthrough and its look-alikes",
+       "seconds": 471,
+       "chapters": [
+        [
+         0,
+         "Drillthrough and its look-alikes"
+        ],
+        [
+         76,
+         "Drillthrough and its look-alikes, continued"
+        ],
+        [
+         89,
+         "Drillthrough and its look-alikes, continued"
+        ],
+        [
+         112,
+         "Drillthrough and its look-alikes, continued"
+        ],
+        [
+         145,
+         "Drillthrough and its look-alikes, continued"
+        ],
+        [
+         176,
+         "Bookmarks"
+        ],
+        [
+         195,
+         "Bookmarks, continued"
+        ],
+        [
+         243,
+         "Bookmarks, continued"
+        ],
+        [
+         262,
+         "Navigation, buttons and tooltips"
+        ],
+        [
+         287,
+         "Navigation, buttons and tooltips, continued"
+        ],
+        [
+         311,
+         "Navigation, buttons and tooltips, continued"
+        ],
+        [
+         366,
+         "Interactions, sorting and sync slicers"
+        ],
+        [
+         409,
+         "Interactions, sorting and sync slicers, continued"
+        ],
+        [
+         435,
+         "Interactions, sorting and sync slicers, continued"
+        ]
+       ],
+       "published": "2026-11-16T10:08:50Z",
+       "thumb": "img/modules/pl300/11-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "_ow_YeZ-XG4",
+       "title": "The Selection pane, recall and recap",
+       "seconds": 431,
+       "chapters": [
+        [
+         0,
+         "Practice questions"
+        ],
+        [
+         270,
+         "Recall check"
+        ],
+        [
+         365,
+         "Module recap"
+        ]
+       ],
+       "published": "2026-11-16T10:09:07Z",
+       "thumb": "img/modules/pl300/11-2.jpg"
+      }
+     ],
+     "deck": "downloads/pl300/11-usability-and-storytelling-bookmarks-tooltips-navigation-drillthrough.pptx",
+     "deck_kb": 164,
+     "seconds": 902,
+     "words": 1835
+    },
+    {
+     "num": "12",
+     "slug": "12-report-settings-export-mobile-personalization-accessibility-and-refresh",
+     "title": "Report Settings: Export, Mobile, Personalization, Accessibility and Refresh",
+     "desc": "Export settings, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "xHP0oXiQyb0",
+       "title": "Export settings, recall and recap",
+       "seconds": 888,
+       "chapters": [
+        [
+         0,
+         "Export settings"
+        ],
+        [
+         82,
+         "Export settings, continued"
+        ],
+        [
+         94,
+         "Export settings, continued"
+        ],
+        [
+         136,
+         "Export settings, continued"
+        ],
+        [
+         178,
+         "Mobile layout"
+        ],
+        [
+         221,
+         "Mobile layout, continued"
+        ],
+        [
+         240,
+         "Personalization"
+        ],
+        [
+         290,
+         "Personalization, continued"
+        ],
+        [
+         312,
+         "Accessibility"
+        ],
+        [
+         342,
+         "Accessibility, continued"
+        ],
+        [
+         403,
+         "Automatic page refresh"
+        ],
+        [
+         420,
+         "Automatic page refresh, continued"
+        ],
+        [
+         461,
+         "Automatic page refresh, continued"
+        ],
+        [
+         484,
+         "Automatic page refresh, continued"
+        ]
+       ],
+       "published": "2026-11-16T10:09:43Z",
+       "thumb": "img/modules/pl300/12-1.jpg"
+      }
+     ],
+     "deck": "downloads/pl300/12-report-settings-export-mobile-personalization-accessibility-and-refresh.pptx",
+     "deck_kb": 166,
+     "seconds": 888,
+     "words": 1701
+    },
+    {
+     "num": "13",
+     "slug": "13-identify-patterns-and-trends",
+     "title": "Identify Patterns and Trends",
+     "desc": "AI visuals: which one answers which question",
+     "parts": [
+      {
+       "part": 1,
+       "id": "qZYxS8RmpGw",
+       "title": "AI visuals: which one answers which question",
+       "seconds": 462,
+       "chapters": [
+        [
+         0,
+         "AI visuals: which one answers which question"
+        ],
+        [
+         78,
+         "AI visuals: which one answers which question, continued"
+        ],
+        [
+         90,
+         "AI visuals: which one answers which question, continued"
+        ],
+        [
+         123,
+         "AI visuals: which one answers which question, continued"
+        ],
+        [
+         149,
+         "AI visuals: which one answers which question, continued"
+        ],
+        [
+         205,
+         "Analyze, grouping, binning and clustering"
+        ],
+        [
+         252,
+         "Analyze, grouping, binning and clustering, continued"
+        ],
+        [
+         300,
+         "Reference lines, error bars and forecasting"
+        ],
+        [
+         350,
+         "Reference lines, error bars and forecasting, continued"
+        ],
+        [
+         390,
+         "Outliers, anomalies and Copilot summaries"
+        ],
+        [
+         414,
+         "Outliers, anomalies and Copilot summaries, continued"
+        ]
+       ],
+       "published": "2026-11-16T10:10:09Z",
+       "thumb": "img/modules/pl300/13-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "HKomVBggCuQ",
+       "title": "Outliers, anomalies and Copilot summaries, recall and recap",
+       "seconds": 418,
+       "chapters": [
+        [
+         0,
+         "Practice questions"
+        ],
+        [
+         262,
+         "Recall check"
+        ],
+        [
+         359,
+         "Module recap"
+        ]
+       ],
+       "published": "2026-11-16T10:09:57Z",
+       "thumb": "img/modules/pl300/13-2.jpg"
+      }
+     ],
+     "deck": "downloads/pl300/13-identify-patterns-and-trends.pptx",
+     "deck_kb": 158,
+     "seconds": 880,
+     "words": 1812
+    },
+    {
+     "num": "14",
+     "slug": "14-workspaces-apps-and-distribution",
+     "title": "Workspaces, Apps and Distribution",
+     "desc": "Workspaces and apps",
+     "parts": [
+      {
+       "part": 1,
+       "id": "OMCBmCpJV9M",
+       "title": "Workspaces and apps",
+       "seconds": 484,
+       "chapters": [
+        [
+         0,
+         "Workspaces and apps"
+        ],
+        [
+         75,
+         "Workspaces and apps, continued"
+        ],
+        [
+         88,
+         "Workspaces and apps, continued"
+        ],
+        [
+         129,
+         "Workspaces and apps, continued"
+        ],
+        [
+         185,
+         "Publish, import, update and dashboards"
+        ],
+        [
+         218,
+         "Publish, import, update and dashboards, continued"
+        ],
+        [
+         241,
+         "Publish, import, update and dashboards, continued"
+        ],
+        [
+         292,
+         "Choose a distribution method"
+        ],
+        [
+         336,
+         "Choose a distribution method, continued"
+        ],
+        [
+         370,
+         "Subscriptions, data alerts and endorsement"
+        ],
+        [
+         413,
+         "Subscriptions, data alerts and endorsement, continued"
+        ],
+        [
+         433,
+         "Subscriptions, data alerts and endorsement, continued"
+        ]
+       ],
+       "published": "2026-11-16T10:10:30Z",
+       "thumb": "img/modules/pl300/14-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "QJqJ6IbIFTc",
+       "title": "Gateways and scheduled refresh, recall and recap",
+       "seconds": 481,
+       "chapters": [
+        [
+         0,
+         "Practice questions"
+        ],
+        [
+         314,
+         "Recall check"
+        ],
+        [
+         412,
+         "Module recap"
+        ]
+       ],
+       "published": "2026-11-16T10:11:00Z",
+       "thumb": "img/modules/pl300/14-2.jpg"
+      }
+     ],
+     "deck": "downloads/pl300/14-workspaces-apps-and-distribution.pptx",
+     "deck_kb": 168,
+     "seconds": 965,
+     "words": 1891
+    },
+    {
+     "num": "15",
+     "slug": "15-secure-and-govern-power-bi",
+     "title": "Secure and Govern Power BI",
+     "desc": "Layers of protection: what protects what",
+     "parts": [
+      {
+       "part": 1,
+       "id": "Ki_EFxmoUeY",
+       "title": "Layers of protection: what protects what",
+       "seconds": 436,
+       "chapters": [
+        [
+         0,
+         "Layers of protection: what protects what"
+        ],
+        [
+         89,
+         "Layers of protection: what protects what, continued"
+        ],
+        [
+         101,
+         "Layers of protection: what protects what, continued"
+        ],
+        [
+         143,
+         "Layers of protection: what protects what, continued"
+        ],
+        [
+         184,
+         "Workspace roles and item-level access"
+        ],
+        [
+         233,
+         "Workspace roles and item-level access, continued"
+        ],
+        [
+         263,
+         "Access to semantic models"
+        ],
+        [
+         324,
+         "Row-level security roles"
+        ],
+        [
+         361,
+         "Row-level security roles, continued"
+        ],
+        [
+         368,
+         "Row-level security roles, continued"
+        ],
+        [
+         408,
+         "RLS group membership and sensitivity labels"
+        ]
+       ],
+       "published": "2026-11-16T10:11:17Z",
+       "thumb": "img/modules/pl300/15-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "3gM6cJ0DXCU",
+       "title": "RLS group membership and sensitivity labels, recall and recap",
+       "seconds": 439,
+       "chapters": [
+        [
+         0,
+         "Practice questions"
+        ],
+        [
+         281,
+         "Recall check"
+        ],
+        [
+         375,
+         "Module recap"
+        ]
+       ],
+       "published": "2026-11-16T10:11:32Z",
+       "thumb": "img/modules/pl300/15-2.jpg"
+      }
+     ],
+     "deck": "downloads/pl300/15-secure-and-govern-power-bi.pptx",
+     "deck_kb": 158,
+     "seconds": 875,
+     "words": 1756
+    },
+    {
+     "num": "16",
+     "slug": "16-exam-technique-and-final-review",
+     "title": "Exam Technique and Final Review",
+     "desc": "Time plan and method",
+     "parts": [
+      {
+       "part": 1,
+       "id": "muHDwBZuBXw",
+       "title": "Time plan and method",
+       "seconds": 467,
+       "chapters": [
+        [
+         0,
+         "Time plan and method"
+        ],
+        [
+         76,
+         "Time plan and method, continued"
+        ],
+        [
+         128,
+         "Time plan and method, continued"
+        ],
+        [
+         155,
+         "Which layer solves it"
+        ],
+        [
+         189,
+         "Which layer solves it, continued"
+        ],
+        [
+         235,
+         "Which layer solves it, continued"
+        ],
+        [
+         265,
+         "Numbers to memorize"
+        ],
+        [
+         301,
+         "Numbers to memorize, continued"
+        ],
+        [
+         345,
+         "Look-alike pairs"
+        ],
+        [
+         389,
+         "Look-alike pairs, continued"
+        ],
+        [
+         425,
+         "Look-alike pairs, continued"
+        ]
+       ],
+       "published": "2026-11-16T10:12:02Z",
+       "thumb": "img/modules/pl300/16-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "vOv3uoJAi40",
+       "title": "Five questions for every scenario, recall and recap",
+       "seconds": 416,
+       "chapters": [
+        [
+         0,
+         "Practice questions"
+        ],
+        [
+         251,
+         "Recall check"
+        ],
+        [
+         351,
+         "Module recap"
+        ]
+       ],
+       "published": "2026-11-16T10:12:15Z",
+       "thumb": "img/modules/pl300/16-2.jpg"
+      }
+     ],
+     "deck": "downloads/pl300/16-exam-technique-and-final-review.pptx",
+     "deck_kb": 111,
+     "seconds": 883,
+     "words": 1795
+    }
+   ],
+   "facts": {
+    "questions": "See the exam page",
+    "time": "100 min",
+    "passing": "700 of 1,000",
+    "source": "learn.microsoft.com",
+    "url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/pl-300/"
+   },
+   "videos": 33,
+   "seconds": 15553,
+   "notes": [
+    {
+     "num": "00",
+     "slug": "00-exam-orientation-and-how-to-study",
+     "title": "Exam Orientation and How to Study",
+     "group": "Start here",
+     "tasks": 0,
+     "los": [],
+     "minutes": 8,
+     "check": {
+      "src_words": 1630,
+      "page_words": 1663,
+      "src_tables": 7,
+      "tables": 7,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "00"
+     ],
+     "domain": "",
+     "ref": "Module 0",
+     "tn": "Module 00",
+     "of": 17,
+     "module": "00"
+    },
+    {
+     "num": "01",
+     "slug": "01-get-data-sources-storage-modes-and-parameters",
+     "title": "Get Data: Sources, Storage Modes and Parameters",
+     "group": "Prepare the data (25-30%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 9,
+     "check": {
+      "src_words": 1929,
+      "page_words": 1965,
+      "src_tables": 7,
+      "tables": 7,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "01"
+     ],
+     "domain": "",
+     "ref": "Module 1",
+     "tn": "Module 01",
+     "of": 17,
+     "module": "01"
+    },
+    {
+     "num": "02",
+     "slug": "02-profile-and-clean-the-data",
+     "title": "Profile and Clean the Data",
+     "group": "Prepare the data (25-30%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 8,
+     "check": {
+      "src_words": 1699,
+      "page_words": 1733,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "02"
+     ],
+     "domain": "",
+     "ref": "Module 2",
+     "tn": "Module 02",
+     "of": 17,
+     "module": "02"
+    },
+    {
+     "num": "03",
+     "slug": "03-transform-columns-and-rows",
+     "title": "Transform Columns and Rows",
+     "group": "Prepare the data (25-30%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 8,
+     "check": {
+      "src_words": 1753,
+      "page_words": 1789,
+      "src_tables": 7,
+      "tables": 7,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "03"
+     ],
+     "domain": "",
+     "ref": "Module 3",
+     "tn": "Module 03",
+     "of": 17,
+     "module": "03"
+    },
+    {
+     "num": "04",
+     "slug": "04-fact-and-dimension-tables-merge-append-and-load",
+     "title": "Fact and Dimension Tables, Merge, Append and Load",
+     "group": "Prepare the data (25-30%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 9,
+     "check": {
+      "src_words": 1855,
+      "page_words": 1890,
+      "src_tables": 6,
+      "tables": 6,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "04"
+     ],
+     "domain": "",
+     "ref": "Module 4",
+     "tn": "Module 04",
+     "of": 17,
+     "module": "04"
+    },
+    {
+     "num": "05",
+     "slug": "05-design-the-data-model",
+     "title": "Design the Data Model",
+     "group": "Model the data (25-30%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 9,
+     "check": {
+      "src_words": 1990,
+      "page_words": 2025,
+      "src_tables": 7,
+      "tables": 7,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "05"
+     ],
+     "domain": "",
+     "ref": "Module 5",
+     "tn": "Module 05",
+     "of": 17,
+     "module": "05"
+    },
+    {
+     "num": "06",
+     "slug": "06-dax-basics-measures-filter-context-and-calculate",
+     "title": "DAX Basics: Measures, Filter Context and CALCULATE",
+     "group": "Model the data (25-30%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 9,
+     "check": {
+      "src_words": 1894,
+      "page_words": 1929,
+      "src_tables": 6,
+      "tables": 6,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "06"
+     ],
+     "domain": "",
+     "ref": "Module 6",
+     "tn": "Module 06",
+     "of": 17,
+     "module": "06"
+    },
+    {
+     "num": "07",
+     "slug": "07-time-intelligence-statistics-semi-additive-measures-and-calculation-groups",
+     "title": "Time Intelligence, Statistics, Semi-Additive Measures and Calculation Groups",
+     "group": "Model the data (25-30%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 8,
+     "check": {
+      "src_words": 1746,
+      "page_words": 1780,
+      "src_tables": 6,
+      "tables": 6,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "07"
+     ],
+     "domain": "",
+     "ref": "Module 7",
+     "tn": "Module 07",
+     "of": 17,
+     "module": "07"
+    },
+    {
+     "num": "08",
+     "slug": "08-optimize-model-performance",
+     "title": "Optimize Model Performance",
+     "group": "Model the data (25-30%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 8,
+     "check": {
+      "src_words": 1752,
+      "page_words": 1787,
+      "src_tables": 7,
+      "tables": 7,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "08"
+     ],
+     "domain": "",
+     "ref": "Module 8",
+     "tn": "Module 08",
+     "of": 17,
+     "module": "08"
+    },
+    {
+     "num": "09",
+     "slug": "09-build-reports-visuals-formatting-filtering-and-pages",
+     "title": "Build Reports: Visuals, Formatting, Filtering and Pages",
+     "group": "Visualize and analyze the data (25-30%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 9,
+     "check": {
+      "src_words": 1845,
+      "page_words": 1883,
+      "src_tables": 9,
+      "tables": 9,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "09"
+     ],
+     "domain": "",
+     "ref": "Module 9",
+     "tn": "Module 09",
+     "of": 17,
+     "module": "09"
+    },
+    {
+     "num": "10",
+     "slug": "10-copilot-and-visual-calculations",
+     "title": "Copilot and Visual Calculations",
+     "group": "Visualize and analyze the data (25-30%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 8,
+     "check": {
+      "src_words": 1605,
+      "page_words": 1641,
+      "src_tables": 6,
+      "tables": 6,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "10"
+     ],
+     "domain": "",
+     "ref": "Module 10",
+     "tn": "Module 10",
+     "of": 17,
+     "module": "10"
+    },
+    {
+     "num": "11",
+     "slug": "11-usability-and-storytelling-bookmarks-tooltips-navigation-drillthrough",
+     "title": "Usability and Storytelling: Bookmarks, Tooltips, Navigation, Drillthrough",
+     "group": "Visualize and analyze the data (25-30%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 9,
+     "check": {
+      "src_words": 1805,
+      "page_words": 1842,
+      "src_tables": 9,
+      "tables": 9,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "11"
+     ],
+     "domain": "",
+     "ref": "Module 11",
+     "tn": "Module 11",
+     "of": 17,
+     "module": "11"
+    },
+    {
+     "num": "12",
+     "slug": "12-report-settings-export-mobile-personalization-accessibility-and-refresh",
+     "title": "Report Settings: Export, Mobile, Personalization, Accessibility and Refresh",
+     "group": "Visualize and analyze the data (25-30%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 8,
+     "check": {
+      "src_words": 1628,
+      "page_words": 1665,
+      "src_tables": 8,
+      "tables": 8,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "12"
+     ],
+     "domain": "",
+     "ref": "Module 12",
+     "tn": "Module 12",
+     "of": 17,
+     "module": "12"
+    },
+    {
+     "num": "13",
+     "slug": "13-identify-patterns-and-trends",
+     "title": "Identify Patterns and Trends",
+     "group": "Visualize and analyze the data (25-30%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 8,
+     "check": {
+      "src_words": 1678,
+      "page_words": 1714,
+      "src_tables": 6,
+      "tables": 6,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "13"
+     ],
+     "domain": "",
+     "ref": "Module 13",
+     "tn": "Module 13",
+     "of": 17,
+     "module": "13"
+    },
+    {
+     "num": "14",
+     "slug": "14-workspaces-apps-and-distribution",
+     "title": "Workspaces, Apps and Distribution",
+     "group": "Manage and secure Power BI (15-20%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 8,
+     "check": {
+      "src_words": 1755,
+      "page_words": 1792,
+      "src_tables": 10,
+      "tables": 10,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "14"
+     ],
+     "domain": "",
+     "ref": "Module 14",
+     "tn": "Module 14",
+     "of": 17,
+     "module": "14"
+    },
+    {
+     "num": "15",
+     "slug": "15-secure-and-govern-power-bi",
+     "title": "Secure and Govern Power BI",
+     "group": "Manage and secure Power BI (15-20%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 7,
+     "check": {
+      "src_words": 1569,
+      "page_words": 1602,
+      "src_tables": 8,
+      "tables": 8,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "15"
+     ],
+     "domain": "",
+     "ref": "Module 15",
+     "tn": "Module 15",
+     "of": 17,
+     "module": "15"
+    },
+    {
+     "num": "16",
+     "slug": "16-exam-technique-and-final-review",
+     "title": "Exam Technique and Final Review",
+     "group": "Review and exam day",
+     "tasks": 0,
+     "los": [],
+     "minutes": 8,
+     "check": {
+      "src_words": 1663,
+      "page_words": 1691,
+      "src_tables": 6,
+      "tables": 6,
+      "src_images": 0,
+      "images": 0,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 7,
+      "sections": 7
      },
      "modules": [
       "16"

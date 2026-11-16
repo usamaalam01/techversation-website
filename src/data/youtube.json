@@ -9828,7 +9828,7 @@
   "key": "10-Copilot-and-Visual-Calculations-part-1",
   "title": "Power BI PL-300 Exam Prep Module 10 Part 1 of 2: Copilot Needs, Narrative, Visual Calculations",
   "seconds": 428,
-  "published": "2026-11-16T10:07:29Z",
+  "published": "2026-11-16T10:08:18Z",
   "privacy": "public",
   "embeddable": true,
   "chapters": [
@@ -9879,6 +9879,502 @@
    [
     385,
     "Measure, column, visual calculation or calculation group"
+   ]
+  ]
+ },
+ "4AgMqKVjkH4": {
+  "course": "pl300",
+  "key": "10-Copilot-and-Visual-Calculations-part-2",
+  "title": "Power BI PL-300 Exam Prep Module 10 Part 2 of 2: Which Calculation to Use, Practice and Recall",
+  "seconds": 426,
+  "published": "2026-11-16T10:08:38Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Practice questions"
+   ],
+   [
+    256,
+    "Recall check"
+   ],
+   [
+    359,
+    "Module recap"
+   ]
+  ]
+ },
+ "EjwkdW3ZKBM": {
+  "course": "pl300",
+  "key": "11-Usability-and-Storytelling-Bookmarks-Tooltips-Navigation-Drillthrough-part-1",
+  "title": "Power BI PL-300 Exam Prep Module 11 Part 1 of 2: Drillthrough, Bookmarks, Tooltips, Interactions",
+  "seconds": 471,
+  "published": "2026-11-16T10:08:50Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Drillthrough and its look-alikes"
+   ],
+   [
+    76,
+    "Drillthrough and its look-alikes, continued"
+   ],
+   [
+    89,
+    "Drillthrough and its look-alikes, continued"
+   ],
+   [
+    112,
+    "Drillthrough and its look-alikes, continued"
+   ],
+   [
+    145,
+    "Drillthrough and its look-alikes, continued"
+   ],
+   [
+    176,
+    "Bookmarks"
+   ],
+   [
+    195,
+    "Bookmarks, continued"
+   ],
+   [
+    243,
+    "Bookmarks, continued"
+   ],
+   [
+    262,
+    "Navigation, buttons and tooltips"
+   ],
+   [
+    287,
+    "Navigation, buttons and tooltips, continued"
+   ],
+   [
+    311,
+    "Navigation, buttons and tooltips, continued"
+   ],
+   [
+    366,
+    "Interactions, sorting and sync slicers"
+   ],
+   [
+    409,
+    "Interactions, sorting and sync slicers, continued"
+   ],
+   [
+    435,
+    "Interactions, sorting and sync slicers, continued"
+   ]
+  ]
+ },
+ "_ow_YeZ-XG4": {
+  "course": "pl300",
+  "key": "11-Usability-and-Storytelling-Bookmarks-Tooltips-Navigation-Drillthrough-part-2",
+  "title": "Power BI PL-300 Exam Prep Module 11 Part 2 of 2: Selection Pane, Practice Questions and Recall",
+  "seconds": 431,
+  "published": "2026-11-16T10:09:07Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Practice questions"
+   ],
+   [
+    270,
+    "Recall check"
+   ],
+   [
+    365,
+    "Module recap"
+   ]
+  ]
+ },
+ "xHP0oXiQyb0": {
+  "course": "pl300",
+  "key": "12-Report-Settings-Export-Mobile-Personalization-Accessibility-and-Refresh-part-1",
+  "title": "Power BI PL-300 Exam Prep Module 12: Export, Mobile, Personalization, Accessibility, Refresh",
+  "seconds": 888,
+  "published": "2026-11-16T10:09:43Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Export settings"
+   ],
+   [
+    82,
+    "Export settings, continued"
+   ],
+   [
+    94,
+    "Export settings, continued"
+   ],
+   [
+    136,
+    "Export settings, continued"
+   ],
+   [
+    178,
+    "Mobile layout"
+   ],
+   [
+    221,
+    "Mobile layout, continued"
+   ],
+   [
+    240,
+    "Personalization"
+   ],
+   [
+    290,
+    "Personalization, continued"
+   ],
+   [
+    312,
+    "Accessibility"
+   ],
+   [
+    342,
+    "Accessibility, continued"
+   ],
+   [
+    403,
+    "Automatic page refresh"
+   ],
+   [
+    420,
+    "Automatic page refresh, continued"
+   ],
+   [
+    461,
+    "Automatic page refresh, continued"
+   ],
+   [
+    484,
+    "Automatic page refresh, continued"
+   ]
+  ]
+ },
+ "qZYxS8RmpGw": {
+  "course": "pl300",
+  "key": "13-Identify-Patterns-and-Trends-part-1",
+  "title": "Power BI PL-300 Exam Prep Module 13 Part 1 of 2: AI Visuals, Analyze, Reference Lines, Forecasting",
+  "seconds": 462,
+  "published": "2026-11-16T10:10:09Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "AI visuals: which one answers which question"
+   ],
+   [
+    78,
+    "AI visuals: which one answers which question, continued"
+   ],
+   [
+    90,
+    "AI visuals: which one answers which question, continued"
+   ],
+   [
+    123,
+    "AI visuals: which one answers which question, continued"
+   ],
+   [
+    149,
+    "AI visuals: which one answers which question, continued"
+   ],
+   [
+    205,
+    "Analyze, grouping, binning and clustering"
+   ],
+   [
+    252,
+    "Analyze, grouping, binning and clustering, continued"
+   ],
+   [
+    300,
+    "Reference lines, error bars and forecasting"
+   ],
+   [
+    350,
+    "Reference lines, error bars and forecasting, continued"
+   ],
+   [
+    390,
+    "Outliers, anomalies and Copilot summaries"
+   ],
+   [
+    414,
+    "Outliers, anomalies and Copilot summaries, continued"
+   ]
+  ]
+ },
+ "HKomVBggCuQ": {
+  "course": "pl300",
+  "key": "13-Identify-Patterns-and-Trends-part-2",
+  "title": "Power BI PL-300 Exam Prep Module 13 Part 2 of 2: Anomalies, Copilot Summaries, Practice, Recall",
+  "seconds": 418,
+  "published": "2026-11-16T10:09:57Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Practice questions"
+   ],
+   [
+    262,
+    "Recall check"
+   ],
+   [
+    359,
+    "Module recap"
+   ]
+  ]
+ },
+ "OMCBmCpJV9M": {
+  "course": "pl300",
+  "key": "14-Workspaces-Apps-and-Distribution-part-1",
+  "title": "Power BI PL-300 Exam Prep Module 14 Part 1 of 2: Workspaces, Apps, Dashboards, Distribution",
+  "seconds": 484,
+  "published": "2026-11-16T10:10:30Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Workspaces and apps"
+   ],
+   [
+    75,
+    "Workspaces and apps, continued"
+   ],
+   [
+    88,
+    "Workspaces and apps, continued"
+   ],
+   [
+    129,
+    "Workspaces and apps, continued"
+   ],
+   [
+    185,
+    "Publish, import, update and dashboards"
+   ],
+   [
+    218,
+    "Publish, import, update and dashboards, continued"
+   ],
+   [
+    241,
+    "Publish, import, update and dashboards, continued"
+   ],
+   [
+    292,
+    "Choose a distribution method"
+   ],
+   [
+    336,
+    "Choose a distribution method, continued"
+   ],
+   [
+    370,
+    "Subscriptions, data alerts and endorsement"
+   ],
+   [
+    413,
+    "Subscriptions, data alerts and endorsement, continued"
+   ],
+   [
+    433,
+    "Subscriptions, data alerts and endorsement, continued"
+   ]
+  ]
+ },
+ "QJqJ6IbIFTc": {
+  "course": "pl300",
+  "key": "14-Workspaces-Apps-and-Distribution-part-2",
+  "title": "Power BI PL-300 Exam Prep Module 14 Part 2 of 2: Gateways, Scheduled Refresh, Practice, Recall",
+  "seconds": 481,
+  "published": "2026-11-16T10:11:00Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Practice questions"
+   ],
+   [
+    314,
+    "Recall check"
+   ],
+   [
+    412,
+    "Module recap"
+   ]
+  ]
+ },
+ "Ki_EFxmoUeY": {
+  "course": "pl300",
+  "key": "15-Secure-and-Govern-Power-BI-part-1",
+  "title": "Power BI PL-300 Exam Prep Module 15 Part 1 of 2: Security Layers, Roles, Permissions, RLS | Power BI",
+  "seconds": 436,
+  "published": "2026-11-16T10:11:17Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Layers of protection: what protects what"
+   ],
+   [
+    89,
+    "Layers of protection: what protects what, continued"
+   ],
+   [
+    101,
+    "Layers of protection: what protects what, continued"
+   ],
+   [
+    143,
+    "Layers of protection: what protects what, continued"
+   ],
+   [
+    184,
+    "Workspace roles and item-level access"
+   ],
+   [
+    233,
+    "Workspace roles and item-level access, continued"
+   ],
+   [
+    263,
+    "Access to semantic models"
+   ],
+   [
+    324,
+    "Row-level security roles"
+   ],
+   [
+    361,
+    "Row-level security roles, continued"
+   ],
+   [
+    368,
+    "Row-level security roles, continued"
+   ],
+   [
+    408,
+    "RLS group membership and sensitivity labels"
+   ]
+  ]
+ },
+ "3gM6cJ0DXCU": {
+  "course": "pl300",
+  "key": "15-Secure-and-Govern-Power-BI-part-2",
+  "title": "Power BI PL-300 Exam Prep Module 15 Part 2 of 2: Group Membership, Labels, Practice and Recall",
+  "seconds": 439,
+  "published": "2026-11-16T10:11:32Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Practice questions"
+   ],
+   [
+    281,
+    "Recall check"
+   ],
+   [
+    375,
+    "Module recap"
+   ]
+  ]
+ },
+ "muHDwBZuBXw": {
+  "course": "pl300",
+  "key": "16-Exam-Technique-and-Final-Review-part-1",
+  "title": "Power BI PL-300 Exam Prep Module 16 Part 1 of 2: Time Plan, Layer Chooser, Numbers, Look-Alikes",
+  "seconds": 467,
+  "published": "2026-11-16T10:12:02Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Time plan and method"
+   ],
+   [
+    76,
+    "Time plan and method, continued"
+   ],
+   [
+    128,
+    "Time plan and method, continued"
+   ],
+   [
+    155,
+    "Which layer solves it"
+   ],
+   [
+    189,
+    "Which layer solves it, continued"
+   ],
+   [
+    235,
+    "Which layer solves it, continued"
+   ],
+   [
+    265,
+    "Numbers to memorize"
+   ],
+   [
+    301,
+    "Numbers to memorize, continued"
+   ],
+   [
+    345,
+    "Look-alike pairs"
+   ],
+   [
+    389,
+    "Look-alike pairs, continued"
+   ],
+   [
+    425,
+    "Look-alike pairs, continued"
+   ]
+  ]
+ },
+ "vOv3uoJAi40": {
+  "course": "pl300",
+  "key": "16-Exam-Technique-and-Final-Review-part-2",
+  "title": "Power BI PL-300 Exam Prep Module 16 Part 2 of 2: Five Questions per Scenario, Mixed Practice",
+  "seconds": 416,
+  "published": "2026-11-16T10:12:15Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Practice questions"
+   ],
+   [
+    251,
+    "Recall check"
+   ],
+   [
+    351,
+    "Module recap"
    ]
   ]
  },
