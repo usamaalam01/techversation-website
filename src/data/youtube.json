@@ -8955,6 +8955,1872 @@
    ]
   ]
  },
+ "XCMZsbZaZhY": {
+  "course": "git",
+  "key": "00-Welcome-and-Setup-part-1",
+  "title": "Git and GitHub for Teams Introduction: Git, GitHub, Install and First Configuration | Git and GitHub",
+  "seconds": 489,
+  "published": "2026-11-17T08:56:53Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Git, GitHub and the course map"
+   ],
+   [
+    69,
+    "Git, GitHub and the course map, continued"
+   ],
+   [
+    84,
+    "Git, GitHub and the course map, continued"
+   ],
+   [
+    134,
+    "Git, GitHub and the course map, continued"
+   ],
+   [
+    195,
+    "Install check and first-time configuration"
+   ],
+   [
+    230,
+    "Install check and first-time configuration, continued"
+   ],
+   [
+    239,
+    "Install check and first-time configuration, continued"
+   ],
+   [
+    247,
+    "Install check and first-time configuration, continued"
+   ],
+   [
+    299,
+    "Install check and first-time configuration, continued"
+   ],
+   [
+    307,
+    "Install check and first-time configuration, continued"
+   ],
+   [
+    316,
+    "Configuration levels and line endings"
+   ],
+   [
+    355,
+    "Configuration levels and line endings, continued"
+   ],
+   [
+    383,
+    "Configuration levels and line endings, continued"
+   ],
+   [
+    391,
+    "Configuration levels and line endings, continued"
+   ],
+   [
+    408,
+    "Configuration levels and line endings, continued"
+   ],
+   [
+    455,
+    "Configuration levels and line endings, continued"
+   ],
+   [
+    480,
+    "Configuration levels and line endings, continued"
+   ]
+  ]
+ },
+ "N0TFJGlDT-Y": {
+  "course": "git",
+  "key": "00-Welcome-and-Setup-part-2",
+  "title": "Git and GitHub for Teams Introduction: Line Endings, First Repository and Help | Git and GitHub",
+  "seconds": 453,
+  "published": "2026-11-17T08:57:09Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Configuration levels and line endings, continued"
+   ],
+   [
+    10,
+    "First repository, status and help"
+   ],
+   [
+    49,
+    "First repository, status and help, continued"
+   ]
+  ]
+ },
+ "O3v_QYF1MxQ": {
+  "course": "git",
+  "key": "01-The-Git-Mental-Model-part-1",
+  "title": "Git and GitHub for Teams Module 1 Part 1 of 2: Working Tree, Staging Area, Commits and Hashes",
+  "seconds": 452,
+  "published": "2026-11-17T08:57:32Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Three areas: working tree, staging area, repository"
+   ],
+   [
+    72,
+    "Three areas: working tree, staging area, repository, continued"
+   ],
+   [
+    86,
+    "Three areas: working tree, staging area, repository, continued"
+   ],
+   [
+    139,
+    "Three areas: working tree, staging area, repository, continued"
+   ],
+   [
+    167,
+    "Three areas: working tree, staging area, repository, continued"
+   ],
+   [
+    186,
+    "What a commit is: snapshots and objects"
+   ],
+   [
+    222,
+    "What a commit is: snapshots and objects, continued"
+   ],
+   [
+    257,
+    "What a commit is: snapshots and objects, continued"
+   ],
+   [
+    265,
+    "What a commit is: snapshots and objects, continued"
+   ],
+   [
+    274,
+    "What a commit is: snapshots and objects, continued"
+   ],
+   [
+    300,
+    "What a commit is: snapshots and objects, continued"
+   ],
+   [
+    318,
+    "What a commit is: snapshots and objects, continued"
+   ],
+   [
+    332,
+    "Hashes: names made from content"
+   ],
+   [
+    365,
+    "Hashes: names made from content, continued"
+   ],
+   [
+    413,
+    "Branches, HEAD and the history graph"
+   ]
+  ]
+ },
+ "9j12D90YBa0": {
+  "course": "git",
+  "key": "01-The-Git-Mental-Model-part-2",
+  "title": "Git and GitHub for Teams Module 1 Part 2 of 2: Branches, HEAD and the History Graph | Git and GitHub",
+  "seconds": 420,
+  "published": "2026-11-17T08:57:52Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Branches, HEAD and the history graph, continued"
+   ],
+   [
+    8,
+    "Branches, HEAD and the history graph, continued"
+   ],
+   [
+    17,
+    "Branches, HEAD and the history graph, continued"
+   ]
+  ]
+ },
+ "FcHV3oTrkuU": {
+  "course": "git",
+  "key": "02-The-Daily-Loop-Stage-Commit-Inspect-part-1",
+  "title": "Git and GitHub for Teams Module 2 Part 1 of 2: The Daily Loop: Status, Add, Commit, Diff, Log",
+  "seconds": 466,
+  "published": "2026-11-17T08:57:59Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "The loop: status, add, commit"
+   ],
+   [
+    73,
+    "The loop: status, add, commit, continued"
+   ],
+   [
+    86,
+    "The loop: status, add, commit, continued"
+   ],
+   [
+    131,
+    "The loop: status, add, commit, continued"
+   ],
+   [
+    166,
+    "The loop: status, add, commit, continued"
+   ],
+   [
+    174,
+    "The loop: status, add, commit, continued"
+   ],
+   [
+    192,
+    "Reading changes: diff, log and show"
+   ],
+   [
+    217,
+    "Reading changes: diff, log and show, continued"
+   ],
+   [
+    230,
+    "Reading changes: diff, log and show, continued"
+   ],
+   [
+    238,
+    "Reading changes: diff, log and show, continued"
+   ],
+   [
+    261,
+    "Reading changes: diff, log and show, continued"
+   ],
+   [
+    304,
+    "Reading changes: diff, log and show, continued"
+   ],
+   [
+    313,
+    "Reading changes: diff, log and show, continued"
+   ],
+   [
+    330,
+    "Remove, rename and ignore"
+   ],
+   [
+    362,
+    "Remove, rename and ignore, continued"
+   ],
+   [
+    410,
+    "Remove, rename and ignore, continued"
+   ],
+   [
+    418,
+    "Remove, rename and ignore, continued"
+   ],
+   [
+    426,
+    "Remove, rename and ignore, continued"
+   ],
+   [
+    444,
+    "A good commit and amend"
+   ]
+  ]
+ },
+ "mbE7u9O98PY": {
+  "course": "git",
+  "key": "02-The-Daily-Loop-Stage-Commit-Inspect-part-2",
+  "title": "Git and GitHub for Teams Module 2 Part 2 of 2: A Good Commit and Git Amend | Git and GitHub",
+  "seconds": 445,
+  "published": "2026-11-17T08:58:23Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "A good commit and amend, continued"
+   ],
+   [
+    35,
+    "A good commit and amend, continued"
+   ],
+   [
+    42,
+    "A good commit and amend, continued"
+   ],
+   [
+    50,
+    "A good commit and amend, continued"
+   ]
+  ]
+ },
+ "je7RD61Zkwk": {
+  "course": "git",
+  "key": "03-Branches-and-Tags-part-1",
+  "title": "Git and GitHub for Teams Module 3 Part 1 of 2: Branches, Switching and Detached HEAD",
+  "seconds": 430,
+  "published": "2026-11-17T08:58:38Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Create, list and switch"
+   ],
+   [
+    72,
+    "Create, list and switch, continued"
+   ],
+   [
+    86,
+    "Create, list and switch, continued"
+   ],
+   [
+    132,
+    "Create, list and switch, continued"
+   ],
+   [
+    151,
+    "Create, list and switch, continued"
+   ],
+   [
+    159,
+    "Create, list and switch, continued"
+   ],
+   [
+    185,
+    "Rename, delete and inspect"
+   ],
+   [
+    227,
+    "Rename, delete and inspect, continued"
+   ],
+   [
+    235,
+    "Rename, delete and inspect, continued"
+   ],
+   [
+    243,
+    "Rename, delete and inspect, continued"
+   ],
+   [
+    273,
+    "Rename, delete and inspect, continued"
+   ],
+   [
+    281,
+    "Rename, delete and inspect, continued"
+   ],
+   [
+    298,
+    "Detached HEAD"
+   ],
+   [
+    330,
+    "Detached HEAD, continued"
+   ],
+   [
+    351,
+    "Detached HEAD, continued"
+   ],
+   [
+    358,
+    "Detached HEAD, continued"
+   ],
+   [
+    365,
+    "Detached HEAD, continued"
+   ],
+   [
+    383,
+    "Tags"
+   ]
+  ]
+ },
+ "_F7Wc8njlFk": {
+  "course": "git",
+  "key": "03-Branches-and-Tags-part-2",
+  "title": "Git and GitHub for Teams Module 3 Part 2 of 2: Annotated Tags, Practice and Recall | Git and GitHub",
+  "seconds": 438,
+  "published": "2026-11-17T08:59:00Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Tags, continued"
+   ],
+   [
+    39,
+    "Tags, continued"
+   ],
+   [
+    46,
+    "Tags, continued"
+   ],
+   [
+    53,
+    "Tags, continued"
+   ]
+  ]
+ },
+ "8UZnJrktg94": {
+  "course": "git",
+  "key": "04-Merging-and-Resolving-Conflicts-part-1",
+  "title": "Git and GitHub for Teams Module 4 Part 1 of 2: Fast-Forward, Merge Commits and Conflicts",
+  "seconds": 396,
+  "published": "2026-11-17T08:59:14Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Two kinds of merge"
+   ],
+   [
+    70,
+    "Two kinds of merge, continued"
+   ],
+   [
+    83,
+    "Two kinds of merge, continued"
+   ],
+   [
+    132,
+    "Two kinds of merge, continued"
+   ],
+   [
+    140,
+    "Two kinds of merge, continued"
+   ],
+   [
+    147,
+    "Two kinds of merge, continued"
+   ],
+   [
+    170,
+    "Two kinds of merge, continued"
+   ],
+   [
+    193,
+    "Two kinds of merge, continued"
+   ],
+   [
+    200,
+    "Two kinds of merge, continued"
+   ],
+   [
+    207,
+    "Two kinds of merge, continued"
+   ],
+   [
+    226,
+    "A conflict and how to read it"
+   ],
+   [
+    248,
+    "A conflict and how to read it, continued"
+   ],
+   [
+    256,
+    "A conflict and how to read it, continued"
+   ],
+   [
+    285,
+    "A conflict and how to read it, continued"
+   ],
+   [
+    302,
+    "A conflict and how to read it, continued"
+   ],
+   [
+    310,
+    "A conflict and how to read it, continued"
+   ],
+   [
+    328,
+    "Resolve, continue or abort"
+   ],
+   [
+    359,
+    "Resolve, continue or abort, continued"
+   ],
+   [
+    367,
+    "Resolve, continue or abort, continued"
+   ],
+   [
+    375,
+    "Resolve, continue or abort, continued"
+   ]
+  ]
+ },
+ "3KQqZf9lMjM": {
+  "course": "git",
+  "key": "04-Merging-and-Resolving-Conflicts-part-2",
+  "title": "Git and GitHub for Teams Module 4 Part 2 of 2: Resolve or Abort a Merge, Practice and Recall",
+  "seconds": 418,
+  "published": "2026-11-17T08:59:30Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Practice questions"
+   ],
+   [
+    261,
+    "Recall check"
+   ],
+   [
+    357,
+    "Module recap"
+   ]
+  ]
+ },
+ "YMVLpEfoQKg": {
+  "course": "git",
+  "key": "05-Rebase-and-Tidy-History-part-1",
+  "title": "Git and GitHub for Teams Module 5 Part 1 of 2: Rebase, Conflicts and Interactive Rebase",
+  "seconds": 488,
+  "published": "2026-11-17T08:59:56Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "What a rebase does"
+   ],
+   [
+    71,
+    "What a rebase does, continued"
+   ],
+   [
+    84,
+    "What a rebase does, continued"
+   ],
+   [
+    98,
+    "What a rebase does, continued"
+   ],
+   [
+    105,
+    "What a rebase does, continued"
+   ],
+   [
+    155,
+    "Conflicts during a rebase"
+   ],
+   [
+    193,
+    "Conflicts during a rebase, continued"
+   ],
+   [
+    201,
+    "Conflicts during a rebase, continued"
+   ],
+   [
+    209,
+    "Conflicts during a rebase, continued"
+   ],
+   [
+    245,
+    "Conflicts during a rebase, continued"
+   ],
+   [
+    266,
+    "Tidy history before you share it"
+   ],
+   [
+    297,
+    "Tidy history before you share it, continued"
+   ],
+   [
+    344,
+    "Tidy history before you share it, continued"
+   ],
+   [
+    352,
+    "Tidy history before you share it, continued"
+   ],
+   [
+    360,
+    "Tidy history before you share it, continued"
+   ],
+   [
+    390,
+    "Tidy history before you share it, continued"
+   ],
+   [
+    397,
+    "Tidy history before you share it, continued"
+   ],
+   [
+    415,
+    "Move a branch, pull with rebase, and the golden rule"
+   ],
+   [
+    448,
+    "Move a branch, pull with rebase, and the golden rule, continued"
+   ]
+  ]
+ },
+ "A6fVFLcqswk": {
+  "course": "git",
+  "key": "05-Rebase-and-Tidy-History-part-2",
+  "title": "Git and GitHub for Teams Module 5 Part 2 of 2: Golden Rule, Pull Rebase and Recovery",
+  "seconds": 533,
+  "published": "2026-11-17T09:00:17Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Move a branch, pull with rebase, and the golden rule, continued"
+   ],
+   [
+    50,
+    "Move a branch, pull with rebase, and the golden rule, continued"
+   ],
+   [
+    83,
+    "Recovering from a bad rebase"
+   ],
+   [
+    115,
+    "Recovering from a bad rebase, continued"
+   ],
+   [
+    123,
+    "Recovering from a bad rebase, continued"
+   ]
+  ]
+ },
+ "TSVjHMITJRA": {
+  "course": "git",
+  "key": "06-Undoing-and-Recovering-part-1",
+  "title": "Git and GitHub for Teams Module 6 Part 1 of 2: Restore, Reset, Revert, Cherry-Pick and Stash",
+  "seconds": 504,
+  "published": "2026-11-17T09:00:54Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Undo changes you have not committed"
+   ],
+   [
+    72,
+    "Undo changes you have not committed, continued"
+   ],
+   [
+    88,
+    "Undo changes you have not committed, continued"
+   ],
+   [
+    120,
+    "Undo changes you have not committed, continued"
+   ],
+   [
+    155,
+    "Undo changes you have not committed, continued"
+   ],
+   [
+    163,
+    "Undo changes you have not committed, continued"
+   ],
+   [
+    180,
+    "Undo local commits: amend and reset"
+   ],
+   [
+    241,
+    "Undo local commits: amend and reset, continued"
+   ],
+   [
+    249,
+    "Undo local commits: amend and reset, continued"
+   ],
+   [
+    258,
+    "Undo local commits: amend and reset, continued"
+   ],
+   [
+    289,
+    "Undo shared commits: revert and cherry-pick"
+   ],
+   [
+    316,
+    "Undo shared commits: revert and cherry-pick, continued"
+   ],
+   [
+    325,
+    "Undo shared commits: revert and cherry-pick, continued"
+   ],
+   [
+    334,
+    "Undo shared commits: revert and cherry-pick, continued"
+   ],
+   [
+    373,
+    "Undo shared commits: revert and cherry-pick, continued"
+   ],
+   [
+    404,
+    "Stash: park work without committing"
+   ],
+   [
+    455,
+    "Stash: park work without committing, continued"
+   ],
+   [
+    467,
+    "Stash: park work without committing, continued"
+   ],
+   [
+    475,
+    "Stash: park work without committing, continued"
+   ]
+  ]
+ },
+ "j0Ab7iCPykI": {
+  "course": "git",
+  "key": "06-Undoing-and-Recovering-part-2",
+  "title": "Git and GitHub for Teams Module 6 Part 2 of 2: The Reflog Safety Net, Practice and Recall",
+  "seconds": 488,
+  "published": "2026-11-17T09:00:54Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "The safety net: the reflog"
+   ],
+   [
+    22,
+    "The safety net: the reflog, continued"
+   ],
+   [
+    30,
+    "The safety net: the reflog, continued"
+   ],
+   [
+    37,
+    "The safety net: the reflog, continued"
+   ],
+   [
+    67,
+    "The safety net: the reflog, continued"
+   ]
+  ]
+ },
+ "WyJzFCtEscY": {
+  "course": "git",
+  "key": "08-GitHub-Basics-part-1",
+  "title": "Git and GitHub for Teams Module 8 Part 1 of 2: GitHub Repositories, HTTPS, SSH and Tokens",
+  "seconds": 546,
+  "published": "2026-11-17T09:01:52Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "What Was Executed and What Is Reference Only"
+   ],
+   [
+    75,
+    "What GitHub adds to a Git repository"
+   ],
+   [
+    99,
+    "What GitHub adds to a Git repository, continued"
+   ],
+   [
+    117,
+    "What GitHub adds to a Git repository, continued"
+   ],
+   [
+    155,
+    "What GitHub adds to a Git repository, continued"
+   ],
+   [
+    186,
+    "What GitHub adds to a Git repository, continued"
+   ],
+   [
+    214,
+    "Creating a repository"
+   ],
+   [
+    237,
+    "Creating a repository, continued"
+   ],
+   [
+    286,
+    "Creating a repository, continued"
+   ],
+   [
+    294,
+    "Creating a repository, continued"
+   ],
+   [
+    301,
+    "Creating a repository, continued"
+   ],
+   [
+    326,
+    "Clone URLs and authentication"
+   ],
+   [
+    367,
+    "Clone URLs and authentication, continued"
+   ],
+   [
+    388,
+    "Clone URLs and authentication, continued"
+   ],
+   [
+    396,
+    "Clone URLs and authentication, continued"
+   ],
+   [
+    425,
+    "Clone URLs and authentication, continued"
+   ],
+   [
+    477,
+    "Clone URLs and authentication, continued"
+   ],
+   [
+    520,
+    "Clone URLs and authentication, continued"
+   ],
+   [
+    528,
+    "Clone URLs and authentication, continued"
+   ]
+  ]
+ },
+ "CeOfy9A75m0": {
+  "course": "git",
+  "key": "08-GitHub-Basics-part-2",
+  "title": "Git and GitHub for Teams Module 8 Part 2 of 2: Forks, Upstream and the GitHub CLI | Git and GitHub",
+  "seconds": 557,
+  "published": "2026-11-17T09:02:04Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Forks, branches and upstream"
+   ],
+   [
+    23,
+    "Forks, branches and upstream, continued"
+   ],
+   [
+    78,
+    "Forks, branches and upstream, continued"
+   ],
+   [
+    94,
+    "Forks, branches and upstream, continued"
+   ],
+   [
+    102,
+    "Forks, branches and upstream, continued"
+   ],
+   [
+    125,
+    "The GitHub CLI"
+   ]
+  ]
+ },
+ "cMXvLy3eF_E": {
+  "course": "git",
+  "key": "09-Pull-Requests-part-1",
+  "title": "Git and GitHub for Teams Module 9 Part 1 of 2: Pull Requests, Reviews and Merge Methods",
+  "seconds": 506,
+  "published": "2026-11-17T09:02:41Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "What Was Executed and What Is Reference Only"
+   ],
+   [
+    76,
+    "The GitHub flow and opening a pull request"
+   ],
+   [
+    89,
+    "The GitHub flow and opening a pull request, continued"
+   ],
+   [
+    101,
+    "The GitHub flow and opening a pull request, continued"
+   ],
+   [
+    138,
+    "The GitHub flow and opening a pull request, continued"
+   ],
+   [
+    187,
+    "Reviews and keeping the branch current"
+   ],
+   [
+    209,
+    "Reviews and keeping the branch current, continued"
+   ],
+   [
+    243,
+    "Reviews and keeping the branch current, continued"
+   ],
+   [
+    291,
+    "Reviews and keeping the branch current, continued"
+   ],
+   [
+    299,
+    "Reviews and keeping the branch current, continued"
+   ],
+   [
+    316,
+    "The three merge methods and what they do to history"
+   ],
+   [
+    367,
+    "The three merge methods and what they do to history, continued"
+   ],
+   [
+    382,
+    "The three merge methods and what they do to history, continued"
+   ],
+   [
+    394,
+    "The three merge methods and what they do to history, continued"
+   ],
+   [
+    403,
+    "The three merge methods and what they do to history, continued"
+   ],
+   [
+    432,
+    "The three merge methods and what they do to history, continued"
+   ],
+   [
+    440,
+    "The three merge methods and what they do to history, continued"
+   ],
+   [
+    449,
+    "The three merge methods and what they do to history, continued"
+   ],
+   [
+    472,
+    "Linking issues, templates and cleaning up"
+   ]
+  ]
+ },
+ "kqH3lybMLtA": {
+  "course": "git",
+  "key": "09-Pull-Requests-part-2",
+  "title": "Git and GitHub for Teams Module 9 Part 2 of 2: Closing Issues, Templates and Branch Cleanup",
+  "seconds": 488,
+  "published": "2026-11-17T09:02:47Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Linking issues, templates and cleaning up, continued"
+   ],
+   [
+    42,
+    "Linking issues, templates and cleaning up, continued"
+   ],
+   [
+    50,
+    "Linking issues, templates and cleaning up, continued"
+   ],
+   [
+    59,
+    "Linking issues, templates and cleaning up, continued"
+   ],
+   [
+    88,
+    "Linking issues, templates and cleaning up, continued"
+   ]
+  ]
+ },
+ "LOqoKTge5e0": {
+  "course": "git",
+  "key": "10-Branching-Strategies-for-Teams-part-1",
+  "title": "Git and GitHub for Teams Module 10 Part 1 of 2: Trunk-Based, GitHub Flow, Git Flow, Hotfixes",
+  "seconds": 520,
+  "published": "2026-11-17T09:03:24Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "What Was Executed and What Is Reference Only"
+   ],
+   [
+    73,
+    "Three strategies and the team each one fits"
+   ],
+   [
+    87,
+    "Three strategies and the team each one fits, continued"
+   ],
+   [
+    103,
+    "Three strategies and the team each one fits, continued"
+   ],
+   [
+    142,
+    "Three strategies and the team each one fits, continued"
+   ],
+   [
+    171,
+    "Three strategies and the team each one fits, continued"
+   ],
+   [
+    235,
+    "Three strategies and the team each one fits, continued"
+   ],
+   [
+    244,
+    "Three strategies and the team each one fits, continued"
+   ],
+   [
+    252,
+    "Three strategies and the team each one fits, continued"
+   ],
+   [
+    282,
+    "Release branches and hotfixes"
+   ],
+   [
+    322,
+    "Release branches and hotfixes, continued"
+   ],
+   [
+    335,
+    "Release branches and hotfixes, continued"
+   ],
+   [
+    342,
+    "Release branches and hotfixes, continued"
+   ],
+   [
+    379,
+    "Branch names and long-lived branches"
+   ],
+   [
+    420,
+    "Branch names and long-lived branches, continued"
+   ],
+   [
+    453,
+    "Branch names and long-lived branches, continued"
+   ],
+   [
+    461,
+    "Branch names and long-lived branches, continued"
+   ],
+   [
+    470,
+    "Branch names and long-lived branches, continued"
+   ],
+   [
+    489,
+    "Tags, versions and releases"
+   ]
+  ]
+ },
+ "e14PjrKPszc": {
+  "course": "git",
+  "key": "10-Branching-Strategies-for-Teams-part-2",
+  "title": "Git and GitHub for Teams Module 10 Part 2 of 2: Tags, Semantic Versions and Releases",
+  "seconds": 523,
+  "published": "2026-11-17T09:03:42Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Tags, versions and releases, continued"
+   ],
+   [
+    25,
+    "Tags, versions and releases, continued"
+   ],
+   [
+    33,
+    "Tags, versions and releases, continued"
+   ],
+   [
+    41,
+    "Tags, versions and releases, continued"
+   ],
+   [
+    82,
+    "Tags, versions and releases, continued"
+   ],
+   [
+    103,
+    "Tags, versions and releases, continued"
+   ],
+   [
+    111,
+    "Tags, versions and releases, continued"
+   ]
+  ]
+ },
+ "LXhnOs0OLFI": {
+  "course": "git",
+  "key": "11-Protecting-the-Main-Branch-part-1",
+  "title": "Git and GitHub for Teams Module 11 Part 1 of 2: Branch Protection, Rulesets and Required Checks",
+  "seconds": 489,
+  "published": "2026-11-17T09:04:04Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "What Was Executed and What Is Reference Only"
+   ],
+   [
+    75,
+    "Why protect main, and what a rule can require"
+   ],
+   [
+    94,
+    "Why protect main, and what a rule can require, continued"
+   ],
+   [
+    108,
+    "Why protect main, and what a rule can require, continued"
+   ],
+   [
+    126,
+    "Why protect main, and what a rule can require, continued"
+   ],
+   [
+    176,
+    "Why protect main, and what a rule can require, continued"
+   ],
+   [
+    214,
+    "Why protect main, and what a rule can require, continued"
+   ],
+   [
+    236,
+    "A local model: the push that gets rejected"
+   ],
+   [
+    261,
+    "A local model: the push that gets rejected, continued"
+   ],
+   [
+    269,
+    "A local model: the push that gets rejected, continued"
+   ],
+   [
+    278,
+    "A local model: the push that gets rejected, continued"
+   ],
+   [
+    287,
+    "A local model: the push that gets rejected, continued"
+   ],
+   [
+    314,
+    "A local model: the push that gets rejected, continued"
+   ],
+   [
+    323,
+    "A local model: the push that gets rejected, continued"
+   ],
+   [
+    349,
+    "A local model: the push that gets rejected, continued"
+   ],
+   [
+    358,
+    "A local model: the push that gets rejected, continued"
+   ],
+   [
+    378,
+    "Rules or rulesets"
+   ],
+   [
+    423,
+    "Rules or rulesets, continued"
+   ],
+   [
+    451,
+    "Merge queue, auto-merge and CODEOWNERS"
+   ]
+  ]
+ },
+ "a4Z_69uMoeU": {
+  "course": "git",
+  "key": "11-Protecting-the-Main-Branch-part-2",
+  "title": "Git and GitHub for Teams Module 11 Part 2 of 2: Merge Queue, Auto-Merge and CODEOWNERS",
+  "seconds": 488,
+  "published": "2026-11-17T09:04:21Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Merge queue, auto-merge and CODEOWNERS, continued"
+   ],
+   [
+    41,
+    "Merge queue, auto-merge and CODEOWNERS, continued"
+   ],
+   [
+    49,
+    "Merge queue, auto-merge and CODEOWNERS, continued"
+   ],
+   [
+    58,
+    "Merge queue, auto-merge and CODEOWNERS, continued"
+   ]
+  ]
+ },
+ "nVYWDHX_J6s": {
+  "course": "git",
+  "key": "12-Issues-Projects-and-Team-Habits-part-1",
+  "title": "Git and GitHub for Teams Module 12 Part 1 of 2: Issues, Commit Messages and Review Habits",
+  "seconds": 463,
+  "published": "2026-11-17T09:04:51Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "What Was Executed and What Is Reference Only"
+   ],
+   [
+    75,
+    "Issues, projects and Discussions"
+   ],
+   [
+    91,
+    "Issues, projects and Discussions, continued"
+   ],
+   [
+    107,
+    "Issues, projects and Discussions, continued"
+   ],
+   [
+    131,
+    "Issues, projects and Discussions, continued"
+   ],
+   [
+    165,
+    "Good commit messages and a commit-msg hook"
+   ],
+   [
+    198,
+    "Good commit messages and a commit-msg hook, continued"
+   ],
+   [
+    222,
+    "Good commit messages and a commit-msg hook, continued"
+   ],
+   [
+    230,
+    "Good commit messages and a commit-msg hook, continued"
+   ],
+   [
+    268,
+    "Good commit messages and a commit-msg hook, continued"
+   ],
+   [
+    277,
+    "Good commit messages and a commit-msg hook, continued"
+   ],
+   [
+    291,
+    "Good commit messages and a commit-msg hook, continued"
+   ],
+   [
+    299,
+    "Good commit messages and a commit-msg hook, continued"
+   ],
+   [
+    330,
+    "Small pull requests and review etiquette"
+   ],
+   [
+    363,
+    "Small pull requests and review etiquette, continued"
+   ],
+   [
+    401,
+    "Small pull requests and review etiquette, continued"
+   ],
+   [
+    433,
+    "Debugging history as a team"
+   ]
+  ]
+ },
+ "Hx3jnX0w-Wg": {
+  "course": "git",
+  "key": "12-Issues-Projects-and-Team-Habits-part-2",
+  "title": "Git and GitHub for Teams Module 12 Part 2 of 2: Debugging History with Blame and Bisect",
+  "seconds": 468,
+  "published": "2026-11-17T09:05:07Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Debugging history as a team, continued"
+   ],
+   [
+    8,
+    "Debugging history as a team, continued"
+   ],
+   [
+    16,
+    "Debugging history as a team, continued"
+   ],
+   [
+    37,
+    "Debugging history as a team, continued"
+   ],
+   [
+    45,
+    "Debugging history as a team, continued"
+   ],
+   [
+    53,
+    "Debugging history as a team, continued"
+   ]
+  ]
+ },
+ "Ydq8i-1Sk_g": {
+  "course": "git",
+  "key": "13-GitHub-Actions-Basics-part-1",
+  "title": "Git and GitHub for Teams Module 13 Part 1 of 2: GitHub Actions Model, First Workflow, Triggers",
+  "seconds": 445,
+  "published": "2026-11-17T09:05:21Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "What Was Executed and What Is Reference Only"
+   ],
+   [
+    77,
+    "The Actions model"
+   ],
+   [
+    93,
+    "The Actions model, continued"
+   ],
+   [
+    103,
+    "The Actions model, continued"
+   ],
+   [
+    144,
+    "The Actions model, continued"
+   ],
+   [
+    198,
+    "A first workflow and how to read a run"
+   ],
+   [
+    218,
+    "A first workflow and how to read a run, continued"
+   ],
+   [
+    262,
+    "A first workflow and how to read a run, continued"
+   ],
+   [
+    270,
+    "A first workflow and how to read a run, continued"
+   ],
+   [
+    278,
+    "A first workflow and how to read a run, continued"
+   ],
+   [
+    311,
+    "Triggers and filters"
+   ],
+   [
+    366,
+    "Triggers and filters, continued"
+   ],
+   [
+    385,
+    "Triggers and filters, continued"
+   ],
+   [
+    409,
+    "Contexts, variables and conditions"
+   ]
+  ]
+ },
+ "-r374KLG9eg": {
+  "course": "git",
+  "key": "13-GitHub-Actions-Basics-part-2",
+  "title": "Git and GitHub for Teams Module 13 Part 2 of 2: Contexts, Conditions, Jobs and Status Checks",
+  "seconds": 464,
+  "published": "2026-11-17T09:05:44Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Contexts, variables and conditions, continued"
+   ],
+   [
+    24,
+    "Contexts, variables and conditions, continued"
+   ],
+   [
+    62,
+    "Jobs in parallel, in order, and as checks"
+   ],
+   [
+    85,
+    "Jobs in parallel, in order, and as checks, continued"
+   ]
+  ]
+ },
+ "ABEPaVbwBDs": {
+  "course": "git",
+  "key": "14-Actions-for-CI-part-1",
+  "title": "Git and GitHub for Teams Module 14 Part 1 of 2: CI Workflows, Matrix, Cache and Artifacts",
+  "seconds": 469,
+  "published": "2026-11-17T09:06:00Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "What Was Executed and What Is Reference Only"
+   ],
+   [
+    73,
+    "A CI workflow: build and test on every change"
+   ],
+   [
+    90,
+    "A CI workflow: build and test on every change, continued"
+   ],
+   [
+    105,
+    "A CI workflow: build and test on every change, continued"
+   ],
+   [
+    121,
+    "A CI workflow: build and test on every change, continued"
+   ],
+   [
+    180,
+    "Matrix, cache and artifacts"
+   ],
+   [
+    221,
+    "Matrix, cache and artifacts, continued"
+   ],
+   [
+    229,
+    "Matrix, cache and artifacts, continued"
+   ],
+   [
+    256,
+    "Matrix, cache and artifacts, continued"
+   ],
+   [
+    288,
+    "Matrix, cache and artifacts, continued"
+   ],
+   [
+    316,
+    "Matrix, cache and artifacts, continued"
+   ],
+   [
+    332,
+    "Secrets, variables and environments"
+   ],
+   [
+    379,
+    "Secrets, variables and environments, continued"
+   ],
+   [
+    412,
+    "Permissions, concurrency, filters and the merge queue"
+   ],
+   [
+    438,
+    "Permissions, concurrency, filters and the merge queue, continued"
+   ]
+  ]
+ },
+ "7LZkD9aG-wY": {
+  "course": "git",
+  "key": "14-Actions-for-CI-part-2",
+  "title": "Git and GitHub for Teams Module 14 Part 2 of 2: Permissions, Concurrency and Reusable Workflows",
+  "seconds": 464,
+  "published": "2026-11-17T09:37:49Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Permissions, concurrency, filters and the merge queue, continued"
+   ],
+   [
+    29,
+    "Reusable workflows"
+   ],
+   [
+    50,
+    "Reusable workflows, continued"
+   ],
+   [
+    67,
+    "Reusable workflows, continued"
+   ]
+  ]
+ },
+ "NlLIfWc0Ito": {
+  "course": "git",
+  "key": "15-Security-and-Safety-part-1",
+  "title": "Git and GitHub for Teams Module 15 Part 1 of 2: Leaked Secrets, Scanning, Dependabot, Signing",
+  "seconds": 456,
+  "published": "2026-11-17T09:37:56Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "What Was Executed and What Is Reference Only"
+   ],
+   [
+    82,
+    "Keep secrets out of the repository"
+   ],
+   [
+    101,
+    "Keep secrets out of the repository, continued"
+   ],
+   [
+    114,
+    "Keep secrets out of the repository, continued"
+   ],
+   [
+    166,
+    "A secret was committed: rotate first"
+   ],
+   [
+    188,
+    "A secret was committed: rotate first, continued"
+   ],
+   [
+    231,
+    "A secret was committed: rotate first, continued"
+   ],
+   [
+    239,
+    "A secret was committed: rotate first, continued"
+   ],
+   [
+    247,
+    "A secret was committed: rotate first, continued"
+   ],
+   [
+    277,
+    "What GitHub adds: scanning, protection, Dependabot, signing"
+   ],
+   [
+    313,
+    "What GitHub adds: scanning, protection, Dependabot, signing, continued"
+   ],
+   [
+    343,
+    "What GitHub adds: scanning, protection, Dependabot, signing, continued"
+   ],
+   [
+    370,
+    "What GitHub adds: scanning, protection, Dependabot, signing, continued"
+   ],
+   [
+    402,
+    "What GitHub adds: scanning, protection, Dependabot, signing, continued"
+   ],
+   [
+    412,
+    "What GitHub adds: scanning, protection, Dependabot, signing, continued"
+   ],
+   [
+    422,
+    "What GitHub adds: scanning, protection, Dependabot, signing, continued"
+   ]
+  ]
+ },
+ "PH0fcq2IhlA": {
+  "course": "git",
+  "key": "15-Security-and-Safety-part-2",
+  "title": "Git and GitHub for Teams Module 15 Part 2 of 2: Safer Actions and Token Hygiene | Git and GitHub",
+  "seconds": 489,
+  "published": "2026-11-17T09:38:29Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Safer Actions and token hygiene"
+   ],
+   [
+    39,
+    "Safer Actions and token hygiene, continued"
+   ],
+   [
+    72,
+    "Safer Actions and token hygiene, continued"
+   ],
+   [
+    80,
+    "Safer Actions and token hygiene, continued"
+   ]
+  ]
+ },
+ "ed-HoiZSpTk": {
+  "course": "git",
+  "key": "16-Recipes-and-a-Team-Capstone-part-1",
+  "title": "Git and GitHub for Teams Module 16 Part 1 of 2: Recipes for Common Git Mistakes and Capstone",
+  "seconds": 414,
+  "published": "2026-11-17T09:38:44Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Recipes for common mistakes"
+   ],
+   [
+    66,
+    "Recipes for common mistakes, continued"
+   ],
+   [
+    77,
+    "Recipes for common mistakes, continued"
+   ],
+   [
+    102,
+    "Recipes for common mistakes, continued"
+   ],
+   [
+    138,
+    "Recipes for common mistakes, continued"
+   ],
+   [
+    186,
+    "Recipes for common mistakes, continued"
+   ],
+   [
+    214,
+    "The team simulation: who does what"
+   ],
+   [
+    251,
+    "The team simulation: who does what, continued"
+   ],
+   [
+    283,
+    "The team simulation: who does what, continued"
+   ],
+   [
+    291,
+    "The team simulation: who does what, continued"
+   ],
+   [
+    299,
+    "The team simulation: who does what, continued"
+   ],
+   [
+    323,
+    "Merge, squash, release and hotfix"
+   ],
+   [
+    349,
+    "Merge, squash, release and hotfix, continued"
+   ],
+   [
+    369,
+    "Merge, squash, release and hotfix, continued"
+   ],
+   [
+    377,
+    "Merge, squash, release and hotfix, continued"
+   ]
+  ]
+ },
+ "F2iFpj-4reo": {
+  "course": "git",
+  "key": "16-Recipes-and-a-Team-Capstone-part-2",
+  "title": "Git and GitHub for Teams Module 16 Part 2 of 2: The Final Checklist for a Team Repository",
+  "seconds": 442,
+  "published": "2026-11-17T09:39:03Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Practice questions"
+   ],
+   [
+    280,
+    "Recall check"
+   ],
+   [
+    377,
+    "Module recap"
+   ]
+  ]
+ },
+ "JweCi-SiLeg": {
+  "course": "git",
+  "key": "07-Remotes-Clone-Fetch-Pull-Push-part-1",
+  "title": "Git and GitHub for Teams Module 7 Part 1 of 2: Clone, Fetch, Pull, Push and Rejected Pushes",
+  "seconds": 458,
+  "published": "2026-11-17T10:34:01Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "A remote is another repository"
+   ],
+   [
+    78,
+    "A remote is another repository, continued"
+   ],
+   [
+    90,
+    "A remote is another repository, continued"
+   ],
+   [
+    123,
+    "A remote is another repository, continued"
+   ],
+   [
+    148,
+    "A remote is another repository, continued"
+   ],
+   [
+    156,
+    "A remote is another repository, continued"
+   ],
+   [
+    172,
+    "Fetch, pull and remote-tracking branches"
+   ],
+   [
+    209,
+    "Fetch, pull and remote-tracking branches, continued"
+   ],
+   [
+    239,
+    "Fetch, pull and remote-tracking branches, continued"
+   ],
+   [
+    247,
+    "Fetch, pull and remote-tracking branches, continued"
+   ],
+   [
+    264,
+    "A rejected push, and the fix"
+   ],
+   [
+    291,
+    "A rejected push, and the fix, continued"
+   ],
+   [
+    299,
+    "A rejected push, and the fix, continued"
+   ],
+   [
+    307,
+    "A rejected push, and the fix, continued"
+   ],
+   [
+    336,
+    "A rejected push, and the fix, continued"
+   ],
+   [
+    371,
+    "Force pushes, new branches and clean-up"
+   ],
+   [
+    392,
+    "Force pushes, new branches and clean-up, continued"
+   ],
+   [
+    418,
+    "Force pushes, new branches and clean-up, continued"
+   ]
+  ]
+ },
+ "x_O-FjWOdOo": {
+  "course": "git",
+  "key": "07-Remotes-Clone-Fetch-Pull-Push-part-2",
+  "title": "Git and GitHub for Teams Module 7 Part 2 of 2: Force Pushes, Clean-Up and Several Remotes",
+  "seconds": 478,
+  "published": "2026-11-17T10:34:30Z",
+  "privacy": "public",
+  "embeddable": true,
+  "chapters": [
+   [
+    0,
+    "Force pushes, new branches and clean-up, continued"
+   ],
+   [
+    14,
+    "Force pushes, new branches and clean-up, continued"
+   ],
+   [
+    30,
+    "More than one remote"
+   ],
+   [
+    76,
+    "More than one remote, continued"
+   ],
+   [
+    88,
+    "More than one remote, continued"
+   ]
+  ]
+ },
  "Ju-DMsgiLWI": {
   "course": "p2p",
   "key": "00-Exam-Orientation-and-How-to-Study-part-1",

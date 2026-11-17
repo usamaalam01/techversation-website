@@ -167,6 +167,20 @@ def read_header_bold(lines):
     return items, i
 
 
+def split_sections(text):
+    """like re.split(r"^(?=## )", text, flags=re.M) but ignores '## ' lines inside fenced code blocks"""
+    parts, cur, in_fence = [], [], False
+    for ln in text.split("\n"):
+        if ln.lstrip().startswith("```"):
+            in_fence = not in_fence
+        if not in_fence and ln.startswith("## ") and cur:
+            parts.append("\n".join(cur) + "\n")
+            cur = []
+        cur.append(ln)
+    parts.append("\n".join(cur))
+    return parts
+
+
 def title_of(path):
     first = path.read_text(encoding="utf-8").splitlines()[0]
     m = re.match(r"#\s*(Topic|Chapter|Week|Module)\s+(\d+):\s*(.+?)(?:\s+[—-]\s+(?:CSM|PMP|CDMP|KCNA|AIGP|CLF|AIF|SAA|DEA|CCAR-F|CCDV-F|CCAO-F|CCAR-P|CKA|CKAD|PL-300|PRINCE2 Practitioner|ISC2 CC|Cloud Digital Leader|Terraform Associate|SC-200|AZ-900|AI-901|SY0-801|SC-900|ITIL Foundation|PRINCE2 Foundation|DVA-C03|AZ-104|N10-009) Exam Summary|Git and GitHub Summary)?\s*$", first)
@@ -219,7 +233,7 @@ def convert_note(cfg, slug, path, group, urls, pub, entry=None):
         ex = extra[0].read_text(encoding="utf-8").splitlines()
         body_lines += ["", "---", "", "## " + extra[1]] + [("### " + ln[3:]) if ln.startswith("## ") else ln for ln in ex[1:]]
     body_text = re.sub(r"^(\s*(?:[-*+]|\d+\.)\s+)#(?= )", r"\1\\#", "\n".join(body_lines), flags=re.M)      # "- # of policies" means "number of", not a heading
-    sections = re.split(r"^(?=## )", body_text, flags=re.M)
+    sections = split_sections(body_text)
     used_ids = set()
     html, toc = [], []
     counts = dict(tables=0, images=0, scenario=0, recall=0, sections=0)

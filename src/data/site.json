@@ -57924,6 +57924,2592 @@
   },
   {
    "kind": "training",
+   "topic": "Git",
+   "slug": "git",
+   "institute": "training",
+   "short": "Git and GitHub",
+   "name": "Git and GitHub for Teams",
+   "title": "Git and GitHub for Teams Training Masterclass",
+   "accent": "c-git",
+   "desc": "Work confidently in a shared repository: commits, branches, merges and conflicts, rebase, undoing mistakes, remotes, pull requests, branch protection and CODEOWNERS, GitHub Actions workflows and keeping secrets out, with hands-on labs in every module.",
+   "audience": "Developers, operations and data people, students and career changers who work in a team repository. You need basic terminal skills; no Git knowledge is assumed.",
+   "sources": "Every Git command was run for real (Git 2.50.1) in practice repositories. The GitHub features are written from the official GitHub documentation and were not run; the workflow files were checked for syntax.",
+   "playlist": "PLFkH3WD6TNBw",
+   "cover": "img/covers/git.jpg",
+   "modules": [
+    {
+     "num": "00",
+     "slug": "00-welcome-and-setup",
+     "title": "Welcome and Setup",
+     "desc": "Git, GitHub and the course map",
+     "parts": [
+      {
+       "part": 1,
+       "id": "XCMZsbZaZhY",
+       "title": "Git, GitHub and the course map",
+       "seconds": 489,
+       "chapters": [
+        [
+         0,
+         "Git, GitHub and the course map"
+        ],
+        [
+         69,
+         "Git, GitHub and the course map, continued"
+        ],
+        [
+         84,
+         "Git, GitHub and the course map, continued"
+        ],
+        [
+         134,
+         "Git, GitHub and the course map, continued"
+        ],
+        [
+         195,
+         "Install check and first-time configuration"
+        ],
+        [
+         230,
+         "Install check and first-time configuration, continued"
+        ],
+        [
+         239,
+         "Install check and first-time configuration, continued"
+        ],
+        [
+         247,
+         "Install check and first-time configuration, continued"
+        ],
+        [
+         299,
+         "Install check and first-time configuration, continued"
+        ],
+        [
+         307,
+         "Install check and first-time configuration, continued"
+        ],
+        [
+         316,
+         "Configuration levels and line endings"
+        ],
+        [
+         355,
+         "Configuration levels and line endings, continued"
+        ],
+        [
+         383,
+         "Configuration levels and line endings, continued"
+        ],
+        [
+         391,
+         "Configuration levels and line endings, continued"
+        ],
+        [
+         408,
+         "Configuration levels and line endings, continued"
+        ],
+        [
+         455,
+         "Configuration levels and line endings, continued"
+        ],
+        [
+         480,
+         "Configuration levels and line endings, continued"
+        ]
+       ],
+       "published": "2026-11-17T08:56:53Z",
+       "thumb": "img/modules/git/00-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "N0TFJGlDT-Y",
+       "title": "Configuration levels and line endings and First repository, status and help, recall and recap",
+       "seconds": 453,
+       "chapters": [
+        [
+         0,
+         "Configuration levels and line endings, continued"
+        ],
+        [
+         10,
+         "First repository, status and help"
+        ],
+        [
+         49,
+         "First repository, status and help, continued"
+        ]
+       ],
+       "published": "2026-11-17T08:57:09Z",
+       "thumb": "img/modules/git/00-2.jpg"
+      }
+     ],
+     "deck": "downloads/git/00-welcome-and-setup.pptx",
+     "deck_kb": 201,
+     "seconds": 942,
+     "words": 1977
+    },
+    {
+     "num": "01",
+     "slug": "01-the-git-mental-model",
+     "title": "The Git Mental Model",
+     "desc": "Three areas: working tree, staging area, repository",
+     "parts": [
+      {
+       "part": 1,
+       "id": "O3v_QYF1MxQ",
+       "title": "Three areas: working tree, staging area, repository",
+       "seconds": 452,
+       "chapters": [
+        [
+         0,
+         "Three areas: working tree, staging area, repository"
+        ],
+        [
+         72,
+         "Three areas: working tree, staging area, repository, continued"
+        ],
+        [
+         86,
+         "Three areas: working tree, staging area, repository, continued"
+        ],
+        [
+         139,
+         "Three areas: working tree, staging area, repository, continued"
+        ],
+        [
+         167,
+         "Three areas: working tree, staging area, repository, continued"
+        ],
+        [
+         186,
+         "What a commit is: snapshots and objects"
+        ],
+        [
+         222,
+         "What a commit is: snapshots and objects, continued"
+        ],
+        [
+         257,
+         "What a commit is: snapshots and objects, continued"
+        ],
+        [
+         265,
+         "What a commit is: snapshots and objects, continued"
+        ],
+        [
+         274,
+         "What a commit is: snapshots and objects, continued"
+        ],
+        [
+         300,
+         "What a commit is: snapshots and objects, continued"
+        ],
+        [
+         318,
+         "What a commit is: snapshots and objects, continued"
+        ],
+        [
+         332,
+         "Hashes: names made from content"
+        ],
+        [
+         365,
+         "Hashes: names made from content, continued"
+        ],
+        [
+         413,
+         "Branches, HEAD and the history graph"
+        ]
+       ],
+       "published": "2026-11-17T08:57:32Z",
+       "thumb": "img/modules/git/01-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "9j12D90YBa0",
+       "title": "Branches, HEAD and the history graph, recall and recap",
+       "seconds": 420,
+       "chapters": [
+        [
+         0,
+         "Branches, HEAD and the history graph, continued"
+        ],
+        [
+         8,
+         "Branches, HEAD and the history graph, continued"
+        ],
+        [
+         17,
+         "Branches, HEAD and the history graph, continued"
+        ]
+       ],
+       "published": "2026-11-17T08:57:52Z",
+       "thumb": "img/modules/git/01-2.jpg"
+      }
+     ],
+     "deck": "downloads/git/01-the-git-mental-model.pptx",
+     "deck_kb": 181,
+     "seconds": 872,
+     "words": 1950
+    },
+    {
+     "num": "02",
+     "slug": "02-the-daily-loop-stage-commit-inspect",
+     "title": "The Daily Loop: Stage, Commit, Inspect",
+     "desc": "The loop: status, add, commit",
+     "parts": [
+      {
+       "part": 1,
+       "id": "FcHV3oTrkuU",
+       "title": "The loop: status, add, commit",
+       "seconds": 466,
+       "chapters": [
+        [
+         0,
+         "The loop: status, add, commit"
+        ],
+        [
+         73,
+         "The loop: status, add, commit, continued"
+        ],
+        [
+         86,
+         "The loop: status, add, commit, continued"
+        ],
+        [
+         131,
+         "The loop: status, add, commit, continued"
+        ],
+        [
+         166,
+         "The loop: status, add, commit, continued"
+        ],
+        [
+         174,
+         "The loop: status, add, commit, continued"
+        ],
+        [
+         192,
+         "Reading changes: diff, log and show"
+        ],
+        [
+         217,
+         "Reading changes: diff, log and show, continued"
+        ],
+        [
+         230,
+         "Reading changes: diff, log and show, continued"
+        ],
+        [
+         238,
+         "Reading changes: diff, log and show, continued"
+        ],
+        [
+         261,
+         "Reading changes: diff, log and show, continued"
+        ],
+        [
+         304,
+         "Reading changes: diff, log and show, continued"
+        ],
+        [
+         313,
+         "Reading changes: diff, log and show, continued"
+        ],
+        [
+         330,
+         "Remove, rename and ignore"
+        ],
+        [
+         362,
+         "Remove, rename and ignore, continued"
+        ],
+        [
+         410,
+         "Remove, rename and ignore, continued"
+        ],
+        [
+         418,
+         "Remove, rename and ignore, continued"
+        ],
+        [
+         426,
+         "Remove, rename and ignore, continued"
+        ],
+        [
+         444,
+         "A good commit and amend"
+        ]
+       ],
+       "published": "2026-11-17T08:57:59Z",
+       "thumb": "img/modules/git/02-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "mbE7u9O98PY",
+       "title": "A good commit and amend, recall and recap",
+       "seconds": 445,
+       "chapters": [
+        [
+         0,
+         "A good commit and amend, continued"
+        ],
+        [
+         35,
+         "A good commit and amend, continued"
+        ],
+        [
+         42,
+         "A good commit and amend, continued"
+        ],
+        [
+         50,
+         "A good commit and amend, continued"
+        ]
+       ],
+       "published": "2026-11-17T08:58:23Z",
+       "thumb": "img/modules/git/02-2.jpg"
+      }
+     ],
+     "deck": "downloads/git/02-the-daily-loop-stage-commit-inspect.pptx",
+     "deck_kb": 187,
+     "seconds": 911,
+     "words": 1980
+    },
+    {
+     "num": "03",
+     "slug": "03-branches-and-tags",
+     "title": "Branches and Tags",
+     "desc": "Create, list and switch",
+     "parts": [
+      {
+       "part": 1,
+       "id": "je7RD61Zkwk",
+       "title": "Create, list and switch",
+       "seconds": 430,
+       "chapters": [
+        [
+         0,
+         "Create, list and switch"
+        ],
+        [
+         72,
+         "Create, list and switch, continued"
+        ],
+        [
+         86,
+         "Create, list and switch, continued"
+        ],
+        [
+         132,
+         "Create, list and switch, continued"
+        ],
+        [
+         151,
+         "Create, list and switch, continued"
+        ],
+        [
+         159,
+         "Create, list and switch, continued"
+        ],
+        [
+         185,
+         "Rename, delete and inspect"
+        ],
+        [
+         227,
+         "Rename, delete and inspect, continued"
+        ],
+        [
+         235,
+         "Rename, delete and inspect, continued"
+        ],
+        [
+         243,
+         "Rename, delete and inspect, continued"
+        ],
+        [
+         273,
+         "Rename, delete and inspect, continued"
+        ],
+        [
+         281,
+         "Rename, delete and inspect, continued"
+        ],
+        [
+         298,
+         "Detached HEAD"
+        ],
+        [
+         330,
+         "Detached HEAD, continued"
+        ],
+        [
+         351,
+         "Detached HEAD, continued"
+        ],
+        [
+         358,
+         "Detached HEAD, continued"
+        ],
+        [
+         365,
+         "Detached HEAD, continued"
+        ],
+        [
+         383,
+         "Tags"
+        ]
+       ],
+       "published": "2026-11-17T08:58:38Z",
+       "thumb": "img/modules/git/03-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "_F7Wc8njlFk",
+       "title": "Tags, recall and recap",
+       "seconds": 438,
+       "chapters": [
+        [
+         0,
+         "Tags, continued"
+        ],
+        [
+         39,
+         "Tags, continued"
+        ],
+        [
+         46,
+         "Tags, continued"
+        ],
+        [
+         53,
+         "Tags, continued"
+        ]
+       ],
+       "published": "2026-11-17T08:59:00Z",
+       "thumb": "img/modules/git/03-2.jpg"
+      }
+     ],
+     "deck": "downloads/git/03-branches-and-tags.pptx",
+     "deck_kb": 168,
+     "seconds": 868,
+     "words": 1929
+    },
+    {
+     "num": "04",
+     "slug": "04-merging-and-resolving-conflicts",
+     "title": "Merging and Resolving Conflicts",
+     "desc": "Two kinds of merge",
+     "parts": [
+      {
+       "part": 1,
+       "id": "8UZnJrktg94",
+       "title": "Two kinds of merge",
+       "seconds": 396,
+       "chapters": [
+        [
+         0,
+         "Two kinds of merge"
+        ],
+        [
+         70,
+         "Two kinds of merge, continued"
+        ],
+        [
+         83,
+         "Two kinds of merge, continued"
+        ],
+        [
+         132,
+         "Two kinds of merge, continued"
+        ],
+        [
+         140,
+         "Two kinds of merge, continued"
+        ],
+        [
+         147,
+         "Two kinds of merge, continued"
+        ],
+        [
+         170,
+         "Two kinds of merge, continued"
+        ],
+        [
+         193,
+         "Two kinds of merge, continued"
+        ],
+        [
+         200,
+         "Two kinds of merge, continued"
+        ],
+        [
+         207,
+         "Two kinds of merge, continued"
+        ],
+        [
+         226,
+         "A conflict and how to read it"
+        ],
+        [
+         248,
+         "A conflict and how to read it, continued"
+        ],
+        [
+         256,
+         "A conflict and how to read it, continued"
+        ],
+        [
+         285,
+         "A conflict and how to read it, continued"
+        ],
+        [
+         302,
+         "A conflict and how to read it, continued"
+        ],
+        [
+         310,
+         "A conflict and how to read it, continued"
+        ],
+        [
+         328,
+         "Resolve, continue or abort"
+        ],
+        [
+         359,
+         "Resolve, continue or abort, continued"
+        ],
+        [
+         367,
+         "Resolve, continue or abort, continued"
+        ],
+        [
+         375,
+         "Resolve, continue or abort, continued"
+        ]
+       ],
+       "published": "2026-11-17T08:59:14Z",
+       "thumb": "img/modules/git/04-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "3KQqZf9lMjM",
+       "title": "Resolve, continue or abort, recall and recap",
+       "seconds": 418,
+       "chapters": [
+        [
+         0,
+         "Practice questions"
+        ],
+        [
+         261,
+         "Recall check"
+        ],
+        [
+         357,
+         "Module recap"
+        ]
+       ],
+       "published": "2026-11-17T08:59:30Z",
+       "thumb": "img/modules/git/04-2.jpg"
+      }
+     ],
+     "deck": "downloads/git/04-merging-and-resolving-conflicts.pptx",
+     "deck_kb": 174,
+     "seconds": 814,
+     "words": 1805
+    },
+    {
+     "num": "05",
+     "slug": "05-rebase-and-tidy-history",
+     "title": "Rebase and Tidy History",
+     "desc": "What a rebase does",
+     "parts": [
+      {
+       "part": 1,
+       "id": "YMVLpEfoQKg",
+       "title": "What a rebase does",
+       "seconds": 488,
+       "chapters": [
+        [
+         0,
+         "What a rebase does"
+        ],
+        [
+         71,
+         "What a rebase does, continued"
+        ],
+        [
+         84,
+         "What a rebase does, continued"
+        ],
+        [
+         98,
+         "What a rebase does, continued"
+        ],
+        [
+         105,
+         "What a rebase does, continued"
+        ],
+        [
+         155,
+         "Conflicts during a rebase"
+        ],
+        [
+         193,
+         "Conflicts during a rebase, continued"
+        ],
+        [
+         201,
+         "Conflicts during a rebase, continued"
+        ],
+        [
+         209,
+         "Conflicts during a rebase, continued"
+        ],
+        [
+         245,
+         "Conflicts during a rebase, continued"
+        ],
+        [
+         266,
+         "Tidy history before you share it"
+        ],
+        [
+         297,
+         "Tidy history before you share it, continued"
+        ],
+        [
+         344,
+         "Tidy history before you share it, continued"
+        ],
+        [
+         352,
+         "Tidy history before you share it, continued"
+        ],
+        [
+         360,
+         "Tidy history before you share it, continued"
+        ],
+        [
+         390,
+         "Tidy history before you share it, continued"
+        ],
+        [
+         397,
+         "Tidy history before you share it, continued"
+        ],
+        [
+         415,
+         "Move a branch, pull with rebase, and the golden rule"
+        ],
+        [
+         448,
+         "Move a branch, pull with rebase, and the golden rule, continued"
+        ]
+       ],
+       "published": "2026-11-17T08:59:56Z",
+       "thumb": "img/modules/git/05-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "A6fVFLcqswk",
+       "title": "Move a branch, pull with rebase, and the golden rule, recall and recap",
+       "seconds": 533,
+       "chapters": [
+        [
+         0,
+         "Move a branch, pull with rebase, and the golden rule, continued"
+        ],
+        [
+         50,
+         "Move a branch, pull with rebase, and the golden rule, continued"
+        ],
+        [
+         83,
+         "Recovering from a bad rebase"
+        ],
+        [
+         115,
+         "Recovering from a bad rebase, continued"
+        ],
+        [
+         123,
+         "Recovering from a bad rebase, continued"
+        ]
+       ],
+       "published": "2026-11-17T09:00:17Z",
+       "thumb": "img/modules/git/05-2.jpg"
+      }
+     ],
+     "deck": "downloads/git/05-rebase-and-tidy-history.pptx",
+     "deck_kb": 190,
+     "seconds": 1021,
+     "words": 2361
+    },
+    {
+     "num": "06",
+     "slug": "06-undoing-and-recovering",
+     "title": "Undoing and Recovering",
+     "desc": "Undo changes you have not committed",
+     "parts": [
+      {
+       "part": 1,
+       "id": "TSVjHMITJRA",
+       "title": "Undo changes you have not committed",
+       "seconds": 504,
+       "chapters": [
+        [
+         0,
+         "Undo changes you have not committed"
+        ],
+        [
+         72,
+         "Undo changes you have not committed, continued"
+        ],
+        [
+         88,
+         "Undo changes you have not committed, continued"
+        ],
+        [
+         120,
+         "Undo changes you have not committed, continued"
+        ],
+        [
+         155,
+         "Undo changes you have not committed, continued"
+        ],
+        [
+         163,
+         "Undo changes you have not committed, continued"
+        ],
+        [
+         180,
+         "Undo local commits: amend and reset"
+        ],
+        [
+         241,
+         "Undo local commits: amend and reset, continued"
+        ],
+        [
+         249,
+         "Undo local commits: amend and reset, continued"
+        ],
+        [
+         258,
+         "Undo local commits: amend and reset, continued"
+        ],
+        [
+         289,
+         "Undo shared commits: revert and cherry-pick"
+        ],
+        [
+         316,
+         "Undo shared commits: revert and cherry-pick, continued"
+        ],
+        [
+         325,
+         "Undo shared commits: revert and cherry-pick, continued"
+        ],
+        [
+         334,
+         "Undo shared commits: revert and cherry-pick, continued"
+        ],
+        [
+         373,
+         "Undo shared commits: revert and cherry-pick, continued"
+        ],
+        [
+         404,
+         "Stash: park work without committing"
+        ],
+        [
+         455,
+         "Stash: park work without committing, continued"
+        ],
+        [
+         467,
+         "Stash: park work without committing, continued"
+        ],
+        [
+         475,
+         "Stash: park work without committing, continued"
+        ]
+       ],
+       "published": "2026-11-17T09:00:54Z",
+       "thumb": "img/modules/git/06-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "j0Ab7iCPykI",
+       "title": "The safety net: the reflog, recall and recap",
+       "seconds": 488,
+       "chapters": [
+        [
+         0,
+         "The safety net: the reflog"
+        ],
+        [
+         22,
+         "The safety net: the reflog, continued"
+        ],
+        [
+         30,
+         "The safety net: the reflog, continued"
+        ],
+        [
+         37,
+         "The safety net: the reflog, continued"
+        ],
+        [
+         67,
+         "The safety net: the reflog, continued"
+        ]
+       ],
+       "published": "2026-11-17T09:00:54Z",
+       "thumb": "img/modules/git/06-2.jpg"
+      }
+     ],
+     "deck": "downloads/git/06-undoing-and-recovering.pptx",
+     "deck_kb": 197,
+     "seconds": 992,
+     "words": 2185
+    },
+    {
+     "num": "07",
+     "slug": "07-remotes-clone-fetch-pull-push",
+     "title": "Remotes: Clone, Fetch, Pull, Push",
+     "desc": "A remote is another repository",
+     "parts": [
+      {
+       "part": 1,
+       "id": "JweCi-SiLeg",
+       "title": "A remote is another repository",
+       "seconds": 458,
+       "chapters": [
+        [
+         0,
+         "A remote is another repository"
+        ],
+        [
+         78,
+         "A remote is another repository, continued"
+        ],
+        [
+         90,
+         "A remote is another repository, continued"
+        ],
+        [
+         123,
+         "A remote is another repository, continued"
+        ],
+        [
+         148,
+         "A remote is another repository, continued"
+        ],
+        [
+         156,
+         "A remote is another repository, continued"
+        ],
+        [
+         172,
+         "Fetch, pull and remote-tracking branches"
+        ],
+        [
+         209,
+         "Fetch, pull and remote-tracking branches, continued"
+        ],
+        [
+         239,
+         "Fetch, pull and remote-tracking branches, continued"
+        ],
+        [
+         247,
+         "Fetch, pull and remote-tracking branches, continued"
+        ],
+        [
+         264,
+         "A rejected push, and the fix"
+        ],
+        [
+         291,
+         "A rejected push, and the fix, continued"
+        ],
+        [
+         299,
+         "A rejected push, and the fix, continued"
+        ],
+        [
+         307,
+         "A rejected push, and the fix, continued"
+        ],
+        [
+         336,
+         "A rejected push, and the fix, continued"
+        ],
+        [
+         371,
+         "Force pushes, new branches and clean-up"
+        ],
+        [
+         392,
+         "Force pushes, new branches and clean-up, continued"
+        ],
+        [
+         418,
+         "Force pushes, new branches and clean-up, continued"
+        ]
+       ],
+       "published": "2026-11-17T10:34:01Z",
+       "thumb": "img/modules/git/07-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "x_O-FjWOdOo",
+       "title": "Force pushes, new branches and clean-up, recall and recap",
+       "seconds": 478,
+       "chapters": [
+        [
+         0,
+         "Force pushes, new branches and clean-up, continued"
+        ],
+        [
+         14,
+         "Force pushes, new branches and clean-up, continued"
+        ],
+        [
+         30,
+         "More than one remote"
+        ],
+        [
+         76,
+         "More than one remote, continued"
+        ],
+        [
+         88,
+         "More than one remote, continued"
+        ]
+       ],
+       "published": "2026-11-17T10:34:30Z",
+       "thumb": "img/modules/git/07-2.jpg"
+      }
+     ],
+     "deck": "downloads/git/07-remotes-clone-fetch-pull-push.pptx",
+     "deck_kb": 191,
+     "seconds": 936,
+     "words": 2100
+    },
+    {
+     "num": "08",
+     "slug": "08-github-basics",
+     "title": "GitHub Basics",
+     "desc": "What Was Executed and What Is Reference Only and What GitHub adds to a Git repository",
+     "parts": [
+      {
+       "part": 1,
+       "id": "WyJzFCtEscY",
+       "title": "What Was Executed and What Is Reference Only and What GitHub adds to a Git repository",
+       "seconds": 546,
+       "chapters": [
+        [
+         0,
+         "What Was Executed and What Is Reference Only"
+        ],
+        [
+         75,
+         "What GitHub adds to a Git repository"
+        ],
+        [
+         99,
+         "What GitHub adds to a Git repository, continued"
+        ],
+        [
+         117,
+         "What GitHub adds to a Git repository, continued"
+        ],
+        [
+         155,
+         "What GitHub adds to a Git repository, continued"
+        ],
+        [
+         186,
+         "What GitHub adds to a Git repository, continued"
+        ],
+        [
+         214,
+         "Creating a repository"
+        ],
+        [
+         237,
+         "Creating a repository, continued"
+        ],
+        [
+         286,
+         "Creating a repository, continued"
+        ],
+        [
+         294,
+         "Creating a repository, continued"
+        ],
+        [
+         301,
+         "Creating a repository, continued"
+        ],
+        [
+         326,
+         "Clone URLs and authentication"
+        ],
+        [
+         367,
+         "Clone URLs and authentication, continued"
+        ],
+        [
+         388,
+         "Clone URLs and authentication, continued"
+        ],
+        [
+         396,
+         "Clone URLs and authentication, continued"
+        ],
+        [
+         425,
+         "Clone URLs and authentication, continued"
+        ],
+        [
+         477,
+         "Clone URLs and authentication, continued"
+        ],
+        [
+         520,
+         "Clone URLs and authentication, continued"
+        ],
+        [
+         528,
+         "Clone URLs and authentication, continued"
+        ]
+       ],
+       "published": "2026-11-17T09:01:52Z",
+       "thumb": "img/modules/git/08-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "CeOfy9A75m0",
+       "title": "Forks, branches and upstream, recall and recap",
+       "seconds": 557,
+       "chapters": [
+        [
+         0,
+         "Forks, branches and upstream"
+        ],
+        [
+         23,
+         "Forks, branches and upstream, continued"
+        ],
+        [
+         78,
+         "Forks, branches and upstream, continued"
+        ],
+        [
+         94,
+         "Forks, branches and upstream, continued"
+        ],
+        [
+         102,
+         "Forks, branches and upstream, continued"
+        ],
+        [
+         125,
+         "The GitHub CLI"
+        ]
+       ],
+       "published": "2026-11-17T09:02:04Z",
+       "thumb": "img/modules/git/08-2.jpg"
+      }
+     ],
+     "deck": "downloads/git/08-github-basics.pptx",
+     "deck_kb": 204,
+     "seconds": 1103,
+     "words": 2418
+    },
+    {
+     "num": "09",
+     "slug": "09-pull-requests",
+     "title": "Pull Requests",
+     "desc": "What Was Executed and What Is Reference Only and The GitHub flow and opening a pull request",
+     "parts": [
+      {
+       "part": 1,
+       "id": "cMXvLy3eF_E",
+       "title": "What Was Executed and What Is Reference Only and The GitHub flow and opening a pull request",
+       "seconds": 506,
+       "chapters": [
+        [
+         0,
+         "What Was Executed and What Is Reference Only"
+        ],
+        [
+         76,
+         "The GitHub flow and opening a pull request"
+        ],
+        [
+         89,
+         "The GitHub flow and opening a pull request, continued"
+        ],
+        [
+         101,
+         "The GitHub flow and opening a pull request, continued"
+        ],
+        [
+         138,
+         "The GitHub flow and opening a pull request, continued"
+        ],
+        [
+         187,
+         "Reviews and keeping the branch current"
+        ],
+        [
+         209,
+         "Reviews and keeping the branch current, continued"
+        ],
+        [
+         243,
+         "Reviews and keeping the branch current, continued"
+        ],
+        [
+         291,
+         "Reviews and keeping the branch current, continued"
+        ],
+        [
+         299,
+         "Reviews and keeping the branch current, continued"
+        ],
+        [
+         316,
+         "The three merge methods and what they do to history"
+        ],
+        [
+         367,
+         "The three merge methods and what they do to history, continued"
+        ],
+        [
+         382,
+         "The three merge methods and what they do to history, continued"
+        ],
+        [
+         394,
+         "The three merge methods and what they do to history, continued"
+        ],
+        [
+         403,
+         "The three merge methods and what they do to history, continued"
+        ],
+        [
+         432,
+         "The three merge methods and what they do to history, continued"
+        ],
+        [
+         440,
+         "The three merge methods and what they do to history, continued"
+        ],
+        [
+         449,
+         "The three merge methods and what they do to history, continued"
+        ],
+        [
+         472,
+         "Linking issues, templates and cleaning up"
+        ]
+       ],
+       "published": "2026-11-17T09:02:41Z",
+       "thumb": "img/modules/git/09-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "kqH3lybMLtA",
+       "title": "Linking issues, templates and cleaning up, recall and recap",
+       "seconds": 488,
+       "chapters": [
+        [
+         0,
+         "Linking issues, templates and cleaning up, continued"
+        ],
+        [
+         42,
+         "Linking issues, templates and cleaning up, continued"
+        ],
+        [
+         50,
+         "Linking issues, templates and cleaning up, continued"
+        ],
+        [
+         59,
+         "Linking issues, templates and cleaning up, continued"
+        ],
+        [
+         88,
+         "Linking issues, templates and cleaning up, continued"
+        ]
+       ],
+       "published": "2026-11-17T09:02:47Z",
+       "thumb": "img/modules/git/09-2.jpg"
+      }
+     ],
+     "deck": "downloads/git/09-pull-requests.pptx",
+     "deck_kb": 193,
+     "seconds": 994,
+     "words": 2244
+    },
+    {
+     "num": "10",
+     "slug": "10-branching-strategies-for-teams",
+     "title": "Branching Strategies for Teams",
+     "desc": "What Was Executed and What Is Reference Only and Three strategies and the team each one fits",
+     "parts": [
+      {
+       "part": 1,
+       "id": "LOqoKTge5e0",
+       "title": "What Was Executed and What Is Reference Only and Three strategies and the team each one fits",
+       "seconds": 520,
+       "chapters": [
+        [
+         0,
+         "What Was Executed and What Is Reference Only"
+        ],
+        [
+         73,
+         "Three strategies and the team each one fits"
+        ],
+        [
+         87,
+         "Three strategies and the team each one fits, continued"
+        ],
+        [
+         103,
+         "Three strategies and the team each one fits, continued"
+        ],
+        [
+         142,
+         "Three strategies and the team each one fits, continued"
+        ],
+        [
+         171,
+         "Three strategies and the team each one fits, continued"
+        ],
+        [
+         235,
+         "Three strategies and the team each one fits, continued"
+        ],
+        [
+         244,
+         "Three strategies and the team each one fits, continued"
+        ],
+        [
+         252,
+         "Three strategies and the team each one fits, continued"
+        ],
+        [
+         282,
+         "Release branches and hotfixes"
+        ],
+        [
+         322,
+         "Release branches and hotfixes, continued"
+        ],
+        [
+         335,
+         "Release branches and hotfixes, continued"
+        ],
+        [
+         342,
+         "Release branches and hotfixes, continued"
+        ],
+        [
+         379,
+         "Branch names and long-lived branches"
+        ],
+        [
+         420,
+         "Branch names and long-lived branches, continued"
+        ],
+        [
+         453,
+         "Branch names and long-lived branches, continued"
+        ],
+        [
+         461,
+         "Branch names and long-lived branches, continued"
+        ],
+        [
+         470,
+         "Branch names and long-lived branches, continued"
+        ],
+        [
+         489,
+         "Tags, versions and releases"
+        ]
+       ],
+       "published": "2026-11-17T09:03:24Z",
+       "thumb": "img/modules/git/10-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "e14PjrKPszc",
+       "title": "Tags, versions and releases, recall and recap",
+       "seconds": 523,
+       "chapters": [
+        [
+         0,
+         "Tags, versions and releases, continued"
+        ],
+        [
+         25,
+         "Tags, versions and releases, continued"
+        ],
+        [
+         33,
+         "Tags, versions and releases, continued"
+        ],
+        [
+         41,
+         "Tags, versions and releases, continued"
+        ],
+        [
+         82,
+         "Tags, versions and releases, continued"
+        ],
+        [
+         103,
+         "Tags, versions and releases, continued"
+        ],
+        [
+         111,
+         "Tags, versions and releases, continued"
+        ]
+       ],
+       "published": "2026-11-17T09:03:42Z",
+       "thumb": "img/modules/git/10-2.jpg"
+      }
+     ],
+     "deck": "downloads/git/10-branching-strategies-for-teams.pptx",
+     "deck_kb": 194,
+     "seconds": 1043,
+     "words": 2254
+    },
+    {
+     "num": "11",
+     "slug": "11-protecting-the-main-branch",
+     "title": "Protecting the Main Branch",
+     "desc": "What Was Executed and What Is Reference Only and Why protect main, and what a rule can require",
+     "parts": [
+      {
+       "part": 1,
+       "id": "LXhnOs0OLFI",
+       "title": "What Was Executed and What Is Reference Only and Why protect main, and what a rule can require",
+       "seconds": 489,
+       "chapters": [
+        [
+         0,
+         "What Was Executed and What Is Reference Only"
+        ],
+        [
+         75,
+         "Why protect main, and what a rule can require"
+        ],
+        [
+         94,
+         "Why protect main, and what a rule can require, continued"
+        ],
+        [
+         108,
+         "Why protect main, and what a rule can require, continued"
+        ],
+        [
+         126,
+         "Why protect main, and what a rule can require, continued"
+        ],
+        [
+         176,
+         "Why protect main, and what a rule can require, continued"
+        ],
+        [
+         214,
+         "Why protect main, and what a rule can require, continued"
+        ],
+        [
+         236,
+         "A local model: the push that gets rejected"
+        ],
+        [
+         261,
+         "A local model: the push that gets rejected, continued"
+        ],
+        [
+         269,
+         "A local model: the push that gets rejected, continued"
+        ],
+        [
+         278,
+         "A local model: the push that gets rejected, continued"
+        ],
+        [
+         287,
+         "A local model: the push that gets rejected, continued"
+        ],
+        [
+         314,
+         "A local model: the push that gets rejected, continued"
+        ],
+        [
+         323,
+         "A local model: the push that gets rejected, continued"
+        ],
+        [
+         349,
+         "A local model: the push that gets rejected, continued"
+        ],
+        [
+         358,
+         "A local model: the push that gets rejected, continued"
+        ],
+        [
+         378,
+         "Rules or rulesets"
+        ],
+        [
+         423,
+         "Rules or rulesets, continued"
+        ],
+        [
+         451,
+         "Merge queue, auto-merge and CODEOWNERS"
+        ]
+       ],
+       "published": "2026-11-17T09:04:04Z",
+       "thumb": "img/modules/git/11-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "a4Z_69uMoeU",
+       "title": "Merge queue, auto-merge and CODEOWNERS, recall and recap",
+       "seconds": 488,
+       "chapters": [
+        [
+         0,
+         "Merge queue, auto-merge and CODEOWNERS, continued"
+        ],
+        [
+         41,
+         "Merge queue, auto-merge and CODEOWNERS, continued"
+        ],
+        [
+         49,
+         "Merge queue, auto-merge and CODEOWNERS, continued"
+        ],
+        [
+         58,
+         "Merge queue, auto-merge and CODEOWNERS, continued"
+        ]
+       ],
+       "published": "2026-11-17T09:04:21Z",
+       "thumb": "img/modules/git/11-2.jpg"
+      }
+     ],
+     "deck": "downloads/git/11-protecting-the-main-branch.pptx",
+     "deck_kb": 193,
+     "seconds": 977,
+     "words": 2141
+    },
+    {
+     "num": "12",
+     "slug": "12-issues-projects-and-team-habits",
+     "title": "Issues, Projects and Team Habits",
+     "desc": "What Was Executed and What Is Reference Only and Issues, projects and Discussions",
+     "parts": [
+      {
+       "part": 1,
+       "id": "nVYWDHX_J6s",
+       "title": "What Was Executed and What Is Reference Only and Issues, projects and Discussions",
+       "seconds": 463,
+       "chapters": [
+        [
+         0,
+         "What Was Executed and What Is Reference Only"
+        ],
+        [
+         75,
+         "Issues, projects and Discussions"
+        ],
+        [
+         91,
+         "Issues, projects and Discussions, continued"
+        ],
+        [
+         107,
+         "Issues, projects and Discussions, continued"
+        ],
+        [
+         131,
+         "Issues, projects and Discussions, continued"
+        ],
+        [
+         165,
+         "Good commit messages and a commit-msg hook"
+        ],
+        [
+         198,
+         "Good commit messages and a commit-msg hook, continued"
+        ],
+        [
+         222,
+         "Good commit messages and a commit-msg hook, continued"
+        ],
+        [
+         230,
+         "Good commit messages and a commit-msg hook, continued"
+        ],
+        [
+         268,
+         "Good commit messages and a commit-msg hook, continued"
+        ],
+        [
+         277,
+         "Good commit messages and a commit-msg hook, continued"
+        ],
+        [
+         291,
+         "Good commit messages and a commit-msg hook, continued"
+        ],
+        [
+         299,
+         "Good commit messages and a commit-msg hook, continued"
+        ],
+        [
+         330,
+         "Small pull requests and review etiquette"
+        ],
+        [
+         363,
+         "Small pull requests and review etiquette, continued"
+        ],
+        [
+         401,
+         "Small pull requests and review etiquette, continued"
+        ],
+        [
+         433,
+         "Debugging history as a team"
+        ]
+       ],
+       "published": "2026-11-17T09:04:51Z",
+       "thumb": "img/modules/git/12-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "Hx3jnX0w-Wg",
+       "title": "Debugging history as a team, recall and recap",
+       "seconds": 468,
+       "chapters": [
+        [
+         0,
+         "Debugging history as a team, continued"
+        ],
+        [
+         8,
+         "Debugging history as a team, continued"
+        ],
+        [
+         16,
+         "Debugging history as a team, continued"
+        ],
+        [
+         37,
+         "Debugging history as a team, continued"
+        ],
+        [
+         45,
+         "Debugging history as a team, continued"
+        ],
+        [
+         53,
+         "Debugging history as a team, continued"
+        ]
+       ],
+       "published": "2026-11-17T09:05:07Z",
+       "thumb": "img/modules/git/12-2.jpg"
+      }
+     ],
+     "deck": "downloads/git/12-issues-projects-and-team-habits.pptx",
+     "deck_kb": 195,
+     "seconds": 931,
+     "words": 2067
+    },
+    {
+     "num": "13",
+     "slug": "13-github-actions-basics",
+     "title": "GitHub Actions Basics",
+     "desc": "What Was Executed and What Is Reference Only and The Actions model",
+     "parts": [
+      {
+       "part": 1,
+       "id": "Ydq8i-1Sk_g",
+       "title": "What Was Executed and What Is Reference Only and The Actions model",
+       "seconds": 445,
+       "chapters": [
+        [
+         0,
+         "What Was Executed and What Is Reference Only"
+        ],
+        [
+         77,
+         "The Actions model"
+        ],
+        [
+         93,
+         "The Actions model, continued"
+        ],
+        [
+         103,
+         "The Actions model, continued"
+        ],
+        [
+         144,
+         "The Actions model, continued"
+        ],
+        [
+         198,
+         "A first workflow and how to read a run"
+        ],
+        [
+         218,
+         "A first workflow and how to read a run, continued"
+        ],
+        [
+         262,
+         "A first workflow and how to read a run, continued"
+        ],
+        [
+         270,
+         "A first workflow and how to read a run, continued"
+        ],
+        [
+         278,
+         "A first workflow and how to read a run, continued"
+        ],
+        [
+         311,
+         "Triggers and filters"
+        ],
+        [
+         366,
+         "Triggers and filters, continued"
+        ],
+        [
+         385,
+         "Triggers and filters, continued"
+        ],
+        [
+         409,
+         "Contexts, variables and conditions"
+        ]
+       ],
+       "published": "2026-11-17T09:05:21Z",
+       "thumb": "img/modules/git/13-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "-r374KLG9eg",
+       "title": "Contexts, variables and conditions, recall and recap",
+       "seconds": 464,
+       "chapters": [
+        [
+         0,
+         "Contexts, variables and conditions, continued"
+        ],
+        [
+         24,
+         "Contexts, variables and conditions, continued"
+        ],
+        [
+         62,
+         "Jobs in parallel, in order, and as checks"
+        ],
+        [
+         85,
+         "Jobs in parallel, in order, and as checks, continued"
+        ]
+       ],
+       "published": "2026-11-17T09:05:44Z",
+       "thumb": "img/modules/git/13-2.jpg"
+      }
+     ],
+     "deck": "downloads/git/13-github-actions-basics.pptx",
+     "deck_kb": 175,
+     "seconds": 909,
+     "words": 2017
+    },
+    {
+     "num": "14",
+     "slug": "14-actions-for-ci",
+     "title": "Actions for CI",
+     "desc": "What Was Executed and What Is Reference Only and A CI workflow: build and test on every change",
+     "parts": [
+      {
+       "part": 1,
+       "id": "ABEPaVbwBDs",
+       "title": "What Was Executed and What Is Reference Only and A CI workflow: build and test on every change",
+       "seconds": 469,
+       "chapters": [
+        [
+         0,
+         "What Was Executed and What Is Reference Only"
+        ],
+        [
+         73,
+         "A CI workflow: build and test on every change"
+        ],
+        [
+         90,
+         "A CI workflow: build and test on every change, continued"
+        ],
+        [
+         105,
+         "A CI workflow: build and test on every change, continued"
+        ],
+        [
+         121,
+         "A CI workflow: build and test on every change, continued"
+        ],
+        [
+         180,
+         "Matrix, cache and artifacts"
+        ],
+        [
+         221,
+         "Matrix, cache and artifacts, continued"
+        ],
+        [
+         229,
+         "Matrix, cache and artifacts, continued"
+        ],
+        [
+         256,
+         "Matrix, cache and artifacts, continued"
+        ],
+        [
+         288,
+         "Matrix, cache and artifacts, continued"
+        ],
+        [
+         316,
+         "Matrix, cache and artifacts, continued"
+        ],
+        [
+         332,
+         "Secrets, variables and environments"
+        ],
+        [
+         379,
+         "Secrets, variables and environments, continued"
+        ],
+        [
+         412,
+         "Permissions, concurrency, filters and the merge queue"
+        ],
+        [
+         438,
+         "Permissions, concurrency, filters and the merge queue, continued"
+        ]
+       ],
+       "published": "2026-11-17T09:06:00Z",
+       "thumb": "img/modules/git/14-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "7LZkD9aG-wY",
+       "title": "Permissions, concurrency, filters and the merge queue and Reusable workflows, recall and recap",
+       "seconds": 464,
+       "chapters": [
+        [
+         0,
+         "Permissions, concurrency, filters and the merge queue, continued"
+        ],
+        [
+         29,
+         "Reusable workflows"
+        ],
+        [
+         50,
+         "Reusable workflows, continued"
+        ],
+        [
+         67,
+         "Reusable workflows, continued"
+        ]
+       ],
+       "published": "2026-11-17T09:37:49Z",
+       "thumb": "img/modules/git/14-2.jpg"
+      }
+     ],
+     "deck": "downloads/git/14-actions-for-ci.pptx",
+     "deck_kb": 177,
+     "seconds": 933,
+     "words": 1994
+    },
+    {
+     "num": "15",
+     "slug": "15-security-and-safety",
+     "title": "Security and Safety",
+     "desc": "What Was Executed and What Is Reference Only and Keep secrets out of the repository",
+     "parts": [
+      {
+       "part": 1,
+       "id": "NlLIfWc0Ito",
+       "title": "What Was Executed and What Is Reference Only and Keep secrets out of the repository",
+       "seconds": 456,
+       "chapters": [
+        [
+         0,
+         "What Was Executed and What Is Reference Only"
+        ],
+        [
+         82,
+         "Keep secrets out of the repository"
+        ],
+        [
+         101,
+         "Keep secrets out of the repository, continued"
+        ],
+        [
+         114,
+         "Keep secrets out of the repository, continued"
+        ],
+        [
+         166,
+         "A secret was committed: rotate first"
+        ],
+        [
+         188,
+         "A secret was committed: rotate first, continued"
+        ],
+        [
+         231,
+         "A secret was committed: rotate first, continued"
+        ],
+        [
+         239,
+         "A secret was committed: rotate first, continued"
+        ],
+        [
+         247,
+         "A secret was committed: rotate first, continued"
+        ],
+        [
+         277,
+         "What GitHub adds: scanning, protection, Dependabot, signing"
+        ],
+        [
+         313,
+         "What GitHub adds: scanning, protection, Dependabot, signing, continued"
+        ],
+        [
+         343,
+         "What GitHub adds: scanning, protection, Dependabot, signing, continued"
+        ],
+        [
+         370,
+         "What GitHub adds: scanning, protection, Dependabot, signing, continued"
+        ],
+        [
+         402,
+         "What GitHub adds: scanning, protection, Dependabot, signing, continued"
+        ],
+        [
+         412,
+         "What GitHub adds: scanning, protection, Dependabot, signing, continued"
+        ],
+        [
+         422,
+         "What GitHub adds: scanning, protection, Dependabot, signing, continued"
+        ]
+       ],
+       "published": "2026-11-17T09:37:56Z",
+       "thumb": "img/modules/git/15-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "PH0fcq2IhlA",
+       "title": "Safer Actions and token hygiene, recall and recap",
+       "seconds": 489,
+       "chapters": [
+        [
+         0,
+         "Safer Actions and token hygiene"
+        ],
+        [
+         39,
+         "Safer Actions and token hygiene, continued"
+        ],
+        [
+         72,
+         "Safer Actions and token hygiene, continued"
+        ],
+        [
+         80,
+         "Safer Actions and token hygiene, continued"
+        ]
+       ],
+       "published": "2026-11-17T09:38:29Z",
+       "thumb": "img/modules/git/15-2.jpg"
+      }
+     ],
+     "deck": "downloads/git/15-security-and-safety.pptx",
+     "deck_kb": 186,
+     "seconds": 945,
+     "words": 2170
+    },
+    {
+     "num": "16",
+     "slug": "16-recipes-and-a-team-capstone",
+     "title": "Recipes and a Team Capstone",
+     "desc": "Recipes for common mistakes",
+     "parts": [
+      {
+       "part": 1,
+       "id": "ed-HoiZSpTk",
+       "title": "Recipes for common mistakes",
+       "seconds": 414,
+       "chapters": [
+        [
+         0,
+         "Recipes for common mistakes"
+        ],
+        [
+         66,
+         "Recipes for common mistakes, continued"
+        ],
+        [
+         77,
+         "Recipes for common mistakes, continued"
+        ],
+        [
+         102,
+         "Recipes for common mistakes, continued"
+        ],
+        [
+         138,
+         "Recipes for common mistakes, continued"
+        ],
+        [
+         186,
+         "Recipes for common mistakes, continued"
+        ],
+        [
+         214,
+         "The team simulation: who does what"
+        ],
+        [
+         251,
+         "The team simulation: who does what, continued"
+        ],
+        [
+         283,
+         "The team simulation: who does what, continued"
+        ],
+        [
+         291,
+         "The team simulation: who does what, continued"
+        ],
+        [
+         299,
+         "The team simulation: who does what, continued"
+        ],
+        [
+         323,
+         "Merge, squash, release and hotfix"
+        ],
+        [
+         349,
+         "Merge, squash, release and hotfix, continued"
+        ],
+        [
+         369,
+         "Merge, squash, release and hotfix, continued"
+        ],
+        [
+         377,
+         "Merge, squash, release and hotfix, continued"
+        ]
+       ],
+       "published": "2026-11-17T09:38:44Z",
+       "thumb": "img/modules/git/16-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "F2iFpj-4reo",
+       "title": "The final checklist for a team repository, recall and recap",
+       "seconds": 442,
+       "chapters": [
+        [
+         0,
+         "Practice questions"
+        ],
+        [
+         280,
+         "Recall check"
+        ],
+        [
+         377,
+         "Module recap"
+        ]
+       ],
+       "published": "2026-11-17T09:39:03Z",
+       "thumb": "img/modules/git/16-2.jpg"
+      }
+     ],
+     "deck": "downloads/git/16-recipes-and-a-team-capstone.pptx",
+     "deck_kb": 178,
+     "seconds": 856,
+     "words": 1893
+    }
+   ],
+   "facts": null,
+   "videos": 34,
+   "seconds": 16047,
+   "notes": [
+    {
+     "num": "00",
+     "slug": "00-welcome-and-setup",
+     "title": "Welcome and Setup — ",
+     "group": "Part 1: Foundations",
+     "tasks": 0,
+     "los": [],
+     "minutes": 9,
+     "check": {
+      "src_words": 1780,
+      "page_words": 1810,
+      "src_tables": 7,
+      "tables": 7,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "00"
+     ],
+     "domain": "",
+     "ref": "Module 0",
+     "tn": "Module 00",
+     "of": 17,
+     "module": "00"
+    },
+    {
+     "num": "01",
+     "slug": "01-the-git-mental-model",
+     "title": "The Git Mental Model — ",
+     "group": "Part 1: Foundations",
+     "tasks": 0,
+     "los": [],
+     "minutes": 8,
+     "check": {
+      "src_words": 1765,
+      "page_words": 1799,
+      "src_tables": 4,
+      "tables": 4,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "01"
+     ],
+     "domain": "",
+     "ref": "Module 1",
+     "tn": "Module 01",
+     "of": 17,
+     "module": "01"
+    },
+    {
+     "num": "02",
+     "slug": "02-the-daily-loop-stage-commit-inspect",
+     "title": "The Daily Loop: Stage, Commit, Inspect — ",
+     "group": "Part 1: Foundations",
+     "tasks": 0,
+     "los": [],
+     "minutes": 9,
+     "check": {
+      "src_words": 1803,
+      "page_words": 1833,
+      "src_tables": 7,
+      "tables": 7,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "02"
+     ],
+     "domain": "",
+     "ref": "Module 2",
+     "tn": "Module 02",
+     "of": 17,
+     "module": "02"
+    },
+    {
+     "num": "03",
+     "slug": "03-branches-and-tags",
+     "title": "Branches and Tags — ",
+     "group": "Part 2: Branching and history",
+     "tasks": 0,
+     "los": [],
+     "minutes": 9,
+     "check": {
+      "src_words": 1810,
+      "page_words": 1836,
+      "src_tables": 4,
+      "tables": 4,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "03"
+     ],
+     "domain": "",
+     "ref": "Module 3",
+     "tn": "Module 03",
+     "of": 17,
+     "module": "03"
+    },
+    {
+     "num": "04",
+     "slug": "04-merging-and-resolving-conflicts",
+     "title": "Merging and Resolving Conflicts — ",
+     "group": "Part 2: Branching and history",
+     "tasks": 0,
+     "los": [],
+     "minutes": 8,
+     "check": {
+      "src_words": 1602,
+      "page_words": 1697,
+      "src_tables": 4,
+      "tables": 4,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 5,
+      "sections": 5
+     },
+     "modules": [
+      "04"
+     ],
+     "domain": "",
+     "ref": "Module 4",
+     "tn": "Module 04",
+     "of": 17,
+     "module": "04"
+    },
+    {
+     "num": "05",
+     "slug": "05-rebase-and-tidy-history",
+     "title": "Rebase and Tidy History — ",
+     "group": "Part 2: Branching and history",
+     "tasks": 0,
+     "los": [],
+     "minutes": 10,
+     "check": {
+      "src_words": 2102,
+      "page_words": 2158,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "05"
+     ],
+     "domain": "",
+     "ref": "Module 5",
+     "tn": "Module 05",
+     "of": 17,
+     "module": "05"
+    },
+    {
+     "num": "06",
+     "slug": "06-undoing-and-recovering",
+     "title": "Undoing and Recovering — ",
+     "group": "Part 2: Branching and history",
+     "tasks": 0,
+     "los": [],
+     "minutes": 9,
+     "check": {
+      "src_words": 1957,
+      "page_words": 2022,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "06"
+     ],
+     "domain": "",
+     "ref": "Module 6",
+     "tn": "Module 06",
+     "of": 17,
+     "module": "06"
+    },
+    {
+     "num": "07",
+     "slug": "07-remotes-clone-fetch-pull-push",
+     "title": "Remotes: Clone, Fetch, Pull, Push — ",
+     "group": "Part 3: Working with remotes",
+     "tasks": 0,
+     "los": [],
+     "minutes": 9,
+     "check": {
+      "src_words": 1906,
+      "page_words": 1965,
+      "src_tables": 6,
+      "tables": 6,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "07"
+     ],
+     "domain": "",
+     "ref": "Module 7",
+     "tn": "Module 07",
+     "of": 17,
+     "module": "07"
+    },
+    {
+     "num": "08",
+     "slug": "08-github-basics",
+     "title": "GitHub Basics — ",
+     "group": "Part 4: GitHub collaboration",
+     "tasks": 0,
+     "los": [],
+     "minutes": 10,
+     "check": {
+      "src_words": 2000,
+      "page_words": 2038,
+      "src_tables": 7,
+      "tables": 7,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "08"
+     ],
+     "domain": "",
+     "ref": "Module 8",
+     "tn": "Module 08",
+     "of": 17,
+     "module": "08"
+    },
+    {
+     "num": "09",
+     "slug": "09-pull-requests",
+     "title": "Pull Requests — ",
+     "group": "Part 4: GitHub collaboration",
+     "tasks": 0,
+     "los": [],
+     "minutes": 10,
+     "check": {
+      "src_words": 2032,
+      "page_words": 2056,
+      "src_tables": 6,
+      "tables": 6,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "09"
+     ],
+     "domain": "",
+     "ref": "Module 9",
+     "tn": "Module 09",
+     "of": 17,
+     "module": "09"
+    },
+    {
+     "num": "10",
+     "slug": "10-branching-strategies-for-teams",
+     "title": "Branching Strategies for Teams — ",
+     "group": "Part 4: GitHub collaboration",
+     "tasks": 0,
+     "los": [],
+     "minutes": 10,
+     "check": {
+      "src_words": 2042,
+      "page_words": 2067,
+      "src_tables": 6,
+      "tables": 6,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "10"
+     ],
+     "domain": "",
+     "ref": "Module 10",
+     "tn": "Module 10",
+     "of": 17,
+     "module": "10"
+    },
+    {
+     "num": "11",
+     "slug": "11-protecting-the-main-branch",
+     "title": "Protecting the Main Branch — ",
+     "group": "Part 4: GitHub collaboration",
+     "tasks": 0,
+     "los": [],
+     "minutes": 9,
+     "check": {
+      "src_words": 1883,
+      "page_words": 1911,
+      "src_tables": 4,
+      "tables": 4,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "11"
+     ],
+     "domain": "",
+     "ref": "Module 11",
+     "tn": "Module 11",
+     "of": 17,
+     "module": "11"
+    },
+    {
+     "num": "12",
+     "slug": "12-issues-projects-and-team-habits",
+     "title": "Issues, Projects and Team Habits — ",
+     "group": "Part 4: GitHub collaboration",
+     "tasks": 0,
+     "los": [],
+     "minutes": 10,
+     "check": {
+      "src_words": 1990,
+      "page_words": 2017,
+      "src_tables": 3,
+      "tables": 3,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "12"
+     ],
+     "domain": "",
+     "ref": "Module 12",
+     "tn": "Module 12",
+     "of": 17,
+     "module": "12"
+    },
+    {
+     "num": "13",
+     "slug": "13-github-actions-basics",
+     "title": "GitHub Actions Basics — ",
+     "group": "Part 5: Automation and safety",
+     "tasks": 0,
+     "los": [],
+     "minutes": 9,
+     "check": {
+      "src_words": 1890,
+      "page_words": 1922,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "13"
+     ],
+     "domain": "",
+     "ref": "Module 13",
+     "tn": "Module 13",
+     "of": 17,
+     "module": "13"
+    },
+    {
+     "num": "14",
+     "slug": "14-actions-for-ci",
+     "title": "Actions for CI — ",
+     "group": "Part 5: Automation and safety",
+     "tasks": 0,
+     "los": [],
+     "minutes": 9,
+     "check": {
+      "src_words": 1946,
+      "page_words": 1981,
+      "src_tables": 7,
+      "tables": 7,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "14"
+     ],
+     "domain": "",
+     "ref": "Module 14",
+     "tn": "Module 14",
+     "of": 17,
+     "module": "14"
+    },
+    {
+     "num": "15",
+     "slug": "15-security-and-safety",
+     "title": "Security and Safety — ",
+     "group": "Part 5: Automation and safety",
+     "tasks": 0,
+     "los": [],
+     "minutes": 10,
+     "check": {
+      "src_words": 1974,
+      "page_words": 2010,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "15"
+     ],
+     "domain": "",
+     "ref": "Module 15",
+     "tn": "Module 15",
+     "of": 17,
+     "module": "15"
+    },
+    {
+     "num": "16",
+     "slug": "16-recipes-and-a-team-capstone",
+     "title": "Recipes and a Team Capstone — ",
+     "group": "Part 6: Practice",
+     "tasks": 0,
+     "los": [],
+     "minutes": 9,
+     "check": {
+      "src_words": 1829,
+      "page_words": 1860,
+      "src_tables": 3,
+      "tables": 3,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "16"
+     ],
+     "domain": "",
+     "ref": "Module 16",
+     "tn": "Module 16",
+     "of": 17,
+     "module": "16"
+    }
+   ],
+   "glossary": 0
+  },
+  {
+   "kind": "training",
    "topic": "AI",
    "slug": "aigov",
    "institute": "training",
