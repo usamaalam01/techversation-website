@@ -69,6 +69,7 @@
 .c-sc200 { --accent: #c4245f; --accent-ink: #9a1a49; --on-accent: #fff; }
 .c-pl300 { --accent: #b07d00; --accent-ink: #805a00; --on-accent: #fff; }
 .c-netplus { --accent: #d4531c; --accent-ink: #a53d12; --on-accent: #fff; }
+.c-git { --accent: #c8391d; --accent-ink: #9c2a12; --on-accent: #fff; }
 .c-p2p { --accent: #c4443d; --accent-ink: #96302b; --on-accent: #fff; }
 .c-cc { --accent: #4f5bd5; --accent-ink: #3a44ad; --on-accent: #fff; }
 .c-cdl { --accent: #1f6fd6; --accent-ink: #1553a8; --on-accent: #fff; }
@@ -102,6 +103,7 @@
 :root[data-theme="dark"] .c-sc200 { --accent: #ff7aa8; --accent-ink: #ffa6c4; --on-accent: #2a0412; }
 :root[data-theme="dark"] .c-pl300 { --accent: #ffd24d; --accent-ink: #ffe38a; --on-accent: #2a1d00; }
 :root[data-theme="dark"] .c-netplus { --accent: #ff8a55; --accent-ink: #ffb08a; --on-accent: #2a0e02; }
+:root[data-theme="dark"] .c-git { --accent: #ff8468; --accent-ink: #ffab96; --on-accent: #2a0904; }
 :root[data-theme="dark"] .c-p2p { --accent: #ff8f85; --accent-ink: #ffb5ad; --on-accent: #2a0806; }
 :root[data-theme="dark"] .c-cc { --accent: #9aa4ff; --accent-ink: #bcc3ff; --on-accent: #0b0d33; }
 :root[data-theme="dark"] .c-cdl { --accent: #7ab4ff; --accent-ink: #a8cdff; --on-accent: #04152e; }

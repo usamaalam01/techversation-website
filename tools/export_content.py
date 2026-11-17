@@ -152,6 +152,10 @@ COURSES = {
                    desc="All five domains and 27 objectives of the V8 exam: controls, threats, architecture, operations, governance and the new AI risks.",
                    audience="Aspiring security administrators, IT staff and career changers preparing for the Security+ V8 exam (SY0-801).",
                    sources="The official CompTIA Security+ SY0-801 V8 exam objectives, standard security references named in them, and original practice questions."),
+    "git": dict(folder="Git-GitHub", institute="training", kind="training", topic="Git", short="Git and GitHub", name="Git and GitHub for Teams", title="Git and GitHub for Teams Training Masterclass", accent="c-git",
+                desc="Work confidently in a shared repository: commits, branches, merges and conflicts, rebase, undoing mistakes, remotes, pull requests, branch protection and CODEOWNERS, GitHub Actions workflows and keeping secrets out, with hands-on labs in every module.",
+                audience="Developers, operations and data people, students and career changers who work in a team repository. You need basic terminal skills; no Git knowledge is assumed.",
+                sources="Every Git command was run for real (Git 2.50.1) in practice repositories. The GitHub features are written from the official GitHub documentation and were not run; the workflow files were checked for syntax."),
     "aigov": dict(folder="AIGovernance", institute="training", kind="training", topic="AI", short="AI Governance", name="AI Governance Masterclass", title="AI Governance Masterclass", accent="c-aigov",
                   desc="From principles and risk to laws, frameworks and a working governance program, built around one running case.",
                   audience="Anyone who builds, buys or oversees AI: governance, risk, legal, product and engineering teams.",
@@ -387,6 +391,10 @@ NOTES = {
                 groups=[("Start here", {"00"}), ("The principles in context (10%)", {"01"}), ("People management (9%)", {"02"}),
                         ("The practices in context (51%)", {"03", "04", "05", "06", "07", "08", "09"}), ("The processes in context (30%)", {"10", "11", "12", "13", "14", "15", "16"}),
                         ("Review and exam day", {"17"})]),
+    # Git and GitHub for Teams: the study notes of the course (OnlineCourses\Git-GitHub\study-notes, one note per module, with practice questions and recall questions); grouped by part
+    "git": dict(root=OC / "Git-GitHub" / "study-notes", glob="Module_*.md", qa=True, header="bold", kind="Module", link_word="Module",
+                groups=[("Part 1: Foundations", {"00", "01", "02"}), ("Part 2: Branching and history", {"03", "04", "05", "06"}), ("Part 3: Working with remotes", {"07"}),
+                        ("Part 4: GitHub collaboration", {"08", "09", "10", "11", "12"}), ("Part 5: Automation and safety", {"13", "14", "15"}), ("Part 6: Practice", {"16"})]),
     # DVA-C03: the study notes of the course (OnlineCourses\AWS-DVA\study-notes); grouped by exam domain
     "dva": dict(root=OC / "AWS-DVA" / "study-notes", glob="Module_*.md", qa=True, header="bold", kind="Module", link_word="Module",
                 groups=[("Start here", {"00"}), ("Development with AWS Services (30%)", {"01", "02", "03", "04", "05", "06", "07"}), ("Security (26%)", {"08", "09", "10"}),

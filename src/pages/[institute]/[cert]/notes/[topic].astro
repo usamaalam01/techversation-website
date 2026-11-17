@@ -22,7 +22,7 @@ const duration = header.find((h) => h.key === 'Duration');
 const after = (String(n.sequence).match(/Read after [^.]*/) ?? [''])[0];
 const cells: [string, string][] = c.slug === 'csm'
   ? [['Learning objectives', n.los.join(' · ') || '—'], ['Scrum Guide', n.guide || '—']]
-  : [...(n.domain ? [['Exam domain', n.domain] as [string, string]] : []), [kind, n.position], ...(duration ? [['Study time', duration.html.replace(/<[^>]+>/g, '')] as [string, string]] : [])];
+  : [...(n.domain ? [[c.kind === 'training' ? 'Part' : 'Exam domain', n.domain] as [string, string]] : []), [kind, n.position], ...(duration ? [['Study time', duration.html.replace(/<[^>]+>/g, '')] as [string, string]] : [])];
 const desc = `${c.short} study notes: ${n.title}. ${n.toc.slice(0, 3).map((t: any) => t.title).join(', ')}. ${n.minutes} minute read.`;
 const groups: Record<string, typeof all> = {};
 all.forEach((x) => { (groups[x.group] ??= []).push(x); });

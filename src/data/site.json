@@ -111,7 +111,8 @@
    "mono": "PC",
    "certs": [
     "itil",
-    "prince2"
+    "prince2",
+    "p2p"
    ]
   },
   {
@@ -43577,6 +43578,2167 @@
      "tn": "Module 15",
      "of": 16,
      "module": "15"
+    }
+   ],
+   "glossary": 0
+  },
+  {
+   "kind": "certification",
+   "topic": null,
+   "slug": "p2p",
+   "institute": "peoplecert",
+   "short": "PRINCE2 Practitioner",
+   "name": "PRINCE2 7 Practitioner",
+   "title": "PRINCE2 Practitioner Exam Prep Masterclass",
+   "accent": "c-p2p",
+   "desc": "Applying and tailoring PRINCE2 in a project scenario: the principles in context, people management, the seven practices and the seven processes, with scenario questions that ask whether an action was appropriate and why.",
+   "audience": "Project managers and team members who hold a PRINCE2 Foundation (or another accepted certification) and are preparing for the open-book PRINCE2 7 Practitioner exam.",
+   "sources": "The official PRINCE2 7 Practitioner syllabus (PeopleCert, version 7.2) and the Foundation course notes; the Official Book is the only material allowed in the exam and is not reproduced.",
+   "playlist": "PLTENDkQOrq2s",
+   "cover": "img/covers/p2p.jpg",
+   "modules": [
+    {
+     "num": "00",
+     "slug": "00-exam-orientation-and-how-to-study",
+     "title": "Exam Orientation and How to Study",
+     "desc": "The exam at a glance",
+     "parts": [
+      {
+       "part": 1,
+       "id": "Ju-DMsgiLWI",
+       "title": "The exam at a glance",
+       "seconds": 521,
+       "chapters": [
+        [
+         0,
+         "The exam at a glance"
+        ],
+        [
+         71,
+         "The exam at a glance, continued"
+        ],
+        [
+         82,
+         "The exam at a glance, continued"
+        ],
+        [
+         124,
+         "The exam at a glance, continued"
+        ],
+        [
+         150,
+         "The exam at a glance, continued"
+        ],
+        [
+         167,
+         "The exam at a glance, continued"
+        ],
+        [
+         187,
+         "The four learning outcomes and their weights"
+        ],
+        [
+         271,
+         "Pass strategy and the open book"
+        ],
+        [
+         287,
+         "Pass strategy and the open book, continued"
+        ],
+        [
+         323,
+         "Pass strategy and the open book, continued"
+        ],
+        [
+         369,
+         "The five-step method for a classic question"
+        ],
+        [
+         408,
+         "The five-step method for a classic question, continued"
+        ],
+        [
+         437,
+         "The five-step method for a classic question, continued"
+        ],
+        [
+         475,
+         "Project Harbor and a study plan"
+        ]
+       ],
+       "published": "2026-11-16T10:35:38Z",
+       "thumb": "img/modules/p2p/00-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "Qte88n1UebA",
+       "title": "Project Harbor and a study plan, recall and recap",
+       "seconds": 482,
+       "chapters": [
+        [
+         0,
+         "Practice questions"
+        ],
+        [
+         314,
+         "Recall check"
+        ],
+        [
+         422,
+         "Module recap"
+        ]
+       ],
+       "published": "2026-11-16T10:36:09Z",
+       "thumb": "img/modules/p2p/00-2.jpg"
+      }
+     ],
+     "deck": "downloads/p2p/00-exam-orientation-and-how-to-study.pptx",
+     "deck_kb": 190,
+     "seconds": 1003,
+     "words": 2044
+    },
+    {
+     "num": "01",
+     "slug": "01-principles-in-context",
+     "title": "Principles in Context",
+     "desc": "How the exam tests the principles",
+     "parts": [
+      {
+       "part": 1,
+       "id": "7HSlhhqxbkw",
+       "title": "How the exam tests the principles",
+       "seconds": 473,
+       "chapters": [
+        [
+         0,
+         "How the exam tests the principles"
+        ],
+        [
+         85,
+         "How the exam tests the principles, continued"
+        ],
+        [
+         95,
+         "How the exam tests the principles, continued"
+        ],
+        [
+         112,
+         "The seven principles in practice"
+        ],
+        [
+         135,
+         "The seven principles in practice, continued"
+        ],
+        [
+         157,
+         "The seven principles in practice, continued"
+        ],
+        [
+         181,
+         "The seven principles in practice, continued"
+        ],
+        [
+         205,
+         "The seven principles in practice, continued"
+        ],
+        [
+         243,
+         "The seven principles in practice, continued"
+        ],
+        [
+         264,
+         "The seven principles in practice, continued"
+        ],
+        [
+         289,
+         "From symptom to principle"
+        ],
+        [
+         328,
+         "From symptom to principle, continued"
+        ],
+        [
+         368,
+         "Tailoring: what may and may not change"
+        ],
+        [
+         405,
+         "Tailoring: what may and may not change, continued"
+        ],
+        [
+         449,
+         "Tailoring: what may and may not change, continued"
+        ]
+       ],
+       "published": "2026-11-16T10:36:15Z",
+       "thumb": "img/modules/p2p/01-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "yG0MonuUkB4",
+       "title": "Judging a scenario about principles, recall and recap",
+       "seconds": 447,
+       "chapters": [
+        [
+         0,
+         "Practice questions"
+        ],
+        [
+         287,
+         "Recall check"
+        ],
+        [
+         396,
+         "Module recap"
+        ]
+       ],
+       "published": "2026-11-16T10:36:29Z",
+       "thumb": "img/modules/p2p/01-2.jpg"
+      }
+     ],
+     "deck": "downloads/p2p/01-principles-in-context.pptx",
+     "deck_kb": 181,
+     "seconds": 920,
+     "words": 1893
+    },
+    {
+     "num": "02",
+     "slug": "02-people-in-successful-projects-leadership-change-and-communication",
+     "title": "People in Successful Projects: Leadership, Change and Communication",
+     "desc": "Leading and managing teams",
+     "parts": [
+      {
+       "part": 1,
+       "id": "z-58goIZP_8",
+       "title": "Leading and managing teams",
+       "seconds": 466,
+       "chapters": [
+        [
+         0,
+         "Leading and managing teams"
+        ],
+        [
+         78,
+         "Leading and managing teams, continued"
+        ],
+        [
+         90,
+         "Leading and managing teams, continued"
+        ],
+        [
+         109,
+         "Leading and managing teams, continued"
+        ],
+        [
+         149,
+         "Leading and managing teams, continued"
+        ],
+        [
+         194,
+         "Leading change and the people affected"
+        ],
+        [
+         230,
+         "Leading change and the people affected, continued"
+        ],
+        [
+         266,
+         "Leading change and the people affected, continued"
+        ],
+        [
+         308,
+         "Communication and stakeholders"
+        ],
+        [
+         339,
+         "Communication and stakeholders, continued"
+        ],
+        [
+         380,
+         "Communication and stakeholders, continued"
+        ],
+        [
+         411,
+         "Communication and stakeholders, continued"
+        ],
+        [
+         442,
+         "People central to the method and the Additional Information"
+        ]
+       ],
+       "published": "2026-11-16T10:36:49Z",
+       "thumb": "img/modules/p2p/02-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "Ro3BeVhQhdE",
+       "title": "People central to the method and the Additional Information, recall and recap",
+       "seconds": 460,
+       "chapters": [
+        [
+         0,
+         "Practice questions"
+        ],
+        [
+         300,
+         "Recall check"
+        ],
+        [
+         402,
+         "Module recap"
+        ]
+       ],
+       "published": "2026-11-16T10:37:11Z",
+       "thumb": "img/modules/p2p/02-2.jpg"
+      }
+     ],
+     "deck": "downloads/p2p/02-people-in-successful-projects-leadership-change-and-communication.pptx",
+     "deck_kb": 171,
+     "seconds": 926,
+     "words": 1863
+    },
+    {
+     "num": "03",
+     "slug": "03-the-business-case-practice-in-context",
+     "title": "The Business Case Practice in Context",
+     "desc": "Purpose and the principles it serves",
+     "parts": [
+      {
+       "part": 1,
+       "id": "sRca44EOfS0",
+       "title": "Purpose and the principles it serves",
+       "seconds": 480,
+       "chapters": [
+        [
+         0,
+         "Purpose and the principles it serves"
+        ],
+        [
+         88,
+         "Purpose and the principles it serves, continued"
+        ],
+        [
+         100,
+         "Purpose and the principles it serves, continued"
+        ],
+        [
+         130,
+         "The management products"
+        ],
+        [
+         172,
+         "The management products, continued"
+        ],
+        [
+         203,
+         "The key roles"
+        ],
+        [
+         234,
+         "The key roles, continued"
+        ],
+        [
+         263,
+         "Effective management and techniques"
+        ],
+        [
+         303,
+         "Effective management and techniques, continued"
+        ],
+        [
+         337,
+         "Effective management and techniques, continued"
+        ],
+        [
+         361,
+         "Judging a scenario"
+        ],
+        [
+         405,
+         "Judging a scenario, continued"
+        ],
+        [
+         444,
+         "Judging a scenario, continued"
+        ]
+       ],
+       "published": "2026-11-16T10:37:36Z",
+       "thumb": "img/modules/p2p/03-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "UCocNw71w_I",
+       "title": "Judging a scenario, recall and recap",
+       "seconds": 451,
+       "chapters": [
+        [
+         0,
+         "Practice questions"
+        ],
+        [
+         297,
+         "Recall check"
+        ],
+        [
+         393,
+         "Module recap"
+        ]
+       ],
+       "published": "2026-11-16T10:37:41Z",
+       "thumb": "img/modules/p2p/03-2.jpg"
+      }
+     ],
+     "deck": "downloads/p2p/03-the-business-case-practice-in-context.pptx",
+     "deck_kb": 166,
+     "seconds": 931,
+     "words": 1886
+    },
+    {
+     "num": "04",
+     "slug": "04-the-organization-practice-in-context",
+     "title": "The Organization Practice in Context",
+     "desc": "Purpose and the principles it serves",
+     "parts": [
+      {
+       "part": 1,
+       "id": "WLzbOumK0r4",
+       "title": "Purpose and the principles it serves",
+       "seconds": 491,
+       "chapters": [
+        [
+         0,
+         "Purpose and the principles it serves"
+        ],
+        [
+         87,
+         "Purpose and the principles it serves, continued"
+        ],
+        [
+         99,
+         "Purpose and the principles it serves, continued"
+        ],
+        [
+         131,
+         "The management products"
+        ],
+        [
+         174,
+         "The team and the key roles"
+        ],
+        [
+         213,
+         "The team and the key roles, continued"
+        ],
+        [
+         245,
+         "The team and the key roles, continued"
+        ],
+        [
+         290,
+         "Effective management and techniques"
+        ],
+        [
+         339,
+         "Effective management and techniques, continued"
+        ],
+        [
+         387,
+         "Judging a scenario"
+        ],
+        [
+         430,
+         "Judging a scenario, continued"
+        ],
+        [
+         474,
+         "Judging a scenario, continued"
+        ]
+       ],
+       "published": "2026-11-16T10:37:52Z",
+       "thumb": "img/modules/p2p/04-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "r0bODFvjY4w",
+       "title": "Judging a scenario, recall and recap",
+       "seconds": 460,
+       "chapters": [
+        [
+         0,
+         "Practice questions"
+        ],
+        [
+         294,
+         "Recall check"
+        ],
+        [
+         401,
+         "Module recap"
+        ]
+       ],
+       "published": "2026-11-16T10:38:27Z",
+       "thumb": "img/modules/p2p/04-2.jpg"
+      }
+     ],
+     "deck": "downloads/p2p/04-the-organization-practice-in-context.pptx",
+     "deck_kb": 182,
+     "seconds": 951,
+     "words": 1880
+    },
+    {
+     "num": "05",
+     "slug": "05-the-plans-practice-in-context",
+     "title": "The Plans Practice in Context",
+     "desc": "Purpose, objectives and principles",
+     "parts": [
+      {
+       "part": 1,
+       "id": "PIiV2w3aUVw",
+       "title": "Purpose, objectives and principles",
+       "seconds": 472,
+       "chapters": [
+        [
+         0,
+         "Purpose, objectives and principles"
+        ],
+        [
+         104,
+         "Purpose, objectives and principles, continued"
+        ],
+        [
+         129,
+         "The key management products"
+        ],
+        [
+         169,
+         "The key management products, continued"
+        ],
+        [
+         204,
+         "Areas of focus of the key roles"
+        ],
+        [
+         258,
+         "Effective planning and techniques"
+        ],
+        [
+         274,
+         "Effective planning and techniques, continued"
+        ],
+        [
+         316,
+         "Effective planning and techniques, continued"
+        ],
+        [
+         350,
+         "Judging a scenario"
+        ],
+        [
+         382,
+         "Judging a scenario, continued"
+        ],
+        [
+         422,
+         "Judging a scenario, continued"
+        ]
+       ],
+       "published": "2026-11-16T10:38:50Z",
+       "thumb": "img/modules/p2p/05-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "yZdXA2oevkY",
+       "title": "Practice Question 1, recall and recap",
+       "seconds": 404,
+       "chapters": [
+        [
+         0,
+         "Practice questions"
+        ],
+        [
+         248,
+         "Recall check"
+        ],
+        [
+         350,
+         "Module recap"
+        ]
+       ],
+       "published": "2026-11-16T10:38:59Z",
+       "thumb": "img/modules/p2p/05-2.jpg"
+      }
+     ],
+     "deck": "downloads/p2p/05-the-plans-practice-in-context.pptx",
+     "deck_kb": 163,
+     "seconds": 876,
+     "words": 1799
+    },
+    {
+     "num": "06",
+     "slug": "06-the-quality-practice-in-context",
+     "title": "The Quality Practice in Context",
+     "desc": "Purpose, objectives and principles, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "RLQxCep7qMs",
+       "title": "Purpose, objectives and principles, recall and recap",
+       "seconds": 823,
+       "chapters": [
+        [
+         0,
+         "Purpose, objectives and principles"
+        ],
+        [
+         108,
+         "Purpose, objectives and principles, continued"
+        ],
+        [
+         130,
+         "The key management products"
+        ],
+        [
+         188,
+         "Areas of focus of the key roles"
+        ],
+        [
+         246,
+         "Effective management and techniques"
+        ],
+        [
+         295,
+         "Effective management and techniques, continued"
+        ],
+        [
+         323,
+         "Judging a scenario"
+        ],
+        [
+         358,
+         "Judging a scenario, continued"
+        ],
+        [
+         382,
+         "Judging a scenario, continued"
+        ]
+       ],
+       "published": "2026-11-16T10:39:26Z",
+       "thumb": "img/modules/p2p/06-1.jpg"
+      }
+     ],
+     "deck": "downloads/p2p/06-the-quality-practice-in-context.pptx",
+     "deck_kb": 152,
+     "seconds": 823,
+     "words": 1582
+    },
+    {
+     "num": "07",
+     "slug": "07-the-risk-practice-in-context",
+     "title": "The Risk Practice in Context",
+     "desc": "Purpose, objectives and principles, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "4DbSCC0CwLQ",
+       "title": "Purpose, objectives and principles, recall and recap",
+       "seconds": 828,
+       "chapters": [
+        [
+         0,
+         "Purpose, objectives and principles"
+        ],
+        [
+         107,
+         "Purpose, objectives and principles, continued"
+        ],
+        [
+         128,
+         "The key management products"
+        ],
+        [
+         178,
+         "Areas of focus of the key roles"
+        ],
+        [
+         239,
+         "Effective management and techniques"
+        ],
+        [
+         275,
+         "Effective management and techniques, continued"
+        ],
+        [
+         322,
+         "Judging a scenario"
+        ],
+        [
+         354,
+         "Judging a scenario, continued"
+        ],
+        [
+         380,
+         "Judging a scenario, continued"
+        ]
+       ],
+       "published": "2026-11-16T10:39:55Z",
+       "thumb": "img/modules/p2p/07-1.jpg"
+      }
+     ],
+     "deck": "downloads/p2p/07-the-risk-practice-in-context.pptx",
+     "deck_kb": 150,
+     "seconds": 828,
+     "words": 1652
+    },
+    {
+     "num": "08",
+     "slug": "08-the-issues-practice-in-context",
+     "title": "The Issues Practice in Context",
+     "desc": "Purpose, objectives and principles, recall and recap",
+     "parts": [
+      {
+       "part": 1,
+       "id": "i40oJGc7Rbc",
+       "title": "Purpose, objectives and principles, recall and recap",
+       "seconds": 853,
+       "chapters": [
+        [
+         0,
+         "Purpose, objectives and principles"
+        ],
+        [
+         106,
+         "Purpose, objectives and principles, continued"
+        ],
+        [
+         126,
+         "The key management products"
+        ],
+        [
+         159,
+         "The key management products, continued"
+        ],
+        [
+         193,
+         "Areas of focus of the key roles"
+        ],
+        [
+         258,
+         "Effective management and techniques"
+        ],
+        [
+         303,
+         "Effective management and techniques, continued"
+        ],
+        [
+         348,
+         "Judging a scenario"
+        ],
+        [
+         387,
+         "Judging a scenario, continued"
+        ],
+        [
+         412,
+         "Judging a scenario, continued"
+        ]
+       ],
+       "published": "2026-11-16T10:40:21Z",
+       "thumb": "img/modules/p2p/08-1.jpg"
+      }
+     ],
+     "deck": "downloads/p2p/08-the-issues-practice-in-context.pptx",
+     "deck_kb": 152,
+     "seconds": 853,
+     "words": 1711
+    },
+    {
+     "num": "09",
+     "slug": "09-the-progress-practice-in-context",
+     "title": "The Progress Practice in Context",
+     "desc": "Purpose and the principles it serves",
+     "parts": [
+      {
+       "part": 1,
+       "id": "PGSUfvgtNE8",
+       "title": "Purpose and the principles it serves",
+       "seconds": 489,
+       "chapters": [
+        [
+         0,
+         "Purpose and the principles it serves"
+        ],
+        [
+         84,
+         "Purpose and the principles it serves, continued"
+        ],
+        [
+         98,
+         "Purpose and the principles it serves, continued"
+        ],
+        [
+         130,
+         "The key management products"
+        ],
+        [
+         175,
+         "The key management products, continued"
+        ],
+        [
+         218,
+         "Roles and areas of focus"
+        ],
+        [
+         253,
+         "Roles and areas of focus, continued"
+        ],
+        [
+         276,
+         "Effective management and techniques"
+        ],
+        [
+         290,
+         "Effective management and techniques, continued"
+        ],
+        [
+         330,
+         "Effective management and techniques, continued"
+        ],
+        [
+         362,
+         "Effective management and techniques, continued"
+        ],
+        [
+         419,
+         "Judging a progress approach"
+        ],
+        [
+         456,
+         "Judging a progress approach, continued"
+        ]
+       ],
+       "published": "2026-11-16T10:40:45Z",
+       "thumb": "img/modules/p2p/09-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "Wl8R-L0ECLk",
+       "title": "Judging a progress approach, recall and recap",
+       "seconds": 457,
+       "chapters": [
+        [
+         0,
+         "Practice questions"
+        ],
+        [
+         306,
+         "Recall check"
+        ],
+        [
+         408,
+         "Module recap"
+        ]
+       ],
+       "published": "2026-11-16T10:40:53Z",
+       "thumb": "img/modules/p2p/09-2.jpg"
+      }
+     ],
+     "deck": "downloads/p2p/09-the-progress-practice-in-context.pptx",
+     "deck_kb": 167,
+     "seconds": 946,
+     "words": 1909
+    },
+    {
+     "num": "10",
+     "slug": "10-starting-up-a-project-in-context",
+     "title": "Starting Up a Project in Context",
+     "desc": "Purpose, objectives and context",
+     "parts": [
+      {
+       "part": 1,
+       "id": "-PdxH-nnpQA",
+       "title": "Purpose, objectives and context",
+       "seconds": 482,
+       "chapters": [
+        [
+         0,
+         "Purpose, objectives and context"
+        ],
+        [
+         89,
+         "Purpose, objectives and context, continued"
+        ],
+        [
+         105,
+         "Purpose, objectives and context, continued"
+        ],
+        [
+         158,
+         "Activities, inputs and outputs"
+        ],
+        [
+         204,
+         "Activities, inputs and outputs, continued"
+        ],
+        [
+         226,
+         "Activities, inputs and outputs, continued"
+        ],
+        [
+         265,
+         "Roles and responsibilities"
+        ],
+        [
+         290,
+         "Roles and responsibilities, continued"
+        ],
+        [
+         320,
+         "Roles and responsibilities, continued"
+        ],
+        [
+         354,
+         "How the practices are applied"
+        ],
+        [
+         415,
+         "Judging the process"
+        ],
+        [
+         453,
+         "Judging the process, continued"
+        ]
+       ],
+       "published": "2026-11-16T10:41:18Z",
+       "thumb": "img/modules/p2p/10-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "0vcC1OKfaWg",
+       "title": "Judging the process, recall and recap",
+       "seconds": 440,
+       "chapters": [
+        [
+         0,
+         "Practice questions"
+        ],
+        [
+         292,
+         "Recall check"
+        ],
+        [
+         390,
+         "Module recap"
+        ]
+       ],
+       "published": "2026-11-16T10:41:31Z",
+       "thumb": "img/modules/p2p/10-2.jpg"
+      }
+     ],
+     "deck": "downloads/p2p/10-starting-up-a-project-in-context.pptx",
+     "deck_kb": 167,
+     "seconds": 922,
+     "words": 1869
+    },
+    {
+     "num": "11",
+     "slug": "11-directing-a-project-in-context",
+     "title": "Directing a Project in Context",
+     "desc": "Purpose, objectives and context",
+     "parts": [
+      {
+       "part": 1,
+       "id": "guMjo3uSLCQ",
+       "title": "Purpose, objectives and context",
+       "seconds": 480,
+       "chapters": [
+        [
+         0,
+         "Purpose, objectives and context"
+        ],
+        [
+         92,
+         "Purpose, objectives and context, continued"
+        ],
+        [
+         106,
+         "Purpose, objectives and context, continued"
+        ],
+        [
+         155,
+         "The board's decisions, inputs and outputs"
+        ],
+        [
+         202,
+         "The board's decisions, inputs and outputs, continued"
+        ],
+        [
+         233,
+         "The board's decisions, inputs and outputs, continued"
+        ],
+        [
+         266,
+         "Roles and responsibilities"
+        ],
+        [
+         309,
+         "Roles and responsibilities, continued"
+        ],
+        [
+         354,
+         "How the practices are applied"
+        ],
+        [
+         386,
+         "How the practices are applied, continued"
+        ],
+        [
+         419,
+         "Judging the process"
+        ],
+        [
+         453,
+         "Judging the process, continued"
+        ]
+       ],
+       "published": "2026-11-16T10:41:46Z",
+       "thumb": "img/modules/p2p/11-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "WE8xMxZM5bA",
+       "title": "Judging the process, recall and recap",
+       "seconds": 460,
+       "chapters": [
+        [
+         0,
+         "Practice questions"
+        ],
+        [
+         300,
+         "Recall check"
+        ],
+        [
+         409,
+         "Module recap"
+        ]
+       ],
+       "published": "2026-11-16T10:42:05Z",
+       "thumb": "img/modules/p2p/11-2.jpg"
+      }
+     ],
+     "deck": "downloads/p2p/11-directing-a-project-in-context.pptx",
+     "deck_kb": 168,
+     "seconds": 940,
+     "words": 1906
+    },
+    {
+     "num": "12",
+     "slug": "12-initiating-a-project-in-context",
+     "title": "Initiating a Project in Context",
+     "desc": "Purpose, objectives and context",
+     "parts": [
+      {
+       "part": 1,
+       "id": "PD-qVU3N9Bw",
+       "title": "Purpose, objectives and context",
+       "seconds": 463,
+       "chapters": [
+        [
+         0,
+         "Purpose, objectives and context"
+        ],
+        [
+         88,
+         "Purpose, objectives and context, continued"
+        ],
+        [
+         102,
+         "Purpose, objectives and context, continued"
+        ],
+        [
+         152,
+         "Activities, inputs and outputs"
+        ],
+        [
+         193,
+         "Activities, inputs and outputs, continued"
+        ],
+        [
+         210,
+         "Activities, inputs and outputs, continued"
+        ],
+        [
+         244,
+         "Roles and responsibilities"
+        ],
+        [
+         287,
+         "Roles and responsibilities, continued"
+        ],
+        [
+         323,
+         "How the practices are applied"
+        ],
+        [
+         390,
+         "Judging the process"
+        ],
+        [
+         428,
+         "Judging the process, continued"
+        ]
+       ],
+       "published": "2026-11-16T10:42:23Z",
+       "thumb": "img/modules/p2p/12-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "dO13bdO6xbA",
+       "title": "Judging the process, recall and recap",
+       "seconds": 441,
+       "chapters": [
+        [
+         0,
+         "Practice questions"
+        ],
+        [
+         284,
+         "Recall check"
+        ],
+        [
+         391,
+         "Module recap"
+        ]
+       ],
+       "published": "2026-11-16T10:42:46Z",
+       "thumb": "img/modules/p2p/12-2.jpg"
+      }
+     ],
+     "deck": "downloads/p2p/12-initiating-a-project-in-context.pptx",
+     "deck_kb": 157,
+     "seconds": 904,
+     "words": 1868
+    },
+    {
+     "num": "13",
+     "slug": "13-controlling-a-stage-in-context",
+     "title": "Controlling a Stage in Context",
+     "desc": "Purpose, objectives and the principles it serves",
+     "parts": [
+      {
+       "part": 1,
+       "id": "EGBlGYOy_rA",
+       "title": "Purpose, objectives and the principles it serves",
+       "seconds": 464,
+       "chapters": [
+        [
+         0,
+         "Purpose, objectives and the principles it serves"
+        ],
+        [
+         79,
+         "Purpose, objectives and the principles it serves, continued"
+        ],
+        [
+         94,
+         "Purpose, objectives and the principles it serves, continued"
+        ],
+        [
+         115,
+         "Purpose, objectives and the principles it serves, continued"
+        ],
+        [
+         162,
+         "Activities, inputs and outputs"
+        ],
+        [
+         206,
+         "Activities, inputs and outputs, continued"
+        ],
+        [
+         230,
+         "Activities, inputs and outputs, continued"
+        ],
+        [
+         278,
+         "Roles"
+        ],
+        [
+         335,
+         "Roles, continued"
+        ],
+        [
+         351,
+         "How the practices are applied"
+        ],
+        [
+         400,
+         "Judging a scenario"
+        ],
+        [
+         438,
+         "Judging a scenario, continued"
+        ]
+       ],
+       "published": "2026-11-16T11:14:29Z",
+       "thumb": "img/modules/p2p/13-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "GiWD36w0pbw",
+       "title": "Judging a scenario, recall and recap",
+       "seconds": 463,
+       "chapters": [
+        [
+         0,
+         "Practice questions"
+        ],
+        [
+         304,
+         "Recall check"
+        ],
+        [
+         408,
+         "Module recap"
+        ]
+       ],
+       "published": "2026-11-16T11:15:36Z",
+       "thumb": "img/modules/p2p/13-2.jpg"
+      }
+     ],
+     "deck": "downloads/p2p/13-controlling-a-stage-in-context.pptx",
+     "deck_kb": 161,
+     "seconds": 927,
+     "words": 1817
+    },
+    {
+     "num": "14",
+     "slug": "14-managing-product-delivery-in-context",
+     "title": "Managing Product Delivery in Context",
+     "desc": "Purpose, objectives and the principles it serves",
+     "parts": [
+      {
+       "part": 1,
+       "id": "oOChF2U7OIU",
+       "title": "Purpose, objectives and the principles it serves",
+       "seconds": 453,
+       "chapters": [
+        [
+         0,
+         "Purpose, objectives and the principles it serves"
+        ],
+        [
+         83,
+         "Purpose, objectives and the principles it serves, continued"
+        ],
+        [
+         98,
+         "Purpose, objectives and the principles it serves, continued"
+        ],
+        [
+         127,
+         "Purpose, objectives and the principles it serves, continued"
+        ],
+        [
+         177,
+         "Activities, inputs and outputs"
+        ],
+        [
+         214,
+         "Activities, inputs and outputs, continued"
+        ],
+        [
+         247,
+         "Roles"
+        ],
+        [
+         308,
+         "How the practices are applied"
+        ],
+        [
+         357,
+         "Judging a scenario"
+        ],
+        [
+         388,
+         "Judging a scenario, continued"
+        ],
+        [
+         414,
+         "Judging a scenario, continued"
+        ]
+       ],
+       "published": "2026-11-17T03:13:19Z",
+       "thumb": "img/modules/p2p/14-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "Uj1eePytb2s",
+       "title": "Judging a scenario, recall and recap",
+       "seconds": 425,
+       "chapters": [
+        [
+         0,
+         "Practice questions"
+        ],
+        [
+         264,
+         "Recall check"
+        ],
+        [
+         368,
+         "Module recap"
+        ]
+       ],
+       "published": "2026-11-17T08:23:39Z",
+       "thumb": "img/modules/p2p/14-2.jpg"
+      }
+     ],
+     "deck": "downloads/p2p/14-managing-product-delivery-in-context.pptx",
+     "deck_kb": 154,
+     "seconds": 878,
+     "words": 1766
+    },
+    {
+     "num": "15",
+     "slug": "15-managing-a-stage-boundary-in-context",
+     "title": "Managing a Stage Boundary in Context",
+     "desc": "Purpose, objectives and the principles it serves",
+     "parts": [
+      {
+       "part": 1,
+       "id": "03M3xSNBXtY",
+       "title": "Purpose, objectives and the principles it serves",
+       "seconds": 463,
+       "chapters": [
+        [
+         0,
+         "Purpose, objectives and the principles it serves"
+        ],
+        [
+         81,
+         "Purpose, objectives and the principles it serves, continued"
+        ],
+        [
+         97,
+         "Purpose, objectives and the principles it serves, continued"
+        ],
+        [
+         134,
+         "Purpose, objectives and the principles it serves, continued"
+        ],
+        [
+         174,
+         "Activities, inputs and outputs"
+        ],
+        [
+         207,
+         "Activities, inputs and outputs, continued"
+        ],
+        [
+         227,
+         "Activities, inputs and outputs, continued"
+        ],
+        [
+         262,
+         "Roles"
+        ],
+        [
+         322,
+         "How the practices are applied"
+        ],
+        [
+         368,
+         "Judging a scenario"
+        ],
+        [
+         396,
+         "Judging a scenario, continued"
+        ],
+        [
+         426,
+         "Judging a scenario, continued"
+        ]
+       ],
+       "published": "2026-11-17T08:24:08Z",
+       "thumb": "img/modules/p2p/15-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "25B6vHroPC8",
+       "title": "Judging a scenario, recall and recap",
+       "seconds": 433,
+       "chapters": [
+        [
+         0,
+         "Practice questions"
+        ],
+        [
+         273,
+         "Recall check"
+        ],
+        [
+         380,
+         "Module recap"
+        ]
+       ],
+       "published": "2026-11-17T08:24:15Z",
+       "thumb": "img/modules/p2p/15-2.jpg"
+      }
+     ],
+     "deck": "downloads/p2p/15-managing-a-stage-boundary-in-context.pptx",
+     "deck_kb": 165,
+     "seconds": 896,
+     "words": 1845
+    },
+    {
+     "num": "16",
+     "slug": "16-closing-a-project-in-context",
+     "title": "Closing a Project in Context",
+     "desc": "Purpose, objectives and the principles it serves",
+     "parts": [
+      {
+       "part": 1,
+       "id": "GS0CDUCyHOY",
+       "title": "Purpose, objectives and the principles it serves",
+       "seconds": 453,
+       "chapters": [
+        [
+         0,
+         "Purpose, objectives and the principles it serves"
+        ],
+        [
+         84,
+         "Purpose, objectives and the principles it serves, continued"
+        ],
+        [
+         99,
+         "Purpose, objectives and the principles it serves, continued"
+        ],
+        [
+         130,
+         "Purpose, objectives and the principles it serves, continued"
+        ],
+        [
+         175,
+         "Activities, inputs and outputs"
+        ],
+        [
+         211,
+         "Activities, inputs and outputs, continued"
+        ],
+        [
+         233,
+         "Activities, inputs and outputs, continued"
+        ],
+        [
+         282,
+         "Roles"
+        ],
+        [
+         312,
+         "Roles, continued"
+        ],
+        [
+         347,
+         "How the practices are applied"
+        ],
+        [
+         389,
+         "Judging a scenario"
+        ],
+        [
+         424,
+         "Judging a scenario, continued"
+        ]
+       ],
+       "published": "2026-11-17T08:24:32Z",
+       "thumb": "img/modules/p2p/16-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "rsy2rmysI58",
+       "title": "Judging a scenario, recall and recap",
+       "seconds": 460,
+       "chapters": [
+        [
+         0,
+         "Practice questions"
+        ],
+        [
+         297,
+         "Recall check"
+        ],
+        [
+         404,
+         "Module recap"
+        ]
+       ],
+       "published": "2026-11-17T08:24:52Z",
+       "thumb": "img/modules/p2p/16-2.jpg"
+      }
+     ],
+     "deck": "downloads/p2p/16-closing-a-project-in-context.pptx",
+     "deck_kb": 160,
+     "seconds": 913,
+     "words": 1806
+    },
+    {
+     "num": "17",
+     "slug": "17-exam-technique-scenarios-matching-questions-and-the-open-book",
+     "title": "Exam Technique: Scenarios, Matching Questions and the Open Book",
+     "desc": "The two question types, the marking and the time plan",
+     "parts": [
+      {
+       "part": 1,
+       "id": "aDg92yXBvwo",
+       "title": "The two question types, the marking and the time plan",
+       "seconds": 504,
+       "chapters": [
+        [
+         0,
+         "The two question types, the marking and the time plan"
+        ],
+        [
+         85,
+         "The two question types, the marking and the time plan, continued"
+        ],
+        [
+         123,
+         "The two question types, the marking and the time plan, continued"
+        ],
+        [
+         173,
+         "A method for scenario questions"
+        ],
+        [
+         207,
+         "A method for scenario questions, continued"
+        ],
+        [
+         246,
+         "A method for scenario questions, continued"
+        ],
+        [
+         275,
+         "Using the open book quickly"
+        ],
+        [
+         324,
+         "Choosers: which process or practice, and who decides"
+        ],
+        [
+         375,
+         "Choosers: which process or practice, and who decides, continued"
+        ],
+        [
+         416,
+         "Choosers: which process or practice, and who decides, continued"
+        ],
+        [
+         460,
+         "Look-alike terms"
+        ]
+       ],
+       "published": "2026-11-17T08:25:11Z",
+       "thumb": "img/modules/p2p/17-1.jpg"
+      },
+      {
+       "part": 2,
+       "id": "goXK9uFfOB0",
+       "title": "Look-alike terms, recall and recap",
+       "seconds": 430,
+       "chapters": [
+        [
+         0,
+         "Practice questions"
+        ],
+        [
+         270,
+         "Recall check"
+        ],
+        [
+         376,
+         "Module recap"
+        ]
+       ],
+       "published": "2026-11-17T08:25:27Z",
+       "thumb": "img/modules/p2p/17-2.jpg"
+      }
+     ],
+     "deck": "downloads/p2p/17-exam-technique-scenarios-matching-questions-and-the-open-book.pptx",
+     "deck_kb": 111,
+     "seconds": 934,
+     "words": 1832
+    }
+   ],
+   "facts": {
+    "questions": "70 marks, scenario based",
+    "time": "150 min, open book",
+    "passing": "42 of 70 (60%)",
+    "source": "peoplecert.org",
+    "url": "https://www.peoplecert.org/browse-certifications/project-programme-and-portfolio-management/PRINCE2-2/PRINCE2-7-practitioner-3581"
+   },
+   "videos": 33,
+   "seconds": 16371,
+   "notes": [
+    {
+     "num": "00",
+     "slug": "00-exam-orientation-and-how-to-study",
+     "title": "Exam Orientation and How to Study",
+     "group": "Start here",
+     "tasks": 0,
+     "los": [],
+     "minutes": 9,
+     "check": {
+      "src_words": 1923,
+      "page_words": 1955,
+      "src_tables": 8,
+      "tables": 8,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "00"
+     ],
+     "domain": "",
+     "ref": "Module 0",
+     "tn": "Module 00",
+     "of": 18,
+     "module": "00"
+    },
+    {
+     "num": "01",
+     "slug": "01-principles-in-context",
+     "title": "Principles in Context",
+     "group": "The principles in context (10%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 9,
+     "check": {
+      "src_words": 1797,
+      "page_words": 1829,
+      "src_tables": 4,
+      "tables": 4,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "01"
+     ],
+     "domain": "",
+     "ref": "Module 1",
+     "tn": "Module 01",
+     "of": 18,
+     "module": "01"
+    },
+    {
+     "num": "02",
+     "slug": "02-people-in-successful-projects-leadership-change-and-communication",
+     "title": "People in Successful Projects: Leadership, Change and Communication",
+     "group": "People management (9%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 8,
+     "check": {
+      "src_words": 1674,
+      "page_words": 1710,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 6,
+      "sections": 6
+     },
+     "modules": [
+      "02"
+     ],
+     "domain": "",
+     "ref": "Module 2",
+     "tn": "Module 02",
+     "of": 18,
+     "module": "02"
+    },
+    {
+     "num": "03",
+     "slug": "03-the-business-case-practice-in-context",
+     "title": "The Business Case Practice in Context",
+     "group": "The practices in context (51%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 9,
+     "check": {
+      "src_words": 1781,
+      "page_words": 1818,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "03"
+     ],
+     "domain": "",
+     "ref": "Module 3",
+     "tn": "Module 03",
+     "of": 18,
+     "module": "03"
+    },
+    {
+     "num": "04",
+     "slug": "04-the-organization-practice-in-context",
+     "title": "The Organization Practice in Context",
+     "group": "The practices in context (51%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 8,
+     "check": {
+      "src_words": 1770,
+      "page_words": 1807,
+      "src_tables": 5,
+      "tables": 5,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "04"
+     ],
+     "domain": "",
+     "ref": "Module 4",
+     "tn": "Module 04",
+     "of": 18,
+     "module": "04"
+    },
+    {
+     "num": "05",
+     "slug": "05-the-plans-practice-in-context",
+     "title": "The Plans Practice in Context",
+     "group": "The practices in context (51%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 9,
+     "check": {
+      "src_words": 1801,
+      "page_words": 1838,
+      "src_tables": 6,
+      "tables": 6,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "05"
+     ],
+     "domain": "",
+     "ref": "Module 5",
+     "tn": "Module 05",
+     "of": 18,
+     "module": "05"
+    },
+    {
+     "num": "06",
+     "slug": "06-the-quality-practice-in-context",
+     "title": "The Quality Practice in Context",
+     "group": "The practices in context (51%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 7,
+     "check": {
+      "src_words": 1557,
+      "page_words": 1594,
+      "src_tables": 6,
+      "tables": 6,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "06"
+     ],
+     "domain": "",
+     "ref": "Module 6",
+     "tn": "Module 06",
+     "of": 18,
+     "module": "06"
+    },
+    {
+     "num": "07",
+     "slug": "07-the-risk-practice-in-context",
+     "title": "The Risk Practice in Context",
+     "group": "The practices in context (51%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 8,
+     "check": {
+      "src_words": 1648,
+      "page_words": 1685,
+      "src_tables": 6,
+      "tables": 6,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "07"
+     ],
+     "domain": "",
+     "ref": "Module 7",
+     "tn": "Module 07",
+     "of": 18,
+     "module": "07"
+    },
+    {
+     "num": "08",
+     "slug": "08-the-issues-practice-in-context",
+     "title": "The Issues Practice in Context",
+     "group": "The practices in context (51%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 8,
+     "check": {
+      "src_words": 1684,
+      "page_words": 1721,
+      "src_tables": 6,
+      "tables": 6,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "08"
+     ],
+     "domain": "",
+     "ref": "Module 8",
+     "tn": "Module 08",
+     "of": 18,
+     "module": "08"
+    },
+    {
+     "num": "09",
+     "slug": "09-the-progress-practice-in-context",
+     "title": "The Progress Practice in Context",
+     "group": "The practices in context (51%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 9,
+     "check": {
+      "src_words": 1911,
+      "page_words": 1948,
+      "src_tables": 7,
+      "tables": 7,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "09"
+     ],
+     "domain": "",
+     "ref": "Module 9",
+     "tn": "Module 09",
+     "of": 18,
+     "module": "09"
+    },
+    {
+     "num": "10",
+     "slug": "10-starting-up-a-project-in-context",
+     "title": "Starting Up a Project in Context",
+     "group": "The processes in context (30%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 9,
+     "check": {
+      "src_words": 1857,
+      "page_words": 1894,
+      "src_tables": 7,
+      "tables": 7,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "10"
+     ],
+     "domain": "",
+     "ref": "Module 10",
+     "tn": "Module 10",
+     "of": 18,
+     "module": "10"
+    },
+    {
+     "num": "11",
+     "slug": "11-directing-a-project-in-context",
+     "title": "Directing a Project in Context",
+     "group": "The processes in context (30%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 9,
+     "check": {
+      "src_words": 1871,
+      "page_words": 1908,
+      "src_tables": 6,
+      "tables": 6,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "11"
+     ],
+     "domain": "",
+     "ref": "Module 11",
+     "tn": "Module 11",
+     "of": 18,
+     "module": "11"
+    },
+    {
+     "num": "12",
+     "slug": "12-initiating-a-project-in-context",
+     "title": "Initiating a Project in Context",
+     "group": "The processes in context (30%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 9,
+     "check": {
+      "src_words": 1798,
+      "page_words": 1835,
+      "src_tables": 7,
+      "tables": 7,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "12"
+     ],
+     "domain": "",
+     "ref": "Module 12",
+     "tn": "Module 12",
+     "of": 18,
+     "module": "12"
+    },
+    {
+     "num": "13",
+     "slug": "13-controlling-a-stage-in-context",
+     "title": "Controlling a Stage in Context",
+     "group": "The processes in context (30%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 8,
+     "check": {
+      "src_words": 1740,
+      "page_words": 1777,
+      "src_tables": 7,
+      "tables": 7,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "13"
+     ],
+     "domain": "",
+     "ref": "Module 13",
+     "tn": "Module 13",
+     "of": 18,
+     "module": "13"
+    },
+    {
+     "num": "14",
+     "slug": "14-managing-product-delivery-in-context",
+     "title": "Managing Product Delivery in Context",
+     "group": "The processes in context (30%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 8,
+     "check": {
+      "src_words": 1691,
+      "page_words": 1728,
+      "src_tables": 7,
+      "tables": 7,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "14"
+     ],
+     "domain": "",
+     "ref": "Module 14",
+     "tn": "Module 14",
+     "of": 18,
+     "module": "14"
+    },
+    {
+     "num": "15",
+     "slug": "15-managing-a-stage-boundary-in-context",
+     "title": "Managing a Stage Boundary in Context",
+     "group": "The processes in context (30%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 8,
+     "check": {
+      "src_words": 1770,
+      "page_words": 1807,
+      "src_tables": 7,
+      "tables": 7,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "15"
+     ],
+     "domain": "",
+     "ref": "Module 15",
+     "tn": "Module 15",
+     "of": 18,
+     "module": "15"
+    },
+    {
+     "num": "16",
+     "slug": "16-closing-a-project-in-context",
+     "title": "Closing a Project in Context",
+     "group": "The processes in context (30%)",
+     "tasks": 0,
+     "los": [],
+     "minutes": 8,
+     "check": {
+      "src_words": 1726,
+      "page_words": 1763,
+      "src_tables": 7,
+      "tables": 7,
+      "src_images": 1,
+      "images": 1,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "16"
+     ],
+     "domain": "",
+     "ref": "Module 16",
+     "tn": "Module 16",
+     "of": 18,
+     "module": "16"
+    },
+    {
+     "num": "17",
+     "slug": "17-exam-technique-scenarios-matching-questions-and-the-open-book",
+     "title": "Exam Technique: Scenarios, Matching Questions and the Open Book",
+     "group": "Review and exam day",
+     "tasks": 0,
+     "los": [],
+     "minutes": 8,
+     "check": {
+      "src_words": 1719,
+      "page_words": 1751,
+      "src_tables": 9,
+      "tables": 9,
+      "src_images": 0,
+      "images": 0,
+      "src_scenario": 6,
+      "scenario": 6,
+      "src_recall": 6,
+      "recall": 6,
+      "src_sections": 7,
+      "sections": 7
+     },
+     "modules": [
+      "17"
+     ],
+     "domain": "",
+     "ref": "Module 17",
+     "tn": "Module 17",
+     "of": 18,
+     "module": "17"
     }
    ],
    "glossary": 0

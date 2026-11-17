@@ -53,6 +53,8 @@ def callouts(html):
         head = re.sub(r"<[^>]+>", "", inner[:240])
         if re.match(r"\s*Exam angle", head):
             return '<div class="callout exam"><span class="lbl">Exam angle</span><div>' + drop(inner, "Exam angle") + "</div></div>"
+        if re.match(r"\s*Tip\b[.:]", head):
+            return '<div class="callout exam"><span class="lbl">Tip</span><div>' + drop(inner, "Tip") + "</div></div>"
         if re.match(r"\s*Exam tip", head, flags=re.I):
             return '<div class="callout exam"><span class="lbl">Exam tip</span><div>' + drop(inner, "Exam Tip") + "</div></div>"
         if re.match(r"\s*Watch the PMBOK", head):
@@ -167,7 +169,7 @@ def read_header_bold(lines):
 
 def title_of(path):
     first = path.read_text(encoding="utf-8").splitlines()[0]
-    m = re.match(r"#\s*(Topic|Chapter|Week|Module)\s+(\d+):\s*(.+?)(?:\s+[—-]\s+(?:CSM|PMP|CDMP|KCNA|AIGP|CLF|AIF|SAA|DEA|CCAR-F|CCDV-F|CCAO-F|CCAR-P|CKA|CKAD|PL-300|PRINCE2 Practitioner|ISC2 CC|Cloud Digital Leader|Terraform Associate|SC-200|AZ-900|AI-901|SY0-801|SC-900|ITIL Foundation|PRINCE2 Foundation|DVA-C03|AZ-104|N10-009) Exam Summary)?\s*$", first)
+    m = re.match(r"#\s*(Topic|Chapter|Week|Module)\s+(\d+):\s*(.+?)(?:\s+[—-]\s+(?:CSM|PMP|CDMP|KCNA|AIGP|CLF|AIF|SAA|DEA|CCAR-F|CCDV-F|CCAO-F|CCAR-P|CKA|CKAD|PL-300|PRINCE2 Practitioner|ISC2 CC|Cloud Digital Leader|Terraform Associate|SC-200|AZ-900|AI-901|SY0-801|SC-900|ITIL Foundation|PRINCE2 Foundation|DVA-C03|AZ-104|N10-009) Exam Summary|Git and GitHub Summary)?\s*$", first)
     if m:
         return m.group(2).zfill(2), m.group(3)
     m = re.match(r"#\s*DMBOK2 Chapter\s+(\d+)\s*[—–-]\s*(.+?)\s*$", first)             # CDMP chapters 1 and 2 use this title line
@@ -241,7 +243,7 @@ def convert_note(cfg, slug, path, group, urls, pub, entry=None):
         used_ids.add(sid)
         toc.append(dict(id=sid, title=plain(stitle), n=n))
         counts["sections"] += 1
-        if cfg["qa"] and re.search(r"Exam Q&A|Recall questions", stitle):
+        if cfg["qa"] and re.search(r"Exam Q&A|Practice Q&A|Recall questions", stitle):
             inner, ns, nr = convert_qa(content)
             counts["scenario"] += ns
             counts["recall"] += nr
